@@ -1,0 +1,88 @@
+{
+  "common": {
+    "bookConsultation": "Book Online Consultation",
+    "callNow": "Call Now",
+    "learnMore": "Learn More",
+    "viewAll": "View All",
+    "submit": "Submit",
+    "loading": "Loading...",
+    "consultationFee": "₹999 for 30 minutes",
+    "bookNow": "Book Now"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "doctors": "Doctors",
+    "contact": "Contact",
+    "blog": "Blog",
+    "jointReplacement": "Joint Replacement",
+    "spineSurgery": "Spine Surgery",
+    "sportsMedicine": "Sports Medicine",
+    "traumaCare": "Trauma & Fracture Care",
+    "pediatricOrtho": "Pediatric Orthopaedics",
+    "arthroscopy": "Arthroscopy"
+  },
+  "home": {
+    "heroTitle": "Expert Orthopaedic Care",
+    "heroSubtitle": "Led by Dr. Gurudeo Kumar with 20+ years of experience",
+    "heroCta": "Book Your Consultation",
+    "stats": {
+      "surgeries": "Successful Surgeries",
+      "patients": "Happy Patients",
+      "experience": "Years Experience"
+    },
+    "featuredSurgeries": "Our Specialties",
+    "testimonials": "Patient Testimonials",
+    "whyChooseUs": "Why Choose Arthoscenter"
+  },
+  "consultation": {
+    "title": "Online Video Consultation",
+    "description": "Consult with Dr. Gurudeo Kumar from the comfort of your home",
+    "duration": "30 Minutes",
+    "fee": "₹999",
+    "includes": [
+      "Video call via Google Meet",
+      "Prescription if needed",
+      "Follow-up guidance",
+      "Report analysis"
+    ]
+  },
+  "patientForm": {
+    "title": "Patient Information Form",
+    "personalInfo": "Personal Information",
+    "contactInfo": "Contact Information",
+    "medicalHistory": "Medical History",
+    "currentCondition": "Current Condition",
+    "fullName": "Full Name",
+    "email": "Email",
+    "phone": "Phone Number",
+    "city": "City",
+    "state": "State",
+    "dateOfBirth": "Date of Birth",
+    "gender": "Gender",
+    "bloodGroup": "Blood Group",
+    "address": "Address",
+    "emergencyContact": "Emergency Contact"
+  },
+  "surgeries": {
+    "overview": "Overview",
+    "symptoms": "Symptoms & Indications",
+    "procedure": "Procedure Details",
+    "recovery": "Recovery Timeline",
+    "faq": "Frequently Asked Questions",
+    "relatedSurgeries": "Related Surgeries",
+    "bookNow": "Book Consultation for This Surgery",
+    "cost": "Cost Information",
+    "whyUs": "Why Choose Arthoscenter"
+  },
+  "footer": {
+    "quickLinks": "Quick Links",
+    "surgeries": "Surgeries",
+    "contact": "Contact",
+    "followUs": "Follow Us",
+    "allRightsReserved": "All rights reserved",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "sitemap": "Sitemap"
+  }
+}

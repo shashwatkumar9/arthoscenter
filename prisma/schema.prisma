@@ -1,0 +1,574 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ============ USER & AUTH ============
+
+model User {
+  id            String    @id @default(cuid())
+  email         String    @unique
+  password      String?
+  role          UserRole  @default(PATIENT)
+  emailVerified DateTime?
+
+  // Relations
+  patient       Patient?
+  adminProfile  AdminProfile?
+
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+}
+
+enum UserRole {
+  PATIENT
+  DOCTOR
+  ADMIN
+  SUPER_ADMIN
+}
+
+model AdminProfile {
+  id        String   @id @default(cuid())
+  userId    String   @unique
+  user      User     @relation(fields: [userId], references: [id])
+  name      String
+  avatar    String?
+
+  // Permissions
+  canManagePatients     Boolean @default(true)
+  canManageContent      Boolean @default(true)
+  canManagePayments     Boolean @default(false)
+  canManageUsers        Boolean @default(false)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+// ============ PATIENT ============
+
+model Patient {
+  id          String   @id @default(cuid())
+  userId      String?  @unique
+  user        User?    @relation(fields: [userId], references: [id])
+
+  // Personal Info
+  fullName        String
+  dateOfBirth     DateTime?
+  age             Int?
+  gender          Gender?
+  bloodGroup      String?
+  maritalStatus   String?
+  occupation      String?
+  photo           String?
+
+  // Contact Info
+  email           String
+  phone           String
+  alternatePhone  String?
+  whatsapp        String?
+
+  // Address
+  street          String?
+  city            String
+  state           String
+  country         String   @default("India")
+  pincode         String?
+
+  // Emergency Contact
+  emergencyName       String?
+  emergencyRelation   String?
+  emergencyPhone      String?
+
+  // Medical History (JSON for flexibility)
+  medicalHistory      Json?
+  currentProblem      Json?
+  lifestyle           Json?
+
+  // Preferences
+  preferredLanguage   String  @default("en")
+  referralSource      String?
+
+  // Status
+  status              PatientStatus @default(NEW)
+  priority            Priority      @default(MEDIUM)
+  assignedTo          String?
+  internalNotes       String?
+
+  // Relations
+  documents           Document[]
+  consultations       Consultation[]
+  appointments        Appointment[]
+  payments            Payment[]
+  communications      Communication[]
+  leads               Lead[]
+
+  createdAt           DateTime @default(now())
+  updatedAt           DateTime @updatedAt
+
+  @@index([email])
+  @@index([phone])
+  @@index([status])
+}
+
+enum Gender {
+  MALE
+  FEMALE
+  OTHER
+}
+
+enum PatientStatus {
+  NEW
+  CONTACTED
+  SCHEDULED
+  CONSULTED
+  CONVERTED
+  CLOSED
+}
+
+enum Priority {
+  LOW
+  MEDIUM
+  HIGH
+  URGENT
+}
+
+// ============ DOCUMENTS ============
+
+model Document {
+  id          String       @id @default(cuid())
+  patientId   String
+  patient     Patient      @relation(fields: [patientId], references: [id])
+
+  type        DocumentType
+  name        String
+  url         String
+  mimeType    String
+  size        Int
+
+  uploadedAt  DateTime     @default(now())
+
+  @@index([patientId])
+}
+
+enum DocumentType {
+  XRAY
+  MRI
+  CT_SCAN
+  BLOOD_REPORT
+  PRESCRIPTION
+  OTHER
+}
+
+// ============ CONSULTATION ============
+
+model Consultation {
+  id          String            @id @default(cuid())
+  patientId   String
+  patient     Patient           @relation(fields: [patientId], references: [id])
+
+  // Calendly data
+  calendlyEventId   String?     @unique
+  calendlyEventUri  String?
+
+  // Schedule
+  scheduledAt       DateTime
+  duration          Int         @default(30) // minutes
+  timezone          String      @default("Asia/Kolkata")
+
+  // Meeting
+  meetingLink       String?
+  meetingProvider   String      @default("google_meet")
+
+  // Status
+  status            ConsultationStatus @default(SCHEDULED)
+
+  // Payment
+  paymentId         String?     @unique
+  payment           Payment?    @relation(fields: [paymentId], references: [id])
+
+  // Doctor notes
+  notes             String?
+  prescription      String?
+  followUpRequired  Boolean     @default(false)
+  followUpDate      DateTime?
+
+  // Timestamps
+  startedAt         DateTime?
+  endedAt           DateTime?
+  createdAt         DateTime    @default(now())
+  updatedAt         DateTime    @updatedAt
+
+  @@index([patientId])
+  @@index([scheduledAt])
+  @@index([status])
+}
+
+enum ConsultationStatus {
+  SCHEDULED
+  CONFIRMED
+  IN_PROGRESS
+  COMPLETED
+  CANCELLED
+  NO_SHOW
+}
+
+// ============ APPOINTMENT (In-person) ============
+
+model Appointment {
+  id          String           @id @default(cuid())
+  patientId   String
+  patient     Patient          @relation(fields: [patientId], references: [id])
+
+  date        DateTime
+  time        String
+  type        AppointmentType
+  reason      String?
+
+  status      AppointmentStatus @default(SCHEDULED)
+  notes       String?
+
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([patientId])
+  @@index([date])
+}
+
+enum AppointmentType {
+  CONSULTATION
+  FOLLOW_UP
+  PRE_SURGERY
+  POST_SURGERY
+}
+
+enum AppointmentStatus {
+  SCHEDULED
+  CONFIRMED
+  COMPLETED
+  CANCELLED
+  RESCHEDULED
+}
+
+// ============ PAYMENT ============
+
+model Payment {
+  id              String        @id @default(cuid())
+  patientId       String
+  patient         Patient       @relation(fields: [patientId], references: [id])
+
+  // Razorpay data
+  razorpayOrderId   String      @unique
+  razorpayPaymentId String?     @unique
+  razorpaySignature String?
+
+  // Amount
+  amount          Int           // in paise
+  currency        String        @default("INR")
+
+  // Type
+  type            PaymentType
+  description     String?
+
+  // Status
+  status          PaymentStatus @default(PENDING)
+
+  // Consultation relation
+  consultation    Consultation?
+
+  // Timestamps
+  paidAt          DateTime?
+  createdAt       DateTime      @default(now())
+  updatedAt       DateTime      @updatedAt
+
+  @@index([patientId])
+  @@index([status])
+}
+
+enum PaymentType {
+  CONSULTATION
+  FOLLOW_UP
+  SECOND_OPINION
+}
+
+enum PaymentStatus {
+  PENDING
+  COMPLETED
+  FAILED
+  REFUNDED
+}
+
+// ============ COMMUNICATION LOG ============
+
+model Communication {
+  id          String            @id @default(cuid())
+  patientId   String
+  patient     Patient           @relation(fields: [patientId], references: [id])
+
+  type        CommunicationType
+  direction   Direction
+  subject     String?
+  content     String
+
+  sentBy      String?
+
+  createdAt   DateTime @default(now())
+
+  @@index([patientId])
+}
+
+enum CommunicationType {
+  EMAIL
+  SMS
+  WHATSAPP
+  CALL
+}
+
+enum Direction {
+  INBOUND
+  OUTBOUND
+}
+
+// ============ LEADS (Mini Form) ============
+
+model Lead {
+  id          String      @id @default(cuid())
+
+  // Contact info
+  name        String
+  phone       String
+  email       String
+  city        String
+
+  // Inquiry
+  problem     String
+  surgeryInterest String?
+  preferredContact String
+
+  // Source
+  source      String      @default("website")
+  sourcePage  String?
+
+  // Status
+  status      LeadStatus  @default(NEW)
+
+  // Patient conversion
+  patientId   String?
+  patient     Patient?    @relation(fields: [patientId], references: [id])
+
+  // Notes
+  notes       String?
+
+  createdAt   DateTime    @default(now())
+  updatedAt   DateTime    @updatedAt
+
+  @@index([status])
+  @@index([surgeryInterest])
+}
+
+enum LeadStatus {
+  NEW
+  CONTACTED
+  QUALIFIED
+  CONVERTED
+  LOST
+}
+
+// ============ BLOG ============
+
+model BlogPost {
+  id          String      @id @default(cuid())
+  slug        String      @unique
+
+  // Author
+  authorId    String
+
+  // Status
+  status      PostStatus  @default(DRAFT)
+
+  // Publishing
+  publishedAt DateTime?
+  scheduledFor DateTime?
+
+  // SEO
+  focusKeyword String?
+  canonicalUrl String?
+
+  // Media
+  featuredImage     String?
+  featuredImageAlt  String?
+
+  // Categories
+  category    BlogCategory
+  tags        String[]
+
+  // Relations
+  translations BlogTranslation[]
+  views        BlogView[]
+
+  // Metadata
+  readingTime Int         @default(5)
+
+  createdAt   DateTime    @default(now())
+  updatedAt   DateTime    @updatedAt
+
+  @@index([slug])
+  @@index([status])
+  @@index([category])
+}
+
+model BlogTranslation {
+  id          String   @id @default(cuid())
+  postId      String
+  post        BlogPost @relation(fields: [postId], references: [id], onDelete: Cascade)
+
+  locale      String
+  title       String
+  excerpt     String
+  body        String   @db.Text
+
+  // SEO
+  metaTitle       String?
+  metaDescription String?
+
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@unique([postId, locale])
+  @@index([postId])
+}
+
+model BlogView {
+  id        String   @id @default(cuid())
+  postId    String
+  post      BlogPost @relation(fields: [postId], references: [id], onDelete: Cascade)
+
+  ip        String?
+  userAgent String?
+  referrer  String?
+
+  viewedAt  DateTime @default(now())
+
+  @@index([postId])
+}
+
+enum PostStatus {
+  DRAFT
+  REVIEW
+  PUBLISHED
+  ARCHIVED
+}
+
+enum BlogCategory {
+  JOINT_REPLACEMENT
+  SPINE_CARE
+  SPORTS_MEDICINE
+  TRAUMA
+  PEDIATRIC
+  GENERAL
+  PATIENT_STORIES
+  NEWS
+}
+
+// ============ SURGERY CONTENT ============
+
+model Surgery {
+  id          String   @id @default(cuid())
+  slug        String   @unique
+  category    SurgeryCategory
+
+  // Media
+  image       String?
+  icon        String?
+
+  // Status
+  isActive    Boolean  @default(true)
+  order       Int      @default(0)
+
+  // Relations
+  translations SurgeryTranslation[]
+
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([category])
+  @@index([slug])
+}
+
+model SurgeryTranslation {
+  id          String   @id @default(cuid())
+  surgeryId   String
+  surgery     Surgery  @relation(fields: [surgeryId], references: [id], onDelete: Cascade)
+
+  locale      String
+
+  // Content
+  title           String
+  shortDesc       String
+  overview        String   @db.Text
+  symptoms        String   @db.Text
+  procedure       String   @db.Text
+  recovery        String   @db.Text
+  costInfo        String?  @db.Text
+  whyUs           String?  @db.Text
+
+  // FAQ
+  faqs            Json?
+
+  // SEO
+  metaTitle       String?
+  metaDescription String?
+  keywords        String[]
+
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@unique([surgeryId, locale])
+  @@index([surgeryId])
+}
+
+enum SurgeryCategory {
+  JOINT_REPLACEMENT
+  SPINE_SURGERY
+  SPORTS_MEDICINE
+  TRAUMA_CARE
+  PEDIATRIC_ORTHO
+  ARTHROSCOPY
+}
+
+// ============ SITE SETTINGS ============
+
+model SiteSettings {
+  id          String   @id @default("main")
+
+  // Contact
+  phone       String
+  email       String
+  address     String
+  mapUrl      String?
+
+  // Social
+  facebook    String?
+  instagram   String?
+  twitter     String?
+  youtube     String?
+  linkedin    String?
+
+  // Business hours
+  businessHours Json
+
+  // SEO defaults
+  defaultMetaTitle       String?
+  defaultMetaDescription String?
+
+  // Integration keys (encrypted)
+  calendlyUrl    String?
+
+  updatedAt   DateTime @updatedAt
+}

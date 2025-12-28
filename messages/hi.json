@@ -1,0 +1,88 @@
+{
+  "common": {
+    "bookConsultation": "ऑनलाइन परामर्श बुक करें",
+    "callNow": "अभी कॉल करें",
+    "learnMore": "और जानें",
+    "viewAll": "सभी देखें",
+    "submit": "जमा करें",
+    "loading": "लोड हो रहा है...",
+    "consultationFee": "30 मिनट के लिए ₹999",
+    "bookNow": "अभी बुक करें"
+  },
+  "nav": {
+    "home": "होम",
+    "about": "हमारे बारे में",
+    "doctors": "डॉक्टर",
+    "contact": "संपर्क करें",
+    "blog": "ब्लॉग",
+    "jointReplacement": "जोड़ प्रतिस्थापन",
+    "spineSurgery": "रीढ़ की सर्जरी",
+    "sportsMedicine": "खेल चिकित्सा",
+    "traumaCare": "आघात और फ्रैक्चर देखभाल",
+    "pediatricOrtho": "बाल हड्डी रोग",
+    "arthroscopy": "आर्थ्रोस्कोपी"
+  },
+  "home": {
+    "heroTitle": "विशेषज्ञ हड्डी रोग देखभाल",
+    "heroSubtitle": "डॉ. गुरुदेव कुमार के नेतृत्व में 20+ वर्षों के अनुभव के साथ",
+    "heroCta": "अपना परामर्श बुक करें",
+    "stats": {
+      "surgeries": "सफल सर्जरी",
+      "patients": "खुश मरीज",
+      "experience": "वर्षों का अनुभव"
+    },
+    "featuredSurgeries": "हमारी विशेषताएं",
+    "testimonials": "मरीज प्रशंसापत्र",
+    "whyChooseUs": "आर्थोसेंटर क्यों चुनें"
+  },
+  "consultation": {
+    "title": "ऑनलाइन वीडियो परामर्श",
+    "description": "अपने घर के आराम से डॉ. गुरुदेव कुमार से परामर्श करें",
+    "duration": "30 मिनट",
+    "fee": "₹999",
+    "includes": [
+      "Google Meet के माध्यम से वीडियो कॉल",
+      "आवश्यकता होने पर प्रिस्क्रिप्शन",
+      "फॉलो-अप मार्गदर्शन",
+      "रिपोर्ट विश्लेषण"
+    ]
+  },
+  "patientForm": {
+    "title": "मरीज सूचना फॉर्म",
+    "personalInfo": "व्यक्तिगत जानकारी",
+    "contactInfo": "संपर्क जानकारी",
+    "medicalHistory": "चिकित्सा इतिहास",
+    "currentCondition": "वर्तमान स्थिति",
+    "fullName": "पूरा नाम",
+    "email": "ईमेल",
+    "phone": "फोन नंबर",
+    "city": "शहर",
+    "state": "राज्य",
+    "dateOfBirth": "जन्म तिथि",
+    "gender": "लिंग",
+    "bloodGroup": "रक्त समूह",
+    "address": "पता",
+    "emergencyContact": "आपातकालीन संपर्क"
+  },
+  "surgeries": {
+    "overview": "अवलोकन",
+    "symptoms": "लक्षण और संकेत",
+    "procedure": "प्रक्रिया विवरण",
+    "recovery": "पुनर्प्राप्ति समयरेखा",
+    "faq": "अक्सर पूछे जाने वाले प्रश्न",
+    "relatedSurgeries": "संबंधित सर्जरी",
+    "bookNow": "इस सर्जरी के लिए परामर्श बुक करें",
+    "cost": "लागत की जानकारी",
+    "whyUs": "आर्थोसेंटर क्यों चुनें"
+  },
+  "footer": {
+    "quickLinks": "त्वरित लिंक",
+    "surgeries": "सर्जरी",
+    "contact": "संपर्क",
+    "followUs": "हमें फॉलो करें",
+    "allRightsReserved": "सर्वाधिकार सुरक्षित",
+    "privacy": "गोपनीयता नीति",
+    "terms": "सेवा की शर्तें",
+    "sitemap": "साइटमैप"
+  }
+}
