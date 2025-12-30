@@ -7,7 +7,6 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-  url      = env("DATABASE_URL")
 }
 
 // ============ USER & AUTH ============
@@ -22,6 +21,7 @@ model User {
   // Relations
   patient       Patient?
   adminProfile  AdminProfile?
+  blogPosts     BlogPost[] @relation("BlogAuthor")
 
   createdAt     DateTime  @default(now())
   updatedAt     DateTime  @updatedAt
@@ -384,10 +384,17 @@ enum LeadStatus {
 
 model BlogPost {
   id          String      @id @default(cuid())
-  slug        String      @unique
+  slug        String
+
+  // Content (for simple single-language posts)
+  title       String
+  excerpt     String
+  content     String      @db.Text
+  language    String      @default("en")
 
   // Author
   authorId    String
+  author      User        @relation("BlogAuthor", fields: [authorId], references: [id])
 
   // Status
   status      PostStatus  @default(DRAFT)
@@ -397,15 +404,18 @@ model BlogPost {
   scheduledFor DateTime?
 
   // SEO
-  focusKeyword String?
-  canonicalUrl String?
+  metaTitle       String?
+  metaDescription String?
+  keywords        String?
+  focusKeyword    String?
+  canonicalUrl    String?
 
   // Media
   featuredImage     String?
   featuredImageAlt  String?
 
-  // Categories
-  category    BlogCategory
+  // Categories (optional)
+  category    BlogCategory?
   tags        String[]
 
   // Relations
@@ -414,13 +424,17 @@ model BlogPost {
 
   // Metadata
   readingTime Int         @default(5)
+  viewCount   Int         @default(0)
 
   createdAt   DateTime    @default(now())
   updatedAt   DateTime    @updatedAt
 
+  @@unique([slug, language])
   @@index([slug])
+  @@index([language])
   @@index([status])
   @@index([category])
+  @@index([authorId])
 }
 
 model BlogTranslation {

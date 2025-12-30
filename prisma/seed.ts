@@ -1,7 +1,10 @@
 import { PrismaClient } from '@prisma/client';
 import * as bcrypt from 'bcryptjs';
 
-const prisma = new PrismaClient();
+// Prisma 7 requires datasourceUrl to be passed
+const prisma = new PrismaClient({
+  datasourceUrl: process.env.DATABASE_URL || 'postgresql://shashwat@localhost:5432/arthoscenter',
+});
 
 async function main() {
   console.log('🌱 Starting database seed...');
