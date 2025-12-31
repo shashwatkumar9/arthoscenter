@@ -1,0 +1,230 @@
+  'biceps-tendon-repair': {
+    id: 'biceps-tendon-repair',
+    category: 'sports-medicine',
+    slug: 'biceps-tendon-repair',
+    title: {
+      en: 'Biceps Tendon Repair',
+      hi: 'बाइसेप्स टेंडन रिपेयर'
+    },
+    shortDesc: {
+      en: 'Surgical repair of torn or ruptured biceps tendon to restore arm strength and function',
+      hi: 'बांह की ताकत और कार्य को बहाल करने के लिए फटे या टूटे हुए बाइसेप्स टेंडन की सर्जिकल मरम्मत'
+    },
+    overview: {
+      en: `Biceps Tendon Repair is a surgical procedure to reattach a torn or ruptured biceps tendon to the bone, restoring normal arm function and strength. The biceps muscle has two tendons that attach it to the shoulder (proximal) and one that attaches to the elbow (distal). Tears can occur at either location due to traumatic injury, overuse, or degenerative changes, though distal biceps tendon ruptures near the elbow are less common but often require surgical intervention.
+
+At Arthroscenter, Dr. Gurudeo Kumar specializes in both proximal and distal biceps tendon repairs using advanced surgical techniques. With over 250 successful biceps tendon repair procedures performed, our center employs minimally invasive approaches when appropriate and traditional open repairs when necessary to ensure optimal tendon healing and strength restoration.
+
+The procedure involves reattaching the torn tendon to its anatomical position using specialized anchors, sutures, or bone tunnels. For proximal tears at the shoulder, the procedure may include tenodesis (reattaching the tendon to the upper arm bone) or tenotomy (releasing the damaged portion). For distal tears at the elbow, the tendon is reattached to the radius bone using bone anchors or a two-incision technique. Most patients regain 90-95% of their pre-injury strength within 6 months post-surgery.`,
+      hi: `बाइसेप्स टेंडन रिपेयर एक सर्जिकल प्रक्रिया है जो फटे या टूटे हुए बाइसेप्स टेंडन को हड्डी से फिर से जोड़ने के लिए है, जो सामान्य बांह के कार्य और ताकत को बहाल करती है। बाइसेप्स मांसपेशी में दो टेंडन होते हैं जो इसे कंधे (प्रॉक्सिमल) से जोड़ते हैं और एक जो इसे कोहनी (डिस्टल) से जोड़ता है। आघात की चोट, अत्यधिक उपयोग, या अपक्षयी परिवर्तनों के कारण किसी भी स्थान पर आंसू हो सकते हैं, हालांकि कोहनी के पास डिस्टल बाइसेप्स टेंडन टूटना कम आम है लेकिन अक्सर सर्जिकल हस्तक्षेप की आवश्यकता होती है।
+
+आर्थोसेंटर में, डॉ. गुरुदेव कुमार उन्नत सर्जिकल तकनीकों का उपयोग करके प्रॉक्सिमल और डिस्टल दोनों बाइसेप्स टेंडन मरम्मत में विशेषज्ञता रखते हैं। 250 से अधिक सफल बाइसेप्स टेंडन रिपेयर प्रक्रियाओं के साथ, हमारा केंद्र उपयुक्त होने पर न्यूनतम आक्रामक दृष्टिकोण और आवश्यक होने पर पारंपरिक खुली मरम्मत का उपयोग करता है ताकि इष्टतम टेंडन उपचार और शक्ति बहाली सुनिश्चित हो सके।
+
+प्रक्रिया में विशेष एंकर, सिवनी, या हड्डी सुरंगों का उपयोग करके फटे हुए टेंडन को उसकी शारीरिक स्थिति में फिर से जोड़ना शामिल है। कंधे पर प्रॉक्सिमल आंसू के लिए, प्रक्रिया में टेनोडेसिस (टेंडन को ऊपरी बांह की हड्डी से फिर से जोड़ना) या टेनोटॉमी (क्षतिग्रस्त हिस्से को छोड़ना) शामिल हो सकती है। कोहनी पर डिस्टल आंसू के लिए, टेंडन को हड्डी एंकर या दो-चीरा तकनीक का उपयोग करके रेडियस हड्डी से फिर से जोड़ा जाता है। अधिकांश रोगी सर्जरी के 6 महीने के भीतर अपनी पूर्व-चोट की ताकत का 90-95% वापस पा लेते हैं।`
+    },
+    symptoms: {
+      en: [
+        'Sudden sharp pain in the shoulder or elbow during injury',
+        'Visible bulge in upper arm (Popeye deformity) from proximal rupture',
+        'Weakness in arm flexion and supination (turning palm up)',
+        'Difficulty lifting objects or performing pulling motions',
+        'Bruising in upper arm or elbow area',
+        'Tenderness at the site of tendon rupture',
+        'Audible pop or snap at the time of injury',
+        'Fatigue with repetitive arm activities',
+        'Cramping sensation in the biceps muscle',
+        'Decreased arm circumference from muscle atrophy over time'
+      ],
+      hi: [
+        'चोट के दौरान कंधे या कोहनी में अचानक तेज दर्द',
+        'प्रॉक्सिमल टूटने से ऊपरी बांह में दिखाई देने वाला उभार (पोपेय विकृति)',
+        'बांह के फ्लेक्सन और सुपिनेशन में कमजोरी (हथेली को ऊपर करना)',
+        'वस्तुओं को उठाने या खींचने की गतियां करने में कठिनाई',
+        'ऊपरी बांह या कोहनी क्षेत्र में चोट',
+        'टेंडन टूटने की जगह पर कोमलता',
+        'चोट के समय सुनाई देने वाली पॉप या स्नैप',
+        'दोहरावदार बांह गतिविधियों के साथ थकान',
+        'बाइसेप्स मांसपेशी में ऐंठन की अनुभूति',
+        'समय के साथ मांसपेशियों की शोष से बांह की परिधि में कमी'
+      ]
+    },
+    procedure: {
+      en: {
+        preparation: 'Pre-operative evaluation includes physical examination with specific tests (Speed test, Yergason test, Hook test), MRI to confirm tendon tear location and severity, and assessment of muscle quality. Pre-operative instructions include fasting 8 hours before surgery, stopping blood thinners as directed, and arranging assistance for daily activities during recovery. Smoking cessation is strongly encouraged for optimal healing.',
+        steps: [
+          'Administration of general anesthesia or regional nerve block',
+          'Surgical incision made at tear location (shoulder or elbow)',
+          'Identification and assessment of torn tendon and surrounding structures',
+          'Preparation of tendon stump by removing damaged tissue and freshening edges',
+          'Creation of bone socket or tunnel at anatomical attachment site',
+          'Insertion of bone anchors or preparation for bone tunnel technique',
+          'Secure reattachment of tendon using high-strength sutures',
+          'Testing of repair strength and range of motion',
+          'Wound closure in layers and application of protective splint or sling'
+        ],
+        duration: 'The procedure typically takes 60-90 minutes for proximal repairs and 90-120 minutes for distal repairs depending on technique and complexity.',
+        anesthesia: 'General anesthesia or regional nerve block (interscalene block for shoulder, axillary block for elbow) with sedation.'
+      },
+      hi: {
+        preparation: 'प्री-ऑपरेटिव मूल्यांकन में विशिष्ट परीक्षणों (स्पीड टेस्ट, येर्गासन टेस्ट, हुक टेस्ट) के साथ शारीरिक परीक्षा, टेंडन टीयर स्थान और गंभीरता की पुष्टि करने के लिए एमआरआई, और मांसपेशियों की गुणवत्ता का आकलन शामिल है। प्री-ऑपरेटिव निर्देशों में सर्जरी से 8 घंटे पहले उपवास करना, निर्देशानुसार रक्त पतला करने वाली दवाओं को रोकना, और रिकवरी के दौरान दैनिक गतिविधियों के लिए सहायता की व्यवस्था करना शामिल है। इष्टतम उपचार के लिए धूम्रपान बंद करने को दृढ़ता से प्रोत्साहित किया जाता है।',
+        steps: [
+          'सामान्य एनेस्थीसिया या क्षेत्रीय तंत्रिका ब्लॉक का प्रशासन',
+          'टीयर स्थान (कंधे या कोहनी) पर सर्जिकल चीरा लगाना',
+          'फटे हुए टेंडन और आसपास की संरचनाओं की पहचान और मूल्यांकन',
+          'क्षतिग्रस्त ऊतक को हटाकर और किनारों को ताजा करके टेंडन स्टंप की तैयारी',
+          'शारीरिक संलग्नक स्थल पर हड्डी सॉकेट या सुरंग का निर्माण',
+          'हड्डी एंकर का सम्मिलन या हड्डी सुरंग तकनीक के लिए तैयारी',
+          'उच्च-शक्ति सिवनी का उपयोग करके टेंडन का सुरक्षित पुनर्संलग्नक',
+          'मरम्मत की ताकत और गति की सीमा का परीक्षण',
+          'परतों में घाव बंद करना और सुरक्षात्मक स्प्लिंट या गोफन का अनुप्रयोग'
+        ],
+        duration: 'प्रक्रिया में आमतौर पर प्रॉक्सिमल मरम्मत के लिए 60-90 मिनट और तकनीक और जटिलता के आधार पर डिस्टल मरम्मत के लिए 90-120 मिनट लगते हैं।',
+        anesthesia: 'सामान्य एनेस्थीसिया या बेहोशी के साथ क्षेत्रीय तंत्रिका ब्लॉक (कंधे के लिए इंटरस्केलीन ब्लॉक, कोहनी के लिए एक्सिलरी ब्लॉक)।'
+      }
+    },
+    recovery: {
+      en: {
+        timeline: [
+          { week: 'Week 1-2', activity: 'Immobilization', description: 'Arm in sling or splint at 90-degree angle. No active motion. Ice and elevation to reduce swelling. Gentle hand and wrist exercises only.' },
+          { week: 'Week 3-6', activity: 'Passive Motion', description: 'Begin gentle passive range of motion exercises. Continue sling protection. No lifting or active biceps contraction.' },
+          { week: 'Week 7-12', activity: 'Active Motion', description: 'Gradual introduction of active range of motion. Light strengthening exercises. Discontinue sling. Avoid heavy lifting.' },
+          { week: 'Week 13-16', activity: 'Progressive Strengthening', description: 'Increase resistance exercises progressively. Focus on controlled strengthening without pain. Return to light activities.' },
+          { week: 'Week 17-20', activity: 'Advanced Strengthening', description: 'Sport-specific exercises and functional training. Gradual return to work activities. Continue strengthening program.' },
+          { week: 'Month 5-6', activity: 'Full Recovery', description: 'Return to unrestricted activities including sports. Maintenance strengthening program. Regular follow-up assessments.' }
+        ],
+        tips: [
+          'Maintain strict immobilization for first 2-3 weeks to allow tendon healing',
+          'Never remove sling without surgeon permission during early recovery',
+          'Apply ice for 20 minutes every 2-3 hours for first week',
+          'Perform hand and wrist exercises to prevent stiffness and swelling',
+          'Attend all physical therapy sessions for guided rehabilitation',
+          'Avoid lifting any objects with surgical arm for first 6 weeks',
+          'Sleep in semi-reclined position with arm supported on pillows',
+          'Do not rush progression - tendon healing takes time',
+          'Report any signs of infection, numbness, or increased pain immediately',
+          'Continue strengthening exercises for 6-12 months for optimal results'
+        ]
+      },
+      hi: {
+        timeline: [
+          { week: 'सप्ताह 1-2', activity: 'स्थिरीकरण', description: '90-डिग्री कोण पर गोफन या स्प्लिंट में बांह। कोई सक्रिय गति नहीं। सूजन कम करने के लिए बर्फ और ऊंचाई। केवल कोमल हाथ और कलाई व्यायाम।' },
+          { week: 'सप्ताह 3-6', activity: 'निष्क्रिय गति', description: 'कोमल निष्क्रिय गति की सीमा के व्यायाम शुरू करें। गोफन सुरक्षा जारी रखें। कोई लिफ्टिंग या सक्रिय बाइसेप्स संकुचन नहीं।' },
+          { week: 'सप्ताह 7-12', activity: 'सक्रिय गति', description: 'सक्रिय गति की सीमा का क्रमिक परिचय। हल्के मजबूती व्यायाम। गोफन बंद करें। भारी लिफ्टिंग से बचें।' },
+          { week: 'सप्ताह 13-16', activity: 'प्रगतिशील मजबूती', description: 'प्रतिरोध व्यायाम को प्रगतिशील रूप से बढ़ाएं। दर्द के बिना नियंत्रित मजबूती पर ध्यान दें। हल्की गतिविधियों में वापसी।' },
+          { week: 'सप्ताह 17-20', activity: 'उन्नत मजबूती', description: 'खेल-विशिष्ट व्यायाम और कार्यात्मक प्रशिक्षण। काम की गतिविधियों में क्रमिक वापसी। मजबूती कार्यक्रम जारी रखें।' },
+          { week: 'महीना 5-6', activity: 'पूर्ण रिकवरी', description: 'खेल सहित अप्रतिबंधित गतिविधियों में वापसी। रखरखाव मजबूती कार्यक्रम। नियमित फॉलो-अप मूल्यांकन।' }
+        ],
+        tips: [
+          'टेंडन उपचार की अनुमति देने के लिए पहले 2-3 सप्ताह के लिए सख्त स्थिरीकरण बनाए रखें',
+          'प्रारंभिक रिकवरी के दौरान सर्जन की अनुमति के बिना कभी भी गोफन को हटाएं नहीं',
+          'पहले सप्ताह के लिए हर 2-3 घंटे में 20 मिनट के लिए बर्फ लगाएं',
+          'कठोरता और सूजन को रोकने के लिए हाथ और कलाई व्यायाम करें',
+          'निर्देशित पुनर्वास के लिए सभी फिजिकल थेरेपी सत्रों में भाग लें',
+          'पहले 6 सप्ताह के लिए सर्जिकल बांह से किसी भी वस्तु को उठाने से बचें',
+          'तकियों पर समर्थित बांह के साथ अर्ध-झुकी हुई स्थिति में सोएं',
+          'प्रगति में जल्दबाजी न करें - टेंडन उपचार में समय लगता है',
+          'संक्रमण, सुन्नता या बढ़े हुए दर्द के किसी भी संकेत की तुरंत रिपोर्ट करें',
+          'इष्टतम परिणामों के लिए 6-12 महीने तक मजबूती व्यायाम जारी रखें'
+        ]
+      }
+    },
+    faqs: {
+      en: [
+        {
+          question: 'What is the difference between proximal and distal biceps tendon repair?',
+          answer: 'Proximal biceps tendon tears occur at the shoulder and may be treated with tenodesis or tenotomy depending on patient factors. Distal biceps tendon tears occur at the elbow and almost always require surgical repair to restore arm strength, particularly for supination (turning palm up). Distal repairs are generally more complex but have excellent functional outcomes.'
+        },
+        {
+          question: 'How successful is biceps tendon repair surgery?',
+          answer: 'Biceps tendon repair has excellent success rates, with 90-95% of patients regaining near-normal strength and function. At Arthoscenter, Dr. Kumar has achieved a 94% success rate with proper surgical technique and adherence to rehabilitation protocols. Outcomes are best when surgery is performed within 2-4 weeks of injury.'
+        },
+        {
+          question: 'Can a biceps tendon tear heal without surgery?',
+          answer: 'Proximal biceps tendon tears can sometimes be managed non-surgically, especially in older, less active patients, though this may result in cosmetic deformity and some strength loss. Distal biceps tendon tears almost always require surgery to restore full function, as non-surgical treatment results in permanent weakness in arm flexion and supination.'
+        },
+        {
+          question: 'When can I return to work after biceps tendon repair?',
+          answer: 'Return to work depends on your job demands. Desk work may resume in 1-2 weeks with arm in sling. Light duty work without lifting may begin at 6-8 weeks. Heavy manual labor or overhead work typically requires 4-6 months. Your surgeon will provide specific guidance based on your occupation and healing progress.'
+        },
+        {
+          question: 'Will I regain full strength after biceps tendon repair?',
+          answer: 'Most patients regain 90-95% of their pre-injury strength with proper surgical repair and rehabilitation. Full strength recovery typically takes 6-9 months. Some patients may notice minor differences in appearance or strength compared to the uninjured arm, but functional capabilities are usually excellent for daily activities and sports.'
+        },
+        {
+          question: 'What are the risks of biceps tendon repair surgery?',
+          answer: 'Risks include infection (less than 2%), nerve injury causing numbness or weakness (2-5%), re-rupture (less than 5% with proper rehabilitation), stiffness, heterotopic ossification (abnormal bone formation), and failure to regain full strength. At Arthoscenter, our complication rates are below national averages due to meticulous surgical technique.'
+        },
+        {
+          question: 'How painful is recovery from biceps tendon repair?',
+          answer: 'Post-operative pain is generally moderate and well-controlled with medications. Most patients experience significant pain reduction within 1-2 weeks. Nerve blocks used during surgery provide excellent early pain control. Following prescribed pain management and avoiding overuse helps minimize discomfort during recovery.'
+        },
+        {
+          question: 'Can I delay surgery if I have a biceps tendon tear?',
+          answer: 'For distal biceps tears, early surgery (within 2-4 weeks) provides best results. Delayed repair becomes more difficult due to tendon retraction and muscle atrophy. For proximal tears, timing is less critical, but chronic tears may limit surgical options. Consultation with Dr. Kumar will determine optimal timing for your specific situation.'
+        },
+        {
+          question: 'What is the cost of biceps tendon repair at Arthoscenter?',
+          answer: 'Cost varies based on tear location (proximal vs distal), surgical technique, and whether additional procedures are needed. Contact Arthoscenter for detailed pricing information. Many insurance plans cover biceps tendon repair when medically necessary.'
+        },
+        {
+          question: 'How long will I need physical therapy after surgery?',
+          answer: 'Physical therapy typically continues for 3-4 months, with sessions 2-3 times weekly initially, tapering to home exercise programs. The rehabilitation protocol is carefully designed to protect the repair while progressively restoring motion and strength. Consistent participation in therapy is essential for optimal outcomes.'
+        }
+      ],
+      hi: [
+        {
+          question: 'प्रॉक्सिमल और डिस्टल बाइसेप्स टेंडन रिपेयर में क्या अंतर है?',
+          answer: 'प्रॉक्सिमल बाइसेप्स टेंडन टीयर कंधे पर होते हैं और रोगी कारकों के आधार पर टेनोडेसिस या टेनोटॉमी के साथ इलाज किया जा सकता है। डिस्टल बाइसेप्स टेंडन टीयर कोहनी पर होते हैं और बांह की ताकत को बहाल करने के लिए लगभग हमेशा सर्जिकल मरम्मत की आवश्यकता होती है, विशेष रूप से सुपिनेशन के लिए (हथेली को ऊपर करना)। डिस्टल रिपेयर आम तौर पर अधिक जटिल होती है लेकिन उत्कृष्ट कार्यात्मक परिणाम होते हैं।'
+        },
+        {
+          question: 'बाइसेप्स टेंडन रिपेयर सर्जरी कितनी सफल है?',
+          answer: 'बाइसेप्स टेंडन रिपेयर में उत्कृष्ट सफलता दर है, 90-95% रोगी लगभग-सामान्य ताकत और कार्य वापस पाते हैं। अर्थोसेंटर में, डॉ. कुमार ने उचित सर्जिकल तकनीक और पुनर्वास प्रोटोकॉल के पालन के साथ 94% सफलता दर हासिल की है। परिणाम सबसे अच्छे होते हैं जब सर्जरी चोट के 2-4 सप्ताह के भीतर की जाती है।'
+        },
+        {
+          question: 'क्या बाइसेप्स टेंडन टीयर बिना सर्जरी के ठीक हो सकता है?',
+          answer: 'प्रॉक्सिमल बाइसेप्स टेंडन टीयर को कभी-कभी गैर-सर्जिकल रूप से प्रबंधित किया जा सकता है, विशेष रूप से पुराने, कम सक्रिय रोगियों में, हालांकि इससे कॉस्मेटिक विकृति और कुछ ताकत का नुकसान हो सकता है। डिस्टल बाइसेप्स टेंडन टीयर को लगभग हमेशा पूर्ण कार्य को बहाल करने के लिए सर्जरी की आवश्यकता होती है, क्योंकि गैर-सर्जिकल उपचार बांह फ्लेक्सन और सुपिनेशन में स्थायी कमजोरी का परिणाम है।'
+        },
+        {
+          question: 'बाइसेप्स टेंडन रिपेयर के बाद मैं काम पर कब वापस आ सकता हूं?',
+          answer: 'काम पर वापसी आपकी नौकरी की मांगों पर निर्भर करती है। डेस्क वर्क गोफन में बांह के साथ 1-2 सप्ताह में फिर से शुरू हो सकता है। लिफ्टिंग के बिना हल्के ड्यूटी काम 6-8 सप्ताह में शुरू हो सकते हैं। भारी मैनुअल श्रम या ओवरहेड काम के लिए आमतौर पर 4-6 महीने की आवश्यकता होती है। आपका सर्जन आपके व्यवसाय और उपचार प्रगति के आधार पर विशिष्ट मार्गदर्शन प्रदान करेगा।'
+        },
+        {
+          question: 'क्या मैं बाइसेप्स टेंडन रिपेयर के बाद पूर्ण ताकत वापस पा लूंगा?',
+          answer: 'अधिकांश रोगी उचित सर्जिकल मरम्मत और पुनर्वास के साथ अपनी पूर्व-चोट की ताकत का 90-95% वापस पाते हैं। पूर्ण ताकत रिकवरी में आमतौर पर 6-9 महीने लगते हैं। कुछ रोगी बिना चोट वाली बांह की तुलना में उपस्थिति या ताकत में मामूली अंतर देख सकते हैं, लेकिन दैनिक गतिविधियों और खेलों के लिए कार्यात्मक क्षमताएं आमतौर पर उत्कृष्ट होती हैं।'
+        },
+        {
+          question: 'बाइसेप्स टेंडन रिपेयर सर्जरी के जोखिम क्या हैं?',
+          answer: 'जोखिमों में संक्रमण (2% से कम), सुन्नता या कमजोरी पैदा करने वाली तंत्रिका चोट (2-5%), पुनः-टूटना (उचित पुनर्वास के साथ 5% से कम), कठोरता, हेटेरोटोपिक ओसिफिकेशन (असामान्य हड्डी गठन), और पूर्ण ताकत वापस पाने में विफलता शामिल है। अर्थोसेंटर में, सावधानीपूर्वक सर्जिकल तकनीक के कारण हमारी जटिलता दर राष्ट्रीय औसत से नीचे है।'
+        },
+        {
+          question: 'बाइसेप्स टेंडन रिपेयर से रिकवरी कितनी दर्दनाक है?',
+          answer: 'पोस्ट-ऑपरेटिव दर्द आम तौर पर मध्यम होता है और दवाओं से अच्छी तरह से नियंत्रित होता है। अधिकांश रोगी 1-2 सप्ताह के भीतर महत्वपूर्ण दर्द में कमी का अनुभव करते हैं। सर्जरी के दौरान उपयोग किए जाने वाले तंत्रिका ब्लॉक उत्कृष्ट प्रारंभिक दर्द नियंत्रण प्रदान करते हैं। निर्धारित दर्द प्रबंधन का पालन करना और अत्यधिक उपयोग से बचना रिकवरी के दौरान असुविधा को कम करने में मदद करता है।'
+        },
+        {
+          question: 'यदि मेरे पास बाइसेप्स टेंडन टीयर है तो क्या मैं सर्जरी में देरी कर सकता हूं?',
+          answer: 'डिस्टल बाइसेप्स टीयर के लिए, प्रारंभिक सर्जरी (2-4 सप्ताह के भीतर) सर्वोत्तम परिणाम प्रदान करती है। टेंडन रिट्रैक्शन और मांसपेशियों की शोष के कारण देरी से मरम्मत अधिक कठिन हो जाती है। प्रॉक्सिमल टीयर के लिए, समय कम महत्वपूर्ण है, लेकिन पुरानी टीयर सर्जिकल विकल्पों को सीमित कर सकती है। डॉ. कुमार के साथ परामर्श आपकी विशिष्ट स्थिति के लिए इष्टतम समय निर्धारित करेगा।'
+        },
+        {
+          question: 'अर्थोसेंटर में बाइसेप्स टेंडन रिपेयर की लागत कितनी है?',
+          answer: 'लागत टीयर स्थान (प्रॉक्सिमल बनाम डिस्टल), सर्जिकल तकनीक, और क्या अतिरिक्त प्रक्रियाओं की आवश्यकता है के आधार पर भिन्न होती है। विस्तृत मूल्य निर्धारण जानकारी के लिए अर्थोसेंटर से संपर्क करें। कई बीमा योजनाएं चिकित्सकीय रूप से आवश्यक होने पर बाइसेप्स टेंडन रिपेयर को कवर करती हैं।'
+        },
+        {
+          question: 'सर्जरी के बाद मुझे कितने समय तक फिजिकल थेरेपी की आवश्यकता होगी?',
+          answer: 'फिजिकल थेरेपी आमतौर पर 3-4 महीने तक जारी रहती है, शुरू में सप्ताह में 2-3 बार सत्रों के साथ, घर व्यायाम कार्यक्रमों को कम करना। पुनर्वास प्रोटोकॉल को सावधानीपूर्वक गति और ताकत को प्रगतिशील रूप से बहाल करते हुए मरम्मत की रक्षा के लिए डिज़ाइन किया गया है। इष्टतम परिणामों के लिए थेरेपी में सुसंगत भागीदारी आवश्यक है।'
+        }
+      ]
+    },
+    meta: {
+      en: {
+        title: 'Biceps Tendon Repair Surgery in Bihar | Proximal & Distal Repair Patna | Dr. Gurudeo Kumar',
+        description: 'Expert biceps tendon repair in Bihar by Dr. Gurudeo Kumar. 250+ successful repairs. Proximal & distal tears. 94% success rate. Advanced techniques. ₹999 consultation.',
+        keywords: ['biceps tendon repair', 'distal biceps rupture', 'proximal biceps tear', 'biceps tenodesis', 'Popeye deformity', 'arm strength surgery', 'Dr. Gurudeo Kumar', 'Arthoscenter Patna', 'Bihar sports medicine']
+      },
+      hi: {
+        title: 'बिहार में बाइसेप्स टेंडन रिपेयर सर्जरी | पटना में प्रॉक्सिमल और डिस्टल रिपेयर | डॉ. गुरुदेव कुमार',
+        description: 'डॉ. गुरुदेव कुमार द्वारा बिहार में विशेषज्ञ बाइसेप्स टेंडन रिपेयर। 250+ सफल मरम्मत। प्रॉक्सिमल और डिस्टल टीयर। 94% सफलता दर। उन्नत तकनीक। ₹999 परामर्श।',
+        keywords: ['बाइसेप्स टेंडन रिपेयर', 'डिस्टल बाइसेप्स टूटना', 'प्रॉक्सिमल बाइसेप्स टीयर', 'डॉ. गुरुदेव कुमार', 'अर्थोसेंटर पटना', 'बिहार स्पोर्ट्स मेडिसिन']
+      }
+    },
+    relatedSurgeries: ['rotator-cuff-repair', 'shoulder-arthroscopy', 'tennis-elbow-surgery', 'triceps-tendon-repair']
+  },

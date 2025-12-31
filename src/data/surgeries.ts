@@ -11944,6 +11944,5003 @@ Most patients report: "If I had known how much it would improve my quality of li
       }
     },
     relatedSurgeries: ['knee-arthroscopy', 'shoulder-arthroscopy', 'ankle-arthroscopy', 'total-hip-replacement']
+  },
+  'achilles-tendon-repair': {
+    id: 'achilles-tendon-repair',
+    category: 'sports-medicine',
+    slug: 'achilles-tendon-repair',
+    title: {
+      en: 'Achilles Tendon Repair',
+      hi: 'एच्लीस टेंडन रिपेयर'
+    },
+    shortDesc: {
+      en: 'Surgical repair of ruptured or severely damaged Achilles tendon to restore ankle function and strength.',
+      hi: 'टखने के कार्य और शक्ति को बहाल करने के लिए फटे हुए या गंभीर रूप से क्षतिग्रस्त एच्लीस टेंडन की शल्य चिकित्सा मरम्मत।'
+    },
+    overview: {
+      en: `Achilles tendon repair is a surgical procedure performed to repair a complete or partial tear of the Achilles tendon, the strongest and largest tendon in the body connecting the calf muscles to the heel bone. This injury commonly occurs during sudden forceful activities or in athletes, though it can also affect sedentary individuals with degenerative tendon changes.
+
+At Arthroscenter, Dr. Gurudeo Kumar specializes in both open and minimally invasive Achilles tendon repair techniques, having successfully treated over 150 cases with excellent functional outcomes. Our approach focuses on anatomical repair, early rehabilitation protocols, and preventing re-rupture while ensuring optimal strength recovery.
+
+The procedure typically involves surgically reattaching the torn tendon ends using strong sutures, sometimes augmented with tendon tissue or biological materials. Early surgical intervention (within 1-2 weeks of injury) generally provides better outcomes than delayed treatment. Most patients can return to normal activities within 4-6 months, with athletes typically resuming sports by 6-9 months post-surgery.`,
+      hi: `एच्लीस टेंडन रिपेयर एक शल्य चिकित्सा प्रक्रिया है जो एच्लीस टेंडन के पूर्ण या आंशिक टियर की मरम्मत के लिए की जाती है, जो शरीर का सबसे मजबूत और सबसे बड़ा टेंडन है जो पिंडली की मांसपेशियों को एड़ी की हड्डी से जोड़ता है। यह चोट आमतौर पर अचानक बलपूर्वक गतिविधियों के दौरान या एथलीटों में होती है, हालांकि यह अपक्षयी टेंडन परिवर्तनों वाले गतिहीन व्यक्तियों को भी प्रभावित कर सकती है।
+
+आर्थोसेंटर में, डॉ. गुरुदेव कुमार ओपन और न्यूनतम आक्रामक एच्लीस टेंडन रिपेयर तकनीकों दोनों में विशेषज्ञ हैं, जिन्होंने उत्कृष्ट कार्यात्मक परिणामों के साथ 150 से अधिक मामलों का सफलतापूर्वक इलाज किया है। हमारा दृष्टिकोण शारीरिक मरम्मत, शीघ्र पुनर्वास प्रोटोकॉल, और इष्टतम शक्ति रिकवरी सुनिश्चित करते हुए पुन: टूटने को रोकने पर केंद्रित है।
+
+प्रक्रिया में आमतौर पर मजबूत टांके का उपयोग करके टूटे हुए टेंडन सिरों को शल्य चिकित्सा द्वारा फिर से जोड़ना शामिल है, कभी-कभी टेंडन ऊतक या जैविक सामग्री के साथ संवर्धित किया जाता है। शीघ्र शल्य चिकित्सा हस्तक्षेप (चोट के 1-2 सप्ताह के भीतर) आमतौर पर विलंबित उपचार की तुलना में बेहतर परिणाम प्रदान करता है।`
+    },
+    symptoms: {
+      en: [
+        'Sudden sharp pain in the back of ankle or calf, often described as being kicked',
+        'Audible "pop" or "snap" sound at the time of injury',
+        'Significant swelling and bruising around the heel and ankle',
+        'Inability to stand on tiptoes or push off while walking',
+        'Visible gap or depression in the tendon (felt about 2 inches above heel)',
+        'Weakness in the affected leg, especially during walking or climbing stairs',
+        'Difficulty bearing weight on the injured foot',
+        'Limited ankle range of motion, particularly plantar flexion',
+        'Persistent pain that worsens with activity',
+        'Previous history of Achilles tendon problems or tendinitis'
+      ],
+      hi: [
+        'टखने या पिंडली के पीछे अचानक तेज दर्द, अक्सर लात मारे जाने के रूप में वर्णित',
+        'चोट के समय श्रव्य "पॉप" या "स्नैप" ध्वनि',
+        'एड़ी और टखने के आसपास महत्वपूर्ण सूजन और चोट के निशान',
+        'पैर की उंगलियों पर खड़े होने या चलते समय धक्का देने में असमर्थता',
+        'टेंडन में दिखाई देने वाला अंतराल या गड्ढा (एड़ी से लगभग 2 इंच ऊपर महसूस किया गया)',
+        'प्रभावित पैर में कमजोरी, विशेष रूप से चलने या सीढ़ियां चढ़ने के दौरान',
+        'घायल पैर पर वजन सहन करने में कठिनाई',
+        'सीमित टखने की गति सीमा, विशेष रूप से प्लांटर फ्लेक्सन',
+        'गतिविधि के साथ बिगड़ता हुआ लगातार दर्द',
+        'एच्लीस टेंडन समस्याओं या टेंडिनाइटिस का पिछला इतिहास'
+      ]
+    },
+    procedure: {
+      en: {
+        preparation: 'Before surgery, patients undergo thorough physical examination, MRI imaging to assess the extent of tear, and blood work. Patients are advised to stop smoking, discontinue blood-thinning medications, and arrange for assistance during recovery. Pre-operative counseling includes discussion of surgical technique, expected outcomes, and rehabilitation protocol.',
+        steps: [
+          'Regional anesthesia (spinal/epidural) or general anesthesia is administered',
+          'Patient positioned prone (face down) or on side with ankle accessible',
+          'Surgical incision made along the medial (inner) side of the Achilles tendon',
+          'Torn tendon ends are identified, cleaned of scar tissue, and refreshed',
+          'Strong non-absorbable sutures passed through both tendon ends using specialized techniques (Krackow or Bunnell stitch)',
+          'Tendon ends brought together and secured with tight suturing to restore normal length and tension',
+          'In chronic cases, tendon graft or augmentation may be performed using adjacent tendons',
+          'Wound closed in layers, sterile dressing applied, and ankle immobilized in equinus position (toes pointed)'
+        ],
+        duration: '1-2 hours',
+        anesthesia: 'Regional or General Anesthesia'
+      },
+      hi: {
+        preparation: 'सर्जरी से पहले, रोगियों की संपूर्ण शारीरिक जांच होती है, टियर की सीमा का आकलन करने के लिए MRI इमेजिंग, और रक्त कार्य। मरीजों को धूम्रपान बंद करने, रक्त-पतला करने वाली दवाएं बंद करने, और रिकवरी के दौरान सहायता की व्यवस्था करने की सलाह दी जाती है। प्री-ऑपरेटिव काउंसलिंग में शल्य चिकित्सा तकनीक, अपेक्षित परिणाम, और पुनर्वास प्रोटोकॉल की चर्चा शामिल है।',
+        steps: [
+          'क्षेत्रीय एनेस्थीसिया (स्पाइनल/एपिड्यूरल) या जनरल एनेस्थीसिया दिया जाता है',
+          'रोगी को प्रवण (चेहरा नीचे) या साइड पर टखने तक पहुंच के साथ स्थित किया जाता है',
+          'एच्लीस टेंडन के मध्यवर्ती (आंतरिक) पक्ष के साथ शल्य चीरा लगाया जाता है',
+          'टूटे हुए टेंडन सिरों की पहचान की जाती है, निशान ऊतक से साफ किया जाता है, और ताज़ा किया जाता है',
+          'विशेष तकनीकों (क्राको या बनेल सिलाई) का उपयोग करके मजबूत गैर-अवशोषणीय टांके दोनों टेंडन सिरों के माध्यम से पारित किए जाते हैं',
+          'टेंडन सिरों को एक साथ लाया जाता है और सामान्य लंबाई और तनाव को बहाल करने के लिए तंग सिलाई के साथ सुरक्षित किया जाता है',
+          'पुरानी मामलों में, आसन्न टेंडन का उपयोग करके टेंडन ग्राफ्ट या संवर्धन किया जा सकता है',
+          'घाव परतों में बंद किया जाता है, बाँझ ड्रेसिंग लगाई जाती है, और टखने को इक्विनस स्थिति में स्थिर किया जाता है (पैर की उंगलियां नोकदार)'
+        ],
+        duration: '1-2 घंटे',
+        anesthesia: 'क्षेत्रीय या जनरल एनेस्थीसिया'
+      }
+    },
+    recovery: {
+      en: {
+        timeline: [
+          {
+            week: 'Week 0-2',
+            activity: 'Immediate Post-operative',
+            description: 'Ankle immobilized in cast/boot with toes pointed. Non-weight bearing with crutches. Pain management and elevation to reduce swelling.'
+          },
+          {
+            week: 'Week 2-6',
+            activity: 'Early Protection Phase',
+            description: 'Transition to walking boot with gradual ankle positioning toward neutral. Partial weight bearing begins around week 4. Gentle range of motion exercises started.'
+          },
+          {
+            week: 'Week 6-12',
+            activity: 'Progressive Weight Bearing',
+            description: 'Full weight bearing achieved. Boot weaned off by week 8-10. Progressive strengthening exercises and proprioception training. Return to normal walking.'
+          },
+          {
+            week: 'Week 12-16',
+            activity: 'Functional Recovery',
+            description: 'Advanced strengthening program including heel raises and resistance exercises. Swimming and cycling permitted. Light jogging may begin.'
+          },
+          {
+            week: 'Month 4-6',
+            activity: 'Return to Activity',
+            description: 'Progressive return to sports-specific training. Running, jumping, and cutting activities gradually reintroduced under supervision.'
+          },
+          {
+            week: 'Month 6-9',
+            activity: 'Full Activity',
+            description: 'Return to unrestricted sports and activities. Continued strengthening and flexibility maintenance exercises.'
+          },
+          {
+            week: 'Month 9-12',
+            activity: 'Long-term Recovery',
+            description: 'Complete healing achieved. Ongoing maintenance program to prevent re-injury. Full strength and function restored.'
+          }
+        ],
+        tips: [
+          'Strictly adhere to weight-bearing restrictions to prevent re-rupture',
+          'Keep leg elevated above heart level to minimize swelling',
+          'Wear compression stockings to prevent blood clots',
+          'Complete all prescribed physical therapy exercises diligently',
+          'Gradually transition from boot to regular shoes as directed',
+          'Avoid sudden movements, jumping, or running until cleared',
+          'Report any increased pain, swelling, or wound drainage immediately',
+          'Maintain calf flexibility and strength through regular exercises',
+          'Use heel lifts temporarily when transitioning to regular shoes',
+          'Be patient - full recovery takes 9-12 months'
+        ]
+      },
+      hi: {
+        timeline: [
+          {
+            week: 'सप्ताह 0-2',
+            activity: 'तत्काल पोस्ट-ऑपरेटिव',
+            description: 'पैर की उंगलियों के साथ कास्ट/बूट में टखना स्थिर। बैसाखी के साथ गैर-वजन सहन। सूजन को कम करने के लिए दर्द प्रबंधन और उन्नयन।'
+          },
+          {
+            week: 'सप्ताह 2-6',
+            activity: 'प्रारंभिक संरक्षण चरण',
+            description: 'तटस्थ की ओर क्रमिक टखने की स्थिति के साथ चलने वाले बूट में संक्रमण। सप्ताह 4 के आसपास आंशिक वजन सहन शुरू होता है। कोमल गति सीमा व्यायाम शुरू किए गए।'
+          },
+          {
+            week: 'सप्ताह 6-12',
+            activity: 'प्रगतिशील वजन सहन',
+            description: 'पूर्ण वजन सहन प्राप्त किया गया। सप्ताह 8-10 तक बूट छुड़ाया गया। प्रगतिशील मजबूत बनाने के व्यायाम और प्रोप्रियोसेप्शन प्रशिक्षण। सामान्य चलने में वापसी।'
+          },
+          {
+            week: 'सप्ताह 12-16',
+            activity: 'कार्यात्मक रिकवरी',
+            description: 'एड़ी बढ़ाने और प्रतिरोध व्यायाम सहित उन्नत मजबूत बनाने का कार्यक्रम। तैराकी और साइकलिंग की अनुमति दी गई। हल्की जॉगिंग शुरू हो सकती है।'
+          },
+          {
+            week: 'महीना 4-6',
+            activity: 'गतिविधि में वापसी',
+            description: 'खेल-विशिष्ट प्रशिक्षण में प्रगतिशील वापसी। दौड़ना, कूदना, और काटने की गतिविधियों को धीरे-धीरे पर्यवेक्षण के तहत फिर से शुरू किया गया।'
+          },
+          {
+            week: 'महीना 6-9',
+            activity: 'पूर्ण गतिविधि',
+            description: 'अप्रतिबंधित खेल और गतिविधियों में वापसी। निरंतर मजबूत बनाने और लचीलापन रखरखाव व्यायाम।'
+          },
+          {
+            week: 'महीना 9-12',
+            activity: 'दीर्घकालिक रिकवरी',
+            description: 'पूर्ण उपचार प्राप्त किया गया। पुन: चोट को रोकने के लिए चल रहा रखरखाव कार्यक्रम। पूर्ण शक्ति और कार्य बहाल।'
+          }
+        ],
+        tips: [
+          'पुन: टूटने को रोकने के लिए वजन-सहन प्रतिबंधों का सख्ती से पालन करें',
+          'सूजन को कम करने के लिए पैर को हृदय के स्तर से ऊपर रखें',
+          'रक्त के थक्के को रोकने के लिए संपीड़न स्टॉकिंग्स पहनें',
+          'सभी निर्धारित फिजिकल थेरेपी व्यायामों को परिश्रमपूर्वक पूरा करें',
+          'निर्देशानुसार बूट से नियमित जूते में धीरे-धीरे संक्रमण करें',
+          'तब तक अचानक गतिविधियों, कूदने या दौड़ने से बचें जब तक मंजूरी नहीं मिलती',
+          'किसी भी बढ़े हुए दर्द, सूजन, या घाव जल निकासी की तुरंत रिपोर्ट करें',
+          'नियमित व्यायामों के माध्यम से पिंडली की लचीलापन और शक्ति बनाए रखें',
+          'नियमित जूते में संक्रमण करते समय अस्थायी रूप से एड़ी लिफ्टों का उपयोग करें',
+          'धैर्य रखें - पूर्ण रिकवरी में 9-12 महीने लगते हैं'
+        ]
+      }
+    },
+    faqs: {
+      en: [
+        {
+          question: 'What causes Achilles tendon rupture?',
+          answer: 'Achilles tendon ruptures typically occur due to sudden forceful plantar flexion (pushing off), often during sports like basketball, tennis, or badminton. Risk factors include previous tendinitis, steroid injections, fluoroquinolone antibiotics, sudden increase in activity level, and age 30-50 years. Weekend warriors who are inactive during the week but engage in intense weekend sports are particularly susceptible.'
+        },
+        {
+          question: 'Can Achilles tendon rupture heal without surgery?',
+          answer: 'While non-surgical treatment with immobilization is possible, surgical repair is generally recommended for active individuals and complete ruptures. Surgery significantly reduces re-rupture rates (3-5% vs 10-15% with conservative treatment), provides better strength recovery, and allows earlier return to activities. However, non-surgical treatment may be considered for elderly, sedentary patients with medical contraindications to surgery.'
+        },
+        {
+          question: 'What is the risk of re-rupture after surgery?',
+          answer: 'With modern surgical techniques and proper rehabilitation, re-rupture rates are low (3-5%). Risk factors for re-rupture include premature return to activities, inadequate rehabilitation, poor surgical technique, smoking, and chronic tendon degeneration. Following post-operative protocols strictly and completing full rehabilitation significantly minimizes this risk.'
+        },
+        {
+          question: 'When can I drive after Achilles tendon repair?',
+          answer: 'For left leg surgery with automatic transmission, driving may resume after 2-4 weeks when pain-free. For right leg surgery or manual transmission, wait until out of boot and able to perform emergency braking (typically 8-10 weeks). Always consult your surgeon before resuming driving.'
+        },
+        {
+          question: 'Will I regain full strength in my calf?',
+          answer: 'Most patients regain 85-95% of their pre-injury strength with dedicated rehabilitation. Complete symmetry between legs may not always be achieved, but functional outcomes are excellent. Continued strengthening exercises for 12-18 months optimize recovery. Elite athletes may require longer rehabilitation periods.'
+        },
+        {
+          question: 'What is the difference between open and minimally invasive repair?',
+          answer: 'Open repair uses a larger incision providing direct visualization of the tendon, allowing anatomical repair and assessment of tissue quality. Minimally invasive techniques use smaller incisions with percutaneous suturing, resulting in less scarring and potentially faster healing, but with slightly higher risk of nerve injury. Dr. Kumar selects the appropriate technique based on individual patient factors and rupture characteristics.'
+        },
+        {
+          question: 'Can I play sports after Achilles tendon repair?',
+          answer: 'Yes, most patients return to sports within 6-9 months post-surgery, with some taking up to 12 months for complete confidence. Low-impact activities like swimming and cycling can begin at 3-4 months. High-impact sports requiring jumping and cutting movements should wait until strength is at least 90% of the uninjured leg and clearance is given by your surgeon and physical therapist.'
+        },
+        {
+          question: 'What are the potential complications?',
+          answer: 'Potential complications include re-rupture (3-5%), infection (1-2%), nerve injury causing numbness along outer foot (5-10%), wound healing problems, deep vein thrombosis, scar adhesion, calf weakness, and ankle stiffness. At Arthroscenter, our complication rates are among the lowest due to meticulous surgical technique and comprehensive post-operative care. Most complications can be prevented or effectively managed with early detection.'
+        },
+        {
+          question: 'How much does Achilles tendon repair cost in Bihar?',
+          answer: 'At Arthroscenter Patna, Achilles tendon repair costs range from ₹60,000-₹1,20,000 depending on technique (open vs minimally invasive), hospital stay duration, and whether augmentation is needed. This includes surgeon fees, anesthesia, hospital charges, implants/sutures, and immediate post-operative care. Insurance coverage is available for most policies. We provide transparent pricing and flexible payment options.'
+        },
+        {
+          question: 'What should I expect during the first week after surgery?',
+          answer: 'The first week involves significant pain and swelling, managed with medications. Your leg will be in a cast or boot with toes pointed downward, and you must use crutches without putting any weight on the operated leg. Keeping the leg elevated above heart level as much as possible is crucial. You will have a follow-up appointment within 10-14 days for wound check and suture removal. Most patients report the first week as the most challenging but pain improves significantly after that.'
+        }
+      ],
+      hi: [
+        {
+          question: 'एच्लीस टेंडन टूटने का क्या कारण है?',
+          answer: 'एच्लीस टेंडन टूटना आमतौर पर अचानक बलपूर्वक प्लांटर फ्लेक्सन (धक्का देने) के कारण होता है, अक्सर बास्केटबॉल, टेनिस, या बैडमिंटन जैसे खेलों के दौरान। जोखिम कारकों में पिछला टेंडिनाइटिस, स्टेरॉयड इंजेक्शन, फ्लूरोक्विनोलोन एंटीबायोटिक्स, गतिविधि स्तर में अचानक वृद्धि, और 30-50 वर्ष की आयु शामिल हैं। सप्ताहांत योद्धा जो सप्ताह के दौरान निष्क्रिय हैं लेकिन गहन सप्ताहांत खेलों में संलग्न हैं विशेष रूप से अतिसंवेदनशील हैं।'
+        },
+        {
+          question: 'क्या एच्लीस टेंडन टूटना सर्जरी के बिना ठीक हो सकता है?',
+          answer: 'जबकि स्थिरीकरण के साथ गैर-शल्य चिकित्सा उपचार संभव है, सक्रिय व्यक्तियों और पूर्ण टूटने के लिए शल्य चिकित्सा मरम्मत आम तौर पर अनुशंसित है। सर्जरी महत्वपूर्ण रूप से पुन: टूटने की दरों को कम करती है (रूढ़िवादी उपचार के साथ 3-5% बनाम 10-15%), बेहतर शक्ति रिकवरी प्रदान करती है, और गतिविधियों में पहले वापसी की अनुमति देती है। हालांकि, गैर-शल्य चिकित्सा उपचार बुजुर्ग, गतिहीन रोगियों के लिए विचार किया जा सकता है जिनके पास सर्जरी के लिए चिकित्सा contraindications हैं।'
+        },
+        {
+          question: 'सर्जरी के बाद पुन: टूटने का जोखिम क्या है?',
+          answer: 'आधुनिक शल्य चिकित्सा तकनीकों और उचित पुनर्वास के साथ, पुन: टूटने की दरें कम हैं (3-5%)। पुन: टूटने के लिए जोखिम कारकों में गतिविधियों में समय से पहले वापसी, अपर्याप्त पुनर्वास, खराब शल्य चिकित्सा तकनीक, धूम्रपान, और पुरानी टेंडन अपक्षय शामिल हैं। पोस्ट-ऑपरेटिव प्रोटोकॉल का सख्ती से पालन करना और पूर्ण पुनर्वास को पूरा करना इस जोखिम को काफी कम करता है।'
+        },
+        {
+          question: 'एच्लीस टेंडन रिपेयर के बाद मैं कब ड्राइव कर सकता हूं?',
+          answer: 'ऑटोमैटिक ट्रांसमिशन के साथ बाएं पैर की सर्जरी के लिए, दर्द-मुक्त होने के बाद 2-4 सप्ताह के बाद ड्राइविंग फिर से शुरू हो सकती है। दाएं पैर की सर्जरी या मैनुअल ट्रांसमिशन के लिए, बूट से बाहर होने और आपातकालीन ब्रेकिंग करने में सक्षम होने तक प्रतीक्षा करें (आमतौर पर 8-10 सप्ताह)। ड्राइविंग फिर से शुरू करने से पहले हमेशा अपने सर्जन से परामर्श करें।'
+        },
+        {
+          question: 'क्या मैं अपनी पिंडली में पूर्ण शक्ति हासिल करूंगा?',
+          answer: 'अधिकांश रोगी समर्पित पुनर्वास के साथ अपनी पूर्व-चोट शक्ति का 85-95% हासिल करते हैं। पैरों के बीच पूर्ण समरूपता हमेशा प्राप्त नहीं हो सकती है, लेकिन कार्यात्मक परिणाम उत्कृष्ट हैं। 12-18 महीनों के लिए निरंतर मजबूत बनाने के व्यायाम रिकवरी को अनुकूलित करते हैं। एलीट एथलीटों को लंबी पुनर्वास अवधि की आवश्यकता हो सकती है।'
+        },
+        {
+          question: 'ओपन और न्यूनतम आक्रामक मरम्मत के बीच क्या अंतर है?',
+          answer: 'ओपन रिपेयर एक बड़े चीरे का उपयोग करता है जो टेंडन का प्रत्यक्ष दृश्य प्रदान करता है, शारीरिक मरम्मत और ऊतक गुणवत्ता के आकलन की अनुमति देता है। न्यूनतम आक्रामक तकनीकें पर्क्यूटेनियस सिलाई के साथ छोटे चीरों का उपयोग करती हैं, जिसके परिणामस्वरूप कम निशान और संभावित रूप से तेजी से उपचार होता है, लेकिन तंत्रिका चोट के थोड़े अधिक जोखिम के साथ। डॉ. कुमार व्यक्तिगत रोगी कारकों और टूटने की विशेषताओं के आधार पर उपयुक्त तकनीक का चयन करते हैं।'
+        },
+        {
+          question: 'क्या मैं एच्लीस टेंडन रिपेयर के बाद खेल खेल सकता हूं?',
+          answer: 'हां, अधिकांश रोगी सर्जरी के 6-9 महीने के भीतर खेलों में वापस आते हैं, कुछ पूर्ण आत्मविश्वास के लिए 12 महीने तक लेते हैं। तैराकी और साइकलिंग जैसी कम-प्रभाव गतिविधियां 3-4 महीने में शुरू हो सकती हैं। कूदने और काटने की गतिविधियों की आवश्यकता वाले उच्च-प्रभाव खेलों को तब तक इंतजार करना चाहिए जब तक शक्ति कम से कम गैर-घायल पैर के 90% तक न हो और आपके सर्जन और फिजिकल थेरेपिस्ट द्वारा मंजूरी न मिले।'
+        },
+        {
+          question: 'संभावित जटिलताएं क्या हैं?',
+          answer: 'संभावित जटिलताओं में पुन: टूटना (3-5%), संक्रमण (1-2%), बाहरी पैर के साथ सुन्नता का कारण बनने वाली तंत्रिका चोट (5-10%), घाव भरने की समस्याएं, गहरी शिरा घनास्त्रता, निशान आसंजन, पिंडली कमजोरी, और टखने की कठोरता शामिल हैं। आर्थोसेंटर में, सावधानीपूर्वक शल्य चिकित्सा तकनीक और व्यापक पोस्ट-ऑपरेटिव देखभाल के कारण हमारी जटिलता दरें सबसे कम हैं। अधिकांश जटिलताओं को शीघ्र पता लगाने के साथ रोका या प्रभावी ढंग से प्रबंधित किया जा सकता है।'
+        },
+        {
+          question: 'बिहार में एच्लीस टेंडन रिपेयर की लागत कितनी है?',
+          answer: 'आर्थोसेंटर पटना में, एच्लीस टेंडन रिपेयर की लागत तकनीक (ओपन बनाम न्यूनतम आक्रामक), अस्पताल में रहने की अवधि, और क्या संवर्धन की आवश्यकता है, के आधार पर ₹60,000-₹1,20,000 की सीमा में है। इसमें सर्जन शुल्क, एनेस्थीसिया, अस्पताल शुल्क, इम्प्लांट/टांके, और तत्काल पोस्ट-ऑपरेटिव देखभाल शामिल है। अधिकांश पॉलिसियों के लिए बीमा कवरेज उपलब्ध है। हम पारदर्शी मूल्य निर्धारण और लचीले भुगतान विकल्प प्रदान करते हैं।'
+        },
+        {
+          question: 'सर्जरी के बाद पहले सप्ताह के दौरान मुझे क्या उम्मीद करनी चाहिए?',
+          answer: 'पहले सप्ताह में महत्वपूर्ण दर्द और सूजन शामिल है, दवाओं से प्रबंधित। आपका पैर नीचे की ओर इशारा करते हुए पैर की उंगलियों के साथ कास्ट या बूट में होगा, और आपको ऑपरेशन किए गए पैर पर कोई वजन डाले बिना बैसाखी का उपयोग करना होगा। घाव जांच और टांके हटाने के लिए आपको 10-14 दिनों के भीतर एक फॉलो-अप अपॉइंटमेंट होगा। अधिकांश रोगी पहले सप्ताह को सबसे चुनौतीपूर्ण के रूप में रिपोर्ट करते हैं लेकिन उसके बाद दर्द में काफी सुधार होता है।'
+        }
+      ]
+    },
+    meta: {
+      en: {
+        title: 'Achilles Tendon Repair Surgery Bihar | Expert Treatment Patna | Dr. Gurudeo Kumar',
+        description: 'Expert Achilles tendon repair surgery in Bihar by Dr. Gurudeo Kumar. 150+ successful cases. Advanced surgical techniques, comprehensive rehabilitation. Book consultation at ₹999.',
+        keywords: ['achilles tendon repair', 'achilles rupture surgery', 'achilles tendon tear treatment', 'sports injury surgery', 'tendon repair Bihar', 'Dr. Gurudeo Kumar', 'Arthoscenter Patna', 'achilles surgery cost', 'ankle tendon surgery', 'sports medicine Bihar']
+      },
+      hi: {
+        title: 'बिहार में एच्लीस टेंडन रिपेयर सर्जरी | पटना में विशेषज्ञ उपचार | डॉ. गुरुदेव कुमार',
+        description: 'डॉ. गुरुदेव कुमार द्वारा बिहार में विशेषज्ञ एच्लीस टेंडन रिपेयर सर्जरी। 150+ सफल मामले। उन्नत शल्य चिकित्सा तकनीक, व्यापक पुनर्वास। ₹999 पर परामर्श बुक करें।',
+        keywords: ['एच्लीस टेंडन रिपेयर', 'एच्लीस टूटना सर्जरी', 'एच्लीस टेंडन टियर उपचार', 'खेल चोट सर्जरी', 'बिहार में टेंडन रिपेयर', 'डॉ. गुरुदेव कुमार', 'अर्थोसेंटर पटना']
+      }
+    },
+    relatedSurgeries: ['ankle-ligament-reconstruction', 'hamstring-repair', 'patellar-tendon-repair', 'biceps-tendon-repair']
+  },
+  'ankle-ligament-reconstruction': {
+    id: 'ankle-ligament-reconstruction',
+    category: 'sports-medicine',
+    slug: 'ankle-ligament-reconstruction',
+    title: {
+      en: 'Ankle Ligament Reconstruction',
+      hi: 'एंकल लिगामेंट रिकंस्ट्रक्शन'
+    },
+    shortDesc: {
+      en: 'Surgical repair or reconstruction of torn ankle ligaments to restore stability and prevent chronic instability.',
+      hi: 'स्थिरता को बहाल करने और पुरानी अस्थिरता को रोकने के लिए फटे हुए एंकल लिगामेंट की शल्य चिकित्सा मरम्मत या पुनर्निर्माण।'
+    },
+    overview: {
+      en: `Ankle ligament reconstruction is a surgical procedure to repair or reconstruct damaged lateral ankle ligaments, most commonly the anterior talofibular ligament (ATFL) and calcaneofibular ligament (CFL). This procedure is indicated for patients with chronic ankle instability who have failed conservative treatment and continue to experience recurrent ankle sprains and giving-way episodes.
+
+At Arthroscenter, Dr. Gurudeo Kumar has performed over 200 ankle ligament reconstruction surgeries using both traditional open techniques and modern arthroscopic-assisted methods. Our approach focuses on restoring anatomical stability while maintaining ankle range of motion and proprioception. We utilize both direct repair techniques (Brostrom procedure) and reconstruction methods using tendon grafts when needed.
+
+Chronic ankle instability affects up to 40% of patients following severe ankle sprains. When non-surgical treatments including bracing, physical therapy, and activity modification fail to provide adequate stability, surgical reconstruction offers excellent outcomes. Success rates exceed 90% for return to sports and daily activities with proper surgical technique and rehabilitation.`,
+      hi: `एंकल लिगामेंट रिकंस्ट्रक्शन क्षतिग्रस्त पार्श्व एंकल लिगामेंट की मरम्मत या पुनर्निर्माण के लिए एक शल्य चिकित्सा प्रक्रिया है, सबसे आमतौर पर एंटीरियर टैलोफिबुलर लिगामेंट (ATFL) और कैल्केनियोफिबुलर लिगामेंट (CFL)। यह प्रक्रिया पुरानी एंकल अस्थिरता वाले रोगियों के लिए संकेतित है जो रूढ़िवादी उपचार विफल हो गए हैं और आवर्ती एंकल मोच और giving-way एपिसोड का अनुभव करना जारी रखते हैं।
+
+आर्थोसेंटर में, डॉ. गुरुदेव कुमार ने पारंपरिक ओपन तकनीकों और आधुनिक आर्थ्रोस्कोपिक-सहायता प्राप्त विधियों दोनों का उपयोग करके 200 से अधिक एंकल लिगामेंट रिकंस्ट्रक्शन सर्जरी की है। हमारा दृष्टिकोण एंकल गति सीमा और प्रोप्रियोसेप्शन को बनाए रखते हुए शारीरिक स्थिरता को बहाल करने पर केंद्रित है। हम जरूरत पड़ने पर टेंडन ग्राफ्ट का उपयोग करके प्रत्यक्ष मरम्मत तकनीकों (ब्रोस्ट्रोम प्रक्रिया) और पुनर्निर्माण विधियों दोनों का उपयोग करते हैं।
+
+पुरानी एंकल अस्थिरता गंभीर एंकल मोच के बाद 40% तक रोगियों को प्रभावित करती है। जब ब्रेसिंग, फिजिकल थेरेपी, और गतिविधि संशोधन सहित गैर-शल्य चिकित्सा उपचार पर्याप्त स्थिरता प्रदान करने में विफल रहते हैं, तो शल्य चिकित्सा पुनर्निर्माण उत्कृष्ट परिणाम प्रदान करता है।`
+    },
+    symptoms: {
+      en: [
+        'Recurrent ankle sprains with minimal provocation',
+        'Persistent feeling of ankle instability or "giving way"',
+        'Chronic ankle pain, especially on uneven surfaces',
+        'Swelling and tenderness over lateral ankle',
+        'Difficulty walking on uneven ground or participating in sports',
+        'Sensation of ankle rolling outward frequently',
+        'Inability to trust the ankle during activities',
+        'Pain and instability that persists despite ankle bracing',
+        'Previous history of multiple ankle sprains',
+        'Reduced confidence in ankle stability affecting quality of life'
+      ],
+      hi: [
+        'न्यूनतम उत्तेजना के साथ आवर्ती एंकल मोच',
+        'एंकल अस्थिरता या "giving way" की लगातार भावना',
+        'पुरानी एंकल दर्द, विशेष रूप से असमान सतहों पर',
+        'पार्श्व एंकल पर सूजन और कोमलता',
+        'असमान जमीन पर चलने या खेलों में भाग लेने में कठिनाई',
+        'एंकल अक्सर बाहर की ओर रोलिंग की अनुभूति',
+        'गतिविधियों के दौरान एंकल पर भरोसा करने में असमर्थता',
+        'एंकल ब्रेसिंग के बावजूद बना रहने वाला दर्द और अस्थिरता',
+        'कई एंकल मोच का पिछला इतिहास',
+        'जीवन की गुणवत्ता को प्रभावित करने वाली एंकल स्थिरता में कम आत्मविश्वास'
+      ]
+    },
+    procedure: {
+      en: {
+        preparation: 'Pre-operative evaluation includes detailed history of ankle sprains, physical examination with stress testing, X-rays to rule out bone injuries, and MRI to assess ligament damage. Patients complete a course of physical therapy to optimize muscle strength before surgery. Blood tests and medical clearance are obtained, and patients are counseled on realistic expectations and rehabilitation requirements.',
+        steps: [
+          'Regional or general anesthesia administered with tourniquet application',
+          'Incision made over lateral ankle following skin creases',
+          'Damaged ATFL and CFL ligaments identified and assessed',
+          'For Brostrom procedure: ligament ends freshened and directly repaired using suture anchors',
+          'For reconstruction: tendon graft (hamstring or peroneus brevis) harvested if native tissue inadequate',
+          'Graft passed through bone tunnels and secured to restore anatomical ligament position',
+          'Ankle tested for stability and appropriate tension',
+          'Incision closed in layers with attention to cosmetic outcome'
+        ],
+        duration: '1.5-2.5 hours',
+        anesthesia: 'Regional or General Anesthesia'
+      },
+      hi: {
+        preparation: 'प्री-ऑपरेटिव मूल्यांकन में एंकल मोच का विस्तृत इतिहास, तनाव परीक्षण के साथ शारीरिक परीक्षा, हड्डी चोटों को बाहर करने के लिए एक्स-रे, और लिगामेंट क्षति का आकलन करने के लिए MRI शामिल है। रोगी सर्जरी से पहले मांसपेशियों की शक्ति को अनुकूलित करने के लिए फिजिकल थेरेपी का एक कोर्स पूरा करते हैं। रक्त परीक्षण और चिकित्सा मंजूरी प्राप्त की जाती है, और रोगियों को यथार्थवादी अपेक्षाओं और पुनर्वास आवश्यकताओं पर परामर्श दिया जाता है।',
+        steps: [
+          'टूर्निकेट अनुप्रयोग के साथ क्षेत्रीय या जनरल एनेस्थीसिया दिया गया',
+          'त्वचा क्रीज़ के बाद पार्श्व एंकल पर चीरा लगाया गया',
+          'क्षतिग्रस्त ATFL और CFL लिगामेंट की पहचान और मूल्यांकन',
+          'ब्रोस्ट्रोम प्रक्रिया के लिए: लिगामेंट सिरों को ताज़ा किया गया और सीधे सिवनी एंकर का उपयोग करके मरम्मत की गई',
+          'पुनर्निर्माण के लिए: यदि मूल ऊतक अपर्याप्त है तो टेंडन ग्राफ्ट (हैमस्ट्रिंग या पेरोनियस ब्रेविस) काटा गया',
+          'शारीरिक लिगामेंट स्थिति को बहाल करने के लिए ग्राफ्ट हड्डी सुरंगों के माध्यम से पारित और सुरक्षित',
+          'स्थिरता और उचित तनाव के लिए एंकल परीक्षण',
+          'कॉस्मेटिक परिणाम पर ध्यान देने के साथ परतों में चीरा बंद'
+        ],
+        duration: '1.5-2.5 घंटे',
+        anesthesia: 'क्षेत्रीय या जनरल एनेस्थीसिया'
+      }
+    },
+    recovery: {
+      en: {
+        timeline: [
+          {
+            week: 'Week 0-2',
+            activity: 'Immediate Post-operative',
+            description: 'Non-weight bearing in boot/cast. Leg elevation, ice, pain management. Early toe exercises to prevent stiffness.'
+          },
+          {
+            week: 'Week 2-6',
+            activity: 'Protected Mobilization',
+            description: 'Transition to walking boot. Progressive weight bearing from partial to full. Range of motion exercises initiated under supervision.'
+          },
+          {
+            week: 'Week 6-12',
+            activity: 'Strengthening Phase',
+            description: 'Boot discontinued. Full weight bearing achieved. Progressive resistance exercises, proprioception training, balance activities.'
+          },
+          {
+            week: 'Week 12-16',
+            activity: 'Advanced Rehabilitation',
+            description: 'Sport-specific training begins. Running, jumping, cutting movements gradually introduced. Continued strengthening program.'
+          },
+          {
+            week: 'Month 4-6',
+            activity: 'Return to Sports',
+            description: 'Gradual return to competitive sports with or without brace. Ongoing ankle strengthening and proprioception exercises.'
+          },
+          {
+            week: 'Month 6-12',
+            activity: 'Full Recovery',
+            description: 'Unrestricted activities. Maintenance exercise program continued. Annual follow-up recommended.'
+          }
+        ],
+        tips: [
+          'Adhere strictly to weight-bearing restrictions to protect healing ligaments',
+          'Perform prescribed ankle exercises daily to restore range of motion',
+          'Use ice and elevation to control swelling in early recovery',
+          'Progress gradually through rehabilitation phases - patience is crucial',
+          'Proprioception training is essential to prevent re-injury',
+          'Consider using ankle brace during high-risk activities initially',
+          'Maintain calf and ankle muscle strength through regular exercises',
+          'Avoid high-impact activities until cleared by your surgeon',
+          'Report any feelings of instability or giving-way immediately',
+          'Complete the full rehabilitation program even after feeling better'
+        ]
+      },
+      hi: {
+        timeline: [
+          {
+            week: 'सप्ताह 0-2',
+            activity: 'तत्काल पोस्ट-ऑपरेटिव',
+            description: 'बूट/कास्ट में गैर-वजन सहन। पैर उन्नयन, बर्फ, दर्द प्रबंधन। कठोरता को रोकने के लिए शीघ्र पैर की उंगली व्यायाम।'
+          },
+          {
+            week: 'सप्ताह 2-6',
+            activity: 'संरक्षित गतिशीलता',
+            description: 'चलने वाले बूट में संक्रमण। आंशिक से पूर्ण तक प्रगतिशील वजन सहन। पर्यवेक्षण के तहत गति सीमा व्यायाम शुरू।'
+          },
+          {
+            week: 'सप्ताह 6-12',
+            activity: 'मजबूत बनाने का चरण',
+            description: 'बूट बंद। पूर्ण वजन सहन प्राप्त। प्रगतिशील प्रतिरोध व्यायाम, प्रोप्रियोसेप्शन प्रशिक्षण, संतुलन गतिविधियां।'
+          },
+          {
+            week: 'सप्ताह 12-16',
+            activity: 'उन्नत पुनर्वास',
+            description: 'खेल-विशिष्ट प्रशिक्षण शुरू होता है। दौड़ना, कूदना, काटने की गतिविधियों को धीरे-धीरे पेश किया गया। निरंतर मजबूत बनाने का कार्यक्रम।'
+          },
+          {
+            week: 'महीना 4-6',
+            activity: 'खेलों में वापसी',
+            description: 'ब्रेस के साथ या बिना प्रतिस्पर्धी खेलों में क्रमिक वापसी। चल रहे एंकल मजबूत बनाने और प्रोप्रियोसेप्शन व्यायाम।'
+          },
+          {
+            week: 'महीना 6-12',
+            activity: 'पूर्ण रिकवरी',
+            description: 'अप्रतिबंधित गतिविधियां। रखरखाव व्यायाम कार्यक्रम जारी। वार्षिक फॉलो-अप अनुशंसित।'
+          }
+        ],
+        tips: [
+          'उपचार लिगामेंट की रक्षा के लिए वजन-सहन प्रतिबंधों का सख्ती से पालन करें',
+          'गति सीमा को बहाल करने के लिए निर्धारित एंकल व्यायाम दैनिक करें',
+          'शुरुआती रिकवरी में सूजन को नियंत्रित करने के लिए बर्फ और उन्नयन का उपयोग करें',
+          'पुनर्वास चरणों के माध्यम से धीरे-धीरे प्रगति करें - धैर्य महत्वपूर्ण है',
+          'पुन: चोट को रोकने के लिए प्रोप्रियोसेप्शन प्रशिक्षण आवश्यक है',
+          'शुरुआत में उच्च-जोखिम गतिविधियों के दौरान एंकल ब्रेस का उपयोग करने पर विचार करें',
+          'नियमित व्यायामों के माध्यम से पिंडली और एंकल मांसपेशियों की शक्ति बनाए रखें',
+          'अपने सर्जन द्वारा मंजूरी मिलने तक उच्च-प्रभाव गतिविधियों से बचें',
+          'अस्थिरता या giving-way की किसी भी भावना की तुरंत रिपोर्ट करें',
+          'बेहतर महसूस करने के बाद भी पूर्ण पुनर्वास कार्यक्रम पूरा करें'
+        ]
+      }
+    },
+    faqs: {
+      en: [
+        {
+          question: 'What is the difference between ankle ligament repair and reconstruction?',
+          answer: 'Ankle ligament repair (Brostrom procedure) involves directly suturing the torn native ligament tissue back together when the tissue quality is adequate. Reconstruction uses a tendon graft (usually hamstring or peroneus brevis) to create a new ligament when the native tissue is poor quality, attenuated, or insufficient. Dr. Kumar determines the best approach during surgery based on tissue quality and chronicity of instability.'
+        },
+        {
+          question: 'How successful is ankle ligament reconstruction?',
+          answer: 'Ankle ligament reconstruction has excellent success rates, with 85-95% of patients achieving stable ankles and returning to desired activities. Success depends on proper surgical technique, adequate rehabilitation, and patient compliance with restrictions. Re-injury rates are low (less than 5%) when patients complete full rehabilitation and avoid premature return to high-risk activities.'
+        },
+        {
+          question: 'Will I need to wear a brace after surgery?',
+          answer: 'Initially, you will wear a boot/cast for 6 weeks. After that, an ankle brace may be recommended during sports and high-risk activities for 6-12 months. Some patients choose to continue bracing during sports long-term for added confidence, though it is not always medically necessary once full strength and stability are achieved.'
+        },
+        {
+          question: 'Can I play sports after ankle ligament reconstruction?',
+          answer: 'Yes, most patients return to sports including basketball, football, volleyball, and running. Low-impact sports can resume at 3-4 months, while high-impact cutting and jumping sports typically require 5-6 months. Elite athletes may take up to 9 months to return to competitive levels. Success rates for return to sports exceed 90% with proper rehabilitation.'
+        },
+        {
+          question: 'What happens if I don\'t get surgery for chronic ankle instability?',
+          answer: 'Without surgery, chronic ankle instability can lead to recurrent sprains, progressive cartilage damage, early ankle arthritis, and chronic pain. Each subsequent sprain can cause further damage to the ligaments and cartilage. Many patients become limited in activities and quality of life. Surgery is recommended when conservative treatments fail to provide adequate stability.'
+        },
+        {
+          question: 'How long will I be off work after surgery?',
+          answer: 'For desk jobs with minimal walking, return to work is possible within 2-3 weeks using crutches or a knee scooter. For jobs requiring standing or walking, expect 6-8 weeks off work. Manual labor jobs may require 3-4 months before full return. Working from home can often begin within 1-2 weeks post-surgery.'
+        },
+        {
+          question: 'Is arthroscopic ankle ligament reconstruction better than open surgery?',
+          answer: 'Both approaches have excellent outcomes. Arthroscopic-assisted techniques offer smaller incisions, less scarring, and potentially faster initial recovery, but require specialized equipment and expertise. Open Brostrom procedures provide excellent visualization and repair with proven long-term results. Dr. Kumar uses both techniques depending on the specific pathology and patient factors.'
+        },
+        {
+          question: 'What are the risks of ankle ligament reconstruction?',
+          answer: 'Complications are uncommon but include infection (less than 2%), nerve injury causing numbness (3-5%), wound healing problems, stiffness, persistent instability, and complex regional pain syndrome. Recurrent instability occurs in less than 5% of cases. At Arthoscenter, our complication rates are below national averages due to meticulous technique and comprehensive post-operative protocols.'
+        },
+        {
+          question: 'How much does ankle ligament reconstruction cost in Bihar?',
+          answer: 'At Arthoscenter Patna, ankle ligament reconstruction costs range from ₹70,000-₹1,40,000 depending on the technique used (repair vs reconstruction with graft), hospital stay, and implant needs. This includes all surgical fees, anesthesia, hospital charges, implants, and immediate post-operative care. Insurance coverage is available for most policies. We provide detailed cost estimates during consultation.'
+        },
+        {
+          question: 'How is chronic ankle instability diagnosed?',
+          answer: 'Diagnosis involves detailed history of recurrent sprains and giving-way episodes, physical examination with stress tests (anterior drawer and talar tilt), and imaging. X-rays rule out bone injuries and arthritis. MRI assesses ligament damage and cartilage condition. Some patients may undergo stress X-rays to measure degree of instability. Proper diagnosis ensures appropriate treatment selection.'
+        }
+      ],
+      hi: [
+        {
+          question: 'एंकल लिगामेंट रिपेयर और पुनर्निर्माण के बीच क्या अंतर है?',
+          answer: 'एंकल लिगामेंट रिपेयर (ब्रोस्ट्रोम प्रक्रिया) में सीधे फटे हुए मूल लिगामेंट ऊतक को वापस एक साथ सिलाई करना शामिल है जब ऊतक गुणवत्ता पर्याप्त होती है। पुनर्निर्माण एक नया लिगामेंट बनाने के लिए टेंडन ग्राफ्ट (आमतौर पर हैमस्ट्रिंग या पेरोनियस ब्रेविस) का उपयोग करता है जब मूल ऊतक खराब गुणवत्ता, क्षीण, या अपर्याप्त होता है। डॉ. कुमार ऊतक गुणवत्ता और अस्थिरता की पुरानीता के आधार पर सर्जरी के दौरान सबसे अच्छा दृष्टिकोण निर्धारित करते हैं।'
+        },
+        {
+          question: 'एंकल लिगामेंट रिकंस्ट्रक्शन कितना सफल है?',
+          answer: 'एंकल लिगामेंट रिकंस्ट्रक्शन की उत्कृष्ट सफलता दर है, 85-95% रोगी स्थिर एंकल प्राप्त करते हैं और वांछित गतिविधियों में वापस आते हैं। सफलता उचित शल्य चिकित्सा तकनीक, पर्याप्त पुनर्वास, और प्रतिबंधों के साथ रोगी अनुपालन पर निर्भर करती है। पुन: चोट दरें कम हैं (5% से कम) जब रोगी पूर्ण पुनर्वास पूरा करते हैं और उच्च-जोखिम गतिविधियों में समय से पहले वापसी से बचते हैं।'
+        },
+        {
+          question: 'क्या मुझे सर्जरी के बाद ब्रेस पहनने की आवश्यकता होगी?',
+          answer: 'शुरुआत में, आप 6 सप्ताह के लिए बूट/कास्ट पहनेंगे। उसके बाद, 6-12 महीनों के लिए खेल और उच्च-जोखिम गतिविधियों के दौरान एक एंकल ब्रेस की सिफारिश की जा सकती है। कुछ रोगी अतिरिक्त आत्मविश्वास के लिए लंबे समय तक खेलों के दौरान ब्रेसिंग जारी रखने का विकल्प चुनते हैं, हालांकि पूर्ण शक्ति और स्थिरता प्राप्त होने के बाद यह हमेशा चिकित्सकीय रूप से आवश्यक नहीं है।'
+        },
+        {
+          question: 'क्या मैं एंकल लिगामेंट रिकंस्ट्रक्शन के बाद खेल खेल सकता हूं?',
+          answer: 'हां, अधिकांश रोगी बास्केटबॉल, फुटबॉल, वॉलीबॉल, और दौड़ने सहित खेलों में वापस आते हैं। कम-प्रभाव खेल 3-4 महीने में फिर से शुरू हो सकते हैं, जबकि उच्च-प्रभाव काटने और कूदने वाले खेलों को आमतौर पर 5-6 महीने की आवश्यकता होती है। एलीट एथलीटों को प्रतिस्पर्धी स्तरों पर वापस आने में 9 महीने तक लग सकते हैं। उचित पुनर्वास के साथ खेलों में वापसी की सफलता दर 90% से अधिक है।'
+        },
+        {
+          question: 'यदि मैं पुरानी एंकल अस्थिरता के लिए सर्जरी नहीं कराता तो क्या होता है?',
+          answer: 'सर्जरी के बिना, पुरानी एंकल अस्थिरता आवर्ती मोच, प्रगतिशील कार्टिलेज क्षति, शुरुआती एंकल गठिया, और पुरानी दर्द का कारण बन सकती है। प्रत्येक बाद की मोच लिगामेंट और कार्टिलेज को और नुकसान पहुंचा सकती है। कई रोगी गतिविधियों और जीवन की गुणवत्ता में सीमित हो जाते हैं। जब रूढ़िवादी उपचार पर्याप्त स्थिरता प्रदान करने में विफल होते हैं तो सर्जरी की सिफारिश की जाती है।'
+        },
+        {
+          question: 'सर्जरी के बाद मैं कितने समय तक काम से दूर रहूंगा?',
+          answer: 'न्यूनतम चलने के साथ डेस्क नौकरियों के लिए, बैसाखी या घुटने स्कूटर का उपयोग करके 2-3 सप्ताह के भीतर काम पर वापसी संभव है। खड़े होने या चलने की आवश्यकता वाली नौकरियों के लिए, 6-8 सप्ताह की छुट्टी की उम्मीद करें। मैनुअल लेबर नौकरियों को पूर्ण वापसी से पहले 3-4 महीने की आवश्यकता हो सकती है। घर से काम करना अक्सर सर्जरी के बाद 1-2 सप्ताह के भीतर शुरू हो सकता है।'
+        },
+        {
+          question: 'क्या आर्थ्रोस्कोपिक एंकल लिगामेंट रिकंस्ट्रक्शन ओपन सर्जरी से बेहतर है?',
+          answer: 'दोनों दृष्टिकोणों में उत्कृष्ट परिणाम हैं। आर्थ्रोस्कोपिक-सहायता प्राप्त तकनीकें छोटे चीरे, कम निशान, और संभावित रूप से तेजी से शुरुआती रिकवरी प्रदान करती हैं, लेकिन विशेष उपकरण और विशेषज्ञता की आवश्यकता होती है। ओपन ब्रोस्ट्रोम प्रक्रियाएं सिद्ध दीर्घकालिक परिणामों के साथ उत्कृष्ट दृश्य और मरम्मत प्रदान करती हैं। डॉ. कुमार विशिष्ट पैथोलॉजी और रोगी कारकों के आधार पर दोनों तकनीकों का उपयोग करते हैं।'
+        },
+        {
+          question: 'एंकल लिगामेंट रिकंस्ट्रक्शन के जोखिम क्या हैं?',
+          answer: 'जटिलताएं असामान्य हैं लेकिन संक्रमण (2% से कम), सुन्नता का कारण बनने वाली तंत्रिका चोट (3-5%), घाव भरने की समस्याएं, कठोरता, लगातार अस्थिरता, और जटिल क्षेत्रीय दर्द सिंड्रोम शामिल हैं। आवर्ती अस्थिरता 5% से कम मामलों में होती है। आर्थोसेंटर में, सावधानीपूर्वक तकनीक और व्यापक पोस्ट-ऑपरेटिव प्रोटोकॉल के कारण हमारी जटिलता दरें राष्ट्रीय औसत से कम हैं।'
+        },
+        {
+          question: 'बिहार में एंकल लिगामेंट रिकंस्ट्रक्शन की लागत कितनी है?',
+          answer: 'आर्थोसेंटर पटना में, एंकल लिगामेंट रिकंस्ट्रक्शन की लागत उपयोग की गई तकनीक (ग्राफ्ट के साथ मरम्मत बनाम पुनर्निर्माण), अस्पताल में रहने, और इम्प्लांट जरूरतों के आधार पर ₹70,000-₹1,40,000 की सीमा में है। इसमें सभी शल्य चिकित्सा शुल्क, एनेस्थीसिया, अस्पताल शुल्क, इम्प्लांट, और तत्काल पोस्ट-ऑपरेटिव देखभाल शामिल है। अधिकांश पॉलिसियों के लिए बीमा कवरेज उपलब्ध है। हम परामर्श के दौरान विस्तृत लागत अनुमान प्रदान करते हैं।'
+        },
+        {
+          question: 'पुरानी एंकल अस्थिरता का निदान कैसे किया जाता है?',
+          answer: 'निदान में आवर्ती मोच और giving-way एपिसोड का विस्तृत इतिहास, तनाव परीक्षणों (एंटीरियर ड्रॉअर और टैलर टिल्ट) के साथ शारीरिक परीक्षा, और इमेजिंग शामिल है। एक्स-रे हड्डी चोटों और गठिया को बाहर करते हैं। MRI लिगामेंट क्षति और कार्टिलेज स्थिति का आकलन करता है। कुछ रोगियों को अस्थिरता की डिग्री को मापने के लिए तनाव एक्स-रे से गुजरना पड़ सकता है। उचित निदान उचित उपचार चयन सुनिश्चित करता है।'
+        }
+      ]
+    },
+    meta: {
+      en: {
+        title: 'Ankle Ligament Reconstruction Bihar | Ankle Instability Surgery Patna | Dr. Gurudeo Kumar',
+        description: 'Expert ankle ligament reconstruction in Bihar by Dr. Gurudeo Kumar. 200+ successful surgeries. Treatment for chronic ankle instability. Advanced techniques. ₹999 consultation.',
+        keywords: ['ankle ligament reconstruction', 'chronic ankle instability', 'ankle ligament repair', 'Brostrom procedure', 'lateral ankle reconstruction', 'ankle surgery Bihar', 'Dr. Gurudeo Kumar', 'Arthoscenter Patna', 'ankle instability treatment', 'recurrent ankle sprains']
+      },
+      hi: {
+        title: 'बिहार में एंकल लिगामेंट रिकंस्ट्रक्शन | पटना में एंकल अस्थिरता सर्जरी | डॉ. गुरुदेव कुमार',
+        description: 'डॉ. गुरुदेव कुमार द्वारा बिहार में विशेषज्ञ एंकल लिगामेंट रिकंस्ट्रक्शन। 200+ सफल सर्जरी। पुरानी एंकल अस्थिरता के लिए उपचार। उन्नत तकनीक। ₹999 परामर्श।',
+        keywords: ['एंकल लिगामेंट रिकंस्ट्रक्शन', 'पुरानी एंकल अस्थिरता', 'एंकल लिगामेंट रिपेयर', 'बिहार में एंकल सर्जरी', 'डॉ. गुरुदेव कुमार', 'अर्थोसेंटर पटना']
+      }
+    },
+    relatedSurgeries: ['achilles-tendon-repair', 'ankle-arthroscopy', 'ankle-fracture-surgery', 'cartilage-restoration']
+  },
+
+  'ankle-replacement': {
+    id: 'ankle-replacement',
+    category: 'joint-replacement',
+    slug: 'ankle-replacement',
+    title: {
+      en: 'Ankle Replacement',
+      hi: 'एंकल रिप्लेसमेंट'
+    },
+    shortDesc: {
+      en: 'Total ankle arthroplasty to replace damaged ankle joint with artificial implant',
+      hi: 'क्षतिग्रस्त एंकल जोड़ को कृत्रिम प्रत्यारोपण से बदलना'
+    },
+    overview: {
+      en: `Ankle Replacement, also known as Total Ankle Arthroplasty (TAA), is an advanced surgical procedure that replaces a severely damaged or arthritic ankle joint with an artificial implant. This procedure is designed for patients who have end-stage ankle arthritis that has not responded to conservative treatments such as medications, bracing, or injections.
+
+At Arthroscenter, Dr. Gurudeo Kumar offers comprehensive ankle replacement services using the latest generation prosthetics designed to mimic natural ankle movement. With over 150 successful ankle replacement procedures performed, our center employs minimally invasive techniques and patient-specific instrumentation to optimize outcomes and preserve bone stock.
+
+The procedure involves removing damaged bone and cartilage from the tibia and talus bones, then placing specially designed metal and polyethylene components to restore smooth joint motion. Unlike ankle fusion, ankle replacement maintains joint mobility while significantly reducing pain and improving function. Most patients experience substantial pain relief and return to walking and daily activities within 3-4 months.`,
+      hi: `एंकल रिप्लेसमेंट, जिसे टोटल एंकल आर्थ्रोप्लास्टी (TAA) के रूप में भी जाना जाता है, एक उन्नत सर्जिकल प्रक्रिया है जो गंभीर रूप से क्षतिग्रस्त या गठिया ग्रस्त एंकल जोड़ को एक कृत्रिम प्रत्यारोपण से बदल देती है। यह प्रक्रिया उन रोगियों के लिए डिज़ाइन की गई है जिनके पास अंतिम चरण का एंकल गठिया है जो दवाओं, ब्रेसिंग या इंजेक्शन जैसे रूढ़िवादी उपचारों का जवाब नहीं देता है।
+
+आर्थोसेंटर में, डॉ. गुरुदेव कुमार प्राकृतिक एंकल गति की नकल करने के लिए डिज़ाइन किए गए नवीनतम पीढ़ी के प्रोस्थेटिक्स का उपयोग करके व्यापक एंकल रिप्लेसमेंट सेवाएं प्रदान करते हैं। 150 से अधिक सफल एंकल रिप्लेसमेंट प्रक्रियाओं के साथ, हमारा केंद्र परिणामों को अनुकूलित करने और हड्डी स्टॉक को संरक्षित करने के लिए न्यूनतम आक्रामक तकनीकों और रोगी-विशिष्ट उपकरणों का उपयोग करता है।
+
+प्रक्रिया में टिबिया और टैलस हड्डियों से क्षतिग्रस्त हड्डी और उपास्थि को हटाना शामिल है, फिर चिकनी संयुक्त गति को बहाल करने के लिए विशेष रूप से डिज़ाइन किए गए धातु और पॉलीथीन घटकों को रखना। एंकल फ्यूजन के विपरीत, एंकल रिप्लेसमेंट दर्द को काफी कम करते हुए और कार्य को बेहतर बनाते हुए संयुक्त गतिशीलता बनाए रखता है। अधिकांश रोगियों को पर्याप्त दर्द से राहत मिलती है और 3-4 महीने के भीतर चलने और दैनिक गतिविधियों में वापस आ जाते हैं।`
+    },
+    symptoms: {
+      en: [
+        'Severe ankle pain that limits daily activities and walking',
+        'Pain that persists despite medications and conservative treatments',
+        'Significant stiffness and reduced range of motion in ankle',
+        'Swelling and inflammation in the ankle joint',
+        'Difficulty bearing weight on the affected ankle',
+        'Ankle deformity or visible joint changes',
+        'Inability to participate in sports or recreational activities',
+        'End-stage ankle arthritis confirmed on imaging studies',
+        'Failed previous ankle surgeries or conservative treatments',
+        'Chronic instability affecting quality of life'
+      ],
+      hi: [
+        'गंभीर एंकल दर्द जो दैनिक गतिविधियों और चलने को सीमित करता है',
+        'दवाओं और रूढ़िवादी उपचारों के बावजूद बना रहने वाला दर्द',
+        'एंकल में महत्वपूर्ण कठोरता और गति की सीमा में कमी',
+        'एंकल जोड़ में सूजन और सूजन',
+        'प्रभावित एंकल पर भार सहन करने में कठिनाई',
+        'एंकल विकृति या दिखाई देने वाले संयुक्त परिवर्तन',
+        'खेल या मनोरंजक गतिविधियों में भाग लेने में असमर्थता',
+        'इमेजिंग अध्ययन पर पुष्टि किया गया अंतिम चरण एंकल गठिया',
+        'पिछली एंकल सर्जरी या रूढ़िवादी उपचार विफल',
+        'जीवन की गुणवत्ता को प्रभावित करने वाली पुरानी अस्थिरता'
+      ]
+    },
+    procedure: {
+      en: {
+        preparation: 'Comprehensive pre-operative evaluation includes detailed physical examination, weight-bearing X-rays, CT scans to assess bone quality and deformity. Blood tests and medical clearance ensure patient safety. Pre-operative instructions include fasting 8 hours before surgery, stopping blood thinners as directed, and arranging post-operative care assistance.',
+        steps: [
+          'Administration of general or spinal anesthesia for complete pain control',
+          'Anterior ankle incision to access the ankle joint',
+          'Careful removal of damaged cartilage and bone from tibia and talus',
+          'Precise bone preparation using specialized cutting guides',
+          'Trial fitting of components to ensure proper alignment and sizing',
+          'Implantation of tibial and talar metal components',
+          'Insertion of polyethylene bearing surface between metal components',
+          'Verification of ankle range of motion and stability',
+          'Wound closure and application of surgical dressing and splint'
+        ],
+        duration: 'The procedure typically takes 2-3 hours depending on complexity, bone quality, and whether additional procedures are needed.',
+        anesthesia: 'General anesthesia or spinal anesthesia with sedation is used to ensure patient comfort throughout the procedure.'
+      },
+      hi: {
+        preparation: 'व्यापक प्री-ऑपरेटिव मूल्यांकन में विस्तृत शारीरिक परीक्षण, भार-असर एक्स-रे, हड्डी की गुणवत्ता और विकृति का आकलन करने के लिए सीटी स्कैन शामिल हैं। रक्त परीक्षण और चिकित्सा अनुमति रोगी की सुरक्षा सुनिश्चित करती है। प्री-ऑपरेटिव निर्देशों में सर्जरी से 8 घंटे पहले उपवास करना, निर्देशानुसार रक्त पतला करने वाली दवाओं को रोकना, और पोस्ट-ऑपरेटिव देखभाल सहायता की व्यवस्था करना शामिल है।',
+        steps: [
+          'पूर्ण दर्द नियंत्रण के लिए सामान्य या स्पाइनल एनेस्थीसिया का प्रशासन',
+          'एंकल जोड़ तक पहुंचने के लिए पूर्वकाल एंकल चीरा',
+          'टिबिया और टैलस से क्षतिग्रस्त उपास्थि और हड्डी को सावधानीपूर्वक हटाना',
+          'विशेष काटने के गाइड का उपयोग करके सटीक हड्डी तैयारी',
+          'उचित संरेखण और आकार सुनिश्चित करने के लिए घटकों का परीक्षण फिटिंग',
+          'टिबियल और टैलर धातु घटकों का प्रत्यारोपण',
+          'धातु घटकों के बीच पॉलीथीन असर सतह का सम्मिलन',
+          'एंकल गति की सीमा और स्थिरता का सत्यापन',
+          'घाव बंद करना और सर्जिकल ड्रेसिंग और स्प्लिंट का अनुप्रयोग'
+        ],
+        duration: 'प्रक्रिया में आमतौर पर 2-3 घंटे लगते हैं जो जटिलता, हड्डी की गुणवत्ता और अतिरिक्त प्रक्रियाओं की आवश्यकता पर निर्भर करता है।',
+        anesthesia: 'पूरी प्रक्रिया के दौरान रोगी की सुविधा सुनिश्चित करने के लिए सामान्य एनेस्थीसिया या बेहोशी के साथ स्पाइनल एनेस्थीसिया का उपयोग किया जाता है।'
+      }
+    },
+    recovery: {
+      en: {
+        timeline: [
+          { week: 'Week 1-2', activity: 'Hospital Stay & Initial Recovery', description: 'Hospital stay of 2-3 days. Complete non-weight bearing with splint immobilization. Pain management and wound care.' },
+          { week: 'Week 3-6', activity: 'Protected Mobilization', description: 'Transition to walking boot. Begin gentle ankle exercises. Continue non-weight bearing or touch-weight bearing only.' },
+          { week: 'Week 7-10', activity: 'Progressive Weight Bearing', description: 'Gradual increase in weight bearing as tolerated. Physical therapy begins. Work on ankle range of motion.' },
+          { week: 'Week 11-14', activity: 'Strengthening Phase', description: 'Progressive strengthening exercises. May begin walking without boot under supervision.' },
+          { week: 'Week 15-20', activity: 'Advanced Rehabilitation', description: 'Continued strengthening and balance training. Return to most daily activities.' },
+          { week: 'Month 6-12', activity: 'Full Recovery', description: 'Complete return to activities. Continued exercise program. Regular follow-up appointments.' }
+        ],
+        tips: [
+          'Strictly follow weight-bearing restrictions to allow proper implant integration',
+          'Keep ankle elevated above heart level for first 2 weeks to reduce swelling',
+          'Apply ice regularly to manage swelling and discomfort',
+          'Perform prescribed ankle exercises daily to prevent stiffness',
+          'Attend all physical therapy sessions for optimal recovery',
+          'Wear supportive footwear with good cushioning once walking is permitted',
+          'Avoid high-impact activities like running or jumping permanently',
+          'Monitor incision site daily for signs of infection',
+          'Take medications as prescribed for pain and infection prevention',
+          'Maintain healthy body weight to reduce stress on the ankle implant'
+        ]
+      },
+      hi: {
+        timeline: [
+          { week: 'सप्ताह 1-2', activity: 'अस्पताल में रहना और प्रारंभिक रिकवरी', description: '2-3 दिनों का अस्पताल प्रवास। स्प्लिंट स्थिरीकरण के साथ पूर्ण गैर-भार वहन। दर्द प्रबंधन और घाव देखभाल।' },
+          { week: 'सप्ताह 3-6', activity: 'संरक्षित गतिशीलता', description: 'वॉकिंग बूट में संक्रमण। कोमल एंकल व्यायाम शुरू करें। गैर-भार वहन या केवल टच-वेट असर जारी रखें।' },
+          { week: 'सप्ताह 7-10', activity: 'प्रगतिशील भार वहन', description: 'सहन के रूप में भार वहन में क्रमिक वृद्धि। फिजियोथेरेपी शुरू होती है। एंकल गति की सीमा पर काम करें।' },
+          { week: 'सप्ताह 11-14', activity: 'मजबूती का चरण', description: 'प्रगतिशील मजबूती व्यायाम। पर्यवेक्षण के तहत बूट के बिना चलना शुरू कर सकते हैं।' },
+          { week: 'सप्ताह 15-20', activity: 'उन्नत पुनर्वास', description: 'निरंतर मजबूती और संतुलन प्रशिक्षण। अधिकांश दैनिक गतिविधियों में वापसी।' },
+          { week: 'महीना 6-12', activity: 'पूर्ण रिकवरी', description: 'गतिविधियों में पूर्ण वापसी। निरंतर व्यायाम कार्यक्रम। नियमित फॉलो-अप नियुक्तियां।' }
+        ],
+        tips: [
+          'उचित प्रत्यारोपण एकीकरण की अनुमति देने के लिए सख्ती से भार-असर प्रतिबंधों का पालन करें',
+          'सूजन को कम करने के लिए पहले 2 सप्ताह के लिए एंकल को हृदय के स्तर से ऊपर रखें',
+          'सूजन और असुविधा को प्रबंधित करने के लिए नियमित रूप से बर्फ लगाएं',
+          'कठोरता को रोकने के लिए दैनिक निर्धारित एंकल व्यायाम करें',
+          'इष्टतम रिकवरी के लिए सभी फिजियोथेरेपी सत्रों में भाग लें',
+          'चलने की अनुमति मिलने के बाद अच्छे कुशनिंग के साथ सहायक जूते पहनें',
+          'दौड़ने या कूदने जैसी उच्च-प्रभाव गतिविधियों से स्थायी रूप से बचें',
+          'संक्रमण के संकेतों के लिए दैनिक चीरा स्थल की निगरानी करें',
+          'दर्द और संक्रमण रोकथाम के लिए निर्धारित दवाएं लें',
+          'एंकल प्रत्यारोपण पर तनाव को कम करने के लिए स्वस्थ शरीर के वजन को बनाए रखें'
+        ]
+      }
+    },
+    faqs: {
+      en: [
+        {
+          question: 'How long does an ankle replacement last?',
+          answer: 'Modern ankle replacements can last 10-15 years or longer with proper care and activity modification. Newer designs and improved materials are showing promising long-term results comparable to hip and knee replacements.'
+        },
+        {
+          question: 'What is the success rate of ankle replacement surgery?',
+          answer: 'Success rates for ankle replacement are approximately 85-90% at 10 years. At Arthoscenter, Dr. Kumar has achieved excellent outcomes with proper patient selection and advanced surgical techniques.'
+        },
+        {
+          question: 'Am I a candidate for ankle replacement?',
+          answer: 'Ideal candidates have end-stage ankle arthritis, failed conservative treatments, adequate bone quality, and realistic expectations. Age, activity level, and overall health are also considered during evaluation.'
+        },
+        {
+          question: 'How does ankle replacement compare to ankle fusion?',
+          answer: 'Ankle replacement preserves joint motion, potentially reducing stress on adjacent joints. Fusion eliminates ankle motion but may be more durable. Your surgeon will recommend the best option based on your specific condition.'
+        },
+        {
+          question: 'Can I return to sports after ankle replacement?',
+          answer: 'Low-impact activities like walking, swimming, cycling, and golf are generally safe. High-impact sports like running, jumping, and contact sports should be avoided to preserve implant longevity.'
+        },
+        {
+          question: 'What are the risks of ankle replacement surgery?',
+          answer: 'Risks include infection, nerve damage, blood clots, implant loosening, wound healing problems, and continued pain. With proper technique and post-operative care, complication rates are relatively low.'
+        },
+        {
+          question: 'Will I need revision surgery in the future?',
+          answer: 'Some patients may require revision surgery due to implant wear, loosening, or infection. However, with modern implants and proper activity modification, many ankle replacements last 15+ years.'
+        },
+        {
+          question: 'How painful is recovery from ankle replacement?',
+          answer: 'Post-operative pain is managed with medications and typically decreases significantly after the first 2 weeks. Most patients report substantial pain reduction compared to pre-surgery arthritis pain within 3 months.'
+        },
+        {
+          question: 'How much does ankle replacement cost at Arthoscenter?',
+          answer: 'Cost varies based on implant type, hospital stay, and additional procedures. Contact Arthoscenter for detailed pricing. Insurance coverage may be available for medically necessary procedures.'
+        },
+        {
+          question: 'What happens if ankle replacement fails?',
+          answer: 'Failed ankle replacements can often be revised with new components or converted to ankle fusion if necessary. Early detection of problems through regular follow-up improves outcomes.'
+        }
+      ],
+      hi: [
+        {
+          question: 'एंकल रिप्लेसमेंट कितने समय तक चलता है?',
+          answer: 'आधुनिक एंकल रिप्लेसमेंट उचित देखभाल और गतिविधि संशोधन के साथ 10-15 साल या उससे अधिक समय तक चल सकते हैं। नए डिज़ाइन और बेहतर सामग्री हिप और घुटने के प्रतिस्थापन के बराबर आशाजनक दीर्घकालिक परिणाम दिखा रहे हैं।'
+        },
+        {
+          question: 'एंकल रिप्लेसमेंट सर्जरी की सफलता दर क्या है?',
+          answer: 'एंकल रिप्लेसमेंट के लिए सफलता दर 10 वर्षों में लगभग 85-90% है। अर्थोसेंटर में, डॉ. कुमार ने उचित रोगी चयन और उन्नत सर्जिकल तकनीकों के साथ उत्कृष्ट परिणाम प्राप्त किए हैं।'
+        },
+        {
+          question: 'क्या मैं एंकल रिप्लेसमेंट के लिए उम्मीदवार हूं?',
+          answer: 'आदर्श उम्मीदवारों में अंतिम चरण एंकल गठिया, विफल रूढ़िवादी उपचार, पर्याप्त हड्डी की गुणवत्ता और यथार्थवादी अपेक्षाएं हैं। मूल्यांकन के दौरान आयु, गतिविधि स्तर और समग्र स्वास्थ्य पर भी विचार किया जाता है।'
+        },
+        {
+          question: 'एंकल रिप्लेसमेंट एंकल फ्यूजन की तुलना में कैसा है?',
+          answer: 'एंकल रिप्लेसमेंट संयुक्त गति को संरक्षित करता है, संभावित रूप से आसन्न जोड़ों पर तनाव को कम करता है। फ्यूजन एंकल गति को समाप्त करता है लेकिन अधिक टिकाऊ हो सकता है। आपका सर्जन आपकी विशिष्ट स्थिति के आधार पर सर्वोत्तम विकल्प की सिफारिश करेगा।'
+        },
+        {
+          question: 'क्या मैं एंकल रिप्लेसमेंट के बाद खेलों में वापस आ सकता हूं?',
+          answer: 'चलना, तैरना, साइकिल चलाना और गोल्फ जैसी कम प्रभाव वाली गतिविधियां आम तौर पर सुरक्षित हैं। प्रत्यारोपण दीर्घायु को संरक्षित करने के लिए दौड़ना, कूदना और संपर्क खेल जैसे उच्च-प्रभाव खेलों से बचा जाना चाहिए।'
+        },
+        {
+          question: 'एंकल रिप्लेसमेंट सर्जरी के जोखिम क्या हैं?',
+          answer: 'जोखिमों में संक्रमण, तंत्रिका क्षति, रक्त के थक्के, प्रत्यारोपण ढीला होना, घाव भरने की समस्याएं और निरंतर दर्द शामिल हैं। उचित तकनीक और पोस्ट-ऑपरेटिव देखभाल के साथ, जटिलता दर अपेक्षाकृत कम है।'
+        },
+        {
+          question: 'क्या मुझे भविष्य में संशोधन सर्जरी की आवश्यकता होगी?',
+          answer: 'कुछ रोगियों को प्रत्यारोपण पहनने, ढीला होने या संक्रमण के कारण संशोधन सर्जरी की आवश्यकता हो सकती है। हालांकि, आधुनिक प्रत्यारोपण और उचित गतिविधि संशोधन के साथ, कई एंकल प्रतिस्थापन 15+ वर्षों तक चलते हैं।'
+        },
+        {
+          question: 'एंकल रिप्लेसमेंट से रिकवरी कितनी दर्दनाक है?',
+          answer: 'पोस्ट-ऑपरेटिव दर्द को दवाओं से प्रबंधित किया जाता है और आम तौर पर पहले 2 सप्ताह के बाद काफी कम हो जाता है। अधिकांश रोगी 3 महीने के भीतर पूर्व-सर्जरी गठिया दर्द की तुलना में पर्याप्त दर्द में कमी की रिपोर्ट करते हैं।'
+        },
+        {
+          question: 'अर्थोसेंटर में एंकल रिप्लेसमेंट की लागत कितनी है?',
+          answer: 'लागत प्रत्यारोपण प्रकार, अस्पताल में रहने और अतिरिक्त प्रक्रियाओं के आधार पर भिन्न होती है। विस्तृत मूल्य निर्धारण के लिए अर्थोसेंटर से संपर्क करें। चिकित्सकीय रूप से आवश्यक प्रक्रियाओं के लिए बीमा कवरेज उपलब्ध हो सकता है।'
+        },
+        {
+          question: 'यदि एंकल रिप्लेसमेंट विफल हो जाता है तो क्या होता है?',
+          answer: 'विफल एंकल प्रतिस्थापनों को अक्सर नए घटकों के साथ संशोधित किया जा सकता है या यदि आवश्यक हो तो एंकल फ्यूजन में परिवर्तित किया जा सकता है। नियमित फॉलो-अप के माध्यम से समस्याओं का प्रारंभिक पता लगाने से परिणाम में सुधार होता है।'
+        }
+      ]
+    },
+    meta: {
+      en: {
+        title: 'Ankle Replacement Surgery in Bihar | Total Ankle Arthroplasty Patna | Dr. Gurudeo Kumar',
+        description: 'Advanced ankle replacement surgery in Bihar by Dr. Gurudeo Kumar. 150+ successful procedures. Latest generation implants. Treatment for severe ankle arthritis. ₹999 consultation.',
+        keywords: ['ankle replacement', 'total ankle arthroplasty', 'ankle arthritis surgery', 'ankle implant', 'ankle joint replacement', 'Bihar ankle surgery', 'Dr. Gurudeo Kumar', 'Arthoscenter Patna', 'ankle replacement cost']
+      },
+      hi: {
+        title: 'बिहार में एंकल रिप्लेसमेंट सर्जरी | पटना में टोटल एंकल आर्थ्रोप्लास्टी | डॉ. गुरुदेव कुमार',
+        description: 'डॉ. गुरुदेव कुमार द्वारा बिहार में उन्नत एंकल रिप्लेसमेंट सर्जरी। 150+ सफल प्रक्रियाएं। नवीनतम पीढ़ी के प्रत्यारोपण। गंभीर एंकल गठिया के लिए उपचार। ₹999 परामर्श।',
+        keywords: ['एंकल रिप्लेसमेंट', 'टोटल एंकल आर्थ्रोप्लास्टी', 'एंकल गठिया सर्जरी', 'बिहार में एंकल सर्जरी', 'डॉ. गुरुदेव कुमार', 'अर्थोसेंटर पटना']
+      }
+    },
+    relatedSurgeries: ['ankle-arthroscopy', 'ankle-fracture-surgery', 'total-knee-replacement', 'ankle-ligament-reconstruction']
+  },
+
+  'arthroscopic-biopsy': {
+    id: 'arthroscopic-biopsy',
+    category: 'diagnostic',
+    slug: 'arthroscopic-biopsy',
+    title: {
+      en: 'Arthroscopic Biopsy',
+      hi: 'आर्थ्रोस्कोपिक बायोप्सी'
+    },
+    shortDesc: {
+      en: 'Minimally invasive procedure to obtain tissue samples from joints for diagnostic purposes',
+      hi: 'निदान उद्देश्यों के लिए जोड़ों से ऊतक के नमूने प्राप्त करने के लिए न्यूनतम आक्रामक प्रक्रिया'
+    },
+    overview: {
+      en: `Arthroscopic Biopsy is a minimally invasive diagnostic procedure that allows surgeons to obtain tissue samples from inside a joint for laboratory analysis. This procedure is essential for diagnosing conditions such as synovial infections, inflammatory arthritis, pigmented villonodular synovitis (PVNS), synovial chondromatosis, and suspected joint tumors that cannot be definitively diagnosed through imaging alone.
+
+At Arthoscenter, Dr. Gurudeo Kumar performs arthroscopic biopsies with precision using advanced arthroscopic equipment and techniques. With over 300 diagnostic arthroscopies performed, our center provides accurate tissue sampling while minimizing joint trauma and ensuring faster recovery compared to open biopsy procedures.
+
+The procedure involves inserting a small camera (arthroscope) and specialized instruments through tiny incisions to visualize the joint interior and collect tissue samples from suspicious areas. The samples are then sent to pathology for microscopic examination, culture studies, and molecular testing. Most patients undergo this as an outpatient procedure and can return home the same day with minimal discomfort.`,
+      hi: `आर्थ्रोस्कोपिक बायोप्सी एक न्यूनतम आक्रामक निदान प्रक्रिया है जो सर्जनों को प्रयोगशाला विश्लेषण के लिए जोड़ के अंदर से ऊतक के नमूने प्राप्त करने की अनुमति देती है। यह प्रक्रिया सिनोवियल संक्रमण, सूजन संबंधी गठिया, पिगमेंटेड विलोनोड्यूलर सिनोवाइटिस (PVNS), सिनोवियल कॉन्ड्रोमैटोसिस और संदिग्ध संयुक्त ट्यूमर जैसी स्थितियों के निदान के लिए आवश्यक है जिन्हें अकेले इमेजिंग के माध्यम से निश्चित रूप से निदान नहीं किया जा सकता है।
+
+आर्थोसेंटर में, डॉ. गुरुदेव कुमार उन्नत आर्थ्रोस्कोपिक उपकरण और तकनीकों का उपयोग करके सटीकता के साथ आर्थ्रोस्कोपिक बायोप्सी करते हैं। 300 से अधिक डायग्नोस्टिक आर्थ्रोस्कोपी के साथ, हमारा केंद्र खुली बायोप्सी प्रक्रियाओं की तुलना में संयुक्त आघात को कम करते हुए और तेजी से रिकवरी सुनिश्चित करते हुए सटीक ऊतक नमूनाकरण प्रदान करता है।
+
+प्रक्रिया में संयुक्त आंतरिक को देखने और संदिग्ध क्षेत्रों से ऊतक के नमूने एकत्र करने के लिए छोटे चीरों के माध्यम से एक छोटा कैमरा (आर्थ्रोस्कोप) और विशेष उपकरण डालना शामिल है। नमूनों को फिर माइक्रोस्कोपिक परीक्षा, संस्कृति अध्ययन और आणविक परीक्षण के लिए पैथोलॉजी में भेजा जाता है। अधिकांश रोगी इसे बाह्य रोगी प्रक्रिया के रूप में करते हैं और न्यूनतम असुविधा के साथ उसी दिन घर लौट सकते हैं।`
+    },
+    symptoms: {
+      en: [
+        'Persistent unexplained joint pain and swelling',
+        'Joint stiffness not improving with standard treatments',
+        'Suspected infection in the joint with inconclusive cultures',
+        'Abnormal joint fluid analysis requiring tissue confirmation',
+        'Suspected inflammatory arthritis needing histological diagnosis',
+        'Unusual masses or growths within the joint seen on imaging',
+        'Recurrent joint effusions without clear cause',
+        'Suspected malignancy or tumor involving joint structures',
+        'Diagnostic uncertainty after non-invasive testing',
+        'Need for tissue diagnosis before initiating treatment'
+      ],
+      hi: [
+        'लगातार अस्पष्ट जोड़ों में दर्द और सूजन',
+        'मानक उपचारों से सुधार नहीं होने वाली जोड़ों की कठोरता',
+        'अनिर्णायक संस्कृतियों के साथ जोड़ में संदिग्ध संक्रमण',
+        'ऊतक पुष्टि की आवश्यकता वाला असामान्य संयुक्त द्रव विश्लेषण',
+        'हिस्टोलॉजिकल निदान की आवश्यकता वाला संदिग्ध सूजन संबंधी गठिया',
+        'इमेजिंग पर दिखाई देने वाले जोड़ के भीतर असामान्य द्रव्यमान या वृद्धि',
+        'स्पष्ट कारण के बिना आवर्तक संयुक्त प्रवाह',
+        'संयुक्त संरचनाओं से जुड़ी संदिग्ध malignancy या ट्यूमर',
+        'गैर-आक्रामक परीक्षण के बाद नैदानिक अनिश्चितता',
+        'उपचार शुरू करने से पहले ऊतक निदान की आवश्यकता'
+      ]
+    },
+    procedure: {
+      en: {
+        preparation: 'Pre-operative evaluation includes review of imaging studies (X-rays, MRI, CT), blood tests, and joint fluid analysis if available. Patients are counseled about the purpose of biopsy and potential findings. Pre-operative instructions include fasting 6-8 hours before surgery, discontinuing blood thinners as directed, and arranging transportation. Antibiotic prophylaxis may be administered.',
+        steps: [
+          'Administration of general, spinal, or regional anesthesia based on joint location',
+          'Sterile preparation and draping of the surgical area',
+          'Small portal incisions (typically 2-3) created for arthroscope and instruments',
+          'Insertion of arthroscope to visualize joint interior systematically',
+          'Identification of abnormal tissue, synovium, or suspicious lesions',
+          'Collection of multiple tissue samples using arthroscopic biopsy forceps or shavers',
+          'Samples placed in appropriate containers (formalin for histology, sterile saline for culture)',
+          'Photographic documentation of biopsy sites and joint pathology',
+          'Portal closure with sutures or steri-strips and sterile dressing application'
+        ],
+        duration: 'The procedure typically takes 30-60 minutes depending on joint size, number of samples needed, and complexity of pathology.',
+        anesthesia: 'General anesthesia, spinal anesthesia, or regional block depending on joint location and patient factors.'
+      },
+      hi: {
+        preparation: 'प्री-ऑपरेटिव मूल्यांकन में इमेजिंग अध्ययन (एक्स-रे, एमआरआई, सीटी), रक्त परीक्षण और यदि उपलब्ध हो तो संयुक्त द्रव विश्लेषण की समीक्षा शामिल है। रोगियों को बायोप्सी के उद्देश्य और संभावित निष्कर्षों के बारे में परामर्श दिया जाता है। प्री-ऑपरेटिव निर्देशों में सर्जरी से 6-8 घंटे पहले उपवास करना, निर्देशानुसार रक्त पतला करने वाली दवाओं को बंद करना और परिवहन की व्यवस्था करना शामिल है। एंटीबायोटिक प्रोफिलैक्सिस दिया जा सकता है।',
+        steps: [
+          'संयुक्त स्थान के आधार पर सामान्य, स्पाइनल या क्षेत्रीय एनेस्थीसिया का प्रशासन',
+          'सर्जिकल क्षेत्र की बाँझ तैयारी और ड्रेपिंग',
+          'आर्थ्रोस्कोप और उपकरणों के लिए छोटे पोर्टल चीरे (आमतौर पर 2-3) बनाए गए',
+          'संयुक्त आंतरिक को व्यवस्थित रूप से देखने के लिए आर्थ्रोस्कोप का सम्मिलन',
+          'असामान्य ऊतक, सिनोवियम या संदिग्ध घावों की पहचान',
+          'आर्थ्रोस्कोपिक बायोप्सी फोर्सप्स या शेवर का उपयोग करके कई ऊतक नमूनों का संग्रह',
+          'उपयुक्त कंटेनरों में नमूने रखे गए (हिस्टोलॉजी के लिए फॉर्मेलिन, संस्कृति के लिए बाँझ सलाइन)',
+          'बायोप्सी साइटों और संयुक्त विकृति विज्ञान का फोटोग्राफिक दस्तावेज',
+          'सिवनी या स्टेरी-स्ट्रिप्स और बाँझ ड्रेसिंग आवेदन के साथ पोर्टल बंद'
+        ],
+        duration: 'प्रक्रिया में आमतौर पर 30-60 मिनट लगते हैं जो संयुक्त आकार, आवश्यक नमूनों की संख्या और विकृति की जटिलता पर निर्भर करता है।',
+        anesthesia: 'संयुक्त स्थान और रोगी कारकों के आधार पर सामान्य एनेस्थीसिया, स्पाइनल एनेस्थीसिया या क्षेत्रीय ब्लॉक।'
+      }
+    },
+    recovery: {
+      en: {
+        timeline: [
+          { week: 'Day 1-2', activity: 'Immediate Post-operative', description: 'Rest with joint elevated. Ice application to reduce swelling. Light weight bearing as tolerated. Wound care instructions provided.' },
+          { week: 'Day 3-7', activity: 'Early Mobilization', description: 'Gradual return to daily activities. Continue ice and elevation. Monitor for signs of infection. Suture removal if non-absorbable sutures used.' },
+          { week: 'Week 2-3', activity: 'Awaiting Results', description: 'Resume normal activities unless contraindicated. Follow up for biopsy results discussion. Plan definitive treatment based on findings.' },
+          { week: 'Week 4+', activity: 'Long-term Plan', description: 'Implement treatment plan based on biopsy results. May include medication, additional surgery, or observation.' }
+        ],
+        tips: [
+          'Keep the joint elevated for first 48 hours to minimize swelling',
+          'Apply ice packs for 15-20 minutes every 3-4 hours for first few days',
+          'Avoid strenuous activities until cleared by surgeon',
+          'Monitor incision sites for redness, warmth, or drainage indicating infection',
+          'Take prescribed pain medications as needed',
+          'Perform gentle range of motion exercises as instructed',
+          'Keep wound clean and dry until sutures are removed',
+          'Attend follow-up appointment to discuss biopsy results',
+          'Ask questions about findings and treatment recommendations',
+          'Follow specific activity restrictions based on underlying condition'
+        ]
+      },
+      hi: {
+        timeline: [
+          { week: 'दिन 1-2', activity: 'तत्काल पोस्ट-ऑपरेटिव', description: 'जोड़ को ऊंचा करके आराम करें। सूजन कम करने के लिए बर्फ का अनुप्रयोग। सहन के रूप में हल्का भार वहन। घाव देखभाल निर्देश प्रदान किए गए।' },
+          { week: 'दिन 3-7', activity: 'प्रारंभिक गतिशीलता', description: 'दैनिक गतिविधियों में क्रमिक वापसी। बर्फ और ऊंचाई जारी रखें। संक्रमण के संकेतों की निगरानी करें। गैर-अवशोषित सिवनी का उपयोग करने पर सिवनी हटाना।' },
+          { week: 'सप्ताह 2-3', activity: 'परिणामों की प्रतीक्षा', description: 'सामान्य गतिविधियों को फिर से शुरू करें जब तक कि contraindicated न हो। बायोप्सी परिणाम चर्चा के लिए फॉलो अप करें। निष्कर्षों के आधार पर निश्चित उपचार की योजना बनाएं।' },
+          { week: 'सप्ताह 4+', activity: 'दीर्घकालिक योजना', description: 'बायोप्सी परिणामों के आधार पर उपचार योजना लागू करें। दवा, अतिरिक्त सर्जरी या अवलोकन शामिल हो सकता है।' }
+        ],
+        tips: [
+          'सूजन को कम करने के लिए पहले 48 घंटे के लिए जोड़ को ऊंचा रखें',
+          'पहले कुछ दिनों के लिए हर 3-4 घंटे में 15-20 मिनट के लिए बर्फ के पैक लगाएं',
+          'सर्जन द्वारा मंजूरी मिलने तक ज़ोरदार गतिविधियों से बचें',
+          'संक्रमण का संकेत देने वाली लालिमा, गर्मी या जल निकासी के लिए चीरा स्थलों की निगरानी करें',
+          'आवश्यकतानुसार निर्धारित दर्द की दवाएं लें',
+          'निर्देशानुसार कोमल गति की सीमा के व्यायाम करें',
+          'सिवनी हटाए जाने तक घाव को साफ और सूखा रखें',
+          'बायोप्सी परिणामों पर चर्चा करने के लिए फॉलो-अप नियुक्ति में भाग लें',
+          'निष्कर्षों और उपचार सिफारिशों के बारे में प्रश्न पूछें',
+          'अंतर्निहित स्थिति के आधार पर विशिष्ट गतिविधि प्रतिबंधों का पालन करें'
+        ]
+      }
+    },
+    faqs: {
+      en: [
+        {
+          question: 'Why do I need an arthroscopic biopsy instead of needle biopsy?',
+          answer: 'Arthroscopic biopsy allows direct visualization of the joint, enabling targeted sampling from specific abnormal areas. It provides larger, higher-quality tissue samples compared to blind needle biopsies, leading to more accurate diagnoses, especially for conditions like PVNS, synovial chondromatosis, and joint infections.'
+        },
+        {
+          question: 'How long does it take to get biopsy results?',
+          answer: 'Preliminary results from frozen section may be available during surgery. Standard histopathology results typically take 5-7 days. Culture results for infections may take 7-14 days. Specialized tests like immunohistochemistry or molecular studies may require 2-3 weeks.'
+        },
+        {
+          question: 'Is arthroscopic biopsy painful?',
+          answer: 'The procedure itself is painless under anesthesia. Post-operative discomfort is usually mild and well-controlled with over-the-counter pain medications. Most patients report minimal pain compared to open biopsy procedures.'
+        },
+        {
+          question: 'What are the risks of arthroscopic biopsy?',
+          answer: 'Risks are minimal and include infection (less than 1%), bleeding, nerve or blood vessel injury (rare), and stiffness. The risk of complications is significantly lower than open biopsy. At Arthoscenter, our complication rate is less than 0.5%.'
+        },
+        {
+          question: 'Can treatment be done at the same time as biopsy?',
+          answer: 'In some cases, yes. If a clear diagnosis is made during arthroscopy (like loose bodies or obvious synovitis), treatment can be performed simultaneously. However, if biopsy reveals unexpected findings, a second procedure may be needed after pathology results are available.'
+        },
+        {
+          question: 'Will I need to stay in the hospital?',
+          answer: 'Most arthroscopic biopsies are outpatient procedures. You can go home the same day after a brief observation period (2-4 hours). Hospital admission is rarely needed unless there are concerns about infection or other medical conditions.'
+        },
+        {
+          question: 'How accurate is arthroscopic biopsy for diagnosis?',
+          answer: 'Arthroscopic biopsy is highly accurate, with diagnostic yield exceeding 90% when performed by experienced surgeons. The ability to visualize and target specific abnormal tissue under direct vision significantly improves accuracy compared to blind biopsies.'
+        },
+        {
+          question: 'What happens if the biopsy shows cancer?',
+          answer: 'If malignancy is detected, you will be referred to an oncology specialist for further evaluation and treatment planning. Additional imaging and staging studies may be required. Dr. Kumar works closely with oncologists to ensure coordinated care.'
+        },
+        {
+          question: 'Can arthroscopic biopsy diagnose all joint problems?',
+          answer: 'While arthroscopic biopsy is excellent for many conditions, some diagnoses may still require additional testing. Blood tests, specialized imaging, or repeat biopsies may be necessary in complex cases. Your surgeon will discuss the diagnostic approach based on your specific situation.'
+        },
+        {
+          question: 'How much does arthroscopic biopsy cost at Arthoscenter?',
+          answer: 'The cost varies depending on the joint involved, anesthesia type, and pathology testing required. Contact Arthoscenter for detailed pricing. Many insurance plans cover diagnostic arthroscopic procedures when medically necessary.'
+        }
+      ],
+      hi: [
+        {
+          question: 'मुझे नीडल बायोप्सी के बजाय आर्थ्रोस्कोपिक बायोप्सी की आवश्यकता क्यों है?',
+          answer: 'आर्थ्रोस्कोपिक बायोप्सी जोड़ के प्रत्यक्ष दृश्य की अनुमति देती है, विशिष्ट असामान्य क्षेत्रों से लक्षित नमूनाकरण को सक्षम करती है। यह अंधी नीडल बायोप्सी की तुलना में बड़े, उच्च-गुणवत्ता वाले ऊतक नमूने प्रदान करती है, जिससे अधिक सटीक निदान होता है, विशेष रूप से PVNS, सिनोवियल कॉन्ड्रोमैटोसिस और संयुक्त संक्रमण जैसी स्थितियों के लिए।'
+        },
+        {
+          question: 'बायोप्सी परिणाम प्राप्त करने में कितना समय लगता है?',
+          answer: 'फ्रोजन सेक्शन से प्रारंभिक परिणाम सर्जरी के दौरान उपलब्ध हो सकते हैं। मानक हिस्टोपैथोलॉजी परिणाम आमतौर पर 5-7 दिन लगते हैं। संक्रमण के लिए संस्कृति परिणाम 7-14 दिन लग सकते हैं। इम्यूनोहिस्टोकेमिस्ट्री या आणविक अध्ययन जैसे विशेष परीक्षणों में 2-3 सप्ताह लग सकते हैं।'
+        },
+        {
+          question: 'क्या आर्थ्रोस्कोपिक बायोप्सी दर्दनाक है?',
+          answer: 'एनेस्थीसिया के तहत प्रक्रिया स्वयं दर्द रहित है। पोस्ट-ऑपरेटिव असुविधा आमतौर पर हल्की होती है और ओवर-द-काउंटर दर्द की दवाओं से अच्छी तरह से नियंत्रित होती है। अधिकांश रोगी खुली बायोप्सी प्रक्रियाओं की तुलना में न्यूनतम दर्द की रिपोर्ट करते हैं।'
+        },
+        {
+          question: 'आर्थ्रोस्कोपिक बायोप्सी के जोखिम क्या हैं?',
+          answer: 'जोखिम न्यूनतम हैं और संक्रमण (1% से कम), रक्तस्राव, तंत्रिका या रक्त वाहिका चोट (दुर्लभ), और कठोरता शामिल हैं। खुली बायोप्सी की तुलना में जटिलताओं का जोखिम काफी कम है। अर्थोसेंटर में, हमारी जटिलता दर 0.5% से कम है।'
+        },
+        {
+          question: 'क्या बायोप्सी के समान समय पर उपचार किया जा सकता है?',
+          answer: 'कुछ मामलों में, हां। यदि आर्थ्रोस्कोपी के दौरान एक स्पष्ट निदान किया जाता है (जैसे ढीले शरीर या स्पष्ट सिनोवाइटिस), तो उपचार एक साथ किया जा सकता है। हालांकि, यदि बायोप्सी अप्रत्याशित निष्कर्षों को प्रकट करती है, तो पैथोलॉजी परिणाम उपलब्ध होने के बाद दूसरी प्रक्रिया की आवश्यकता हो सकती है।'
+        },
+        {
+          question: 'क्या मुझे अस्पताल में रहने की आवश्यकता होगी?',
+          answer: 'अधिकांश आर्थ्रोस्कोपिक बायोप्सी बाह्य रोगी प्रक्रियाएं हैं। आप एक संक्षिप्त अवलोकन अवधि (2-4 घंटे) के बाद उसी दिन घर जा सकते हैं। संक्रमण या अन्य चिकित्सा स्थितियों के बारे में चिंताओं के अलावा अस्पताल में प्रवेश शायद ही कभी आवश्यक है।'
+        },
+        {
+          question: 'निदान के लिए आर्थ्रोस्कोपिक बायोप्सी कितनी सटीक है?',
+          answer: 'आर्थ्रोस्कोपिक बायोप्सी अत्यधिक सटीक है, अनुभवी सर्जनों द्वारा किए जाने पर नैदानिक उपज 90% से अधिक है। प्रत्यक्ष दृष्टि के तहत विशिष्ट असामान्य ऊतक को देखने और लक्षित करने की क्षमता अंधी बायोप्सी की तुलना में सटीकता में काफी सुधार करती है।'
+        },
+        {
+          question: 'यदि बायोप्सी कैंसर दिखाती है तो क्या होता है?',
+          answer: 'यदि malignancy का पता चलता है, तो आपको आगे के मूल्यांकन और उपचार योजना के लिए ऑन्कोलॉजी विशेषज्ञ के पास भेजा जाएगा। अतिरिक्त इमेजिंग और स्टेजिंग अध्ययन की आवश्यकता हो सकती है। डॉ. कुमार समन्वित देखभाल सुनिश्चित करने के लिए ऑन्कोलॉजिस्ट के साथ निकटता से काम करते हैं।'
+        },
+        {
+          question: 'क्या आर्थ्रोस्कोपिक बायोप्सी सभी संयुक्त समस्याओं का निदान कर सकती है?',
+          answer: 'जबकि आर्थ्रोस्कोपिक बायोप्सी कई स्थितियों के लिए उत्कृष्ट है, कुछ निदानों को अभी भी अतिरिक्त परीक्षण की आवश्यकता हो सकती है। जटिल मामलों में रक्त परीक्षण, विशेष इमेजिंग या दोहराई गई बायोप्सी आवश्यक हो सकती है। आपका सर्जन आपकी विशिष्ट स्थिति के आधार पर नैदानिक दृष्टिकोण पर चर्चा करेगा।'
+        },
+        {
+          question: 'अर्थोसेंटर में आर्थ्रोस्कोपिक बायोप्सी की लागत कितनी है?',
+          answer: 'लागत शामिल जोड़, एनेस्थीसिया प्रकार और आवश्यक पैथोलॉजी परीक्षण के आधार पर भिन्न होती है। विस्तृत मूल्य निर्धारण के लिए अर्थोसेंटर से संपर्क करें। कई बीमा योजनाएं चिकित्सकीय रूप से आवश्यक होने पर नैदानिक आर्थ्रोस्कोपिक प्रक्रियाओं को कवर करती हैं।'
+        }
+      ]
+    },
+    meta: {
+      en: {
+        title: 'Arthroscopic Biopsy in Bihar | Joint Tissue Biopsy Patna | Dr. Gurudeo Kumar',
+        description: 'Expert arthroscopic biopsy procedures in Bihar by Dr. Gurudeo Kumar. 300+ diagnostic arthroscopies. Accurate tissue diagnosis. Minimally invasive. ₹999 consultation.',
+        keywords: ['arthroscopic biopsy', 'joint biopsy', 'synovial biopsy', 'PVNS diagnosis', 'joint tumor biopsy', 'diagnostic arthroscopy', 'Dr. Gurudeo Kumar', 'Arthoscenter Patna', 'Bihar joint diagnosis']
+      },
+      hi: {
+        title: 'बिहार में आर्थ्रोस्कोपिक बायोप्सी | पटना में जोड़ ऊतक बायोप्सी | डॉ. गुरुदेव कुमार',
+        description: 'डॉ. गुरुदेव कुमार द्वारा बिहार में विशेषज्ञ आर्थ्रोस्कोपिक बायोप्सी प्रक्रियाएं। 300+ डायग्नोस्टिक आर्थ्रोस्कोपी। सटीक ऊतक निदान। न्यूनतम आक्रामक। ₹999 परामर्श।',
+        keywords: ['आर्थ्रोस्कोपिक बायोप्सी', 'जोड़ बायोप्सी', 'सिनोवियल बायोप्सी', 'डॉ. गुरुदेव कुमार', 'अर्थोसेंटर पटना', 'बिहार जोड़ निदान']
+      }
+    },
+    relatedSurgeries: ['knee-arthroscopy', 'shoulder-arthroscopy', 'hip-arthroscopy', 'ankle-arthroscopy']
+  },
+  'biceps-tendon-repair': {
+    id: 'biceps-tendon-repair',
+    category: 'sports-medicine',
+    slug: 'biceps-tendon-repair',
+    title: {
+      en: 'Biceps Tendon Repair',
+      hi: 'बाइसेप्स टेंडन रिपेयर'
+    },
+    shortDesc: {
+      en: 'Surgical repair of torn biceps tendon to restore arm strength and function. Essential for athletes and active individuals seeking full recovery.',
+      hi: 'बांह की ताकत और कार्य को बहाल करने के लिए फटे हुए बाइसेप्स टेंडन की सर्जिकल मरम्मत। एथलीटों और सक्रिय व्यक्तियों के लिए आवश्यक।'
+    },
+    overview: {
+      en: `Biceps tendon repair is a surgical procedure to reattach a torn or ruptured biceps tendon to the bone. The biceps muscle has two tendons that attach it to the shoulder (proximal) and one tendon that attaches to the elbow (distal). Tears most commonly occur at the shoulder, particularly the long head of the biceps tendon, though distal biceps ruptures at the elbow are also significant injuries requiring prompt surgical intervention.
+
+At Arthroscenter, Dr. Gurudeo Kumar specializes in both arthroscopic and open biceps tendon repair techniques, having successfully performed over 150 biceps tendon surgeries. Our advanced surgical approaches minimize scarring, reduce recovery time, and maximize strength restoration. We utilize modern fixation techniques including suture anchors and interference screws to ensure secure tendon reattachment.
+
+This procedure is particularly important for athletes, manual laborers, and active individuals who require full arm strength and function. While proximal biceps tears can sometimes be managed conservatively, distal biceps ruptures typically require surgery within 2-3 weeks of injury for optimal outcomes. The surgery typically takes 1-2 hours and most patients regain 90-95% of their original strength within 6 months.`,
+      hi: `बाइसेप्स टेंडन रिपेयर एक सर्जिकल प्रक्रिया है जो फटे या टूटे हुए बाइसेप्स टेंडन को हड्डी से फिर से जोड़ती है। बाइसेप्स मांसपेशी में दो टेंडन होते हैं जो इसे कंधे (प्रॉक्सिमल) से जोड़ते हैं और एक टेंडन जो कोहनी (डिस्टल) से जुड़ता है। फटना आमतौर पर कंधे पर होता है, विशेष रूप से बाइसेप्स टेंडन का लंबा सिर, हालांकि कोहनी पर डिस्टल बाइसेप्स टूटना भी महत्वपूर्ण चोटें हैं जिन्हें तुरंत सर्जिकल हस्तक्षेप की आवश्यकता होती है।
+
+आर्थोसेंटर में, डॉ. गुरुदेव कुमार आर्थ्रोस्कोपिक और ओपन बाइसेप्स टेंडन रिपेयर तकनीकों दोनों में विशेषज्ञ हैं, और उन्होंने 150 से अधिक बाइसेप्स टेंडन सर्जरी सफलतापूर्वक की हैं। हमारे उन्नत सर्जिकल दृष्टिकोण निशान को कम करते हैं, रिकवरी का समय कम करते हैं, और ताकत की बहाली को अधिकतम करते हैं। हम सुरक्षित टेंडन पुनः जुड़ाव सुनिश्चित करने के लिए सूचर एंकर और इंटरफेरेंस स्क्रू सहित आधुनिक फिक्सेशन तकनीकों का उपयोग करते हैं।
+
+यह प्रक्रिया विशेष रूप से एथलीटों, मैनुअल मजदूरों और सक्रिय व्यक्तियों के लिए महत्वपूर्ण है जिन्हें पूर्ण बांह की ताकत और कार्य की आवश्यकता होती है। जबकि प्रॉक्सिमल बाइसेप्स टूटने को कभी-कभी रूढ़िवादी तरीके से प्रबंधित किया जा सकता है, डिस्टल बाइसेप्स टूटने के लिए आमतौर पर इष्टतम परिणामों के लिए चोट के 2-3 सप्ताह के भीतर सर्जरी की आवश्यकता होती है। सर्जरी में आमतौर पर 1-2 घंटे लगते हैं और अधिकांश रोगी 6 महीने के भीतर अपनी मूल ताकत का 90-95% हासिल कर लेते हैं।`
+    },
+    symptoms: {
+      en: [
+        'Sudden sharp pain in the upper arm or elbow during heavy lifting',
+        'Audible "pop" sound at the time of injury',
+        'Visible bulge in the upper arm (Popeye deformity) with proximal tears',
+        'Bruising that spreads down the arm from the shoulder or elbow',
+        'Weakness in shoulder or elbow flexion and forearm supination',
+        'Difficulty bending the elbow or rotating the forearm',
+        'Pain and tenderness at the shoulder or elbow crease',
+        'Cramping sensation in the biceps muscle with use',
+        'Inability to perform pull-up or chin-up movements',
+        'Loss of arm definition and muscle contour changes'
+      ],
+      hi: [
+        'भारी वजन उठाने के दौरान ऊपरी बांह या कोहनी में अचानक तेज दर्द',
+        'चोट के समय सुनाई देने वाली "पॉप" ध्वनि',
+        'प्रॉक्सिमल टूटने के साथ ऊपरी बांह में दिखाई देने वाला उभार (पोपाई विकृति)',
+        'कंधे या कोहनी से बांह के नीचे फैलने वाली चोट के निशान',
+        'कंधे या कोहनी के मोड़ने और अग्रबांह के सुपिनेशन में कमजोरी',
+        'कोहनी को मोड़ने या अग्रबांह को घुमाने में कठिनाई',
+        'कंधे या कोहनी की सिलवट पर दर्द और कोमलता',
+        'उपयोग के साथ बाइसेप्स मांसपेशी में ऐंठन की अनुभूति',
+        'पुल-अप या चिन-अप गतिविधियां करने में असमर्थता',
+        'बांह की परिभाषा का नुकसान और मांसपेशियों की आकृति में परिवर्तन'
+      ]
+    },
+    procedure: {
+      en: {
+        preparation: 'Patients undergo physical examination, MRI or ultrasound imaging to confirm the tear location and extent. Pre-operative assessment includes medical history review, blood tests, and discussion of surgical technique. Patients are advised to arrange transportation and post-surgery assistance, stop blood-thinning medications if cleared by their physician, and fast 8 hours before surgery.',
+        steps: [
+          'Regional nerve block or general anesthesia is administered for pain control',
+          'For proximal repairs: Small incisions are made for arthroscopic access to the shoulder, or an open incision if tenodesis is performed. The torn tendon end is identified and prepared',
+          'For distal repairs: A 3-5 cm incision is made in the elbow crease. The radial nerve is carefully identified and protected throughout',
+          'The tendon is retrieved and any damaged tissue is debrided to healthy tendon fibers',
+          'For proximal tears: The tendon is reattached to the bone using suture anchors (tenodesis) or fixed within the bicipital groove (tenotomy may be chosen for older patients)',
+          'For distal tears: The radial tuberosity is prepared and the tendon is secured using either suture anchors or the Endobutton cortical fixation technique',
+          'The repair is tested for strength and appropriate tension, ensuring full elbow range of motion',
+          'Incisions are closed in layers with absorbable sutures, surgical glue or staples are applied, and sterile dressings are placed. A sling is applied for arm protection'
+        ],
+        duration: '1-2 hours depending on technique and tear location',
+        anesthesia: 'Regional nerve block (interscalene for shoulder, axillary for elbow) with sedation or general anesthesia'
+      },
+      hi: {
+        preparation: 'मरीजों का शारीरिक परीक्षण, टूटने के स्थान और सीमा की पुष्टि के लिए एमआरआई या अल्ट्रासाउंड इमेजिंग होती है। प्री-ऑपरेटिव मूल्यांकन में चिकित्सा इतिहास की समीक्षा, रक्त परीक्षण, और सर्जिकल तकनीक की चर्चा शामिल है। मरीजों को परिवहन और सर्जरी के बाद सहायता की व्यवस्था करने, अपने चिकित्सक द्वारा अनुमति मिलने पर रक्त को पतला करने वाली दवाएं बंद करने, और सर्जरी से 8 घंटे पहले उपवास करने की सलाह दी जाती है।',
+        steps: [
+          'दर्द नियंत्रण के लिए क्षेत्रीय तंत्रिका ब्लॉक या जनरल एनेस्थीसिया दिया जाता है',
+          'प्रॉक्सिमल मरम्मत के लिए: कंधे तक आर्थ्रोस्कोपिक पहुंच के लिए छोटे चीरे लगाए जाते हैं, या यदि टेनोडेसिस की जाती है तो एक ओपन चीरा। फटे हुए टेंडन के छोर की पहचान और तैयारी की जाती है',
+          'डिस्टल मरम्मत के लिए: कोहनी की सिलवट में 3-5 सेमी चीरा लगाया जाता है। रेडियल नर्व की सावधानीपूर्वक पहचान की जाती है और पूरे समय सुरक्षित रखा जाता है',
+          'टेंडन को प्राप्त किया जाता है और किसी भी क्षतिग्रस्त ऊतक को स्वस्थ टेंडन फाइबर तक डेब्रिड किया जाता है',
+          'प्रॉक्सिमल टूटने के लिए: टेंडन को सूचर एंकर (टेनोडेसिस) का उपयोग करके हड्डी से फिर से जोड़ा जाता है या बाइसिपिटल ग्रूव के भीतर फिक्स किया जाता है (बड़े मरीजों के लिए टेनोटॉमी चुनी जा सकती है)',
+          'डिस्टल टूटने के लिए: रेडियल ट्यूबरोसिटी तैयार की जाती है और टेंडन को सूचर एंकर या एंडोबटन कॉर्टिकल फिक्सेशन तकनीक का उपयोग करके सुरक्षित किया जाता है',
+          'मरम्मत की ताकत और उचित तनाव के लिए परीक्षण किया जाता है, पूर्ण कोहनी गति की सीमा सुनिश्चित की जाती है',
+          'चीरों को परतों में अवशोषित होने वाले टांके से बंद किया जाता है, सर्जिकल ग्लू या स्टेपल लगाए जाते हैं, और बाँझ ड्रेसिंग रखी जाती है। बांह की सुरक्षा के लिए एक स्लिंग लगाई जाती है'
+        ],
+        duration: 'तकनीक और टूटने के स्थान के आधार पर 1-2 घंटे',
+        anesthesia: 'सेडेशन या जनरल एनेस्थीसिया के साथ क्षेत्रीय तंत्रिका ब्लॉक (कंधे के लिए इंटरस्केलीन, कोहनी के लिए एक्सिलरी)'
+      }
+    },
+    recovery: {
+      en: {
+        timeline: [
+          {
+            week: 'Week 0-2',
+            activity: 'Immobilization Phase',
+            description: 'Arm kept in sling at 90 degrees. Only gentle hand, wrist, and finger exercises allowed. Ice therapy and pain medication. No active elbow or shoulder movement. Focus on reducing swelling and protecting the repair.'
+          },
+          {
+            week: 'Week 2-6',
+            activity: 'Passive Range of Motion',
+            description: 'Begin gentle passive elbow and shoulder exercises with physiotherapist guidance. Sling use continues but may be removed for exercises and activities of daily living. Light grip strengthening begins. No lifting or resistance activities.'
+          },
+          {
+            week: 'Week 6-12',
+            activity: 'Active Range of Motion',
+            description: 'Start active elbow flexion and extension exercises without resistance. Gradually discontinue sling use. Progress to light activities of daily living. Begin gentle stretching to prevent stiffness. Still no heavy lifting or forceful movements.'
+          },
+          {
+            week: 'Week 12-16',
+            activity: 'Strengthening Phase Begins',
+            description: 'Progressive resistance exercises introduced with therapy bands and light weights (1-2 kg). Focus on biceps, forearm, and shoulder strengthening. Gradual return to work for desk jobs. Continue physiotherapy 2-3 times per week.'
+          },
+          {
+            week: 'Month 4-6',
+            activity: 'Advanced Strengthening',
+            description: 'Increase resistance training progressively up to 5-8 kg. Sport-specific exercises for athletes. Return to most daily activities and light manual work. Continued focus on flexibility and endurance building.'
+          },
+          {
+            week: 'Month 6-12',
+            activity: 'Return to Full Activity',
+            description: 'Gradual return to unrestricted activities including sports and heavy lifting. Maintenance exercises continue. Most patients achieve 90-95% strength recovery. Full healing of tendon to bone complete by 9-12 months.'
+          }
+        ],
+        tips: [
+          'Wear the sling religiously for the first 6 weeks to protect the repair',
+          'Apply ice packs 15-20 minutes every 2-3 hours for the first week to reduce swelling',
+          'Keep the surgical site clean and dry; follow wound care instructions carefully',
+          'Perform only prescribed exercises; avoid any unauthorized arm movements',
+          'Sleep in a semi-reclined position with arm supported for the first 2-4 weeks',
+          'Attend all physiotherapy sessions without fail; rehabilitation is crucial for success',
+          'Never lift anything heavier than a cup of coffee for the first 6 weeks',
+          'Avoid repetitive gripping, pulling, or pushing movements until cleared by your surgeon',
+          'Report any signs of infection, increased pain, numbness, or unusual swelling immediately',
+          'Be patient with recovery; tendon healing takes time and rushing can cause re-rupture'
+        ]
+      },
+      hi: {
+        timeline: [
+          {
+            week: 'सप्ताह 0-2',
+            activity: 'स्थिरीकरण चरण',
+            description: 'बांह को 90 डिग्री पर स्लिंग में रखा जाता है। केवल कोमल हाथ, कलाई और उंगली के व्यायाम की अनुमति है। बर्फ चिकित्सा और दर्द की दवा। कोई सक्रिय कोहनी या कंधे की गति नहीं। सूजन को कम करने और मरम्मत की रक्षा करने पर ध्यान केंद्रित करें।'
+          },
+          {
+            week: 'सप्ताह 2-6',
+            activity: 'निष्क्रिय गति सीमा',
+            description: 'फिजियोथेरेपिस्ट के मार्गदर्शन में कोमल निष्क्रिय कोहनी और कंधे के व्यायाम शुरू करें। स्लिंग का उपयोग जारी रहता है लेकिन व्यायाम और दैनिक जीवन की गतिविधियों के लिए हटाया जा सकता है। हल्की पकड़ मजबूती शुरू होती है। कोई उठाने या प्रतिरोध गतिविधियां नहीं।'
+          },
+          {
+            week: 'सप्ताह 6-12',
+            activity: 'सक्रिय गति सीमा',
+            description: 'बिना प्रतिरोध के सक्रिय कोहनी मोड़ने और विस्तार व्यायाम शुरू करें। धीरे-धीरे स्लिंग का उपयोग बंद करें। दैनिक जीवन की हल्की गतिविधियों में प्रगति करें। कठोरता को रोकने के लिए कोमल स्ट्रेचिंग शुरू करें। अभी भी कोई भारी उठाने या जबरदस्ती आंदोलन नहीं।'
+          },
+          {
+            week: 'सप्ताह 12-16',
+            activity: 'मजबूती चरण शुरू होता है',
+            description: 'थेरेपी बैंड और हल्के वजन (1-2 किग्रा) के साथ प्रगतिशील प्रतिरोध व्यायाम पेश किए गए। बाइसेप्स, अग्रबांह और कंधे की मजबूती पर ध्यान केंद्रित करें। डेस्क नौकरियों के लिए काम पर धीरे-धीरे वापसी। सप्ताह में 2-3 बार फिजियोथेरेपी जारी रखें।'
+          },
+          {
+            week: 'महीना 4-6',
+            activity: 'उन्नत मजबूती',
+            description: 'प्रतिरोध प्रशिक्षण को 5-8 किग्रा तक बढ़ाएं। एथलीटों के लिए खेल-विशिष्ट व्यायाम। अधिकांश दैनिक गतिविधियों और हल्के मैनुअल काम में वापसी। लचीलेपन और सहनशक्ति निर्माण पर निरंतर ध्यान।'
+          },
+          {
+            week: 'महीना 6-12',
+            activity: 'पूर्ण गतिविधि में वापसी',
+            description: 'खेल और भारी भार उठाने सहित अप्रतिबंधित गतिविधियों में धीरे-धीरे वापसी। रखरखाव व्यायाम जारी रहते हैं। अधिकांश रोगी 90-95% ताकत रिकवरी हासिल करते हैं। हड्डी से टेंडन का पूर्ण उपचार 9-12 महीनों में पूरा होता है।'
+          }
+        ],
+        tips: [
+          'मरम्मत की रक्षा के लिए पहले 6 सप्ताह के लिए स्लिंग को धार्मिक रूप से पहनें',
+          'सूजन को कम करने के लिए पहले सप्ताह में हर 2-3 घंटे में 15-20 मिनट के लिए आइस पैक लगाएं',
+          'सर्जिकल स्थल को साफ और सूखा रखें; घाव देखभाल निर्देशों का सावधानीपूर्वक पालन करें',
+          'केवल निर्धारित व्यायाम करें; किसी भी अनधिकृत बांह आंदोलन से बचें',
+          'पहले 2-4 सप्ताह के लिए बांह को सहारा देकर अर्ध-झुकी हुई स्थिति में सोएं',
+          'बिना असफल सभी फिजियोथेरेपी सत्रों में भाग लें; पुनर्वास सफलता के लिए महत्वपूर्ण है',
+          'पहले 6 सप्ताह के लिए कॉफी के कप से भारी कुछ भी न उठाएं',
+          'अपने सर्जन द्वारा मंजूरी मिलने तक दोहराव वाली पकड़, खींचने या धकेलने की गतिविधियों से बचें',
+          'संक्रमण के किसी भी संकेत, बढ़े हुए दर्द, सुन्नता, या असामान्य सूजन की तुरंत रिपोर्ट करें',
+          'रिकवरी के साथ धैर्य रखें; टेंडन उपचार में समय लगता है और जल्दबाजी फिर से टूटने का कारण बन सकती है'
+        ]
+      }
+    },
+    faqs: {
+      en: [
+        {
+          question: 'What is the difference between proximal and distal biceps tendon tears?',
+          answer: 'Proximal biceps tears occur at the shoulder where the long head of the biceps tendon attaches. These are more common (90% of cases) and can sometimes be managed non-surgically, especially in older or less active patients. Distal biceps tears occur at the elbow where the tendon attaches to the radius bone. These are less common but almost always require surgery for full strength recovery, particularly in active individuals. Distal tears result in significant weakness in forearm supination (turning palm up) and elbow flexion strength loss of 30-40% if not repaired.'
+        },
+        {
+          question: 'How urgent is biceps tendon repair surgery?',
+          answer: 'For proximal tears, surgery can be delayed for several weeks to months while considering conservative options. However, for distal biceps ruptures, timing is critical. Surgery should ideally be performed within 2-3 weeks of injury for optimal results. After 4-6 weeks, the tendon begins to retract and scar, making repair more difficult and outcomes less predictable. At Arthoscenter, Dr. Kumar prioritizes urgent scheduling for distal biceps injuries to ensure the best possible recovery.'
+        },
+        {
+          question: 'What is the Popeye deformity and does it need surgery?',
+          answer: 'The Popeye deformity is a visible bulge in the upper arm caused by the biceps muscle bunching up when the proximal long head tendon ruptures. While cosmetically noticeable, many patients (especially older, less active individuals) can function well without surgery. Conservative treatment results in about 20% loss of supination strength and 10% loss of elbow flexion strength. Surgery is recommended for younger, active patients, athletes, or those whose occupation requires full arm strength. Dr. Kumar helps each patient decide based on their individual lifestyle and functional needs.'
+        },
+        {
+          question: 'Can I regain full strength after biceps tendon repair?',
+          answer: 'Most patients regain 90-95% of their original strength with proper surgical repair and dedicated rehabilitation. Athletes and highly motivated patients often achieve near-complete strength recovery. Factors affecting recovery include age, timing of surgery (earlier is better), surgical technique, and compliance with physiotherapy. Distal repairs typically achieve better strength outcomes than proximal repairs. At Arthoscenter, our comprehensive rehabilitation protocol maximizes strength recovery for all patients.'
+        },
+        {
+          question: 'What are the risks of biceps tendon repair surgery?',
+          answer: 'Complications are uncommon but can include infection (less than 1%), nerve injury (particularly the lateral antebrachial cutaneous nerve in distal repairs or radial nerve), heterotopic ossification (abnormal bone formation), stiffness, re-rupture (1-2%), and chronic pain. Using modern surgical techniques and experienced surgeons like Dr. Kumar significantly reduces these risks. The overall complication rate at Arthoscenter is less than 3%, which is well below national averages.'
+        },
+        {
+          question: 'How is biceps tendon repair different from biceps tenodesis?',
+          answer: 'Biceps tendon repair refers to reattaching the torn tendon to its original attachment point (at the elbow for distal tears). Biceps tenodesis is a specific technique for proximal tears where the damaged long head tendon is cut and reattached to the humerus bone in a new location, lower in the shoulder. Tenodesis prevents the Popeye deformity and maintains better cosmetic appearance while sacrificing minimal function. Dr. Kumar discusses which approach is best based on tear location, patient age, activity level, and personal preferences.'
+        },
+        {
+          question: 'Will I need physical therapy after biceps tendon repair?',
+          answer: 'Yes, physiotherapy is absolutely essential for successful recovery. It begins with passive range of motion exercises at 2 weeks, progresses to active movement at 6 weeks, and strengthening at 12 weeks. Most patients require supervised physiotherapy 2-3 times per week for 3-4 months, followed by a home exercise program. Skipping or inadequately performing therapy significantly increases the risk of stiffness, weakness, and poor functional outcomes. Arthoscenter provides comprehensive in-house physiotherapy with experienced therapists specializing in tendon repairs.'
+        },
+        {
+          question: 'Can biceps tendon tears heal without surgery?',
+          answer: 'Proximal biceps tendon tears can heal without surgery, though the tendon typically does not reattach to its original location. Many older or less active patients do well with conservative treatment, accepting minor strength loss and cosmetic changes. However, distal biceps ruptures almost always require surgery for optimal functional recovery. Without surgery, distal tears result in permanent 30-40% loss of supination strength and noticeable weakness in daily activities requiring forearm rotation. Dr. Kumar provides honest guidance on when conservative treatment is appropriate versus when surgery is clearly beneficial.'
+        },
+        {
+          question: 'When can I return to sports after biceps tendon repair?',
+          answer: 'Return to sports is gradual and sport-dependent. Light activities like walking and cycling can resume at 6-8 weeks. Golf and swimming typically allowed at 3-4 months with surgeon approval. Contact sports, weightlifting, and overhead throwing sports usually require 6-9 months for safe return. Full tendon healing takes 9-12 months. Returning too early risks re-rupture. Dr. Kumar provides sport-specific rehabilitation protocols and clearance based on strength testing to ensure safe return to competition.'
+        },
+        {
+          question: 'How much does biceps tendon repair cost at Arthoscenter?',
+          answer: 'The cost varies based on surgical technique (arthroscopic vs. open), anesthesia type, and whether proximal or distal repair is performed. Distal repairs are typically more expensive due to longer operative time and specialized fixation devices. Contact Arthoscenter for detailed pricing information. Many insurance plans cover biceps tendon repair when medically necessary. We also offer flexible payment plans and work with cashless insurance providers. Dr. Kumar ensures patients understand all costs upfront with no hidden fees.'
+        }
+      ],
+      hi: [
+        {
+          question: 'प्रॉक्सिमल और डिस्टल बाइसेप्स टेंडन टूटने में क्या अंतर है?',
+          answer: 'प्रॉक्सिमल बाइसेप्स टूटना कंधे पर होता है जहां बाइसेप्स टेंडन का लंबा सिर जुड़ता है। ये अधिक आम हैं (90% मामले) और कभी-कभी गैर-सर्जिकल रूप से प्रबंधित किए जा सकते हैं, विशेष रूप से बड़े या कम सक्रिय रोगियों में। डिस्टल बाइसेप्स टूटना कोहनी पर होता है जहां टेंडन रेडियस हड्डी से जुड़ता है। ये कम आम हैं लेकिन पूर्ण ताकत रिकवरी के लिए लगभग हमेशा सर्जरी की आवश्यकता होती है, विशेष रूप से सक्रिय व्यक्तियों में। डिस्टल टूटने के परिणामस्वरूप अग्रबांह सुपिनेशन में महत्वपूर्ण कमजोरी होती है और यदि मरम्मत नहीं की जाती है तो कोहनी मोड़ने की ताकत का 30-40% नुकसान होता है।'
+        },
+        {
+          question: 'बाइसेप्स टेंडन रिपेयर सर्जरी कितनी जरूरी है?',
+          answer: 'प्रॉक्सिमल टूटने के लिए, रूढ़िवादी विकल्पों पर विचार करते हुए सर्जरी को कई हफ्तों से महीनों तक विलंबित किया जा सकता है। हालांकि, डिस्टल बाइसेप्स टूटने के लिए, समय महत्वपूर्ण है। इष्टतम परिणामों के लिए सर्जरी आदर्श रूप से चोट के 2-3 सप्ताह के भीतर की जानी चाहिए। 4-6 सप्ताह के बाद, टेंडन वापस आना और निशान शुरू हो जाता है, जिससे मरम्मत अधिक कठिन और परिणाम कम अनुमानित हो जाते हैं। अर्थोसेंटर में, डॉ. कुमार सर्वोत्तम संभव रिकवरी सुनिश्चित करने के लिए डिस्टल बाइसेप्स चोटों के लिए तत्काल शेड्यूलिंग को प्राथमिकता देते हैं।'
+        },
+        {
+          question: 'पोपाई विकृति क्या है और क्या इसे सर्जरी की आवश्यकता है?',
+          answer: 'पोपाई विकृति ऊपरी बांह में एक दिखाई देने वाला उभार है जो प्रॉक्सिमल लॉन्ग हेड टेंडन टूटने पर बाइसेप्स मांसपेशी के गुच्छे बनने के कारण होता है। जबकि कॉस्मेटिक रूप से ध्यान देने योग्य, कई रोगी (विशेष रूप से बड़े, कम सक्रिय व्यक्ति) सर्जरी के बिना अच्छी तरह से कार्य कर सकते हैं। रूढ़िवादी उपचार के परिणामस्वरूप सुपिनेशन ताकत का लगभग 20% नुकसान और कोहनी मोड़ने की ताकत का 10% नुकसान होता है। सर्जरी युवा, सक्रिय रोगियों, एथलीटों, या उन लोगों के लिए अनुशंसित है जिनके व्यवसाय में पूर्ण बांह की ताकत की आवश्यकता होती है। डॉ. कुमार प्रत्येक रोगी को उनकी व्यक्तिगत जीवनशैली और कार्यात्मक आवश्यकताओं के आधार पर निर्णय लेने में मदद करते हैं।'
+        },
+        {
+          question: 'क्या मैं बाइसेप्स टेंडन रिपेयर के बाद पूर्ण ताकत प्राप्त कर सकता हूं?',
+          answer: 'अधिकांश रोगी उचित सर्जिकल मरम्मत और समर्पित पुनर्वास के साथ अपनी मूल ताकत का 90-95% हासिल करते हैं। एथलीट और अत्यधिक प्रेरित रोगी अक्सर लगभग पूर्ण ताकत रिकवरी प्राप्त करते हैं। रिकवरी को प्रभावित करने वाले कारकों में उम्र, सर्जरी का समय (पहले बेहतर है), सर्जिकल तकनीक, और फिजियोथेरेपी के साथ अनुपालन शामिल हैं। डिस्टल मरम्मत आमतौर पर प्रॉक्सिमल मरम्मत की तुलना में बेहतर ताकत परिणाम प्राप्त करती है। अर्थोसेंटर में, हमारा व्यापक पुनर्वास प्रोटोकॉल सभी रोगियों के लिए ताकत रिकवरी को अधिकतम करता है।'
+        },
+        {
+          question: 'बाइसेप्स टेंडन रिपेयर सर्जरी के जोखिम क्या हैं?',
+          answer: 'जटिलताएं असामान्य हैं लेकिन संक्रमण (1% से कम), तंत्रिका चोट (विशेष रूप से डिस्टल मरम्मत में लेटरल एंटेब्राचियल क्यूटेनियस तंत्रिका या रेडियल तंत्रिका), हेटेरोटोपिक ऑसिफिकेशन (असामान्य हड्डी गठन), कठोरता, फिर से टूटना (1-2%), और पुराना दर्द शामिल हो सकते हैं। आधुनिक सर्जिकल तकनीकों और डॉ. कुमार जैसे अनुभवी सर्जनों का उपयोग इन जोखिमों को महत्वपूर्ण रूप से कम करता है। अर्थोसेंटर में समग्र जटिलता दर 3% से कम है, जो राष्ट्रीय औसत से काफी कम है।'
+        },
+        {
+          question: 'बाइसेप्स टेंडन रिपेयर बाइसेप्स टेनोडेसिस से कैसे अलग है?',
+          answer: 'बाइसेप्स टेंडन रिपेयर का मतलब है फटे हुए टेंडन को इसके मूल लगाव बिंदु पर फिर से जोड़ना (डिस्टल टूटने के लिए कोहनी पर)। बाइसेप्स टेनोडेसिस प्रॉक्सिमल टूटने के लिए एक विशिष्ट तकनीक है जहां क्षतिग्रस्त लॉन्ग हेड टेंडन को काटा जाता है और ह्यूमरस हड्डी पर एक नए स्थान पर, कंधे में नीचे फिर से जोड़ा जाता है। टेनोडेसिस पोपाई विकृति को रोकता है और न्यूनतम कार्य का त्याग करते हुए बेहतर कॉस्मेटिक उपस्थिति बनाए रखता है। डॉ. कुमार टूटने के स्थान, रोगी की उम्र, गतिविधि स्तर और व्यक्तिगत प्राथमिकताओं के आधार पर कौन सा दृष्टिकोण सबसे अच्छा है पर चर्चा करते हैं।'
+        },
+        {
+          question: 'क्या मुझे बाइसेप्स टेंडन रिपेयर के बाद फिजिकल थेरेपी की आवश्यकता होगी?',
+          answer: 'हां, फिजियोथेरेपी सफल रिकवरी के लिए बिल्कुल आवश्यक है। यह 2 सप्ताह में निष्क्रिय गति सीमा व्यायाम के साथ शुरू होती है, 6 सप्ताह में सक्रिय आंदोलन में प्रगति करती है, और 12 सप्ताह में मजबूती। अधिकांश रोगियों को 3-4 महीनों के लिए सप्ताह में 2-3 बार पर्यवेक्षित फिजियोथेरेपी की आवश्यकता होती है, इसके बाद एक घरेलू व्यायाम कार्यक्रम। थेरेपी को छोड़ना या अपर्याप्त रूप से करना कठोरता, कमजोरी और खराब कार्यात्मक परिणामों के जोखिम को महत्वपूर्ण रूप से बढ़ाता है। अर्थोसेंटर टेंडन मरम्मत में विशेषज्ञता वाले अनुभवी चिकित्सकों के साथ व्यापक इन-हाउस फिजियोथेरेपी प्रदान करता है।'
+        },
+        {
+          question: 'क्या बाइसेप्स टेंडन टूटना सर्जरी के बिना ठीक हो सकता है?',
+          answer: 'प्रॉक्सिमल बाइसेप्स टेंडन टूटना सर्जरी के बिना ठीक हो सकता है, हालांकि टेंडन आमतौर पर अपने मूल स्थान पर फिर से नहीं जुड़ता है। कई बड़े या कम सक्रिय रोगी रूढ़िवादी उपचार के साथ अच्छा करते हैं, मामूली ताकत के नुकसान और कॉस्मेटिक परिवर्तनों को स्वीकार करते हैं। हालांकि, डिस्टल बाइसेप्स टूटने के लिए इष्टतम कार्यात्मक रिकवरी के लिए लगभग हमेशा सर्जरी की आवश्यकता होती है। सर्जरी के बिना, डिस्टल टूटने के परिणामस्वरूप सुपिनेशन ताकत का स्थायी 30-40% नुकसान होता है और अग्रबांह घुमाव की आवश्यकता वाली दैनिक गतिविधियों में ध्यान देने योग्य कमजोरी होती है। डॉ. कुमार ईमानदार मार्गदर्शन प्रदान करते हैं कि रूढ़िवादी उपचार कब उपयुक्त है बनाम जब सर्जरी स्पष्ट रूप से लाभकारी है।'
+        },
+        {
+          question: 'बाइसेप्स टेंडन रिपेयर के बाद मैं खेल में कब लौट सकता हूं?',
+          answer: 'खेल में वापसी धीरे-धीरे और खेल-निर्भर है। चलने और साइकिलिंग जैसी हल्की गतिविधियां 6-8 सप्ताह में फिर से शुरू हो सकती हैं। गोल्फ और तैराकी आमतौर पर सर्जन की स्वीकृति के साथ 3-4 महीनों में अनुमति दी जाती है। संपर्क खेल, भारोत्तोलन और ओवरहेड फेंकने वाले खेल को आमतौर पर सुरक्षित वापसी के लिए 6-9 महीनों की आवश्यकता होती है। पूर्ण टेंडन उपचार में 9-12 महीने लगते हैं। बहुत जल्दी लौटने से फिर से टूटने का खतरा है। डॉ. कुमार प्रतिस्पर्धा में सुरक्षित वापसी सुनिश्चित करने के लिए खेल-विशिष्ट पुनर्वास प्रोटोकॉल और ताकत परीक्षण के आधार पर मंजूरी प्रदान करते हैं।'
+        },
+        {
+          question: 'अर्थोसेंटर में बाइसेप्स टेंडन रिपेयर की लागत कितनी है?',
+          answer: 'लागत सर्जिकल तकनीक (आर्थ्रोस्कोपिक बनाम ओपन), एनेस्थीसिया प्रकार, और प्रॉक्सिमल या डिस्टल मरम्मत की जाती है या नहीं, के आधार पर भिन्न होती है। डिस्टल मरम्मत आमतौर पर लंबे ऑपरेटिव समय और विशेष फिक्सेशन उपकरणों के कारण अधिक महंगी होती है। विस्तृत मूल्य निर्धारण जानकारी के लिए अर्थोसेंटर से संपर्क करें। कई बीमा योजनाएं चिकित्सकीय रूप से आवश्यक होने पर बाइसेप्स टेंडन रिपेयर को कवर करती हैं। हम लचीले भुगतान योजनाएं भी प्रदान करते हैं और कैशलेस बीमा प्रदाताओं के साथ काम करते हैं। डॉ. कुमार सुनिश्चित करते हैं कि रोगी बिना किसी छिपी हुई फीस के सभी लागतों को पहले से समझते हैं।'
+        }
+      ]
+    },
+    meta: {
+      en: {
+        title: 'Biceps Tendon Repair in Bihar | Expert Surgery Patna | Dr. Gurudeo Kumar',
+        description: 'Expert biceps tendon repair surgery in Bihar by Dr. Gurudeo Kumar. 150+ successful repairs. Advanced fixation techniques. Sports medicine specialist. ₹999 consultation.',
+        keywords: ['biceps tendon repair', 'biceps rupture surgery', 'distal biceps repair', 'proximal biceps repair', 'biceps tenodesis', 'sports medicine Bihar', 'Dr. Gurudeo Kumar', 'Arthoscenter Patna', 'tendon surgery Bihar']
+      },
+      hi: {
+        title: 'बिहार में बाइसेप्स टेंडन रिपेयर | पटना में विशेषज्ञ सर्जरी | डॉ. गुरुदेव कुमार',
+        description: 'डॉ. गुरुदेव कुमार द्वारा बिहार में विशेषज्ञ बाइसेप्स टेंडन रिपेयर सर्जरी। 150+ सफल मरम्मत। उन्नत फिक्सेशन तकनीक। खेल चिकित्सा विशेषज्ञ। ₹999 परामर्श।',
+        keywords: ['बाइसेप्स टेंडन रिपेयर', 'बाइसेप्स टूटना सर्जरी', 'डिस्टल बाइसेप्स मरम्मत', 'प्रॉक्सिमल बाइसेप्स मरम्मत', 'बाइसेप्स टेनोडेसिस', 'डॉ. गुरुदेव कुमार', 'अर्थोसेंटर पटना', 'बिहार टेंडन सर्जरी']
+      }
+    },
+    relatedSurgeries: ['rotator-cuff-repair', 'shoulder-arthroscopy', 'shoulder-labral-repair', 'tennis-elbow-surgery']
+  },
+  'bow-legs-correction': {
+    id: 'bow-legs-correction',
+    category: 'pediatric-ortho',
+    slug: 'bow-legs-correction',
+    title: {
+      en: 'Bow Legs Correction (Genu Varum)',
+      hi: 'बो लेग्स करेक्शन (जीनू वेरम)'
+    },
+    shortDesc: {
+      en: 'Specialized surgical correction for bow-shaped legs in children and adults, restoring normal limb alignment and preventing long-term joint complications.',
+      hi: 'बच्चों और वयस्कों में धनुषाकार पैरों के लिए विशेष शल्य चिकित्सा सुधार, सामान्य अंग संरेखण को बहाल करना और दीर्घकालिक जोड़ों की जटिलताओं को रोकना।'
+    },
+    overview: {
+      en: `Bow legs correction, medically known as genu varum correction, is a comprehensive treatment approach for legs that curve outward at the knees. Dr. Gurudeo Kumar at Arthoscenter Patna brings over 15 years of specialized expertise in pediatric and adult limb deformity correction, having successfully treated over 350 patients with bow legs using both conservative and advanced surgical techniques. Our facility maintains a 97% success rate in achieving optimal leg alignment and preventing future complications.
+
+Bow legs (genu varum) presents as an outward bowing of the legs, where the knees remain apart even when the ankles are together. While physiological bow legs in infants under 24 months typically self-correct, pathological bow legs require medical intervention. Common causes include rickets (vitamin D deficiency), Blount's disease, skeletal dysplasias, previous fractures, and metabolic bone disorders. In Bihar, where rickets remains prevalent due to nutritional deficiencies and limited sun exposure, early identification and treatment are crucial.
+
+At Arthoscenter, we offer a complete spectrum of treatment options tailored to each patient's age, severity, and underlying cause. For growing children, guided growth using 8-plates or tension band plating provides minimally invasive correction by temporarily modulating growth on one side of the bone. For severe deformities or skeletally mature patients, corrective osteotomy (surgical bone cutting and realignment) delivers precise, permanent correction. Dr. Kumar's expertise in both techniques ensures optimal outcomes with minimal complications, faster recovery, and excellent cosmetic results.
+
+Our patient-centered approach includes comprehensive evaluation with full-length standing radiographs, detailed mechanical axis measurements, nutritional assessment, and personalized treatment planning. We provide family education in both Hindi and English, addressing concerns specific to Bihar's cultural context. Post-operative care includes specialized pediatric rehabilitation, regular monitoring, and long-term follow-up to ensure maintained correction and healthy joint development.`,
+      hi: `बो लेग्स करेक्शन, जिसे चिकित्सकीय रूप से जीनू वेरम करेक्शन के रूप में जाना जाता है, उन पैरों के लिए एक व्यापक उपचार दृष्टिकोण है जो घुटनों पर बाहर की ओर मुड़ते हैं। अर्थोसेंटर पटना में डॉ. गुरुदेव कुमार के पास बाल और वयस्क अंग विकृति सुधार में 15 वर्षों से अधिक की विशेष विशेषज्ञता है, जिन्होंने रूढ़िवादी और उन्नत शल्य चिकित्सा तकनीकों दोनों का उपयोग करके बो लेग्स वाले 350 से अधिक रोगियों का सफलतापूर्वक इलाज किया है। हमारी सुविधा इष्टतम पैर संरेखण प्राप्त करने और भविष्य की जटिलताओं को रोकने में 97% सफलता दर बनाए रखती है।
+
+बो लेग्स (जीनू वेरम) पैरों के बाहरी झुकाव के रूप में प्रस्तुत होता है, जहां टखने एक साथ होने पर भी घुटने अलग रहते हैं। जबकि 24 महीने से कम उम्र के शिशुओं में शारीरिक बो लेग्स आमतौर पर स्वतः ठीक हो जाते हैं, रोगात्मक बो लेग्स को चिकित्सा हस्तक्षेप की आवश्यकता होती है। सामान्य कारणों में रिकेट्स (विटामिन डी की कमी), ब्लाउंट रोग, कंकाल डिसप्लेसिया, पिछले फ्रैक्चर, और मेटाबोलिक हड्डी विकार शामिल हैं। बिहार में, जहां पोषण की कमी और सीमित धूप के कारण रिकेट्स प्रचलित है, प्रारंभिक पहचान और उपचार महत्वपूर्ण हैं।
+
+अर्थोसेंटर में, हम प्रत्येक रोगी की उम्र, गंभीरता और अंतर्निहित कारण के अनुरूप उपचार विकल्पों का पूरा स्पेक्ट्रम प्रदान करते हैं। बढ़ते बच्चों के लिए, 8-प्लेट्स या टेंशन बैंड प्लेटिंग का उपयोग करके निर्देशित विकास हड्डी के एक तरफ अस्थायी रूप से विकास को नियंत्रित करके न्यूनतम आक्रामक सुधार प्रदान करता है। गंभीर विकृतियों या कंकालीय रूप से परिपक्व रोगियों के लिए, सुधारात्मक ऑस्टियोटॉमी (शल्य चिकित्सा हड्डी काटना और पुनर्संरेखण) सटीक, स्थायी सुधार प्रदान करती है। दोनों तकनीकों में डॉ. कुमार की विशेषज्ञता न्यूनतम जटिलताओं, तेजी से रिकवरी और उत्कृष्ट कॉस्मेटिक परिणामों के साथ इष्टतम परिणाम सुनिश्चित करती है।
+
+हमारे रोगी-केंद्रित दृष्टिकोण में पूर्ण-लंबाई खड़े रेडियोग्राफ, विस्तृत यांत्रिक अक्ष माप, पोषण मूल्यांकन, और व्यक्तिगत उपचार योजना के साथ व्यापक मूल्यांकन शामिल है। हम हिंदी और अंग्रेजी दोनों में परिवार शिक्षा प्रदान करते हैं, बिहार के सांस्कृतिक संदर्भ के लिए विशिष्ट चिंताओं को संबोधित करते हैं।`
+    },
+    symptoms: {
+      en: [
+        'Outward bowing of legs with knees remaining apart (more than 6 cm gap) when ankles are together',
+        'Asymmetric leg alignment - one leg curves more than the other',
+        'Progressive worsening of bowing after age 2 years instead of improvement',
+        'Abnormal walking pattern with lateral thrust or wide-based gait',
+        'Knee pain or discomfort during walking, running, or prolonged standing',
+        'Difficulty with activities requiring leg alignment such as cycling or sports',
+        'Visible knee joint stress with medial compartment overload',
+        'Short stature or growth delays compared to age-matched peers',
+        'Associated signs of rickets: wrist/ankle swelling, delayed fontanelle closure, rachitic rosary',
+        'Family history of bow legs, Blount disease, or metabolic bone disorders'
+      ],
+      hi: [
+        'पैरों का बाहर की ओर झुकाव जिसमें टखने एक साथ होने पर घुटने अलग रहते हैं (6 सेमी से अधिक अंतर)',
+        'असममित पैर संरेखण - एक पैर दूसरे की तुलना में अधिक मुड़ा हुआ',
+        'सुधार के बजाय 2 साल की उम्र के बाद झुकाव का प्रगतिशील बिगड़ना',
+        'पार्श्व धक्का या चौड़ी-आधार वाली चाल के साथ असामान्य चलने का पैटर्न',
+        'चलने, दौड़ने या लंबे समय तक खड़े रहने के दौरान घुटने का दर्द या असुविधा',
+        'साइकिलिंग या खेल जैसी पैर संरेखण की आवश्यकता वाली गतिविधियों में कठिनाई',
+        'मध्य डिब्बे के अधिभार के साथ दृश्यमान घुटने के जोड़ का तनाव',
+        'उम्र-मिलान साथियों की तुलना में छोटा कद या विकास में देरी',
+        'रिकेट्स के संबंधित संकेत: कलाई/टखने की सूजन, देरी से फॉन्टानेल बंद होना, रैकिटिक रोजरी',
+        'बो लेग्स, ब्लाउंट रोग, या मेटाबोलिक हड्डी विकारों का पारिवारिक इतिहास'
+      ]
+    },
+    procedure: {
+      en: {
+        preparation: 'Pre-operative preparation begins 2-3 weeks before surgery with comprehensive evaluation including full-length standing radiographs, mechanical axis deviation measurements, nutritional assessment (vitamin D, calcium, phosphate levels), and metabolic screening. Patients with rickets receive 6-8 weeks of vitamin D and calcium supplementation to optimize bone quality. Complete blood count, coagulation profile, and pediatric anesthesia consultation are performed. Parents receive detailed education about the procedure, expected outcomes, and post-operative care in their preferred language. Children are admitted one day before surgery with pre-anesthetic evaluation and nil-by-mouth instructions (6 hours for solids, 2 hours for clear fluids). Medical photography and consent documentation are completed.',
+        steps: [
+          'Anesthesia Administration: General anesthesia is induced with age-appropriate pediatric protocols. For guided growth procedures, the patient is positioned supine on a radiolucent table. For osteotomy, careful positioning with all pressure points padded is ensured. Prophylactic antibiotics (cefazolin 25mg/kg) are administered 30 minutes before incision.',
+          'Surgical Approach Selection: For guided growth (8-plate technique), small 2-3 cm incisions are made medially at the proximal tibia and distal femur physis. For corrective osteotomy, a larger 6-8 cm incision is made over the deformity site with careful soft tissue dissection protecting neurovascular structures.',
+          'Fluoroscopic Guidance and Plate Positioning: Under C-arm fluoroscopy, guide wires are placed perpendicular to the growth plate on the medial (convex) side. For 8-plates, two screws are inserted above and below the physis, connected by a tension band plate. The compression created gradually corrects the angulation over 6-18 months as the lateral side continues growing.',
+          'Osteotomy Execution (if required): For severe deformities or older children, a closing wedge or opening wedge osteotomy is performed at the level of maximum deformity (usually proximal tibia). Bone cuts are made precisely using oscillating saw under continuous irrigation. The deformity is corrected to achieve 0-6 degrees of physiologic valgus.',
+          'Bone Realignment and Fixation: The bone is realigned to restore mechanical axis (line from femoral head center through knee center to ankle center). Internal fixation is achieved using locking plates and screws. For opening wedge osteotomy, bone graft or bone substitute is placed in the gap. Fluoroscopic images confirm proper alignment in both AP and lateral views.',
+          'Hardware Security and Stability Testing: All screws are tightened sequentially with appropriate torque. Plate position is verified fluoroscopically. For guided growth, minimal hardware is used (8-plate requires only 2 screws per physis). For osteotomy, stability is tested with gentle stress while monitoring fixation integrity.',
+          'Wound Closure and Dressing: Deep fascia is closed with absorbable sutures (Vicryl 2-0). Subcutaneous layer is approximated, and skin is closed with subcuticular sutures for minimal scarring. Sterile dressing is applied with mild compression. Above-knee cast or brace may be applied for osteotomy cases based on stability.',
+          'Post-procedure Assessment: Final fluoroscopic images document correction achieved and hardware position. Neurovascular status is assessed (dorsalis pedis pulse, toe movement, sensation). The patient is transferred to recovery with appropriate pain management protocols. Parents are shown post-operative X-rays and educated about expected recovery timeline and rehabilitation milestones.'
+        ],
+        duration: '1.5 to 3 hours depending on technique (guided growth: 45-60 minutes per leg; osteotomy: 2-3 hours)',
+        anesthesia: 'General anesthesia with pediatric anesthesiologist, using age and weight-appropriate protocols with continuous monitoring'
+      },
+      hi: {
+        preparation: 'शल्य चिकित्सा से 2-3 सप्ताह पहले पूर्व-ऑपरेटिव तैयारी शुरू होती है जिसमें पूर्ण-लंबाई खड़े रेडियोग्राफ, यांत्रिक अक्ष विचलन माप, पोषण मूल्यांकन (विटामिन डी, कैल्शियम, फॉस्फेट स्तर), और मेटाबोलिक स्क्रीनिंग सहित व्यापक मूल्यांकन शामिल है। रिकेट्स वाले रोगियों को हड्डी की गुणवत्ता को अनुकूलित करने के लिए विटामिन डी और कैल्शियम की 6-8 सप्ताह की खुराक मिलती है। पूर्ण रक्त गणना, जमावट प्रोफाइल, और बाल चिकित्सा एनेस्थीसिया परामर्श किया जाता है। माता-पिता को उनकी पसंदीदा भाषा में प्रक्रिया, अपेक्षित परिणामों और पोस्ट-ऑपरेटिव देखभाल के बारे में विस्तृत शिक्षा प्राप्त होती है। बच्चों को सर्जरी से एक दिन पहले भर्ती किया जाता है और प्री-एनेस्थेटिक मूल्यांकन और उपवास निर्देश (ठोस पदार्थों के लिए 6 घंटे, स्पष्ट तरल पदार्थों के लिए 2 घंटे) दिए जाते हैं।',
+        steps: [
+          'एनेस्थीसिया प्रशासन: उम्र-उपयुक्त बाल चिकित्सा प्रोटोकॉल के साथ सामान्य एनेस्थीसिया प्रेरित किया जाता है। निर्देशित विकास प्रक्रियाओं के लिए, रोगी को रेडियोलुसेंट टेबल पर सीधा स्थित किया जाता है। ऑस्टियोटॉमी के लिए, सभी दबाव बिंदुओं को गद्देदार के साथ सावधानीपूर्वक स्थिति सुनिश्चित की जाती है। चीरे से 30 मिनट पहले प्रोफिलैक्टिक एंटीबायोटिक्स (सेफाज़ोलिन 25mg/kg) दिए जाते हैं।',
+          'शल्य चिकित्सा दृष्टिकोण चयन: निर्देशित विकास (8-प्लेट तकनीक) के लिए, समीपस्थ टिबिया और दूरस्थ फीमर फिसिस पर मध्य रूप से छोटे 2-3 सेमी चीरे लगाए जाते हैं। सुधारात्मक ऑस्टियोटॉमी के लिए, न्यूरोवैस्कुलर संरचनाओं की रक्षा करते हुए सावधानीपूर्वक नरम ऊतक विच्छेदन के साथ विकृति स्थल पर एक बड़ा 6-8 सेमी चीरा लगाया जाता है।',
+          'फ्लोरोस्कोपिक मार्गदर्शन और प्लेट स्थिति: सी-आर्म फ्लोरोस्कोपी के तहत, मध्य (उत्तल) पक्ष पर वृद्धि प्लेट के लंबवत गाइड तार रखे जाते हैं। 8-प्लेटों के लिए, दो स्क्रू फिसिस के ऊपर और नीचे डाले जाते हैं, जो टेंशन बैंड प्लेट से जुड़े होते हैं। बनाया गया संपीड़न 6-18 महीनों में धीरे-धीरे कोणीय विकृति को ठीक करता है क्योंकि पार्श्व पक्ष बढ़ता रहता है।',
+          'ऑस्टियोटॉमी निष्पादन (यदि आवश्यक हो): गंभीर विकृतियों या बड़े बच्चों के लिए, अधिकतम विकृति के स्तर पर (आमतौर पर समीपस्थ टिबिया) एक बंद पच्चर या खुले पच्चर ऑस्टियोटॉमी की जाती है। हड्डी कट लगातार सिंचाई के तहत दोलन करने वाली आरी का उपयोग करके सटीक रूप से बनाए जाते हैं। विकृति को 0-6 डिग्री के शारीरिक वल्गस को प्राप्त करने के लिए ठीक किया जाता है।',
+          'हड्डी पुनर्संरेखण और निर्धारण: हड्डी को यांत्रिक अक्ष (फेमोरल हेड सेंटर से घुटने के केंद्र के माध्यम से टखने के केंद्र तक रेखा) को बहाल करने के लिए पुनर्संरेखित किया जाता है। लॉकिंग प्लेट और स्क्रू का उपयोग करके आंतरिक निर्धारण प्राप्त किया जाता है। खुले पच्चर ऑस्टियोटॉमी के लिए, अंतराल में हड्डी ग्राफ्ट या हड्डी प्रतिस्थापन रखा जाता है। फ्लोरोस्कोपिक चित्र एपी और पार्श्व दोनों दृश्यों में उचित संरेखण की पुष्टि करते हैं।',
+          'हार्डवेयर सुरक्षा और स्थिरता परीक्षण: सभी स्क्रू उचित टॉर्क के साथ क्रमिक रूप से कड़े किए जाते हैं। प्लेट स्थिति फ्लोरोस्कोपिक रूप से सत्यापित की जाती है। निर्देशित विकास के लिए, न्यूनतम हार्डवेयर का उपयोग किया जाता है (8-प्लेट को प्रति फिसिस केवल 2 स्क्रू की आवश्यकता होती है)। ऑस्टियोटॉमी के लिए, निर्धारण अखंडता की निगरानी करते हुए कोमल तनाव के साथ स्थिरता का परीक्षण किया जाता है।',
+          'घाव बंद करना और ड्रेसिंग: गहरी प्रावरणी को अवशोषित सिवनी (विक्रिल 2-0) से बंद किया जाता है। सबक्यूटेनियस परत को सन्निकट किया जाता है, और त्वचा को न्यूनतम निशान के लिए सबक्यूटिक्यूलर सिवनी से बंद किया जाता है। हल्के संपीड़न के साथ बाँझ ड्रेसिंग लगाई जाती है। स्थिरता के आधार पर ऑस्टियोटॉमी मामलों के लिए घुटने के ऊपर कास्ट या ब्रेस लगाया जा सकता है।',
+          'पोस्ट-प्रक्रिया मूल्यांकन: अंतिम फ्लोरोस्कोपिक चित्र प्राप्त सुधार और हार्डवेयर स्थिति का दस्तावेजीकरण करते हैं। न्यूरोवैस्कुलर स्थिति का आकलन किया जाता है (डोर्सलिस पेडिस पल्स, पैर की अंगुली की गति, संवेदना)। रोगी को उचित दर्द प्रबंधन प्रोटोकॉल के साथ रिकवरी में स्थानांतरित किया जाता है। माता-पिता को पोस्ट-ऑपरेटिव एक्स-रे दिखाए जाते हैं और अपेक्षित रिकवरी समयरेखा और पुनर्वास मील के पत्थर के बारे में शिक्षित किया जाता है।'
+        ],
+        duration: 'तकनीक के आधार पर 1.5 से 3 घंटे (निर्देशित विकास: प्रति पैर 45-60 मिनट; ऑस्टियोटॉमी: 2-3 घंटे)',
+        anesthesia: 'बाल चिकित्सा एनेस्थेसियोलॉजिस्ट के साथ सामान्य एनेस्थीसिया, निरंतर निगरानी के साथ उम्र और वजन-उपयुक्त प्रोटोकॉल का उपयोग करते हुए'
+      }
+    },
+    recovery: {
+      en: {
+        timeline: [
+          {
+            week: 'Week 1-2',
+            activity: 'Hospital Stay and Initial Recovery',
+            description: 'Hospital stay of 2-4 days for osteotomy (1 day for guided growth). Pain management with IV/oral analgesics. Above-knee cast or brace for osteotomy patients. Toe-touch weight bearing with walker/crutches. Elevation and ice therapy to reduce swelling. Daily wound inspection and dressing changes. Early ankle/foot exercises to prevent stiffness.'
+          },
+          {
+            week: 'Week 3-6',
+            activity: 'Progressive Mobilization',
+            description: 'Transition to partial weight bearing (25-50%) with assistive devices. Cast change or adjustment if needed. Suture removal at 2 weeks. Gentle knee range of motion exercises under supervision. Continued pain management with oral medications. Weekly follow-up visits with X-rays to monitor healing. Physical therapy begins for muscle strengthening.'
+          },
+          {
+            week: 'Week 7-12',
+            activity: 'Active Rehabilitation Phase',
+            description: 'Gradual increase to full weight bearing (osteotomy patients). Cast removal at 6-8 weeks with protective brace. Intensive physiotherapy for knee flexion/extension and muscle strengthening. Proprioceptive and balance training. Independent walking without assistive devices (most patients). Monthly X-rays to assess bone consolidation and alignment maintenance.'
+          },
+          {
+            week: 'Month 4-6',
+            activity: 'Return to Daily Activities',
+            description: 'Full weight bearing without support. Return to school or regular activities with precautions. Advanced strengthening exercises including resistance training. Gradual return to sports-specific activities (non-contact). Complete bone healing confirmed on X-rays. Brace discontinuation for most patients.'
+          },
+          {
+            week: 'Month 7-12',
+            activity: 'Sports Readiness and Monitoring',
+            description: 'Clearance for contact sports after 9-12 months. For guided growth patients, regular monitoring (every 3 months) to track correction progress. Hardware removal planned when correction achieved (typically 12-18 months for 8-plates). Continued strengthening and conditioning programs. Assessment for symmetric leg length and alignment.'
+          },
+          {
+            week: 'Year 1-2',
+            activity: 'Long-term Follow-up',
+            description: 'Annual follow-up visits with standing radiographs. Growth monitoring in pediatric patients to ensure maintained correction. Assessment for any recurrence or overcorrection. Complete hardware removal after skeletal maturity if not already done. Evaluation of gait pattern, joint alignment, and functional outcomes. Long-term prognosis counseling and activity guidance.'
+          }
+        ],
+        tips: [
+          'Maintain strict non-weight bearing or partial weight bearing as instructed to prevent hardware failure or loss of correction',
+          'Follow prescribed vitamin D and calcium supplementation religiously, especially important in Bihar where deficiency is common',
+          'Attend all scheduled physiotherapy sessions to optimize muscle strength, range of motion, and prevent stiffness',
+          'Keep the surgical site clean and dry; watch for signs of infection (increased pain, redness, fever, drainage)',
+          'Ensure adequate protein intake (eggs, dal, milk, chicken) to support bone healing and muscle recovery',
+          'Use properly fitted footwear with good arch support; avoid barefoot walking during early recovery',
+          'Practice prescribed home exercises daily between physiotherapy sessions to maximize recovery',
+          'Maintain regular follow-up appointments for X-ray monitoring, especially critical in guided growth cases',
+          'Avoid high-impact activities, jumping, or running until cleared by Dr. Kumar (typically 6-9 months)',
+          'For parents: maintain a growth diary documenting height, alignment changes, and functional milestones; early detection of overcorrection allows timely hardware removal'
+        ]
+      },
+      hi: {
+        timeline: [
+          {
+            week: 'सप्ताह 1-2',
+            activity: 'अस्पताल में रहना और प्रारंभिक रिकवरी',
+            description: 'ऑस्टियोटॉमी के लिए 2-4 दिनों का अस्पताल में रहना (निर्देशित विकास के लिए 1 दिन)। IV/मौखिक एनाल्जेसिक के साथ दर्द प्रबंधन। ऑस्टियोटॉमी रोगियों के लिए घुटने के ऊपर कास्ट या ब्रेस। वॉकर/बैसाखी के साथ पैर की अंगुली-स्पर्श भार वहन। सूजन को कम करने के लिए उन्नयन और बर्फ चिकित्सा। दैनिक घाव निरीक्षण और ड्रेसिंग परिवर्तन। कठोरता को रोकने के लिए प्रारंभिक टखने/पैर व्यायाम।'
+          },
+          {
+            week: 'सप्ताह 3-6',
+            activity: 'प्रगतिशील लामबंदी',
+            description: 'सहायक उपकरणों के साथ आंशिक भार वहन (25-50%) में संक्रमण। यदि आवश्यक हो तो कास्ट परिवर्तन या समायोजन। 2 सप्ताह में सिवनी हटाना। पर्यवेक्षण के तहत कोमल घुटने की गति की सीमा व्यायाम। मौखिक दवाओं के साथ निरंतर दर्द प्रबंधन। हीलिंग की निगरानी के लिए एक्स-रे के साथ साप्ताहिक अनुवर्ती दौरे। मांसपेशी मजबूती के लिए फिजियोथेरेपी शुरू होती है।'
+          },
+          {
+            week: 'सप्ताह 7-12',
+            activity: 'सक्रिय पुनर्वास चरण',
+            description: 'पूर्ण भार वहन (ऑस्टियोटॉमी रोगियों) के लिए क्रमिक वृद्धि। सुरक्षात्मक ब्रेस के साथ 6-8 सप्ताह में कास्ट हटाना। घुटने के लचीलेपन/विस्तार और मांसपेशी मजबूती के लिए गहन फिजियोथेरेपी। प्रोप्रियोसेप्टिव और संतुलन प्रशिक्षण। सहायक उपकरणों के बिना स्वतंत्र चलना (अधिकांश रोगी)। हड्डी समेकन और संरेखण रखरखाव का आकलन करने के लिए मासिक एक्स-रे।'
+          },
+          {
+            week: 'माह 4-6',
+            activity: 'दैनिक गतिविधियों में वापसी',
+            description: 'बिना सहारे के पूर्ण भार वहन। सावधानियों के साथ स्कूल या नियमित गतिविधियों में वापसी। प्रतिरोध प्रशिक्षण सहित उन्नत मजबूती व्यायाम। खेल-विशिष्ट गतिविधियों (गैर-संपर्क) में क्रमिक वापसी। एक्स-रे पर पूर्ण हड्डी हीलिंग की पुष्टि। अधिकांश रोगियों के लिए ब्रेस बंद करना।'
+          },
+          {
+            week: 'माह 7-12',
+            activity: 'खेल तत्परता और निगरानी',
+            description: '9-12 महीनों के बाद संपर्क खेलों के लिए मंजूरी। निर्देशित विकास रोगियों के लिए, सुधार प्रगति को ट्रैक करने के लिए नियमित निगरानी (हर 3 महीने)। जब सुधार प्राप्त हो जाए तो हार्डवेयर हटाने की योजना (8-प्लेटों के लिए आमतौर पर 12-18 महीने)। निरंतर मजबूती और कंडीशनिंग कार्यक्रम। सममित पैर की लंबाई और संरेखण के लिए मूल्यांकन।'
+          },
+          {
+            week: 'वर्ष 1-2',
+            activity: 'दीर्घकालिक अनुवर्ती',
+            description: 'खड़े रेडियोग्राफ के साथ वार्षिक अनुवर्ती दौरे। रखरखाव सुधार सुनिश्चित करने के लिए बाल चिकित्सा रोगियों में विकास निगरानी। किसी भी पुनरावृत्ति या अति-सुधार के लिए मूल्यांकन। यदि पहले से नहीं किया गया है तो कंकाल परिपक्वता के बाद पूर्ण हार्डवेयर हटाना। चाल पैटर्न, जोड़ संरेखण, और कार्यात्मक परिणामों का मूल्यांकन। दीर्घकालिक पूर्वानुमान परामर्श और गतिविधि मार्गदर्शन।'
+          }
+        ],
+        tips: [
+          'हार्डवेयर विफलता या सुधार के नुकसान को रोकने के लिए निर्देशित के रूप में सख्त गैर-भार वहन या आंशिक भार वहन बनाए रखें',
+          'निर्धारित विटामिन डी और कैल्शियम पूरकता को धार्मिक रूप से पालन करें, विशेष रूप से बिहार में महत्वपूर्ण जहां कमी आम है',
+          'मांसपेशी शक्ति, गति की सीमा को अनुकूलित करने और कठोरता को रोकने के लिए सभी निर्धारित फिजियोथेरेपी सत्रों में भाग लें',
+          'शल्य चिकित्सा स्थल को साफ और सूखा रखें; संक्रमण के संकेतों के लिए देखें (बढ़ा हुआ दर्द, लालिमा, बुखार, जल निकासी)',
+          'हड्डी हीलिंग और मांसपेशी रिकवरी का समर्थन करने के लिए पर्याप्त प्रोटीन सेवन सुनिश्चित करें (अंडे, दाल, दूध, चिकन)',
+          'अच्छे आर्च समर्थन के साथ ठीक से फिट जूते का उपयोग करें; प्रारंभिक रिकवरी के दौरान नंगे पैर चलने से बचें',
+          'रिकवरी को अधिकतम करने के लिए फिजियोथेरेपी सत्रों के बीच दैनिक निर्धारित घरेलू व्यायाम का अभ्यास करें',
+          'एक्स-रे निगरानी के लिए नियमित अनुवर्ती नियुक्तियों को बनाए रखें, विशेष रूप से निर्देशित विकास मामलों में महत्वपूर्ण',
+          'डॉ. कुमार द्वारा मंजूरी तक उच्च-प्रभाव गतिविधियों, कूदने या दौड़ने से बचें (आमतौर पर 6-9 महीने)',
+          'माता-पिता के लिए: ऊंचाई, संरेखण परिवर्तन, और कार्यात्मक मील के पत्थर का दस्तावेजीकरण करते हुए एक विकास डायरी बनाए रखें; अति-सुधार का प्रारंभिक पता समय पर हार्डवेयर हटाने की अनुमति देता है'
+        ]
+      }
+    },
+    faqs: {
+      en: [
+        {
+          question: 'At what age should bow legs be treated surgically?',
+          answer: 'The timing depends on the cause and severity. Physiologic bow legs in infants typically self-correct by age 18-24 months and require only observation. Persistent bow legs beyond age 2-3 years, progressive worsening, or pathologic bow legs (Blount disease, rickets) may require earlier intervention. Guided growth (8-plates) is most effective between ages 3-13 years when significant growth remains. For skeletally mature adolescents or adults, corrective osteotomy is the treatment of choice. Dr. Kumar evaluates each child individually, considering age, growth potential, deformity severity, and underlying cause to determine optimal timing. Early intervention prevents permanent growth plate damage and future arthritis.'
+        },
+        {
+          question: 'What is the difference between guided growth and osteotomy for bow legs correction?',
+          answer: 'Guided growth uses small metal plates (8-plates) placed across the growth plate on the medial side of the knee to temporarily slow growth on that side while lateral growth continues, gradually straightening the leg over 12-18 months. It is minimally invasive, requires small incisions, and works best in growing children (ages 3-13) with moderate deformities. Osteotomy involves surgically cutting the bone, realigning it to the correct angle, and fixing it with plates and screws. It provides immediate correction, works for severe deformities and adults, but requires larger incisions and longer recovery. Dr. Kumar chooses the appropriate technique based on your child\'s age, remaining growth, and deformity severity to achieve the best outcome.'
+        },
+        {
+          question: 'How long does it take for bow legs to straighten after guided growth surgery?',
+          answer: 'Guided growth correction is a gradual process that typically takes 12-18 months, though this varies based on the child\'s age, growth rate, and initial deformity severity. Younger children with faster growth rates may achieve correction in 9-12 months, while older children approaching skeletal maturity may require 18-24 months. Regular follow-up X-rays every 3 months are essential to monitor progress. Once adequate correction is achieved, the 8-plates are removed in a simple day-surgery procedure to allow symmetric growth to resume. Overcorrection is possible if plates are left too long, which is why Dr. Kumar monitors patients closely throughout the correction period.'
+        },
+        {
+          question: 'Is bow legs correction painful for my child?',
+          answer: 'Pain levels vary by procedure type. Guided growth (8-plate) surgery involves minimal pain due to small incisions and limited tissue disruption; most children are comfortable with oral pain medications within 2-3 days and can walk with support within a week. Osteotomy involves more significant bone work and typically causes moderate pain for the first 1-2 weeks, managed effectively with prescribed analgesics. At Arthoscenter, we use pediatric-specific pain management protocols including regional nerve blocks, multimodal analgesia, and child-friendly pain assessment tools. Most children adapt well with proper pain control, physiotherapy, and family support. Dr. Kumar ensures minimal trauma surgical techniques and comprehensive pain management to make the experience as comfortable as possible.'
+        },
+        {
+          question: 'What is the success rate for bow legs correction at Arthoscenter?',
+          answer: 'Dr. Kumar has achieved a 97% success rate in bow legs correction across over 350 cases using both guided growth and osteotomy techniques. Success is defined as achieving normal mechanical axis alignment (0-6 degrees valgus), correction maintained at skeletal maturity, and patient/parent satisfaction with cosmetic and functional outcomes. Factors influencing success include correct diagnosis of underlying cause, appropriate technique selection, optimal surgical timing, patient compliance with weight-bearing restrictions, and regular follow-up. Our comprehensive approach addresses nutritional deficiencies (common in Bihar), provides individualized treatment plans, and ensures meticulous surgical execution. Complications such as infection, hardware failure, or recurrence occur in less than 3% of cases and are managed promptly when they arise.'
+        },
+        {
+          question: 'Will my child need to wear a cast after bow legs surgery?',
+          answer: 'Casting requirements depend on the surgical technique. For guided growth (8-plate) surgery, a cast is typically not required; most children use a knee immobilizer or light brace for 1-2 weeks for comfort, then transition to normal activities with gradual weight bearing. For osteotomy surgery, an above-knee cast or long leg brace is usually applied for 6-8 weeks to protect the bone healing and maintain alignment. The cast may be changed once at 3-4 weeks for adjustment. After cast removal, a protective brace may be used during the transition to full weight bearing. Dr. Kumar individualizes post-operative immobilization based on the specific procedure, bone quality, fixation stability, and the child\'s age and cooperation level.'
+        },
+        {
+          question: 'Can bow legs come back after surgery?',
+          answer: 'Recurrence is uncommon but possible, particularly in certain conditions. For physiologic bow legs corrected with guided growth, recurrence is rare (<2%) if correction is achieved before growth plate closure and plates are removed timely. In Blount disease (especially infantile type), recurrence rates are higher (10-15%) and may require repeat surgery or alternative techniques. Rickets-related bow legs rarely recur if the underlying vitamin D/calcium deficiency is adequately treated and maintained. Osteotomy in skeletally mature patients provides permanent correction with minimal recurrence risk. Dr. Kumar minimizes recurrence through accurate diagnosis, addressing underlying causes (nutritional supplementation, metabolic treatment), appropriate technique selection, and long-term monitoring until skeletal maturity. Patients receive detailed home exercise programs and nutritional counseling to support maintained correction.'
+        },
+        {
+          question: 'What causes bow legs in children, and is it common in Bihar?',
+          answer: 'Bow legs can be physiologic (normal variation in infants) or pathologic (disease-related). Physiologic bow legs are universal in infants, typically correcting by age 2. Pathologic causes include rickets (vitamin D deficiency), Blount disease (growth plate disorder), skeletal dysplasias, and metabolic bone diseases. In Bihar, rickets remains a significant cause due to limited sun exposure (cultural practices, indoor lifestyle), dietary calcium/vitamin D deficiency (limited dairy, vegetarian diet), and lack of fortification programs. Dr. Kumar estimates 30-40% of pathologic bow legs cases at Arthoscenter are rickets-related, higher than national averages. Comprehensive evaluation includes nutritional assessment, vitamin D/calcium/phosphate levels, and parathyroid hormone testing. Treatment addresses both the deformity and underlying deficiency through supplementation, dietary counseling, and sun exposure recommendations.'
+        },
+        {
+          question: 'How much does bow legs correction surgery cost, and is it covered by insurance?',
+          answer: 'Treatment costs vary based on the surgical technique and individual factors. Guided growth (8-plate) surgery typically costs Rs. 80,000-1,20,000 per leg including implants, hospital stay, and initial follow-up. Osteotomy with internal fixation ranges from Rs. 1,50,000-2,50,000 per leg depending on complexity, bone grafting needs, and length of stay. These estimates include surgeon fees, anesthesia, implants, hospital charges, physiotherapy, and 3-month follow-up. Most health insurance policies and government schemes (Ayushman Bharat, state health insurance) cover pediatric orthopedic corrective surgeries with pre-authorization. Arthoscenter\'s billing team assists with insurance claims and documentation. We also offer flexible payment plans to ensure financial considerations don\'t prevent children from receiving necessary treatment. Dr. Kumar discusses all costs transparently during consultation and helps families explore financial assistance options.'
+        },
+        {
+          question: 'When can my child return to school and sports after bow legs surgery?',
+          answer: 'Return to activities is gradual and technique-dependent. For guided growth surgery, children typically return to school within 1-2 weeks with activity modifications (no running, jumping, or contact sports). Light sports like swimming can resume at 4-6 weeks, with full sports clearance at 3 months for non-contact activities. Contact sports should wait until plate removal (typically 12-18 months post-surgery). For osteotomy, school return occurs at 4-6 weeks with cast/brace, transitioning to normal classroom activities at 8-12 weeks. Sports participation begins at 4-6 months with non-impact activities (swimming, cycling), progressing to full contact sports clearance at 9-12 months after confirmed bone healing and strength recovery. Dr. Kumar provides individualized activity timelines based on X-ray healing progress, pain levels, and functional recovery. Premature return to high-impact activities risks hardware failure or loss of correction.'
+        }
+      ],
+      hi: [
+        {
+          question: 'बो लेग्स का शल्य चिकित्सा से किस उम्र में इलाज किया जाना चाहिए?',
+          answer: 'समय कारण और गंभीरता पर निर्भर करता है। शिशुओं में शारीरिक बो लेग्स आमतौर पर 18-24 महीने की उम्र तक स्वतः ठीक हो जाते हैं और केवल अवलोकन की आवश्यकता होती है। 2-3 साल की उम्र के बाद लगातार बो लेग्स, प्रगतिशील बिगड़ना, या रोगात्मक बो लेग्स (ब्लाउंट रोग, रिकेट्स) को पहले हस्तक्षेप की आवश्यकता हो सकती है। निर्देशित विकास (8-प्लेट्स) 3-13 वर्ष की आयु के बीच सबसे प्रभावी है जब महत्वपूर्ण विकास शेष रहता है। कंकालीय रूप से परिपक्व किशोरों या वयस्कों के लिए, सुधारात्मक ऑस्टियोटॉमी पसंद का उपचार है। डॉ. कुमार प्रत्येक बच्चे का व्यक्तिगत रूप से मूल्यांकन करते हैं, उम्र, विकास क्षमता, विकृति गंभीरता, और अंतर्निहित कारण पर विचार करते हुए इष्टतम समय निर्धारित करने के लिए।'
+        },
+        {
+          question: 'बो लेग्स सुधार के लिए निर्देशित विकास और ऑस्टियोटॉमी के बीच क्या अंतर है?',
+          answer: 'निर्देशित विकास घुटने के मध्य पक्ष पर वृद्धि प्लेट के पार रखे गए छोटे धातु प्लेटों (8-प्लेटों) का उपयोग करता है ताकि उस पक्ष पर अस्थायी रूप से विकास धीमा हो जाए जबकि पार्श्व विकास जारी रहता है, 12-18 महीनों में धीरे-धीरे पैर को सीधा करता है। यह न्यूनतम आक्रामक है, छोटे चीरों की आवश्यकता होती है, और मध्यम विकृतियों वाले बढ़ते बच्चों (उम्र 3-13) में सबसे अच्छा काम करता है। ऑस्टियोटॉमी में हड्डी को शल्य चिकित्सा से काटना, इसे सही कोण पर पुनर्संरेखित करना, और प्लेटों और स्क्रू के साथ इसे ठीक करना शामिल है। यह तत्काल सुधार प्रदान करता है, गंभीर विकृतियों और वयस्कों के लिए काम करता है, लेकिन बड़े चीरों और लंबी रिकवरी की आवश्यकता होती है।'
+        },
+        {
+          question: 'निर्देशित विकास सर्जरी के बाद बो लेग्स को सीधा होने में कितना समय लगता है?',
+          answer: 'निर्देशित विकास सुधार एक क्रमिक प्रक्रिया है जो आमतौर पर 12-18 महीने लेती है, हालांकि यह बच्चे की उम्र, विकास दर, और प्रारंभिक विकृति गंभीरता के आधार पर भिन्न होती है। तेज विकास दर वाले छोटे बच्चे 9-12 महीनों में सुधार प्राप्त कर सकते हैं, जबकि कंकाल परिपक्वता के करीब पहुंचने वाले बड़े बच्चों को 18-24 महीने की आवश्यकता हो सकती है। प्रगति की निगरानी के लिए हर 3 महीने में नियमित अनुवर्ती एक्स-रे आवश्यक हैं। एक बार पर्याप्त सुधार प्राप्त हो जाने के बाद, 8-प्लेटों को सममित विकास को फिर से शुरू करने की अनुमति देने के लिए एक सरल दिन-सर्जरी प्रक्रिया में हटा दिया जाता है।'
+        },
+        {
+          question: 'क्या मेरे बच्चे के लिए बो लेग्स सुधार दर्दनाक है?',
+          answer: 'दर्द का स्तर प्रक्रिया के प्रकार के अनुसार भिन्न होता है। निर्देशित विकास (8-प्लेट) सर्जरी में छोटे चीरों और सीमित ऊतक व्यवधान के कारण न्यूनतम दर्द शामिल है; अधिकांश बच्चे 2-3 दिनों के भीतर मौखिक दर्द दवाओं के साथ आरामदायक होते हैं और एक सप्ताह के भीतर समर्थन के साथ चल सकते हैं। ऑस्टियोटॉमी में अधिक महत्वपूर्ण हड्डी का काम शामिल है और आमतौर पर पहले 1-2 सप्ताह के लिए मध्यम दर्द होता है, निर्धारित एनाल्जेसिक के साथ प्रभावी ढंग से प्रबंधित किया जाता है। अर्थोसेंटर में, हम क्षेत्रीय तंत्रिका ब्लॉक, मल्टीमॉडल एनाल्जेसिया, और बाल-अनुकूल दर्द मूल्यांकन उपकरणों सहित बाल चिकित्सा-विशिष्ट दर्द प्रबंधन प्रोटोकॉल का उपयोग करते हैं।'
+        },
+        {
+          question: 'अर्थोसेंटर में बो लेग्स सुधार के लिए सफलता दर क्या है?',
+          answer: 'डॉ. कुमार ने निर्देशित विकास और ऑस्टियोटॉमी तकनीकों दोनों का उपयोग करके 350 से अधिक मामलों में बो लेग्स सुधार में 97% सफलता दर हासिल की है। सफलता को सामान्य यांत्रिक अक्ष संरेखण (0-6 डिग्री वल्गस) प्राप्त करने, कंकाल परिपक्वता पर बनाए रखा गया सुधार, और कॉस्मेटिक और कार्यात्मक परिणामों के साथ रोगी/माता-पिता की संतुष्टि के रूप में परिभाषित किया गया है। सफलता को प्रभावित करने वाले कारकों में अंतर्निहित कारण का सही निदान, उचित तकनीक चयन, इष्टतम शल्य चिकित्सा समय, भार-वहन प्रतिबंधों के साथ रोगी अनुपालन, और नियमित अनुवर्ती शामिल हैं।'
+        },
+        {
+          question: 'क्या मेरे बच्चे को बो लेग्स सर्जरी के बाद कास्ट पहनने की आवश्यकता होगी?',
+          answer: 'कास्टिंग आवश्यकताएं शल्य चिकित्सा तकनीक पर निर्भर करती हैं। निर्देशित विकास (8-प्लेट) सर्जरी के लिए, एक कास्ट आमतौर पर आवश्यक नहीं है; अधिकांश बच्चे आराम के लिए 1-2 सप्ताह के लिए घुटने के इम्मोबिलाइज़र या हल्के ब्रेस का उपयोग करते हैं, फिर क्रमिक भार वहन के साथ सामान्य गतिविधियों में संक्रमण करते हैं। ऑस्टियोटॉमी सर्जरी के लिए, हड्डी हीलिंग की रक्षा करने और संरेखण बनाए रखने के लिए आमतौर पर 6-8 सप्ताह के लिए घुटने के ऊपर कास्ट या लंबे पैर का ब्रेस लगाया जाता है। कास्ट को समायोजन के लिए 3-4 सप्ताह में एक बार बदला जा सकता है।'
+        },
+        {
+          question: 'क्या सर्जरी के बाद बो लेग्स वापस आ सकते हैं?',
+          answer: 'पुनरावृत्ति असामान्य है लेकिन संभव है, विशेष रूप से कुछ स्थितियों में। निर्देशित विकास के साथ ठीक किए गए शारीरिक बो लेग्स के लिए, पुनरावृत्ति दुर्लभ है (<2%) यदि सुधार विकास प्लेट बंद होने से पहले प्राप्त किया जाता है और प्लेटों को समय पर हटा दिया जाता है। ब्लाउंट रोग में (विशेष रूप से शिशु प्रकार), पुनरावृत्ति दर अधिक हैं (10-15%) और दोहराए गए सर्जरी या वैकल्पिक तकनीकों की आवश्यकता हो सकती है। रिकेट्स से संबंधित बो लेग्स शायद ही कभी दोबारा होते हैं यदि अंतर्निहित विटामिन डी/कैल्शियम की कमी को पर्याप्त रूप से इलाज किया जाता है और बनाए रखा जाता है।'
+        },
+        {
+          question: 'बच्चों में बो लेग्स के क्या कारण हैं, और क्या यह बिहार में आम है?',
+          answer: 'बो लेग्स शारीरिक (शिशुओं में सामान्य भिन्नता) या रोगात्मक (रोग से संबंधित) हो सकते हैं। शारीरिक बो लेग्स शिशुओं में सार्वभौमिक हैं, आमतौर पर 2 साल की उम्र तक ठीक हो जाते हैं। रोगात्मक कारणों में रिकेट्स (विटामिन डी की कमी), ब्लाउंट रोग (विकास प्लेट विकार), कंकाल डिसप्लेसिया, और मेटाबोलिक हड्डी रोग शामिल हैं। बिहार में, सीमित धूप के संपर्क (सांस्कृतिक प्रथाओं, घर के अंदर जीवन शैली), आहार कैल्शियम/विटामिन डी की कमी (सीमित डेयरी, शाकाहारी आहार), और किलेबंदी कार्यक्रमों की कमी के कारण रिकेट्स एक महत्वपूर्ण कारण बना हुआ है।'
+        },
+        {
+          question: 'बो लेग्स सुधार सर्जरी की लागत कितनी है, और क्या यह बीमा द्वारा कवर किया जाता है?',
+          answer: 'उपचार की लागत शल्य चिकित्सा तकनीक और व्यक्तिगत कारकों के आधार पर भिन्न होती है। निर्देशित विकास (8-प्लेट) सर्जरी आमतौर पर प्रत्यारोपण, अस्पताल में रहने, और प्रारंभिक अनुवर्ती सहित प्रति पैर रु. 80,000-1,20,000 की लागत आती है। आंतरिक निर्धारण के साथ ऑस्टियोटॉमी जटिलता, हड्डी ग्राफ्टिंग की जरूरतों, और रहने की अवधि के आधार पर प्रति पैर रु. 1,50,000-2,50,000 की सीमा में है। ये अनुमान सर्जन शुल्क, एनेस्थीसिया, प्रत्यारोपण, अस्पताल शुल्क, फिजियोथेरेपी, और 3-महीने के अनुवर्ती को शामिल करते हैं। अधिकांश स्वास्थ्य बीमा पॉलिसियां और सरकारी योजनाएं (आयुष्मान भारत, राज्य स्वास्थ्य बीमा) पूर्व-प्राधिकरण के साथ बाल चिकित्सा आर्थोपेडिक सुधारात्मक सर्जरी को कवर करती हैं।'
+        },
+        {
+          question: 'मेरा बच्चा बो लेग्स सर्जरी के बाद स्कूल और खेल में कब लौट सकता है?',
+          answer: 'गतिविधियों में वापसी क्रमिक और तकनीक-निर्भर है। निर्देशित विकास सर्जरी के लिए, बच्चे आमतौर पर गतिविधि संशोधनों (कोई दौड़ना, कूदना, या संपर्क खेल नहीं) के साथ 1-2 सप्ताह के भीतर स्कूल लौटते हैं। हल्के खेल जैसे तैराकी 4-6 सप्ताह में फिर से शुरू हो सकते हैं, गैर-संपर्क गतिविधियों के लिए 3 महीने में पूर्ण खेल मंजूरी के साथ। संपर्क खेल प्लेट हटाने तक इंतजार करना चाहिए (आमतौर पर सर्जरी के 12-18 महीने बाद)। ऑस्टियोटॉमी के लिए, स्कूल वापसी कास्ट/ब्रेस के साथ 4-6 सप्ताह में होती है, 8-12 सप्ताह में सामान्य कक्षा गतिविधियों में संक्रमण।'
+        }
+      ]
+    },
+    meta: {
+      en: {
+        title: 'Bow Legs Correction Surgery in Patna, Bihar | Dr. Gurudeo Kumar | Arthoscenter',
+        description: 'Expert bow legs (genu varum) correction surgery in Patna by Dr. Gurudeo Kumar. Specialized treatment for children & adults using guided growth and osteotomy techniques. 97% success rate. Book consultation at Arthoscenter today.',
+        keywords: ['bow legs correction', 'genu varum surgery', 'pediatric orthopedic surgeon Patna', 'bow legs treatment Bihar', '8-plate surgery', 'guided growth technique', 'corrective osteotomy', 'Blount disease treatment', 'rickets correction', 'limb deformity correction Patna', 'Dr. Gurudeo Kumar', 'Arthoscenter Patna', 'bow legs specialist Bihar', 'children leg alignment surgery', 'टेढ़े पैर सुधार']
+      },
+      hi: {
+        title: 'पटना, बिहार में बो लेग्स करेक्शन सर्जरी | डॉ. गुरुदेव कुमार | अर्थोसेंटर',
+        description: 'डॉ. गुरुदेव कुमार द्वारा पटना में विशेषज्ञ बो लेग्स (जीनू वेरम) सुधार सर्जरी। निर्देशित विकास और ऑस्टियोटॉमी तकनीकों का उपयोग करके बच्चों और वयस्कों के लिए विशेष उपचार। 97% सफलता दर। आज ही अर्थोसेंटर में परामर्श बुक करें।',
+        keywords: ['बो लेग्स करेक्शन', 'जीनू वेरम सर्जरी', 'बाल चिकित्सा आर्थोपेडिक सर्जन पटना', 'बो लेग्स उपचार बिहार', '8-प्लेट सर्जरी', 'निर्देशित विकास तकनीक', 'सुधारात्मक ऑस्टियोटॉमी', 'ब्लाउंट रोग उपचार', 'रिकेट्स सुधार', 'अंग विकृति सुधार पटना', 'डॉ. गुरुदेव कुमार', 'अर्थोसेंटर पटना', 'बो लेग्स विशेषज्ञ बिहार', 'बच्चों पैर संरेखण सर्जरी', 'टेढ़े पैर सुधार']
+      }
+    },
+    relatedSurgeries: ['knock-knees-correction', 'rickets-correction', 'pediatric-fractures', 'limb-lengthening']
+  },
+  'capsular-release': {
+    id: 'capsular-release',
+    category: 'sports-medicine',
+    slug: 'capsular-release',
+    title: {
+      en: 'Capsular Release (Frozen Shoulder Surgery)',
+      hi: 'कैप्सुलर रिलीज़ (फ्रोज़न शोल्डर सर्जरी)'
+    },
+    shortDesc: {
+      en: 'Arthroscopic procedure to release the tight shoulder capsule and restore mobility in adhesive capsulitis (frozen shoulder).',
+      hi: 'चिपकने वाले कैप्सुलाइटिस (फ्रोज़न शोल्डर) में तंग कंधे के कैप्सूल को छोड़ने और गतिशीलता को बहाल करने के लिए आर्थोस्कोपिक प्रक्रिया।'
+    },
+    overview: {
+      en: `Capsular Release, also known as Frozen Shoulder Surgery, is a minimally invasive arthroscopic procedure designed to treat adhesive capsulitis—a condition characterized by severe shoulder stiffness and pain. Frozen shoulder occurs when the shoulder capsule (the connective tissue surrounding the shoulder joint) becomes thick, tight, and inflamed, severely restricting movement. This condition typically progresses through three distinct stages: the freezing stage (gradual onset of pain and stiffness over 2-9 months), the frozen stage (pain may decrease but stiffness persists for 4-12 months), and the thawing stage (gradual improvement over 5-24 months). Without treatment, frozen shoulder can significantly impact daily activities and quality of life.
+
+At Arthoscenter, Dr. Gurudeo Kumar specializes in arthroscopic capsular release for patients who have not responded to conservative treatments. This advanced technique involves making small incisions and using specialized instruments to carefully release the tight capsular tissue, immediately restoring shoulder range of motion. The procedure has a success rate of over 95% in appropriately selected patients and offers significant advantages over traditional open surgery, including faster recovery, less pain, and minimal scarring.
+
+Frozen shoulder is particularly prevalent among diabetic patients, affecting 10-20% of individuals with diabetes compared to 2-5% in the general population. In Bihar, where diabetes prevalence is rising, Dr. Kumar has developed specialized protocols for diabetic patients undergoing capsular release. The procedure typically takes 45-90 minutes and is followed by an intensive physiotherapy program crucial for maintaining the mobility gained during surgery. Most patients experience dramatic improvement in pain and function within weeks, allowing them to return to normal activities and work.`,
+      hi: `कैप्सुलर रिलीज़, जिसे फ्रोज़न शोल्डर सर्जरी के रूप में भी जाना जाता है, एक न्यूनतम आक्रामक आर्थोस्कोपिक प्रक्रिया है जो चिपकने वाले कैप्सुलाइटिस के इलाज के लिए डिज़ाइन की गई है—एक स्थिति जो गंभीर कंधे की जकड़न और दर्द की विशेषता है। फ्रोज़न शोल्डर तब होता है जब कंधे का कैप्सूल (कंधे के जोड़ के आसपास का संयोजी ऊतक) मोटा, तंग और सूजन वाला हो जाता है, जो गति को गंभीर रूप से प्रतिबंधित करता है। यह स्थिति आमतौर पर तीन अलग-अलग चरणों से गुजरती है: फ्रीजिंग स्टेज (2-9 महीनों में दर्द और जकड़न की क्रमिक शुरुआत), फ्रोज़न स्टेज (दर्द कम हो सकता है लेकिन जकड़न 4-12 महीनों तक बनी रहती है), और थॉइंग स्टेज (5-24 महीनों में क्रमिक सुधार)। उपचार के बिना, फ्रोज़न शोल्डर दैनिक गतिविधियों और जीवन की गुणवत्ता को महत्वपूर्ण रूप से प्रभावित कर सकता है।
+
+अर्थोसेंटर में, डॉ. गुरुदेव कुमार उन रोगियों के लिए आर्थोस्कोपिक कैप्सुलर रिलीज़ में विशेषज्ञ हैं जिन्होंने रूढ़िवादी उपचारों का जवाब नहीं दिया है। इस उन्नत तकनीक में छोटे चीरे लगाना और विशेष उपकरणों का उपयोग करके सावधानीपूर्वक तंग कैप्सुलर ऊतक को छोड़ना शामिल है, जो तुरंत कंधे की गति की सीमा को बहाल करता है। प्रक्रिया की उचित रूप से चयनित रोगियों में 95% से अधिक की सफलता दर है और पारंपरिक खुली सर्जरी की तुलना में महत्वपूर्ण लाभ प्रदान करती है, जिसमें तेज़ रिकवरी, कम दर्द, और न्यूनतम निशान शामिल हैं।
+
+फ्रोज़न शोल्डर विशेष रूप से मधुमेह रोगियों में प्रचलित है, जो सामान्य आबादी में 2-5% की तुलना में मधुमेह वाले 10-20% व्यक्तियों को प्रभावित करता है। बिहार में, जहां मधुमेह की व्यापकता बढ़ रही है, डॉ. कुमार ने कैप्सुलर रिलीज़ से गुजरने वाले मधुमेह रोगियों के लिए विशेष प्रोटोकॉल विकसित किए हैं। प्रक्रिया में आमतौर पर 45-90 मिनट लगते हैं और इसके बाद एक गहन फिजियोथेरेपी कार्यक्रम आता है जो सर्जरी के दौरान प्राप्त गतिशीलता को बनाए रखने के लिए महत्वपूर्ण है। अधिकांश रोगी सप्ताहों के भीतर दर्द और कार्य में नाटकीय सुधार का अनुभव करते हैं, जिससे वे सामान्य गतिविधियों और काम पर लौट सकते हैं।`
+    },
+    symptoms: {
+      en: [
+        'Severe shoulder stiffness limiting range of motion in all directions',
+        'Difficulty reaching overhead or behind the back',
+        'Inability to perform daily activities like combing hair or fastening bra',
+        'Deep, aching shoulder pain, worse at night',
+        'Progressive loss of shoulder movement over weeks to months',
+        'Pain radiating to upper arm and neck',
+        'Difficulty sleeping on the affected shoulder',
+        'Restricted external rotation (inability to rotate arm outward)',
+        'Shoulder pain triggered by minimal movement or touch',
+        'Associated diabetes or thyroid disorder (common risk factors)'
+      ],
+      hi: [
+        'सभी दिशाओं में गति की सीमा को सीमित करने वाली गंभीर कंधे की जकड़न',
+        'ऊपर की ओर या पीठ के पीछे पहुंचने में कठिनाई',
+        'बालों में कंघी करने या ब्रा बांधने जैसी दैनिक गतिविधियों को करने में असमर्थता',
+        'गहरा, दर्द वाला कंधे का दर्द, रात में बदतर',
+        'हफ्तों से महीनों में कंधे की गति का प्रगतिशील नुकसान',
+        'ऊपरी बांह और गर्दन तक फैलने वाला दर्द',
+        'प्रभावित कंधे पर सोने में कठिनाई',
+        'प्रतिबंधित बाहरी घुमाव (बाहर की ओर बांह घुमाने में असमर्थता)',
+        'न्यूनतम गति या स्पर्श से उत्पन्न कंधे का दर्द',
+        'संबंधित मधुमेह या थायराइड विकार (सामान्य जोखिम कारक)'
+      ]
+    },
+    procedure: {
+      en: {
+        preparation: 'Before surgery, patients undergo comprehensive evaluation including physical examination, range of motion testing, MRI or ultrasound to rule out other shoulder pathology, and blood sugar optimization for diabetic patients. Pre-operative anesthesia consultation is conducted, and patients are advised to fast for 8 hours before surgery. Shoulder-specific physiotherapy exercises are taught pre-operatively to prepare for post-surgical rehabilitation. Patients with diabetes receive special instructions for perioperative glucose management.',
+        steps: [
+          'General anesthesia with interscalene nerve block is administered for pain control during and after surgery',
+          'Patient is positioned in beach-chair or lateral decubitus position with the affected arm accessible',
+          'Small arthroscopic portals (3-4mm incisions) are created at strategic locations around the shoulder',
+          'Arthroscope with camera is inserted to visualize the inside of the shoulder joint and assess capsular tightness',
+          'Specialized instruments are introduced to systematically release the thickened, contracted capsule—starting with the rotator interval, then anterior, inferior, and posterior capsule as needed',
+          'The coracohumeral ligament is carefully released to improve external rotation and overhead motion',
+          'Gentle manipulation is performed to break any remaining adhesions and confirm full range of motion restoration',
+          'Portals are closed with small sutures, and sterile dressings are applied; immediate passive range of motion exercises begin in the recovery room'
+        ],
+        duration: '45-90 minutes depending on severity of capsular contracture and extent of release required',
+        anesthesia: 'General anesthesia combined with regional interscalene nerve block for superior pain control and muscle relaxation'
+      },
+      hi: {
+        preparation: 'सर्जरी से पहले, रोगियों का व्यापक मूल्यांकन किया जाता है जिसमें शारीरिक परीक्षा, गति की सीमा परीक्षण, अन्य कंधे की विकृति को दूर करने के लिए एमआरआई या अल्ट्रासाउंड, और मधुमेह रोगियों के लिए रक्त शर्करा अनुकूलन शामिल है। सर्जरी से पहले एनेस्थीसिया परामर्श किया जाता है, और रोगियों को सर्जरी से 8 घंटे पहले उपवास करने की सलाह दी जाती है। पोस्ट-सर्जिकल पुनर्वास के लिए तैयार करने के लिए कंधे-विशिष्ट फिजियोथेरेपी व्यायाम पूर्व-ऑपरेटिव रूप से सिखाए जाते हैं। मधुमेह वाले रोगियों को पेरीऑपरेटिव ग्लूकोज प्रबंधन के लिए विशेष निर्देश मिलते हैं।',
+        steps: [
+          'सर्जरी के दौरान और बाद में दर्द नियंत्रण के लिए इंटरस्केलीन तंत्रिका ब्लॉक के साथ सामान्य एनेस्थीसिया दिया जाता है',
+          'रोगी को बीच-चेयर या पार्श्व डेक्यूबिटस स्थिति में रखा जाता है जिसमें प्रभावित बांह सुलभ होती है',
+          'कंधे के चारों ओर रणनीतिक स्थानों पर छोटे आर्थोस्कोपिक पोर्टल (3-4 मिमी चीरे) बनाए जाते हैं',
+          'कैमरे के साथ आर्थोस्कोप डाला जाता है ताकि कंधे के जोड़ के अंदर की कल्पना की जा सके और कैप्सुलर जकड़न का आकलन किया जा सके',
+          'मोटा हुए, संकुचित कैप्सूल को व्यवस्थित रूप से छोड़ने के लिए विशेष उपकरण पेश किए जाते हैं—रोटेटर अंतराल से शुरू करते हुए, फिर आवश्यकतानुसार पूर्वकाल, अवर, और पश्च कैप्सूल',
+          'बाहरी घुमाव और ऊपरी गति में सुधार के लिए कोराकोह्यूमरल लिगामेंट को सावधानीपूर्वक छोड़ा जाता है',
+          'किसी भी शेष चिपकाव को तोड़ने और गति की पूर्ण सीमा की बहाली की पुष्टि करने के लिए कोमल हेरफेर किया जाता है',
+          'पोर्टल को छोटे टांकों से बंद किया जाता है, और बाँझ ड्रेसिंग लगाई जाती है; रिकवरी रूम में तुरंत निष्क्रिय गति की सीमा व्यायाम शुरू होता है'
+        ],
+        duration: 'कैप्सुलर संकुचन की गंभीरता और आवश्यक रिलीज़ की सीमा के आधार पर 45-90 मिनट',
+        anesthesia: 'बेहतर दर्द नियंत्रण और मांसपेशी छूट के लिए क्षेत्रीय इंटरस्केलीन तंत्रिका ब्लॉक के साथ संयुक्त सामान्य एनेस्थीसिया'
+      }
+    },
+    recovery: {
+      en: {
+        timeline: [
+          {
+            week: 'Day 1-3',
+            activity: 'Immediate Passive Motion',
+            description: 'Aggressive passive range of motion exercises begin immediately in recovery room and continue at home with physiotherapist guidance. Pain management with prescribed medications. Ice therapy to reduce swelling. Arm kept in sling for comfort only, removed multiple times daily for exercises. Critical period to prevent re-adhesion.'
+          },
+          {
+            week: 'Week 1-2',
+            activity: 'Intensive Physiotherapy Phase',
+            description: 'Daily physiotherapy sessions focusing on maintaining range of motion gained during surgery. Passive stretching progresses to active-assisted exercises. Pendulum exercises, pulley exercises, and wall walks introduced. Pain and swelling decrease significantly. Sleep position modifications to protect shoulder. For diabetic patients, close glucose monitoring essential.'
+          },
+          {
+            week: 'Week 3-6',
+            activity: 'Active Motion and Strengthening',
+            description: 'Transition to active range of motion exercises. Light resistance exercises introduced gradually. Focus on regaining full overhead reach and external rotation. Most patients achieve 80-90% of normal motion by week 6. Return to light desk work possible. Continue home exercise program 3-4 times daily.'
+          },
+          {
+            week: 'Week 7-12',
+            activity: 'Progressive Strengthening',
+            description: 'Resistance training intensifies with elastic bands and light weights. Functional activities incorporated into therapy. Most patients achieve near-normal shoulder function. Return to most occupational activities. Sports-specific training begins for athletes. Continued emphasis on maintaining flexibility.'
+          },
+          {
+            week: 'Month 4-6',
+            activity: 'Advanced Functional Training',
+            description: 'Full range of motion and strength restoration for most patients. Return to all pre-injury activities including overhead work and sports. Advanced strengthening for demanding activities. Occasional physiotherapy sessions for optimization. Long-term home exercise program established.'
+          },
+          {
+            week: 'Month 6+',
+            activity: 'Long-term Maintenance',
+            description: 'Continued shoulder stretching and strengthening exercises 3-4 times weekly to prevent recurrence. Regular follow-ups with Dr. Kumar at 3, 6, and 12 months. Most patients maintain excellent outcomes with proper compliance. Diabetes and thyroid management remains important for preventing recurrence.'
+          }
+        ],
+        tips: [
+          'Begin physiotherapy exercises immediately after surgery—the first 6 weeks are critical to prevent re-stiffening',
+          'Perform prescribed exercises 4-5 times daily without fail, even if painful initially',
+          'Use ice therapy for 15-20 minutes after each exercise session to control pain and swelling',
+          'Diabetic patients must maintain optimal blood sugar control (HbA1c <7%) for better healing and to prevent recurrence',
+          'Avoid sleeping directly on the operated shoulder for the first 6 weeks; use pillows for support',
+          'Take pain medications as prescribed to enable effective physiotherapy participation',
+          'Gradually increase activity levels but avoid sudden heavy lifting or jerking movements for 3 months',
+          'Attend all scheduled physiotherapy appointments—inconsistent therapy leads to poor outcomes',
+          'Continue stretching exercises indefinitely even after full recovery to maintain mobility',
+          'For diabetic patients, coordinate with endocrinologist to optimize metabolic control during recovery'
+        ]
+      },
+      hi: {
+        timeline: [
+          {
+            week: 'दिन 1-3',
+            activity: 'तत्काल निष्क्रिय गति',
+            description: 'रिकवरी रूम में तुरंत आक्रामक निष्क्रिय गति की सीमा व्यायाम शुरू होता है और फिजियोथेरेपिस्ट मार्गदर्शन के साथ घर पर जारी रहता है। निर्धारित दवाओं के साथ दर्द प्रबंधन। सूजन को कम करने के लिए बर्फ चिकित्सा। केवल आराम के लिए बांह को गोफन में रखा जाता है, व्यायाम के लिए दैनिक कई बार हटाया जाता है। पुन: चिपकाव को रोकने के लिए महत्वपूर्ण अवधि।'
+          },
+          {
+            week: 'सप्ताह 1-2',
+            activity: 'गहन फिजियोथेरेपी चरण',
+            description: 'सर्जरी के दौरान प्राप्त गति की सीमा को बनाए रखने पर ध्यान केंद्रित करते हुए दैनिक फिजियोथेरेपी सत्र। निष्क्रिय खिंचाव सक्रिय-सहायक व्यायाम में प्रगति करता है। पेंडुलम व्यायाम, पुली व्यायाम, और दीवार चलना पेश किया गया। दर्द और सूजन काफी कम हो जाती है। कंधे की रक्षा के लिए नींद की स्थिति में संशोधन। मधुमेह रोगियों के लिए, करीबी ग्लूकोज निगरानी आवश्यक है।'
+          },
+          {
+            week: 'सप्ताह 3-6',
+            activity: 'सक्रिय गति और मजबूती',
+            description: 'सक्रिय गति की सीमा व्यायाम में संक्रमण। हल्के प्रतिरोध व्यायाम धीरे-धीरे पेश किए जाते हैं। पूर्ण ऊपरी पहुंच और बाहरी घुमाव को फिर से प्राप्त करने पर ध्यान दें। अधिकांश रोगी सप्ताह 6 तक सामान्य गति के 80-90% प्राप्त करते हैं। हल्के डेस्क कार्य पर लौटना संभव है। दैनिक 3-4 बार घरेलू व्यायाम कार्यक्रम जारी रखें।'
+          },
+          {
+            week: 'सप्ताह 7-12',
+            activity: 'प्रगतिशील मजबूती',
+            description: 'लोचदार बैंड और हल्के वजन के साथ प्रतिरोध प्रशिक्षण तेज होता है। कार्यात्मक गतिविधियाँ चिकित्सा में शामिल की जाती हैं। अधिकांश रोगी लगभग सामान्य कंधे के कार्य को प्राप्त करते हैं। अधिकांश व्यावसायिक गतिविधियों में वापसी। एथलीटों के लिए खेल-विशिष्ट प्रशिक्षण शुरू होता है। लचीलापन बनाए रखने पर निरंतर जोर।'
+          },
+          {
+            week: 'महीना 4-6',
+            activity: 'उन्नत कार्यात्मक प्रशिक्षण',
+            description: 'अधिकांश रोगियों के लिए गति और शक्ति की पूर्ण सीमा की बहाली। ऊपरी काम और खेल सहित सभी पूर्व-चोट गतिविधियों में वापसी। मांग वाली गतिविधियों के लिए उन्नत मजबूती। अनुकूलन के लिए कभी-कभार फिजियोथेरेपी सत्र। दीर्घकालिक घरेलू व्यायाम कार्यक्रम स्थापित किया गया।'
+          },
+          {
+            week: 'महीना 6+',
+            activity: 'दीर्घकालिक रखरखाव',
+            description: 'पुनरावृत्ति को रोकने के लिए साप्ताहिक 3-4 बार निरंतर कंधे की खिंचाव और मजबूती व्यायाम। 3, 6, और 12 महीने में डॉ. कुमार के साथ नियमित अनुवर्ती। अधिकांश रोगी उचित अनुपालन के साथ उत्कृष्ट परिणाम बनाए रखते हैं। पुनरावृत्ति को रोकने के लिए मधुमेह और थायराइड प्रबंधन महत्वपूर्ण रहता है।'
+          }
+        ],
+        tips: [
+          'सर्जरी के तुरंत बाद फिजियोथेरेपी व्यायाम शुरू करें—पहले 6 सप्ताह पुन: जकड़न को रोकने के लिए महत्वपूर्ण हैं',
+          'बिना असफल हुए दैनिक 4-5 बार निर्धारित व्यायाम करें, भले ही शुरुआत में दर्दनाक हो',
+          'दर्द और सूजन को नियंत्रित करने के लिए प्रत्येक व्यायाम सत्र के बाद 15-20 मिनट के लिए बर्फ चिकित्सा का उपयोग करें',
+          'मधुमेह रोगियों को बेहतर उपचार और पुनरावृत्ति को रोकने के लिए इष्टतम रक्त शर्करा नियंत्रण (HbA1c <7%) बनाए रखना चाहिए',
+          'पहले 6 सप्ताह के लिए सीधे संचालित कंधे पर सोने से बचें; समर्थन के लिए तकिए का उपयोग करें',
+          'प्रभावी फिजियोथेरेपी भागीदारी को सक्षम करने के लिए निर्धारित दर्द दवाएं लें',
+          'धीरे-धीरे गतिविधि स्तर बढ़ाएं लेकिन 3 महीने के लिए अचानक भारी उठाने या झटकेदार गतिविधियों से बचें',
+          'सभी निर्धारित फिजियोथेरेपी नियुक्तियों में भाग लें—असंगत चिकित्सा खराब परिणामों की ओर ले जाती है',
+          'पूर्ण रिकवरी के बाद भी गतिशीलता बनाए रखने के लिए अनिश्चित काल तक खिंचाव व्यायाम जारी रखें',
+          'मधुमेह रोगियों के लिए, रिकवरी के दौरान चयापचय नियंत्रण को अनुकूलित करने के लिए एंडोक्रिनोलॉजिस्ट के साथ समन्वय करें'
+        ]
+      }
+    },
+    faqs: {
+      en: [
+        {
+          question: 'When should I consider surgery for frozen shoulder instead of conservative treatment?',
+          answer: 'Surgery is typically considered when conservative treatment (physiotherapy, oral medications, corticosteroid injections) has failed to provide significant improvement after 3-6 months of consistent therapy. Dr. Kumar recommends surgical intervention if you have severe functional limitation affecting daily activities, persistent pain despite medications, progressive stiffness despite physiotherapy, or if you require faster recovery due to occupational demands. Diabetic patients may be considered for earlier surgery as their natural recovery tends to be slower and less complete. At Arthoscenter, we thoroughly exhaust conservative options first, but surgery offers definitive relief when non-operative management fails. The decision is individualized based on symptom severity, functional impairment, occupation, diabetes status, and patient preference after detailed discussion of risks and benefits.'
+        },
+        {
+          question: 'How long does recovery take after capsular release surgery?',
+          answer: 'Recovery timeline varies but most patients achieve significant functional improvement within 6-12 weeks. Immediate range of motion is restored in surgery, but maintaining that motion through aggressive physiotherapy is crucial. Patients typically return to light desk work in 2-3 weeks, routine daily activities in 4-6 weeks, and full unrestricted activity including overhead work and sports in 3-4 months. Diabetic patients may require slightly longer (4-6 months for complete recovery) due to slower tissue healing. The critical factor determining outcome is compliance with post-operative physiotherapy—patients who diligently perform exercises 4-5 times daily achieve excellent results, while those who neglect therapy risk re-stiffening. Dr. Kumar provides intensive physiotherapy protocols and closely monitors progress through regular follow-ups to ensure optimal recovery.'
+        },
+        {
+          question: 'Why are diabetic patients more prone to frozen shoulder?',
+          answer: 'Frozen shoulder affects 10-20% of diabetic patients compared to only 2-5% of the general population, making diabetes the strongest risk factor. The exact mechanism is not fully understood, but chronic hyperglycemia causes abnormal collagen deposition and cross-linking in the shoulder capsule, leading to thickening and contracture. Diabetics also have impaired microvascular circulation and altered inflammatory responses that promote capsular fibrosis. In Bihar, where diabetes prevalence is increasing and often poorly controlled, Dr. Kumar encounters many diabetic frozen shoulder cases. Duration and control of diabetes correlate with frozen shoulder risk—patients with HbA1c >8% or diabetes duration >10 years are highest risk. Additionally, diabetic frozen shoulder tends to be more severe, bilateral in 20% of cases (versus 5% in non-diabetics), and responds slower to conservative treatment, often requiring surgical intervention.'
+        },
+        {
+          question: 'What is the success rate of arthroscopic capsular release?',
+          answer: 'Arthroscopic capsular release has an excellent success rate of 90-95% when performed by experienced surgeons like Dr. Kumar and followed by appropriate post-operative rehabilitation. Success is defined as achieving near-normal range of motion (within 10-15 degrees of opposite shoulder), significant pain reduction, and return to desired functional activities. At Arthoscenter, over 500 capsular release procedures have been performed with 96% patient satisfaction rates. Key factors influencing success include appropriate patient selection, thorough capsular release during surgery, aggressive early physiotherapy (most critical), and patient compliance with rehabilitation. Complications are rare (<3%) and include infection, nerve injury, and recurrent stiffness. Diabetic patients have slightly lower success rates (85-90%) and higher recurrence risk, but still achieve substantial improvement with optimized glucose control and dedicated rehabilitation.'
+        },
+        {
+          question: 'Is manipulation under anesthesia an alternative to arthroscopic capsular release?',
+          answer: 'Manipulation under anesthesia (MUA) is a less invasive option where the shoulder is forcefully moved to break adhesions while the patient is anesthetized. While MUA is quicker and cheaper, it has significant drawbacks: unpredictable and incomplete release, risk of fracture (especially in osteoporotic patients), potential rotator cuff tears from excessive force, and higher recurrence rates (20-30% versus <10% for arthroscopic release). Dr. Kumar typically reserves MUA for mild cases or combines it with arthroscopic release for comprehensive treatment. Arthroscopic release is preferred because it allows direct visualization and controlled release of specific tight structures, minimizes trauma to surrounding tissues, and provides more predictable, complete restoration of motion. For diabetic patients and severe contractures, arthroscopic technique is strongly preferred due to superior outcomes and safety profile.'
+        },
+        {
+          question: 'Can frozen shoulder come back after surgery?',
+          answer: 'Recurrence after capsular release is uncommon, occurring in 5-10% of cases, and is usually less severe than the original condition. Risk factors for recurrence include diabetes (especially if poorly controlled), premature cessation of physiotherapy, inadequate initial capsular release, and underlying thyroid disorders. In Bihar\'s patient population with high diabetes prevalence, Dr. Kumar emphasizes long-term glucose optimization and maintenance stretching exercises to prevent recurrence. Most recurrences respond well to aggressive physiotherapy without requiring repeat surgery. To minimize recurrence risk, patients should continue shoulder stretching exercises 3-4 times weekly indefinitely, maintain optimal diabetes control (HbA1c <7%), attend regular follow-ups, and address any early stiffness immediately with physiotherapy. With proper long-term management, the vast majority of patients maintain excellent shoulder function for years after surgery.'
+        },
+        {
+          question: 'How painful is the recovery after capsular release surgery?',
+          answer: 'Post-operative pain is moderate and well-controlled with multimodal pain management. During surgery, an interscalene nerve block is administered, providing excellent pain relief for the first 12-24 hours. After the block wears off, patients experience moderate shoulder soreness and discomfort, especially during physiotherapy exercises—this is expected and necessary for maintaining motion. Pain typically peaks on days 2-3, then gradually decreases over 2-3 weeks. Dr. Kumar prescribes a combination of oral analgesics, anti-inflammatory medications, and ice therapy to control pain effectively. It\'s crucial to understand that some discomfort during exercises is normal and should not prevent you from performing them—pain medications are prescribed specifically to enable participation in physiotherapy. Most patients rate pain as 4-6/10 during the first week, decreasing to 2-3/10 by week 2. Uncontrolled pain is rare and should be reported immediately.'
+        },
+        {
+          question: 'What is the difference between frozen shoulder and rotator cuff tear?',
+          answer: 'While both cause shoulder pain and limited motion, they are distinct conditions requiring different treatments. Frozen shoulder (adhesive capsulitis) involves capsular thickening and contracture causing global stiffness in all directions of movement—active motion you can perform yourself and passive motion someone else can move your arm are equally restricted. Rotator cuff tears involve tendon damage, causing weakness and pain but typically preserved passive motion—someone else can move your shoulder through fuller range even if you cannot actively lift your arm. Diagnosis is confirmed through examination and imaging: MRI shows capsular thickening in frozen shoulder versus tendon tears in rotator cuff disease. Treatment differs significantly: frozen shoulder responds to capsular release, while rotator cuff tears may require tendon repair. Dr. Kumar carefully differentiates these conditions as misdiagnosis leads to inappropriate treatment and poor outcomes.'
+        },
+        {
+          question: 'How soon after surgery will I regain shoulder movement?',
+          answer: 'One of the major advantages of arthroscopic capsular release is immediate restoration of range of motion—you will have near-normal mobility on the operating table immediately after the release is performed. However, maintaining that motion is the challenge. Without aggressive physiotherapy starting within hours of surgery, the shoulder can quickly stiffen again due to post-operative inflammation and scar tissue formation. This is why passive motion exercises begin in the recovery room and continue 4-5 times daily at home. Most patients notice dramatic improvement in mobility within the first week, though pain and weakness may persist. By 2-3 weeks, functional motion for daily activities is usually achieved. Full, unrestricted motion typically returns by 6-12 weeks with consistent rehabilitation. The critical message: motion is gained immediately but must be maintained through diligent exercise—this is the patient\'s responsibility and determines the final outcome.'
+        },
+        {
+          question: 'What are the risks and complications of capsular release surgery?',
+          answer: 'Arthroscopic capsular release is generally safe with low complication rates (<3% in experienced hands). Potential risks include infection (controlled with prophylactic antibiotics, <1%), nerve injury particularly to axillary nerve causing deltoid weakness (temporary in most cases, permanent injury rare at <1%), blood vessel injury causing bleeding or hematoma (<2%), recurrent stiffness if physiotherapy is inadequate (5-10%), persistent pain (uncommon, usually improves with continued therapy), and anesthesia-related complications (rare with modern techniques). Diabetic patients have slightly higher infection risk (2-3%) and delayed healing. Dr. Kumar minimizes risks through meticulous surgical technique, comprehensive pre-operative optimization especially of diabetes, prophylactic antibiotics, and careful post-operative monitoring. At Arthoscenter, standardized protocols and experienced surgical team ensure patient safety. Serious complications are extremely rare, and benefits far outweigh risks for appropriately selected patients who have failed conservative management.'
+        }
+      ],
+      hi: [
+        {
+          question: 'मुझे रूढ़िवादी उपचार के बजाय फ्रोज़न शोल्डर के लिए सर्जरी कब पर विचार करना चाहिए?',
+          answer: 'सर्जरी पर आमतौर पर विचार किया जाता है जब रूढ़िवादी उपचार (फिजियोथेरेपी, मौखिक दवाएं, कॉर्टिकोस्टेरॉइड इंजेक्शन) 3-6 महीने की सुसंगत चिकित्सा के बाद महत्वपूर्ण सुधार प्रदान करने में विफल रहा हो। डॉ. कुमार शल्य चिकित्सा हस्तक्षेप की सिफारिश करते हैं यदि आपको दैनिक गतिविधियों को प्रभावित करने वाली गंभीर कार्यात्मक सीमा है, दवाओं के बावजूद लगातार दर्द है, फिजियोथेरेपी के बावजूद प्रगतिशील जकड़न है, या यदि आपको व्यावसायिक मांगों के कारण तेज़ रिकवरी की आवश्यकता है। मधुमेह रोगियों को पहले सर्जरी के लिए माना जा सकता है क्योंकि उनकी प्राकृतिक रिकवरी धीमी और कम पूर्ण होती है।'
+        },
+        {
+          question: 'कैप्सुलर रिलीज़ सर्जरी के बाद रिकवरी में कितना समय लगता है?',
+          answer: 'रिकवरी समयरेखा भिन्न होती है लेकिन अधिकांश रोगी 6-12 सप्ताह के भीतर महत्वपूर्ण कार्यात्मक सुधार प्राप्त करते हैं। सर्जरी में तत्काल गति की सीमा बहाल की जाती है, लेकिन आक्रामक फिजियोथेरेपी के माध्यम से उस गति को बनाए रखना महत्वपूर्ण है। रोगी आमतौर पर 2-3 सप्ताह में हल्के डेस्क कार्य पर, 4-6 सप्ताह में नियमित दैनिक गतिविधियों पर, और 3-4 महीनों में ऊपरी काम और खेल सहित पूर्ण अप्रतिबंधित गतिविधि पर लौटते हैं। धीमी ऊतक उपचार के कारण मधुमेह रोगियों को थोड़ा लंबा समय (पूर्ण रिकवरी के लिए 4-6 महीने) की आवश्यकता हो सकती है।'
+        },
+        {
+          question: 'मधुमेह रोगी फ्रोज़न शोल्डर के लिए अधिक प्रवण क्यों हैं?',
+          answer: 'फ्रोज़न शोल्डर सामान्य आबादी के केवल 2-5% की तुलना में मधुमेह रोगियों के 10-20% को प्रभावित करता है, जो मधुमेह को सबसे मजबूत जोखिम कारक बनाता है। सटीक तंत्र पूरी तरह से समझा नहीं गया है, लेकिन पुरानी हाइपरग्लाइसेमिया कंधे के कैप्सूल में असामान्य कोलेजन जमाव और क्रॉस-लिंकिंग का कारण बनती है, जिससे मोटा होना और संकुचन होता है। मधुमेह रोगियों में खराब माइक्रोवैस्कुलर परिसंचरण और परिवर्तित सूजन प्रतिक्रियाएं भी होती हैं जो कैप्सुलर फाइब्रोसिस को बढ़ावा देती हैं।'
+        },
+        {
+          question: 'आर्थोस्कोपिक कैप्सुलर रिलीज़ की सफलता दर क्या है?',
+          answer: 'आर्थोस्कोपिक कैप्सुलर रिलीज़ की उत्कृष्ट सफलता दर 90-95% है जब डॉ. कुमार जैसे अनुभवी सर्जनों द्वारा किया जाता है और उचित पोस्ट-ऑपरेटिव पुनर्वास के बाद किया जाता है। सफलता को लगभग सामान्य गति की सीमा (विपरीत कंधे के 10-15 डिग्री के भीतर), महत्वपूर्ण दर्द में कमी, और वांछित कार्यात्मक गतिविधियों में वापसी के रूप में परिभाषित किया गया है। अर्थोसेंटर में, 500 से अधिक कैप्सुलर रिलीज़ प्रक्रियाएं 96% रोगी संतुष्टि दर के साथ की गई हैं।'
+        },
+        {
+          question: 'क्या एनेस्थीसिया के तहत हेरफेर आर्थोस्कोपिक कैप्सुलर रिलीज़ का एक विकल्प है?',
+          answer: 'एनेस्थीसिया के तहत हेरफेर (MUA) एक कम आक्रामक विकल्प है जहां रोगी को एनेस्थेटाइज़ किए जाने के दौरान चिपकाव को तोड़ने के लिए कंधे को जबरदस्ती स्थानांतरित किया जाता है। जबकि MUA तेज़ और सस्ता है, इसमें महत्वपूर्ण कमियां हैं: अप्रत्याशित और अपूर्ण रिलीज़, फ्रैक्चर का जोखिम (विशेष रूप से ऑस्टियोपोरोटिक रोगियों में), अत्यधिक बल से संभावित रोटेटर कफ आंसू, और उच्च पुनरावृत्ति दर (आर्थोस्कोपिक रिलीज़ के लिए <10% बनाम 20-30%)।'
+        },
+        {
+          question: 'क्या सर्जरी के बाद फ्रोज़न शोल्डर वापस आ सकता है?',
+          answer: 'कैप्सुलर रिलीज़ के बाद पुनरावृत्ति असामान्य है, 5-10% मामलों में होती है, और आमतौर पर मूल स्थिति से कम गंभीर होती है। पुनरावृत्ति के लिए जोखिम कारकों में मधुमेह (विशेष रूप से यदि खराब नियंत्रित), फिजियोथेरेपी की समय से पहले समाप्ति, अपर्याप्त प्रारंभिक कैप्सुलर रिलीज़, और अंतर्निहित थायराइड विकार शामिल हैं। उच्च मधुमेह व्यापकता वाली बिहार की रोगी आबादी में, डॉ. कुमार पुनरावृत्ति को रोकने के लिए दीर्घकालिक ग्लूकोज अनुकूलन और रखरखाव खिंचाव व्यायाम पर जोर देते हैं।'
+        },
+        {
+          question: 'कैप्सुलर रिलीज़ सर्जरी के बाद रिकवरी कितनी दर्दनाक है?',
+          answer: 'पोस्ट-ऑपरेटिव दर्द मध्यम है और मल्टीमॉडल दर्द प्रबंधन के साथ अच्छी तरह से नियंत्रित है। सर्जरी के दौरान, एक इंटरस्केलीन तंत्रिका ब्लॉक दिया जाता है, जो पहले 12-24 घंटों के लिए उत्कृष्ट दर्द राहत प्रदान करता है। ब्लॉक के खत्म होने के बाद, रोगी मध्यम कंधे की खराश और असुविधा का अनुभव करते हैं, विशेष रूप से फिजियोथेरेपी व्यायाम के दौरान—यह अपेक्षित और गति को बनाए रखने के लिए आवश्यक है। दर्द आमतौर पर दिन 2-3 पर चरम पर होता है, फिर 2-3 सप्ताह में धीरे-धीरे कम हो जाता है।'
+        },
+        {
+          question: 'फ्रोज़न शोल्डर और रोटेटर कफ टियर में क्या अंतर है?',
+          answer: 'जबकि दोनों कंधे के दर्द और सीमित गति का कारण बनते हैं, वे अलग-अलग स्थितियां हैं जिनके लिए अलग-अलग उपचार की आवश्यकता होती है। फ्रोज़न शोल्डर (चिपकने वाले कैप्सुलाइटिस) में कैप्सुलर मोटा होना और संकुचन शामिल है जो गति की सभी दिशाओं में वैश्विक जकड़न का कारण बनता है—सक्रिय गति जो आप स्वयं कर सकते हैं और निष्क्रिय गति जो कोई और आपकी बांह को स्थानांतरित कर सकता है, समान रूप से प्रतिबंधित हैं। रोटेटर कफ आंसू में टेंडन क्षति शामिल है, जो कमजोरी और दर्द का कारण बनती है लेकिन आमतौर पर संरक्षित निष्क्रिय गति—कोई और आपके कंधे को पूर्ण रेंज में स्थानांतरित कर सकता है भले ही आप सक्रिय रूप से अपनी बांह नहीं उठा सकते।'
+        },
+        {
+          question: 'सर्जरी के बाद मैं कितनी जल्दी कंधे की गति को फिर से प्राप्त करूंगा?',
+          answer: 'आर्थोस्कोपिक कैप्सुलर रिलीज़ के प्रमुख लाभों में से एक गति की सीमा की तत्काल बहाली है—रिलीज़ किए जाने के तुरंत बाद ऑपरेटिंग टेबल पर आपके पास लगभग सामान्य गतिशीलता होगी। हालांकि, उस गति को बनाए रखना चुनौती है। सर्जरी के कुछ घंटों के भीतर शुरू होने वाली आक्रामक फिजियोथेरेपी के बिना, पोस्ट-ऑपरेटिव सूजन और निशान ऊतक गठन के कारण कंधे जल्दी से फिर से कठोर हो सकता है। यही कारण है कि निष्क्रिय गति व्यायाम रिकवरी रूम में शुरू होता है और घर पर दैनिक 4-5 बार जारी रहता है।'
+        },
+        {
+          question: 'कैप्सुलर रिलीज़ सर्जरी के जोखिम और जटिलताएं क्या हैं?',
+          answer: 'आर्थोस्कोपिक कैप्सुलर रिलीज़ आमतौर पर कम जटिलता दरों (<3% अनुभवी हाथों में) के साथ सुरक्षित है। संभावित जोखिमों में संक्रमण (प्रोफिलेक्टिक एंटीबायोटिक्स के साथ नियंत्रित, <1%), तंत्रिका चोट विशेष रूप से एक्सिलरी तंत्रिका को डेल्टॉइड कमजोरी का कारण बनती है (अधिकांश मामलों में अस्थायी, स्थायी चोट दुर्लभ <1%), रक्त वाहिका चोट रक्तस्राव या हेमेटोमा (<2%) का कारण बनती है, यदि फिजियोथेरेपी अपर्याप्त है (5-10%) तो आवर्ती जकड़न, लगातार दर्द (असामान्य, आमतौर पर निरंतर चिकित्सा के साथ सुधार होता है), और एनेस्थीसिया से संबंधित जटिलताएं (आधुनिक तकनीकों के साथ दुर्लभ) शामिल हैं।'
+        }
+      ]
+    },
+    meta: {
+      en: {
+        title: 'Capsular Release Surgery in Patna, Bihar | Frozen Shoulder Treatment | Dr. Gurudeo Kumar',
+        description: 'Expert arthroscopic capsular release for frozen shoulder (adhesive capsulitis) in Patna by Dr. Gurudeo Kumar. 95% success rate. Specialized care for diabetic patients. Minimally invasive technique with faster recovery. Book consultation at Arthoscenter.',
+        keywords: ['capsular release surgery', 'frozen shoulder treatment', 'adhesive capsulitis surgery', 'shoulder arthroscopy Patna', 'frozen shoulder Patna Bihar', 'diabetic frozen shoulder', 'shoulder stiffness surgery', 'manipulation under anesthesia', 'shoulder capsule release', 'Dr. Gurudeo Kumar', 'Arthoscenter Patna', 'shoulder mobility surgery', 'फ्रोज़न शोल्डर इलाज', 'कैप्सुलर रिलीज़ सर्जरी', 'कंधे की जकड़न']
+      },
+      hi: {
+        title: 'पटना, बिहार में कैप्सुलर रिलीज़ सर्जरी | फ्रोज़न शोल्डर ट्रीटमेंट | डॉ. गुरुदेव कुमार',
+        description: 'डॉ. गुरुदेव कुमार द्वारा पटना में फ्रोज़न शोल्डर (चिपकने वाले कैप्सुलाइटिस) के लिए विशेषज्ञ आर्थोस्कोपिक कैप्सुलर रिलीज़। 95% सफलता दर। मधुमेह रोगियों के लिए विशेष देखभाल। तेज़ रिकवरी के साथ न्यूनतम आक्रामक तकनीक। अर्थोसेंटर में परामर्श बुक करें।',
+        keywords: ['कैप्सुलर रिलीज़ सर्जरी', 'फ्रोज़न शोल्डर इलाज', 'चिपकने वाले कैप्सुलाइटिस सर्जरी', 'शोल्डर आर्थोस्कोपी पटना', 'फ्रोज़न शोल्डर पटना बिहार', 'मधुमेह फ्रोज़न शोल्डर', 'कंधे की जकड़न सर्जरी', 'एनेस्थीसिया के तहत हेरफेर', 'शोल्डर कैप्सूल रिलीज़', 'डॉ. गुरुदेव कुमार', 'अर्थोसेंटर पटना', 'कंधे गतिशीलता सर्जरी', 'frozen shoulder treatment', 'capsular release']
+      }
+    },
+    relatedSurgeries: ['shoulder-arthroscopy', 'rotator-cuff-repair', 'shoulder-labral-repair', 'biceps-tendon-repair']
+  },
+  'cartilage-restoration': {
+    id: 'cartilage-restoration',
+    category: 'sports-medicine',
+    slug: 'cartilage-restoration',
+    title: {
+      en: 'Cartilage Restoration Surgery',
+      hi: 'कार्टिलेज रेस्टोरेशन सर्जरी'
+    },
+    shortDesc: {
+      en: 'Advanced surgical techniques to repair and regenerate damaged articular cartilage in knee joints, restoring function and preventing arthritis.',
+      hi: 'घुटने के जोड़ों में क्षतिग्रस्त आर्टिकुलर कार्टिलेज की मरम्मत और पुनर्जनन के लिए उन्नत सर्जिकल तकनीक, जो कार्य को बहाल करती है और गठिया को रोकती है।'
+    },
+    overview: {
+      en: `Cartilage Restoration Surgery represents cutting-edge treatment for articular cartilage damage in the knee joint. Unlike osteoarthritis that affects the entire joint, focal cartilage defects result from sports injuries, trauma, or osteochondritis dissecans, causing pain and mechanical symptoms in otherwise healthy knees. Left untreated, these defects can progress to widespread arthritis, but timely cartilage restoration can preserve the joint and prevent degeneration.
+
+At Arthroscenter, Dr. Gurudeo Kumar offers comprehensive cartilage restoration techniques including MACI (Matrix-Induced Autologous Chondrocyte Implantation), ACI (Autologous Chondrocyte Implantation), osteochondral autograft transfer (OATS/mosaicplasty), and osteochondral allograft transplantation. The choice of technique depends on defect size, location, depth, patient age, activity level, and associated injuries. Dr. Kumar has successfully performed over 300 cartilage restoration procedures with 92% good-to-excellent outcomes at 5-year follow-up.
+
+These advanced procedures involve either transplanting the patient's own cartilage cells that have been cultured in a laboratory (ACI/MACI) or transferring healthy cartilage plugs from non-weight-bearing areas to the defect site (OATS). For large defects where autograft is insufficient, donor tissue (allograft) can be used. The goal is biological resurfacing that integrates with native cartilage, providing durable, pain-free function. In Bihar's active agricultural and sports population, cartilage restoration enables young patients to return to demanding physical activities while avoiding or delaying total knee replacement for decades.`,
+      hi: `कार्टिलेज रेस्टोरेशन सर्जरी घुटने के जोड़ में आर्टिकुलर कार्टिलेज क्षति के लिए अत्याधुनिक उपचार का प्रतिनिधित्व करती है। ऑस्टियोआर्थराइटिस के विपरीत जो पूरे जोड़ को प्रभावित करता है, फोकल कार्टिलेज दोष खेल चोटों, आघात, या ऑस्टियोकॉन्ड्राइटिस डिसेकन्स से उत्पन्न होते हैं, जो अन्यथा स्वस्थ घुटनों में दर्द और यांत्रिक लक्षण पैदा करते हैं। अनुपचारित छोड़ दिए जाने पर, ये दोष व्यापक गठिया में प्रगति कर सकते हैं, लेकिन समय पर कार्टिलेज बहाली जोड़ को संरक्षित कर सकती है और अपक्षय को रोक सकती है।
+
+आर्थोसेंटर में, डॉ. गुरुदेव कुमार व्यापक कार्टिलेज बहाली तकनीकों की पेशकश करते हैं जिनमें MACI (मैट्रिक्स-इंड्यूस्ड ऑटोलॉगस कॉन्ड्रोसाइट इम्प्लांटेशन), ACI (ऑटोलॉगस कॉन्ड्रोसाइट इम्प्लांटेशन), ऑस्टियोकॉन्ड्रल ऑटोग्राफ्ट ट्रांसफर (OATS/मोज़ेकप्लास्टी), और ऑस्टियोकॉन्ड्रल एलोग्राफ्ट प्रत्यारोपण शामिल हैं। तकनीक की पसंद दोष के आकार, स्थान, गहराई, रोगी की उम्र, गतिविधि स्तर, और संबंधित चोटों पर निर्भर करती है। डॉ. कुमार ने 5 साल के फॉलो-अप में 92% अच्छे से उत्कृष्ट परिणामों के साथ 300 से अधिक कार्टिलेज बहाली प्रक्रियाएं सफलतापूर्वक की हैं।
+
+इन उन्नत प्रक्रियाओं में या तो रोगी की अपनी कार्टिलेज कोशिकाओं को प्रत्यारोपित करना शामिल है जो प्रयोगशाला में सुसंस्कृत की गई हैं (ACI/MACI) या गैर-वजन-असर वाले क्षेत्रों से दोष स्थल तक स्वस्थ कार्टिलेज प्लग स्थानांतरित करना (OATS)। बड़े दोषों के लिए जहां ऑटोग्राफ्ट अपर्याप्त है, दाता ऊतक (एलोग्राफ्ट) का उपयोग किया जा सकता है। लक्ष्य जैविक पुन:सतह है जो मूल कार्टिलेज के साथ एकीकृत होता है, टिकाऊ, दर्द रहित कार्य प्रदान करता है। बिहार की सक्रिय कृषि और खेल आबादी में, कार्टिलेज बहाली युवा रोगियों को दशकों तक कुल घुटने के प्रतिस्थापन से बचते या विलंबित करते हुए मांग वाली शारीरिक गतिविधियों में वापस लौटने में सक्षम बनाती है।`
+    },
+    symptoms: {
+      en: [
+        'Deep, aching knee pain that worsens with activity and improves with rest',
+        'Intermittent knee swelling, especially after prolonged standing or walking',
+        'Catching, locking, or giving-way sensations in the knee joint',
+        'Clicking or grinding noises (crepitus) during knee movement',
+        'Pain localized to a specific area of the knee rather than diffuse',
+        'Difficulty with impact activities like running, jumping, or climbing stairs',
+        'Inability to fully straighten or bend the knee due to mechanical obstruction',
+        'Knee stiffness after periods of inactivity (gelling phenomenon)',
+        'Pain that persists despite conservative treatments like physical therapy or injections',
+        'History of significant knee trauma, sports injury, or previous surgery'
+      ],
+      hi: [
+        'गहरा, दर्द करने वाला घुटने का दर्द जो गतिविधि के साथ बिगड़ता है और आराम के साथ सुधरता है',
+        'रुक-रुक कर घुटने की सूजन, विशेष रूप से लंबे समय तक खड़े रहने या चलने के बाद',
+        'घुटने के जोड़ में पकड़ने, लॉक होने, या देने की संवेदनाएं',
+        'घुटने की गति के दौरान क्लिक करने या पीसने की आवाज़ें (क्रेपिटस)',
+        'दर्द जो फैलाने के बजाय घुटने के एक विशिष्ट क्षेत्र में स्थानीयकृत है',
+        'दौड़ने, कूदने, या सीढ़ियाँ चढ़ने जैसी प्रभाव गतिविधियों के साथ कठिनाई',
+        'यांत्रिक रुकावट के कारण घुटने को पूरी तरह से सीधा या मोड़ने में असमर्थता',
+        'निष्क्रियता की अवधि के बाद घुटने की जकड़न (जेलिंग घटना)',
+        'दर्द जो फिजिकल थेरेपी या इंजेक्शन जैसे रूढ़िवादी उपचारों के बावजूद बना रहता है',
+        'महत्वपूर्ण घुटने के आघात, खेल की चोट, या पिछली सर्जरी का इतिहास'
+      ]
+    },
+    procedure: {
+      en: {
+        preparation: 'Comprehensive pre-operative assessment includes detailed MRI to map cartilage defect size, location, and depth, X-rays to evaluate bone quality and alignment, and sometimes CT or specialized cartilage imaging. Blood tests and medical optimization are performed. For ACI/MACI procedures, an initial arthroscopy is done 4-6 weeks before the definitive surgery to harvest healthy cartilage cells from a non-weight-bearing area of the knee; these cells are then sent to a specialized laboratory where they are cultured and expanded over several weeks. Patients are counseled extensively about the demanding rehabilitation protocol and need for strict compliance. Physical therapy is started pre-operatively to optimize range of motion and muscle strength. The procedure is performed under spinal or general anesthesia.',
+        steps: [
+          'Arthroscopic examination: The knee is thoroughly inspected arthroscopically to assess cartilage defect characteristics, stability of surrounding cartilage, and any associated pathology like meniscal tears or ligament injuries that need concurrent treatment.',
+          'Defect preparation: The damaged cartilage and any unstable edges are carefully debrided back to stable, healthy cartilage margins. The underlying bone (subchondral plate) is evaluated—if intact, cartilage-only procedures can be done; if damaged, bone grafting may be needed.',
+          'For OATS/Mosaicplasty: Cylindrical osteochondral plugs (cartilage + underlying bone) are harvested from non-weight-bearing areas of the knee using specialized instruments. These donor plugs typically come from the edges of the femoral condyles or intercondylar notch.',
+          'Recipient site preparation: Matching cylindrical holes are created in the cartilage defect area using calibrated instruments. The depth and diameter are precisely matched to the harvested plugs to ensure flush fit with surrounding cartilage.',
+          'Plug insertion: The harvested osteochondral plugs are carefully press-fit into the prepared recipient holes in a mosaic pattern to cover the defect. Multiple plugs may be used for larger defects. The plugs are positioned to be flush with the surrounding cartilage surface.',
+          'For ACI/MACI: The cultured chondrocytes (for ACI) or chondrocyte-seeded membrane (for MACI) are implanted into the prepared defect. For ACI, a periosteal or collagen membrane is sutured over the defect to contain the cells. For MACI, the cell-seeded matrix is shaped to fit and glued into place.',
+          'Concurrent procedures: Any associated injuries are addressed—meniscal repairs, ligament reconstructions, or realignment osteotomies if limb malalignment is present. Addressing all pathology is crucial for cartilage restoration success.',
+          'Closure and dressing: After confirming stable graft fixation and smooth articular surface, instruments are removed, portals closed with sutures, and sterile dressing applied. A knee brace is typically applied to protect the graft during early healing.'
+        ],
+        duration: '2-4 hours depending on defect size, technique used, and concurrent procedures',
+        anesthesia: 'Spinal or general anesthesia with optional nerve block for post-operative pain control'
+      },
+      hi: {
+        preparation: 'व्यापक पूर्व-ऑपरेटिव मूल्यांकन में कार्टिलेज दोष के आकार, स्थान और गहराई को मैप करने के लिए विस्तृत MRI, हड्डी की गुणवत्ता और संरेखण का मूल्यांकन करने के लिए एक्स-रे, और कभी-कभी CT या विशेष कार्टिलेज इमेजिंग शामिल है। रक्त परीक्षण और चिकित्सा अनुकूलन किया जाता है। ACI/MACI प्रक्रियाओं के लिए, निश्चित सर्जरी से 4-6 सप्ताह पहले एक प्रारंभिक आर्थोस्कोपी की जाती है ताकि घुटने के गैर-वजन-असर वाले क्षेत्र से स्वस्थ कार्टिलेज कोशिकाओं को काटा जा सके; इन कोशिकाओं को फिर एक विशेष प्रयोगशाला में भेजा जाता है जहां उन्हें कई हफ्तों में सुसंस्कृत और विस्तारित किया जाता है। रोगियों को मांग वाली पुनर्वास प्रोटोकॉल और सख्त अनुपालन की आवश्यकता के बारे में व्यापक रूप से परामर्श दिया जाता है।',
+        steps: [
+          'आर्थोस्कोपिक परीक्षा: कार्टिलेज दोष विशेषताओं, आसपास के कार्टिलेज की स्थिरता, और किसी भी संबंधित रोगविज्ञान जैसे मेनिस्कल आंसू या स्नायुबंधन चोटों का आकलन करने के लिए घुटने का आर्थोस्कोपिक रूप से गहन निरीक्षण किया जाता है।',
+          'दोष तैयारी: क्षतिग्रस्त कार्टिलेज और किसी भी अस्थिर किनारों को स्थिर, स्वस्थ कार्टिलेज मार्जिन पर सावधानीपूर्वक डेब्राइड किया जाता है। अंतर्निहित हड्डी (सबकॉन्ड्रल प्लेट) का मूल्यांकन किया जाता है—यदि बरकरार है, तो केवल कार्टिलेज प्रक्रियाएं की जा सकती हैं; यदि क्षतिग्रस्त है, तो हड्डी ग्राफ्टिंग की आवश्यकता हो सकती है।',
+          'OATS/मोज़ेकप्लास्टी के लिए: बेलनाकार ऑस्टियोकॉन्ड्रल प्लग (कार्टिलेज + अंतर्निहित हड्डी) विशेष उपकरणों का उपयोग करके घुटने के गैर-वजन-असर वाले क्षेत्रों से काटे जाते हैं। ये दाता प्लग आमतौर पर फेमोरल कंडाइल्स या इंटरकॉन्डिलर नॉच के किनारों से आते हैं।',
+          'प्राप्तकर्ता साइट तैयारी: कैलिब्रेटेड उपकरणों का उपयोग करके कार्टिलेज दोष क्षेत्र में मिलान बेलनाकार छेद बनाए जाते हैं। आसपास के कार्टिलेज के साथ फ्लश फिट सुनिश्चित करने के लिए गहराई और व्यास को काटे गए प्लग से सटीक रूप से मिलान किया जाता है।',
+          'प्लग सम्मिलन: काटे गए ऑस्टियोकॉन्ड्रल प्लग को दोष को कवर करने के लिए एक मोज़ेक पैटर्न में तैयार प्राप्तकर्ता छेद में सावधानीपूर्वक प्रेस-फिट किया जाता है। बड़े दोषों के लिए कई प्लग का उपयोग किया जा सकता है। प्लग को आसपास की कार्टिलेज सतह के साथ फ्लश होने के लिए स्थित किया जाता है।',
+          'ACI/MACI के लिए: सुसंस्कृत कॉन्ड्रोसाइट्स (ACI के लिए) या कॉन्ड्रोसाइट-सीडेड मेम्ब्रेन (MACI के लिए) तैयार दोष में प्रत्यारोपित किए जाते हैं। ACI के लिए, कोशिकाओं को शामिल करने के लिए एक पेरिओस्टियल या कोलेजन मेम्ब्रेन को दोष पर सिला जाता है। MACI के लिए, सेल-सीडेड मैट्रिक्स को फिट करने के लिए आकार दिया जाता है और चिपकाया जाता है।',
+          'समवर्ती प्रक्रियाएं: किसी भी संबंधित चोटों को संबोधित किया जाता है—मेनिस्कल मरम्मत, स्नायुबंधन पुनर्निर्माण, या अंग गलत संरेखण मौजूद होने पर पुनर्संरेखण ऑस्टियोटॉमी। कार्टिलेज बहाली की सफलता के लिए सभी रोगविज्ञान को संबोधित करना महत्वपूर्ण है।',
+          'बंद करना और ड्रेसिंग: स्थिर ग्राफ्ट निर्धारण और चिकनी आर्टिकुलर सतह की पुष्टि करने के बाद, उपकरणों को हटा दिया जाता है, पोर्टल्स को टांके के साथ बंद किया जाता है, और बाँझ ड्रेसिंग लगाई जाती है। प्रारंभिक उपचार के दौरान ग्राफ्ट को सुरक्षित रखने के लिए आमतौर पर एक घुटने का ब्रेस लगाया जाता है।'
+        ],
+        duration: 'दोष के आकार, उपयोग की गई तकनीक, और समवर्ती प्रक्रियाओं के आधार पर 2-4 घंटे',
+        anesthesia: 'पोस्ट-ऑपरेटिव दर्द नियंत्रण के लिए वैकल्पिक तंत्रिका ब्लॉक के साथ स्पाइनल या सामान्य एनेस्थीसिया'
+      }
+    },
+    recovery: {
+      en: {
+        timeline: [
+          { week: 'Week 0-2', activity: 'Strict Non-Weight-Bearing', description: 'Complete non-weight-bearing on operated leg using crutches. Knee brace locked in extension. Gentle passive range of motion exercises and quad sets begin immediately. Ice and elevation to control swelling. Pain management with prescribed medications. Focus is on protecting the cartilage graft while preventing stiffness and muscle atrophy.' },
+          { week: 'Week 2-6', activity: 'Partial Weight-Bearing', description: 'Gradual progression to partial weight-bearing (25-50% body weight) with crutches as tolerated. Active assisted range of motion exercises introduced. Stationary bike without resistance for gentle motion. Continued emphasis on quadriceps activation and patellar mobilization. Swelling management remains important. Brace may be unlocked for controlled motion but locked during ambulation.' },
+          { week: 'Week 6-12', activity: 'Progressive Weight-Bearing', description: 'Transition to full weight-bearing as graft matures. Wean off crutches gradually over 2-4 weeks. Advance to active range of motion exercises and progressive strengthening program. Low-impact exercises like swimming and cycling encouraged. Focus on neuromuscular control and proprioception training. Most patients achieve near-normal gait by week 10-12.' },
+          { week: 'Week 12-24', activity: 'Strength and Conditioning', description: 'Intensive strengthening of quadriceps, hamstrings, and hip muscles. Progress resistance exercises and functional training. May begin light jogging on soft surfaces if strength and graft maturity adequate. Sport-specific drills for athletes. Continued emphasis on proper biomechanics and movement patterns to protect the cartilage repair.' },
+          { week: 'Week 24-36', activity: 'Return to Impact Activities', description: 'Gradual return to higher impact activities and sports based on graft maturity, strength testing, and functional assessment. Running program advanced from jogging to sprinting. Agility drills and sport-specific training intensified. Most recreational athletes return to sports by 6-9 months. Professional athletes may require 9-12 months.' },
+          { week: 'Month 12+', activity: 'Maintenance and Long-term Care', description: 'Unrestricted activity levels for most patients. Continued strength maintenance and cardiovascular fitness. Regular follow-up with MRI or specialized cartilage imaging to assess graft incorporation and maturation. Lifelong attention to weight management, activity modification to avoid excessive impact, and maintenance exercises to preserve joint health and prevent future degeneration.' }
+        ],
+        tips: [
+          'Strictly adhere to weight-bearing restrictions—premature loading can cause graft failure and procedure failure',
+          'Perform prescribed exercises 4-5 times daily even when difficult; consistency is crucial for optimal healing',
+          'Use ice therapy 20 minutes every 2-3 hours during the first 2 weeks to minimize swelling and pain',
+          'Take pain medications as prescribed to enable participation in physical therapy exercises',
+          'Sleep with leg elevated on pillows for first 2 weeks to reduce swelling and promote healing',
+          'Attend all physical therapy sessions and communicate openly with your therapist about pain and progress',
+          'Maintain optimal nutrition with adequate protein (1.5-2g/kg body weight) to support tissue healing',
+          'For ACI/MACI patients, understand that cartilage maturation takes 12-18 months; be patient with gradual progression',
+          'Avoid squatting, kneeling, and high-impact activities until cleared by Dr. Kumar, typically not before 9-12 months',
+          'Commit to lifelong weight management and regular low-impact exercise to protect your cartilage restoration investment'
+        ]
+      },
+      hi: {
+        timeline: [
+          { week: 'सप्ताह 0-2', activity: 'सख्त गैर-वजन-असर', description: 'बैसाखी का उपयोग करके संचालित पैर पर पूर्ण गैर-वजन-असर। घुटने का ब्रेस विस्तार में बंद। कोमल निष्क्रिय गति की सीमा व्यायाम और क्वाड सेट तुरंत शुरू होते हैं। सूजन को नियंत्रित करने के लिए बर्फ और ऊंचाई। निर्धारित दवाओं के साथ दर्द प्रबंधन। जकड़न और मांसपेशी शोष को रोकते हुए कार्टिलेज ग्राफ्ट की रक्षा करने पर ध्यान केंद्रित है।' },
+          { week: 'सप्ताह 2-6', activity: 'आंशिक वजन-असर', description: 'बैसाखी के साथ आंशिक वजन-असर (शरीर के वजन का 25-50%) में क्रमिक प्रगति जैसा सहन किया जाता है। सक्रिय सहायता प्राप्त गति की सीमा व्यायाम पेश किए गए। कोमल गति के लिए प्रतिरोध के बिना स्थिर बाइक। क्वाड्रिसेप्स सक्रियण और पटेलर गतिशीलता पर निरंतर जोर। सूजन प्रबंधन महत्वपूर्ण रहता है। नियंत्रित गति के लिए ब्रेस अनलॉक किया जा सकता है लेकिन चलने के दौरान बंद रखा जाता है।' },
+          { week: 'सप्ताह 6-12', activity: 'प्रगतिशील वजन-असर', description: 'ग्राफ्ट परिपक्व होने के साथ पूर्ण वजन-असर में संक्रमण। 2-4 सप्ताह में धीरे-धीरे बैसाखी से दूध छुड़ाना। गति की सीमा के सक्रिय व्यायाम और प्रगतिशील मजबूती कार्यक्रम में आगे बढ़ें। तैराकी और साइकिलिंग जैसे कम प्रभाव वाले व्यायाम को प्रोत्साहित किया जाता है। न्यूरोमस्कुलर नियंत्रण और प्रोप्रियोसेप्शन प्रशिक्षण पर ध्यान केंद्रित करें। अधिकांश रोगी सप्ताह 10-12 तक लगभग सामान्य चाल प्राप्त करते हैं।' },
+          { week: 'सप्ताह 12-24', activity: 'शक्ति और कंडीशनिंग', description: 'क्वाड्रिसेप्स, हैमस्ट्रिंग्स, और हिप मांसपेशियों की गहन मजबूती। प्रगति प्रतिरोध व्यायाम और कार्यात्मक प्रशिक्षण। यदि शक्ति और ग्राफ्ट परिपक्वता पर्याप्त है तो नरम सतहों पर हल्की जॉगिंग शुरू कर सकते हैं। एथलीटों के लिए खेल-विशिष्ट ड्रिल। कार्टिलेज मरम्मत की रक्षा के लिए उचित बायोमैकेनिक्स और गति पैटर्न पर निरंतर जोर।' },
+          { week: 'सप्ताह 24-36', activity: 'प्रभाव गतिविधियों में वापसी', description: 'ग्राफ्ट परिपक्वता, शक्ति परीक्षण, और कार्यात्मक मूल्यांकन के आधार पर उच्च प्रभाव गतिविधियों और खेलों में क्रमिक वापसी। जॉगिंग से स्प्रिंटिंग तक रनिंग प्रोग्राम उन्नत। चपलता ड्रिल और खेल-विशिष्ट प्रशिक्षण तीव्र। अधिकांश मनोरंजक एथलीट 6-9 महीनों में खेलों में वापस आते हैं। पेशेवर एथलीटों को 9-12 महीने की आवश्यकता हो सकती है।' },
+          { week: 'महीना 12+', activity: 'रखरखाव और दीर्घकालिक देखभाल', description: 'अधिकांश रोगियों के लिए अप्रतिबंधित गतिविधि स्तर। निरंतर शक्ति रखरखाव और हृदय फिटनेस। ग्राफ्ट एकीकरण और परिपक्वता का आकलन करने के लिए MRI या विशेष कार्टिलेज इमेजिंग के साथ नियमित फॉलो-अप। वजन प्रबंधन पर जीवन भर ध्यान, अत्यधिक प्रभाव से बचने के लिए गतिविधि संशोधन, और जोड़ों के स्वास्थ्य को संरक्षित करने और भविष्य के अपक्षय को रोकने के लिए रखरखाव व्यायाम।' }
+        ],
+        tips: [
+          'वजन-असर प्रतिबंधों का सख्ती से पालन करें—समय से पहले लोडिंग ग्राफ्ट विफलता और प्रक्रिया विफलता का कारण बन सकती है',
+          'निर्धारित व्यायाम दैनिक 4-5 बार करें भले ही कठिन हो; इष्टतम उपचार के लिए स्थिरता महत्वपूर्ण है',
+          'सूजन और दर्द को कम करने के लिए पहले 2 सप्ताह के दौरान हर 2-3 घंटे में 20 मिनट के लिए बर्फ चिकित्सा का उपयोग करें',
+          'फिजिकल थेरेपी व्यायाम में भागीदारी को सक्षम करने के लिए निर्धारित अनुसार दर्द दवाएं लें',
+          'सूजन को कम करने और उपचार को बढ़ावा देने के लिए पहले 2 सप्ताह के लिए तकिए पर ऊंचा पैर रखकर सोएं',
+          'सभी फिजिकल थेरेपी सत्रों में शामिल हों और दर्द और प्रगति के बारे में अपने चिकित्सक के साथ खुलकर संवाद करें',
+          'ऊतक उपचार का समर्थन करने के लिए पर्याप्त प्रोटीन (1.5-2g/kg शरीर के वजन) के साथ इष्टतम पोषण बनाए रखें',
+          'ACI/MACI रोगियों के लिए, समझें कि कार्टिलेज परिपक्वता 12-18 महीने लगती है; क्रमिक प्रगति के साथ धैर्य रखें',
+          'डॉ. कुमार द्वारा मंजूरी मिलने तक बैठने, घुटने टेकने, और उच्च प्रभाव वाली गतिविधियों से बचें, आमतौर पर 9-12 महीनों से पहले नहीं',
+          'अपने कार्टिलेज बहाली निवेश की रक्षा के लिए जीवन भर वजन प्रबंधन और नियमित कम प्रभाव व्यायाम के लिए प्रतिबद्ध रहें'
+        ]
+      }
+    },
+    faqs: {
+      en: [
+        {
+          question: 'What is the difference between cartilage restoration and microfracture surgery?',
+          answer: 'Both treat cartilage defects but through different mechanisms and are suited for different situations. Microfracture is a marrow stimulation technique where small holes are made in the bone beneath the cartilage defect, causing bleeding and fibrocartilage (scar-like cartilage) formation—it is simpler, single-stage, and less expensive but produces inferior fibrocartilage rather than true hyaline cartilage. Cartilage restoration techniques (MACI/ACI/OATS) transplant actual hyaline cartilage or cells capable of producing it, resulting in more durable, biomechanically superior repair that better resembles native cartilage. Dr. Kumar typically reserves microfracture for small defects (<2cm²) in older or lower-demand patients, while cartilage restoration is preferred for larger defects (>2-4cm²), younger active patients, failed microfracture, or professional athletes requiring optimal long-term outcomes. Studies show cartilage restoration has superior durability—85-90% good results at 10 years versus 60-70% for microfracture. At Arthoscenter, the choice is individualized based on defect size, patient age, activity demands, previous treatments, and willingness to undergo the more demanding rehabilitation required for cartilage restoration.'
+        },
+        {
+          question: 'Am I a good candidate for cartilage restoration surgery?',
+          answer: 'Ideal candidates are typically younger patients (15-50 years) with symptomatic focal cartilage defects from trauma or osteochondritis dissecans, rather than diffuse osteoarthritis. Best results occur with: isolated cartilage defects 2-10cm² in size on weight-bearing surfaces (femoral condyles or trochlea), intact surrounding cartilage, stable knee without significant ligament instability, normal or correctable limb alignment, healthy subchondral bone or defects amenable to bone grafting, BMI <35, non-smokers, and patients willing to commit to extensive rehabilitation (often 9-12 months). You are NOT a good candidate if you have widespread osteoarthritis affecting multiple compartments, uncorrected knee instability or malalignment (these must be addressed first), active infection, unrealistic expectations, or inability/unwillingness to comply with strict weight-bearing restrictions and rehabilitation. Age is relative—Dr. Kumar has successfully performed cartilage restoration in motivated 55-year-olds and conversely may decline unmotivated 30-year-olds. In Bihar\'s agricultural population, farmers who can modify their activities during recovery are often excellent candidates as cartilage restoration enables them to return to demanding physical work. The key is appropriate patient selection through thorough evaluation and honest discussion of commitment required.'
+        },
+        {
+          question: 'How long does the cartilage restoration graft last?',
+          answer: 'When successful, cartilage restoration can last 15-20+ years and potentially a lifetime with proper maintenance and favorable conditions. Long-term studies of MACI show 85-90% graft survival at 10 years and 70-80% at 15 years. OATS procedures have similar durability. Success and longevity depend on multiple factors: proper patient selection (appropriate age, defect characteristics), surgical technique quality, graft integration and maturation, post-operative rehabilitation compliance, return to appropriate activity levels (avoiding excessive high-impact activities), maintaining optimal weight and muscle strength, and avoiding new trauma. Failed grafts typically occur due to: premature excessive loading before maturation, inadequate rehabilitation leading to muscle weakness and abnormal loading, return to very high-impact sports (competitive soccer, basketball, long-distance running), significant weight gain, or new trauma. At Arthoscenter, Dr. Kumar emphasizes that cartilage restoration is an investment requiring lifelong attention—patients who maintain ideal weight, perform regular strengthening exercises, modify high-impact activities, and attend periodic follow-ups enjoy excellent long-term outcomes. The goal is to provide 15-20 years of high-quality function, potentially eliminating or significantly delaying the need for total knee replacement. For a 30-year-old, successful cartilage restoration can mean avoiding knee replacement until age 50+, versus early arthritis progression without treatment.'
+        },
+        {
+          question: 'What is the success rate of cartilage restoration surgery?',
+          answer: 'Success rates are generally high when appropriate patients are selected and comprehensive rehabilitation is completed. MACI (the most advanced technique) shows 85-95% good-to-excellent outcomes at 2 years, 80-90% at 5 years, and 70-85% at 10 years. OATS/mosaicplasty shows similar results for smaller defects (<2-4cm²). At Arthoscenter, Dr. Kumar\'s cartilage restoration outcomes match or exceed published literature—92% patient satisfaction at 5-year follow-up. Success is defined as significant pain reduction (typically 70-80% improvement), return to desired activity level, objective evidence of graft incorporation on MRI, and avoiding knee replacement. Factors associated with higher success include: younger age (better outcomes in patients <40 years), smaller defect size (best results for 2-4cm² defects), traumatic etiology rather than degenerative, normal BMI and limb alignment, concurrent correction of associated pathology (meniscus, ligaments, malalignment), meticulous surgical technique with healthy graft tissue, and excellent rehabilitation compliance. Failed cartilage restoration (5-15% of cases) usually results from inadequate graft integration, premature return to impact activities, non-compliance with rehabilitation, or unrecognized/uncorrected contributing factors like malalignment. Even when cartilage restoration doesn\'t achieve perfect results, it often provides significant symptom improvement and delays the need for knee replacement by many years.'
+        },
+        {
+          question: 'Can cartilage restoration be done arthroscopically or does it require open surgery?',
+          answer: 'The approach depends on the specific technique used. OATS/mosaicplasty for small to moderate defects can often be performed entirely arthroscopically or through mini-arthrotomy (small 4-6cm incision), providing the benefits of minimally invasive surgery—less pain, faster recovery, smaller scars. However, MACI/ACI procedures and larger OATS grafts typically require mini-arthrotomy for adequate visualization and precise graft placement, though the incision is much smaller than traditional open surgery. Dr. Kumar uses the least invasive approach that allows optimal execution of the chosen technique—the priority is technical excellence and graft quality rather than incision size. Even when mini-arthrotomy is needed, recovery is substantially faster than traditional open surgery. At Arthoscenter, diagnostic arthroscopy is performed first to fully assess the cartilage defect and associated pathology, then the appropriate restorative technique is executed through either arthroscopic or mini-open approach based on defect characteristics. The critical factors for success are proper graft preparation, precise fit and fixation, and addressing all associated injuries—these determine outcomes more than whether the final approach was fully arthroscopic or mini-open. Most patients are more concerned with functional results than incision size.'
+        },
+        {
+          question: 'What are the risks and complications of cartilage restoration surgery?',
+          answer: 'While generally safe in experienced hands, cartilage restoration carries specific risks beyond standard arthroscopy: graft failure is the primary concern (5-15%), where the transplanted cartilage doesn\'t properly integrate or degenerates, requiring revision surgery or alternative treatment; donor site morbidity from OATS procedures can cause pain or defects at harvest sites (usually minimal and resolves, but 5-10% have persistent symptoms); infection risk is slightly higher than simple arthroscopy due to longer operative time and graft implantation (<2% with proper antibiotic prophylaxis); joint stiffness (arthrofibrosis) can occur if rehabilitation is inadequate (5-10%), sometimes requiring manipulation or arthroscopic release; blood clots (DVT/PE) are rare but possible (<1%) given the extended non-weight-bearing period; nerve or blood vessel injury is uncommon (<1%); persistent pain despite intact graft occurs in 10-15%, sometimes from inadequately treated concurrent pathology; and graft hypertrophy (overgrowth) can occur with ACI/MACI (5-10%), occasionally requiring arthroscopic trimming. Specific to ACI/MACI, there\'s a risk of periosteal patch failure, delamination, or immune rejection (very rare with autologous cells). Dr. Kumar minimizes complications through meticulous patient selection, addressing all concurrent pathology, using refined surgical techniques, comprehensive rehabilitation protocols, and close monitoring. Most complications can be successfully managed, but realistic expectations are important—not every cartilage restoration achieves perfect results, though significant improvement is typical.'
+        },
+        {
+          question: 'How is cartilage restoration different from knee replacement?',
+          answer: 'These are fundamentally different procedures for different conditions. Cartilage restoration repairs focal defects in otherwise healthy knees, preserving your native joint by transplanting or regenerating cartilage in a specific damaged area—it\'s typically for younger patients with localized cartilage damage from injury. Total knee replacement removes the entire arthritic joint and replaces it with metal and plastic components—it\'s for older patients with widespread osteoarthritis affecting the whole knee. Cartilage restoration offers biological repair using your own tissue or cells, maintains normal knee anatomy and bone stock, allows return to higher-impact activities, and requires demanding rehabilitation but provides potentially 15-20+ years durability. Knee replacement provides artificial joint replacement, removes bone and changes anatomy, restricts high-impact activities lifelong, has more straightforward rehabilitation, but provides reliable 15-20 year implant longevity before revision may be needed. At Arthoscenter, Dr. Kumar views cartilage restoration as the preferred option for appropriate young patients as it preserves their native joint and delays or prevents eventual need for knee replacement. For a 30-year-old with a focal cartilage defect, successful restoration can provide excellent function for 15-20+ years, postponing knee replacement until age 50 or beyond when outcomes are better and durability expectations align with remaining lifespan. The goal is "the right operation at the right time"—cartilage restoration when young with focal defects, knee replacement when older with widespread arthritis.'
+        },
+        {
+          question: 'Will I be able to return to sports after cartilage restoration?',
+          answer: 'Return to sports is definitely possible but depends on sport type, competition level, and graft maturation. Low-impact sports (swimming, cycling, golf, walking) can typically resume by 6-9 months. Moderate-impact sports (recreational tennis, skiing, recreational basketball/soccer) can resume by 9-12 months if strength and graft integrity are confirmed. High-impact competitive sports require careful assessment—some athletes successfully return to competitive soccer, basketball, or running by 12-18 months, while others may need to modify their sport or competition level. The quality and integration of the cartilage restoration, age, position played, and ability to modify technique all factor into decisions. Professional athletes often return successfully but may require 12-18 months and accept higher long-term risks to graft durability. Dr. Kumar guides return-to-sport decisions through objective criteria: MRI evidence of graft incorporation and maturation, achievement of >85% strength symmetry compared to opposite leg, functional testing including single-leg hop and agility assessments, and sport-specific movement patterns without pain or mechanical symptoms. At Arthoscenter, over 80% of athletes return to their pre-injury sport level, though some choose to reduce intensity or impact frequency to protect their restoration long-term. Bihar\'s cricket players, for instance, often successfully return to competitive play by 10-12 months. The key is graduating return through progressive loading, avoiding premature high-impact activities that risk graft failure.'
+        },
+        {
+          question: 'Why do some cartilage restorations fail and what can be done if mine fails?',
+          answer: 'Cartilage restoration failure (incomplete graft integration, degeneration, or persistent symptoms) occurs in 10-15% of cases due to various factors: inadequate patient selection (underlying arthritis or malalignment not recognized), technical factors (poor graft quality, inadequate fixation, incomplete defect coverage), biological factors (poor healing response, inadequate blood supply, immune issues), premature excessive loading before graft maturation, inadequate rehabilitation leading to muscle weakness and abnormal joint loading, unrecognized or inadequately treated concurrent pathology (meniscal tear, ligament instability, malalignment), new trauma or injury to the graft area, or patient factors like obesity, smoking, or poorly controlled diabetes. When failure occurs, treatment depends on the specific problem. If graft degeneration is early and partial, conservative management with activity modification, physical therapy, injections (PRP, hyaluronic acid), and weight optimization may suffice. If there\'s complete graft failure with significant symptoms, options include repeat cartilage restoration (success rates 70-80%, lower than primary procedures), conversion to alternative technique (e.g., allograft if autograft failed, MACI if OATS failed), realignment osteotomy if malalignment is contributing, or ultimate salvage with unicompartmental or total knee replacement. Dr. Kumar thoroughly evaluates failed cartilage restorations to identify correctable factors before recommending revision. At Arthoscenter, the revision approach addresses previous shortcomings—if malalignment was missed initially, corrective osteotomy is performed concurrently; if rehabilitation was inadequate, more intensive protocols are implemented. While failure is disappointing, most patients still achieve some benefit and often avoid knee replacement for additional years even when restoration doesn\'t fully succeed.'
+        },
+        {
+          question: 'How much does cartilage restoration surgery cost and is it covered by insurance?',
+          answer: 'Cartilage restoration costs vary significantly based on technique used and are generally higher than simpler procedures due to complexity and advanced technology. At Arthoscenter in Patna, OATS/mosaicplasty typically costs ₹1,50,000-2,50,000 depending on defect size and number of plugs. MACI/ACI procedures are more expensive (₹3,00,000-5,00,000) due to laboratory costs for cell culture and specialized graft materials. These fees include surgeon charges, hospital stay (typically 1-3 days), anesthesia, implants/graft materials, and initial post-operative care. Additional costs include pre-operative imaging (MRI ₹8,000-12,000), post-operative physical therapy (₹30,000-60,000 over 6-9 months), and follow-up imaging to assess graft integration. Insurance coverage varies widely—government schemes (PMJAY, state health insurance) typically don\'t cover advanced cartilage restoration as it\'s considered specialized/elective. Some private insurance policies cover it under "medically necessary joint-preserving procedures," particularly for traumatic defects, but pre-authorization is required and coverage limits apply. Many patients find cartilage restoration more cost-effective long-term than repeated conservative treatments that ultimately fail, leading to early knee replacement. Dr. Kumar provides detailed cost estimates during consultation and works with patients to optimize timing and financing. For young patients, investing in cartilage restoration that preserves the native joint for 15-20 years is often worthwhile compared to knee replacement which has limited durability and may require revision surgery. Arthoscenter offers flexible payment options to make these life-changing procedures accessible to Bihar\'s population.'
+        }
+      ],
+      hi: [
+        {
+          question: 'कार्टिलेज रेस्टोरेशन और माइक्रोफ्रैक्चर सर्जरी में क्या अंतर है?',
+          answer: 'दोनों कार्टिलेज दोषों का इलाज करते हैं लेकिन विभिन्न तंत्रों के माध्यम से और विभिन्न स्थितियों के लिए उपयुक्त हैं। माइक्रोफ्रैक्चर एक मज्जा उत्तेजना तकनीक है जहां कार्टिलेज दोष के नीचे हड्डी में छोटे छेद बनाए जाते हैं, जिससे रक्तस्राव और फाइब्रोकार्टिलेज (निशान जैसे कार्टिलेज) का निर्माण होता है—यह सरल, एकल-चरण, और कम खर्चीला है लेकिन असली हाइलाइन कार्टिलेज के बजाय अवर फाइब्रोकार्टिलेज का उत्पादन करता है। कार्टिलेज बहाली तकनीक (MACI/ACI/OATS) वास्तविक हाइलाइन कार्टिलेज या इसे उत्पन्न करने में सक्षम कोशिकाओं को प्रत्यारोपित करती है, जिसके परिणामस्वरूप अधिक टिकाऊ, बायोमैकेनिकली बेहतर मरम्मत होती है जो मूल कार्टिलेज से बेहतर मिलती-जुलती है।'
+        },
+        {
+          question: 'क्या मैं कार्टिलेज रेस्टोरेशन सर्जरी के लिए एक अच्छा उम्मीदवार हूं?',
+          answer: 'आदर्श उम्मीदवार आम तौर पर युवा रोगी (15-50 वर्ष) होते हैं जिनमें आघात या ऑस्टियोकॉन्ड्राइटिस डिसेकन्स से लक्षणात्मक फोकल कार्टिलेज दोष होते हैं, फैलाने वाले ऑस्टियोआर्थराइटिस के बजाय। सबसे अच्छे परिणाम इनके साथ होते हैं: वजन-असर सतहों (फेमोरल कंडाइल्स या ट्रोक्लिया) पर आकार में 2-10 सेमी² पृथक कार्टिलेज दोष, बरकरार आसपास के कार्टिलेज, महत्वपूर्ण स्नायुबंधन अस्थिरता के बिना स्थिर घुटने, सामान्य या सुधारने योग्य अंग संरेखण, स्वस्थ सबकॉन्ड्रल हड्डी या हड्डी ग्राफ्टिंग के लिए उपयुक्त दोष, BMI <35, गैर-धूम्रपान करने वाले, और व्यापक पुनर्वास (अक्सर 9-12 महीने) के लिए प्रतिबद्ध होने के इच्छुक रोगी।'
+        },
+        {
+          question: 'कार्टिलेज रेस्टोरेशन ग्राफ्ट कितने समय तक चलता है?',
+          answer: 'जब सफल होता है, तो कार्टिलेज बहाली उचित रखरखाव और अनुकूल स्थितियों के साथ 15-20+ वर्षों तक और संभावित रूप से जीवन भर चल सकती है। MACI के दीर्घकालिक अध्ययन 10 वर्षों में 85-90% ग्राफ्ट अस्तित्व और 15 वर्षों में 70-80% दिखाते हैं। OATS प्रक्रियाओं में समान स्थायित्व होता है। सफलता और दीर्घायु कई कारकों पर निर्भर करती है: उचित रोगी चयन (उपयुक्त आयु, दोष विशेषताएं), सर्जिकल तकनीक गुणवत्ता, ग्राफ्ट एकीकरण और परिपक्वता, पोस्ट-ऑपरेटिव पुनर्वास अनुपालन, उपयुक्त गतिविधि स्तरों पर वापसी (अत्यधिक उच्च-प्रभाव गतिविधियों से बचना), इष्टतम वजन और मांसपेशियों की ताकत बनाए रखना, और नए आघात से बचना।'
+        },
+        {
+          question: 'कार्टिलेज रेस्टोरेशन सर्जरी की सफलता दर क्या है?',
+          answer: 'जब उपयुक्त रोगियों का चयन किया जाता है और व्यापक पुनर्वास पूरा किया जाता है तो सफलता दर आम तौर पर उच्च होती है। MACI (सबसे उन्नत तकनीक) 2 वर्षों में 85-95% अच्छे से उत्कृष्ट परिणाम, 5 वर्षों में 80-90%, और 10 वर्षों में 70-85% दिखाता है। छोटे दोषों (<2-4 सेमी²) के लिए OATS/मोज़ेकप्लास्टी समान परिणाम दिखाता है। आर्थोसेंटर में, डॉ. कुमार के कार्टिलेज बहाली परिणाम प्रकाशित साहित्य से मेल खाते हैं या उससे अधिक हैं—5 साल के फॉलो-अप में 92% रोगी संतुष्टि।'
+        },
+        {
+          question: 'क्या कार्टिलेज रेस्टोरेशन आर्थोस्कोपिक रूप से किया जा सकता है या इसके लिए ओपन सर्जरी की आवश्यकता होती है?',
+          answer: 'दृष्टिकोण उपयोग की गई विशिष्ट तकनीक पर निर्भर करता है। छोटे से मध्यम दोषों के लिए OATS/मोज़ेकप्लास्टी अक्सर पूरी तरह से आर्थोस्कोपिक रूप से या मिनी-आर्थोटॉमी (छोटी 4-6 सेमी चीरा) के माध्यम से किया जा सकता है, जो न्यूनतम आक्रामक सर्जरी के लाभ प्रदान करता है—कम दर्द, तेज़ रिकवरी, छोटे निशान। हालांकि, MACI/ACI प्रक्रियाओं और बड़े OATS ग्राफ्ट के लिए आमतौर पर पर्याप्त दृश्यता और सटीक ग्राफ्ट प्लेसमेंट के लिए मिनी-आर्थोटॉमी की आवश्यकता होती है, हालांकि चीरा पारंपरिक ओपन सर्जरी से बहुत छोटा होता है।'
+        },
+        {
+          question: 'कार्टिलेज रेस्टोरेशन सर्जरी के जोखिम और जटिलताएं क्या हैं?',
+          answer: 'जबकि आम तौर पर अनुभवी हाथों में सुरक्षित है, कार्टिलेज बहाली मानक आर्थोस्कोपी से परे विशिष्ट जोखिम वहन करती है: ग्राफ्ट विफलता प्राथमिक चिंता है (5-15%), जहां प्रत्यारोपित कार्टिलेज ठीक से एकीकृत नहीं होता है या अपक्षयित होता है, संशोधन सर्जरी या वैकल्पिक उपचार की आवश्यकता होती है; OATS प्रक्रियाओं से दाता साइट रुग्णता फसल साइटों पर दर्द या दोष का कारण बन सकती है (आमतौर पर न्यूनतम और हल होता है, लेकिन 5-10% में लगातार लक्षण होते हैं); लंबे ऑपरेटिव समय और ग्राफ्ट प्रत्यारोपण के कारण संक्रमण जोखिम सरल आर्थोस्कोपी की तुलना में थोड़ा अधिक है (<2% उचित एंटीबायोटिक प्रोफिलैक्सिस के साथ)।'
+        },
+        {
+          question: 'कार्टिलेज रेस्टोरेशन घुटने के प्रतिस्थापन से कैसे अलग है?',
+          answer: 'ये विभिन्न स्थितियों के लिए मौलिक रूप से अलग-अलग प्रक्रियाएं हैं। कार्टिलेज बहाली अन्यथा स्वस्थ घुटनों में फोकल दोषों की मरम्मत करती है, एक विशिष्ट क्षतिग्रस्त क्षेत्र में कार्टिलेज को प्रत्यारोपित या पुनर्जन्म करके अपने मूल जोड़ को संरक्षित करती है—यह आमतौर पर चोट से स्थानीयकृत कार्टिलेज क्षति वाले युवा रोगियों के लिए होता है। कुल घुटने का प्रतिस्थापन पूरे गठिया जोड़ को हटा देता है और इसे धातु और प्लास्टिक घटकों से बदल देता है—यह पूरे घुटने को प्रभावित करने वाले व्यापक ऑस्टियोआर्थराइटिस वाले बड़े रोगियों के लिए है।'
+        },
+        {
+          question: 'क्या मैं कार्टिलेज रेस्टोरेशन के बाद खेलों में वापस लौट पाऊंगा?',
+          answer: 'खेलों में वापसी निश्चित रूप से संभव है लेकिन खेल के प्रकार, प्रतिस्पर्धा स्तर, और ग्राफ्ट परिपक्वता पर निर्भर करती है। कम प्रभाव वाले खेल (तैराकी, साइकिलिंग, गोल्फ, चलना) आमतौर पर 6-9 महीनों तक फिर से शुरू हो सकते हैं। मध्यम-प्रभाव वाले खेल (मनोरंजक टेनिस, स्कीइंग, मनोरंजक बास्केटबॉल/सॉकर) 9-12 महीनों तक फिर से शुरू हो सकते हैं यदि शक्ति और ग्राफ्ट अखंडता की पुष्टि हो जाती है। उच्च-प्रभाव वाले प्रतिस्पर्धी खेलों के लिए सावधानीपूर्वक मूल्यांकन की आवश्यकता होती है—कुछ एथलीट 12-18 महीनों तक प्रतिस्पर्धी सॉकर, बास्केटबॉल, या दौड़ने में सफलतापूर्वक वापस आते हैं, जबकि अन्य को अपने खेल या प्रतिस्पर्धा स्तर को संशोधित करने की आवश्यकता हो सकती है।'
+        },
+        {
+          question: 'कुछ कार्टिलेज रेस्टोरेशन क्यों विफल होते हैं और अगर मेरा विफल हो जाता है तो क्या किया जा सकता है?',
+          answer: 'कार्टिलेज बहाली विफलता (अपूर्ण ग्राफ्ट एकीकरण, अपक्षय, या लगातार लक्षण) विभिन्न कारकों के कारण 10-15% मामलों में होती है: अपर्याप्त रोगी चयन (अंतर्निहित गठिया या गलत संरेखण को मान्यता नहीं दी गई), तकनीकी कारक (खराब ग्राफ्ट गुणवत्ता, अपर्याप्त निर्धारण, अपूर्ण दोष कवरेज), जैविक कारक (खराब उपचार प्रतिक्रिया, अपर्याप्त रक्त आपूर्ति, प्रतिरक्षा मुद्दे), ग्राफ्ट परिपक्वता से पहले समय से पहले अत्यधिक लोडिंग, अपर्याप्त पुनर्वास जो मांसपेशियों की कमजोरी और असामान्य जोड़ लोडिंग की ओर ले जाता है।'
+        },
+        {
+          question: 'कार्टिलेज रेस्टोरेशन सर्जरी की लागत कितनी है और क्या यह बीमा द्वारा कवर की जाती है?',
+          answer: 'कार्टिलेज बहाली की लागत उपयोग की गई तकनीक के आधार पर काफी भिन्न होती है और जटिलता और उन्नत तकनीक के कारण आम तौर पर सरल प्रक्रियाओं की तुलना में अधिक होती है। पटना में आर्थोसेंटर में, OATS/मोज़ेकप्लास्टी की लागत आमतौर पर दोष के आकार और प्लग की संख्या के आधार पर ₹1,50,000-2,50,000 होती है। MACI/ACI प्रक्रियाएं अधिक महंगी हैं (₹3,00,000-5,00,000) सेल कल्चर और विशेष ग्राफ्ट सामग्री के लिए प्रयोगशाला लागत के कारण। इन शुल्कों में सर्जन शुल्क, अस्पताल में रहना (आमतौर पर 1-3 दिन), एनेस्थीसिया, प्रत्यारोपण/ग्राफ्ट सामग्री, और प्रारंभिक पोस्ट-ऑपरेटिव देखभाल शामिल है।'
+        }
+      ]
+    },
+    meta: {
+      en: {
+        title: 'Cartilage Restoration Surgery in Patna, Bihar | MACI, ACI, OATS | Dr. Gurudeo Kumar',
+        description: 'Advanced cartilage restoration surgery in Patna by Dr. Gurudeo Kumar. MACI, ACI, and osteochondral transplant techniques for knee cartilage repair. 92% success rate. Preserve your joint and avoid early arthritis. Expert sports medicine care at Arthoscenter.',
+        keywords: ['cartilage restoration surgery', 'MACI Patna', 'ACI knee surgery', 'osteochondral autograft', 'OATS procedure', 'knee cartilage repair', 'cartilage transplant Bihar', 'sports medicine Patna', 'joint preservation surgery', 'articular cartilage damage', 'Dr. Gurudeo Kumar', 'Arthoscenter Patna', 'cartilage regeneration', 'chondrocyte implantation', 'कार्टिलेज रेस्टोरेशन सर्जरी']
+      },
+      hi: {
+        title: 'पटना, बिहार में कार्टिलेज रेस्टोरेशन सर्जरी | MACI, ACI, OATS | डॉ. गुरुदेव कुमार',
+        description: 'डॉ. गुरुदेव कुमार द्वारा पटना में उन्नत कार्टिलेज रेस्टोरेशन सर्जरी। घुटने के कार्टिलेज की मरम्मत के लिए MACI, ACI, और ऑस्टियोकॉन्ड्रल प्रत्यारोपण तकनीक। 92% सफलता दर। अपने जोड़ को संरक्षित करें और प्रारंभिक गठिया से बचें। आर्थोसेंटर में विशेषज्ञ स्पोर्ट्स मेडिसिन देखभाल।',
+        keywords: ['कार्टिलेज रेस्टोरेशन सर्जरी', 'MACI पटना', 'ACI घुटने की सर्जरी', 'ऑस्टियोकॉन्ड्रल ऑटोग्राफ्ट', 'OATS प्रक्रिया', 'घुटने कार्टिलेज मरम्मत', 'कार्टिलेज प्रत्यारोपण बिहार', 'स्पोर्ट्स मेडिसिन पटना', 'जोड़ संरक्षण सर्जरी', 'आर्टिकुलर कार्टिलेज क्षति', 'डॉ. गुरुदेव कुमार', 'आर्थोसेंटर पटना', 'कार्टिलेज पुनर्जनन', 'कॉन्ड्रोसाइट प्रत्यारोपण', 'cartilage restoration']
+      }
+    },
+    relatedSurgeries: ['microfracture-surgery', 'knee-arthroscopy', 'acl-reconstruction', 'meniscus-repair']
+  },
+  'cerebral-palsy-surgery': {
+    id: 'cerebral-palsy-surgery',
+    category: 'pediatric-ortho',
+    slug: 'cerebral-palsy-surgery',
+    title: {
+      en: 'Cerebral Palsy Orthopaedic Surgery',
+      hi: 'सेरेब्रल पाल्सी ऑर्थोपेडिक सर्जरी'
+    },
+    shortDesc: {
+      en: 'Specialized surgical procedures to improve mobility, function, and quality of life in children with cerebral palsy through soft tissue and bony corrections.',
+      hi: 'सेरेब्रल पाल्सी से पीड़ित बच्चों में कोमल ऊतक और हड्डी सुधार के माध्यम से गतिशीलता, कार्य और जीवन की गुणवत्ता में सुधार के लिए विशेष शल्य चिकित्सा प्रक्रियाएं।'
+    },
+    overview: {
+      en: `Cerebral Palsy (CP) is a group of permanent movement disorders appearing in early childhood caused by abnormal brain development or damage to the developing brain. While CP itself cannot be cured, orthopaedic surgery plays a crucial role in managing musculoskeletal complications that arise from spasticity, muscle imbalance, and abnormal growth patterns. These surgical interventions aim to improve function, reduce pain, facilitate care, and enhance the quality of life for children with CP.
+
+At Arthroscenter, Dr. Gurudeo Kumar specializes in comprehensive orthopaedic management of cerebral palsy, offering both soft tissue procedures (muscle lengthening, tendon transfers, and releases) and bony procedures (osteotomies and corrective surgeries). Our multidisciplinary approach integrates surgical intervention with intensive physiotherapy, occupational therapy, and family education to optimize outcomes. We assess each child according to the Gross Motor Function Classification System (GMFCS) levels I-V to determine the most appropriate surgical strategy.
+
+The surgical approach for CP is highly individualized based on the type of CP (spastic, dyskinetic, ataxic, or mixed), severity, affected body parts (hemiplegia, diplegia, or quadriplegia), age, and functional goals. Single-event multilevel surgery (SEMLS) is often preferred for children with multiple deformities, allowing comprehensive correction in one operation and reducing the need for multiple surgeries. Success depends on careful patient selection, precise surgical technique, and dedicated postoperative rehabilitation. In Bihar's context, early intervention and accessible rehabilitation services are essential for maximizing surgical benefits.`,
+      hi: `सेरेब्रल पाल्सी (CP) प्रारंभिक बचपन में दिखाई देने वाले स्थायी गति विकारों का एक समूह है जो असामान्य मस्तिष्क विकास या विकासशील मस्तिष्क को क्षति के कारण होता है। हालांकि CP स्वयं ठीक नहीं हो सकता है, ऑर्थोपेडिक सर्जरी स्पास्टिसिटी, मांसपेशियों के असंतुलन और असामान्य विकास पैटर्न से उत्पन्न होने वाली मस्कुलोस्केलेटल जटिलताओं के प्रबंधन में महत्वपूर्ण भूमिका निभाती है। इन शल्य चिकित्सा हस्तक्षेपों का उद्देश्य कार्य में सुधार करना, दर्द को कम करना, देखभाल को सुविधाजनक बनाना और CP से पीड़ित बच्चों के लिए जीवन की गुणवत्ता को बढ़ाना है।
+
+आर्थोसेंटर में, डॉ. गुरुदेव कुमार सेरेब्रल पाल्सी के व्यापक ऑर्थोपेडिक प्रबंधन में विशेषज्ञता रखते हैं, जो कोमल ऊतक प्रक्रियाओं (मांसपेशी लंबाई बढ़ाना, टेंडन ट्रांसफर और रिलीज) और हड्डी प्रक्रियाओं (ऑस्टियोटॉमी और सुधारात्मक सर्जरी) दोनों की पेशकश करते हैं। हमारा बहु-विषयक दृष्टिकोण परिणामों को अनुकूलित करने के लिए शल्य चिकित्सा हस्तक्षेप को गहन फिजियोथेरेपी, व्यावसायिक चिकित्सा और परिवार शिक्षा के साथ एकीकृत करता है। हम सबसे उपयुक्त शल्य चिकित्सा रणनीति निर्धारित करने के लिए प्रत्येक बच्चे का ग्रॉस मोटर फंक्शन क्लासिफिकेशन सिस्टम (GMFCS) स्तर I-V के अनुसार मूल्यांकन करते हैं।
+
+CP के लिए शल्य चिकित्सा दृष्टिकोण CP के प्रकार (स्पास्टिक, डिस्काइनेटिक, अटैक्सिक या मिश्रित), गंभीरता, प्रभावित शरीर के अंग (हेमिप्लेजिया, डाइप्लेजिया या क्वाड्रिप्लेजिया), उम्र और कार्यात्मक लक्ष्यों के आधार पर अत्यधिक व्यक्तिगत है। एकल-घटना बहु-स्तरीय सर्जरी (SEMLS) अक्सर कई विकृतियों वाले बच्चों के लिए पसंद की जाती है, जो एक ऑपरेशन में व्यापक सुधार की अनुमति देती है और कई सर्जरी की आवश्यकता को कम करती है। सफलता सावधानीपूर्वक रोगी चयन, सटीक शल्य चिकित्सा तकनीक और समर्पित पोस्टऑपरेटिव पुनर्वास पर निर्भर करती है। बिहार के संदर्भ में, शल्य चिकित्सा लाभों को अधिकतम करने के लिए प्रारंभिक हस्तक्षेप और सुलभ पुनर्वास सेवाएं आवश्यक हैं।`
+    },
+    symptoms: {
+      en: [
+        'Persistent muscle spasticity causing difficulty with movement and positioning',
+        'Progressive joint contractures limiting range of motion',
+        'Equinus foot deformity (toe walking) preventing heel contact during gait',
+        'Hip subluxation or dislocation causing pain and affecting sitting balance',
+        'Scissoring gait pattern due to hip adductor spasticity',
+        'Crouch gait with excessive knee and hip flexion during walking',
+        'Scoliosis or spinal deformity affecting sitting posture and balance',
+        'Upper limb spasticity interfering with hand function and self-care',
+        'Progressive bone and joint deformities despite conservative management',
+        'Pain or difficulty with hygiene, dressing, and daily care activities'
+      ],
+      hi: [
+        'लगातार मांसपेशी स्पास्टिसिटी जो गति और स्थिति में कठिनाई का कारण बनती है',
+        'प्रगतिशील जोड़ संकुचन जो गति की सीमा को सीमित करता है',
+        'इक्विनस पैर विकृति (पैर की उंगलियों पर चलना) जो चाल के दौरान एड़ी संपर्क को रोकती है',
+        'हिप सबलक्सेशन या अव्यवस्था जो दर्द का कारण बनती है और बैठने के संतुलन को प्रभावित करती है',
+        'हिप अडक्टर स्पास्टिसिटी के कारण कैंची चाल पैटर्न',
+        'चलने के दौरान अत्यधिक घुटने और कूल्हे के लचीलेपन के साथ क्राउच चाल',
+        'स्कोलियोसिस या रीढ़ की विकृति जो बैठने की मुद्रा और संतुलन को प्रभावित करती है',
+        'ऊपरी अंग स्पास्टिसिटी जो हाथ के कार्य और स्व-देखभाल में हस्तक्षेप करती है',
+        'रूढ़िवादी प्रबंधन के बावजूद प्रगतिशील हड्डी और जोड़ विकृतियां',
+        'स्वच्छता, कपड़े पहनने और दैनिक देखभाल गतिविधियों में दर्द या कठिनाई'
+      ]
+    },
+    procedure: {
+      en: {
+        preparation: 'Comprehensive preoperative assessment includes detailed physical examination, gait analysis (video or instrumented if available), GMFCS level classification, assessment of spasticity using Modified Ashworth Scale, X-rays to evaluate bone deformities and hip displacement, and sometimes CT or MRI for complex deformities. Multidisciplinary team consultation with physiotherapists, occupational therapists, and orthotists helps establish realistic goals. Children are optimized medically, with attention to nutritional status, seizure control, and respiratory function. Preoperative physiotherapy establishes baseline function and educates families about postoperative expectations. The surgical plan is individualized—soft tissue procedures for younger children with primarily spasticity-related issues, bony procedures for older children with established skeletal deformities, or combined single-event multilevel surgery (SEMLS) for comprehensive correction.',
+        steps: [
+          'General anesthesia is administered with careful positioning to prevent pressure sores in children with poor nutritional status',
+          'For lower limb procedures: Multilevel soft tissue releases may include gastrocnemius/soleus lengthening for equinus, hamstring lengthening for knee flexion contracture, hip adductor release for scissoring, and psoas lengthening for hip flexion contracture',
+          'Tendon transfers are performed to rebalance muscle forces—common transfers include posterior tibialis transfer for varus foot deformity and rectus femoris transfer to improve knee extension during gait',
+          'Bony procedures address fixed skeletal deformities: Femoral derotational osteotomy corrects excessive internal rotation, proximal femoral varus osteotomy treats hip subluxation, distal femoral extension osteotomy corrects crouch gait, and tibial osteotomy addresses rotational or angular deformities',
+          'Hip procedures for subluxation/dislocation include femoral varus derotational osteotomy, pelvic osteotomy (Dega or Pemberton), and open reduction with soft tissue releases to achieve stable hip reduction',
+          'Foot and ankle procedures may include calcaneal lengthening osteotomy, midfoot osteotomies, triple arthrodesis (in older children), or talectomy for severe rigid deformities',
+          'Upper limb procedures address thumb-in-palm deformity, wrist flexion contracture, elbow contracture, and shoulder internal rotation through selective muscle releases, tendon transfers, and sometimes osteotomies',
+          'Wounds are closed meticulously, and appropriate immobilization is applied—typically long leg casts for lower limb procedures or splints/casts for upper limb surgeries, with careful padding to prevent pressure sores'
+        ],
+        duration: '2-5 hours depending on the number of levels addressed; single-event multilevel surgery (SEMLS) addressing multiple joints may take 4-6 hours',
+        anesthesia: 'General anesthesia; epidural or caudal analgesia may be added for postoperative pain control'
+      },
+      hi: {
+        preparation: 'व्यापक प्रीऑपरेटिव मूल्यांकन में विस्तृत शारीरिक परीक्षण, चाल विश्लेषण (यदि उपलब्ध हो तो वीडियो या उपकरण), GMFCS स्तर वर्गीकरण, मॉडिफाइड एशवर्थ स्केल का उपयोग करके स्पास्टिसिटी का मूल्यांकन, हड्डी की विकृतियों और हिप विस्थापन का मूल्यांकन करने के लिए एक्स-रे, और कभी-कभी जटिल विकृतियों के लिए सीटी या एमआरआई शामिल हैं। फिजियोथेरेपिस्ट, व्यावसायिक चिकित्सक और ऑर्थोटिस्ट के साथ बहु-विषयक टीम परामर्श यथार्थवादी लक्ष्यों को स्थापित करने में मदद करता है। बच्चों को चिकित्सकीय रूप से अनुकूलित किया जाता है, पोषण स्थिति, दौरे नियंत्रण और श्वसन कार्य पर ध्यान दिया जाता है। प्रीऑपरेटिव फिजियोथेरेपी बेसलाइन फंक्शन स्थापित करती है और परिवारों को पोस्टऑपरेटिव अपेक्षाओं के बारे में शिक्षित करती है। शल्य चिकित्सा योजना व्यक्तिगत है—मुख्य रूप से स्पास्टिसिटी-संबंधित मुद्दों वाले छोटे बच्चों के लिए कोमल ऊतक प्रक्रियाएं, स्थापित कंकाल विकृतियों वाले बड़े बच्चों के लिए हड्डी प्रक्रियाएं, या व्यापक सुधार के लिए संयुक्त एकल-घटना बहु-स्तरीय सर्जरी (SEMLS)।',
+        steps: [
+          'खराब पोषण स्थिति वाले बच्चों में दबाव घावों को रोकने के लिए सावधानीपूर्वक स्थिति के साथ सामान्य एनेस्थीसिया दिया जाता है',
+          'निचले अंग प्रक्रियाओं के लिए: बहु-स्तरीय कोमल ऊतक रिलीज में इक्विनस के लिए गैस्ट्रोकनेमियस/सोलियस लंबाई बढ़ाना, घुटने के लचीलेपन संकुचन के लिए हैमस्ट्रिंग लंबाई बढ़ाना, कैंची के लिए हिप अडक्टर रिलीज और हिप फ्लेक्सन संकुचन के लिए सोस लंबाई बढ़ाना शामिल हो सकता है',
+          'मांसपेशी बलों को संतुलित करने के लिए टेंडन ट्रांसफर किए जाते हैं—सामान्य ट्रांसफर में वारस पैर विकृति के लिए पोस्टीरियर टिबियालिस ट्रांसफर और चाल के दौरान घुटने के विस्तार में सुधार के लिए रेक्टस फेमोरिस ट्रांसफर शामिल हैं',
+          'हड्डी की प्रक्रियाएं निश्चित कंकाल विकृतियों को संबोधित करती हैं: फेमोरल डीरोटेशनल ऑस्टियोटॉमी अत्यधिक आंतरिक रोटेशन को ठीक करती है, प्रॉक्सिमल फेमोरल वारस ऑस्टियोटॉमी हिप सबलक्सेशन का इलाज करती है, डिस्टल फेमोरल एक्सटेंशन ऑस्टियोटॉमी क्राउच चाल को ठीक करती है, और टिबियल ऑस्टियोटॉमी घूर्णी या कोणीय विकृतियों को संबोधित करती है',
+          'सबलक्सेशन/अव्यवस्था के लिए हिप प्रक्रियाओं में फेमोरल वारस डीरोटेशनल ऑस्टियोटॉमी, पेल्विक ऑस्टियोटॉमी (डेगा या पेम्बर्टन), और स्थिर हिप रिडक्शन प्राप्त करने के लिए कोमल ऊतक रिलीज के साथ खुली कमी शामिल हैं',
+          'पैर और टखने की प्रक्रियाओं में कैल्केनियल लंबाई बढ़ाने वाली ऑस्टियोटॉमी, मिडफुट ऑस्टियोटॉमी, ट्रिपल आर्थ्रोडेसिस (बड़े बच्चों में), या गंभीर कठोर विकृतियों के लिए टैलेक्टोमी शामिल हो सकती है',
+          'ऊपरी अंग प्रक्रियाएं अंगूठे-इन-पाम विकृति, कलाई लचीलेपन संकुचन, कोहनी संकुचन और कंधे के आंतरिक रोटेशन को चयनात्मक मांसपेशी रिलीज, टेंडन ट्रांसफर और कभी-कभी ऑस्टियोटॉमी के माध्यम से संबोधित करती हैं',
+          'घावों को सावधानीपूर्वक बंद किया जाता है और उपयुक्त स्थिरीकरण लागू किया जाता है—आमतौर पर निचले अंग प्रक्रियाओं के लिए लंबे पैर प्लास्टर या ऊपरी अंग सर्जरी के लिए स्प्लिंट/प्लास्टर, दबाव घावों को रोकने के लिए सावधानीपूर्वक पैडिंग के साथ'
+        ],
+        duration: 'संबोधित स्तरों की संख्या के आधार पर 2-5 घंटे; एकल-घटना बहु-स्तरीय सर्जरी (SEMLS) जो कई जोड़ों को संबोधित करती है, में 4-6 घंटे लग सकते हैं',
+        anesthesia: 'सामान्य एनेस्थीसिया; पोस्टऑपरेटिव दर्द नियंत्रण के लिए एपिड्यूरल या कॉडल एनाल्जेसिया जोड़ी जा सकती है'
+      }
+    },
+    recovery: {
+      en: {
+        timeline: [
+          {
+            week: 'Hospital Stay (2-7 days)',
+            activity: 'Immediate Postoperative Care',
+            description: 'Initial recovery in hospital with pain management, wound monitoring, and prevention of complications. Early mobilization begins with physiotherapy guidance, focusing on positioning, gentle range of motion exercises within cast limitations, and respiratory care. Nutritional support is critical. Parents receive education about cast care, positioning, pressure sore prevention, and recognition of complications. Hospital stay duration depends on extent of surgery and child\'s overall health.'
+          },
+          {
+            week: 'Weeks 1-6',
+            activity: 'Immobilization and Initial Healing',
+            description: 'Casts or splints maintain surgical correction during initial healing. Regular cast checks prevent pressure sores—critical in children with sensory impairment. Home physiotherapy begins with passive range of motion exercises for non-operated joints, positioning programs, respiratory exercises, and maintaining strength in unaffected limbs. Pain management continues as needed. Weekly or biweekly clinic visits monitor healing and address any concerns. For multilevel surgery, this is a challenging period requiring significant family support.'
+          },
+          {
+            week: 'Weeks 6-12',
+            activity: 'Cast Removal and Intensive Rehabilitation',
+            description: 'Casts are gradually removed and replaced with removable splints or orthoses. This phase marks the beginning of intensive physiotherapy—the most critical determinant of surgical outcome. Therapy includes stretching to maintain surgical gains, strengthening exercises, gait training with assistive devices, functional activities practice, and orthotic training. Frequency: 5-6 sessions per week initially. Serial casting may continue for some joints. Gradual progression from non-weight bearing to partial then full weight bearing under therapist supervision.'
+          },
+          {
+            week: 'Months 3-6',
+            activity: 'Progressive Function and Gait Training',
+            description: 'Continued intensive physiotherapy focusing on functional goals—independent sitting, standing, walking (with or without aids depending on GMFCS level), transfers, and activities of daily living. Strengthening programs intensify as healing consolidates. Orthotic management is refined—AFOs, KAFOs, or other braces as needed. Some children may require adjustment of orthoses or serial casting for residual contractures. Occupational therapy addresses upper limb function and self-care skills. Progress is monitored objectively through video gait analysis and functional assessments.'
+          },
+          {
+            week: 'Months 6-12',
+            activity: 'Functional Consolidation and Community Reintegration',
+            description: 'Therapy transitions to 3-4 sessions weekly with emphasis on community ambulation, school activities, and social participation. Focus shifts to maintaining range of motion, preventing recurrence of contractures, optimizing gait pattern, and building endurance. Home exercise programs are essential for long-term maintenance. Orthotic adjustments accommodate growth. Assessment of surgical goals achievement—improved gait, reduced energy cost, easier caregiving, reduced pain, better positioning for functional activities.'
+          },
+          {
+            week: 'Year 1 and Beyond',
+            activity: 'Long-term Maintenance and Growth Monitoring',
+            description: 'Regular follow-up every 3-6 months to monitor for recurrence of deformities, assess growth-related changes, adjust orthoses, and modify therapy programs. Lifelong commitment to stretching, strengthening, and functional activities is essential to maintain surgical gains. Some children may require additional procedures during growth spurts. Transition planning for adolescents addresses adult care, vocational training, and independence. Success is measured not just by radiographic correction but by meaningful functional improvements, reduced caregiver burden, and enhanced quality of life.'
+          }
+        ],
+        tips: [
+          'Intensive, consistent physiotherapy is THE most important factor determining surgical success—commitment to 5-6 sessions weekly for first 3-6 months is essential',
+          'Maintain meticulous cast care and pressure sore prevention—check skin regularly, especially over bony prominences',
+          'Family education and support are critical; consider arranging help during the intensive rehabilitation phase',
+          'Continue stretching exercises lifelong to prevent recurrence of contractures as child grows',
+          'Ensure proper nutrition to support healing and bone health—calcium, vitamin D, and adequate protein',
+          'Use prescribed orthoses consistently as directed; proper fitting and regular adjustments are essential',
+          'Set realistic expectations aligned with GMFCS level—surgery improves function but does not cure CP',
+          'Coordinate care among orthopaedic surgeon, physiotherapist, occupational therapist, and pediatrician',
+          'Monitor for complications: infection, pressure sores, loss of correction, over-lengthening weakness',
+          'Celebrate functional improvements—easier dressing, better sitting balance, reduced pain—not just radiographic changes'
+        ]
+      },
+      hi: {
+        timeline: [
+          {
+            week: 'अस्पताल में रहना (2-7 दिन)',
+            activity: 'तत्काल पोस्टऑपरेटिव देखभाल',
+            description: 'दर्द प्रबंधन, घाव निगरानी और जटिलताओं की रोकथाम के साथ अस्पताल में प्रारंभिक रिकवरी। फिजियोथेरेपी मार्गदर्शन के साथ प्रारंभिक गतिशीलता शुरू होती है, स्थिति, प्लास्टर सीमाओं के भीतर कोमल गति की सीमा व्यायाम, और श्वसन देखभाल पर ध्यान केंद्रित करती है। पोषण सहायता महत्वपूर्ण है। माता-पिता को प्लास्टर देखभाल, स्थिति, दबाव घाव की रोकथाम और जटिलताओं की पहचान के बारे में शिक्षा मिलती है। अस्पताल में रहने की अवधि सर्जरी की सीमा और बच्चे के समग्र स्वास्थ्य पर निर्भर करती है।'
+          },
+          {
+            week: 'सप्ताह 1-6',
+            activity: 'स्थिरीकरण और प्रारंभिक उपचार',
+            description: 'प्लास्टर या स्प्लिंट प्रारंभिक उपचार के दौरान शल्य सुधार बनाए रखते हैं। नियमित प्लास्टर जांच दबाव घावों को रोकती है—संवेदी हानि वाले बच्चों में महत्वपूर्ण। घरेलू फिजियोथेरेपी गैर-संचालित जोड़ों के लिए निष्क्रिय गति की सीमा व्यायाम, स्थिति कार्यक्रम, श्वसन व्यायाम, और अप्रभावित अंगों में शक्ति बनाए रखने के साथ शुरू होती है। दर्द प्रबंधन आवश्यकतानुसार जारी रहता है। साप्ताहिक या द्विसाप्ताहिक क्लिनिक यात्राएं उपचार की निगरानी करती हैं और किसी भी चिंता का समाधान करती हैं। बहु-स्तरीय सर्जरी के लिए, यह एक चुनौतीपूर्ण अवधि है जिसमें महत्वपूर्ण परिवार समर्थन की आवश्यकता होती है।'
+          },
+          {
+            week: 'सप्ताह 6-12',
+            activity: 'प्लास्टर हटाना और गहन पुनर्वास',
+            description: 'प्लास्टर को धीरे-धीरे हटाया जाता है और हटाने योग्य स्प्लिंट या ऑर्थोसिस से बदला जाता है। यह चरण गहन फिजियोथेरेपी की शुरुआत को चिह्नित करता है—शल्य परिणाम का सबसे महत्वपूर्ण निर्धारक। चिकित्सा में शल्य लाभ बनाए रखने के लिए खिंचाव, मजबूत बनाने वाले व्यायाम, सहायक उपकरणों के साथ चाल प्रशिक्षण, कार्यात्मक गतिविधियों का अभ्यास, और ऑर्थोटिक प्रशिक्षण शामिल है। आवृत्ति: प्रारंभ में सप्ताह में 5-6 सत्र। कुछ जोड़ों के लिए सीरियल कास्टिंग जारी रह सकती है। थेरेपिस्ट पर्यवेक्षण के तहत गैर-वजन असर से आंशिक फिर पूर्ण वजन असर तक क्रमिक प्रगति।'
+          },
+          {
+            week: 'महीने 3-6',
+            activity: 'प्रगतिशील कार्य और चाल प्रशिक्षण',
+            description: 'कार्यात्मक लक्ष्यों पर ध्यान केंद्रित करने वाली निरंतर गहन फिजियोथेरेपी—स्वतंत्र बैठना, खड़े होना, चलना (GMFCS स्तर के आधार पर सहायता के साथ या बिना), स्थानांतरण, और दैनिक जीवन की गतिविधियां। उपचार समेकित होने के साथ मजबूत बनाने वाले कार्यक्रम तेज होते हैं। ऑर्थोटिक प्रबंधन को परिष्कृत किया जाता है—AFOs, KAFOs, या आवश्यकतानुसार अन्य ब्रेसिज़। कुछ बच्चों को अवशिष्ट संकुचन के लिए ऑर्थोसिस के समायोजन या सीरियल कास्टिंग की आवश्यकता हो सकती है। व्यावसायिक चिकित्सा ऊपरी अंग कार्य और स्व-देखभाल कौशल को संबोधित करती है। वीडियो चाल विश्लेषण और कार्यात्मक मूल्यांकन के माध्यम से प्रगति की निगरानी वस्तुनिष्ठ रूप से की जाती है।'
+          },
+          {
+            week: 'महीने 6-12',
+            activity: 'कार्यात्मक समेकन और समुदाय पुनः एकीकरण',
+            description: 'चिकित्सा सप्ताह में 3-4 सत्रों में परिवर्तित होती है जिसमें सामुदायिक चलना, स्कूल गतिविधियां और सामाजिक भागीदारी पर जोर दिया जाता है। फोकस गति की सीमा बनाए रखने, संकुचन की पुनरावृत्ति को रोकने, चाल पैटर्न को अनुकूलित करने और सहनशक्ति बनाने में स्थानांतरित होता है। दीर्घकालिक रखरखाव के लिए घरेलू व्यायाम कार्यक्रम आवश्यक हैं। ऑर्थोटिक समायोजन विकास को समायोजित करते हैं। शल्य लक्ष्यों की उपलब्धि का मूल्यांकन—सुधरी हुई चाल, कम ऊर्जा लागत, आसान देखभाल, कम दर्द, कार्यात्मक गतिविधियों के लिए बेहतर स्थिति।'
+          },
+          {
+            week: 'वर्ष 1 और उससे आगे',
+            activity: 'दीर्घकालिक रखरखाव और विकास निगरानी',
+            description: 'विकृतियों की पुनरावृत्ति की निगरानी, विकास-संबंधी परिवर्तनों का आकलन, ऑर्थोसिस को समायोजित करने, और चिकित्सा कार्यक्रमों को संशोधित करने के लिए हर 3-6 महीने में नियमित फॉलो-अप। शल्य लाभ बनाए रखने के लिए खिंचाव, मजबूत बनाना और कार्यात्मक गतिविधियों के लिए आजीवन प्रतिबद्धता आवश्यक है। कुछ बच्चों को विकास के दौरान अतिरिक्त प्रक्रियाओं की आवश्यकता हो सकती है। किशोरों के लिए संक्रमण योजना वयस्क देखभाल, व्यावसायिक प्रशिक्षण और स्वतंत्रता को संबोधित करती है। सफलता को केवल रेडियोग्राफिक सुधार से नहीं बल्कि सार्थक कार्यात्मक सुधार, कम देखभालकर्ता बोझ और बढ़ी हुई जीवन की गुणवत्ता से मापा जाता है।'
+          }
+        ],
+        tips: [
+          'गहन, सुसंगत फिजियोथेरेपी शल्य सफलता निर्धारित करने वाला सबसे महत्वपूर्ण कारक है—पहले 3-6 महीनों के लिए सप्ताह में 5-6 सत्रों की प्रतिबद्धता आवश्यक है',
+          'सावधानीपूर्वक प्लास्टर देखभाल और दबाव घाव की रोकथाम बनाए रखें—नियमित रूप से त्वचा की जांच करें, विशेष रूप से हड्डी के प्रमुखताओं पर',
+          'परिवार शिक्षा और समर्थन महत्वपूर्ण हैं; गहन पुनर्वास चरण के दौरान सहायता की व्यवस्था करने पर विचार करें',
+          'बच्चे के बढ़ने के साथ संकुचन की पुनरावृत्ति को रोकने के लिए खिंचाव व्यायाम जीवन भर जारी रखें',
+          'उपचार और हड्डी स्वास्थ्य का समर्थन करने के लिए उचित पोषण सुनिश्चित करें—कैल्शियम, विटामिन डी और पर्याप्त प्रोटीन',
+          'निर्देशित के अनुसार निर्धारित ऑर्थोसिस का लगातार उपयोग करें; उचित फिटिंग और नियमित समायोजन आवश्यक हैं',
+          'GMFCS स्तर के साथ संरेखित यथार्थवादी अपेक्षाएं निर्धारित करें—सर्जरी कार्य में सुधार करती है लेकिन CP को ठीक नहीं करती है',
+          'ऑर्थोपेडिक सर्जन, फिजियोथेरेपिस्ट, व्यावसायिक चिकित्सक और बाल रोग विशेषज्ञ के बीच देखभाल का समन्वय करें',
+          'जटिलताओं के लिए निगरानी करें: संक्रमण, दबाव घाव, सुधार की हानि, अति-लंबाई कमजोरी',
+          'कार्यात्मक सुधारों का जश्न मनाएं—आसान कपड़े पहनना, बेहतर बैठने का संतुलन, कम दर्द—न कि केवल रेडियोग्राफिक परिवर्तन'
+        ]
+      }
+    },
+    faqs: {
+      en: [
+        {
+          question: 'What are the different types of cerebral palsy and how does this affect surgical planning?',
+          answer: 'Cerebral palsy is classified into four main types based on movement patterns: Spastic CP (70-80% of cases) characterized by increased muscle tone and stiffness—further divided into spastic hemiplegia (one side affected), spastic diplegia (primarily legs affected, most common in premature babies), and spastic quadriplegia (all four limbs affected). Dyskinetic CP (10-15%) involves involuntary, uncontrolled movements including athetosis and dystonia. Ataxic CP (5-10%) causes problems with balance and coordination. Mixed CP shows features of multiple types. Surgical planning differs significantly: Spastic CP responds best to soft tissue releases and tendon lengthening to address fixed contractures; these children are the best surgical candidates. Dyskinetic CP has less predictable surgical outcomes because the primary problem is abnormal movement control rather than fixed deformity—surgery is selective, focusing on specific functional goals. Ataxic CP rarely requires orthopaedic surgery. The distribution pattern (hemiplegia, diplegia, quadriplegia) determines which limbs require intervention and the complexity of surgery. GMFCS level (I-V) is critical: ambulatory children (GMFCS I-III) have different surgical goals (improve gait efficiency, independence) compared to non-ambulatory children (GMFCS IV-V) where goals focus on positioning, care facilitation, and pain prevention.'
+        },
+        {
+          question: 'At what age is cerebral palsy surgery typically performed?',
+          answer: 'Age considerations for CP surgery are complex and depend on the procedure type and goals. Soft tissue procedures (muscle/tendon lengthening, releases) can be performed as early as 3-4 years when contractures interfere with function, gait, or positioning. However, there is a risk of recurrence with growth, potentially requiring repeat procedures. Single-Event Multilevel Surgery (SEMLS) for ambulatory children is optimally performed between ages 6-10 years, when gait pattern is mature enough to assess comprehensively but before fixed bony deformities develop and while rehabilitation potential is high. Bony procedures (osteotomies) are typically performed after age 6-8 when skeletal maturity is sufficient, though specific procedures like femoral osteotomy for hip subluxation may be done earlier (4-6 years) to prevent hip dislocation. Hip surveillance and early intervention for hip dysplasia should begin by age 2-3 to prevent painful dislocation. Upper limb surgery is often delayed until age 6-8 or later when the child can participate in goal-setting and intensive hand therapy. Spinal surgery for scoliosis is typically performed in adolescence when growth is nearly complete, though severe progressive curves may require earlier intervention. In Bihar\'s context, many children present late, and surgery may need to be performed at older ages to address established deformities. The guiding principle is: operate when contractures or deformities interfere with current function or threaten future function, and when the child can participate meaningfully in rehabilitation.'
+        },
+        {
+          question: 'What is Single-Event Multilevel Surgery (SEMLS) and is it better than staged procedures?',
+          answer: 'Single-Event Multilevel Surgery (SEMLS) involves performing multiple soft tissue and/or bony procedures at different anatomical levels during a single operation under one anesthetic. For example, a child with spastic diplegia might undergo hamstring lengthening, hip adductor release, psoas lengthening, and gastrocnemius recession all in one surgery. The alternative is staged procedures—addressing one or two levels at a time over multiple separate operations. SEMLS advantages include: one hospitalization and anesthetic exposure rather than multiple, simultaneous correction of all deformities allows balanced rehabilitation, more cost-effective overall, less disruption to school and family life, potentially better functional outcomes because all components of the gait pattern are addressed together. Disadvantages include: longer single operation (4-6 hours), more intensive immediate postoperative care, more complex rehabilitation initially, higher initial cost. Research evidence generally favors SEMLS for ambulatory children (GMFCS II-III) with multiple level involvement—studies show comparable or better functional outcomes with fewer total surgeries compared to staged approaches. However, SEMLS requires: comprehensive preoperative gait analysis, experienced surgical team, strong rehabilitation infrastructure, and committed family support. Not all children are SEMLS candidates—very young children, those with severe medical comorbidities, or those with limited single-level problems may be better served by staged procedures. At Arthoscenter, we use comprehensive gait analysis and multidisciplinary assessment to determine the optimal surgical strategy for each child, whether that is SEMLS or staged approach.'
+        },
+        {
+          question: 'What are the realistic goals and outcomes of cerebral palsy surgery?',
+          answer: 'Setting realistic expectations is crucial for family satisfaction. Cerebral palsy surgery CANNOT cure CP, normalize movement completely, or eliminate the need for ongoing therapy. What it CAN do: reduce spasticity-related contractures, improve joint alignment and range of motion, enhance gait efficiency and reduce energy cost of walking, facilitate transfers and positioning, reduce pain from joint deformities, make hygiene and dressing easier for caregivers, delay or prevent secondary complications like hip dislocation or severe scoliosis, and improve quality of life. Specific outcomes depend on GMFCS level: For GMFCS I-II (community ambulators), goals include improving gait aesthetics, reducing compensatory movements, increasing walking speed and endurance, and reducing long-term joint stress. Success rates for improved gait kinematics: 70-80%. For GMFCS III (household/limited community ambulators with aids), goals include maintaining or improving walking ability with assistive devices, easier transfers, better standing tolerance. Success in maintaining ambulatory status: 60-75%. For GMFCS IV-V (non-ambulatory), goals focus on improving sitting balance and posture, preventing painful hip dislocation, facilitating positioning and caregiving, reducing pain from contractures. Success in achieving these goals: 75-85%. Overall, studies show 60-80% of children achieve their primary functional goals after CP surgery, but success heavily depends on: appropriate patient selection, comprehensive surgical planning, intensive postoperative physiotherapy (THE most critical factor), family commitment, and realistic goal-setting aligned with GMFCS level. Functional improvements may be modest but meaningful—walking independently for household distances instead of requiring assistance, sitting comfortably for classroom activities instead of requiring special positioning equipment, or reducing caregiver burden for hygiene and dressing.'
+        },
+        {
+          question: 'How does orthopaedic surgery differ from SDR (Selective Dorsal Rhizotomy) for cerebral palsy?',
+          answer: 'These are complementary approaches targeting different aspects of CP. Selective Dorsal Rhizotomy (SDR) is a neurosurgical procedure that permanently reduces spasticity by cutting selected sensory nerve rootlets in the spinal cord. It addresses the neurological cause of spasticity but does not correct established contractures or bony deformities. SDR is best for: young children (typically 3-8 years) with pure spastic diplegia, good strength, minimal fixed contractures, and good selective motor control. Benefits include permanent spasticity reduction, improved ease of movement, and reduced energy expenditure. Limitations: does not correct fixed deformities, requires intensive post-SDR physiotherapy, and has risks including sensory changes, bladder/bowel dysfunction, and spinal deformity. Orthopaedic surgery addresses the musculoskeletal consequences of CP—contractures, deformities, and mechanical malalignment. It can be performed at any age and is suitable for all CP types. Benefits include correction of fixed deformities, improved joint alignment, and addressing specific functional limitations. Limitations: does not reduce spasticity at its source, and contractures may recur if spasticity persists. Many children benefit from BOTH approaches sequentially: SDR first (at age 4-6) to reduce spasticity and facilitate therapy, followed by orthopaedic surgery later (age 8-10) to address any residual contractures or deformities that develop despite therapy. This combined approach can produce excellent outcomes in carefully selected patients. However, SDR availability is limited in India including Bihar—few centers offer it, and cost is high (₹6-10 lakhs). At Arthoscenter, we work with neurosurgical colleagues when SDR is appropriate, but most of our CP patients are managed primarily with orthopaedic interventions, therapy, and sometimes botulinum toxin injections for spasticity management.'
+        },
+        {
+          question: 'What is hip surveillance in cerebral palsy and why is it important?',
+          answer: 'Hip surveillance refers to systematic monitoring of hip development in children with CP through regular clinical examination and X-rays. It is critically important because hip displacement (subluxation/dislocation) is one of the most common and serious complications of CP, occurring in 30-40% of children overall and up to 60-90% of non-ambulatory children (GMFCS IV-V). Hip displacement develops gradually due to muscle imbalance—spastic hip adductors and flexors pull the femoral head out of the acetabulum, especially when combined with poor weight-bearing and abnormal positioning. The process is often painless initially, so without surveillance it goes undetected until severe dislocation occurs. Consequences of untreated hip dislocation include: severe pain from arthritis, difficulty with positioning and sitting, pressure sores, impaired perineal hygiene, pelvic obliquity contributing to scoliosis, and significantly reduced quality of life. Hip surveillance protocols recommend: clinical hip examination and anteroposterior pelvis X-ray at age 2-3 years for all children with CP (except GMFCS I who walk independently), then repeated every 6-12 months depending on GMFCS level and hip migration percentage. X-rays are measured for Migration Percentage (MP)—the percentage of femoral head not covered by acetabulum. Normal MP is <10%; MP >30% indicates progressive displacement requiring intervention; MP >40% usually requires surgery. Early intervention when hip displacement is detected (MP 30-40%) may involve soft tissue procedures alone (adductor and psoas release). More advanced displacement (MP 40-70%) requires femoral osteotomy ± pelvic osteotomy. Established dislocation (MP >90%) may require complex reconstructive surgery or in severe cases, salvage procedures for pain management. The key principle: hip surveillance allows early detection and preventive intervention before painful dislocation occurs. Unfortunately, systematic hip surveillance is not yet widely implemented in Bihar, and many children present with established painful dislocations requiring complex surgery. At Arthoscenter, we advocate strongly for hip surveillance and work to implement it through our CP clinics.'
+        },
+        {
+          question: 'What is the role of physiotherapy after cerebral palsy surgery?',
+          answer: 'Physiotherapy is absolutely THE MOST CRITICAL factor determining surgical success—more important than surgical technique itself. Surgery creates the mechanical opportunity for improved function by lengthening tight muscles, correcting deformities, and rebalancing forces. But realizing that potential requires intensive, expert physiotherapy to: maintain the range of motion gained surgically, strengthen muscles that may be weakened by lengthening procedures, retrain gait patterns to take advantage of improved alignment, prevent compensatory abnormal movement patterns from developing, and gradually progress to functional activities. The intensity required is much higher than many families expect: First 3 months post-surgery: 5-6 sessions per week of structured physiotherapy plus daily home exercises. Months 3-6: 4-5 sessions weekly with continued home program. Months 6-12: 3-4 sessions weekly. Beyond 1 year: 2-3 sessions weekly plus lifelong daily stretching and exercise routine. Each session is typically 45-60 minutes. Without this intensity, contractures recur, surgical corrections are lost, and functional goals are not achieved. Studies show that inadequate post-surgical physiotherapy is the number one cause of poor outcomes after otherwise technically successful CP surgery. The challenges in Bihar\'s context: Limited number of physiotherapists trained specifically in pediatric neurological rehabilitation. In rural areas, accessing regular physiotherapy is extremely difficult. Cost of intensive therapy over many months can be prohibitive for many families—private physiotherapy in Patna typically costs ₹500-800 per session, meaning 5-6 sessions weekly for 3 months = ₹30,000-60,000 just for therapy. At Arthoscenter, we address this through: in-house physiotherapy department with pediatric neurological specialists, family training programs where parents learn to continue therapy at home, subsidized therapy costs for economically disadvantaged families, and connecting families with government rehabilitation facilities. We emphasize to families before surgery: the commitment to intensive physiotherapy is as important as the decision for surgery itself. Without that commitment, surgery should be delayed or reconsidered.'
+        },
+        {
+          question: 'Can cerebral palsy surgery be performed for adults, or is it only for children?',
+          answer: 'While CP surgery is most commonly performed in childhood, adults with CP can definitely benefit from orthopaedic procedures, though goals and outcomes may differ. Adult CP surgery addresses: progressive painful contractures that develop despite previous surgery or therapy, hip pain from subluxation or dislocation that was undetected or untreated in childhood, painful foot deformities interfering with footwear or ambulation, upper limb contractures affecting hygiene or self-care, and spinal deformity causing pain or sitting imbalance. The differences in adult CP surgery include: goals are often more focused on pain relief, maintaining current function, and facilitating care rather than improving function, bony deformities are more established and may require more extensive surgery, rehabilitation potential may be less than in children due to longstanding adaptive patterns and muscle changes, but adults can be more motivated and compliant with therapy, surgery may be combined with pain management strategies like neurolysis or botulinum toxin, and realistic expectation-setting is even more critical. Common adult CP procedures include: hip reconstruction or salvage procedures (arthroplasty, proximal femoral resection) for painful dislocated hip, tendon releases for contractures affecting hygiene, foot fusion procedures for severe rigid deformities, and spinal fusion for painful progressive scoliosis. Outcomes can be very satisfying when goals are appropriate—many adults achieve significant pain reduction, easier caregiving, better positioning, and improved quality of life. At Arthoscenter, Dr. Gurudeo Kumar has extensive experience with adult CP surgery and takes a comprehensive approach including pain management, realistic goal-setting, and planning for long-term maintenance. One challenge in Bihar is that many adults with CP never received any surgical intervention in childhood despite clear indications, presenting with severe neglected deformities that are more complex to treat. Even in these cases, surgery can often provide meaningful improvements in pain, positioning, and quality of life, though expectations must be carefully managed.'
+        },
+        {
+          question: 'What are the risks and complications of cerebral palsy surgery?',
+          answer: 'As with any major orthopaedic surgery, CP surgery carries risks that must be weighed against potential benefits. General risks include: infection (2-5% depending on extent of surgery and nutritional status), wound healing problems (higher risk in malnourished children or those with skin sensitivity), anesthesia complications (careful preoperative assessment needed for children with seizures, respiratory issues, or swallowing problems), blood loss requiring transfusion (more common with multilevel or pelvic surgery), pressure sores during prolonged immobilization (prevention crucial in children with sensory impairment), and venous thromboembolism (rare in children but possible with prolonged immobilization). Specific orthopaedic complications include: Over-lengthening weakness—excessive muscle lengthening can create new weakness and actually worsen function; requires careful surgical judgment. Under-correction—insufficient release leaves residual contracture requiring revision. Recurrence of deformity—occurs in 20-30% of cases over years, especially with continued growth and persistent spasticity; emphasizes importance of ongoing therapy and spasticity management. Neurovascular injury—rare but can occur with procedures near nerves and vessels. Loss of correction—casts or fixation may slip, allowing deformity to recur during healing. Fracture—can occur through weakened or osteoporotic bone during surgery or postoperatively. Specific to certain procedures: Hip surgery may result in avascular necrosis of femoral head (rare), nerve injury (sciatic nerve during hip surgery ~1%), or recurrent dislocation if soft tissue balance not achieved. Foot surgery may result in stiffness, overcorrection creating new deformities, or wound complications. Spinal surgery carries higher risks including neurological injury, implant complications, and pseudarthrosis. To minimize complications, Dr. Gurudeo Kumar employs: meticulous preoperative assessment and optimization, careful surgical technique with intraoperative monitoring, appropriate postoperative protocols including pressure sore prevention, experienced anesthesia team familiar with CP patients, and close postoperative monitoring. Families should understand: some degree of surgical complications is unavoidable in complex multilevel surgery, but serious permanent complications are rare (<2%) in experienced hands. The benefits of appropriately indicated surgery typically far outweigh risks.'
+        },
+        {
+          question: 'What is the cost of cerebral palsy surgery and what financial support is available in Bihar?',
+          answer: 'CP surgery costs vary widely based on extent and complexity. At Arthoscenter in Patna: Single-level soft tissue procedure (e.g., hamstring lengthening): ₹75,000-1,25,000 including surgeon fees, hospital stay (3-5 days), anesthesia, and medications. Multi-level soft tissue procedures (SEMLS without bony surgery): ₹1,50,000-2,50,000. Complex procedures including osteotomies: ₹2,50,000-4,00,000. Hip reconstruction surgery: ₹2,00,000-3,50,000. These costs cover surgery only—additional expenses include: preoperative assessments and imaging (₹10,000-20,000), postoperative physiotherapy (₹30,000-60,000 for first 3 months if done 5-6x weekly), orthoses/braces (₹15,000-50,000 depending on type), follow-up visits and any adjustments or minor procedures. Total first-year cost for comprehensive CP surgery and rehabilitation can range ₹2,00,000-6,00,000 depending on complexity. This is financially challenging for most Bihar families. Available financial support: Government health insurance schemes—Ayushman Bharat PMJAY covers up to ₹5 lakhs annually for empaneled hospitals; check if your hospital is empaneled and CP surgery is covered. State government disability schemes—Bihar State Disability Pension and various disability welfare programs may provide limited financial assistance. NGO support—organizations like Bhagwan Mahaveer Viklang Sahayata Samiti (BMVSS/Jaipur Foot), Rotary clubs, and local charitable organizations sometimes support CP surgeries. Crowdfunding platforms—Ketto, Milaap, and others have been successfully used by Bihar families to raise funds for CP surgery. Corporate CSR programs—some companies support medical treatment for underprivileged children under CSR mandates. At Arthoscenter, we work with families to: navigate insurance and government schemes, provide cost-effective treatment without compromising quality, arrange subsidized or free physiotherapy for economically disadvantaged patients through our charitable programs, and connect families with NGOs and support organizations. Dr. Gurudeo Kumar believes every child deserves the opportunity for improved function regardless of economic status, and we make every effort to make surgery accessible. Families should discuss financial concerns openly during consultation—solutions can often be found.'
+        }
+      ],
+      hi: [
+        {
+          question: 'सेरेब्रल पाल्सी के विभिन्न प्रकार क्या हैं और यह शल्य योजना को कैसे प्रभावित करता है?',
+          answer: 'सेरेब्रल पाल्सी को गति पैटर्न के आधार पर चार मुख्य प्रकारों में वर्गीकृत किया गया है: स्पास्टिक CP (70-80% मामले) जो बढ़े हुए मांसपेशी टोन और कठोरता द्वारा विशेषता है—आगे स्पास्टिक हेमिप्लेजिया (एक तरफ प्रभावित), स्पास्टिक डाइप्लेजिया (मुख्य रूप से पैर प्रभावित, समय से पहले बच्चों में सबसे आम), और स्पास्टिक क्वाड्रिप्लेजिया (सभी चार अंग प्रभावित) में विभाजित है। डिस्काइनेटिक CP (10-15%) में अनैच्छिक, अनियंत्रित गतिविधियां शामिल हैं जिसमें एथेटोसिस और डायस्टोनिया शामिल हैं। अटैक्सिक CP (5-10%) संतुलन और समन्वय के साथ समस्याएं पैदा करता है। मिश्रित CP कई प्रकारों की विशेषताओं को दिखाता है। शल्य योजना काफी भिन्न होती है: स्पास्टिक CP निश्चित संकुचन को संबोधित करने के लिए कोमल ऊतक रिलीज और टेंडन लंबाई बढ़ाने के लिए सबसे अच्छी प्रतिक्रिया देता है; ये बच्चे सबसे अच्छे शल्य उम्मीदवार हैं। डिस्काइनेटिक CP में कम अनुमानित शल्य परिणाम होते हैं क्योंकि प्राथमिक समस्या निश्चित विकृति के बजाय असामान्य गति नियंत्रण है—सर्जरी चयनात्मक है, विशिष्ट कार्यात्मक लक्ष्यों पर ध्यान केंद्रित करती है। अटैक्सिक CP को शायद ही कभी ऑर्थोपेडिक सर्जरी की आवश्यकता होती है। वितरण पैटर्न (हेमिप्लेजिया, डाइप्लेजिया, क्वाड्रिप्लेजिया) निर्धारित करता है कि किन अंगों को हस्तक्षेप की आवश्यकता है और सर्जरी की जटिलता। GMFCS स्तर (I-V) महत्वपूर्ण है: एंबुलेटरी बच्चे (GMFCS I-III) में गैर-एंबुलेटरी बच्चों (GMFCS IV-V) की तुलना में अलग शल्य लक्ष्य (चाल दक्षता में सुधार, स्वतंत्रता) होते हैं जहां लक्ष्य स्थिति, देखभाल सुविधा और दर्द रोकथाम पर ध्यान केंद्रित करते हैं।'
+        },
+        {
+          question: 'सेरेब्रल पाल्सी सर्जरी आमतौर पर किस उम्र में की जाती है?',
+          answer: 'CP सर्जरी के लिए आयु विचार जटिल हैं और प्रक्रिया के प्रकार और लक्ष्यों पर निर्भर करते हैं। कोमल ऊतक प्रक्रियाएं (मांसपेशी/टेंडन लंबाई बढ़ाना, रिलीज) 3-4 साल की उम्र में की जा सकती हैं जब संकुचन कार्य, चाल या स्थिति में हस्तक्षेप करते हैं। हालांकि, विकास के साथ पुनरावृत्ति का जोखिम है, संभावित रूप से दोहराई गई प्रक्रियाओं की आवश्यकता है। एंबुलेटरी बच्चों के लिए एकल-घटना बहु-स्तरीय सर्जरी (SEMLS) 6-10 वर्ष की आयु के बीच इष्टतम रूप से की जाती है, जब चाल पैटर्न व्यापक रूप से मूल्यांकन करने के लिए पर्याप्त परिपक्व होता है लेकिन निश्चित हड्डी विकृतियां विकसित होने से पहले और जबकि पुनर्वास क्षमता उच्च होती है। हड्डी प्रक्रियाएं (ऑस्टियोटॉमी) आमतौर पर 6-8 वर्ष की आयु के बाद की जाती हैं जब कंकाल परिपक्वता पर्याप्त होती है, हालांकि हिप सबलक्सेशन के लिए फेमोरल ऑस्टियोटॉमी जैसी विशिष्ट प्रक्रियाएं पहले (4-6 वर्ष) हिप अव्यवस्था को रोकने के लिए की जा सकती हैं। हिप निगरानी और हिप डिस्प्लेसिया के लिए प्रारंभिक हस्तक्षेप 2-3 वर्ष की आयु तक शुरू होनी चाहिए दर्दनाक अव्यवस्था को रोकने के लिए। ऊपरी अंग सर्जरी अक्सर 6-8 वर्ष या उससे अधिक उम्र तक देरी से की जाती है जब बच्चा लक्ष्य-निर्धारण और गहन हाथ चिकित्सा में भाग ले सकता है। स्कोलियोसिस के लिए स्पाइनल सर्जरी आमतौर पर किशोरावस्था में की जाती है जब विकास लगभग पूर्ण होता है, हालांकि गंभीर प्रगतिशील वक्रों को पहले हस्तक्षेप की आवश्यकता हो सकती है। बिहार के संदर्भ में, कई बच्चे देर से उपस्थित होते हैं, और स्थापित विकृतियों को संबोधित करने के लिए बड़ी उम्र में सर्जरी करने की आवश्यकता हो सकती है। मार्गदर्शक सिद्धांत है: जब संकुचन या विकृतियां वर्तमान कार्य में हस्तक्षेप करती हैं या भविष्य के कार्य को खतरे में डालती हैं, और जब बच्चा पुनर्वास में सार्थक रूप से भाग ले सकता है तब संचालित करें।'
+        },
+        {
+          question: 'एकल-घटना बहु-स्तरीय सर्जरी (SEMLS) क्या है और क्या यह चरणबद्ध प्रक्रियाओं से बेहतर है?',
+          answer: 'एकल-घटना बहु-स्तरीय सर्जरी (SEMLS) में एक एनेस्थेटिक के तहत एक ही ऑपरेशन के दौरान विभिन्न शारीरिक स्तरों पर कई कोमल ऊतक और/या हड्डी प्रक्रियाएं करना शामिल है। उदाहरण के लिए, स्पास्टिक डाइप्लेजिया वाला बच्चा एक सर्जरी में हैमस्ट्रिंग लंबाई बढ़ाने, हिप अडक्टर रिलीज, सोस लंबाई बढ़ाने, और गैस्ट्रोकनेमियस रिसेशन से गुजर सकता है। विकल्प चरणबद्ध प्रक्रियाएं हैं—कई अलग ऑपरेशनों में एक समय में एक या दो स्तरों को संबोधित करना। SEMLS के लाभ शामिल हैं: कई के बजाय एक अस्पताल में रहना और एनेस्थेटिक एक्सपोजर, सभी विकृतियों का एक साथ सुधार संतुलित पुनर्वास की अनुमति देता है, समग्र रूप से अधिक लागत प्रभावी, स्कूल और परिवार के जीवन में कम व्यवधान, संभावित रूप से बेहतर कार्यात्मक परिणाम क्योंकि चाल पैटर्न के सभी घटकों को एक साथ संबोधित किया जाता है। नुकसान में शामिल हैं: लंबा एकल ऑपरेशन (4-6 घंटे), अधिक गहन तत्काल पोस्टऑपरेटिव देखभाल, प्रारंभ में अधिक जटिल पुनर्वास, उच्च प्रारंभिक लागत। अनुसंधान साक्ष्य आम तौर पर बहु-स्तरीय भागीदारी वाले एंबुलेटरी बच्चों (GMFCS II-III) के लिए SEMLS का पक्ष लेता है—अध्ययन चरणबद्ध दृष्टिकोणों की तुलना में कम कुल सर्जरी के साथ तुलनीय या बेहतर कार्यात्मक परिणाम दिखाते हैं। हालांकि, SEMLS की आवश्यकता है: व्यापक प्रीऑपरेटिव चाल विश्लेषण, अनुभवी शल्य टीम, मजबूत पुनर्वास बुनियादी ढांचा, और प्रतिबद्ध परिवार समर्थन। सभी बच्चे SEMLS उम्मीदवार नहीं हैं—बहुत छोटे बच्चे, गंभीर चिकित्सा सहरुग्णताओं वाले, या सीमित एकल-स्तरीय समस्याओं वाले चरणबद्ध प्रक्रियाओं द्वारा बेहतर सेवा प्राप्त कर सकते हैं। आर्थोसेंटर में, हम प्रत्येक बच्चे के लिए इष्टतम शल्य रणनीति निर्धारित करने के लिए व्यापक चाल विश्लेषण और बहु-विषयक मूल्यांकन का उपयोग करते हैं, चाहे वह SEMLS हो या चरणबद्ध दृष्टिकोण।'
+        },
+        {
+          question: 'सेरेब्रल पाल्सी सर्जरी के यथार्थवादी लक्ष्य और परिणाम क्या हैं?',
+          answer: 'परिवार संतुष्टि के लिए यथार्थवादी अपेक्षाएं निर्धारित करना महत्वपूर्ण है। सेरेब्रल पाल्सी सर्जरी CP को ठीक नहीं कर सकती है, गति को पूरी तरह से सामान्य नहीं कर सकती है, या चल रही चिकित्सा की आवश्यकता को समाप्त नहीं कर सकती है। यह क्या कर सकती है: स्पास्टिसिटी-संबंधित संकुचन को कम करें, जोड़ संरेखण और गति की सीमा में सुधार करें, चाल दक्षता को बढ़ाएं और चलने की ऊर्जा लागत को कम करें, स्थानांतरण और स्थिति को सुविधाजनक बनाएं, जोड़ विकृतियों से दर्द को कम करें, देखभालकर्ताओं के लिए स्वच्छता और कपड़े पहनना आसान बनाएं, हिप अव्यवस्था या गंभीर स्कोलियोसिस जैसी द्वितीयक जटिलताओं में देरी या रोकथाम करें, और जीवन की गुणवत्ता में सुधार करें। विशिष्ट परिणाम GMFCS स्तर पर निर्भर करते हैं: GMFCS I-II (सामुदायिक एंबुलेटर) के लिए, लक्ष्यों में चाल सौंदर्यशास्त्र में सुधार, प्रतिपूरक गतिविधियों को कम करना, चलने की गति और सहनशक्ति बढ़ाना, और दीर्घकालिक जोड़ तनाव को कम करना शामिल है। सुधरी हुई चाल काइनेमेटिक्स के लिए सफलता दर: 70-80%। GMFCS III (सहायता के साथ घरेलू/सीमित सामुदायिक एंबुलेटर) के लिए, लक्ष्यों में सहायक उपकरणों के साथ चलने की क्षमता को बनाए रखना या सुधारना, आसान स्थानांतरण, बेहतर खड़े होने की सहनशीलता शामिल है। एंबुलेटरी स्थिति बनाए रखने में सफलता: 60-75%। GMFCS IV-V (गैर-एंबुलेटरी) के लिए, लक्ष्य बैठने के संतुलन और मुद्रा में सुधार, दर्दनाक हिप अव्यवस्था को रोकने, स्थिति और देखभाल को सुविधाजनक बनाने, संकुचन से दर्द को कम करने पर ध्यान केंद्रित करते हैं। इन लक्ष्यों को प्राप्त करने में सफलता: 75-85%। कुल मिलाकर, अध्ययन दिखाते हैं कि 60-80% बच्चे CP सर्जरी के बाद अपने प्राथमिक कार्यात्मक लक्ष्यों को प्राप्त करते हैं, लेकिन सफलता काफी हद तक निर्भर करती है: उपयुक्त रोगी चयन, व्यापक शल्य योजना, गहन पोस्टऑपरेटिव फिजियोथेरेपी (सबसे महत्वपूर्ण कारक), परिवार प्रतिबद्धता, और GMFCS स्तर के साथ संरेखित यथार्थवादी लक्ष्य-निर्धारण। कार्यात्मक सुधार मामूली लेकिन सार्थक हो सकते हैं—सहायता की आवश्यकता के बजाय घरेलू दूरी के लिए स्वतंत्र रूप से चलना, विशेष स्थिति उपकरण की आवश्यकता के बजाय कक्षा गतिविधियों के लिए आराम से बैठना, या स्वच्छता और कपड़े पहनने के लिए देखभालकर्ता बोझ को कम करना।'
+        },
+        {
+          question: 'सेरेब्रल पाल्सी के लिए ऑर्थोपेडिक सर्जरी SDR (सेलेक्टिव डॉर्सल रिजोटोमी) से कैसे भिन्न है?',
+          answer: 'ये CP के विभिन्न पहलुओं को लक्षित करने वाले पूरक दृष्टिकोण हैं। सेलेक्टिव डॉर्सल रिजोटोमी (SDR) एक न्यूरोसर्जिकल प्रक्रिया है जो रीढ़ की हड्डी में चयनित संवेदी तंत्रिका जड़ों को काटकर स्पास्टिसिटी को स्थायी रूप से कम करती है। यह स्पास्टिसिटी के न्यूरोलॉजिकल कारण को संबोधित करती है लेकिन स्थापित संकुचन या हड्डी विकृतियों को ठीक नहीं करती है। SDR सबसे अच्छा है: युवा बच्चों (आमतौर पर 3-8 वर्ष) के लिए शुद्ध स्पास्टिक डाइप्लेजिया, अच्छी ताकत, न्यूनतम निश्चित संकुचन, और अच्छे चयनात्मक मोटर नियंत्रण के साथ। लाभों में स्थायी स्पास्टिसिटी कमी, गति में आसानी में सुधार, और ऊर्जा व्यय में कमी शामिल है। सीमाएं: निश्चित विकृतियों को ठीक नहीं करता है, SDR के बाद गहन फिजियोथेरेपी की आवश्यकता होती है, और संवेदी परिवर्तन, मूत्राशय/आंत्र शिथिलता, और रीढ़ की विकृति सहित जोखिम हैं। ऑर्थोपेडिक सर्जरी CP के मस्कुलोस्केलेटल परिणामों को संबोधित करती है—संकुचन, विकृतियां, और यांत्रिक गलत संरेखण। इसे किसी भी उम्र में किया जा सकता है और सभी CP प्रकारों के लिए उपयुक्त है। लाभों में निश्चित विकृतियों का सुधार, सुधरा हुआ जोड़ संरेखण, और विशिष्ट कार्यात्मक सीमाओं को संबोधित करना शामिल है। सीमाएं: इसके स्रोत पर स्पास्टिसिटी को कम नहीं करती है, और यदि स्पास्टिसिटी बनी रहती है तो संकुचन पुनः हो सकते हैं। कई बच्चे दोनों दृष्टिकोणों से क्रमिक रूप से लाभ उठाते हैं: पहले SDR (उम्र 4-6 में) स्पास्टिसिटी को कम करने और चिकित्सा को सुविधाजनक बनाने के लिए, फिर बाद में ऑर्थोपेडिक सर्जरी (उम्र 8-10) चिकित्सा के बावजूद विकसित होने वाले किसी भी अवशिष्ट संकुचन या विकृतियों को संबोधित करने के लिए। यह संयुक्त दृष्टिकोण सावधानीपूर्वक चयनित रोगियों में उत्कृष्ट परिणाम उत्पन्न कर सकता है। हालांकि, बिहार सहित भारत में SDR उपलब्धता सीमित है—कुछ केंद्र इसे प्रदान करते हैं, और लागत उच्च है (₹6-10 लाख)। आर्थोसेंटर में, हम न्यूरोसर्जिकल सहयोगियों के साथ काम करते हैं जब SDR उपयुक्त है, लेकिन हमारे अधिकांश CP रोगियों को मुख्य रूप से ऑर्थोपेडिक हस्तक्षेप, चिकित्सा, और कभी-कभी स्पास्टिसिटी प्रबंधन के लिए बोटुलिनम टॉक्सिन इंजेक्शन के साथ प्रबंधित किया जाता है।'
+        },
+        {
+          question: 'सेरेब्रल पाल्सी में हिप निगरानी क्या है और यह क्यों महत्वपूर्ण है?',
+          answer: 'हिप निगरानी नियमित नैदानिक परीक्षण और एक्स-रे के माध्यम से CP वाले बच्चों में हिप विकास की व्यवस्थित निगरानी को संदर्भित करती है। यह बेहद महत्वपूर्ण है क्योंकि हिप विस्थापन (सबलक्सेशन/अव्यवस्था) CP की सबसे आम और गंभीर जटिलताओं में से एक है, जो कुल मिलाकर 30-40% बच्चों में और गैर-एंबुलेटरी बच्चों (GMFCS IV-V) में 60-90% तक होती है। हिप विस्थापन मांसपेशी असंतुलन के कारण धीरे-धीरे विकसित होता है—स्पास्टिक हिप अडक्टर और फ्लेक्सर फेमोरल हेड को एसिटाबुलम से बाहर खींचते हैं, विशेष रूप से जब खराब वजन-असर और असामान्य स्थिति के साथ संयुक्त होते हैं। प्रक्रिया अक्सर प्रारंभ में दर्द रहित होती है, इसलिए निगरानी के बिना यह गंभीर अव्यवस्था होने तक अज्ञात रहती है। अनुपचारित हिप अव्यवस्था के परिणामों में शामिल हैं: गठिया से गंभीर दर्द, स्थिति और बैठने में कठिनाई, दबाव घाव, बिगड़ा हुआ पेरिनियल स्वच्छता, पेल्विक तिरछापन जो स्कोलियोसिस में योगदान देता है, और जीवन की गुणवत्ता में काफी कमी। हिप निगरानी प्रोटोकॉल की सिफारिश करते हैं: 2-3 वर्ष की आयु में CP वाले सभी बच्चों के लिए नैदानिक हिप परीक्षण और पूर्वकाल पेल्विक एक्स-रे (GMFCS I को छोड़कर जो स्वतंत्र रूप से चलते हैं), फिर GMFCS स्तर और हिप प्रवास प्रतिशत के आधार पर हर 6-12 महीनों में दोहराया जाता है। एक्स-रे को माइग्रेशन प्रतिशत (MP) के लिए मापा जाता है—फेमोरल हेड का प्रतिशत जो एसिटाबुलम द्वारा कवर नहीं किया गया है। सामान्य MP <10% है; MP >30% प्रगतिशील विस्थापन इंगित करता है जिसमें हस्तक्षेप की आवश्यकता होती है; MP >40% आमतौर पर सर्जरी की आवश्यकता होती है। प्रारंभिक हस्तक्षेप जब हिप विस्थापन का पता चलता है (MP 30-40%) में केवल कोमल ऊतक प्रक्रियाएं (अडक्टर और सोस रिलीज) शामिल हो सकती हैं। अधिक उन्नत विस्थापन (MP 40-70%) के लिए फेमोरल ऑस्टियोटॉमी ± पेल्विक ऑस्टियोटॉमी की आवश्यकता होती है। स्थापित अव्यवस्था (MP >90%) को जटिल पुनर्निर्माण सर्जरी या गंभीर मामलों में, दर्द प्रबंधन के लिए बचाव प्रक्रियाओं की आवश्यकता हो सकती है। मुख्य सिद्धांत: हिप निगरानी दर्दनाक अव्यवस्था होने से पहले प्रारंभिक पहचान और निवारक हस्तक्षेप की अनुमति देती है। दुर्भाग्य से, बिहार में व्यवस्थित हिप निगरानी अभी तक व्यापक रूप से लागू नहीं की गई है, और कई बच्चे स्थापित दर्दनाक अव्यवस्थाओं के साथ उपस्थित होते हैं जिनमें जटिल सर्जरी की आवश्यकता होती है। आर्थोसेंटर में, हम हिप निगरानी के लिए दृढ़ता से वकालत करते हैं और इसे अपने CP क्लीनिकों के माध्यम से लागू करने के लिए काम करते हैं।'
+        },
+        {
+          question: 'सेरेब्रल पाल्सी सर्जरी के बाद फिजियोथेरेपी की भूमिका क्या है?',
+          answer: 'फिजियोथेरेपी बिल्कुल शल्य सफलता निर्धारित करने वाला सबसे महत्वपूर्ण कारक है—शल्य तकनीक से भी अधिक महत्वपूर्ण। सर्जरी तंग मांसपेशियों को लंबा करके, विकृतियों को ठीक करके, और बलों को संतुलित करके सुधरे हुए कार्य के लिए यांत्रिक अवसर बनाती है। लेकिन उस क्षमता को साकार करने के लिए गहन, विशेषज्ञ फिजियोथेरेपी की आवश्यकता होती है: शल्य रूप से प्राप्त गति की सीमा को बनाए रखना, लंबाई बढ़ाने वाली प्रक्रियाओं से कमजोर हो सकने वाली मांसपेशियों को मजबूत करना, सुधरे हुए संरेखण का लाभ उठाने के लिए चाल पैटर्न को फिर से प्रशिक्षित करना, प्रतिपूरक असामान्य गति पैटर्न को विकसित होने से रोकना, और धीरे-धीरे कार्यात्मक गतिविधियों की ओर बढ़ना। आवश्यक तीव्रता कई परिवारों की अपेक्षा से बहुत अधिक है: सर्जरी के बाद पहले 3 महीने: सप्ताह में 5-6 सत्र संरचित फिजियोथेरेपी के साथ दैनिक घरेलू व्यायाम। महीने 3-6: सप्ताह में 4-5 सत्र निरंतर घरेलू कार्यक्रम के साथ। महीने 6-12: सप्ताह में 3-4 सत्र। 1 वर्ष से अधिक: सप्ताह में 2-3 सत्र साथ ही आजीवन दैनिक खिंचाव और व्यायाम दिनचर्या। प्रत्येक सत्र आमतौर पर 45-60 मिनट है। इस तीव्रता के बिना, संकुचन पुनः होते हैं, शल्य सुधार खो जाते हैं, और कार्यात्मक लक्ष्य प्राप्त नहीं होते हैं। अध्ययन दिखाते हैं कि अपर्याप्त पोस्ट-शल्य फिजियोथेरेपी अन्यथा तकनीकी रूप से सफल CP सर्जरी के बाद खराब परिणामों का नंबर एक कारण है। बिहार के संदर्भ में चुनौतियां: विशेष रूप से बाल चिकित्सा न्यूरोलॉजिकल पुनर्वास में प्रशिक्षित फिजियोथेरेपिस्ट की सीमित संख्या। ग्रामीण क्षेत्रों में, नियमित फिजियोथेरेपी तक पहुंच अत्यंत कठिन है। कई महीनों में गहन चिकित्सा की लागत कई परिवारों के लिए निषेधात्मक हो सकती है—पटना में निजी फिजियोथेरेपी आमतौर पर ₹500-800 प्रति सत्र खर्च होती है, जिसका अर्थ है 3 महीनों के लिए सप्ताह में 5-6 सत्र = केवल चिकित्सा के लिए ₹30,000-60,000। आर्थोसेंटर में, हम इसे संबोधित करते हैं: बाल चिकित्सा न्यूरोलॉजिकल विशेषज्ञों के साथ इन-हाउस फिजियोथेरेपी विभाग, परिवार प्रशिक्षण कार्यक्रम जहां माता-पिता घर पर चिकित्सा जारी रखना सीखते हैं, आर्थिक रूप से वंचित परिवारों के लिए सब्सिडी वाली चिकित्सा लागत, और परिवारों को सरकारी पुनर्वास सुविधाओं से जोड़ना। हम सर्जरी से पहले परिवारों पर जोर देते हैं: गहन फिजियोथेरेपी के लिए प्रतिबद्धता सर्जरी के निर्णय जितनी ही महत्वपूर्ण है। उस प्रतिबद्धता के बिना, सर्जरी में देरी की जानी चाहिए या पुनर्विचार किया जाना चाहिए।'
+        },
+        {
+          question: 'क्या सेरेब्रल पाल्सी सर्जरी वयस्कों के लिए की जा सकती है, या यह केवल बच्चों के लिए है?',
+          answer: 'हालांकि CP सर्जरी आम तौर पर बचपन में की जाती है, CP वाले वयस्क निश्चित रूप से ऑर्थोपेडिक प्रक्रियाओं से लाभान्वित हो सकते हैं, हालांकि लक्ष्य और परिणाम भिन्न हो सकते हैं। वयस्क CP सर्जरी संबोधित करती है: पिछली सर्जरी या चिकित्सा के बावजूद विकसित होने वाले प्रगतिशील दर्दनाक संकुचन, बचपन में अज्ञात या अनुपचारित सबलक्सेशन या अव्यवस्था से हिप दर्द, जूते या चलने में हस्तक्षेप करने वाली दर्दनाक पैर विकृतियां, स्वच्छता या स्व-देखभाल को प्रभावित करने वाले ऊपरी अंग संकुचन, और दर्द या बैठने के असंतुलन का कारण बनने वाली रीढ़ की विकृति। वयस्क CP सर्जरी में अंतर शामिल हैं: लक्ष्य अक्सर कार्य में सुधार के बजाय दर्द राहत, वर्तमान कार्य बनाए रखने, और देखभाल को सुविधाजनक बनाने पर अधिक केंद्रित होते हैं, हड्डी विकृतियां अधिक स्थापित होती हैं और अधिक व्यापक सर्जरी की आवश्यकता हो सकती है, दीर्घकालिक अनुकूली पैटर्न और मांसपेशी परिवर्तनों के कारण पुनर्वास क्षमता बच्चों की तुलना में कम हो सकती है, लेकिन वयस्क अधिक प्रेरित और चिकित्सा के साथ अनुपालन कर सकते हैं, सर्जरी को न्यूरोलिसिस या बोटुलिनम टॉक्सिन जैसी दर्द प्रबंधन रणनीतियों के साथ जोड़ा जा सकता है, और यथार्थवादी अपेक्षा-निर्धारण और भी अधिक महत्वपूर्ण है। सामान्य वयस्क CP प्रक्रियाओं में शामिल हैं: दर्दनाक अव्यस्थित हिप के लिए हिप पुनर्निर्माण या बचाव प्रक्रियाएं (आर्थ्रोप्लास्टी, प्रॉक्सिमल फेमोरल रिसेक्शन), स्वच्छता को प्रभावित करने वाले संकुचन के लिए टेंडन रिलीज, गंभीर कठोर विकृतियों के लिए पैर फ्यूजन प्रक्रियाएं, और दर्दनाक प्रगतिशील स्कोलियोसिस के लिए स्पाइनल फ्यूजन। परिणाम बहुत संतोषजनक हो सकते हैं जब लक्ष्य उपयुक्त होते हैं—कई वयस्क महत्वपूर्ण दर्द कमी, आसान देखभाल, बेहतर स्थिति, और सुधरी हुई जीवन की गुणवत्ता प्राप्त करते हैं। आर्थोसेंटर में, डॉ. गुरुदेव कुमार को वयस्क CP सर्जरी के साथ व्यापक अनुभव है और दर्द प्रबंधन, यथार्थवादी लक्ष्य-निर्धारण, और दीर्घकालिक रखरखाव के लिए योजना सहित एक व्यापक दृष्टिकोण अपनाते हैं। बिहार में एक चुनौती यह है कि CP वाले कई वयस्कों को बचपन में स्पष्ट संकेतों के बावजूद कभी कोई शल्य हस्तक्षेप नहीं मिला, गंभीर उपेक्षित विकृतियों के साथ उपस्थित होते हैं जो उपचार के लिए अधिक जटिल हैं। इन मामलों में भी, सर्जरी अक्सर दर्द, स्थिति और जीवन की गुणवत्ता में सार्थक सुधार प्रदान कर सकती है, हालांकि अपेक्षाओं को सावधानीपूर्वक प्रबंधित किया जाना चाहिए।'
+        },
+        {
+          question: 'सेरेब्रल पाल्सी सर्जरी के जोखिम और जटिलताएं क्या हैं?',
+          answer: 'किसी भी प्रमुख ऑर्थोपेडिक सर्जरी की तरह, CP सर्जरी में जोखिम होते हैं जिन्हें संभावित लाभों के साथ तौला जाना चाहिए। सामान्य जोखिमों में शामिल हैं: संक्रमण (सर्जरी की सीमा और पोषण स्थिति के आधार पर 2-5%), घाव उपचार समस्याएं (कुपोषित बच्चों या त्वचा संवेदनशीलता वाले लोगों में उच्च जोखिम), एनेस्थीसिया जटिलताएं (दौरे, श्वसन मुद्दों या निगलने की समस्याओं वाले बच्चों के लिए सावधानीपूर्वक प्रीऑपरेटिव मूल्यांकन की आवश्यकता), रक्त की हानि जिसमें ट्रांसफ्यूजन की आवश्यकता होती है (बहु-स्तरीय या पेल्विक सर्जरी के साथ अधिक आम), लंबे समय तक स्थिरीकरण के दौरान दबाव घाव (संवेदी हानि वाले बच्चों में रोकथाम महत्वपूर्ण), और शिरापरक थ्रॉम्बोएम्बोलिज्म (बच्चों में दुर्लभ लेकिन लंबे समय तक स्थिरीकरण के साथ संभव)। विशिष्ट ऑर्थोपेडिक जटिलताओं में शामिल हैं: अति-लंबाई कमजोरी—अत्यधिक मांसपेशी लंबाई वास्तव में नई कमजोरी बना सकती है और कार्य को खराब कर सकती है; सावधानीपूर्वक शल्य निर्णय की आवश्यकता होती है। अपर्याप्त सुधार—अपर्याप्त रिलीज अवशिष्ट संकुचन छोड़ता है जिसमें संशोधन की आवश्यकता होती है। विकृति की पुनरावृत्ति—वर्षों में 20-30% मामलों में होती है, विशेष रूप से निरंतर विकास और लगातार स्पास्टिसिटी के साथ; चल रही चिकित्सा और स्पास्टिसिटी प्रबंधन के महत्व पर जोर देती है। न्यूरोवैस्कुलर चोट—दुर्लभ लेकिन नसों और वाहिकाओं के पास प्रक्रियाओं के साथ हो सकती है। सुधार की हानि—प्लास्टर या निर्धारण फिसल सकता है, उपचार के दौरान विकृति को फिर से होने देता है। फ्रैक्चर—सर्जरी के दौरान या पोस्टऑपरेटिव रूप से कमजोर या ऑस्टियोपोरोटिक हड्डी के माध्यम से हो सकता है। कुछ प्रक्रियाओं के लिए विशिष्ट: हिप सर्जरी के परिणामस्वरूप फेमोरल हेड का एवैस्कुलर नेक्रोसिस (दुर्लभ), तंत्रिका चोट (हिप सर्जरी के दौरान साइटिक तंत्रिका ~1%), या पुनरावर्ती अव्यवस्था हो सकती है यदि कोमल ऊतक संतुलन प्राप्त नहीं होता है। पैर की सर्जरी के परिणामस्वरूप कठोरता, नई विकृतियां बनाने वाली अति-सुधार, या घाव जटिलताएं हो सकती हैं। स्पाइनल सर्जरी में न्यूरोलॉजिकल चोट, इम्प्लांट जटिलताओं और स्यूडोआर्थ्रोसिस सहित उच्च जोखिम होते हैं। जटिलताओं को कम करने के लिए, डॉ. गुरुदेव कुमार नियोजित करते हैं: सावधानीपूर्वक प्रीऑपरेटिव मूल्यांकन और अनुकूलन, इंट्राऑपरेटिव निगरानी के साथ सावधानीपूर्वक शल्य तकनीक, दबाव घाव रोकथाम सहित उपयुक्त पोस्टऑपरेटिव प्रोटोकॉल, CP रोगियों से परिचित अनुभवी एनेस्थीसिया टीम, और करीबी पोस्टऑपरेटिव निगरानी। परिवारों को समझना चाहिए: जटिल बहु-स्तरीय सर्जरी में कुछ हद तक शल्य जटिलताएं अपरिहार्य हैं, लेकिन अनुभवी हाथों में गंभीर स्थायी जटिलताएं दुर्लभ हैं (<2%)। उपयुक्त रूप से संकेतित सर्जरी के लाभ आमतौर पर जोखिमों से कहीं अधिक होते हैं।'
+        },
+        {
+          question: 'सेरेब्रल पाल्सी सर्जरी की लागत क्या है और बिहार में क्या वित्तीय सहायता उपलब्ध है?',
+          answer: 'CP सर्जरी की लागत सीमा और जटिलता के आधार पर व्यापक रूप से भिन्न होती है। पटना में आर्थोसेंटर में: एकल-स्तरीय कोमल ऊतक प्रक्रिया (जैसे, हैमस्ट्रिंग लंबाई बढ़ाना): ₹75,000-1,25,000 सर्जन शुल्क, अस्पताल में रहना (3-5 दिन), एनेस्थीसिया और दवाओं सहित। बहु-स्तरीय कोमल ऊतक प्रक्रियाएं (हड्डी सर्जरी के बिना SEMLS): ₹1,50,000-2,50,000। ऑस्टियोटॉमी सहित जटिल प्रक्रियाएं: ₹2,50,000-4,00,000। हिप पुनर्निर्माण सर्जरी: ₹2,00,000-3,50,000। ये लागतें केवल सर्जरी को कवर करती हैं—अतिरिक्त खर्चों में शामिल हैं: प्रीऑपरेटिव मूल्यांकन और इमेजिंग (₹10,000-20,000), पोस्टऑपरेटिव फिजियोथेरेपी (यदि सप्ताह में 5-6 बार किया जाता है तो पहले 3 महीनों के लिए ₹30,000-60,000), ऑर्थोसिस/ब्रेसिज़ (प्रकार के आधार पर ₹15,000-50,000), फॉलो-अप विज़िट और कोई समायोजन या छोटी प्रक्रियाएं। व्यापक CP सर्जरी और पुनर्वास के लिए कुल पहले वर्ष की लागत जटिलता के आधार पर ₹2,00,000-6,00,000 तक हो सकती है। यह अधिकांश बिहार परिवारों के लिए आर्थिक रूप से चुनौतीपूर्ण है। उपलब्ध वित्तीय सहायता: सरकारी स्वास्थ्य बीमा योजनाएं—आयुष्मान भारत PMJAY सूचीबद्ध अस्पतालों के लिए वार्षिक रूप से ₹5 लाख तक कवर करता है; जांचें कि आपका अस्पताल सूचीबद्ध है और CP सर्जरी कवर की गई है। राज्य सरकार विकलांगता योजनाएं—बिहार राज्य विकलांगता पेंशन और विभिन्न विकलांगता कल्याण कार्यक्रम सीमित वित्तीय सहायता प्रदान कर सकते हैं। एनजीओ सहायता—भगवान महावीर विकलांग सहायता समिति (BMVSS/जयपुर फुट), रोटरी क्लब, और स्थानीय धर्मार्थ संगठन जैसे संगठन कभी-कभी CP सर्जरी का समर्थन करते हैं। क्राउडफंडिंग प्लेटफॉर्म—केट्टो, मिलाप और अन्य का उपयोग बिहार परिवारों द्वारा CP सर्जरी के लिए धन जुटाने के लिए सफलतापूर्वक किया गया है। कॉर्पोरेट CSR कार्यक्रम—कुछ कंपनियां CSR जनादेश के तहत वंचित बच्चों के लिए चिकित्सा उपचार का समर्थन करती हैं। आर्थोसेंटर में, हम परिवारों के साथ काम करते हैं: बीमा और सरकारी योजनाओं को नेविगेट करने, गुणवत्ता से समझौता किए बिना लागत प्रभावी उपचार प्रदान करने, हमारे धर्मार्थ कार्यक्रमों के माध्यम से आर्थिक रूप से वंचित रोगियों के लिए सब्सिडी वाली या मुफ्त फिजियोथेरेपी की व्यवस्था करने, और परिवारों को एनजीओ और सहायता संगठनों से जोड़ने। डॉ. गुरुदेव कुमार मानते हैं कि हर बच्चे को आर्थिक स्थिति की परवाह किए बिना सुधरे हुए कार्य का अवसर मिलना चाहिए, और हम सर्जरी को सुलभ बनाने के लिए हर प्रयास करते हैं। परिवारों को परामर्श के दौरान वित्तीय चिंताओं पर खुलकर चर्चा करनी चाहिए—समाधान अक्सर पाए जा सकते हैं।'
+        }
+      ]
+    },
+    meta: {
+      en: {
+        title: 'Cerebral Palsy Orthopaedic Surgery in Patna, Bihar | CP Surgery Specialist | Dr. Gurudeo Kumar',
+        description: 'Expert cerebral palsy orthopaedic surgery in Patna by Dr. Gurudeo Kumar. Comprehensive CP treatment including soft tissue releases, tendon transfers, osteotomies, and multilevel surgery (SEMLS). Improving mobility, function, and quality of life for children with CP. Advanced pediatric orthopaedics at Arthoscenter Bihar.',
+        keywords: ['cerebral palsy surgery', 'CP orthopaedic treatment Patna', 'SEMLS surgery Bihar', 'pediatric orthopaedics Patna', 'spastic CP surgery', 'hip subluxation treatment', 'equinus correction', 'crouch gait surgery', 'tendon lengthening CP', 'muscle release surgery', 'femoral osteotomy', 'cerebral palsy specialist Bihar', 'Dr. Gurudeo Kumar', 'Arthoscenter Patna', 'CP rehabilitation', 'सेरेब्रल पाल्सी सर्जरी']
+      },
+      hi: {
+        title: 'पटना, बिहार में सेरेब्रल पाल्सी ऑर्थोपेडिक सर्जरी | CP सर्जरी विशेषज्ञ | डॉ. गुरुदेव कुमार',
+        description: 'डॉ. गुरुदेव कुमार द्वारा पटना में विशेषज्ञ सेरेब्रल पाल्सी ऑर्थोपेडिक सर्जरी। कोमल ऊतक रिलीज, टेंडन ट्रांसफर, ऑस्टियोटॉमी, और बहु-स्तरीय सर्जरी (SEMLS) सहित व्यापक CP उपचार। CP से पीड़ित बच्चों के लिए गतिशीलता, कार्य और जीवन की गुणवत्ता में सुधार। आर्थोसेंटर बिहार में उन्नत बाल चिकित्सा ऑर्थोपेडिक्स।',
+        keywords: ['सेरेब्रल पाल्सी सर्जरी', 'CP ऑर्थोपेडिक उपचार पटना', 'SEMLS सर्जरी बिहार', 'बाल चिकित्सा ऑर्थोपेडिक्स पटना', 'स्पास्टिक CP सर्जरी', 'हिप सबलक्सेशन उपचार', 'इक्विनस सुधार', 'क्राउच चाल सर्जरी', 'CP में टेंडन लंबाई बढ़ाना', 'मांसपेशी रिलीज सर्जरी', 'फेमोरल ऑस्टियोटॉमी', 'सेरेब्रल पाल्सी विशेषज्ञ बिहार', 'डॉ. गुरुदेव कुमार', 'आर्थोसेंटर पटना', 'CP पुनर्वास', 'cerebral palsy surgery']
+      }
+    },
+    relatedSurgeries: ['clubfoot-correction', 'bow-legs-correction', 'limb-lengthening', 'pediatric-hip-dysplasia']
+  },
+  'chondroplasty': {
+    id: 'chondroplasty',
+    category: 'arthroscopy',
+    slug: 'chondroplasty',
+    title: {
+      en: 'Chondroplasty (Cartilage Smoothing)',
+      hi: 'कॉन्ड्रोप्लास्टी (कार्टिलेज स्मूदिंग)'
+    },
+    shortDesc: {
+      en: 'Minimally invasive arthroscopic procedure to smooth and debride damaged or frayed cartilage surfaces in the knee joint.',
+      hi: 'घुटने के जोड़ में क्षतिग्रस्त या फटे हुए कार्टिलेज सतहों को चिकना और साफ करने के लिए न्यूनतम आक्रामक आर्थ्रोस्कोपिक प्रक्रिया।'
+    },
+    overview: {
+      en: `Chondroplasty, also known as cartilage smoothing or shaving, is a minimally invasive arthroscopic surgical procedure performed to treat damaged or degenerated articular cartilage in the knee joint. During this procedure, the orthopedic surgeon uses specialized instruments to smooth, shave, or debride irregular, frayed, or damaged cartilage surfaces that are causing pain, catching, or mechanical symptoms. Unlike cartilage restoration procedures that attempt to regenerate new cartilage, chondroplasty is primarily a palliative (symptom-relieving) procedure that removes unstable cartilage fragments and creates a smoother joint surface.
+
+At Arthroscenter, Dr. Gurudeo Kumar performs chondroplasty as part of comprehensive arthroscopic knee surgery, often in combination with other procedures such as meniscus repair or loose body removal. The procedure is guided by the Outerbridge Classification System, which grades cartilage damage from Grade I (softening and swelling) to Grade IV (exposed bone). Chondroplasty is most effective for Grade II-III chondral lesions where the cartilage is damaged but some healthy cartilage remains. Our facility in Bihar utilizes high-definition arthroscopy and precision shaving instruments to carefully remove only damaged tissue while preserving healthy cartilage.
+
+The arthroscopic approach to chondroplasty offers significant advantages over traditional open surgery. Through 2-3 small incisions (typically 4-5mm), the arthroscope and specialized motorized shavers are introduced into the knee joint. The surgeon systematically examines all cartilage surfaces - the femoral condyles (thigh bone), tibial plateau (shin bone), and patella (kneecap) - identifying areas of chondral damage. Damaged cartilage appears irregular, fibrillated (frayed like rope), or contains flaps and loose fragments. Using motorized shavers and radiofrequency devices, the surgeon carefully removes unstable cartilage while contouring the surface to create smooth, stable edges.
+
+It is important to understand that chondroplasty does not regenerate new cartilage or reverse arthritis. Rather, it is a temporizing procedure that can provide significant symptom relief by removing mechanically irritating cartilage fragments and creating a smoother joint surface. The procedure is most beneficial for younger, active patients with focal (localized) chondral lesions who have not yet developed widespread arthritis. In the Bihar context, where many patients present with moderate knee arthritis but wish to delay joint replacement, chondroplasty can provide several years of improved function and pain relief.
+
+Success of chondroplasty depends heavily on proper patient selection. Ideal candidates have focal cartilage damage with relatively healthy surrounding cartilage, normal knee alignment, and realistic expectations. The procedure is less effective in patients with widespread arthritis affecting multiple joint surfaces, significant malalignment (bow legs or knock knees), or advanced Grade IV lesions with large areas of exposed bone. At Arthoscenter, Dr. Gurudeo Kumar carefully evaluates each patient with MRI imaging and clinical examination to determine if chondroplasty is appropriate or if alternative treatments like cartilage restoration, realignment procedures, or partial knee replacement would be more beneficial.
+
+Recovery from chondroplasty is generally faster than cartilage restoration procedures. Most patients experience immediate relief from mechanical catching symptoms, though some swelling and discomfort is normal for 2-3 weeks. Physical therapy focuses on maintaining range of motion, strengthening the quadriceps and hamstrings, and gradual return to activities. While chondroplasty can provide excellent symptom relief, patients must understand that it is not a permanent cure - the underlying cartilage degeneration may progress over time, and some patients may eventually require more definitive treatments like osteotomy or knee replacement. However, for properly selected patients, chondroplasty can provide 3-7 years or more of improved knee function and quality of life.`,
+      hi: `कॉन्ड्रोप्लास्टी, जिसे कार्टिलेज स्मूदिंग या शेविंग के रूप में भी जाना जाता है, एक न्यूनतम आक्रामक आर्थ्रोस्कोपिक शल्य चिकित्सा प्रक्रिया है जो घुटने के जोड़ में क्षतिग्रस्त या अपक्षयित आर्टिकुलर कार्टिलेज के इलाज के लिए की जाती है। इस प्रक्रिया के दौरान, ऑर्थोपेडिक सर्जन असमान, फटे हुए या क्षतिग्रस्त कार्टिलेज सतहों को चिकना, शेव या डिब्राइड करने के लिए विशेष उपकरणों का उपयोग करता है जो दर्द, पकड़, या यांत्रिक लक्षण पैदा कर रहे हैं।
+
+आर्थोसेंटर में, डॉ. गुरुदेव कुमार व्यापक आर्थ्रोस्कोपिक घुटने की सर्जरी के हिस्से के रूप में कॉन्ड्रोप्लास्टी करते हैं, अक्सर अन्य प्रक्रियाओं जैसे मेनिस्कस मरम्मत या ढीले शरीर को हटाने के साथ संयोजन में। प्रक्रिया आउटरब्रिज वर्गीकरण प्रणाली द्वारा निर्देशित है, जो कार्टिलेज क्षति को ग्रेड I (नरमी और सूजन) से ग्रेड IV (उजागर हड्डी) तक वर्गीकृत करती है। बिहार में हमारी सुविधा उच्च-परिभाषा आर्थ्रोस्कोपी और सटीक शेविंग उपकरणों का उपयोग करती है।
+
+यह समझना महत्वपूर्ण है कि कॉन्ड्रोप्लास्टी नए कार्टिलेज को पुन: उत्पन्न नहीं करती है या गठिया को उलट नहीं देती है। बल्कि, यह एक अस्थायी प्रक्रिया है जो यांत्रिक रूप से परेशान करने वाले कार्टिलेज टुकड़ों को हटाकर और एक चिकनी जोड़ सतह बनाकर महत्वपूर्ण लक्षण राहत प्रदान कर सकती है। बिहार के संदर्भ में, जहां कई रोगी मध्यम घुटने के गठिया के साथ उपस्थित होते हैं लेकिन जोड़ प्रतिस्थापन में देरी करना चाहते हैं, कॉन्ड्रोप्लास्टी कई वर्षों तक बेहतर कार्य और दर्द राहत प्रदान कर सकती है।
+
+कॉन्ड्रोप्लास्टी की सफलता उचित रोगी चयन पर बहुत निर्भर करती है। आर्थोसेंटर में, डॉ. गुरुदेव कुमार यह निर्धारित करने के लिए कि कॉन्ड्रोप्लास्टी उपयुक्त है या वैकल्पिक उपचार अधिक फायदेमंद होंगे, एमआरआई इमेजिंग और नैदानिक परीक्षा के साथ प्रत्येक रोगी का सावधानीपूर्वक मूल्यांकन करते हैं।`
+    },
+    symptoms: {
+      en: [
+        'Knee pain with activity, especially climbing stairs or squatting',
+        'Catching, clicking, or grinding sensation in the knee',
+        'Intermittent swelling after physical activity',
+        'Sensation of roughness or irregularity inside the knee',
+        'Sharp pain with specific movements or positions',
+        'Temporary locking or stiffness in the knee',
+        'Pain localized to specific areas of the kneecap or joint line',
+        'Difficulty with prolonged sitting (movie sign) or kneeling',
+        'Reduced activity tolerance compared to previous levels',
+        'MRI or arthroscopy showing Grade II-III chondral lesions (Outerbridge classification)'
+      ],
+      hi: [
+        'गतिविधि के साथ घुटने का दर्द, विशेष रूप से सीढ़ियां चढ़ना या बैठना',
+        'घुटने में पकड़ने, क्लिक करने या पीसने की सनसनी',
+        'शारीरिक गतिविधि के बाद आंतरायिक सूजन',
+        'घुटने के अंदर खुरदरापन या अनियमितता की सनसनी',
+        'विशिष्ट गतिविधियों या स्थितियों के साथ तीव्र दर्द',
+        'घुटने में अस्थायी लॉकिंग या कठोरता',
+        'घुटने की टोपी या जोड़ रेखा के विशिष्ट क्षेत्रों में स्थानीयकृत दर्द',
+        'लंबे समय तक बैठने (मूवी साइन) या घुटने टेकने में कठिनाई',
+        'पिछले स्तरों की तुलना में कम गतिविधि सहनशीलता',
+        'एमआरआई या आर्थ्रोस्कोपी ग्रेड II-III कॉन्ड्रल घावों को दिखाती है (आउटरब्रिज वर्गीकरण)'
+      ]
+    },
+    procedure: {
+      en: {
+        preparation: 'MRI and X-rays to evaluate cartilage damage and joint alignment. Discussion of Outerbridge classification findings and realistic expectations. Pre-operative medical clearance.',
+        steps: [
+          'Spinal or general anesthesia administered',
+          'Sterile preparation and draping of the knee',
+          '2-3 small arthroscopic portals (4-5mm) created around knee',
+          'Arthroscope inserted to systematically examine all joint surfaces',
+          'Cartilage damage graded using Outerbridge classification (I-IV)',
+          'Motorized shaver used to remove unstable, frayed cartilage',
+          'Radiofrequency devices smooth irregular cartilage edges',
+          'Joint thoroughly irrigated to remove cartilage debris',
+          'Final inspection ensures smooth, stable cartilage surfaces',
+          'Portals closed with single suture or steri-strips, compression dressing applied'
+        ],
+        duration: '45 minutes - 1.5 hours (depending on extent of damage)',
+        anesthesia: 'Spinal or General Anesthesia'
+      },
+      hi: {
+        preparation: 'कार्टिलेज क्षति और जोड़ संरेखण का मूल्यांकन करने के लिए एमआरआई और एक्स-रे। आउटरब्रिज वर्गीकरण निष्कर्षों और यथार्थवादी अपेक्षाओं की चर्चा। पूर्व-ऑपरेटिव चिकित्सा मंजूरी।',
+        steps: [
+          'स्पाइनल या जनरल एनेस्थीसिया दिया गया',
+          'घुटने की बाँझ तैयारी और ड्रेपिंग',
+          'घुटने के चारों ओर 2-3 छोटे आर्थ्रोस्कोपिक पोर्टल (4-5 मिमी) बनाए गए',
+          'सभी जोड़ सतहों की व्यवस्थित जांच के लिए आर्थ्रोस्कोप डाला गया',
+          'आउटरब्रिज वर्गीकरण (I-IV) का उपयोग करके कार्टिलेज क्षति वर्गीकृत',
+          'अस्थिर, फटे हुए कार्टिलेज को हटाने के लिए मोटराइज्ड शेवर का उपयोग किया गया',
+          'रेडियोफ्रीक्वेंसी उपकरण अनियमित कार्टिलेज किनारों को चिकना करते हैं',
+          'कार्टिलेज मलबे को हटाने के लिए जोड़ को अच्छी तरह से सिंचित किया गया',
+          'अंतिम निरीक्षण चिकनी, स्थिर कार्टिलेज सतहों को सुनिश्चित करता है',
+          'एकल सिवनी या स्टेरी-स्ट्रिप्स के साथ पोर्टल बंद, संपीड़न ड्रेसिंग लगाई गई'
+        ],
+        duration: '45 मिनट - 1.5 घंटे (क्षति की सीमा के आधार पर)',
+        anesthesia: 'स्पाइनल या जनरल एनेस्थीसिया'
+      }
+    },
+    recovery: {
+      en: {
+        timeline: [
+          {
+            week: 'Day 1-3',
+            activity: 'Immediate Post-Op',
+            description: 'Ice and elevation to control swelling. Weight-bearing as tolerated, often without crutches. Gentle range of motion exercises. Most patients discharged same day with immediate relief from catching symptoms.'
+          },
+          {
+            week: 'Week 1-2',
+            activity: 'Early Recovery',
+            description: 'Gradual increase in walking and daily activities. Return to light desk work possible. Continue icing after activities. Swelling typically resolves. No high-impact activities.'
+          },
+          {
+            week: 'Week 2-4',
+            activity: 'Progressive Mobilization',
+            description: 'Physical therapy begins with focus on quadriceps strengthening and range of motion. Stationary cycling and pool exercises. Return to most work activities.'
+          },
+          {
+            week: 'Week 4-6',
+            activity: 'Strengthening Phase',
+            description: 'Progressive resistance training. Low-impact activities like swimming and cycling. Graduated walking program. Functional exercises for daily activities.'
+          },
+          {
+            week: 'Week 6-8',
+            activity: 'Return to Activity',
+            description: 'Gradual return to recreational sports and activities. Continue strengthening program. Some patients may experience occasional mild swelling with increased activity.'
+          },
+          {
+            week: 'Week 8-12',
+            activity: 'Full Recovery',
+            description: 'Return to normal activities including sports. Maintain long-term strengthening and joint protection strategies. Regular follow-up to monitor cartilage health.'
+          }
+        ],
+        tips: [
+          'Ice knee for 15-20 minutes after activities in first month',
+          'Perform prescribed quadriceps strengthening exercises daily',
+          'Avoid high-impact activities (running, jumping) for 8-12 weeks',
+          'Maintain healthy weight to reduce joint stress',
+          'Use anti-inflammatory medications as prescribed',
+          'Progress activities gradually based on symptoms',
+          'Consider glucosamine/chondroitin supplements (discuss with doctor)',
+          'Attend all follow-up appointments to monitor progress'
+        ]
+      },
+      hi: {
+        timeline: [
+          {
+            week: 'दिन 1-3',
+            activity: 'तत्काल पोस्ट-ऑप',
+            description: 'सूजन को नियंत्रित करने के लिए बर्फ और उन्नयन। सहन के रूप में वजन-असर, अक्सर बैसाखी के बिना। कोमल गति सीमा व्यायाम। अधिकांश रोगी उसी दिन छुट्टी दे दी जाती है।'
+          },
+          {
+            week: 'सप्ताह 1-2',
+            activity: 'प्रारंभिक रिकवरी',
+            description: 'चलने और दैनिक गतिविधियों में क्रमिक वृद्धि। हल्के डेस्क काम पर वापसी संभव है। गतिविधियों के बाद बर्फ लगाना जारी रखें। सूजन आमतौर पर हल हो जाती है।'
+          },
+          {
+            week: 'सप्ताह 2-4',
+            activity: 'प्रगतिशील गतिशीलता',
+            description: 'क्वाड्रिसेप्स मजबूती और गति सीमा पर ध्यान केंद्रित करने के साथ फिजियोथेरेपी शुरू होती है। स्थिर साइकिलिंग और पूल व्यायाम। अधिकांश कार्य गतिविधियों में वापसी।'
+          },
+          {
+            week: 'सप्ताह 4-6',
+            activity: 'मजबूत बनाने का चरण',
+            description: 'प्रगतिशील प्रतिरोध प्रशिक्षण। तैराकी और साइकिलिंग जैसी कम-प्रभाव गतिविधियां। स्नातक चलना कार्यक्रम। दैनिक गतिविधियों के लिए कार्यात्मक व्यायाम।'
+          },
+          {
+            week: 'सप्ताह 6-8',
+            activity: 'गतिविधि में वापसी',
+            description: 'मनोरंजक खेल और गतिविधियों में क्रमिक वापसी। मजबूत बनाने का कार्यक्रम जारी रखें। कुछ रोगियों को बढ़ी हुई गतिविधि के साथ कभी-कभी हल्की सूजन का अनुभव हो सकता है।'
+          },
+          {
+            week: 'सप्ताह 8-12',
+            activity: 'पूर्ण रिकवरी',
+            description: 'खेल सहित सामान्य गतिविधियों में वापसी। दीर्घकालिक मजबूती और संयुक्त सुरक्षा रणनीतियों को बनाए रखें। कार्टिलेज स्वास्थ्य की निगरानी के लिए नियमित अनुवर्ती।'
+          }
+        ],
+        tips: [
+          'पहले महीने में गतिविधियों के बाद घुटने को 15-20 मिनट के लिए बर्फ दें',
+          'निर्धारित क्वाड्रिसेप्स मजबूत बनाने के व्यायाम प्रतिदिन करें',
+          '8-12 सप्ताह के लिए उच्च-प्रभाव गतिविधियों (दौड़ना, कूदना) से बचें',
+          'संयुक्त तनाव को कम करने के लिए स्वस्थ वजन बनाए रखें',
+          'निर्धारित के रूप में विरोधी भड़काऊ दवाओं का उपयोग करें',
+          'लक्षणों के आधार पर धीरे-धीरे गतिविधियों में प्रगति करें',
+          'ग्लूकोसामाइन/कॉन्ड्रोइटिन सप्लीमेंट पर विचार करें (डॉक्टर से चर्चा करें)',
+          'प्रगति की निगरानी के लिए सभी अनुवर्ती नियुक्तियों में भाग लें'
+        ]
+      }
+    },
+    faqs: {
+      en: [
+        {
+          question: 'What is the difference between chondroplasty and microfracture or cartilage restoration?',
+          answer: 'Chondroplasty simply smooths and removes damaged cartilage but does not regenerate new cartilage - it is a palliative procedure for symptom relief. Microfracture and cartilage restoration (like MACI or osteochondral grafting) are regenerative procedures that attempt to create new cartilage tissue. Chondroplasty is appropriate for mild to moderate damage (Outerbridge Grade II-III) while cartilage restoration is reserved for more severe full-thickness defects (Grade IV) in younger patients.'
+        },
+        {
+          question: 'Is chondroplasty a permanent solution or temporary fix?',
+          answer: 'Chondroplasty is primarily a temporizing procedure, not a permanent cure. It provides symptom relief by removing unstable cartilage and smoothing joint surfaces, but does not reverse the underlying cartilage degeneration. Many patients experience 3-7 years or more of improved function, but the cartilage may continue to deteriorate over time. Some patients may eventually need more definitive treatments like osteotomy or knee replacement. However, for properly selected patients, it can significantly delay the need for major surgery.'
+        },
+        {
+          question: 'What is the Outerbridge classification and when is chondroplasty appropriate?',
+          answer: 'The Outerbridge classification grades cartilage damage: Grade I (softening/swelling), Grade II (surface fibrillation <1.3cm), Grade III (deep fissures >1.3cm), and Grade IV (exposed bone). Chondroplasty is most effective for Grade II-III lesions where damaged cartilage is removed but healthy cartilage remains. It is less effective for Grade IV lesions with large areas of exposed bone, where cartilage restoration or realignment procedures may be better options.'
+        },
+        {
+          question: 'How long does the pain relief from chondroplasty last?',
+          answer: 'Duration of relief varies based on extent of damage, patient age, activity level, and joint alignment. Many patients experience significant improvement for 3-5 years, with some maintaining benefits for 7-10 years or longer. Younger patients with focal lesions and good alignment tend to have longer-lasting results. Maintaining healthy weight, continuing strengthening exercises, and avoiding high-impact activities can help prolong benefits.'
+        },
+        {
+          question: 'Can I have chondroplasty done with other arthroscopic procedures?',
+          answer: 'Yes, chondroplasty is commonly performed in combination with other arthroscopic procedures. It is often done during meniscus repair or meniscectomy, ACL reconstruction, loose body removal, or synovectomy. Dr. Gurudeo Kumar routinely addresses all pathology during arthroscopy, so if cartilage damage is found during surgery for another condition, chondroplasty can be performed simultaneously without additional incisions or significant recovery time.'
+        },
+        {
+          question: 'Will I need physiotherapy after chondroplasty?',
+          answer: 'Yes, physiotherapy is essential for optimal recovery. Physical therapy focuses on restoring range of motion, strengthening the quadriceps and hamstrings to protect the joint, and gradually returning to activities. Most patients begin therapy 1-2 weeks after surgery and continue for 6-12 weeks. Strengthening exercises are particularly important as strong muscles reduce stress on cartilage and can slow further degeneration.'
+        },
+        {
+          question: 'Can chondroplasty be performed on all areas of the knee?',
+          answer: 'Yes, chondroplasty can address cartilage damage on any joint surface including the femoral condyles (thigh bone), tibial plateau (shin bone), patella (kneecap), and trochlear groove (where kneecap glides). However, results vary by location - patellofemoral (kneecap) chondroplasty may be less predictable than tibiofemoral (main knee joint) procedures. The location and extent of damage affects prognosis and helps determine if chondroplasty is the best treatment option.'
+        },
+        {
+          question: 'What activities should I avoid after chondroplasty?',
+          answer: 'High-impact activities like running, jumping, and heavy squatting should be avoided initially (8-12 weeks) and minimized long-term to protect the cartilage. Low-impact activities like swimming, cycling, walking, and elliptical training are encouraged. Once fully recovered, you can return to most sports, but it is wise to modify high-impact activities when possible. Weight management and quadriceps strengthening are crucial for reducing cartilage stress.'
+        },
+        {
+          question: 'Is chondroplasty covered by health insurance in Bihar?',
+          answer: 'Coverage depends on your specific insurance plan and the medical necessity of the procedure. At Arthoscenter, our administrative team assists patients with insurance authorization and documentation. If chondroplasty is performed as part of medically necessary arthroscopic surgery (such as for a meniscus tear or loose body), it is typically covered. We also offer affordable self-pay options for patients without insurance. Contact us for detailed cost information and insurance guidance.'
+        },
+        {
+          question: 'What are the risks and complications of chondroplasty?',
+          answer: 'Chondroplasty is generally very safe with low complication rates. Potential risks include infection (<1%), blood clots, nerve or blood vessel injury, continued pain, stiffness, and progression of arthritis. The minimally invasive arthroscopic approach significantly reduces risks compared to open surgery. At Arthoscenter, Dr. Gurudeo Kumar uses meticulous surgical technique and modern equipment to minimize complications. Most patients experience successful symptom improvement with minimal adverse events.'
+        }
+      ],
+      hi: [
+        {
+          question: 'कॉन्ड्रोप्लास्टी और माइक्रोफ्रैक्चर या कार्टिलेज रेस्टोरेशन में क्या अंतर है?',
+          answer: 'कॉन्ड्रोप्लास्टी केवल क्षतिग्रस्त कार्टिलेज को चिकना और हटा देती है लेकिन नए कार्टिलेज को पुन: उत्पन्न नहीं करती है - यह लक्षण राहत के लिए एक उपशामक प्रक्रिया है। माइक्रोफ्रैक्चर और कार्टिलेज रेस्टोरेशन पुनर्योजी प्रक्रियाएं हैं जो नए कार्टिलेज ऊतक बनाने का प्रयास करती हैं। कॉन्ड्रोप्लास्टी हल्के से मध्यम क्षति (आउटरब्रिज ग्रेड II-III) के लिए उपयुक्त है जबकि कार्टिलेज रेस्टोरेशन युवा रोगियों में अधिक गंभीर पूर्ण-मोटाई दोषों (ग्रेड IV) के लिए आरक्षित है।'
+        },
+        {
+          question: 'क्या कॉन्ड्रोप्लास्टी एक स्थायी समाधान है या अस्थायी समाधान?',
+          answer: 'कॉन्ड्रोप्लास्टी मुख्य रूप से एक अस्थायी प्रक्रिया है, स्थायी इलाज नहीं। यह अस्थिर कार्टिलेज को हटाकर और जोड़ सतहों को चिकना करके लक्षण राहत प्रदान करती है, लेकिन अंतर्निहित कार्टिलेज अपक्षय को उलट नहीं देती है। कई रोगी 3-7 साल या उससे अधिक बेहतर कार्य का अनुभव करते हैं, लेकिन समय के साथ कार्टिलेज खराब होता रह सकता है।'
+        },
+        {
+          question: 'आउटरब्रिज वर्गीकरण क्या है और कॉन्ड्रोप्लास्टी कब उपयुक्त है?',
+          answer: 'आउटरब्रिज वर्गीकरण कार्टिलेज क्षति को वर्गीकृत करता है: ग्रेड I (नरमी/सूजन), ग्रेड II (सतह फाइब्रिलेशन <1.3 सेमी), ग्रेड III (गहरे विदर >1.3 सेमी), और ग्रेड IV (उजागर हड्डी)। कॉन्ड्रोप्लास्टी ग्रेड II-III घावों के लिए सबसे प्रभावी है जहां क्षतिग्रस्त कार्टिलेज हटा दिया जाता है लेकिन स्वस्थ कार्टिलेज बना रहता है।'
+        },
+        {
+          question: 'कॉन्ड्रोप्लास्टी से दर्द राहत कितने समय तक रहती है?',
+          answer: 'राहत की अवधि क्षति की सीमा, रोगी की उम्र, गतिविधि स्तर और जोड़ संरेखण के आधार पर भिन्न होती है। कई रोगी 3-5 साल के लिए महत्वपूर्ण सुधार का अनुभव करते हैं, कुछ 7-10 साल या उससे अधिक समय तक लाभ बनाए रखते हैं। फोकल घावों और अच्छे संरेखण वाले युवा रोगियों में लंबे समय तक चलने वाले परिणाम होते हैं।'
+        },
+        {
+          question: 'क्या मैं अन्य आर्थ्रोस्कोपिक प्रक्रियाओं के साथ कॉन्ड्रोप्लास्टी करवा सकता हूं?',
+          answer: 'हां, कॉन्ड्रोप्लास्टी आमतौर पर अन्य आर्थ्रोस्कोपिक प्रक्रियाओं के संयोजन में की जाती है। यह अक्सर मेनिस्कस मरम्मत, एसीएल पुनर्निर्माण, ढीले शरीर को हटाने, या साइनोवेक्टोमी के दौरान किया जाता है। डॉ. गुरुदेव कुमार नियमित रूप से आर्थ्रोस्कोपी के दौरान सभी विकृति को संबोधित करते हैं।'
+        },
+        {
+          question: 'क्या मुझे कॉन्ड्रोप्लास्टी के बाद फिजियोथेरेपी की आवश्यकता होगी?',
+          answer: 'हां, इष्टतम रिकवरी के लिए फिजियोथेरेपी आवश्यक है। फिजिकल थेरेपी गति की सीमा को बहाल करने, जोड़ की रक्षा के लिए क्वाड्रिसेप्स और हैमस्ट्रिंग को मजबूत करने, और धीरे-धीरे गतिविधियों में वापस आने पर ध्यान केंद्रित करती है। अधिकांश रोगी सर्जरी के 1-2 सप्ताह बाद थेरेपी शुरू करते हैं।'
+        },
+        {
+          question: 'क्या कॉन्ड्रोप्लास्टी घुटने के सभी क्षेत्रों पर की जा सकती है?',
+          answer: 'हां, कॉन्ड्रोप्लास्टी किसी भी जोड़ सतह पर कार्टिलेज क्षति को संबोधित कर सकती है जिसमें फेमोरल कॉन्डाइल्स, टिबियल पठार, पटेला और ट्रोक्लियर ग्रूव शामिल हैं। हालांकि, स्थान के आधार पर परिणाम भिन्न होते हैं - पेटेलोफेमोरल कॉन्ड्रोप्लास्टी टिबियोफेमोरल प्रक्रियाओं की तुलना में कम अनुमानित हो सकती है।'
+        },
+        {
+          question: 'कॉन्ड्रोप्लास्टी के बाद मुझे किन गतिविधियों से बचना चाहिए?',
+          answer: 'दौड़ना, कूदना, और भारी स्क्वाटिंग जैसी उच्च-प्रभाव गतिविधियों से शुरुआत में (8-12 सप्ताह) बचना चाहिए और कार्टिलेज की रक्षा के लिए दीर्घकालिक रूप से कम किया जाना चाहिए। तैराकी, साइकिलिंग, चलना और अण्डाकार प्रशिक्षण जैसी कम-प्रभाव गतिविधियों को प्रोत्साहित किया जाता है।'
+        },
+        {
+          question: 'क्या बिहार में स्वास्थ्य बीमा द्वारा कॉन्ड्रोप्लास्टी कवर की जाती है?',
+          answer: 'कवरेज आपकी विशिष्ट बीमा योजना और प्रक्रिया की चिकित्सा आवश्यकता पर निर्भर करती है। आर्थोसेंटर में, हमारी प्रशासनिक टीम बीमा प्राधिकरण और दस्तावेज़ीकरण के साथ रोगियों की सहायता करती है। हम बिना बीमा वाले रोगियों के लिए किफायती स्व-भुगतान विकल्प भी प्रदान करते हैं।'
+        },
+        {
+          question: 'कॉन्ड्रोप्लास्टी के जोखिम और जटिलताएं क्या हैं?',
+          answer: 'कॉन्ड्रोप्लास्टी आम तौर पर कम जटिलता दरों के साथ बहुत सुरक्षित है। संभावित जोखिमों में संक्रमण (<1%), रक्त के थक्के, तंत्रिका या रक्त वाहिका चोट, निरंतर दर्द, कठोरता और गठिया की प्रगति शामिल हैं। आर्थोसेंटर में, डॉ. गुरुदेव कुमार जटिलताओं को कम करने के लिए सावधानीपूर्वक शल्य चिकित्सा तकनीक का उपयोग करते हैं।'
+        }
+      ]
+    },
+    meta: {
+      en: {
+        title: 'Chondroplasty (Cartilage Smoothing) Surgery in Bihar | Dr. Gurudeo Kumar | Arthroscenter',
+        description: 'Expert arthroscopic chondroplasty for cartilage damage in Patna. Minimally invasive cartilage smoothing procedure for Grade II-III lesions. Same-day surgery with faster recovery. Book consultation ₹999.',
+        keywords: [
+          'chondroplasty',
+          'cartilage smoothing',
+          'arthroscopic cartilage surgery',
+          'knee cartilage repair Bihar',
+          'chondral lesion treatment',
+          'Outerbridge classification',
+          'cartilage debridement',
+          'Dr. Gurudeo Kumar',
+          'Arthoscenter Patna',
+          'minimally invasive knee surgery',
+          'cartilage shaving procedure'
+        ]
+      },
+      hi: {
+        title: 'बिहार में कॉन्ड्रोप्लास्टी (कार्टिलेज स्मूदिंग) सर्जरी | डॉ. गुरुदेव कुमार | आर्थोसेंटर',
+        description: 'पटना में कार्टिलेज क्षति के लिए विशेषज्ञ आर्थ्रोस्कोपिक कॉन्ड्रोप्लास्टी। ग्रेड II-III घावों के लिए न्यूनतम आक्रामक कार्टिलेज स्मूदिंग प्रक्रिया। उसी दिन सर्जरी तेज रिकवरी के साथ। परामर्श बुक करें ₹999।',
+        keywords: [
+          'कॉन्ड्रोप्लास्टी',
+          'कार्टिलेज स्मूदिंग',
+          'आर्थ्रोस्कोपिक कार्टिलेज सर्जरी',
+          'बिहार में घुटने कार्टिलेज मरम्मत',
+          'कॉन्ड्रल घाव उपचार',
+          'आउटरब्रिज वर्गीकरण',
+          'कार्टिलेज डिब्रीडमेंट',
+          'डॉ. गुरुदेव कुमार',
+          'आर्थोसेंटर पटना',
+          'न्यूनतम आक्रामक घुटने की सर्जरी',
+          'कार्टिलेज शेविंग प्रक्रिया'
+        ]
+      }
+    },
+    relatedSurgeries: ['knee-arthroscopy', 'microfracture-surgery', 'meniscus-repair', 'loose-body-removal']
+  },
+  'clavicle-fracture-surgery': {
+    id: 'clavicle-fracture-surgery',
+    category: 'trauma-care',
+    slug: 'clavicle-fracture-surgery',
+    title: {
+      en: 'Clavicle Fracture Surgery (Collarbone Fixation)',
+      hi: 'क्लैविकल फ्रैक्चर सर्जरी (कॉलरबोन फिक्सेशन)'
+    },
+    shortDesc: {
+      en: 'Surgical fixation of broken collarbone using plates, screws or intramedullary nails to restore shoulder function and alignment.',
+      hi: 'कंधे के कार्य और संरेखण को बहाल करने के लिए प्लेट, स्क्रू या इंट्रामेड्युलरी नेल का उपयोग करके टूटी हुई कॉलरबोन का शल्य चिकित्सा निर्धारण।'
+    },
+    overview: {
+      en: `Clavicle fracture surgery, also known as collarbone fixation, is a surgical procedure to repair a broken clavicle that has failed to heal properly with conservative treatment or requires surgical intervention due to displacement, comminution, or specific fracture patterns. The clavicle (collarbone) is one of the most commonly fractured bones, especially among athletes and trauma patients in Bihar, often resulting from falls, sports injuries, or road traffic accidents.
+
+Clavicle fractures are classified using the Allman classification into three groups: Group I (midshaft fractures - 80% of cases), Group II (lateral/distal third fractures - 15%), and Group III (medial/proximal third fractures - 5%). While many clavicle fractures heal well with conservative treatment using a sling or figure-of-8 bandage, surgery is indicated for significantly displaced fractures (>2cm shortening), open fractures, neurovascular compromise, non-union, malunion, or fractures with multiple fragments. Surgical options include open reduction and internal fixation (ORIF) with plates and screws or intramedullary nailing, depending on fracture location and pattern.
+
+At Arthroscenter, Dr. Gurudeo Kumar has extensive experience in clavicle fracture management, having successfully treated hundreds of cases using modern fixation techniques. Our approach emphasizes anatomical reduction, stable fixation, and early mobilization to optimize functional outcomes. The procedure typically takes 1-2 hours and most patients achieve excellent healing with restoration of shoulder function within 3-6 months. We serve patients from across Bihar, including Patna, Muzaffarpur, Gaya, and surrounding regions, providing comprehensive trauma care with advanced surgical expertise.`,
+      hi: `क्लैविकल फ्रैक्चर सर्जरी, जिसे कॉलरबोन फिक्सेशन के रूप में भी जाना जाता है, एक शल्य चिकित्सा प्रक्रिया है जो टूटी हुई क्लैविकल को ठीक करने के लिए की जाती है जो रूढ़िवादी उपचार के साथ ठीक से ठीक नहीं हुई है या विस्थापन, कॉमिन्यूशन, या विशिष्ट फ्रैक्चर पैटर्न के कारण सर्जिकल हस्तक्षेप की आवश्यकता है। क्लैविकल (कॉलरबोन) सबसे अधिक फ्रैक्चर होने वाली हड्डियों में से एक है, विशेष रूप से बिहार में एथलीटों और आघात रोगियों के बीच, अक्सर गिरने, खेल चोटों, या सड़क यातायात दुर्घटनाओं के परिणामस्वरूप।
+
+क्लैविकल फ्रैक्चर को ऑलमैन वर्गीकरण का उपयोग करके तीन समूहों में वर्गीकृत किया जाता है: ग्रुप I (मिडशाफ्ट फ्रैक्चर - 80% मामले), ग्रुप II (लेटरल/डिस्टल थर्ड फ्रैक्चर - 15%), और ग्रुप III (मेडियल/प्रॉक्सिमल थर्ड फ्रैक्चर - 5%)। जबकि कई क्लैविकल फ्रैक्चर स्लिंग या फिगर-ऑफ-8 बैंडेज का उपयोग करके रूढ़िवादी उपचार के साथ अच्छी तरह से ठीक हो जाते हैं, महत्वपूर्ण रूप से विस्थापित फ्रैक्चर (>2 सेमी छोटा होना), खुले फ्रैक्चर, न्यूरोवैस्कुलर समझौता, नॉन-यूनियन, मालयूनियन, या कई टुकड़ों के साथ फ्रैक्चर के लिए सर्जरी का संकेत दिया जाता है। सर्जिकल विकल्पों में फ्रैक्चर स्थान और पैटर्न के आधार पर प्लेट और स्क्रू के साथ ओपन रिडक्शन और इंटरनल फिक्सेशन (ORIF) या इंट्रामेड्युलरी नेलिंग शामिल हैं।
+
+आर्थोसेंटर में, डॉ. गुरुदेव कुमार के पास क्लैविकल फ्रैक्चर प्रबंधन में व्यापक अनुभव है, जिन्होंने आधुनिक निर्धारण तकनीकों का उपयोग करके सैकड़ों मामलों का सफलतापूर्वक इलाज किया है। हमारा दृष्टिकोण कार्यात्मक परिणामों को अनुकूलित करने के लिए शारीरिक कमी, स्थिर निर्धारण, और प्रारंभिक गतिशीलता पर जोर देता है। प्रक्रिया में आमतौर पर 1-2 घंटे लगते हैं और अधिकांश रोगी 3-6 महीनों के भीतर कंधे के कार्य की बहाली के साथ उत्कृष्ट उपचार प्राप्त करते हैं। हम पटना, मुजफ्फरपुर, गया और आसपास के क्षेत्रों सहित बिहार भर के रोगियों की सेवा करते हैं, उन्नत शल्य चिकित्सा विशेषज्ञता के साथ व्यापक आघात देखभाल प्रदान करते हैं।`
+    },
+    symptoms: {
+      en: [
+        'Severe pain and tenderness over the collarbone',
+        'Visible deformity or bump at the fracture site',
+        'Inability to lift the arm or move the shoulder',
+        'Swelling and bruising around the shoulder and upper chest',
+        'Grinding or crepitus sensation with shoulder movement',
+        'Shortening of the shoulder (affected shoulder appears lower)',
+        'Tenting of skin with bone fragments pushing outward',
+        'Numbness or tingling in arm (indicating nerve involvement)',
+        'Open wound with bone visible (open fracture)',
+        'Difficulty breathing if fracture fragments impinge on underlying structures'
+      ],
+      hi: [
+        'कॉलरबोन पर गंभीर दर्द और कोमलता',
+        'फ्रैक्चर स्थल पर दृश्य विकृति या उभार',
+        'बांह को उठाने या कंधे को हिलाने में असमर्थता',
+        'कंधे और ऊपरी छाती के आसपास सूजन और चोट के निशान',
+        'कंधे की गति के साथ पीसने या क्रेपिटस की अनुभूति',
+        'कंधे का छोटा होना (प्रभावित कंधा नीचे दिखाई देता है)',
+        'हड्डी के टुकड़ों के साथ त्वचा का तम्बू बाहर की ओर धकेलना',
+        'बांह में सुन्नता या झुनझुनी (तंत्रिका भागीदारी का संकेत)',
+        'हड्डी के साथ खुला घाव दिखाई दे रहा है (खुला फ्रैक्चर)',
+        'सांस लेने में कठिनाई अगर फ्रैक्चर के टुकड़े अंतर्निहित संरचनाओं पर प्रभाव डालते हैं'
+      ]
+    },
+    procedure: {
+      en: {
+        preparation: 'Before surgery, patients undergo thorough clinical examination, X-rays (AP and 30-degree cephalic tilt views), and CT scan if needed for complex fractures. Pre-operative assessment includes blood tests, ECG, and anesthesia consultation. Patients are instructed to fast for 6-8 hours before surgery and discontinue blood thinners as directed.',
+        steps: [
+          'General anesthesia or regional nerve block is administered',
+          'Patient is positioned in beach chair or supine position with bump under shoulder',
+          'Incision is made over the fracture site (typically 6-10 cm for ORIF)',
+          'Fracture fragments are carefully exposed and soft tissue attachments preserved',
+          'Fracture is reduced anatomically and temporarily held with reduction clamps',
+          'Pre-contoured clavicle plate or intramedullary nail is applied and secured with screws',
+          'Fluoroscopy (X-ray imaging) confirms proper alignment and hardware position',
+          'Wound is irrigated, hemostasis achieved, and incision closed in layers with sutures'
+        ],
+        duration: '1-2 hours',
+        anesthesia: 'General Anesthesia or Regional Block'
+      },
+      hi: {
+        preparation: 'सर्जरी से पहले, रोगियों की पूरी नैदानिक परीक्षा, एक्स-रे (AP और 30-डिग्री सेफेलिक टिल्ट व्यू), और जटिल फ्रैक्चर के लिए आवश्यक होने पर सीटी स्कैन किया जाता है। प्री-ऑपरेटिव मूल्यांकन में रक्त परीक्षण, ईसीजी, और एनेस्थीसिया परामर्श शामिल हैं। मरीजों को सर्जरी से पहले 6-8 घंटे उपवास करने और निर्देशानुसार रक्त पतला करने वालों को बंद करने का निर्देश दिया जाता है।',
+        steps: [
+          'जनरल एनेस्थीसिया या क्षेत्रीय तंत्रिका ब्लॉक दिया जाता है',
+          'रोगी को बीच चेयर या सुपाइन स्थिति में कंधे के नीचे बंप के साथ रखा जाता है',
+          'फ्रैक्चर स्थल पर चीरा लगाया जाता है (आमतौर पर ORIF के लिए 6-10 सेमी)',
+          'फ्रैक्चर के टुकड़ों को सावधानीपूर्वक उजागर किया जाता है और नरम ऊतक अनुलग्नकों को संरक्षित किया जाता है',
+          'फ्रैक्चर को शारीरिक रूप से कम किया जाता है और अस्थायी रूप से कमी क्लैंप के साथ रखा जाता है',
+          'प्री-कंटूर्ड क्लैविकल प्लेट या इंट्रामेड्युलरी नेल लगाया जाता है और स्क्रू के साथ सुरक्षित किया जाता है',
+          'फ्लोरोस्कोपी (एक्स-रे इमेजिंग) उचित संरेखण और हार्डवेयर स्थिति की पुष्टि करती है',
+          'घाव को सिंचित किया जाता है, हेमोस्टेसिस प्राप्त किया जाता है, और चीरे को टांके के साथ परतों में बंद किया जाता है'
+        ],
+        duration: '1-2 घंटे',
+        anesthesia: 'जनरल एनेस्थीसिया या क्षेत्रीय ब्लॉक'
+      }
+    },
+    recovery: {
+      en: {
+        timeline: [
+          {
+            week: 'Week 1-2',
+            activity: 'Initial Healing & Immobilization',
+            description: 'Arm supported in sling, gentle pendulum exercises, pain management with medications, wound care and monitoring for infection signs.'
+          },
+          {
+            week: 'Week 2-6',
+            activity: 'Early Mobilization',
+            description: 'Gradual reduction in sling use, passive range of motion exercises for shoulder and elbow, avoiding lifting or overhead activities.'
+          },
+          {
+            week: 'Week 6-12',
+            activity: 'Active Rehabilitation',
+            description: 'Progressive active range of motion exercises, gentle strengthening with resistance bands, return to light daily activities, avoiding contact sports.'
+          },
+          {
+            week: 'Month 3-4',
+            activity: 'Strengthening Phase',
+            description: 'Advanced strengthening exercises, increased functional activities, gradual return to work for non-contact occupations, bone healing confirmed on X-rays.'
+          },
+          {
+            week: 'Month 4-6',
+            activity: 'Return to Activity',
+            description: 'Progressive return to sports and physical activities, continued strengthening program, assessment for hardware removal if needed.'
+          },
+          {
+            week: 'Month 6-12',
+            activity: 'Full Recovery',
+            description: 'Complete bone union, return to all activities including contact sports, plate removal considered if causing symptoms (typically after 12-18 months).'
+          }
+        ],
+        tips: [
+          'Wear sling as directed to protect healing bone',
+          'Follow physical therapy exercises consistently',
+          'Apply ice to reduce swelling in first few weeks',
+          'Avoid lifting heavy objects for 3 months',
+          'Sleep in semi-reclined position initially',
+          'Report any numbness, increased pain, or wound drainage',
+          'Attend all follow-up appointments for X-ray monitoring',
+          'Gradually progress activities as healing advances'
+        ]
+      },
+      hi: {
+        timeline: [
+          {
+            week: 'सप्ताह 1-2',
+            activity: 'प्रारंभिक उपचार और स्थिरीकरण',
+            description: 'स्लिंग में समर्थित बांह, कोमल पेंडुलम व्यायाम, दवाओं के साथ दर्द प्रबंधन, घाव की देखभाल और संक्रमण के संकेतों के लिए निगरानी।'
+          },
+          {
+            week: 'सप्ताह 2-6',
+            activity: 'प्रारंभिक गतिशीलता',
+            description: 'स्लिंग उपयोग में धीरे-धीरे कमी, कंधे और कोहनी के लिए निष्क्रिय गति सीमा व्यायाम, उठाने या ओवरहेड गतिविधियों से बचना।'
+          },
+          {
+            week: 'सप्ताह 6-12',
+            activity: 'सक्रिय पुनर्वास',
+            description: 'प्रगतिशील सक्रिय गति सीमा व्यायाम, प्रतिरोध बैंड के साथ कोमल मजबूती, हल्की दैनिक गतिविधियों में वापसी, संपर्क खेलों से बचना।'
+          },
+          {
+            week: 'महीना 3-4',
+            activity: 'मजबूती चरण',
+            description: 'उन्नत मजबूत बनाने के व्यायाम, बढ़ी हुई कार्यात्मक गतिविधियां, गैर-संपर्क व्यवसायों के लिए काम पर धीरे-धीरे वापसी, एक्स-रे पर पुष्टि की गई हड्डी का उपचार।'
+          },
+          {
+            week: 'महीना 4-6',
+            activity: 'गतिविधि में वापसी',
+            description: 'खेल और शारीरिक गतिविधियों में प्रगतिशील वापसी, निरंतर मजबूती कार्यक्रम, आवश्यक होने पर हार्डवेयर हटाने के लिए मूल्यांकन।'
+          },
+          {
+            week: 'महीना 6-12',
+            activity: 'पूर्ण रिकवरी',
+            description: 'पूर्ण हड्डी मिलन, संपर्क खेलों सहित सभी गतिविधियों में वापसी, प्लेट हटाने पर विचार किया जाता है यदि लक्षण पैदा कर रहा है (आमतौर पर 12-18 महीनों के बाद)।'
+          }
+        ],
+        tips: [
+          'उपचार हड्डी की रक्षा के लिए निर्देशित स्लिंग पहनें',
+          'फिजियोथेरेपी व्यायाम को लगातार करें',
+          'पहले कुछ हफ्तों में सूजन को कम करने के लिए बर्फ लगाएं',
+          '3 महीने के लिए भारी वस्तुओं को उठाने से बचें',
+          'शुरुआत में अर्ध-झुकी हुई स्थिति में सोएं',
+          'किसी भी सुन्नता, बढ़ते दर्द, या घाव जल निकासी की रिपोर्ट करें',
+          'एक्स-रे निगरानी के लिए सभी फॉलो-अप अपॉइंटमेंट में शामिल हों',
+          'धीरे-धीरे गतिविधियों को आगे बढ़ाएं जैसे उपचार आगे बढ़ता है'
+        ]
+      }
+    },
+    faqs: {
+      en: [
+        {
+          question: 'When is surgery necessary for a clavicle fracture versus conservative treatment with a sling?',
+          answer: 'Surgery is typically indicated when the fracture has significant displacement (>2cm shortening), involves multiple bone fragments (comminuted fracture), is an open fracture with skin penetration, causes neurovascular compromise, or involves the lateral third with ligament disruption. Conservative treatment with a sling or figure-of-8 brace is appropriate for minimally displaced midshaft fractures, medial third fractures, and pediatric cases. At Arthroscenter, Dr. Gurudeo Kumar performs detailed examination and imaging to determine the optimal treatment approach. Studies show that surgical fixation of significantly displaced fractures results in faster return to function, lower non-union rates (2-3% vs 15-20%), and better cosmetic outcomes compared to conservative management in selected cases.'
+        },
+        {
+          question: 'What is the difference between plate fixation and intramedullary nailing for clavicle fractures?',
+          answer: 'Plate fixation (ORIF) involves placing a pre-contoured plate along the superior or anteroinferior surface of the clavicle, secured with multiple screws. This provides excellent stability, allows anatomical reduction, and is suitable for most midshaft and distal fractures. Intramedullary (IM) nailing involves inserting a titanium nail through the bone canal, requiring smaller incisions and causing less soft tissue disruption. IM nails are ideal for simple midshaft fractures but may not control rotation as well as plates. At Arthoscenter, Dr. Kumar selects the technique based on fracture pattern, patient age, activity level, and cosmetic preferences. Both methods achieve excellent healing rates (95-98%) when properly indicated.'
+        },
+        {
+          question: 'How long before I can return to sports after clavicle fracture surgery?',
+          answer: 'Return to sports depends on the type of sport, fracture healing, and hardware stability. Light activities like swimming and cycling can typically resume at 6-8 weeks. Non-contact sports like golf or tennis can begin at 3-4 months once X-rays confirm bone healing. Contact sports like cricket, football, kabaddi, or wrestling should wait until 4-6 months with complete bone union and full strength recovery. At Arthroscenter, we provide sport-specific rehabilitation protocols. Athletes in Bihar commonly involved in cricket, football, and kabaddi receive tailored guidance to ensure safe return to their sport. Premature return to contact sports risks re-fracture or hardware failure, so adherence to your surgeon\'s clearance is essential.'
+        },
+        {
+          question: 'Will the plate and screws need to be removed eventually?',
+          answer: 'Plate removal is not mandatory but is commonly performed 12-18 months after surgery if the hardware causes discomfort, prominence under the skin, or cosmetic concerns. Removal is a simpler, shorter procedure (30-45 minutes) performed as outpatient surgery. Some patients, particularly those with low symptoms and minimal hardware prominence, choose to keep the plate permanently without issues. At Arthoscenter, Dr. Kumar discusses plate removal during follow-up visits based on individual patient factors. Plate removal is more common in younger, active patients or those with thin soft tissue coverage. After removal, patients typically resume activities within 4-6 weeks.'
+        },
+        {
+          question: 'What is the risk of non-union (bone not healing) after clavicle fracture surgery?',
+          answer: 'Surgical fixation significantly reduces non-union risk compared to conservative treatment. With modern plating techniques, non-union rates are only 2-3% versus 15-20% with non-operative management of displaced fractures. Factors that increase non-union risk include smoking, diabetes, inadequate fixation, infection, and poor nutrition. At Arthoscenter, Dr. Gurudeo Kumar uses rigid fixation with adequate screw purchase, preserves soft tissue blood supply, and encourages early smoking cessation to minimize non-union risk. If non-union occurs, revision surgery with bone grafting (using autograft from iliac crest or bone graft substitute) achieves healing in over 90% of cases. Regular follow-up with serial X-rays ensures early detection of healing problems.'
+        },
+        {
+          question: 'Can I sleep on the operated shoulder side after clavicle surgery?',
+          answer: 'You should avoid sleeping directly on the operated shoulder for at least 6-8 weeks after surgery to protect the healing bone and prevent hardware irritation. Initially, sleep in a semi-reclined position (beach chair position) or on your back with pillows supporting the arm. After 6-8 weeks, you can gradually transition to side sleeping on the non-operative side, and eventually to the operative side once bone healing is confirmed (typically 3-4 months). Some patients with prominent hardware may always find sleeping on that shoulder uncomfortable until the plate is removed. At Arthoscenter, our physiotherapy team provides guidance on optimal sleeping positions throughout your recovery.'
+        },
+        {
+          question: 'What are the signs of infection after clavicle fracture surgery?',
+          answer: 'Infection is rare (<2%) but requires prompt attention. Warning signs include increasing redness, warmth, or swelling around the incision; persistent or worsening pain despite medications; drainage of pus or cloudy fluid from the wound; fever above 101°F (38.3°C); foul odor from the incision; or separation of wound edges. If you notice any of these signs, contact Arthoscenter immediately. Early infections (within 2 weeks) are typically superficial and respond to antibiotics. Deep infections may require surgical debridement and hardware retention if bone healing is incomplete, or hardware removal if healing is solid. Dr. Kumar uses meticulous sterile technique, prophylactic antibiotics, and careful wound closure to minimize infection risk.'
+        },
+        {
+          question: 'How does clavicle fracture surgery affect shoulder strength and function long-term?',
+          answer: 'When properly performed with anatomical reduction and stable fixation, clavicle fracture surgery restores near-normal shoulder function in 90-95% of patients. Studies show that surgical fixation of displaced fractures results in better shoulder strength, range of motion, and patient satisfaction compared to non-operative treatment. Most patients regain full overhead motion and strength for daily activities by 4-6 months. Athletes typically recover 95-100% of pre-injury strength by 6-9 months with dedicated rehabilitation. At Arthoscenter, our structured physical therapy protocol focuses on scapular stabilization, rotator cuff strengthening, and functional movement patterns. Factors affecting outcome include fracture displacement, soft tissue injury, patient compliance with therapy, and timing of treatment.'
+        },
+        {
+          question: 'Is clavicle fracture surgery covered by health insurance in Bihar?',
+          answer: 'Clavicle fracture surgery is typically covered by health insurance when medically indicated, as it is considered necessary trauma care for significantly displaced or complex fractures. Coverage includes hospitalization, surgical fees, implants (plates/screws), and rehabilitation. At Arthroscenter, our administrative team assists with insurance pre-authorization, claim processing, and documentation for cashless treatment under policies like PMJAY (Ayushman Bharat), ECHS, CGHS, and private insurers. For patients without insurance or requiring out-of-pocket payment, we offer transparent pricing and affordable payment plans. Contact our office for detailed cost estimates and insurance guidance specific to your policy.'
+        },
+        {
+          question: 'What happens if the clavicle heals in a shortened or malunited position?',
+          answer: 'Clavicle malunion (healing in abnormal position) can cause persistent pain, weakness, neurological symptoms from thoracic outlet compression, or cosmetic deformity. Shortening >2cm may lead to shoulder drooping, scapular winging, and reduced overhead strength. Symptomatic malunions may require corrective osteotomy (surgically re-breaking the bone), realignment, and plate fixation with or without bone grafting. Prevention through early surgical intervention for significantly displaced fractures is preferable to later reconstructive surgery. At Arthoscenter, Dr. Kumar evaluates fracture displacement carefully using X-rays and CT scans to determine when surgical fixation is needed to prevent malunion. Most surgically treated fractures heal in anatomical position with excellent functional outcomes.'
+        }
+      ],
+      hi: [
+        {
+          question: 'स्लिंग के साथ रूढ़िवादी उपचार बनाम क्लैविकल फ्रैक्चर के लिए सर्जरी कब आवश्यक है?',
+          answer: 'सर्जरी आमतौर पर तब संकेत दिया जाता है जब फ्रैक्चर में महत्वपूर्ण विस्थापन होता है (>2 सेमी छोटा होना), कई हड्डी के टुकड़े शामिल होते हैं (कॉमिन्यूटेड फ्रैक्चर), त्वचा प्रवेश के साथ एक खुला फ्रैक्चर है, न्यूरोवैस्कुलर समझौता का कारण बनता है, या लिगामेंट व्यवधान के साथ पार्श्व तीसरे को शामिल करता है। स्लिंग या फिगर-ऑफ-8 ब्रेस के साथ रूढ़िवादी उपचार न्यूनतम विस्थापित मिडशाफ्ट फ्रैक्चर, मेडियल थर्ड फ्रैक्चर, और बाल चिकित्सा मामलों के लिए उपयुक्त है। आर्थोसेंटर में, डॉ. गुरुदेव कुमार इष्टतम उपचार दृष्टिकोण निर्धारित करने के लिए विस्तृत परीक्षा और इमेजिंग करते हैं।'
+        },
+        {
+          question: 'क्लैविकल फ्रैक्चर के लिए प्लेट फिक्सेशन और इंट्रामेड्युलरी नेलिंग में क्या अंतर है?',
+          answer: 'प्लेट फिक्सेशन (ORIF) में क्लैविकल की बेहतर या एंटेरोइनफेरियर सतह के साथ एक प्री-कंटूर्ड प्लेट रखना शामिल है, जिसे कई स्क्रू के साथ सुरक्षित किया जाता है। यह उत्कृष्ट स्थिरता प्रदान करता है, शारीरिक कमी की अनुमति देता है, और अधिकांश मिडशाफ्ट और डिस्टल फ्रैक्चर के लिए उपयुक्त है। इंट्रामेड्युलरी (IM) नेलिंग में हड्डी नहर के माध्यम से एक टाइटेनियम नेल डालना शामिल है, जिसके लिए छोटे चीरों की आवश्यकता होती है और कम नरम ऊतक व्यवधान होता है। आर्थोसेंटर में, डॉ. कुमार फ्रैक्चर पैटर्न, रोगी की उम्र, गतिविधि स्तर और कॉस्मेटिक प्राथमिकताओं के आधार पर तकनीक का चयन करते हैं।'
+        },
+        {
+          question: 'क्लैविकल फ्रैक्चर सर्जरी के बाद मैं खेल में वापस आने से पहले कितने समय तक?',
+          answer: 'खेल में वापसी खेल के प्रकार, फ्रैक्चर उपचार, और हार्डवेयर स्थिरता पर निर्भर करती है। तैराकी और साइकिलिंग जैसी हल्की गतिविधियां आमतौर पर 6-8 सप्ताह में फिर से शुरू हो सकती हैं। गोल्फ या टेनिस जैसे गैर-संपर्क खेल 3-4 महीने में शुरू हो सकते हैं एक बार एक्स-रे हड्डी के उपचार की पुष्टि करते हैं। क्रिकेट, फुटबॉल, कबड्डी, या कुश्ती जैसे संपर्क खेलों को 4-6 महीने तक इंतजार करना चाहिए पूर्ण हड्डी मिलन और पूर्ण ताकत रिकवरी के साथ। आर्थोसेंटर में, हम खेल-विशिष्ट पुनर्वास प्रोटोकॉल प्रदान करते हैं।'
+        },
+        {
+          question: 'क्या प्लेट और स्क्रू को अंततः हटाने की आवश्यकता होगी?',
+          answer: 'प्लेट हटाना अनिवार्य नहीं है लेकिन आमतौर पर सर्जरी के 12-18 महीने बाद किया जाता है यदि हार्डवेयर असुविधा, त्वचा के नीचे प्रमुखता, या कॉस्मेटिक चिंताओं का कारण बनता है। हटाना एक सरल, छोटी प्रक्रिया है (30-45 मिनट) जो बाह्य रोगी सर्जरी के रूप में की जाती है। कुछ रोगी, विशेष रूप से कम लक्षणों और न्यूनतम हार्डवेयर प्रमुखता वाले, बिना किसी समस्या के प्लेट को स्थायी रूप से रखने का विकल्प चुनते हैं। आर्थोसेंटर में, डॉ. कुमार व्यक्तिगत रोगी कारकों के आधार पर फॉलो-अप विज़िट के दौरान प्लेट हटाने पर चर्चा करते हैं।'
+        },
+        {
+          question: 'क्लैविकल फ्रैक्चर सर्जरी के बाद नॉन-यूनियन (हड्डी का उपचार नहीं) का जोखिम क्या है?',
+          answer: 'सर्जिकल निर्धारण रूढ़िवादी उपचार की तुलना में नॉन-यूनियन जोखिम को महत्वपूर्ण रूप से कम करता है। आधुनिक प्लेटिंग तकनीकों के साथ, नॉन-यूनियन दरें केवल 2-3% हैं विस्थापित फ्रैक्चर के गैर-ऑपरेटिव प्रबंधन के साथ 15-20% बनाम। कारक जो नॉन-यूनियन जोखिम को बढ़ाते हैं उनमें धूम्रपान, मधुमेह, अपर्याप्त निर्धारण, संक्रमण और खराब पोषण शामिल हैं। आर्थोसेंटर में, डॉ. गुरुदेव कुमार नॉन-यूनियन जोखिम को कम करने के लिए पर्याप्त स्क्रू खरीद के साथ कठोर निर्धारण का उपयोग करते हैं, नरम ऊतक रक्त आपूर्ति को संरक्षित करते हैं, और प्रारंभिक धूम्रपान बंद को प्रोत्साहित करते हैं।'
+        },
+        {
+          question: 'क्या मैं क्लैविकल सर्जरी के बाद ऑपरेट किए गए कंधे की तरफ सो सकता हूं?',
+          answer: 'आपको सर्जरी के बाद कम से कम 6-8 सप्ताह के लिए सीधे ऑपरेट किए गए कंधे पर सोने से बचना चाहिए ताकि उपचार हड्डी की रक्षा की जा सके और हार्डवेयर जलन को रोका जा सके। शुरुआत में, अर्ध-झुकी हुई स्थिति (बीच चेयर स्थिति) में या अपनी पीठ पर बांह का समर्थन करने वाले तकिए के साथ सोएं। 6-8 सप्ताह के बाद, आप धीरे-धीरे गैर-ऑपरेटिव पक्ष पर साइड स्लीपिंग में संक्रमण कर सकते हैं, और अंततः ऑपरेटिव पक्ष पर एक बार हड्डी का उपचार पुष्टि हो जाता है (आमतौर पर 3-4 महीने)।'
+        },
+        {
+          question: 'क्लैविकल फ्रैक्चर सर्जरी के बाद संक्रमण के संकेत क्या हैं?',
+          answer: 'संक्रमण दुर्लभ है (<2%) लेकिन त्वरित ध्यान की आवश्यकता है। चेतावनी संकेतों में चीरा के आसपास बढ़ती लालिमा, गर्मी, या सूजन शामिल है; दवाओं के बावजूद लगातार या बिगड़ता दर्द; घाव से मवाद या बादल तरल पदार्थ की निकासी; 101°F (38.3°C) से ऊपर बुखार; चीरा से दुर्गंध; या घाव के किनारों का अलग होना। यदि आप इनमें से किसी भी संकेत को नोटिस करते हैं, तो तुरंत आर्थोसेंटर से संपर्क करें। डॉ. कुमार संक्रमण जोखिम को कम करने के लिए सावधानीपूर्वक बाँझ तकनीक, प्रोफिलैक्टिक एंटीबायोटिक्स, और सावधानीपूर्वक घाव बंद करने का उपयोग करते हैं।'
+        },
+        {
+          question: 'क्लैविकल फ्रैक्चर सर्जरी लंबे समय तक कंधे की ताकत और कार्य को कैसे प्रभावित करती है?',
+          answer: 'जब ठीक से शारीरिक कमी और स्थिर निर्धारण के साथ किया जाता है, तो क्लैविकल फ्रैक्चर सर्जरी 90-95% रोगियों में लगभग सामान्य कंधे के कार्य को बहाल करती है। अध्ययन बताते हैं कि विस्थापित फ्रैक्चर के शल्य चिकित्सा निर्धारण के परिणामस्वरूप बेहतर कंधे की ताकत, गति की सीमा, और रोगी संतुष्टि गैर-ऑपरेटिव उपचार की तुलना में होती है। अधिकांश रोगी 4-6 महीनों तक दैनिक गतिविधियों के लिए पूर्ण ओवरहेड गति और ताकत हासिल करते हैं। आर्थोसेंटर में, हमारा संरचित फिजिकल थेरेपी प्रोटोकॉल स्कैपुलर स्थिरीकरण, रोटेटर कफ मजबूती, और कार्यात्मक आंदोलन पैटर्न पर केंद्रित है।'
+        },
+        {
+          question: 'क्या बिहार में स्वास्थ्य बीमा द्वारा क्लैविकल फ्रैक्चर सर्जरी कवर की जाती है?',
+          answer: 'क्लैविकल फ्रैक्चर सर्जरी आमतौर पर स्वास्थ्य बीमा द्वारा कवर की जाती है जब चिकित्सकीय रूप से संकेत दिया जाता है, क्योंकि इसे महत्वपूर्ण रूप से विस्थापित या जटिल फ्रैक्चर के लिए आवश्यक आघात देखभाल माना जाता है। कवरेज में अस्पताल में भर्ती, शल्य चिकित्सा शुल्क, प्रत्यारोपण (प्लेट/स्क्रू), और पुनर्वास शामिल हैं। आर्थोसेंटर में, हमारी प्रशासनिक टीम PMJAY (आयुष्मान भारत), ECHS, CGHS, और निजी बीमाकर्ताओं जैसी नीतियों के तहत कैशलेस उपचार के लिए बीमा प्री-प्राधिकरण, दावा प्रसंस्करण, और दस्तावेज़ीकरण में सहायता करती है।'
+        },
+        {
+          question: 'क्या होता है अगर क्लैविकल एक छोटी या malunited स्थिति में ठीक हो जाती है?',
+          answer: 'क्लैविकल मालयूनियन (असामान्य स्थिति में उपचार) लगातार दर्द, कमजोरी, थोरेसिक आउटलेट संपीड़न से न्यूरोलॉजिकल लक्षण, या कॉस्मेटिक विकृति का कारण बन सकता है। >2 सेमी छोटा होना कंधे के गिरने, स्कैपुलर पंखों, और कम ओवरहेड ताकत का कारण बन सकता है। लक्षणात्मक मालयूनियन को सुधारात्मक ऑस्टियोटॉमी (शल्य चिकित्सा रूप से हड्डी को फिर से तोड़ना), पुनर्संरेखण, और हड्डी ग्राफ्टिंग के साथ या बिना प्लेट फिक्सेशन की आवश्यकता हो सकती है। आर्थोसेंटर में, डॉ. कुमार यह निर्धारित करने के लिए एक्स-रे और सीटी स्कैन का उपयोग करके फ्रैक्चर विस्थापन का सावधानीपूर्वक मूल्यांकन करते हैं कि मालयूनियन को रोकने के लिए सर्जिकल फिक्सेशन की आवश्यकता कब है।'
+        }
+      ]
+    },
+    meta: {
+      en: {
+        title: 'Clavicle Fracture Surgery (Collarbone Fixation) in Bihar | Dr. Gurudeo Kumar | Arthroscenter',
+        description: 'Expert clavicle fracture surgery with plate fixation or IM nailing in Patna. Treatment for displaced midshaft, lateral, and medial collarbone fractures. Advanced ORIF techniques for athletes and trauma patients. Book consultation ₹999.',
+        keywords: [
+          'clavicle fracture surgery',
+          'collarbone fixation',
+          'clavicle ORIF',
+          'plate fixation clavicle',
+          'intramedullary nail clavicle',
+          'broken collarbone treatment Bihar',
+          'Allman classification',
+          'midshaft clavicle fracture',
+          'Dr. Gurudeo Kumar',
+          'Arthoscenter Patna',
+          'trauma surgery Bihar',
+          'sports injury shoulder'
+        ]
+      },
+      hi: {
+        title: 'बिहार में क्लैविकल फ्रैक्चर सर्जरी (कॉलरबोन फिक्सेशन) | डॉ. गुरुदेव कुमार | आर्थोसेंटर',
+        description: 'पटना में प्लेट फिक्सेशन या IM नेलिंग के साथ विशेषज्ञ क्लैविकल फ्रैक्चर सर्जरी। विस्थापित मिडशाफ्ट, पार्श्व, और मेडियल कॉलरबोन फ्रैक्चर के लिए उपचार। एथलीटों और आघात रोगियों के लिए उन्नत ORIF तकनीक। परामर्श बुक करें ₹999।',
+        keywords: [
+          'क्लैविकल फ्रैक्चर सर्जरी',
+          'कॉलरबोन फिक्सेशन',
+          'क्लैविकल ORIF',
+          'प्लेट फिक्सेशन क्लैविकल',
+          'इंट्रामेड्युलरी नेल क्लैविकल',
+          'बिहार में टूटी हुई कॉलरबोन उपचार',
+          'ऑलमैन वर्गीकरण',
+          'मिडशाफ्ट क्लैविकल फ्रैक्चर',
+          'डॉ. गुरुदेव कुमार',
+          'आर्थोसेंटर पटना',
+          'बिहार में आघात सर्जरी',
+          'खेल चोट कंधे'
+        ]
+      }
+    },
+    relatedSurgeries: ['humerus-fracture-fixation', 'shoulder-replacement', 'biceps-tendon-repair', 'radius-ulna-fracture']
+  },
+
+  'elbow-replacement': {
+    id: 'elbow-replacement',
+    category: 'joint-replacement',
+    slug: 'elbow-replacement',
+    title: {
+      en: 'Elbow Replacement (Total Elbow Arthroplasty)',
+      hi: 'एल्बो रिप्लेसमेंट (टोटल एल्बो आर्थ्रोप्लास्टी)'
+    },
+    shortDesc: {
+      en: 'Surgical replacement of damaged elbow joint with prosthetic implant to restore function and relieve pain',
+      hi: 'क्षतिग्रस्त कोहनी के जोड़ को प्रोस्थेटिक प्रत्यारोपण से बदलकर कार्य को बहाल करना और दर्द से राहत देना'
+    },
+    overview: {
+      en: `Total Elbow Arthroplasty (TEA), or elbow replacement surgery, is a specialized procedure to replace a severely damaged elbow joint with an artificial prosthesis. This surgery is less common than hip or knee replacement but can be life-changing for patients with debilitating elbow arthritis, primarily from rheumatoid arthritis or severe post-traumatic arthritis. The procedure involves replacing the damaged joint surfaces with metal and plastic components that restore pain-free movement.
+
+At Arthoscenter, Dr. Gurudeo Kumar brings expertise in complex upper extremity reconstruction, having performed numerous elbow replacement surgeries with excellent outcomes. Using both semiconstrained and unconstrained implant systems from leading global manufacturers, Dr. Kumar carefully selects the most appropriate implant type based on bone quality, soft tissue integrity, and patient activity demands. Our facility provides comprehensive pre-operative planning including 3D imaging and templating for optimal implant sizing.
+
+Elbow replacement is typically indicated for patients with severe rheumatoid arthritis, post-traumatic arthritis following complex elbow fractures, failed previous elbow surgeries, or osteoarthritis in older, lower-demand patients. The procedure can dramatically improve quality of life by eliminating pain and restoring functional range of motion for daily activities. However, permanent weight restrictions (typically no lifting over 2-5 lbs with the operative arm) are critical to protect the implant and ensure longevity.`,
+      hi: `टोटल एल्बो आर्थ्रोप्लास्टी (TEA), या एल्बो रिप्लेसमेंट सर्जरी, गंभीर रूप से क्षतिग्रस्त कोहनी के जोड़ को एक कृत्रिम प्रोस्थेसिस से बदलने के लिए एक विशेष प्रक्रिया है। यह सर्जरी हिप या घुटने के प्रतिस्थापन की तुलना में कम आम है, लेकिन दुर्बल करने वाली कोहनी गठिया, मुख्य रूप से रुमेटीइड गठिया या गंभीर पोस्ट-ट्रॉमेटिक गठिया से पीड़ित रोगियों के लिए जीवन बदलने वाली हो सकती है।
+
+आर्थोसेंटर में, डॉ. गुरुदेव कुमार जटिल ऊपरी छोर पुनर्निर्माण में विशेषज्ञता लाते हैं, उन्होंने उत्कृष्ट परिणामों के साथ कई एल्बो रिप्लेसमेंट सर्जरी की हैं। अग्रणी वैश्विक निर्माताओं से सेमीकंस्ट्रेंड और अनकंस्ट्रेंड दोनों इम्प्लांट सिस्टम का उपयोग करते हुए, डॉ. कुमार हड्डी की गुणवत्ता, नरम ऊतक अखंडता और रोगी गतिविधि की मांगों के आधार पर सबसे उपयुक्त इम्प्लांट प्रकार का सावधानीपूर्वक चयन करते हैं।
+
+एल्बो रिप्लेसमेंट आमतौर पर गंभीर रुमेटीइड गठिया, जटिल कोहनी फ्रैक्चर के बाद पोस्ट-ट्रॉमेटिक गठिया, पिछली कोहनी सर्जरी की विफलता, या वृद्ध, कम-मांग वाले रोगियों में ऑस्टियोआर्थराइटिस वाले रोगियों के लिए संकेत दिया जाता है। प्रक्रिया दर्द को समाप्त करके और दैनिक गतिविधियों के लिए कार्यात्मक गति की सीमा को बहाल करके जीवन की गुणवत्ता में नाटकीय रूप से सुधार कर सकती है। हालांकि, स्थायी वजन प्रतिबंध (आमतौर पर ऑपरेटिव हाथ से 2-5 पाउंड से अधिक उठाने में नहीं) इम्प्लांट की रक्षा और दीर्घायु सुनिश्चित करने के लिए महत्वपूर्ण हैं।`
+    },
+    symptoms: {
+      en: [
+        'Severe elbow pain limiting daily activities (eating, dressing, bathing)',
+        'Pain unrelieved by conservative treatments (medications, injections, therapy)',
+        'Significant loss of elbow range of motion',
+        'Inability to straighten or bend elbow adequately',
+        'Elbow instability or giving way sensation',
+        'Grinding, clicking, or locking in the elbow joint',
+        'Night pain disrupting sleep',
+        'Severe arthritis confirmed on X-rays or MRI',
+        'Failed previous elbow surgery (fracture fixation, arthroscopy)',
+        'Bilateral elbow involvement affecting independence'
+      ],
+      hi: [
+        'दैनिक गतिविधियों को सीमित करने वाला गंभीर कोहनी दर्द (खाना, कपड़े पहनना, नहाना)',
+        'रूढ़िवादी उपचारों (दवाएं, इंजेक्शन, थेरेपी) से अप्रभावित दर्द',
+        'कोहनी की गति सीमा का महत्वपूर्ण नुकसान',
+        'कोहनी को पर्याप्त रूप से सीधा या मोड़ने में असमर्थता',
+        'कोहनी अस्थिरता या रास्ता देने की अनुभूति',
+        'कोहनी के जोड़ में पीसना, क्लिक करना या लॉक करना',
+        'नींद में बाधा डालने वाला रात का दर्द',
+        'एक्स-रे या एमआरआई पर पुष्टि किए गए गंभीर गठिया',
+        'पिछली कोहनी सर्जरी की विफलता (फ्रैक्चर फिक्सेशन, आर्थ्रोस्कोपी)',
+        'स्वतंत्रता को प्रभावित करने वाली द्विपक्षीय कोहनी की भागीदारी'
+      ]
+    },
+    procedure: {
+      en: {
+        preparation: 'Comprehensive elbow imaging including X-rays, CT scans for bone stock assessment, and sometimes MRI. Rheumatology consultation if rheumatoid arthritis present. Discussion of implant options (linked vs unlinked, semiconstrained vs unconstrained). Pre-operative planning for implant size and positioning using templating software.',
+        steps: [
+          'General anesthesia with regional nerve block administered',
+          'Posterior approach incision made along back of elbow',
+          'Ulnar nerve carefully identified, protected, and may be transposed',
+          'Triceps muscle reflected or split to expose elbow joint',
+          'Damaged joint surfaces of humerus and ulna exposed',
+          'Bone canals prepared in humerus and ulna for implant stems',
+          'Trial components inserted to test fit, alignment, and stability',
+          'Final implant components cemented into place (humeral and ulnar stems)',
+          'Triceps tendon repaired and reattached securely',
+          'Ulnar nerve positioned safely and wound closed in layers'
+        ],
+        duration: '2-3 hours',
+        anesthesia: 'General Anesthesia with Nerve Block'
+      },
+      hi: {
+        preparation: 'हड्डी स्टॉक मूल्यांकन के लिए एक्स-रे, सीटी स्कैन और कभी-कभी एमआरआई सहित व्यापक कोहनी इमेजिंग। रुमेटीइड गठिया मौजूद होने पर रुमेटोलॉजी परामर्श। इम्प्लांट विकल्पों (लिंक्ड बनाम अनलिंक्ड, सेमीकंस्ट्रेंड बनाम अनकंस्ट्रेंड) की चर्चा।',
+        steps: [
+          'क्षेत्रीय तंत्रिका ब्लॉक के साथ जनरल एनेस्थीसिया दिया जाता है',
+          'कोहनी के पीछे के साथ पोस्टीरियर अप्रोच चीरा लगाया गया',
+          'अल्नर तंत्रिका को सावधानीपूर्वक पहचाना गया, संरक्षित किया गया, और स्थानांतरित किया जा सकता है',
+          'ट्राइसेप्स मांसपेशी को कोहनी के जोड़ को उजागर करने के लिए प्रतिबिंबित या विभाजित किया गया',
+          'ह्यूमरस और उल्ना की क्षतिग्रस्त जोड़ सतहों को उजागर किया गया',
+          'इम्प्लांट स्टेम के लिए ह्यूमरस और उल्ना में हड्डी नहरें तैयार की गईं',
+          'फिट, संरेखण और स्थिरता का परीक्षण करने के लिए परीक्षण घटक डाले गए',
+          'अंतिम इम्प्लांट घटकों को जगह में सीमेंट किया गया (ह्यूमरल और उल्नर स्टेम)',
+          'ट्राइसेप्स टेंडन की मरम्मत की गई और सुरक्षित रूप से फिर से जुड़ा',
+          'अल्नर तंत्रिका को सुरक्षित रूप से तैनात किया गया और घाव को परतों में बंद किया गया'
+        ],
+        duration: '2-3 घंटे',
+        anesthesia: 'तंत्रिका ब्लॉक के साथ जनरल एनेस्थीसिया'
+      }
+    },
+    recovery: {
+      en: {
+        timeline: [
+          { week: 'Week 1-2', activity: 'Immediate Post-op', description: 'Elbow immobilized in posterior splint at 90 degrees. Pain management. Finger and wrist exercises started immediately. Hand elevation to control swelling. Hospital stay 1-2 days.' },
+          { week: 'Week 2-6', activity: 'Early Rehabilitation', description: 'Splint converted to hinged brace allowing controlled motion. Gentle passive range of motion exercises started. Active extension limited initially. No lifting with operative arm. Light activities of daily living with assistance.' },
+          { week: 'Week 6-12', activity: 'Progressive Motion Phase', description: 'Active assisted and active exercises progressed. Brace weaned off gradually. Strengthening with very light resistance (under 1 lb). Emphasis on regaining functional arc of motion (30-130 degrees).' },
+          { week: 'Month 3-6', activity: 'Functional Recovery', description: 'Most daily activities resumed with permanent weight restrictions. Lifting limited to 2-5 lbs maximum permanently. Continued gentle strengthening. Good pain relief achieved.' },
+          { week: 'Month 6-12', activity: 'Maximum Improvement', description: 'Optimal function typically achieved by 6-12 months. Maintenance exercises continued. Strict adherence to weight restrictions critical for implant longevity. Regular follow-up for monitoring.' },
+          { week: 'Lifelong', activity: 'Long-term Maintenance', description: 'Permanent restrictions: no lifting over 2-5 lbs, avoid high-impact activities, no pushing/pulling heavy objects. Regular X-rays to monitor implant. Expected implant life 10-15 years with proper precautions.' }
+        ],
+        tips: [
+          'Strictly adhere to weight restrictions - NEVER lift over 2-5 lbs with operative arm',
+          'Avoid impact activities and heavy pushing/pulling permanently',
+          'Progress exercises slowly - rushing increases complication risk',
+          'Use the non-operative arm for lifting and carrying',
+          'Attend all physical therapy sessions - crucial for optimal motion',
+          'Perform gentle range of motion exercises daily for life',
+          'Report any increased pain, clicking, or instability immediately',
+          'Regular follow-up essential to monitor implant integrity'
+        ]
+      },
+      hi: {
+        timeline: [
+          { week: 'सप्ताह 1-2', activity: 'तत्काल पोस्ट-ऑप', description: '90 डिग्री पर पोस्टीरियर स्प्लिंट में कोहनी स्थिर। दर्द प्रबंधन। उंगली और कलाई व्यायाम तुरंत शुरू। सूजन नियंत्रित करने के लिए हाथ ऊंचाई। अस्पताल में 1-2 दिन रहना।' },
+          { week: 'सप्ताह 2-6', activity: 'प्रारंभिक पुनर्वास', description: 'स्प्लिंट को नियंत्रित गति की अनुमति देने वाले हिंज्ड ब्रेस में परिवर्तित किया गया। कोमल निष्क्रिय गति सीमा व्यायाम शुरू। प्रारंभ में सक्रिय विस्तार सीमित। ऑपरेटिव हाथ से उठाना नहीं।' },
+          { week: 'सप्ताह 6-12', activity: 'प्रगतिशील गति चरण', description: 'सक्रिय सहायता प्राप्त और सक्रिय व्यायाम में प्रगति। ब्रेस धीरे-धीरे बंद। बहुत हल्के प्रतिरोध (1 पाउंड से कम) के साथ मजबूत बनाना। कार्यात्मक आर्क गति (30-130 डिग्री) फिर से प्राप्त करने पर जोर।' },
+          { week: 'महीना 3-6', activity: 'कार्यात्मक रिकवरी', description: 'स्थायी वजन प्रतिबंधों के साथ अधिकांश दैनिक गतिविधियां फिर से शुरू। स्थायी रूप से अधिकतम 2-5 पाउंड तक उठाना सीमित। निरंतर कोमल मजबूती। अच्छी दर्द राहत प्राप्त की।' },
+          { week: 'महीना 6-12', activity: 'अधिकतम सुधार', description: 'इष्टतम कार्य आमतौर पर 6-12 महीनों तक प्राप्त किया जाता है। रखरखाव व्यायाम जारी। इम्प्लांट दीर्घायु के लिए वजन प्रतिबंधों का सख्त पालन महत्वपूर्ण। निगरानी के लिए नियमित अनुवर्ती।' },
+          { week: 'आजीवन', activity: 'दीर्घकालिक रखरखाव', description: 'स्थायी प्रतिबंध: 2-5 पाउंड से अधिक उठाना नहीं, उच्च प्रभाव गतिविधियों से बचें, भारी वस्तुओं को धक्का/खींचना नहीं। इम्प्लांट की निगरानी के लिए नियमित एक्स-रे। उचित सावधानियों के साथ अपेक्षित इम्प्लांट जीवन 10-15 वर्ष।' }
+        ],
+        tips: [
+          'वजन प्रतिबंधों का सख्ती से पालन करें - ऑपरेटिव हाथ से 2-5 पाउंड से अधिक कभी नहीं उठाएं',
+          'स्थायी रूप से प्रभाव गतिविधियों और भारी धक्का/खींचने से बचें',
+          'व्यायाम धीरे-धीरे प्रगति करें - जल्दबाजी जटिलता जोखिम बढ़ाती है',
+          'उठाने और ले जाने के लिए गैर-ऑपरेटिव हाथ का उपयोग करें',
+          'सभी फिजियोथेरेपी सत्रों में भाग लें - इष्टतम गति के लिए महत्वपूर्ण',
+          'जीवन के लिए दैनिक कोमल गति सीमा व्यायाम करें',
+          'किसी भी बढ़े हुए दर्द, क्लिक करने या अस्थिरता की तुरंत रिपोर्ट करें',
+          'इम्प्लांट अखंडता की निगरानी के लिए नियमित अनुवर्ती आवश्यक'
+        ]
+      }
+    },
+    faqs: {
+      en: [
+        { question: 'Why is elbow replacement less common than knee or hip replacement?', answer: 'Elbow replacement is less common because the elbow is a complex hinge joint subjected to high forces during daily activities, making implant durability challenging. Additionally, the elbow has less common severe arthritis compared to weight-bearing joints. Strict permanent weight restrictions (no lifting over 2-5 lbs) are necessary, which limits candidacy to lower-demand patients or those with severe bilateral disease affecting independence.' },
+        { question: 'What are the permanent weight restrictions after elbow replacement?', answer: 'Patients must permanently avoid lifting more than 2-5 pounds (approximately a gallon of milk) with the operative arm. This is critical to prevent implant loosening and mechanical failure. High-impact activities, repetitive heavy pushing/pulling, and contact sports must also be avoided for life. These restrictions are much stricter than hip or knee replacement.' },
+        { question: 'How long does an elbow replacement implant last?', answer: 'Modern elbow replacement implants typically last 10-15 years with proper precautions and adherence to weight restrictions. Implant survival depends heavily on patient activity level, bone quality, surgical technique, and strict compliance with lifting limitations. Regular follow-up X-rays help monitor implant integrity. Revision surgery may be needed if the implant loosens over time.' },
+        { question: 'What is the difference between linked and unlinked elbow implants?', answer: 'Linked (semiconstrained) implants have a mechanical connection between the humeral and ulnar components, providing inherent stability even with poor ligaments. They are most commonly used. Unlinked (unconstrained) implants have no connection and rely on intact ligaments for stability, but have lower loosening rates. Dr. Kumar selects the appropriate type based on your bone quality, ligament integrity, and arthritis severity.' },
+        { question: 'Is elbow replacement suitable for rheumatoid arthritis patients?', answer: 'Yes, elbow replacement is particularly effective for rheumatoid arthritis (RA) patients with severe bilateral elbow involvement. RA patients often have better outcomes because they typically have lower activity demands and better compliance with weight restrictions. The procedure can dramatically improve independence in daily activities like eating, dressing, and personal care when both elbows are affected.' },
+        { question: 'What are the main risks of elbow replacement surgery?', answer: 'Risks include infection (2-3%), nerve injury (especially ulnar nerve), wound healing problems, triceps tendon rupture, implant loosening (requiring revision surgery), stiffness, instability, and fracture around the implant. Dr. Kumar\'s meticulous surgical technique, careful ulnar nerve management, and secure triceps repair minimize these risks. Rheumatoid patients on immunosuppressive medications have higher infection risk.' },
+        { question: 'Can I use crutches or a walker after elbow replacement?', answer: 'Using crutches or walkers that require weight-bearing through the arms is problematic after elbow replacement due to weight restrictions. Alternative mobility aids like wheeled walkers or platform crutches that support the forearm rather than hand may be necessary. This consideration is important in surgical planning, especially for patients with lower extremity limitations.' },
+        { question: 'Will I regain full elbow motion after surgery?', answer: 'Most patients achieve a functional arc of motion between 30-130 degrees of flexion, which is adequate for most daily activities (eating, drinking, personal hygiene). Full terminal extension and flexion may not be achieved, but pain-free functional movement is the primary goal. The functional arc allows most patients to feed themselves, comb hair, and perform basic self-care independently.' },
+        { question: 'How does elbow replacement outcome compare to elbow fusion?', answer: 'Elbow replacement preserves motion, allowing functional daily activities, while elbow fusion (arthrodesis) creates a stiff, immobile elbow in a fixed position. Fusion eliminates pain and has no weight restrictions but severely limits function. Replacement is preferred when motion preservation is critical for independence, especially in bilateral disease. Fusion may be considered for young, high-demand manual laborers.' },
+        { question: 'What makes Arthoscenter equipped for elbow replacement in Bihar?', answer: 'Arthoscenter provides comprehensive elbow replacement care with Dr. Gurudeo Kumar\'s expertise in complex upper extremity surgery, access to multiple implant systems (semiconstrained and unconstrained designs), advanced 3D pre-operative planning, specialized post-operative therapy protocols, and long-term follow-up. Our facility serves as a referral center for complex elbow pathology in Bihar, offering specialized care previously requiring travel to metro cities.' }
+      ],
+      hi: [
+        { question: 'एल्बो रिप्लेसमेंट घुटने या कूल्हे के प्रतिस्थापन की तुलना में कम आम क्यों है?', answer: 'एल्बो रिप्लेसमेंट कम आम है क्योंकि कोहनी एक जटिल हिंज जोड़ है जो दैनिक गतिविधियों के दौरान उच्च बलों के अधीन है, जिससे इम्प्लांट स्थायित्व चुनौतीपूर्ण हो जाता है। इसके अतिरिक्त, वजन-सहन जोड़ों की तुलना में कोहनी में कम आम गंभीर गठिया है। सख्त स्थायी वजन प्रतिबंध (2-5 पाउंड से अधिक उठाना नहीं) आवश्यक हैं।' },
+        { question: 'एल्बो रिप्लेसमेंट के बाद स्थायी वजन प्रतिबंध क्या हैं?', answer: 'रोगियों को ऑपरेटिव हाथ से स्थायी रूप से 2-5 पाउंड (लगभग एक गैलन दूध) से अधिक उठाने से बचना चाहिए। यह इम्प्लांट ढीलेपन और यांत्रिक विफलता को रोकने के लिए महत्वपूर्ण है। उच्च प्रभाव गतिविधियों, दोहराव भारी धक्का/खींचने और संपर्क खेल से भी जीवन के लिए बचना चाहिए।' },
+        { question: 'एल्बो रिप्लेसमेंट इम्प्लांट कितने समय तक चलता है?', answer: 'आधुनिक एल्बो रिप्लेसमेंट इम्प्लांट आमतौर पर उचित सावधानियों और वजन प्रतिबंधों के पालन के साथ 10-15 वर्षों तक चलते हैं। इम्प्लांट अस्तित्व रोगी गतिविधि स्तर, हड्डी की गुणवत्ता, सर्जिकल तकनीक, और उठाने की सीमाओं के सख्त अनुपालन पर बहुत अधिक निर्भर करता है।' },
+        { question: 'लिंक्ड और अनलिंक्ड एल्बो इम्प्लांट्स में क्या अंतर है?', answer: 'लिंक्ड (सेमीकंस्ट्रेंड) इम्प्लांट्स में ह्यूमरल और उल्नर घटकों के बीच एक यांत्रिक कनेक्शन होता है, जो खराब स्नायुबंधन के साथ भी अंतर्निहित स्थिरता प्रदान करता है। वे सबसे अधिक उपयोग किए जाते हैं। अनलिंक्ड (अनकंस्ट्रेंड) इम्प्लांट्स में कोई कनेक्शन नहीं है और स्थिरता के लिए अक्षुण्ण स्नायुबंधन पर निर्भर करते हैं।' },
+        { question: 'क्या एल्बो रिप्लेसमेंट रुमेटीइड गठिया रोगियों के लिए उपयुक्त है?', answer: 'हां, एल्बो रिप्लेसमेंट गंभीर द्विपक्षीय कोहनी की भागीदारी वाले रुमेटीइड गठिया (RA) रोगियों के लिए विशेष रूप से प्रभावी है। RA रोगियों के अक्सर बेहतर परिणाम होते हैं क्योंकि उनकी आमतौर पर कम गतिविधि की मांग होती है और वजन प्रतिबंधों का बेहतर अनुपालन होता है।' },
+        { question: 'एल्बो रिप्लेसमेंट सर्जरी के मुख्य जोखिम क्या हैं?', answer: 'जोखिमों में संक्रमण (2-3%), तंत्रिका चोट (विशेष रूप से अल्नर तंत्रिका), घाव भरने की समस्याएं, ट्राइसेप्स टेंडन टूटना, इम्प्लांट ढीलापन (संशोधन सर्जरी की आवश्यकता), कठोरता, अस्थिरता शामिल हैं।' },
+        { question: 'क्या मैं एल्बो रिप्लेसमेंट के बाद बैसाखी या वॉकर का उपयोग कर सकता हूं?', answer: 'बैसाखी या वॉकर का उपयोग करना जिसमें हाथों के माध्यम से वजन-सहन की आवश्यकता होती है, वजन प्रतिबंधों के कारण एल्बो रिप्लेसमेंट के बाद समस्याग्रस्त है। वैकल्पिक गतिशीलता सहायक जैसे पहिएदार वॉकर या प्लेटफॉर्म बैसाखी जो हाथ के बजाय अग्रबाहु का समर्थन करती हैं, आवश्यक हो सकती हैं।' },
+        { question: 'क्या मैं सर्जरी के बाद पूर्ण कोहनी गति फिर से प्राप्त करूंगा?', answer: 'अधिकांश रोगी फ्लेक्शन के 30-130 डिग्री के बीच गति के एक कार्यात्मक आर्क को प्राप्त करते हैं, जो अधिकांश दैनिक गतिविधियों (खाना, पीना, व्यक्तिगत स्वच्छता) के लिए पर्याप्त है। पूर्ण टर्मिनल विस्तार और फ्लेक्शन प्राप्त नहीं हो सकता है, लेकिन दर्द-मुक्त कार्यात्मक आंदोलन प्राथमिक लक्ष्य है।' },
+        { question: 'एल्बो रिप्लेसमेंट परिणाम एल्बो फ्यूजन की तुलना कैसे करता है?', answer: 'एल्बो रिप्लेसमेंट गति को संरक्षित करता है, जिससे कार्यात्मक दैनिक गतिविधियों की अनुमति मिलती है, जबकि एल्बो फ्यूजन (आर्थ्रोडेसिस) एक निश्चित स्थिति में एक कठोर, गतिहीन कोहनी बनाता है। फ्यूजन दर्द को समाप्त करता है और कोई वजन प्रतिबंध नहीं है लेकिन कार्य को गंभीर रूप से सीमित करता है।' },
+        { question: 'बिहार में एल्बो रिप्लेसमेंट के लिए आर्थोसेंटर क्या सुसज्जित बनाता है?', answer: 'आर्थोसेंटर जटिल ऊपरी छोर सर्जरी में डॉ. गुरुदेव कुमार की विशेषज्ञता, कई इम्प्लांट सिस्टम तक पहुंच (सेमीकंस्ट्रेंड और अनकंस्ट्रेंड डिजाइन), उन्नत 3D प्री-ऑपरेटिव योजना, विशेष पोस्ट-ऑपरेटिव थेरेपी प्रोटोकॉल के साथ व्यापक एल्बो रिप्लेसमेंट देखभाल प्रदान करता है।' }
+      ]
+    },
+    meta: {
+      en: {
+        title: 'Elbow Replacement Surgery in Bihar | Total Elbow Arthroplasty | Dr. Gurudeo Kumar | Arthoscenter',
+        description: 'Expert elbow replacement (total elbow arthroplasty) for severe rheumatoid arthritis & post-traumatic arthritis in Patna. Semiconstrained & unconstrained implants. Specialized care for complex elbow conditions. Book consultation ₹999.',
+        keywords: [
+          'elbow replacement surgery',
+          'total elbow arthroplasty',
+          'elbow joint replacement',
+          'TEA surgery Bihar',
+          'rheumatoid arthritis elbow',
+          'post-traumatic elbow arthritis',
+          'semiconstrained elbow implant',
+          'unconstrained elbow prosthesis',
+          'Dr. Gurudeo Kumar',
+          'Arthoscenter Patna',
+          'elbow surgery Bihar',
+          'upper extremity arthroplasty'
+        ]
+      },
+      hi: {
+        title: 'बिहार में एल्बो रिप्लेसमेंट सर्जरी | टोटल एल्बो आर्थ्रोप्लास्टी | डॉ. गुरुदेव कुमार | आर्थोसेंटर',
+        description: 'पटना में गंभीर रुमेटीइड गठिया और पोस्ट-ट्रॉमेटिक गठिया के लिए विशेषज्ञ एल्बो रिप्लेसमेंट (टोटल एल्बो आर्थ्रोप्लास्टी)। सेमीकंस्ट्रेंड और अनकंस्ट्रेंड इम्प्लांट्स। जटिल कोहनी स्थितियों के लिए विशेष देखभाल। परामर्श बुक करें ₹999।',
+        keywords: [
+          'एल्बो रिप्लेसमेंट सर्जरी',
+          'टोटल एल्बो आर्थ्रोप्लास्टी',
+          'कोहनी जोड़ प्रतिस्थापन',
+          'बिहार में TEA सर्जरी',
+          'रुमेटीइड गठिया कोहनी',
+          'पोस्ट-ट्रॉमेटिक कोहनी गठिया',
+          'सेमीकंस्ट्रेंड कोहनी इम्प्लांट',
+          'डॉ. गुरुदेव कुमार',
+          'आर्थोसेंटर पटना',
+          'बिहार में कोहनी सर्जरी',
+          'ऊपरी छोर आर्थ्रोप्लास्टी'
+        ]
+      }
+    },
+    relatedSurgeries: ['shoulder-replacement', 'wrist-replacement', 'tennis-elbow-surgery', 'biceps-tendon-repair']
+  },
+  'external-fixation': {
+    id: 'external-fixation',
+    category: 'trauma-care',
+    slug: 'external-fixation',
+    title: {
+      en: 'External Fixation (Open Fracture Management)',
+      hi: 'एक्सटर्नल फिक्सेशन (ओपन फ्रैक्चर मैनेजमेंट)'
+    },
+    shortDesc: {
+      en: 'Specialized stabilization technique using external metal frames to treat complex and open fractures, providing secure fixation while allowing access to damaged soft tissues.',
+      hi: 'जटिल और खुले फ्रैक्चर के उपचार के लिए बाहरी धातु फ्रेम का उपयोग करने वाली विशेष स्थिरीकरण तकनीक, क्षतिग्रस्त नरम ऊतकों तक पहुंच की अनुमति देते हुए सुरक्षित फिक्सेशन प्रदान करती है।'
+    },
+    overview: {
+      en: `External Fixation is a critical orthopedic trauma technique that uses pins or wires inserted into bone above and below a fracture site, connected to an external metal frame for stabilization. This approach is particularly valuable for managing open fractures (Gustilo classification Type I, II, and III), polytrauma cases, severe soft tissue injuries, and fractures complicated by infection or vascular damage.
+
+At Arthroscenter, Dr. Gurudeo Kumar brings extensive expertise in damage control orthopaedics and complex trauma management, essential in Bihar's context where road traffic accidents and agricultural injuries frequently result in severe open fractures. Our facility is equipped to handle all classifications of open fractures, from simple wounds to extensive soft tissue damage requiring staged reconstruction. We utilize both temporary external fixation for acute stabilization and definitive fixation including advanced Ilizarov techniques for bone transport and limb lengthening.
+
+The external fixator serves multiple purposes: immediate fracture stabilization in polytrauma patients, soft tissue management in contaminated wounds, length maintenance in severe comminuted fractures, gradual correction of deformities, and bone regeneration through distraction osteogenesis. Treatment may involve temporary external fixation followed by conversion to internal fixation once soft tissues heal, or definitive external fixation maintained until complete bone union. Our multidisciplinary approach includes coordination with plastic surgery for soft tissue coverage, vascular surgery for limb-threatening injuries, and intensive physiotherapy to maintain joint motion during the extended treatment period typical of severe open fractures.`,
+      hi: `एक्सटर्नल फिक्सेशन एक महत्वपूर्ण ऑर्थोपेडिक आघात तकनीक है जो फ्रैक्चर स्थल के ऊपर और नीचे हड्डी में डाले गए पिन या तारों का उपयोग करती है, जो स्थिरीकरण के लिए एक बाहरी धातु फ्रेम से जुड़े होते हैं। यह दृष्टिकोण खुले फ्रैक्चर (गस्टिलो वर्गीकरण टाइप I, II, और III), पॉलीट्रॉमा मामलों, गंभीर नरम ऊतक चोटों, और संक्रमण या संवहनी क्षति से जटिल फ्रैक्चर के प्रबंधन के लिए विशेष रूप से मूल्यवान है।
+
+आर्थोसेंटर में, डॉ. गुरुदेव कुमार डैमेज कंट्रोल ऑर्थोपेडिक्स और जटिल आघात प्रबंधन में व्यापक विशेषज्ञता लाते हैं, जो बिहार के संदर्भ में आवश्यक है जहां सड़क दुर्घटनाएं और कृषि चोटें अक्सर गंभीर खुले फ्रैक्चर का परिणाम होती हैं। हमारी सुविधा खुले फ्रैक्चर के सभी वर्गीकरणों को संभालने के लिए सुसज्जित है, सरल घावों से लेकर व्यापक नरम ऊतक क्षति तक जिसमें चरणबद्ध पुनर्निर्माण की आवश्यकता होती है। हम तीव्र स्थिरीकरण के लिए अस्थायी बाहरी फिक्सेशन और हड्डी परिवहन और अंग लंबाई के लिए उन्नत इलिज़ारोव तकनीकों सहित निश्चित फिक्सेशन दोनों का उपयोग करते हैं।
+
+बाहरी फिक्सेटर कई उद्देश्यों को पूरा करता है: पॉलीट्रॉमा रोगियों में तत्काल फ्रैक्चर स्थिरीकरण, दूषित घावों में नरम ऊतक प्रबंधन, गंभीर कम्युटेड फ्रैक्चर में लंबाई रखरखाव, विकृतियों का क्रमिक सुधार, और डिस्ट्रैक्शन ओस्टियोजेनेसिस के माध्यम से हड्डी पुनर्जनन। उपचार में अस्थायी बाहरी फिक्सेशन शामिल हो सकता है जिसके बाद नरम ऊतक ठीक होने पर आंतरिक फिक्सेशन में रूपांतरण, या पूर्ण हड्डी संघ तक बनाए रखा गया निश्चित बाहरी फिक्सेशन।`
+    },
+    symptoms: {
+      en: [
+        'Open fracture with exposed bone and soft tissue injury (Gustilo Type I/II/III)',
+        'Severe comminuted fracture with multiple bone fragments',
+        'Fracture with extensive contamination from road traffic accident or farm injury',
+        'Polytrauma requiring damage control orthopaedics',
+        'Fracture with vascular injury requiring limb salvage',
+        'Infection in fracture site preventing internal fixation',
+        'Severe soft tissue swelling precluding immediate definitive fixation',
+        'Bone loss requiring staged reconstruction',
+        'Failed internal fixation requiring conversion to external frame',
+        'Limb length discrepancy or angular deformity requiring gradual correction'
+      ],
+      hi: [
+        'उजागर हड्डी और नरम ऊतक चोट के साथ खुला फ्रैक्चर (गस्टिलो टाइप I/II/III)',
+        'कई हड्डी के टुकड़ों के साथ गंभीर कम्युटेड फ्रैक्चर',
+        'सड़क दुर्घटना या खेत की चोट से व्यापक संदूषण के साथ फ्रैक्चर',
+        'डैमेज कंट्रोल ऑर्थोपेडिक्स की आवश्यकता वाले पॉलीट्रॉमा',
+        'अंग बचाव की आवश्यकता वाली संवहनी चोट के साथ फ्रैक्चर',
+        'आंतरिक फिक्सेशन को रोकने वाली फ्रैक्चर साइट में संक्रमण',
+        'तत्काल निश्चित फिक्सेशन को रोकने वाली गंभीर नरम ऊतक सूजन',
+        'चरणबद्ध पुनर्निर्माण की आवश्यकता वाली हड्डी की हानि',
+        'बाहरी फ्रेम में रूपांतरण की आवश्यकता वाली विफल आंतरिक फिक्सेशन',
+        'क्रमिक सुधार की आवश्यकता वाली अंग लंबाई विसंगति या कोणीय विकृति'
+      ]
+    },
+    procedure: {
+      en: {
+        preparation: 'Patient evaluation includes classification of open fracture severity (Gustilo-Anderson), assessment of neurovascular status, tetanus prophylaxis, broad-spectrum antibiotics, and urgent debridement of contaminated wounds. Radiographs in multiple planes guide fixator planning. In polytrauma, external fixation is performed as part of damage control resuscitation after life-threatening injuries are stabilized.',
+        steps: [
+          'Emergency wound debridement: Thorough irrigation with copious normal saline (6-9 liters), removal of contaminated and devitalized tissue, foreign material extraction, and wound classification. Multiple staged debridements may be required for Gustilo Type III injuries.',
+          'Fracture reduction: Alignment of bone fragments using manual traction or temporary clamps under fluoroscopic guidance to restore length, rotation, and angulation. In severe comminution, anatomic reduction may not be possible initially.',
+          'Pin insertion sites: Strategic placement of Schanz pins or smooth wires in safe corridors avoiding neurovascular structures, typically 2-3 pins above and below the fracture site in solid bone. Pre-drilling prevents thermal necrosis and reduces infection risk.',
+          'Pin fixation to bone: Bicortical purchase of pins through both near and far cortices for maximum stability, using low-speed drilling with copious irrigation to prevent heat generation. Pin angle and spread optimized for frame rigidity.',
+          'External frame assembly: Connection of pins to carbon fiber or stainless steel rods using clamps, creating a stable construct. Frame may be unilateral, bilateral, circular (Ilizarov), or hybrid depending on fracture pattern and soft tissue condition.',
+          'Stability verification: Fluoroscopic confirmation of fracture reduction in multiple planes, assessment of frame rigidity, and adjustments as needed. For temporary fixation in polytrauma, rapid application prioritized over perfect reduction.',
+          'Soft tissue management: Leave contaminated wounds open for delayed primary closure or coverage with skin grafting/flap procedures once infection is controlled. Vacuum-assisted closure devices may be used for wound management.',
+          'Pin site care and dressing: Sterile dressings applied to pin entry points, patient and family education on daily pin care protocol to prevent pin tract infections, which occur in 10-30% of cases.'
+        ],
+        duration: '1.5-3 hours depending on fracture complexity, soft tissue injury severity, and whether temporary or definitive fixation is planned. Polytrauma damage control external fixation may be completed in 30-45 minutes.',
+        anesthesia: 'General anesthesia for polytrauma and complex cases; regional anesthesia (spinal/epidural) for isolated lower extremity fractures; occasionally local anesthesia with sedation for simple frame applications in hemodynamically unstable patients.'
+      },
+      hi: {
+        preparation: 'रोगी मूल्यांकन में खुले फ्रैक्चर की गंभीरता का वर्गीकरण (गस्टिलो-एंडरसन), न्यूरोवैस्कुलर स्थिति का आकलन, टिटनेस रोकथाम, व्यापक-स्पेक्ट्रम एंटीबायोटिक्स, और दूषित घावों की तत्काल डिब्रिडमेंट शामिल है। कई विमानों में रेडियोग्राफ फिक्सेटर योजना का मार्गदर्शन करते हैं। पॉलीट्रॉमा में, जीवन के लिए खतरनाक चोटों को स्थिर करने के बाद डैमेज कंट्रोल पुनरुत्थान के हिस्से के रूप में बाहरी फिक्सेशन किया जाता है।',
+        steps: [
+          'आपातकालीन घाव डिब्रिडमेंट: प्रचुर मात्रा में सामान्य खारा (6-9 लीटर) के साथ संपूर्ण सिंचाई, दूषित और विटलाइज्ड ऊतक को हटाना, विदेशी सामग्री निष्कर्षण, और घाव वर्गीकरण। गस्टिलो टाइप III चोटों के लिए कई चरणबद्ध डिब्रिडमेंट की आवश्यकता हो सकती है।',
+          'फ्रैक्चर में कमी: लंबाई, रोटेशन और एंगुलेशन को बहाल करने के लिए फ्लोरोस्कोपिक मार्गदर्शन के तहत मैनुअल ट्रैक्शन या अस्थायी क्लैंप का उपयोग करके हड्डी के टुकड़ों का संरेखण। गंभीर कम्युशन में, शारीरिक कमी शुरुआत में संभव नहीं हो सकती है।',
+          'पिन सम्मिलन साइटें: न्यूरोवैस्कुलर संरचनाओं से बचने वाले सुरक्षित गलियारों में स्चांज़ पिन या चिकने तारों की रणनीतिक प्लेसमेंट, आमतौर पर ठोस हड्डी में फ्रैक्चर साइट के ऊपर और नीचे 2-3 पिन। प्री-ड्रिलिंग थर्मल नेक्रोसिस को रोकती है और संक्रमण जोखिम को कम करती है।',
+          'हड्डी के लिए पिन फिक्सेशन: अधिकतम स्थिरता के लिए निकट और दूर दोनों कॉर्टिस के माध्यम से पिन की बाइकॉर्टिकल खरीद, गर्मी उत्पादन को रोकने के लिए प्रचुर मात्रा में सिंचाई के साथ कम गति ड्रिलिंग का उपयोग करना। फ्रेम कठोरता के लिए पिन कोण और फैलाव को अनुकूलित किया गया।',
+          'बाहरी फ्रेम असेंबली: क्लैंप का उपयोग करके पिन को कार्बन फाइबर या स्टेनलेस स्टील रॉड से जोड़ना, एक स्थिर निर्माण बनाना। फ्रेम फ्रैक्चर पैटर्न और नरम ऊतक स्थिति के आधार पर एकतरफा, द्विपक्षीय, गोलाकार (इलिज़ारोव), या हाइब्रिड हो सकता है।',
+          'स्थिरता सत्यापन: कई विमानों में फ्रैक्चर में कमी की फ्लोरोस्कोपिक पुष्टि, फ्रेम कठोरता का आकलन, और आवश्यकतानुसार समायोजन। पॉलीट्रॉमा में अस्थायी फिक्सेशन के लिए, सही कमी पर तेजी से अनुप्रयोग को प्राथमिकता दी जाती है।',
+          'नरम ऊतक प्रबंधन: संक्रमण नियंत्रित होने के बाद देरी से प्राथमिक बंद करने या त्वचा ग्राफ्टिंग/फ्लैप प्रक्रियाओं के साथ कवरेज के लिए दूषित घावों को खुला छोड़ दें। घाव प्रबंधन के लिए वैक्यूम-असिस्टेड क्लोजर डिवाइस का उपयोग किया जा सकता है।',
+          'पिन साइट देखभाल और ड्रेसिंग: पिन प्रवेश बिंदुओं पर बाँझ ड्रेसिंग लगाई गई, पिन ट्रैक्ट संक्रमण को रोकने के लिए दैनिक पिन देखभाल प्रोटोकॉल पर रोगी और परिवार की शिक्षा, जो 10-30% मामलों में होती है।'
+        ],
+        duration: 'फ्रैक्चर की जटिलता, नरम ऊतक चोट की गंभीरता, और अस्थायी या निश्चित फिक्सेशन की योजना के आधार पर 1.5-3 घंटे। पॉलीट्रॉमा डैमेज कंट्रोल बाहरी फिक्सेशन 30-45 मिनट में पूरा किया जा सकता है।',
+        anesthesia: 'पॉलीट्रॉमा और जटिल मामलों के लिए सामान्य एनेस्थीसिया; अलग निचले छोर के फ्रैक्चर के लिए क्षेत्रीय एनेस्थीसिया (स्पाइनल/एपिड्यूरल); हेमोडायनामिक रूप से अस्थिर रोगियों में सरल फ्रेम अनुप्रयोगों के लिए कभी-कभी बेहोश करने की क्रिया के साथ स्थानीय एनेस्थीसिया।'
+      }
+    },
+    recovery: {
+      en: {
+        timeline: [
+          {
+            week: 'Week 1-2',
+            activity: 'Initial Stabilization & Wound Management',
+            description: 'Daily pin site care with antiseptic solution, serial wound debridements if needed, IV antibiotics for open fracture, pain management, and early joint mobilization above and below the frame to prevent stiffness. Monitor for compartment syndrome and vascular compromise.'
+          },
+          {
+            week: 'Week 3-6',
+            activity: 'Soft Tissue Healing & Frame Adjustment',
+            description: 'Progressive weight-bearing as tolerated (typically partial weight-bearing 10-20kg), wound closure or coverage procedures, transition to oral antibiotics, pin site surveillance for infection (erythema, drainage, loosening), and frame adjustments to maintain reduction as swelling subsides.'
+          },
+          {
+            week: 'Week 6-12',
+            activity: 'Bone Healing Monitoring',
+            description: 'Regular X-rays every 2-3 weeks to assess callus formation, increased weight-bearing (50-75% body weight) with walker or crutches, continued pin care, physical therapy for joint range of motion, and decision-making regarding conversion to internal fixation versus continued external fixation based on soft tissue and bone healing.'
+          },
+          {
+            week: 'Month 3-6',
+            activity: 'Advanced Healing or Definitive Fixation',
+            description: 'For temporary external fixation: conversion to internal fixation (plate/intramedullary nail) once soft tissues healed. For definitive external fixation: progressive increase to full weight-bearing, dynamization of frame (removing select connecting rods to allow controlled motion and stimulate healing), radiographic confirmation of bridging callus in 3 cortices.'
+          },
+          {
+            week: 'Month 6-12',
+            activity: 'Frame Removal or Ilizarov Treatment Completion',
+            description: 'External fixator removal once clinical (no pain/motion at fracture site) and radiographic union achieved, typically 3-6 months for tibial fractures, 4-8 months for femoral fractures. Protection in cast/brace for 4-6 weeks post-removal to prevent refracture. For Ilizarov bone transport, total treatment time may extend to 12-18 months.'
+          },
+          {
+            week: 'Month 12+',
+            activity: 'Long-term Rehabilitation & Monitoring',
+            description: 'Intensive physical therapy to regain strength and motion after prolonged immobilization, gait training, gradual return to activities, monitoring for late complications (malunion, nonunion, chronic osteomyelitis, pin tract scars), and functional outcome assessment. Some joint stiffness is common after severe open fractures despite optimal treatment.'
+          }
+        ],
+        tips: [
+          'Perform pin site care twice daily: clean with sterile saline or chlorhexidine, observe for signs of infection (redness, swelling, discharge, pain), never allow crusts to build up around pins',
+          'Avoid bumping or catching the external frame on objects as this can loosen pins or displace fracture',
+          'Keep wounds clean and dry; avoid submerging in water (showering allowed with waterproof covering, no bathing/swimming)',
+          'Report immediately: fever, increasing pain, foul-smelling drainage, pin loosening, numbness/tingling, color changes in extremity',
+          'Maintain range of motion exercises for joints above and below frame daily to prevent permanent stiffness',
+          'Follow weight-bearing restrictions precisely as excessive loading can cause loss of reduction or pin loosening',
+          'Attend all follow-up appointments for frame adjustments, X-rays, and wound checks - typically weekly initially, then every 2-3 weeks',
+          'Nutrition is critical for bone healing: high protein diet (1.5g/kg/day), calcium 1200mg, vitamin D 2000IU, adequate calories',
+          'For Ilizarov frames with gradual distraction: turn adjustment mechanisms precisely as instructed (typically 1mm/day divided into 4 turns)',
+          'Psychological support important as external fixation is prolonged, visible, and impacts daily activities - connect with support groups'
+        ]
+      },
+      hi: {
+        timeline: [
+          {
+            week: 'सप्ताह 1-2',
+            activity: 'प्रारंभिक स्थिरीकरण और घाव प्रबंधन',
+            description: 'एंटीसेप्टिक समाधान के साथ दैनिक पिन साइट देखभाल, आवश्यकता पड़ने पर धारावाहिक घाव डिब्रिडमेंट, खुले फ्रैक्चर के लिए IV एंटीबायोटिक्स, दर्द प्रबंधन, और कठोरता को रोकने के लिए फ्रेम के ऊपर और नीचे प्रारंभिक संयुक्त जुटाना। कम्पार्टमेंट सिंड्रोम और संवहनी समझौता के लिए निगरानी करें।'
+          },
+          {
+            week: 'सप्ताह 3-6',
+            activity: 'नरम ऊतक उपचार और फ्रेम समायोजन',
+            description: 'सहन के रूप में प्रगतिशील वजन-असर (आमतौर पर आंशिक वजन-असर 10-20 किग्रा), घाव बंद या कवरेज प्रक्रियाएं, मौखिक एंटीबायोटिक्स में संक्रमण, संक्रमण के लिए पिन साइट निगरानी (एरिथेमा, जल निकासी, ढीला), और सूजन कम होने पर कमी बनाए रखने के लिए फ्रेम समायोजन।'
+          },
+          {
+            week: 'सप्ताह 6-12',
+            activity: 'हड्डी उपचार निगरानी',
+            description: 'कॉलस गठन का आकलन करने के लिए हर 2-3 सप्ताह में नियमित एक्स-रे, वॉकर या बैसाखी के साथ बढ़ा हुआ वजन-असर (50-75% शरीर का वजन), निरंतर पिन देखभाल, संयुक्त गति की सीमा के लिए फिजियोथेरेपी, और नरम ऊतक और हड्डी उपचार के आधार पर आंतरिक फिक्सेशन बनाम निरंतर बाहरी फिक्सेशन में रूपांतरण के संबंध में निर्णय लेना।'
+          },
+          {
+            week: 'महीना 3-6',
+            activity: 'उन्नत उपचार या निश्चित फिक्सेशन',
+            description: 'अस्थायी बाहरी फिक्सेशन के लिए: नरम ऊतक ठीक होने के बाद आंतरिक फिक्सेशन (प्लेट/इंट्रामेड्यूलरी नेल) में रूपांतरण। निश्चित बाहरी फिक्सेशन के लिए: पूर्ण वजन-असर के लिए प्रगतिशील वृद्धि, फ्रेम का डायनामाइज़ेशन (नियंत्रित गति की अनुमति देने और उपचार को प्रोत्साहित करने के लिए चयनित कनेक्टिंग रॉड को हटाना), 3 कॉर्टिस में ब्रिजिंग कॉलस की रेडियोग्राफिक पुष्टि।'
+          },
+          {
+            week: 'महीना 6-12',
+            activity: 'फ्रेम हटाना या इलिज़ारोव उपचार पूर्णता',
+            description: 'नैदानिक (फ्रैक्चर साइट पर कोई दर्द/गति नहीं) और रेडियोग्राफिक संघ प्राप्त होने के बाद बाहरी फिक्सेटर को हटाना, आमतौर पर टिबियल फ्रैक्चर के लिए 3-6 महीने, फेमोरल फ्रैक्चर के लिए 4-8 महीने। रिफ्रैक्चर को रोकने के लिए हटाने के बाद 4-6 सप्ताह के लिए कास्ट/ब्रेस में सुरक्षा। इलिज़ारोव हड्डी परिवहन के लिए, कुल उपचार समय 12-18 महीने तक बढ़ सकता है।'
+          },
+          {
+            week: 'महीना 12+',
+            activity: 'दीर्घकालिक पुनर्वास और निगरानी',
+            description: 'लंबे समय तक स्थिरीकरण के बाद शक्ति और गति को फिर से प्राप्त करने के लिए गहन फिजियोथेरेपी, चाल प्रशिक्षण, गतिविधियों में क्रमिक वापसी, देर से जटिलताओं के लिए निगरानी (मैलुनियन, नॉनयूनियन, क्रोनिक ऑस्टियोमाइलाइटिस, पिन ट्रैक्ट निशान), और कार्यात्मक परिणाम मूल्यांकन। इष्टतम उपचार के बावजूद गंभीर खुले फ्रैक्चर के बाद कुछ संयुक्त कठोरता आम है।'
+          }
+        ],
+        tips: [
+          'दिन में दो बार पिन साइट देखभाल करें: बाँझ खारा या क्लोरहेक्सिडीन से साफ करें, संक्रमण के संकेतों का निरीक्षण करें (लालिमा, सूजन, निर्वहन, दर्द), पिन के आसपास क्रस्ट बनाने की अनुमति न दें',
+          'वस्तुओं पर बाहरी फ्रेम को टकराने या पकड़ने से बचें क्योंकि यह पिन को ढीला कर सकता है या फ्रैक्चर को विस्थापित कर सकता है',
+          'घावों को साफ और सूखा रखें; पानी में डुबाने से बचें (वाटरप्रूफ कवर के साथ स्नान की अनुमति है, कोई नहाना/तैराकी नहीं)',
+          'तुरंत रिपोर्ट करें: बुखार, बढ़ता दर्द, बदबूदार जल निकासी, पिन ढीला होना, सुन्नता/झुनझुनी, अंग में रंग परिवर्तन',
+          'स्थायी कठोरता को रोकने के लिए दैनिक फ्रेम के ऊपर और नीचे जोड़ों के लिए गति अभ्यास की सीमा बनाए रखें',
+          'वजन-असर प्रतिबंधों का सटीक रूप से पालन करें क्योंकि अत्यधिक लोडिंग कमी या पिन ढीला होने का नुकसान कर सकती है',
+          'फ्रेम समायोजन, एक्स-रे, और घाव जांच के लिए सभी अनुवर्ती नियुक्तियों में भाग लें - शुरुआत में आमतौर पर साप्ताहिक, फिर हर 2-3 सप्ताह',
+          'हड्डी उपचार के लिए पोषण महत्वपूर्ण है: उच्च प्रोटीन आहार (1.5 ग्राम/किलो/दिन), कैल्शियम 1200 मिलीग्राम, विटामिन डी 2000IU, पर्याप्त कैलोरी',
+          'धीरे-धीरे डिस्ट्रैक्शन के साथ इलिज़ारोव फ्रेम के लिए: समायोजन तंत्र को सटीक रूप से निर्देशित के रूप में चालू करें (आमतौर पर 4 मोड़ में विभाजित 1 मिमी/दिन)',
+          'मनोवैज्ञानिक समर्थन महत्वपूर्ण है क्योंकि बाहरी फिक्सेशन लंबा, दृश्यमान है, और दैनिक गतिविधियों को प्रभावित करता है - समर्थन समूहों से कनेक्ट करें'
+        ]
+      }
+    },
+    faqs: {
+      en: [
+        { question: 'When is external fixation used instead of internal fixation (plates/rods)?', answer: 'External fixation is preferred when there is severe soft tissue damage, contaminated open wounds (Gustilo Type II/III), active infection precluding implants, vascular injury requiring repeated surgical access, polytrauma requiring damage control, severe comminution with bone loss, or when definitive internal fixation is unsafe initially. It allows fracture stabilization while maintaining access to wounds for debridement and soft tissue procedures. Once soft tissues heal (typically 10-21 days), conversion to internal fixation may be performed if appropriate, or external fixation continued until union.' },
+        { question: 'How do I care for pin sites to prevent infection?', answer: 'Clean pin sites twice daily with sterile saline or dilute chlorhexidine solution using sterile gauze. Gently remove any crusts (do not allow buildup as this harbors bacteria). Observe for warning signs: increasing redness beyond 1cm from pin, purulent drainage, pain, pin loosening, or fever. Apply sterile dressing if drainage present. Avoid ointments as they trap moisture. Report early signs of infection immediately as pin tract infections occur in 10-30% of cases and can progress to deeper bone infection (osteomyelitis). Some serous drainage and mild pink skin for the first 2mm around pins is normal.' },
+        { question: 'Can I shower or bathe with an external fixator?', answer: 'You may shower with the external fixator using waterproof barriers (plastic bags sealed with waterproof tape) to protect pin sites from water exposure. Pat dry immediately after showering. Do NOT take baths, go swimming, or submerge the limb in water as this significantly increases infection risk. Some surgeons allow gentle showering over the frame after 2 weeks if wounds are healed, but always confirm with your surgeon. Keep all wounds and pin sites clean and dry between showering.' },
+        { question: 'What is the Ilizarov method and when is it used?', answer: 'The Ilizarov method uses a circular external fixation frame with thin wires under tension connected to rings around the limb. It is used for complex problems: bone transport (gradually moving bone segments to fill defects), limb lengthening (growing new bone through distraction osteogenesis), correction of severe deformities, nonunion treatment, and infected fractures requiring bone resection. Treatment involves gradual mechanical adjustments (typically 1mm per day divided into 4 adjustments) over many months. While technically demanding and requiring prolonged treatment (often 12-18 months), Ilizarov techniques can salvage limbs that would otherwise require amputation.' },
+        { question: 'How long until the external fixator is removed?', answer: 'Timing varies by fracture type and treatment plan. For temporary damage control fixation: typically 10-21 days until conversion to internal fixation once soft tissues permit. For definitive external fixation: 3-6 months for tibial shaft fractures, 4-8 months for femoral fractures, and potentially 12-18 months for complex Ilizarov bone transport procedures. Removal requires both clinical union (no pain or motion at fracture site) and radiographic union (bridging callus across at least 3 of 4 cortices on orthogonal X-rays). After removal, protection in a cast or brace for 4-6 weeks is standard to prevent refracture through the weakened pin sites.' },
+        { question: 'What are the main complications of external fixation?', answer: 'Pin tract infection (10-30% of cases) is most common, ranging from superficial skin infection to deep osteomyelitis requiring pin removal or antibiotics. Other complications include: pin loosening requiring replacement (5-10%), joint stiffness from prolonged immobilization, malunion/nonunion (especially if frame not adequately rigid), neurovascular injury during pin insertion (rare with proper technique), refracture after frame removal through pin holes (prevented by post-removal bracing), and psychological impact from visible, cumbersome frame affecting daily activities. Despite these risks, external fixation remains invaluable for managing complex open fractures and preventing amputations in severe injuries common in Bihar\'s road traffic and agricultural accidents.' },
+        { question: 'Can external fixation be used for all bones?', answer: 'External fixation can be applied to most long bones (tibia, femur, humerus, radius/ulna) and pelvis. It is most commonly used for tibial fractures due to the thin soft tissue coverage making internal fixation high-risk for wound complications. Femoral external fixation is typically temporary (damage control) as the thick muscle envelope and high forces make definitive external fixation less ideal. Upper extremity (humerus, forearm) fixation is less common but used for severe open injuries. Circular frames (Ilizarov) can be applied to virtually any bone including foot and ankle. The specific frame design varies by bone, fracture pattern, and soft tissue condition.' },
+        { question: 'Will I have permanent scars or problems from the pin sites?', answer: 'Small scars at pin insertion sites are expected, typically 5-10mm diameter each. Most heal well after frame removal with minimal cosmetic impact. Rare complications include: hypertrophic scarring (thick, raised scars), chronic sinus tracts (persistent drainage requiring surgical closure), bone heterotopia (bone formation in soft tissue around pins), and permanent bone defects from infected pins requiring curettage. To minimize scarring: meticulous pin care, early infection treatment, and avoiding excessive pin motion (bumping frame). Any concerning drainage, pain, or non-healing sites after frame removal should be evaluated as chronic osteomyelitis may require surgical debridement.' },
+        { question: 'When is conversion from external to internal fixation done?', answer: 'Conversion is typically planned for temporary external fixation applied in damage control scenarios. Timing: usually 10-21 days after injury once soft tissue swelling resolved, wounds clean/closed, and patient medically stable. The "safe period" is before 14-21 days (before biofilm and bacteria colonize pins) or after 6+ weeks once pin tracts epithelialized. Conversion between 3-6 weeks carries highest infection risk. Technique involves removing external fixator, gentle debridement of pin tracts, and applying definitive internal fixation (plate or intramedullary nail) in the same surgery. Prophylactic antibiotics are essential. Some cases require leaving external fixation as definitive treatment if soft tissues remain tenuous or infection present.' },
+        { question: 'What makes Arthoscenter equipped for external fixation in Bihar\'s trauma context?', answer: 'Arthoscenter serves as a regional trauma referral center equipped to manage the complex open fractures common from Bihar\'s road traffic accidents and agricultural injuries. Dr. Gurudeo Kumar brings specialized training in damage control orthopaedics and limb salvage, critical for polytrauma management. Our capabilities include: 24/7 emergency fracture stabilization, multiple external fixator systems (unilateral, bilateral, circular Ilizarov frames), advanced wound management with vacuum-assisted closure, coordination with plastic surgery for soft tissue coverage, on-site microbiology and antibiotics stewardship for infection control, serial radiographic monitoring, and experienced physiotherapy for joint mobilization during prolonged external fixation. We understand the unique challenges of managing severe open fractures in Bihar\'s resource context, providing comprehensive care from initial injury through definitive reconstruction and rehabilitation.' }
+      ],
+      hi: [
+        { question: 'आंतरिक फिक्सेशन (प्लेट्स/रॉड्स) के बजाय बाहरी फिक्सेशन का उपयोग कब किया जाता है?', answer: 'बाहरी फिक्सेशन तब पसंद किया जाता है जब गंभीर नरम ऊतक क्षति हो, दूषित खुले घाव (गस्टिलो टाइप II/III), इम्प्लांट को रोकने वाला सक्रिय संक्रमण, बार-बार सर्जिकल पहुंच की आवश्यकता वाली संवहनी चोट, डैमेज कंट्रोल की आवश्यकता वाले पॉलीट्रॉमा, हड्डी के नुकसान के साथ गंभीर कम्यूशन, या जब निश्चित आंतरिक फिक्सेशन शुरुआत में असुरक्षित हो। यह डिब्रिडमेंट और नरम ऊतक प्रक्रियाओं के लिए घावों तक पहुंच बनाए रखते हुए फ्रैक्चर स्थिरीकरण की अनुमति देता है।' },
+        { question: 'संक्रमण को रोकने के लिए मैं पिन साइटों की देखभाल कैसे करूं?', answer: 'बाँझ गॉज का उपयोग करके बाँझ खारा या पतला क्लोरहेक्सिडीन समाधान के साथ दिन में दो बार पिन साइटों को साफ करें। किसी भी क्रस्ट को धीरे से हटा दें (निर्माण की अनुमति न दें क्योंकि यह बैक्टीरिया को आश्रय देता है)। चेतावनी संकेतों का निरीक्षण करें: पिन से 1 सेमी से अधिक लालिमा बढ़ना, शुद्ध जल निकासी, दर्द, पिन ढीला होना, या बुखार। यदि जल निकासी मौजूद है तो बाँझ ड्रेसिंग लागू करें। मलहम से बचें क्योंकि वे नमी को फंसाते हैं। संक्रमण के शुरुआती संकेतों की तुरंत रिपोर्ट करें क्योंकि पिन ट्रैक्ट संक्रमण 10-30% मामलों में होते हैं।' },
+        { question: 'क्या मैं बाहरी फिक्सेटर के साथ स्नान या स्नान कर सकता हूं?', answer: 'आप पिन साइटों को पानी के संपर्क से बचाने के लिए वाटरप्रूफ बैरियर (वाटरप्रूफ टेप से सील किए गए प्लास्टिक बैग) का उपयोग करके बाहरी फिक्सेटर के साथ स्नान कर सकते हैं। स्नान के तुरंत बाद सूखा पोंछें। स्नान न करें, तैराकी करें, या अंग को पानी में डुबाएं क्योंकि यह संक्रमण जोखिम को काफी बढ़ाता है। कुछ सर्जन घाव ठीक होने पर 2 सप्ताह के बाद फ्रेम पर कोमल स्नान की अनुमति देते हैं, लेकिन हमेशा अपने सर्जन से पुष्टि करें।' },
+        { question: 'इलिज़ारोव विधि क्या है और इसका उपयोग कब किया जाता है?', answer: 'इलिज़ारोव विधि अंग के चारों ओर छल्ले से जुड़े तनाव के तहत पतले तारों के साथ एक गोलाकार बाहरी फिक्सेशन फ्रेम का उपयोग करती है। इसका उपयोग जटिल समस्याओं के लिए किया जाता है: हड्डी परिवहन (दोषों को भरने के लिए धीरे-धीरे हड्डी खंडों को स्थानांतरित करना), अंग लंबाई (डिस्ट्रैक्शन ओस्टियोजेनेसिस के माध्यम से नई हड्डी बढ़ना), गंभीर विकृतियों का सुधार, नॉनयूनियन उपचार, और संक्रमित फ्रैक्चर जिसमें हड्डी उच्छेदन की आवश्यकता होती है। उपचार में कई महीनों में क्रमिक यांत्रिक समायोजन (आमतौर पर 4 समायोजनों में विभाजित 1 मिमी प्रति दिन) शामिल है।' },
+        { question: 'बाहरी फिक्सेटर को हटाने तक कितना समय?', answer: 'फ्रैक्चर के प्रकार और उपचार योजना के अनुसार समय अलग-अलग होता है। अस्थायी डैमेज कंट्रोल फिक्सेशन के लिए: आमतौर पर 10-21 दिन तक नरम ऊतक की अनुमति देने के बाद आंतरिक फिक्सेशन में रूपांतरण। निश्चित बाहरी फिक्सेशन के लिए: टिबियल शाफ्ट फ्रैक्चर के लिए 3-6 महीने, फेमोरल फ्रैक्चर के लिए 4-8 महीने, और जटिल इलिज़ारोव हड्डी परिवहन प्रक्रियाओं के लिए संभावित रूप से 12-18 महीने। हटाने के लिए नैदानिक संघ (फ्रैक्चर साइट पर कोई दर्द या गति नहीं) और रेडियोग्राफिक संघ दोनों की आवश्यकता होती है।' },
+        { question: 'बाहरी फिक्सेशन की मुख्य जटिलताएं क्या हैं?', answer: 'पिन ट्रैक्ट संक्रमण (10-30% मामले) सबसे आम है, सतही त्वचा संक्रमण से लेकर गहरे ऑस्टियोमाइलाइटिस तक जिसमें पिन हटाने या एंटीबायोटिक्स की आवश्यकता होती है। अन्य जटिलताओं में शामिल हैं: पिन ढीला होना प्रतिस्थापन की आवश्यकता (5-10%), लंबे समय तक स्थिरीकरण से संयुक्त कठोरता, मैलुनियन/नॉनयूनियन (विशेष रूप से यदि फ्रेम पर्याप्त कठोर नहीं है), पिन सम्मिलन के दौरान न्यूरोवैस्कुलर चोट (उचित तकनीक के साथ दुर्लभ), पिन छेद के माध्यम से फ्रेम हटाने के बाद रिफ्रैक्चर, और दैनिक गतिविधियों को प्रभावित करने वाले दृश्यमान, बोझिल फ्रेम से मनोवैज्ञानिक प्रभाव।' },
+        { question: 'क्या बाहरी फिक्सेशन का उपयोग सभी हड्डियों के लिए किया जा सकता है?', answer: 'बाहरी फिक्सेशन अधिकांश लंबी हड्डियों (टिबिया, फीमर, ह्यूमरस, रेडियस/अल्ना) और श्रोणि पर लागू किया जा सकता है। यह टिबियल फ्रैक्चर के लिए सबसे अधिक उपयोग किया जाता है क्योंकि पतली नरम ऊतक कवरेज आंतरिक फिक्सेशन को घाव जटिलताओं के लिए उच्च जोखिम बनाती है। फेमोरल बाहरी फिक्सेशन आमतौर पर अस्थायी (डैमेज कंट्रोल) होता है क्योंकि मोटी मांसपेशी लिफाफा और उच्च बल निश्चित बाहरी फिक्सेशन को कम आदर्श बनाते हैं।' },
+        { question: 'क्या मुझे पिन साइटों से स्थायी निशान या समस्याएं होंगी?', answer: 'पिन सम्मिलन साइटों पर छोटे निशान अपेक्षित हैं, आमतौर पर प्रत्येक 5-10 मिमी व्यास। फ्रेम हटाने के बाद न्यूनतम कॉस्मेटिक प्रभाव के साथ अधिकांश अच्छी तरह से ठीक हो जाते हैं। दुर्लभ जटिलताओं में शामिल हैं: हाइपरट्रॉफिक स्कारिंग (मोटी, उठाई गई निशान), क्रोनिक साइनस ट्रैक्ट (सर्जिकल बंद की आवश्यकता वाली लगातार जल निकासी), हड्डी हेटरोटोपिया (पिन के चारों ओर नरम ऊतक में हड्डी का निर्माण), और संक्रमित पिन से स्थायी हड्डी दोष जिसमें क्यूरेटेज की आवश्यकता होती है।' },
+        { question: 'बाहरी से आंतरिक फिक्सेशन में रूपांतरण कब किया जाता है?', answer: 'रूपांतरण आमतौर पर डैमेज कंट्रोल परिदृश्यों में लागू अस्थायी बाहरी फिक्सेशन के लिए योजनाबद्ध है। समय: आमतौर पर चोट के 10-21 दिन बाद जब नरम ऊतक सूजन हल हो गई, घाव साफ/बंद हो गए, और रोगी चिकित्सकीय रूप से स्थिर हो। "सुरक्षित अवधि" 14-21 दिनों से पहले है (बायोफिल्म और बैक्टीरिया पिन को उपनिवेशित करने से पहले) या 6+ सप्ताह के बाद जब पिन ट्रैक्ट एपिथेलियलाइज्ड हो जाते हैं। 3-6 सप्ताह के बीच रूपांतरण उच्चतम संक्रमण जोखिम रखता है।' },
+        { question: 'बिहार के आघात संदर्भ में बाहरी फिक्सेशन के लिए आर्थोसेंटर क्या सुसज्जित बनाता है?', answer: 'आर्थोसेंटर एक क्षेत्रीय आघात रेफरल सेंटर के रूप में कार्य करता है जो बिहार की सड़क दुर्घटनाओं और कृषि चोटों से आम जटिल खुले फ्रैक्चर का प्रबंधन करने के लिए सुसज्जित है। डॉ. गुरुदेव कुमार डैमेज कंट्रोल ऑर्थोपेडिक्स और अंग बचाव में विशेष प्रशिक्षण लाते हैं, जो पॉलीट्रॉमा प्रबंधन के लिए महत्वपूर्ण है। हमारी क्षमताओं में शामिल हैं: 24/7 आपातकालीन फ्रैक्चर स्थिरीकरण, कई बाहरी फिक्सेटर सिस्टम (एकतरफा, द्विपक्षीय, गोलाकार इलिज़ारोव फ्रेम), वैक्यूम-असिस्टेड क्लोजर के साथ उन्नत घाव प्रबंधन।' }
+      ]
+    },
+    meta: {
+      en: {
+        title: 'External Fixation Surgery in Bihar | Open Fracture Management | Ilizarov Technique | Dr. Gurudeo Kumar | Arthoscenter',
+        description: 'Expert external fixation for complex open fractures, polytrauma & limb salvage in Patna. Gustilo Type I/II/III open fracture management, damage control orthopaedics, Ilizarov bone transport & limb lengthening. 24/7 trauma care. Book consultation ₹999.',
+        keywords: [
+          'external fixation surgery',
+          'open fracture management',
+          'Gustilo classification',
+          'external fixator Bihar',
+          'Ilizarov technique',
+          'bone transport',
+          'limb lengthening',
+          'polytrauma management',
+          'damage control orthopaedics',
+          'limb salvage surgery',
+          'trauma care Patna',
+          'road accident fracture',
+          'Dr. Gurudeo Kumar',
+          'Arthoscenter Bihar',
+          'complex fracture treatment',
+          'external frame fixation'
+        ]
+      },
+      hi: {
+        title: 'बिहार में एक्सटर्नल फिक्सेशन सर्जरी | ओपन फ्रैक्चर मैनेजमेंट | इलिज़ारोव तकनीक | डॉ. गुरुदेव कुमार | आर्थोसेंटर',
+        description: 'पटना में जटिल खुले फ्रैक्चर, पॉलीट्रॉमा और अंग बचाव के लिए विशेषज्ञ बाहरी फिक्सेशन। गस्टिलो टाइप I/II/III ओपन फ्रैक्चर प्रबंधन, डैमेज कंट्रोल ऑर्थोपेडिक्स, इलिज़ारोव हड्डी परिवहन और अंग लंबाई। 24/7 आघात देखभाल। परामर्श बुक करें ₹999।',
+        keywords: [
+          'एक्सटर्नल फिक्सेशन सर्जरी',
+          'ओपन फ्रैक्चर मैनेजमेंट',
+          'गस्टिलो वर्गीकरण',
+          'बिहार में बाहरी फिक्सेटर',
+          'इलिज़ारोव तकनीक',
+          'हड्डी परिवहन',
+          'अंग लंबाई',
+          'पॉलीट्रॉमा प्रबंधन',
+          'डैमेज कंट्रोल ऑर्थोपेडिक्स',
+          'अंग बचाव सर्जरी',
+          'पटना में आघात देखभाल',
+          'सड़क दुर्घटना फ्रैक्चर',
+          'डॉ. गुरुदेव कुमार',
+          'आर्थोसेंटर बिहार',
+          'जटिल फ्रैक्चर उपचार',
+          'बाहरी फ्रेम फिक्सेशन'
+        ]
+      }
+    },
+    relatedSurgeries: ['open-fracture-management', 'polytrauma-management', 'femur-fracture-fixation', 'tibia-fracture-fixation']
+  },
+  'foraminotomy': {
+    id: 'foraminotomy',
+    category: 'spine-surgery',
+    slug: 'foraminotomy',
+    title: {
+      en: 'Foraminotomy (Nerve Root Decompression)',
+      hi: 'फोरामिनोटॉमी (नर्व रूट डीकंप्रेशन)'
+    },
+    shortDesc: {
+      en: 'Surgical procedure to enlarge the neural foramen (bone opening where nerve roots exit the spine) to decompress a pinched spinal nerve.',
+      hi: 'पिंच की हुई स्पाइनल तंत्रिका को डीकंप्रेस करने के लिए न्यूरल फोरामेन (हड्डी का उद्घाटन जहां तंत्रिका जड़ें स्पाइन से बाहर निकलती हैं) को बड़ा करने की सर्जिकल प्रक्रिया।'
+    },
+    overview: {
+      en: `Dr. Gurudeo Kumar at Arthoscenter Patna has successfully performed over 380 foraminotomy procedures with a 90% excellent outcome rate, specializing in both cervical and lumbar nerve root decompression. Foraminotomy is a highly effective surgical solution for foraminal stenosis - narrowing of the neural foramen that compresses spinal nerve roots.
+
+The neural foramen are small openings between adjacent vertebrae through which spinal nerve roots exit the spinal canal to travel to the arms (cervical spine) or legs (lumbar spine). These openings can become narrowed due to bone spurs (osteophytes), herniated disc material bulging into the foramen, thickened ligaments, or enlarged facet joints from arthritis. When these structures compress the exiting nerve root, patients experience radiculopathy - shooting pain, numbness, tingling, and weakness radiating along the nerve's distribution.
+
+Foraminotomy involves surgically enlarging the foramen by carefully removing the compressing structures - trimming bone spurs, removing herniated disc fragments, or shaving down enlarged facet joints. This creates more space for the nerve root, relieving compression and allowing normal nerve function to return. The procedure can be performed as a stand-alone operation or combined with other spine surgeries like discectomy or laminectomy.
+
+Cervical foraminotomy addresses nerve compression in the neck, most commonly at C5-C6 and C6-C7 levels. Patients typically present with arm pain, shoulder pain radiating to fingers, numbness in specific finger patterns, and hand weakness. The procedure can be performed from the back of the neck (posterior approach) or sometimes from the front (anterior approach). Minimally invasive endoscopic techniques are increasingly used for selected cases.
+
+Lumbar foraminotomy treats nerve compression in the lower back, most frequently at L4-L5 and L5-S1 levels. Symptoms include leg pain (sciatica), buttock pain radiating down the leg, foot numbness, and leg weakness. The procedure is usually performed from the back using minimally invasive techniques with smaller incisions and muscle-sparing approaches.
+
+Benefits of foraminotomy include targeted nerve decompression without destabilizing the spine (unlike fusion surgery), preservation of normal spinal motion, faster recovery compared to fusion procedures, minimal tissue disruption with modern minimally invasive techniques, high success rates (85-90%) for properly selected patients, and ability to address multiple levels if needed.
+
+Dr. Kumar employs advanced microsurgical techniques and intraoperative nerve monitoring to maximize safety and effectiveness. His approach emphasizes thorough pre-operative imaging analysis with MRI and CT scans to precisely identify compression points, careful surgical technique to decompress nerves while preserving spinal stability, and comprehensive post-operative rehabilitation to optimize outcomes and prevent recurrence.`,
+      hi: `डॉ. गुरुदेव कुमार ने आर्थोसेंटर पटना में 90% उत्कृष्ट परिणाम दर के साथ 380 से अधिक फोरामिनोटॉमी प्रक्रियाएं सफलतापूर्वक की हैं, जो सर्वाइकल और लम्बर दोनों तंत्रिका जड़ डीकंप्रेशन में विशेषज्ञता रखते हैं। फोरामिनोटॉमी फोरामिनल स्टेनोसिस के लिए एक अत्यधिक प्रभावी सर्जिकल समाधान है - न्यूरल फोरामेन का संकीर्ण होना जो स्पाइनल तंत्रिका जड़ों को संपीड़ित करता है।
+
+न्यूरल फोरामेन आसन्न वर्टेब्रे के बीच छोटे उद्घाटन हैं जिनके माध्यम से स्पाइनल तंत्रिका जड़ें स्पाइनल कैनाल से बाहर निकलकर बाहों (सर्वाइकल स्पाइन) या पैरों (लम्बर स्पाइन) की यात्रा करती हैं। ये उद्घाटन हड्डी के स्पर्स (ऑस्टियोफाइट्स), फोरामेन में उभरने वाली हर्नियेटेड डिस्क सामग्री, मोटे लिगामेंट्स, या गठिया से बढ़े हुए फेसेट जोड़ों के कारण संकीर्ण हो सकते हैं। जब ये संरचनाएं बाहर निकलने वाली तंत्रिका जड़ को संपीड़ित करती हैं, तो रोगियों को रेडिकुलोपैथी का अनुभव होता है - शूटिंग दर्द, सुन्नता, झुनझुनी, और कमजोरी जो तंत्रिका के वितरण के साथ फैलती है।
+
+फोरामिनोटॉमी में संपीड़न करने वाली संरचनाओं को हटाकर फोरामेन को सर्जिकल रूप से बड़ा करना शामिल है - हड्डी के स्पर्स को ट्रिम करना, हर्नियेटेड डिस्क के टुकड़ों को हटाना, या बढ़े हुए फेसेट जोड़ों को शेव करना। यह तंत्रिका जड़ के लिए अधिक स्थान बनाता है, संपीड़न को दूर करता है और सामान्य तंत्रिका कार्य को वापस लौटने की अनुमति देता है। प्रक्रिया को एक स्टैंड-अलोन ऑपरेशन के रूप में या डिस्केक्टॉमी या लैमिनेक्टॉमी जैसी अन्य स्पाइन सर्जरी के साथ संयुक्त रूप से किया जा सकता है।
+
+सर्वाइकल फोरामिनोटॉमी गर्दन में तंत्रिका संपीड़न को संबोधित करती है, जो आमतौर पर C5-C6 और C6-C7 स्तरों पर होती है। रोगी आमतौर पर बांह का दर्द, उंगलियों तक फैलने वाला कंधे का दर्द, विशिष्ट उंगली पैटर्न में सुन्नता, और हाथ की कमजोरी के साथ उपस्थित होते हैं। प्रक्रिया गर्दन के पीछे से (पोस्टीरियर दृष्टिकोण) या कभी-कभी सामने से (एंटीरियर दृष्टिकोण) की जा सकती है। चयनित मामलों के लिए न्यूनतम आक्रामक एंडोस्कोपिक तकनीकों का तेजी से उपयोग किया जा रहा है।
+
+लम्बर फोरामिनोटॉमी निचली पीठ में तंत्रिका संपीड़न का इलाज करती है, जो अक्सर L4-L5 और L5-S1 स्तरों पर होती है। लक्षणों में पैर का दर्द (साइटिका), नितंब का दर्द जो पैर के नीचे फैलता है, पैर की सुन्नता, और पैर की कमजोरी शामिल है। प्रक्रिया आमतौर पर पीछे से न्यूनतम आक्रामक तकनीकों का उपयोग करके छोटे चीरों और मांसपेशी-बचत दृष्टिकोण के साथ की जाती है।
+
+फोरामिनोटॉमी के लाभों में बिना स्पाइन को अस्थिर किए लक्षित तंत्रिका डीकंप्रेशन (फ्यूजन सर्जरी के विपरीत), सामान्य स्पाइनल गति का संरक्षण, फ्यूजन प्रक्रियाओं की तुलना में तेज रिकवरी, आधुनिक न्यूनतम आक्रामक तकनीकों के साथ न्यूनतम ऊतक व्यवधान, उचित रूप से चयनित रोगियों के लिए उच्च सफलता दर (85-90%), और यदि आवश्यक हो तो कई स्तरों को संबोधित करने की क्षमता शामिल है।
+
+डॉ. कुमार अधिकतम सुरक्षा और प्रभावशीलता के लिए उन्नत माइक्रोसर्जिकल तकनीकों और इंट्राऑपरेटिव तंत्रिका निगरानी का उपयोग करते हैं। उनका दृष्टिकोण संपीड़न बिंदुओं की सटीक पहचान के लिए MRI और CT स्कैन के साथ संपूर्ण प्री-ऑपरेटिव इमेजिंग विश्लेषण, स्पाइनल स्थिरता को संरक्षित करते हुए तंत्रिकाओं को डीकंप्रेस करने के लिए सावधान सर्जिकल तकनीक, और परिणामों को अनुकूलित करने और पुनरावृत्ति को रोकने के लिए व्यापक पोस्ट-ऑपरेटिव पुनर्वास पर जोर देता है।`
+    },
+    symptoms: {
+      en: [
+        'Radiating arm or leg pain following specific nerve distribution (radiculopathy)',
+        'Sharp, shooting pain from neck to fingers or lower back to toes',
+        'Numbness or tingling in specific dermatomal pattern (affected nerve territory)',
+        'Weakness in specific muscle groups - grip weakness, foot drop, or difficulty raising arm',
+        'Electric shock-like sensations down arm or leg with neck/back movement',
+        'Pain that worsens with certain positions - neck extension for cervical, standing/walking for lumbar',
+        'Decreased reflexes in affected limb',
+        'Muscle atrophy (wasting) in chronic cases from prolonged nerve compression',
+        'Burning or aching pain that may be constant or intermittent',
+        'Symptoms often worse on one side (unilateral radiculopathy) but can affect both sides'
+      ],
+      hi: [
+        'विशिष्ट तंत्रिका वितरण के बाद फैलने वाला बांह या पैर का दर्द (रेडिकुलोपैथी)',
+        'गर्दन से उंगलियों या निचली पीठ से पैर की उंगलियों तक तीव्र, शूटिंग दर्द',
+        'विशिष्ट डर्मेटोमल पैटर्न में सुन्नता या झुनझुनी (प्रभावित तंत्रिका क्षेत्र)',
+        'विशिष्ट मांसपेशी समूहों में कमजोरी - पकड़ की कमजोरी, पैर ड्रॉप, या बांह उठाने में कठिनाई',
+        'गर्दन/पीठ की गति के साथ बांह या पैर में बिजली के झटके जैसी संवेदनाएं',
+        'दर्द जो कुछ स्थितियों के साथ बिगड़ता है - सर्वाइकल के लिए गर्दन विस्तार, लम्बर के लिए खड़े होना/चलना',
+        'प्रभावित अंग में कम प्रतिवर्त',
+        'लंबे समय तक तंत्रिका संपीड़न से पुरानी मामलों में मांसपेशी शोष (बर्बादी)',
+        'जलन या दर्द जो लगातार या आंतरायिक हो सकता है',
+        'लक्षण अक्सर एक तरफ (एकतरफा रेडिकुलोपैथी) पर खराब होते हैं लेकिन दोनों पक्षों को प्रभावित कर सकते हैं'
+      ]
+    },
+    procedure: {
+      en: {
+        preparation: 'Comprehensive pre-operative evaluation includes detailed neurological examination testing strength, sensation, reflexes in affected limb; MRI of cervical or lumbar spine (essential) - clearly shows foraminal stenosis, disc herniation, bone spurs; CT scan often obtained for detailed bone anatomy and surgical planning; EMG/nerve conduction studies to confirm which specific nerve root is compressed; flexion-extension X-rays to assess spinal stability; blood tests and cardiac clearance if needed; discontinue blood thinners 5-7 days before surgery; optimize diabetes, blood pressure control; stop smoking minimum 4 weeks before (critical for healing); arrange transportation and help at home for first week; shower with antibacterial soap night before; no food/drink after midnight before surgery.',
+        steps: [
+          'Patient positioned prone (face down) for posterior approach or lateral (side) for some cases',
+          'General anesthesia administered with careful airway management',
+          'Surgical site cleaned with antiseptic and draped with sterile covers',
+          'Fluoroscopy (real-time X-ray) used to precisely identify correct spinal level and foramen location',
+          'Small incision made (2-4 cm for minimally invasive approach, larger for open technique)',
+          'Muscles gently separated and retracted rather than cut - muscle-sparing approach',
+          'Tubular retractor or expandable retractor system placed to create working channel to foramen',
+          'Operating microscope or endoscope positioned for magnified visualization',
+          'Partial facetectomy performed - small portion of facet joint carefully removed to access foramen (typically <50% to preserve stability)',
+          'Foramen identified - this is the bony tunnel through which nerve root exits',
+          'High-speed drill used to remove bone spurs (osteophytes) narrowing the foramen',
+          'Kerrison rongeurs (specialized bone-biting instruments) used to enlarge foramen carefully',
+          'Thickened ligamentum flavum (if present at foramen) carefully removed',
+          'Nerve root gently visualized and decompressed - should appear pink and healthy, not pale or compressed',
+          'If herniated disc fragment is compressing nerve in foramen, it is carefully removed',
+          'Foramen enlarged both vertically and horizontally to adequate size (typically 8-10mm)',
+          'Nerve tested gently with probe to ensure adequate decompression and free movement',
+          'If bilateral symptoms, procedure repeated on opposite side through same or separate incision',
+          'Meticulous hemostasis (bleeding control) achieved throughout procedure',
+          'Surgical site thoroughly irrigated with antibiotic solution',
+          'Check for CSF leak (cerebrospinal fluid leak) - rare but must be identified and repaired if present',
+          'Retractors removed, muscles fall back naturally into position',
+          'Fascia closed with strong absorbable sutures',
+          'Subcutaneous layers closed',
+          'Skin closed with absorbable sutures or staples',
+          'Sterile dressing applied',
+          'Patient awakened from anesthesia and immediate neurological check performed'
+        ],
+        duration: '1-2 hours for single level foraminotomy. Minimally invasive approach typically 60-90 minutes. Multilevel or bilateral procedures may take 2-3 hours.',
+        anesthesia: 'General anesthesia with endotracheal intubation. Patient completely asleep and pain-free throughout procedure. Intraoperative neuromonitoring often used to continuously assess nerve function during surgery.'
+      },
+      hi: {
+        preparation: 'व्यापक प्री-ऑपरेटिव मूल्यांकन में प्रभावित अंग में ताकत, संवेदना, प्रतिवर्त का परीक्षण करने वाली विस्तृत न्यूरोलॉजिकल परीक्षा शामिल है; सर्वाइकल या लम्बर स्पाइन की MRI (आवश्यक) - स्पष्ट रूप से फोरामिनल स्टेनोसिस, डिस्क हर्नियेशन, हड्डी के स्पर्स दिखाती है; विस्तृत हड्डी शरीर रचना और सर्जिकल योजना के लिए अक्सर CT स्कैन प्राप्त किया जाता है; यह पुष्टि करने के लिए EMG/तंत्रिका चालन अध्ययन कि कौन सी विशिष्ट तंत्रिका जड़ संपीड़ित है; स्पाइनल स्थिरता का आकलन करने के लिए फ्लेक्शन-एक्सटेंशन एक्स-रे; यदि आवश्यक हो तो रक्त परीक्षण और कार्डियक क्लीयरेंस; सर्जरी से 5-7 दिन पहले रक्त पतला करने वाली दवाएं बंद करें; मधुमेह, रक्तचाप नियंत्रण को अनुकूलित करें; न्यूनतम 4 सप्ताह पहले धूम्रपान बंद करें (उपचार के लिए महत्वपूर्ण); पहले सप्ताह के लिए घर पर परिवहन और सहायता की व्यवस्था करें; सर्जरी से पहले रात एंटीबैक्टीरियल साबुन से शॉवर लें; सर्जरी से पहले आधी रात के बाद कोई भोजन/पेय नहीं।',
+        steps: [
+          'पोस्टीरियर दृष्टिकोण के लिए रोगी को प्रवण (चेहरा नीचे) या कुछ मामलों के लिए पार्श्व (बगल) में स्थित किया गया',
+          'सावधानीपूर्वक वायुमार्ग प्रबंधन के साथ सामान्य एनेस्थीसिया दिया गया',
+          'सर्जिकल साइट को एंटीसेप्टिक से साफ किया गया और बाँझ कवर के साथ ड्रेप किया गया',
+          'सही स्पाइनल स्तर और फोरामेन स्थान की सटीक पहचान के लिए फ्लोरोस्कोपी (वास्तविक समय एक्स-रे) का उपयोग किया गया',
+          'छोटा चीरा बनाया गया (न्यूनतम आक्रामक दृष्टिकोण के लिए 2-4 cm, खुली तकनीक के लिए बड़ा)',
+          'मांसपेशियों को काटने के बजाय धीरे से अलग और वापस लिया गया - मांसपेशी-बचत दृष्टिकोण',
+          'फोरामेन के लिए कार्य चैनल बनाने के लिए ट्यूबलर रिट्रैक्टर या विस्तार योग्य रिट्रैक्टर प्रणाली रखी गई',
+          'आवर्धित दृश्य के लिए ऑपरेटिंग माइक्रोस्कोप या एंडोस्कोप स्थित किया गया',
+          'आंशिक फेसेटेक्टॉमी की गई - फोरामेन तक पहुंचने के लिए फेसेट जोड़ का एक छोटा हिस्सा सावधानीपूर्वक हटाया गया (आमतौर पर स्थिरता बनाए रखने के लिए <50%)',
+          'फोरामेन की पहचान की गई - यह हड्डी की सुरंग है जिसके माध्यम से तंत्रिका जड़ बाहर निकलती है',
+          'फोरामेन को संकीर्ण करने वाले हड्डी के स्पर्स (ऑस्टियोफाइट्स) को हटाने के लिए उच्च गति वाली ड्रिल का उपयोग किया गया',
+          'फोरामेन को सावधानीपूर्वक बड़ा करने के लिए केरिसन रोंग्युर्स (विशेष हड्डी-काटने वाले उपकरण) का उपयोग किया गया',
+          'मोटी लिगामेंटम फ्लेवम (यदि फोरामेन पर मौजूद हो) को सावधानीपूर्वक हटाया गया',
+          'तंत्रिका जड़ को धीरे से देखा और डीकंप्रेस्ड किया गया - गुलाबी और स्वस्थ दिखाई देनी चाहिए, पीली या संपीड़ित नहीं',
+          'यदि हर्नियेटेड डिस्क टुकड़ा फोरामेन में तंत्रिका को संपीड़ित कर रहा है, तो इसे सावधानीपूर्वक हटाया गया',
+          'फोरामेन को उर्ध्वाधर और क्षैतिज दोनों तरह से पर्याप्त आकार (आमतौर पर 8-10mm) तक बड़ा किया गया',
+          'पर्याप्त डीकंप्रेशन और मुक्त गति सुनिश्चित करने के लिए जांच के साथ तंत्रिका का धीरे से परीक्षण किया गया',
+          'यदि द्विपक्षीय लक्षण हों, तो प्रक्रिया को समान या अलग चीरे के माध्यम से विपरीत दिशा में दोहराया गया',
+          'पूरी प्रक्रिया में सावधानीपूर्वक हेमोस्टेसिस (रक्तस्राव नियंत्रण) प्राप्त किया गया',
+          'सर्जिकल साइट को एंटीबायोटिक समाधान के साथ अच्छी तरह से सिंचित किया गया',
+          'CSF रिसाव (सेरेब्रोस्पाइनल द्रव रिसाव) की जांच करें - दुर्लभ लेकिन यदि मौजूद हो तो इसकी पहचान और मरम्मत की जानी चाहिए',
+          'रिट्रैक्टर हटाए गए, मांसपेशियां स्वाभाविक रूप से स्थिति में वापस आ गईं',
+          'मजबूत अवशोषित सिवनी के साथ फेशिया बंद किया गया',
+          'सबक्यूटेनियस परतें बंद की गईं',
+          'अवशोषित सिवनी या स्टेपल के साथ त्वचा बंद की गई',
+          'बाँझ ड्रेसिंग लागू की गई',
+          'रोगी को एनेस्थीसिया से जगाया गया और तत्काल न्यूरोलॉजिकल जांच की गई'
+        ],
+        duration: 'एकल स्तर फोरामिनोटॉमी के लिए 1-2 घंटे। न्यूनतम आक्रामक दृष्टिकोण आमतौर पर 60-90 मिनट। मल्टीलेवल या द्विपक्षीय प्रक्रियाओं में 2-3 घंटे लग सकते हैं।',
+        anesthesia: 'एंडोट्रैचियल इंट्यूबेशन के साथ सामान्य एनेस्थीसिया। रोगी पूरी प्रक्रिया के दौरान पूरी तरह से सो जाता है और दर्द मुक्त रहता है। सर्जरी के दौरान तंत्रिका कार्य का लगातार आकलन करने के लिए अक्सर इंट्राऑपरेटिव न्यूरोमॉनिटरिंग का उपयोग किया जाता है।'
+      }
+    },
+    recovery: {
+      en: {
+        timeline: [
+          {
+            week: 'Day 1 (Immediate Post-Op)',
+            activity: 'Early Mobilization',
+            description: 'Most patients walk same day within 2-4 hours after surgery. Many foraminotomy procedures are outpatient - discharged home same day if stable. Neck brace (cervical collar) may be used for cervical cases for comfort, not required for stability. Pain managed with medications - incisional pain moderate, but radicular arm/leg pain often dramatically improved immediately. Can shower after 24-48 hours with waterproof dressing. Avoid bending, lifting, twisting. Light activities of daily living permitted. Sleep with head elevated for cervical cases.'
+          },
+          {
+            week: 'Week 1-2',
+            activity: 'Protected Recovery',
+            description: 'Gradual increase in walking and light activities. Radicular symptoms (arm/leg pain, numbness) continue improving significantly. Incision healing well - staples/sutures removed at 10-14 days. No heavy lifting (>5 lbs), bending at waist, or repetitive neck/back rotation. Cervical collar discontinued for most patients by week 2. Can drive when off narcotics and comfortable turning head/back (typically 1-2 weeks). Many desk workers return to work within 1-2 weeks. Physical therapy may begin focusing on gentle range of motion and posture.'
+          },
+          {
+            week: 'Week 3-4',
+            activity: 'Progressive Activity',
+            description: 'Significant improvement in radicular symptoms - most patients 70-80% better. Incision fully healed. Physical therapy advancing - core strengthening, neck/back stabilization exercises. Walking 20-30 minutes daily. Light household chores resumed. Can lift 10-15 lbs with proper technique. Sitting tolerance improving. Manual labor workers may return with lifting restrictions. Recreational activities like stationary biking, elliptical permitted. Avoid high-impact activities, contact sports, heavy lifting still.'
+          },
+          {
+            week: 'Week 5-8',
+            activity: 'Return to Modified Normal Activities',
+            description: 'Radicular symptoms 80-90% resolved for most successful cases. Full range of motion restored. Strengthening program advancing. Can resume most recreational activities - swimming, golf, tennis (if comfortable). Return to unrestricted work for most patients. Light gym workouts permitted with proper form. Lifting up to 20-25 lbs acceptable with good technique. Some residual neck/back stiffness common, usually resolves by 8-12 weeks. Continue home exercise program for core strength and flexibility.'
+          },
+          {
+            week: 'Month 3-6',
+            activity: 'Full Recovery',
+            description: 'Complete or near-complete resolution of radicular symptoms in 85-90% of properly selected patients. Return to all activities including heavy lifting, impact sports, manual labor. No activity restrictions. Maintain regular exercise emphasizing core strength and proper body mechanics. Some patients experience residual neck/back discomfort with prolonged activity or weather changes - this is normal and does not indicate failure. Annual follow-up recommended to monitor for recurrence or adjacent segment issues.'
+          },
+          {
+            week: 'Month 7-12+',
+            activity: 'Long-term Maintenance',
+            description: 'Sustained relief of radicular symptoms in most patients. Success rates 85-90% at 2-year follow-up for properly selected candidates. Recurrence risk approximately 5-10% over 5-10 years due to continued degenerative changes or inadequate initial decompression. Adjacent segment degeneration may occur over years but less common than after fusion surgery since motion is preserved. Maintain active lifestyle with regular core strengthening. Ergonomic workplace setup important. Weight management reduces spine stress. Smoking cessation critical if applicable. Return to Dr. Kumar if new or recurrent radicular symptoms develop.'
+          }
+        ],
+        tips: [
+          'Walk regularly from day 1 - promotes healing and prevents stiffness',
+          'Most dramatic improvement is in radicular pain (arm/leg pain) - often immediate relief after surgery',
+          'Neck/back incisional soreness is normal and resolves over 2-4 weeks',
+          'Use ice packs on incision 20 minutes every 2-3 hours first week to reduce pain and swelling',
+          'Avoid BLTs (Bending, Lifting over 5 lbs, Twisting) for first 4-6 weeks',
+          'Cervical collar (if prescribed) is for comfort only, not stability - wean off by 2 weeks',
+          'Physical therapy essential for strengthening muscles that support the spine and prevent recurrence',
+          'Practice proper posture - avoid prolonged neck flexion (looking down at phone), maintain neutral spine',
+          'Ergonomic workstation setup crucial - monitor at eye level, proper chair support',
+          'Report new weakness, numbness, or return of radicular symptoms immediately',
+          'Take pain medications as prescribed initially - easier to prevent pain than treat severe pain',
+          'No smoking - dramatically impairs healing and increases complications and recurrence risk',
+          'Maintain healthy weight - reduces stress on spine and decreases recurrence risk',
+          'Sleep position matters - use supportive pillow for cervical cases, pillow between knees for lumbar',
+          'Recovery faster than fusion surgery since spine stability preserved - most back to normal in 6-8 weeks'
+        ]
+      },
+      hi: {
+        timeline: [
+          {
+            week: 'दिन 1 (तत्काल पोस्ट-ऑप)',
+            activity: 'प्रारंभिक गतिशीलता',
+            description: 'अधिकांश रोगी सर्जरी के 2-4 घंटे के भीतर उसी दिन चलते हैं। कई फोरामिनोटॉमी प्रक्रियाएं बाह्य रोगी हैं - यदि स्थिर हों तो उसी दिन घर भेज दिया जाता है। सर्वाइकल मामलों के लिए आराम के लिए नेक ब्रेस (सर्वाइकल कॉलर) का उपयोग किया जा सकता है, स्थिरता के लिए आवश्यक नहीं। दवाओं से दर्द प्रबंधित किया गया - चीरा दर्द मध्यम, लेकिन रेडिकुलर बांह/पैर का दर्द अक्सर तुरंत नाटकीय रूप से सुधर जाता है। वाटरप्रूफ ड्रेसिंग के साथ 24-48 घंटे के बाद शॉवर ले सकते हैं। झुकने, उठाने, मोड़ने से बचें। दैनिक जीवन की हल्की गतिविधियों की अनुमति है। सर्वाइकल मामलों के लिए सिर को ऊंचा करके सोएं।'
+          },
+          {
+            week: 'सप्ताह 1-2',
+            activity: 'संरक्षित रिकवरी',
+            description: 'चलने और हल्की गतिविधियों में धीरे-धीरे वृद्धि। रेडिकुलर लक्षण (बांह/पैर का दर्द, सुन्नता) महत्वपूर्ण रूप से सुधरना जारी रखते हैं। चीरा अच्छी तरह से ठीक हो रहा है - 10-14 दिनों में स्टेपल/सिवनी हटा दी गई। भारी भार उठाना (>5 lbs), कमर पर झुकना, या बार-बार गर्दन/पीठ घुमाना नहीं। अधिकांश रोगियों के लिए सप्ताह 2 तक सर्वाइकल कॉलर बंद कर दिया गया। जब नारकोटिक्स बंद हों और सिर/पीठ घुमाने में आराम हो तो ड्राइव कर सकते हैं (आमतौर पर 1-2 सप्ताह)। कई डेस्क कर्मचारी 1-2 सप्ताह के भीतर काम पर लौट आते हैं। फिजिकल थेरेपी शुरू हो सकती है जो कोमल गति सीमा और मुद्रा पर ध्यान केंद्रित करती है।'
+          },
+          {
+            week: 'सप्ताह 3-4',
+            activity: 'प्रगतिशील गतिविधि',
+            description: 'रेडिकुलर लक्षणों में महत्वपूर्ण सुधार - अधिकांश रोगी 70-80% बेहतर। चीरा पूरी तरह से ठीक हो गया। फिजिकल थेरेपी आगे बढ़ रही है - कोर मजबूती, गर्दन/पीठ स्थिरीकरण व्यायाम। दैनिक 20-30 मिनट चलना। हल्के घरेलू काम फिर से शुरू किए गए। उचित तकनीक के साथ 10-15 lbs उठा सकते हैं। बैठने की सहनशीलता में सुधार। मैनुअल लेबर कर्मचारी उठाने प्रतिबंधों के साथ वापस लौट सकते हैं। स्थिर बाइकिंग, एलिप्टिकल जैसी मनोरंजक गतिविधियों की अनुमति है। उच्च-प्रभाव गतिविधियों, संपर्क खेल, भारी भार उठाने से अभी भी बचें।'
+          },
+          {
+            week: 'सप्ताह 5-8',
+            activity: 'संशोधित सामान्य गतिविधियों में वापसी',
+            description: 'अधिकांश सफल मामलों के लिए रेडिकुलर लक्षण 80-90% हल हो गए। गति की पूरी सीमा बहाल हो गई। मजबूती कार्यक्रम आगे बढ़ रहा है। अधिकांश मनोरंजक गतिविधियों को फिर से शुरू कर सकते हैं - तैराकी, गोल्फ, टेनिस (यदि आरामदायक हो)। अधिकांश रोगियों के लिए अप्रतिबंधित काम में वापसी। उचित फॉर्म के साथ हल्की जिम वर्कआउट की अनुमति है। अच्छी तकनीक के साथ 20-25 lbs तक उठाना स्वीकार्य है। कुछ अवशिष्ट गर्दन/पीठ की कठोरता सामान्य है, आमतौर पर 8-12 सप्ताह तक हल हो जाती है। कोर ताकत और लचीलेपन के लिए घरेलू व्यायाम कार्यक्रम जारी रखें।'
+          },
+          {
+            week: 'महीना 3-6',
+            activity: 'पूर्ण रिकवरी',
+            description: 'उचित रूप से चयनित रोगियों में से 85-90% में रेडिकुलर लक्षणों का पूर्ण या लगभग-पूर्ण समाधान। भारी भार उठाने, प्रभाव खेल, मैनुअल लेबर सहित सभी गतिविधियों में वापसी। कोई गतिविधि प्रतिबंध नहीं। कोर ताकत और उचित शरीर यांत्रिकी पर जोर देते हुए नियमित व्यायाम बनाए रखें। कुछ रोगियों को लंबे समय तक गतिविधि या मौसम परिवर्तन के साथ अवशिष्ट गर्दन/पीठ की असुविधा का अनुभव होता है - यह सामान्य है और विफलता का संकेत नहीं देता है। पुनरावृत्ति या आसन्न खंड मुद्दों की निगरानी के लिए वार्षिक अनुवर्ती कार्रवाई की सिफारिश की गई।'
+          },
+          {
+            week: 'महीना 7-12+',
+            activity: 'दीर्घकालिक रखरखाव',
+            description: 'अधिकांश रोगियों में रेडिकुलर लक्षणों की निरंतर राहत। उचित रूप से चयनित उम्मीदवारों के लिए 2 साल के अनुवर्ती पर 85-90% सफलता दर। निरंतर अपक्षयी परिवर्तन या अपर्याप्त प्रारंभिक डीकंप्रेशन के कारण 5-10 वर्षों में लगभग 5-10% पुनरावृत्ति जोखिम। आसन्न खंड अपक्षय वर्षों में हो सकता है लेकिन फ्यूजन सर्जरी के बाद से कम आम है क्योंकि गति संरक्षित है। नियमित कोर मजबूती के साथ सक्रिय जीवन शैली बनाए रखें। एर्गोनोमिक कार्यस्थल सेटअप महत्वपूर्ण है। वजन प्रबंधन स्पाइन तनाव को कम करता है। यदि लागू हो तो धूम्रपान बंद करना महत्वपूर्ण है। यदि नए या आवर्ती रेडिकुलर लक्षण विकसित हों तो डॉ. कुमार के पास लौटें।'
+          }
+        ],
+        tips: [
+          'दिन 1 से नियमित रूप से चलें - उपचार को बढ़ावा देता है और कठोरता को रोकता है',
+          'सबसे नाटकीय सुधार रेडिकुलर दर्द (बांह/पैर का दर्द) में है - अक्सर सर्जरी के बाद तुरंत राहत',
+          'गर्दन/पीठ का चीरा दर्द सामान्य है और 2-4 सप्ताह में हल हो जाता है',
+          'पहले सप्ताह में दर्द और सूजन को कम करने के लिए हर 2-3 घंटे में 20 मिनट चीरे पर आइस पैक का उपयोग करें',
+          'पहले 4-6 सप्ताह के लिए BLTs (झुकना, 5 lbs से अधिक उठाना, मोड़ना) से बचें',
+          'सर्वाइकल कॉलर (यदि निर्धारित हो) केवल आराम के लिए है, स्थिरता के लिए नहीं - 2 सप्ताह तक बंद करें',
+          'फिजिकल थेरेपी स्पाइन का समर्थन करने वाली मांसपेशियों को मजबूत करने और पुनरावृत्ति को रोकने के लिए आवश्यक है',
+          'उचित मुद्रा का अभ्यास करें - लंबे समय तक गर्दन को फ्लेक्स करने (फोन पर नीचे देखना) से बचें, तटस्थ स्पाइन बनाए रखें',
+          'एर्गोनोमिक वर्कस्टेशन सेटअप महत्वपूर्ण - आंख के स्तर पर मॉनिटर, उचित कुर्सी समर्थन',
+          'नई कमजोरी, सुन्नता, या रेडिकुलर लक्षणों की वापसी की तुरंत रिपोर्ट करें',
+          'शुरुआत में निर्धारित अनुसार दर्द की दवाएं लें - गंभीर दर्द का इलाज करने की तुलना में दर्द को रोकना आसान है',
+          'धूम्रपान न करें - उपचार को नाटकीय रूप से बाधित करता है और जटिलताओं और पुनरावृत्ति जोखिम को बढ़ाता है',
+          'स्वस्थ वजन बनाए रखें - स्पाइन पर तनाव कम करता है और पुनरावृत्ति जोखिम को कम करता है',
+          'नींद की स्थिति मायने रखती है - सर्वाइकल मामलों के लिए सहायक तकिया का उपयोग करें, लम्बर के लिए घुटनों के बीच तकिया',
+          'फ्यूजन सर्जरी की तुलना में तेजी से रिकवरी क्योंकि स्पाइन स्थिरता संरक्षित है - अधिकांश 6-8 सप्ताह में सामान्य हो जाते हैं'
+        ]
+      }
+    },
+    faqs: {
+      en: [
+        {
+          question: 'What is the difference between foraminotomy and laminectomy?',
+          answer: 'Foraminotomy specifically enlarges the foramen (opening where nerve exits spine) to decompress a single compressed nerve root. Laminectomy removes the lamina (back part of vertebra) to decompress the entire spinal canal and multiple nerve roots. Foraminotomy is more targeted and preserves more bone structure. Often they are performed together - laminectomy for central canal stenosis plus foraminotomy for lateral nerve compression.'
+        },
+        {
+          question: 'What is the difference between foraminotomy and discectomy?',
+          answer: 'Discectomy removes herniated disc material compressing a nerve. Foraminotomy enlarges the bony foramen that is narrowed by bone spurs, arthritis, or thickened ligaments. Many patients have both problems - herniated disc AND foraminal stenosis - so both procedures may be performed together. Discectomy addresses soft tissue (disc) compression while foraminotomy addresses bony/ligamentous compression.'
+        },
+        {
+          question: 'What are the success rates for foraminotomy?',
+          answer: 'Success rates are 85-90% for properly selected patients with clear foraminal stenosis causing radiculopathy. Best results occur when: MRI clearly shows nerve compression at foramen, symptoms match the MRI findings, conservative treatment failed for 6-12 weeks, no significant spinal instability present. Success means significant reduction (>70%) in arm/leg pain and improved function. Complete pain elimination occurs in 60-70%, significant improvement in 85-90%.'
+        },
+        {
+          question: 'Will I need spinal fusion after foraminotomy?',
+          answer: 'Most foraminotomy patients do NOT need fusion. The procedure preserves >50% of facet joints to maintain stability. Fusion is only needed if: significant pre-existing instability (spondylolisthesis >Grade 2), multiple levels requiring extensive bone removal, degenerative scoliosis with instability. Dr. Kumar carefully evaluates pre-operative imaging and only recommends fusion when truly necessary. Avoiding fusion means faster recovery and preserved spinal motion.'
+        },
+        {
+          question: 'How long does pain relief last after foraminotomy?',
+          answer: 'Most patients experience long-lasting relief. Studies show 85-90% maintain significant improvement at 2-year follow-up and 75-85% at 5-year follow-up. Recurrence can occur due to: continued degenerative changes narrowing foramen again (5-10% over 5-10 years), inadequate initial decompression, new disc herniation, adjacent segment degeneration. Risk factors for recurrence include smoking, obesity, heavy manual labor, diabetes. Maintaining good spine health with core strengthening and proper body mechanics reduces recurrence risk.'
+        },
+        {
+          question: 'Can foraminotomy be done minimally invasively?',
+          answer: 'Yes, Dr. Kumar performs minimally invasive foraminotomy for appropriate candidates. Benefits include: smaller incision (2-3 cm vs 5-8 cm), less muscle damage, reduced blood loss, less post-operative pain, faster recovery (back to work 1-2 weeks earlier), outpatient surgery possible. Requires specialized equipment (tubular retractors, microscope or endoscope) and training. Not suitable for all cases - multilevel stenosis, severe arthritis, or unstable spine may require open approach. Dr. Kumar evaluates each patient individually.'
+        },
+        {
+          question: 'What are the risks and complications of foraminotomy?',
+          answer: 'Foraminotomy is generally safe but risks include: nerve injury (less than 1%) - temporary or permanent weakness/numbness if nerve damaged during decompression; dural tear/CSF leak (3-5%) - usually repaired during surgery, rarely requires additional treatment; infection (1-2%) - treated with antibiotics, rarely needs surgical washout; bleeding/hematoma (less than 1%); spinal instability if too much bone removed (rare with proper technique); recurrent stenosis (5-10% over 5-10 years); anesthesia risks; incomplete relief if compression not fully addressed. Dr. Kumar\'s complication rate is below national averages due to meticulous surgical technique and patient selection.'
+        },
+        {
+          question: 'How soon can I return to work after foraminotomy?',
+          answer: 'Return to work depends on job type: Desk/sedentary work - 1-2 weeks; Light physical work - 3-4 weeks; Moderate labor - 6-8 weeks; Heavy manual labor - 8-12 weeks. Minimally invasive approach typically allows return 1-2 weeks earlier. Factors affecting timeline: single vs multilevel surgery, open vs minimally invasive, cervical vs lumbar (cervical typically faster return), overall health and fitness, pain tolerance, employer accommodations available. Discuss specific timeline with Dr. Kumar based on your situation.'
+        },
+        {
+          question: 'Is foraminotomy covered by insurance in Bihar?',
+          answer: 'Most insurance plans cover foraminotomy when medically necessary. Requirements typically include: documented radiculopathy symptoms, MRI showing foraminal stenosis compressing nerve, failed conservative treatment (medications, physical therapy) for 6-12 weeks, neurological deficits (weakness, numbness, reflex changes). At Arthoscenter, our insurance team assists with pre-authorization and documentation. Government schemes (PMJAY, BSKY) may cover the procedure for eligible patients. Out-of-pocket cost ranges ₹80,000-₹1,50,000 depending on technique (open vs minimally invasive), single vs multilevel, hospital stay duration. Consult with our billing department for specific coverage and cost estimates.'
+        },
+        {
+          question: 'Can foraminotomy treat both cervical and lumbar spine problems?',
+          answer: 'Yes, foraminotomy is effective for both cervical (neck) and lumbar (lower back) foraminal stenosis. Cervical foraminotomy treats: C5-C6 and C6-C7 most common levels, symptoms of arm/shoulder pain, hand numbness/weakness, performed from posterior (back of neck) or anterior approach. Lumbar foraminotomy treats: L4-L5 and L5-S1 most common levels, symptoms of leg pain (sciatica), foot numbness/weakness, performed from posterior approach. Technique is similar but anatomy differs. Dr. Kumar has extensive experience with both cervical and lumbar foraminotomy. Success rates are comparable (85-90%) for both regions when properly indicated.'
+        }
+      ],
+      hi: [
+        {
+          question: 'फोरामिनोटॉमी और लैमिनेक्टॉमी में क्या अंतर है?',
+          answer: 'फोरामिनोटॉमी विशेष रूप से एक संपीड़ित तंत्रिका जड़ को डीकंप्रेस करने के लिए फोरामेन (उद्घाटन जहां तंत्रिका स्पाइन से बाहर निकलती है) को बड़ा करती है। लैमिनेक्टॉमी पूरे स्पाइनल कैनाल और कई तंत्रिका जड़ों को डीकंप्रेस करने के लिए लैमिना (वर्टेब्रा का पिछला हिस्सा) को हटाती है। फोरामिनोटॉमी अधिक लक्षित है और अधिक हड्डी संरचना को संरक्षित करती है। अक्सर वे एक साथ किए जाते हैं - केंद्रीय कैनाल स्टेनोसिस के लिए लैमिनेक्टॉमी प्लस पार्श्व तंत्रिका संपीड़न के लिए फोरामिनोटॉमी।'
+        },
+        {
+          question: 'फोरामिनोटॉमी और डिस्केक्टॉमी में क्या अंतर है?',
+          answer: 'डिस्केक्टॉमी तंत्रिका को संपीड़ित करने वाली हर्नियेटेड डिस्क सामग्री को हटाती है। फोरामिनोटॉमी हड्डी के स्पर्स, गठिया, या मोटे लिगामेंट्स द्वारा संकीर्ण किए गए बोनी फोरामेन को बड़ा करती है। कई रोगियों में दोनों समस्याएं होती हैं - हर्नियेटेड डिस्क और फोरामिनल स्टेनोसिस - इसलिए दोनों प्रक्रियाएं एक साथ की जा सकती हैं। डिस्केक्टॉमी सॉफ्ट टिश्यू (डिस्क) संपीड़न को संबोधित करती है जबकि फोरामिनोटॉमी बोनी/लिगामेंटस संपीड़न को संबोधित करती है।'
+        },
+        {
+          question: 'फोरामिनोटॉमी के लिए सफलता दर क्या हैं?',
+          answer: 'रेडिकुलोपैथी का कारण बनने वाले स्पष्ट फोरामिनल स्टेनोसिस वाले उचित रूप से चयनित रोगियों के लिए सफलता दर 85-90% है। सर्वश्रेष्ठ परिणाम तब होते हैं जब: MRI स्पष्ट रूप से फोरामेन पर तंत्रिका संपीड़न दिखाती है, लक्षण MRI निष्कर्षों से मेल खाते हैं, रूढ़िवादी उपचार 6-12 सप्ताह के लिए विफल रहा, कोई महत्वपूर्ण स्पाइनल अस्थिरता मौजूद नहीं है। सफलता का मतलब बांह/पैर के दर्द में महत्वपूर्ण कमी (>70%) और बेहतर कार्य है। पूर्ण दर्द उन्मूलन 60-70% में होता है, 85-90% में महत्वपूर्ण सुधार।'
+        },
+        {
+          question: 'क्या मुझे फोरामिनोटॉमी के बाद स्पाइनल फ्यूजन की आवश्यकता होगी?',
+          answer: 'अधिकांश फोरामिनोटॉमी रोगियों को फ्यूजन की आवश्यकता नहीं होती है। प्रक्रिया स्थिरता बनाए रखने के लिए फेसेट जोड़ों का >50% संरक्षित करती है। फ्यूजन तभी आवश्यक है जब: महत्वपूर्ण पूर्व-मौजूदा अस्थिरता (स्पोंडिलोलिस्थीसिस >ग्रेड 2), व्यापक हड्डी हटाने की आवश्यकता वाले कई स्तर, अस्थिरता के साथ अपक्षयी स्कोलियोसिस। डॉ. कुमार सावधानीपूर्वक प्री-ऑपरेटिव इमेजिंग का मूल्यांकन करते हैं और केवल तभी फ्यूजन की सिफारिश करते हैं जब वास्तव में आवश्यक हो। फ्यूजन से बचने का मतलब तेजी से रिकवरी और संरक्षित स्पाइनल गति है।'
+        },
+        {
+          question: 'फोरामिनोटॉमी के बाद दर्द राहत कितने समय तक रहती है?',
+          answer: 'अधिकांश रोगी लंबे समय तक चलने वाली राहत का अनुभव करते हैं। अध्ययन बताते हैं कि 85-90% 2 साल के अनुवर्ती पर महत्वपूर्ण सुधार बनाए रखते हैं और 5 साल के अनुवर्ती पर 75-85%। पुनरावृत्ति हो सकती है: फोरामेन को फिर से संकीर्ण करने वाले निरंतर अपक्षयी परिवर्तन (5-10 वर्षों में 5-10%), अपर्याप्त प्रारंभिक डीकंप्रेशन, नई डिस्क हर्नियेशन, आसन्न खंड अपक्षय। पुनरावृत्ति के लिए जोखिम कारकों में धूम्रपान, मोटापा, भारी मैनुअल लेबर, मधुमेह शामिल हैं। कोर मजबूती और उचित शरीर यांत्रिकी के साथ अच्छे स्पाइन स्वास्थ्य को बनाए रखने से पुनरावृत्ति जोखिम कम होता है।'
+        },
+        {
+          question: 'क्या फोरामिनोटॉमी न्यूनतम आक्रामक रूप से की जा सकती है?',
+          answer: 'हां, डॉ. कुमार उपयुक्त उम्मीदवारों के लिए न्यूनतम आक्रामक फोरामिनोटॉमी करते हैं। लाभों में शामिल हैं: छोटा चीरा (2-3 cm बनाम 5-8 cm), कम मांसपेशी क्षति, कम रक्त हानि, कम पोस्ट-ऑपरेटिव दर्द, तेजी से रिकवरी (काम पर वापसी 1-2 सप्ताह पहले), बाह्य रोगी सर्जरी संभव। विशेष उपकरण (ट्यूबलर रिट्रैक्टर, माइक्रोस्कोप या एंडोस्कोप) और प्रशिक्षण की आवश्यकता है। सभी मामलों के लिए उपयुक्त नहीं - मल्टीलेवल स्टेनोसिस, गंभीर गठिया, या अस्थिर स्पाइन को खुले दृष्टिकोण की आवश्यकता हो सकती है। डॉ. कुमार प्रत्येक रोगी का व्यक्तिगत रूप से मूल्यांकन करते हैं।'
+        },
+        {
+          question: 'फोरामिनोटॉमी के जोखिम और जटिलताएं क्या हैं?',
+          answer: 'फोरामिनोटॉमी आमतौर पर सुरक्षित है लेकिन जोखिमों में शामिल हैं: तंत्रिका चोट (1% से कम) - डीकंप्रेशन के दौरान तंत्रिका क्षतिग्रस्त होने पर अस्थायी या स्थायी कमजोरी/सुन्नता; ड्यूरल टियर/CSF रिसाव (3-5%) - आमतौर पर सर्जरी के दौरान मरम्मत की गई, शायद ही कभी अतिरिक्त उपचार की आवश्यकता होती है; संक्रमण (1-2%) - एंटीबायोटिक्स के साथ इलाज किया गया, शायद ही कभी सर्जिकल वॉशआउट की आवश्यकता होती है; रक्तस्राव/हेमेटोमा (1% से कम); यदि बहुत अधिक हड्डी हटा दी गई हो तो स्पाइनल अस्थिरता (उचित तकनीक के साथ दुर्लभ); आवर्ती स्टेनोसिस (5-10 वर्षों में 5-10%); एनेस्थीसिया जोखिम; यदि संपीड़न पूरी तरह से संबोधित नहीं किया गया हो तो अधूरी राहत। सावधानीपूर्वक सर्जिकल तकनीक और रोगी चयन के कारण डॉ. कुमार की जटिलता दर राष्ट्रीय औसत से नीचे है।'
+        },
+        {
+          question: 'फोरामिनोटॉमी के बाद मैं कितनी जल्दी काम पर वापस लौट सकता हूं?',
+          answer: 'काम पर वापसी नौकरी के प्रकार पर निर्भर करती है: डेस्क/आसीन काम - 1-2 सप्ताह; हल्का शारीरिक काम - 3-4 सप्ताह; मध्यम श्रम - 6-8 सप्ताह; भारी मैनुअल लेबर - 8-12 सप्ताह। न्यूनतम आक्रामक दृष्टिकोण आमतौर पर 1-2 सप्ताह पहले वापसी की अनुमति देता है। समयरेखा को प्रभावित करने वाले कारक: एकल बनाम मल्टीलेवल सर्जरी, खुली बनाम न्यूनतम आक्रामक, सर्वाइकल बनाम लम्बर (सर्वाइकल आमतौर पर तेजी से वापसी), समग्र स्वास्थ्य और फिटनेस, दर्द सहनशीलता, नियोक्ता आवास उपलब्ध। अपनी स्थिति के आधार पर डॉ. कुमार के साथ विशिष्ट समयरेखा पर चर्चा करें।'
+        },
+        {
+          question: 'क्या बिहार में बीमा द्वारा फोरामिनोटॉमी कवर की जाती है?',
+          answer: 'अधिकांश बीमा योजनाएं चिकित्सकीय रूप से आवश्यक होने पर फोरामिनोटॉमी को कवर करती हैं। आवश्यकताओं में आमतौर पर शामिल हैं: दस्तावेजी रेडिकुलोपैथी लक्षण, MRI दिखा रहा है फोरामिनल स्टेनोसिस तंत्रिका को संपीड़ित कर रहा है, 6-12 सप्ताह के लिए विफल रूढ़िवादी उपचार (दवाएं, फिजिकल थेरेपी), न्यूरोलॉजिकल घाटे (कमजोरी, सुन्नता, प्रतिवर्त परिवर्तन)। आर्थोसेंटर में, हमारी बीमा टीम प्री-ऑथराइजेशन और दस्तावेज़ीकरण में सहायता करती है। सरकारी योजनाएं (PMJAY, BSKY) योग्य रोगियों के लिए प्रक्रिया को कवर कर सकती हैं। आउट-ऑफ-पॉकेट लागत तकनीक (खुली बनाम न्यूनतम आक्रामक), एकल बनाम मल्टीलेवल, अस्पताल में रहने की अवधि के आधार पर ₹80,000-₹1,50,000 तक है। विशिष्ट कवरेज और लागत अनुमान के लिए हमारे बिलिंग विभाग से परामर्श करें।'
+        },
+        {
+          question: 'क्या फोरामिनोटॉमी सर्वाइकल और लम्बर स्पाइन दोनों समस्याओं का इलाज कर सकती है?',
+          answer: 'हां, फोरामिनोटॉमी सर्वाइकल (गर्दन) और लम्बर (निचली पीठ) दोनों फोरामिनल स्टेनोसिस के लिए प्रभावी है। सर्वाइकल फोरामिनोटॉमी का इलाज करती है: C5-C6 और C6-C7 सबसे आम स्तर, बांह/कंधे के दर्द के लक्षण, हाथ की सुन्नता/कमजोरी, पोस्टीरियर (गर्दन के पीछे) या एंटीरियर दृष्टिकोण से की गई। लम्बर फोरामिनोटॉमी का इलाज करती है: L4-L5 और L5-S1 सबसे आम स्तर, पैर के दर्द (साइटिका) के लक्षण, पैर की सुन्नता/कमजोरी, पोस्टीरियर दृष्टिकोण से की गई। तकनीक समान है लेकिन शरीर रचना अलग है। डॉ. कुमार के पास सर्वाइकल और लम्बर दोनों फोरामिनोटॉमी का व्यापक अनुभव है। दोनों क्षेत्रों के लिए सफलता दर (85-90%) तुलनीय हैं जब उचित रूप से संकेत दिया गया हो।'
+        }
+      ]
+    },
+    meta: {
+      en: {
+        title: 'Foraminotomy Surgery in Patna, Bihar | Dr. Gurudeo Kumar - Nerve Root Decompression Expert',
+        description: 'Expert foraminotomy (nerve root decompression) surgery in Patna by Dr. Gurudeo Kumar at Arthoscenter. 380+ successful procedures, 90% success rate. Minimally invasive options available. Treats cervical & lumbar foraminal stenosis, radiculopathy, pinched nerves. Book ₹999 consultation.',
+        keywords: ['foraminotomy surgery', 'nerve root decompression', 'foraminal stenosis treatment', 'cervical foraminotomy', 'lumbar foraminotomy', 'radiculopathy surgery', 'pinched nerve treatment', 'minimally invasive spine surgery', 'Dr. Gurudeo Kumar', 'Arthoscenter Patna', 'spine surgery Bihar', 'sciatica surgery', 'arm pain surgery', 'leg pain surgery']
+      },
+      hi: {
+        title: 'पटना, बिहार में फोरामिनोटॉमी सर्जरी | डॉ. गुरुदेव कुमार - नर्व रूट डीकंप्रेशन विशेषज्ञ',
+        description: 'डॉ. गुरुदेव कुमार द्वारा आर्थोसेंटर पटना में विशेषज्ञ फोरामिनोटॉमी (नर्व रूट डीकंप्रेशन) सर्जरी। 380+ सफल प्रक्रियाएं, 90% सफलता दर। न्यूनतम आक्रामक विकल्प उपलब्ध। सर्वाइकल और लम्बर फोरामिनल स्टेनोसिस, रेडिकुलोपैथी, पिंच की हुई तंत्रिकाओं का इलाज। ₹999 परामर्श बुक करें।',
+        keywords: ['फोरामिनोटॉमी सर्जरी', 'नर्व रूट डीकंप्रेशन', 'फोरामिनल स्टेनोसिस उपचार', 'सर्वाइकल फोरामिनोटॉमी', 'लम्बर फोरामिनोटॉमी', 'रेडिकुलोपैथी सर्जरी', 'पिंच की हुई तंत्रिका उपचार', 'न्यूनतम आक्रामक स्पाइन सर्जरी', 'डॉ. गुरुदेव कुमार', 'आर्थोसेंटर पटना', 'बिहार में स्पाइन सर्जरी', 'साइटिका सर्जरी', 'बांह दर्द सर्जरी', 'पैर दर्द सर्जरी']
+      }
+    },
+    relatedSurgeries: ['discectomy', 'lumbar-laminectomy', 'cervical-fusion', 'artificial-disc-replacement']
+  },
+
+  'hamstring-repair': {
+    id: 'hamstring-repair',
+    category: 'sports-medicine',
+    slug: 'hamstring-repair',
+    title: {
+      en: 'Hamstring Repair Surgery',
+      hi: 'हैमस्ट्रिंग मरम्मत सर्जरी'
+    },
+    shortDesc: {
+      en: 'Surgical repair of torn hamstring muscles for athletes and active individuals',
+      hi: 'एथलीटों और सक्रिय व्यक्तियों के लिए फटी हैमस्ट्रिंग मांसपेशियों की शल्य मरम्मत'
+    },
+    overview: {
+      en: `Hamstring repair surgery is a specialized procedure to surgically reattach torn hamstring muscles back to the pelvis (ischial tuberosity). The hamstring muscle group consists of three muscles - semimembranosus, semitendinosus, and biceps femoris - located at the back of the thigh. These muscles are critical for hip extension, knee flexion, and explosive movements required in sports like cricket, football, running, and athletics.
+
+At Arthoscenter, Dr. Gurudeo Kumar specializes in advanced hamstring repair techniques for athletes and active individuals in Bihar. With extensive experience treating sports injuries among cricket players, footballers, and runners in the Patna region, our facility offers comprehensive hamstring injury management from diagnosis to return-to-sport rehabilitation. We understand the unique demands of athletes in Bihar and provide personalized treatment plans to ensure optimal recovery.
+
+Hamstring injuries are classified into three grades: Grade I (mild muscle strain), Grade II (partial tear), and Grade III (complete rupture or avulsion from bone). While most Grade I and II injuries heal with conservative treatment (rest, physiotherapy, medications), Grade III complete ruptures - especially proximal avulsions where the hamstring tears away from the sitting bone - typically require surgical intervention for athletes who want to return to competitive sports. Delayed treatment of complete tears can lead to muscle retraction, fatty infiltration, and poor functional outcomes.
+
+During hamstring repair surgery, the torn hamstring tendons are reattached to the ischial tuberosity (sitting bone) using strong surgical anchors and sutures. The procedure is performed through a small incision over the buttock crease with minimal muscle damage. Early surgical repair (within 4-6 weeks of injury) provides the best outcomes, with success rates exceeding 85% for return to pre-injury athletic performance. Dr. Gurudeo Kumar works closely with sports physiotherapists to develop sport-specific rehabilitation protocols that safely progress athletes from surgery to full competition.`,
+      hi: `हैमस्ट्रिंग मरम्मत सर्जरी फटी हुई हैमस्ट्रिंग मांसपेशियों को श्रोणि (इस्किअल ट्यूबरोसिटी) से शल्य चिकित्सा द्वारा फिर से जोड़ने की एक विशेष प्रक्रिया है। हैमस्ट्रिंग मांसपेशी समूह में तीन मांसपेशियां होती हैं - सेमीमेम्ब्रानोसस, सेमीटेंडिनोसस, और बाइसेप्स फेमोरिस - जो जांघ के पीछे स्थित होती हैं। ये मांसपेशियां कूल्हे के विस्तार, घुटने के फ्लेक्सन और क्रिकेट, फुटबॉल, दौड़ने और एथलेटिक्स जैसे खेलों में आवश्यक विस्फोटक गतिविधियों के लिए महत्वपूर्ण हैं।
+
+आर्थोसेंटर में, डॉ. गुरुदेव कुमार बिहार में एथलीटों और सक्रिय व्यक्तियों के लिए उन्नत हैमस्ट्रिंग मरम्मत तकनीकों में विशेषज्ञ हैं। पटना क्षेत्र में क्रिकेट खिलाड़ियों, फुटबॉलरों और धावकों के बीच खेल चोटों के उपचार में व्यापक अनुभव के साथ, हमारी सुविधा निदान से लेकर खेल में वापसी पुनर्वास तक व्यापक हैमस्ट्रिंग चोट प्रबंधन प्रदान करती है। हम बिहार में एथलीटों की अनूठी मांगों को समझते हैं और इष्टतम रिकवरी सुनिश्चित करने के लिए व्यक्तिगत उपचार योजनाएं प्रदान करते हैं।
+
+हैमस्ट्रिंग चोटों को तीन ग्रेड में वर्गीकृत किया गया है: ग्रेड I (हल्की मांसपेशी तनाव), ग्रेड II (आंशिक फटना), और ग्रेड III (पूर्ण टूटना या हड्डी से अलग होना)। जबकि अधिकांश ग्रेड I और II चोटें रूढ़िवादी उपचार (आराम, फिजियोथेरेपी, दवाएं) से ठीक हो जाती हैं, ग्रेड III पूर्ण टूटना - विशेष रूप से समीपस्थ अल्सर जहां हैमस्ट्रिंग बैठने की हड्डी से फट जाती है - आमतौर पर उन एथलीटों के लिए शल्य चिकित्सा हस्तक्षेप की आवश्यकता होती है जो प्रतिस्पर्धी खेलों में वापस आना चाहते हैं। पूर्ण आंसुओं के विलंबित उपचार से मांसपेशी संकुचन, वसायुक्त घुसपैठ और खराब कार्यात्मक परिणाम हो सकते हैं।
+
+हैमस्ट्रिंग मरम्मत सर्जरी के दौरान, फटे हुए हैमस्ट्रिंग टेंडन को मजबूत सर्जिकल एंकर और टांके का उपयोग करके इस्किअल ट्यूबरोसिटी (बैठने की हड्डी) से फिर से जोड़ा जाता है। प्रक्रिया न्यूनतम मांसपेशी क्षति के साथ नितंब की सिलवट पर एक छोटे चीरे के माध्यम से की जाती है। प्रारंभिक शल्य मरम्मत (चोट के 4-6 सप्ताह के भीतर) सर्वोत्तम परिणाम प्रदान करती है, पूर्व-चोट एथलेटिक प्रदर्शन में वापसी के लिए 85% से अधिक सफलता दर के साथ। डॉ. गुरुदेव कुमार खेल-विशिष्ट पुनर्वास प्रोटोकॉल विकसित करने के लिए खेल फिजियोथेरेपिस्ट के साथ मिलकर काम करते हैं जो एथलीटों को सर्जरी से पूर्ण प्रतियोगिता तक सुरक्षित रूप से प्रगति करते हैं।`
+    },
+    symptoms: {
+      en: [
+        'Sudden sharp pain at the back of the thigh or buttock during activity',
+        'Audible "pop" sound at the time of injury',
+        'Immediate weakness and inability to continue sports activity',
+        'Severe bruising and swelling in the posterior thigh and buttock area',
+        'Difficulty walking or bearing weight on affected leg',
+        'Pain when sitting on hard surfaces (indicating proximal avulsion)',
+        'Visible or palpable gap in the hamstring muscle/tendon',
+        'Inability to bend the knee against resistance',
+        'Muscle weakness during hip extension or knee flexion',
+        'MRI confirmation showing complete hamstring rupture or avulsion from ischial tuberosity'
+      ],
+      hi: [
+        'गतिविधि के दौरान जांघ या नितंब के पीछे अचानक तेज दर्द',
+        'चोट के समय श्रव्य "पॉप" ध्वनि',
+        'तत्काल कमजोरी और खेल गतिविधि जारी रखने में असमर्थता',
+        'पश्च जांघ और नितंब क्षेत्र में गंभीर चोट और सूजन',
+        'प्रभावित पैर पर चलने या वजन सहन करने में कठिनाई',
+        'कठोर सतहों पर बैठने पर दर्द (समीपस्थ अल्सर का संकेत)',
+        'हैमस्ट्रिंग मांसपेशी/टेंडन में दृश्यमान या स्पर्शनीय अंतर',
+        'प्रतिरोध के खिलाफ घुटने को मोड़ने में असमर्थता',
+        'कूल्हे के विस्तार या घुटने के फ्लेक्सन के दौरान मांसपेशी कमजोरी',
+        'MRI पुष्टि जो पूर्ण हैमस्ट्रिंग टूटना या इस्किअल ट्यूबरोसिटी से अल्सर दिखाती है'
+      ]
+    },
+    procedure: {
+      en: {
+        preparation: 'Comprehensive MRI to confirm complete hamstring rupture and assess degree of muscle retraction. Pre-operative strengthening of surrounding muscles. Discussion of surgical approach and rehabilitation timeline. Planning for post-operative physiotherapy and return-to-sport protocol.',
+        steps: [
+          'General or spinal anesthesia is administered with patient positioned prone',
+          'Small incision (5-7 cm) made in gluteal/buttock crease for cosmetic benefit',
+          'Careful dissection through tissue layers to locate retracted hamstring tendons',
+          'Identification and protection of sciatic nerve to prevent injury',
+          'Scarred tissue and adhesions removed from tendon ends',
+          'Ischial tuberosity (sitting bone) is prepared - may involve removing scar tissue',
+          'Surgical bone anchors are placed into the ischial tuberosity',
+          'Hamstring tendons are reattached to bone using high-strength sutures through anchors',
+          'Repair tension and knee range of motion are tested to ensure proper healing position',
+          'Wound closure in layers with absorbable sutures, sterile dressing applied'
+        ],
+        duration: '1.5-2.5 hours',
+        anesthesia: 'General or Spinal Anesthesia'
+      },
+      hi: {
+        preparation: 'पूर्ण हैमस्ट्रिंग टूटने की पुष्टि करने और मांसपेशी संकुचन की डिग्री का आकलन करने के लिए व्यापक MRI। आसपास की मांसपेशियों की पूर्व-ऑपरेटिव मजबूती। शल्य दृष्टिकोण और पुनर्वास समयरेखा की चर्चा। पोस्ट-ऑपरेटिव फिजियोथेरेपी और खेल में वापसी प्रोटोकॉल की योजना।',
+        steps: [
+          'जनरल या स्पाइनल एनेस्थीसिया दिया जाता है और रोगी को प्रोन स्थिति में रखा जाता है',
+          'कॉस्मेटिक लाभ के लिए ग्लूटियल/नितंब सिलवट में छोटा चीरा (5-7 cm) लगाया जाता है',
+          'पीछे हटे हुए हैमस्ट्रिंग टेंडन का पता लगाने के लिए ऊतक परतों के माध्यम से सावधानीपूर्वक विच्छेदन',
+          'चोट को रोकने के लिए साइटिक तंत्रिका की पहचान और सुरक्षा',
+          'टेंडन सिरों से क्षतग्रस्त ऊतक और आसंजन हटा दिए गए',
+          'इस्किअल ट्यूबरोसिटी (बैठने की हड्डी) तैयार की गई - निशान ऊतक हटाने को शामिल कर सकती है',
+          'इस्किअल ट्यूबरोसिटी में सर्जिकल बोन एंकर लगाए जाते हैं',
+          'हैमस्ट्रिंग टेंडन को एंकर के माध्यम से उच्च-शक्ति के टांके का उपयोग करके हड्डी से फिर से जोड़ा जाता है',
+          'उचित उपचार स्थिति सुनिश्चित करने के लिए मरम्मत तनाव और घुटने की गति सीमा का परीक्षण किया जाता है',
+          'अवशोषित करने योग्य टांके के साथ परतों में घाव बंद करना, बाँझ ड्रेसिंग लगाई गई'
+        ],
+        duration: '1.5-2.5 घंटे',
+        anesthesia: 'जनरल या स्पाइनल एनेस्थीसिया'
+      }
+    },
+    recovery: {
+      en: {
+        timeline: [
+          {
+            week: 'Week 1-2',
+            activity: 'Immediate Post-Operative Protection',
+            description: 'Complete non-weight bearing on affected leg using crutches. Hip brace limiting flexion to 60-90 degrees to protect repair. No sitting on hard surfaces - lie on side or stomach. Gentle ankle pumps and quad sets. Ice therapy to reduce swelling. Pain management with medications. Wound care and dressing changes. Focus on protecting surgical repair during critical healing phase.'
+          },
+          {
+            week: 'Week 3-4',
+            activity: 'Protected Mobilization',
+            description: 'Begin partial weight bearing with crutches (25-50% body weight). Hip flexion gradually increased to 90 degrees. Gentle passive range of motion exercises. Can sit on soft cushions for short periods (15-20 minutes). Light strengthening of surrounding muscles (quadriceps, hip abductors). Continue hip brace when walking. Sutures removed at 14 days. Swelling and bruising significantly decreased.'
+          },
+          {
+            week: 'Week 5-8',
+            activity: 'Progressive Weight Bearing and ROM',
+            description: 'Full weight bearing as tolerated, wean off crutches by week 6-8. Hip flexion progressed to full range (120+ degrees). Active-assisted range of motion exercises for hip and knee. Gentle hamstring stretching begins (no aggressive stretching). Stationary bike with minimal resistance. Pool therapy (swimming, water walking). Light core strengthening. Can sit normally without restrictions.'
+          },
+          {
+            week: 'Week 9-12',
+            activity: 'Strengthening Phase',
+            description: 'Progressive hamstring strengthening exercises (isometric, then concentric/eccentric). Balance and proprioception training. Elliptical machine and treadmill walking. Sport-specific movement patterns introduced (controlled kicking, jogging in straight lines). Continued flexibility work. Single-leg exercises begin. Most patients return to desk work and light activities of daily living.'
+          },
+          {
+            week: 'Month 4-6',
+            activity: 'Advanced Rehabilitation',
+            description: 'Running program initiated (interval training on even surfaces). Agility drills, cutting, and direction changes. Sport-specific training intensifies (bowling for cricketers, kicking for footballers). Hamstring strength should reach 70-80% of uninjured side. Plyometric exercises begin. Return to practice/training with team (modified participation). MRI or ultrasound may be performed to assess healing.'
+          },
+          {
+            week: 'Month 7-12',
+            activity: 'Return to Sport',
+            description: 'Gradual return to competitive sports after achieving functional milestones: hamstring strength >90% of opposite leg, full range of motion, no pain with high-intensity activities, sport-specific testing passed. Cricketers return to bowling and batting. Footballers return to full training and matches. Sprinters return to racing. Continued injury prevention exercises. Success rate >85% for return to pre-injury level in properly rehabilitated athletes.'
+          }
+        ],
+        tips: [
+          'Early surgery (within 4-6 weeks) provides best results - delayed repair leads to poor outcomes',
+          'Strict compliance with hip brace and weight-bearing restrictions crucial for first 6 weeks',
+          'Never sit directly on hard surfaces for first 4-6 weeks - protects repair site',
+          'Do not rush rehabilitation timeline - aggressive stretching can re-rupture repair',
+          'Hamstring strength recovery is gradual - expect 9-12 months for full athletic recovery',
+          'Eccentric strengthening (Nordic hamstring exercises) critical for preventing re-injury',
+          'Return to sports only after achieving strength and functional testing milestones',
+          'Cricket bowlers and footballers need sport-specific rehabilitation before return',
+          'Maintain flexibility and strength training long-term to prevent future injuries',
+          'Consider biomechanical assessment to identify and correct injury risk factors'
+        ]
+      },
+      hi: {
+        timeline: [
+          {
+            week: 'सप्ताह 1-2',
+            activity: 'तत्काल पोस्ट-ऑपरेटिव सुरक्षा',
+            description: 'बैसाखी का उपयोग करके प्रभावित पैर पर पूर्ण गैर-वजन असर। मरम्मत की रक्षा के लिए 60-90 डिग्री तक फ्लेक्सन को सीमित करने वाला हिप ब्रेस। कठोर सतहों पर नहीं बैठें - पक्ष या पेट पर लेटें। कोमल टखने पंप और क्वाड सेट। सूजन को कम करने के लिए आइस थेरेपी। दवाओं के साथ दर्द प्रबंधन। घाव की देखभाल और ड्रेसिंग परिवर्तन। महत्वपूर्ण उपचार चरण के दौरान शल्य मरम्मत की रक्षा पर ध्यान केंद्रित करें।'
+          },
+          {
+            week: 'सप्ताह 3-4',
+            activity: 'संरक्षित गतिशीलता',
+            description: 'बैसाखी के साथ आंशिक वजन असर शुरू करें (25-50% शरीर का वजन)। हिप फ्लेक्सन धीरे-धीरे 90 डिग्री तक बढ़ाया गया। कोमल निष्क्रिय गति सीमा व्यायाम। छोटी अवधि (15-20 मिनट) के लिए नरम कुशन पर बैठ सकते हैं। आसपास की मांसपेशियों की हल्की मजबूती (क्वाड्रिसेप्स, हिप अपहरणकर्ता)। चलते समय हिप ब्रेस जारी रखें। 14 दिनों में सिवनी हटा दी गई। सूजन और चोट में काफी कमी आई।'
+          },
+          {
+            week: 'सप्ताह 5-8',
+            activity: 'प्रगतिशील वजन असर और ROM',
+            description: 'सहन के रूप में पूर्ण वजन असर, सप्ताह 6-8 तक बैसाखी से छुटकारा। हिप फ्लेक्सन पूरी सीमा (120+ डिग्री) तक बढ़ाया गया। हिप और घुटने के लिए सक्रिय-सहायता प्राप्त गति सीमा व्यायाम। कोमल हैमस्ट्रिंग स्ट्रेचिंग शुरू होती है (कोई आक्रामक स्ट्रेचिंग नहीं)। न्यूनतम प्रतिरोध के साथ स्थिर बाइक। पूल थेरेपी (तैराकी, पानी में चलना)। हल्की कोर मजबूती। प्रतिबंध के बिना सामान्य रूप से बैठ सकते हैं।'
+          },
+          {
+            week: 'सप्ताह 9-12',
+            activity: 'मजबूत बनाने का चरण',
+            description: 'प्रगतिशील हैमस्ट्रिंग मजबूती व्यायाम (आइसोमेट्रिक, फिर संकेंद्रित/विलक्षण)। संतुलन और प्रोप्रियोसेप्शन प्रशिक्षण। एलिप्टिकल मशीन और ट्रेडमिल चलना। खेल-विशिष्ट गति पैटर्न पेश किए गए (नियंत्रित किक, सीधी रेखाओं में जॉगिंग)। निरंतर लचीलापन काम। एकल-पैर व्यायाम शुरू होते हैं। अधिकांश रोगी डेस्क काम और दैनिक जीवन की हल्की गतिविधियों में लौट आते हैं।'
+          },
+          {
+            week: 'महीना 4-6',
+            activity: 'उन्नत पुनर्वास',
+            description: 'दौड़ने का कार्यक्रम शुरू किया गया (समान सतहों पर अंतराल प्रशिक्षण)। चपलता अभ्यास, काटना और दिशा परिवर्तन। खेल-विशिष्ट प्रशिक्षण तेज होता है (क्रिकेटरों के लिए गेंदबाजी, फुटबॉलरों के लिए लात मारना)। हैमस्ट्रिंग की ताकत अप्रभावित पक्ष के 70-80% तक पहुंचनी चाहिए। प्लायोमेट्रिक व्यायाम शुरू होते हैं। टीम के साथ अभ्यास/प्रशिक्षण में वापसी (संशोधित भागीदारी)। उपचार का आकलन करने के लिए MRI या अल्ट्रासाउंड किया जा सकता है।'
+          },
+          {
+            week: 'महीना 7-12',
+            activity: 'खेल में वापसी',
+            description: 'कार्यात्मक मील के पत्थर प्राप्त करने के बाद प्रतिस्पर्धी खेलों में धीरे-धीरे वापसी: हैमस्ट्रिंग की ताकत विपरीत पैर के >90%, गति की पूरी सीमा, उच्च-तीव्रता गतिविधियों के साथ कोई दर्द नहीं, खेल-विशिष्ट परीक्षण पास किया गया। क्रिकेटर गेंदबाजी और बल्लेबाजी में वापस आते हैं। फुटबॉलर पूर्ण प्रशिक्षण और मैचों में वापस आते हैं। स्प्रिंटर दौड़ में वापस आते हैं। निरंतर चोट निवारण व्यायाम। उचित रूप से पुनर्वासित एथलीटों में पूर्व-चोट स्तर में वापसी के लिए 85% से अधिक सफलता दर।'
+          }
+        ],
+        tips: [
+          'प्रारंभिक सर्जरी (4-6 सप्ताह के भीतर) सर्वोत्तम परिणाम प्रदान करती है - विलंबित मरम्मत खराब परिणाम की ओर ले जाती है',
+          'पहले 6 सप्ताह के लिए हिप ब्रेस और वजन-असर प्रतिबंधों का सख्त अनुपालन महत्वपूर्ण है',
+          'पहले 4-6 सप्ताह के लिए कठोर सतहों पर सीधे कभी न बैठें - मरम्मत साइट की रक्षा करता है',
+          'पुनर्वास समयरेखा में जल्दबाजी न करें - आक्रामक स्ट्रेचिंग मरम्मत को फिर से फाड़ सकती है',
+          'हैमस्ट्रिंग शक्ति रिकवरी क्रमिक है - पूर्ण एथलेटिक रिकवरी के लिए 9-12 महीने की उम्मीद करें',
+          'विलक्षण मजबूती (नॉर्डिक हैमस्ट्रिंग व्यायाम) पुनः चोट को रोकने के लिए महत्वपूर्ण है',
+          'ताकत और कार्यात्मक परीक्षण मील के पत्थर प्राप्त करने के बाद ही खेल में वापसी करें',
+          'क्रिकेट गेंदबाज और फुटबॉलरों को वापसी से पहले खेल-विशिष्ट पुनर्वास की आवश्यकता होती है',
+          'भविष्य की चोटों को रोकने के लिए लचीलेपन और शक्ति प्रशिक्षण को दीर्घकालिक बनाए रखें',
+          'चोट जोखिम कारकों की पहचान और सुधार के लिए बायोमैकेनिकल मूल्यांकन पर विचार करें'
+        ]
+      }
+    },
+    faqs: {
+      en: [
+        {
+          question: 'What is the difference between Grade I, II, and III hamstring injuries?',
+          answer: 'Grade I is a mild muscle strain with microscopic tears - causes mild pain and tightness but minimal functional limitation. Heals with 2-3 weeks rest and physiotherapy. Grade II is a partial tear with more significant muscle fiber damage - causes moderate pain, swelling, bruising, weakness. May take 4-8 weeks to heal with conservative treatment. Grade III is a complete rupture or avulsion where the hamstring tears completely off the bone (ischial tuberosity) - causes severe pain, immediate weakness, visible/palpable gap, extensive bruising. Almost always requires surgical repair for athletes who want to return to sports. Without surgery, Grade III injuries heal with significant weakness and inability to return to high-level athletic activities.'
+        },
+        {
+          question: 'How do I know if I need surgery for hamstring injury?',
+          answer: 'Surgery is recommended for: Complete proximal hamstring avulsion (torn off ischial tuberosity confirmed on MRI), Athletes wanting to return to competitive sports, Injury involving 2 or more of the 3 hamstring tendons, Significant muscle retraction (>2 cm gap), Failed conservative treatment for partial tears with persistent weakness. Most Grade I and II injuries do not need surgery. Grade III complete ruptures, especially proximal avulsions, benefit significantly from surgical repair. Dr. Kumar will evaluate your MRI, examine your strength deficits, discuss your activity goals, and recommend whether surgery is needed. Early surgery (within 4-6 weeks) provides best results compared to delayed repair.'
+        },
+        {
+          question: 'What are the success rates for hamstring repair surgery?',
+          answer: 'Success rates are excellent when performed early. Studies show: 85-90% return to pre-injury athletic performance when surgery done within 4-6 weeks, 75-80% success for surgery performed at 6-12 weeks post-injury, <70% success for chronic repairs (>3 months post-injury). Success factors include: early surgical intervention, proper surgical technique, patient compliance with rehabilitation, sport-specific physiotherapy. At Arthroscenter, Dr. Kumar has >85% success rate with athletes returning to cricket, football, and athletics. Key to success is early diagnosis, timely surgery, and structured rehabilitation program.'
+        },
+        {
+          question: 'When can I return to sports after hamstring repair surgery?',
+          answer: 'Return to sports timeline varies by sport and individual healing: Non-contact sports (swimming, cycling) - 4-6 months, Cricket bowling - 8-10 months (requires explosive hip extension), Football/soccer - 9-12 months (high-speed running, kicking), Sprinting/athletics - 10-12 months (maximum hamstring stress). Return criteria include: >90% hamstring strength compared to opposite leg, full pain-free range of motion, successful completion of sport-specific functional testing, MRI/ultrasound showing complete healing, gradual progression through training without setbacks. Rushing return increases re-injury risk. Dr. Kumar and physiotherapy team guide safe return-to-sport progression based on objective strength and functional testing.'
+        },
+        {
+          question: 'What happens if hamstring tear is not repaired surgically?',
+          answer: 'Chronic untreated complete hamstring ruptures lead to: Persistent weakness (30-50% strength deficit), Inability to return to competitive sports, Muscle atrophy and fatty infiltration (muscle replaced by fat), Chronic pain especially when sitting, Functional limitations (difficulty running, jumping, climbing stairs), Compensatory injuries to other muscles (opposite leg, lower back). While daily activities may be possible, athletic performance is significantly compromised. Late surgical repair (>3-6 months) has poorer outcomes due to muscle retraction, scarring, and fatty degeneration. This is why early diagnosis and treatment within 4-6 weeks is crucial for athletes.'
+        },
+        {
+          question: 'Why are hamstring injuries common in cricket and football in Bihar?',
+          answer: 'Hamstring injuries are prevalent in Bihar athletes due to: Cricket bowling - explosive hip extension and trunk rotation during delivery stride places enormous stress on hamstrings, Cricket batting - quick acceleration between wickets and aggressive shot-making, Football - high-speed running, sudden acceleration/deceleration, kicking motions, Inadequate warm-up and stretching before play, Hard playing surfaces (concrete pitches, dry football fields), Limited access to proper strength and conditioning programs, Previous hamstring injury increasing re-injury risk 2-6 times. At Arthroscenter, we treat many cricketers (especially fast bowlers) and footballers from across Bihar. Prevention focuses on Nordic hamstring exercises, proper warm-up, strength training, and biomechanical assessment.'
+        },
+        {
+          question: 'How long is the hospital stay after hamstring repair surgery?',
+          answer: 'Most hamstring repairs require 1-2 night hospital stay for pain management and initial mobilization. Same-day discharge is possible for select patients but generally not recommended due to: Need for strong pain medications initially, Risk of bleeding/hematoma in first 24 hours, Difficulty mobilizing safely on crutches with hip brace, Benefit of supervised physiotherapy on day 1 post-op. Before discharge, our team ensures: pain is well controlled with oral medications, patient/family trained in crutch walking and hip brace use, wound care instructions provided, follow-up appointments scheduled, physiotherapy referral arranged. Most patients from outside Patna stay 2-3 nights to attend initial post-op visits before traveling home.'
+        },
+        {
+          question: 'Is hamstring repair surgery covered by insurance in Bihar?',
+          answer: 'Most health insurance policies cover hamstring repair surgery when medically indicated. Requirements typically include: MRI documentation of complete hamstring rupture/avulsion, Evidence of functional deficit (weakness, inability to work/play sports), Failed conservative treatment or acute complete rupture, Pre-authorization from insurance company. Government schemes: PMJAY (Ayushman Bharat) may cover for eligible beneficiaries - check coverage limits, BSKY (Bihar State Health Insurance) provides coverage for state residents. Out-of-pocket costs if uninsured: ₹80,000-₹1,50,000 depending on hospital choice, implants used (anchors, sutures), length of stay. At Arthoscenter, our billing team helps with insurance claims and pre-authorization. Contact us for cost estimate and insurance verification before surgery.'
+        },
+        {
+          question: 'What are the risks and complications of hamstring repair surgery?',
+          answer: 'Hamstring repair is generally safe but potential complications include: Sciatic nerve injury (1-2%) - temporary or permanent numbness/tingling in leg if nerve damaged, usually recovers; Infection (1-2%) - treated with antibiotics, rarely requires surgical washout; Re-rupture (3-5%) - usually occurs if rehabilitation protocol not followed or premature return to sports; Hematoma/bleeding - may require drainage if large; Stiffness/limited hip flexion - prevented with appropriate physiotherapy; Chronic pain at repair site - uncommon, usually resolves over 6-12 months; Weakness compared to opposite leg (10-15% strength deficit acceptable); Heterotopic ossification (bone formation in muscle) - rare. Dr. Kumar uses meticulous surgical technique and nerve monitoring to minimize risks. Proper post-operative care and rehabilitation compliance reduce complication rates significantly.'
+        },
+        {
+          question: 'Can hamstring injuries be prevented in athletes?',
+          answer: 'Yes, many hamstring injuries are preventable through: Nordic hamstring exercises - eccentric strengthening shown to reduce injury risk by 50-70%, Proper warm-up and dynamic stretching before training/competition, Progressive strength training for hamstrings and core muscles, Adequate recovery between high-intensity training sessions, Biomechanical assessment to identify and correct running/kicking technique flaws, Treatment of muscle imbalances (quad/hamstring strength ratio), Gradual return to play after injury - avoid rushing back, Monitoring training load and fatigue levels. Athletes with previous hamstring injury have 2-6x higher re-injury risk, so prevention is critical. At Arthroscenter, we provide injury prevention programs for Bihar athletes including schools, clubs, and state-level teams. Regular screening, education, and structured conditioning significantly reduce hamstring injury incidence.'
+        }
+      ],
+      hi: [
+        {
+          question: 'ग्रेड I, II और III हैमस्ट्रिंग चोटों में क्या अंतर है?',
+          answer: 'ग्रेड I सूक्ष्म आंसुओं के साथ एक हल्की मांसपेशी तनाव है - हल्के दर्द और तंगी का कारण बनता है लेकिन न्यूनतम कार्यात्मक सीमा। 2-3 सप्ताह आराम और फिजियोथेरेपी से ठीक हो जाता है। ग्रेड II अधिक महत्वपूर्ण मांसपेशी फाइबर क्षति के साथ एक आंशिक फटना है - मध्यम दर्द, सूजन, चोट, कमजोरी का कारण बनता है। रूढ़िवादी उपचार के साथ ठीक होने में 4-8 सप्ताह लग सकते हैं। ग्रेड III एक पूर्ण टूटना या अल्सर है जहां हैमस्ट्रिंग हड्डी (इस्किअल ट्यूबरोसिटी) से पूरी तरह से फट जाती है - गंभीर दर्द, तत्काल कमजोरी, दृश्यमान/स्पर्शनीय अंतर, व्यापक चोट का कारण बनती है। उन एथलीटों के लिए लगभग हमेशा शल्य मरम्मत की आवश्यकता होती है जो खेल में वापस आना चाहते हैं। सर्जरी के बिना, ग्रेड III चोटें महत्वपूर्ण कमजोरी और उच्च-स्तरीय एथलेटिक गतिविधियों में वापस आने में असमर्थता के साथ ठीक हो जाती हैं।'
+        },
+        {
+          question: 'मुझे कैसे पता चलेगा कि मुझे हैमस्ट्रिंग चोट के लिए सर्जरी की आवश्यकता है?',
+          answer: 'सर्जरी की सिफारिश की जाती है: पूर्ण समीपस्थ हैमस्ट्रिंग अल्सर (MRI पर पुष्टि की गई इस्किअल ट्यूबरोसिटी से फटी), प्रतिस्पर्धी खेलों में वापस आना चाहने वाले एथलीट, 3 हैमस्ट्रिंग टेंडन में से 2 या अधिक से जुड़ी चोट, महत्वपूर्ण मांसपेशी संकुचन (>2 cm अंतर), लगातार कमजोरी के साथ आंशिक आंसुओं के लिए विफल रूढ़िवादी उपचार। अधिकांश ग्रेड I और II चोटों को सर्जरी की आवश्यकता नहीं होती है। ग्रेड III पूर्ण टूटना, विशेष रूप से समीपस्थ अल्सर, शल्य मरम्मत से महत्वपूर्ण रूप से लाभान्वित होते हैं। डॉ. कुमार आपके MRI का मूल्यांकन करेंगे, आपकी ताकत की कमी की जांच करेंगे, आपकी गतिविधि लक्ष्यों पर चर्चा करेंगे, और सर्जरी की आवश्यकता है या नहीं, इसकी सिफारिश करेंगे। प्रारंभिक सर्जरी (4-6 सप्ताह के भीतर) विलंबित मरम्मत की तुलना में सर्वोत्तम परिणाम प्रदान करती है।'
+        },
+        {
+          question: 'हैमस्ट्रिंग मरम्मत सर्जरी के लिए सफलता दर क्या हैं?',
+          answer: 'जब जल्दी किया जाता है तो सफलता दर उत्कृष्ट होती है। अध्ययन बताते हैं: 4-6 सप्ताह के भीतर सर्जरी करने पर 85-90% पूर्व-चोट एथलेटिक प्रदर्शन में वापसी, चोट के 6-12 सप्ताह बाद की गई सर्जरी के लिए 75-80% सफलता, पुरानी मरम्मत (चोट के >3 महीने बाद) के लिए <70% सफलता। सफलता कारकों में शामिल हैं: प्रारंभिक शल्य हस्तक्षेप, उचित शल्य तकनीक, पुनर्वास के साथ रोगी अनुपालन, खेल-विशिष्ट फिजियोथेरेपी। आर्थोसेंटर में, डॉ. कुमार के पास क्रिकेट, फुटबॉल और एथलेटिक्स में वापस आने वाले एथलीटों के साथ >85% सफलता दर है। सफलता की कुंजी प्रारंभिक निदान, समय पर सर्जरी और संरचित पुनर्वास कार्यक्रम है।'
+        },
+        {
+          question: 'हैमस्ट्रिंग मरम्मत सर्जरी के बाद मैं कब खेल में वापस आ सकता हूं?',
+          answer: 'खेल में वापसी की समयरेखा खेल और व्यक्तिगत उपचार के आधार पर भिन्न होती है: गैर-संपर्क खेल (तैराकी, साइकलिंग) - 4-6 महीने, क्रिकेट गेंदबाजी - 8-10 महीने (विस्फोटक हिप विस्तार की आवश्यकता है), फुटबॉल/सॉकर - 9-12 महीने (उच्च-गति दौड़, लात मारना), स्प्रिंटिंग/एथलेटिक्स - 10-12 महीने (अधिकतम हैमस्ट्रिंग तनाव)। वापसी मानदंड में शामिल हैं: विपरीत पैर की तुलना में >90% हैमस्ट्रिंग ताकत, गति की पूर्ण दर्द-मुक्त सीमा, खेल-विशिष्ट कार्यात्मक परीक्षण का सफल समापन, पूर्ण उपचार दिखा रहा MRI/अल्ट्रासाउंड, असफलताओं के बिना प्रशिक्षण के माध्यम से क्रमिक प्रगति। जल्दबाजी में वापसी पुनः चोट जोखिम बढ़ाती है। डॉ. कुमार और फिजियोथेरेपी टीम उद्देश्य ताकत और कार्यात्मक परीक्षण के आधार पर सुरक्षित खेल में वापसी प्रगति का मार्गदर्शन करते हैं।'
+        },
+        {
+          question: 'यदि हैमस्ट्रिंग फटना शल्य चिकित्सा से मरम्मत नहीं किया जाता है तो क्या होता है?',
+          answer: 'पुरानी अनुपचारित पूर्ण हैमस्ट्रिंग टूटना इसकी ओर ले जाती है: लगातार कमजोरी (30-50% ताकत की कमी), प्रतिस्पर्धी खेलों में वापस आने में असमर्थता, मांसपेशी शोष और वसायुक्त घुसपैठ (मांसपेशी वसा द्वारा प्रतिस्थापित), विशेष रूप से बैठते समय पुराना दर्द, कार्यात्मक सीमाएं (दौड़ने, कूदने, सीढ़ियां चढ़ने में कठिनाई), अन्य मांसपेशियों (विपरीत पैर, निचली पीठ) में प्रतिपूरक चोटें। जबकि दैनिक गतिविधियां संभव हो सकती हैं, एथलेटिक प्रदर्शन काफी समझौता किया जाता है। देर से शल्य मरम्मत (>3-6 महीने) मांसपेशी संकुचन, निशान और वसायुक्त अध: पतन के कारण खराब परिणाम है। यही कारण है कि एथलीटों के लिए 4-6 सप्ताह के भीतर प्रारंभिक निदान और उपचार महत्वपूर्ण है।'
+        },
+        {
+          question: 'बिहार में क्रिकेट और फुटबॉल में हैमस्ट्रिंग चोटें आम क्यों हैं?',
+          answer: 'बिहार एथलीटों में हैमस्ट्रिंग चोटें प्रचलित हैं: क्रिकेट गेंदबाजी - डिलीवरी स्ट्राइड के दौरान विस्फोटक हिप विस्तार और ट्रंक रोटेशन हैमस्ट्रिंग पर भारी तनाव डालता है, क्रिकेट बल्लेबाजी - विकेटों के बीच त्वरित त्वरण और आक्रामक शॉट बनाना, फुटबॉल - उच्च-गति दौड़, अचानक त्वरण/मंदी, लात मारने की गतिविधियां, खेल से पहले अपर्याप्त वार्म-अप और स्ट्रेचिंग, कठोर खेल सतहें (कंक्रीट पिच, सूखे फुटबॉल मैदान), उचित ताकत और कंडीशनिंग कार्यक्रमों तक सीमित पहुंच, पिछली हैमस्ट्रिंग चोट पुनः चोट जोखिम 2-6 गुना बढ़ाती है। आर्थोसेंटर में, हम बिहार भर से कई क्रिकेटरों (विशेष रूप से तेज गेंदबाज) और फुटबॉलरों का इलाज करते हैं। रोकथाम नॉर्डिक हैमस्ट्रिंग व्यायाम, उचित वार्म-अप, शक्ति प्रशिक्षण और बायोमैकेनिकल मूल्यांकन पर केंद्रित है।'
+        },
+        {
+          question: 'हैमस्ट्रिंग मरम्मत सर्जरी के बाद अस्पताल में रहना कितना लंबा है?',
+          answer: 'अधिकांश हैमस्ट्रिंग मरम्मत के लिए दर्द प्रबंधन और प्रारंभिक गतिशीलता के लिए 1-2 रात अस्पताल में रहना आवश्यक है। चुनिंदा रोगियों के लिए उसी दिन छुट्टी संभव है लेकिन आमतौर पर अनुशंसित नहीं है: शुरुआत में मजबूत दर्द दवाओं की आवश्यकता, पहले 24 घंटों में रक्तस्राव/हेमेटोमा का जोखिम, हिप ब्रेस के साथ बैसाखी पर सुरक्षित रूप से गतिशील होने में कठिनाई, दिन 1 पोस्ट-ऑप पर पर्यवेक्षित फिजियोथेरेपी का लाभ। छुट्टी से पहले, हमारी टीम सुनिश्चित करती है: मौखिक दवाओं के साथ दर्द अच्छी तरह से नियंत्रित है, बैसाखी चलने और हिप ब्रेस उपयोग में प्रशिक्षित रोगी/परिवार, घाव देखभाल निर्देश प्रदान किए गए, अनुवर्ती नियुक्तियां निर्धारित की गईं, फिजियोथेरेपी रेफरल व्यवस्थित किया गया। पटना के बाहर के अधिकांश रोगी घर यात्रा करने से पहले प्रारंभिक पोस्ट-ऑप दौरे में भाग लेने के लिए 2-3 रातें रुकते हैं।'
+        },
+        {
+          question: 'क्या बिहार में बीमा द्वारा हैमस्ट्रिंग मरम्मत सर्जरी कवर की जाती है?',
+          answer: 'अधिकांश स्वास्थ्य बीमा पॉलिसियां चिकित्सकीय रूप से संकेत दिए जाने पर हैमस्ट्रिंग मरम्मत सर्जरी को कवर करती हैं। आवश्यकताओं में आमतौर पर शामिल हैं: पूर्ण हैमस्ट्रिंग टूटना/अल्सर का MRI दस्तावेज़ीकरण, कार्यात्मक घाटे का सबूत (कमजोरी, काम/खेल खेलने में असमर्थता), विफल रूढ़िवादी उपचार या तीव्र पूर्ण टूटना, बीमा कंपनी से प्री-ऑथराइजेशन। सरकारी योजनाएं: PMJAY (आयुष्मान भारत) योग्य लाभार्थियों के लिए कवर कर सकता है - कवरेज सीमाएं जांचें, BSKY (बिहार राज्य स्वास्थ्य बीमा) राज्य निवासियों के लिए कवरेज प्रदान करता है। यदि अबीमाकृत हैं तो आउट-ऑफ-पॉकेट लागत: अस्पताल की पसंद, उपयोग किए गए प्रत्यारोपण (एंकर, सिवनी), रहने की लंबाई के आधार पर ₹80,000-₹1,50,000। आर्थोसेंटर में, हमारी बिलिंग टीम बीमा दावों और प्री-ऑथराइजेशन में मदद करती है। सर्जरी से पहले लागत अनुमान और बीमा सत्यापन के लिए हमसे संपर्क करें।'
+        },
+        {
+          question: 'हैमस्ट्रिंग मरम्मत सर्जरी के जोखिम और जटिलताएं क्या हैं?',
+          answer: 'हैमस्ट्रिंग मरम्मत आमतौर पर सुरक्षित है लेकिन संभावित जटिलताओं में शामिल हैं: साइटिक तंत्रिका चोट (1-2%) - पैर में अस्थायी या स्थायी सुन्नता/झुनझुनी यदि तंत्रिका क्षतिग्रस्त हो, आमतौर पर ठीक हो जाती है; संक्रमण (1-2%) - एंटीबायोटिक्स के साथ इलाज किया गया, शायद ही कभी सर्जिकल वॉशआउट की आवश्यकता होती है; पुनः-टूटना (3-5%) - आमतौर पर तब होता है जब पुनर्वास प्रोटोकॉल का पालन नहीं किया जाता है या खेल में समयपूर्व वापसी; हेमेटोमा/रक्तस्राव - यदि बड़ा हो तो जल निकासी की आवश्यकता हो सकती है; कठोरता/सीमित हिप फ्लेक्सन - उचित फिजियोथेरेपी से रोका गया; मरम्मत साइट पर पुराना दर्द - असामान्य, आमतौर पर 6-12 महीनों में हल हो जाता है; विपरीत पैर की तुलना में कमजोरी (10-15% ताकत की कमी स्वीकार्य); हेटरोटोपिक ओसिफिकेशन (मांसपेशी में हड्डी का गठन) - दुर्लभ। डॉ. कुमार जोखिमों को कम करने के लिए सावधानीपूर्वक सर्जिकल तकनीक और तंत्रिका निगरानी का उपयोग करते हैं। उचित पोस्ट-ऑपरेटिव देखभाल और पुनर्वास अनुपालन जटिलता दर को काफी कम करते हैं।'
+        },
+        {
+          question: 'क्या एथलीटों में हैमस्ट्रिंग चोटों को रोका जा सकता है?',
+          answer: 'हां, कई हैमस्ट्रिंग चोटें रोकथाम योग्य हैं: नॉर्डिक हैमस्ट्रिंग व्यायाम - विलक्षण मजबूती जो चोट जोखिम को 50-70% तक कम करने के लिए दिखाया गया है, प्रशिक्षण/प्रतियोगिता से पहले उचित वार्म-अप और गतिशील स्ट्रेचिंग, हैमस्ट्रिंग और कोर मांसपेशियों के लिए प्रगतिशील शक्ति प्रशिक्षण, उच्च-तीव्रता प्रशिक्षण सत्रों के बीच पर्याप्त रिकवरी, दौड़ने/लात मारने की तकनीक दोषों की पहचान और सुधार के लिए बायोमैकेनिकल मूल्यांकन, मांसपेशी असंतुलन का उपचार (क्वाड/हैमस्ट्रिंग ताकत अनुपात), चोट के बाद धीरे-धीरे खेल में वापसी - वापस जल्दबाजी से बचें, प्रशिक्षण भार और थकान स्तरों की निगरानी। पिछली हैमस्ट्रिंग चोट वाले एथलीटों में 2-6x उच्च पुनः चोट जोखिम है, इसलिए रोकथाम महत्वपूर्ण है। आर्थोसेंटर में, हम बिहार एथलीटों के लिए स्कूलों, क्लबों और राज्य-स्तरीय टीमों सहित चोट रोकथाम कार्यक्रम प्रदान करते हैं। नियमित स्क्रीनिंग, शिक्षा और संरचित कंडीशनिंग हैमस्ट्रिंग चोट घटनाओं को काफी कम करती है।'
+        }
+      ]
+    },
+    meta: {
+      en: {
+        title: 'Hamstring Repair Surgery in Patna, Bihar | Dr. Gurudeo Kumar - Sports Injury Specialist',
+        description: 'Expert hamstring repair surgery in Patna by Dr. Gurudeo Kumar at Arthoscenter. 85%+ success rate for athletes. Treats complete hamstring tears in cricketers & footballers. Book ₹999 consultation.',
+        keywords: ['hamstring repair surgery', 'hamstring tear treatment', 'proximal hamstring avulsion', 'sports injury surgery', 'cricket injury treatment', 'football injury surgery', 'hamstring rupture repair', 'sports medicine Bihar', 'Dr. Gurudeo Kumar', 'Arthoscenter Patna', 'athlete surgery', 'hamstring surgery Patna', 'Grade 3 hamstring tear', 'return to sports', 'sports physiotherapy Bihar']
+      },
+      hi: {
+        title: 'पटना, बिहार में हैमस्ट्रिंग मरम्मत सर्जरी | डॉ. गुरुदेव कुमार - खेल चोट विशेषज्ञ',
+        description: 'डॉ. गुरुदेव कुमार द्वारा आर्थोसेंटर पटना में विशेषज्ञ हैमस्ट्रिंग मरम्मत सर्जरी। एथलीटों के लिए 85%+ सफलता दर। क्रिकेटरों और फुटबॉलरों में पूर्ण हैमस्ट्रिंग फटने का इलाज। ₹999 परामर्श बुक करें।',
+        keywords: ['हैमस्ट्रिंग मरम्मत सर्जरी', 'हैमस्ट्रिंग फटने का उपचार', 'समीपस्थ हैमस्ट्रिंग अल्सर', 'खेल चोट सर्जरी', 'क्रिकेट चोट उपचार', 'फुटबॉल चोट सर्जरी', 'हैमस्ट्रिंग टूटना मरम्मत', 'बिहार में खेल चिकित्सा', 'डॉ. गुरुदेव कुमार', 'आर्थोसेंटर पटना', 'एथलीट सर्जरी', 'पटना में हैमस्ट्रिंग सर्जरी', 'ग्रेड 3 हैमस्ट्रिंग फटना', 'खेल में वापसी', 'बिहार में खेल फिजियोथेरेपी']
+      }
+    },
+    relatedSurgeries: ['acl-reconstruction', 'meniscus-repair', 'patellar-tendon-repair', 'achilles-tendon-repair']
+  },
+
+  'hip-fracture-surgery': {
+    id: 'hip-fracture-surgery',
+    category: 'trauma-care',
+    slug: 'hip-fracture-surgery',
+    title: {
+      en: 'Hip Fracture Surgery',
+      hi: 'हिप फ्रैक्चर सर्जरी'
+    },
+    shortDesc: {
+      en: 'Surgical treatment for hip fractures including femoral neck, intertrochanteric, and subtrochanteric fractures',
+      hi: 'फेमोरल नेक, इंटरट्रोकैंटेरिक और सबट्रोकैंटेरिक फ्रैक्चर सहित हिप फ्रैक्चर के लिए सर्जिकल उपचार'
+    },
+    overview: {
+      en: `Hip Fracture Surgery is a critical orthopedic procedure designed to treat fractures occurring in the upper portion of the femur (thigh bone) near the hip joint. Hip fractures are among the most serious and life-altering injuries in orthopedic trauma, particularly affecting elderly patients with osteoporosis, though they also occur in younger patients following high-energy trauma from motor vehicle accidents, motorcycle crashes, falls from height, or industrial accidents. These fractures are classified into three main types based on anatomical location: (1) Femoral neck fractures (intracapsular, occurring within the hip joint capsule), (2) Intertrochanteric fractures (extracapsular, occurring between the femoral neck and lesser trochanter), and (3) Subtrochanteric fractures (occurring below the lesser trochanter). Each fracture pattern requires specific surgical approaches, implant choices, and treatment strategies to achieve optimal healing and functional recovery.
+
+At Arthoscenter in Patna, Bihar, Dr. Gurudeo Kumar has established himself as one of the region's most experienced hip fracture surgeons, having successfully treated over 1,800 hip fracture cases with exceptional clinical outcomes, union rates exceeding 94%, and mortality rates significantly below national averages. Our comprehensive hip fracture program operates 24/7 with dedicated geriatric trauma teams, fellowship-trained orthopedic surgeons, state-of-the-art C-arm fluoroscopy systems, comprehensive implant inventory including cannulated screws, dynamic hip screws (DHS), cephalomedullary nails (proximal femoral nails), hemiarthroplasty and total hip replacement prostheses, expert anesthesia teams experienced in managing elderly patients with multiple medical comorbidities, intensive care facilities, and structured multidisciplinary rehabilitation programs to ensure optimal care for every hip fracture patient requiring urgent surgical intervention.
+
+Hip fractures are considered orthopedic emergencies requiring surgical intervention within 24-48 hours of injury whenever medically possible. Early surgery has been definitively proven to reduce complications including pressure sores, pneumonia, blood clots, and mortality while improving pain control, facilitating early mobilization, preventing malunion and nonunion, and resulting in better functional outcomes and higher rates of return to independent living. Delayed surgery beyond 48 hours is associated with significantly increased complications and mortality, particularly in elderly patients.
+
+In Bihar, hip fractures represent a major public health concern affecting thousands of patients annually. The elderly population (age 65+) is most vulnerable, with fractures typically resulting from simple falls at home due to osteoporosis (age-related bone weakening), poor vision, environmental hazards (wet floors, loose rugs, poor lighting), balance disorders, and medication side effects. Younger patients sustain hip fractures from high-energy trauma including road traffic accidents (extremely common in Bihar's urban and rural roads), motorcycle crashes, falls from height during construction work or agricultural activities, and industrial accidents. Additional risk factors prevalent in Bihar include vitamin D deficiency (very common despite abundant sunlight), inadequate calcium intake, smoking and tobacco use, alcohol consumption, diabetes, and chronic corticosteroid use.
+
+The surgical approach for hip fractures depends primarily on fracture location and patient age. Femoral neck fractures are classified using the Garden classification system (Garden I-IV based on displacement), with treatment decisions guided by fracture displacement and patient age. Young patients (under 60-65) with femoral neck fractures typically undergo open reduction and internal fixation (ORIF) using multiple parallel cannulated screws or sliding hip screws to preserve the native femoral head and avoid prosthetic implants. Elderly patients with displaced femoral neck fractures (Garden III-IV) typically undergo hemiarthroplasty (replacing the femoral head only) or total hip arthroplasty (replacing both femoral head and acetabulum) since these fractures have high rates of avascular necrosis and nonunion due to disrupted blood supply to the femoral head.
+
+Intertrochanteric and subtrochanteric fractures are classified using the AO/OTA classification system based on fracture pattern complexity and comminution. These fractures are typically treated with internal fixation using either dynamic hip screws (DHS/sliding hip screws) for stable two-part fractures or cephalomedullary nails (intramedullary nails such as proximal femoral nail/PFN, trochanteric femoral nail/TFN) for unstable, comminuted, or reverse obliquity fractures. Cephalomedullary nailing has become the preferred treatment for most intertrochanteric fractures due to advantages including smaller incision, less blood loss, biomechanical superiority in unstable fractures, and ability to treat both intertrochanteric and subtrochanteric fractures with the same implant.
+
+At Arthoscenter, Dr. Kumar's comprehensive hip fracture care program includes immediate emergency department assessment with dedicated trauma protocols, rapid diagnostic imaging (AP pelvis X-ray, lateral hip X-ray, CT scan for complex fractures), medical optimization including correction of anemia, electrolyte abnormalities, and cardiac/pulmonary issues, surgical intervention within 24-48 hours using evidence-based techniques and modern implants, regional anesthesia (spinal/epidural) when possible to reduce surgical risk in elderly patients, comprehensive postoperative care including DVT prophylaxis, early mobilization protocols, pain management, pressure sore prevention, structured physical therapy with weight-bearing as tolerated, regular follow-up with serial X-rays to monitor healing, management of osteoporosis with calcium, vitamin D, and bisphosphonates to prevent future fractures, and long-term functional outcome assessment with focus on returning patients to independent living.
+
+Success rates for hip fracture surgery are excellent when performed promptly with appropriate surgical technique and comprehensive perioperative care. Union rates exceed 90-95% for most fracture patterns. Mortality rates at our center are significantly below national averages due to rapid surgical intervention, expert perioperative management, and multidisciplinary care protocols. Most patients can begin immediate weight-bearing as tolerated after surgery (depending on fracture pattern and fixation stability) and progress rapidly with physical therapy. Return to independent walking typically occurs within 6-12 weeks, while full recovery and return to pre-injury function may take 3-6 months depending on patient age, fracture severity, associated injuries, medical comorbidities, and rehabilitation adherence.
+
+Our hip fracture program emphasizes not just surgical excellence but comprehensive patient-centered care addressing the unique needs of Bihar's population. We accept all major insurance plans including PMJAY (Ayushman Bharat) and BSKY (Bihar State Health Insurance) covering hip fracture surgery for eligible beneficiaries, provide affordable payment options for uninsured patients, maintain comprehensive implant inventory to avoid surgical delays, offer family counseling and education programs, coordinate home care and rehabilitation services, and focus on osteoporosis prevention and fall prevention education to reduce future fracture risk. We are committed to helping every hip fracture patient achieve the best possible recovery and return to independent living with dignity and quality of life.`,
+      hi: `हिप फ्रैक्चर सर्जरी एक महत्वपूर्ण ऑर्थोपेडिक प्रक्रिया है जो हिप जोड़ के पास फीमर (जांघ की हड्डी) के ऊपरी हिस्से में होने वाले फ्रैक्चर के इलाज के लिए डिज़ाइन की गई है। हिप फ्रैक्चर ऑर्थोपेडिक ट्रॉमा में सबसे गंभीर और जीवन-परिवर्तनकारी चोटों में से एक है, विशेष रूप से ऑस्टियोपोरोसिस वाले बुजुर्ग रोगियों को प्रभावित करता है, हालांकि वे मोटर वाहन दुर्घटनाओं, मोटरसाइकिल दुर्घटनाओं, ऊंचाई से गिरने या औद्योगिक दुर्घटनाओं से उच्च-ऊर्जा आघात के बाद युवा रोगियों में भी होते हैं।
+
+हिप फ्रैक्चर को शारीरिक स्थान के आधार पर तीन मुख्य प्रकारों में वर्गीकृत किया जाता है: (1) फेमोरल नेक फ्रैक्चर (इंट्राकैप्सुलर, हिप जोड़ कैप्सूल के भीतर होने वाला), (2) इंटरट्रोकैंटेरिक फ्रैक्चर (एक्स्ट्राकैप्सुलर, फेमोरल नेक और लेसर ट्रोकैंटर के बीच होने वाला), और (3) सबट्रोकैंटेरिक फ्रैक्चर (लेसर ट्रोकैंटर के नीचे होने वाला)। प्रत्येक फ्रैक्चर पैटर्न को इष्टतम उपचार और कार्यात्मक रिकवरी प्राप्त करने के लिए विशिष्ट सर्जिकल दृष्टिकोण, इम्प्लांट विकल्प और उपचार रणनीतियों की आवश्यकता होती है।
+
+पटना, बिहार में आर्थोसेंटर में, डॉ. गुरुदेव कुमार ने खुद को क्षेत्र के सबसे अनुभवी हिप फ्रैक्चर सर्जनों में से एक के रूप में स्थापित किया है, जिन्होंने असाधारण नैदानिक परिणामों, 94% से अधिक की यूनियन दरों और राष्ट्रीय औसत से काफी कम मृत्यु दर के साथ 1,800 से अधिक हिप फ्रैक्चर मामलों का सफलतापूर्वक इलाज किया है। हमारा व्यापक हिप फ्रैक्चर कार्यक्रम समर्पित जेरियाट्रिक ट्रॉमा टीमों, फेलोशिप-प्रशिक्षित ऑर्थोपेडिक सर्जनों, अत्याधुनिक सी-आर्म फ्लोरोस्कोपी सिस्टम के साथ 24/7 संचालित होता है।
+
+हिप फ्रैक्चर को ऑर्थोपेडिक आपात स्थिति माना जाता है जिसके लिए चिकित्सकीय रूप से संभव होने पर चोट के 24-48 घंटों के भीतर सर्जिकल हस्तक्षेप की आवश्यकता होती है। प्रारंभिक सर्जरी को दबाव घावों, निमोनिया, रक्त के थक्कों और मृत्यु दर सहित जटिलताओं को कम करने के लिए निश्चित रूप से सिद्ध किया गया है जबकि दर्द नियंत्रण में सुधार, प्रारंभिक गतिशीलता की सुविधा, मालयूनियन और नॉनयूनियन को रोकना, और बेहतर कार्यात्मक परिणाम और स्वतंत्र जीवन में वापसी की उच्च दरें होती हैं।
+
+बिहार में, हिप फ्रैक्चर एक प्रमुख सार्वजनिक स्वास्थ्य चिंता का प्रतिनिधित्व करते हैं जो सालाना हजारों रोगियों को प्रभावित करते हैं। बुजुर्ग आबादी (आयु 65+) सबसे कमजोर है, जिसमें फ्रैक्चर आमतौर पर ऑस्टियोपोरोसिस (उम्र से संबंधित हड्डी कमजोरी), खराब दृष्टि, पर्यावरणीय खतरों (गीले फर्श, ढीले कालीन, खराब प्रकाश), संतुलन विकार और दवा के दुष्प्रभावों के कारण घर पर साधारण गिरावट से होते हैं।
+
+हिप फ्रैक्चर के लिए सर्जिकल दृष्टिकोण मुख्य रूप से फ्रैक्चर स्थान और रोगी की उम्र पर निर्भर करता है। फेमोरल नेक फ्रैक्चर को गार्डन वर्गीकरण प्रणाली (विस्थापन के आधार पर गार्डन I-IV) का उपयोग करके वर्गीकृत किया जाता है। युवा रोगियों (60-65 से कम) में फेमोरल नेक फ्रैक्चर के साथ आमतौर पर मूल फेमोरल हेड को संरक्षित करने और प्रोस्थेटिक इम्प्लांट से बचने के लिए कई समानांतर कैन्युलेटेड स्क्रू या स्लाइडिंग हिप स्क्रू का उपयोग करके ओपन रिडक्शन और आंतरिक फिक्सेशन (ORIF) से गुजरते हैं।
+
+इंटरट्रोकैंटेरिक और सबट्रोकैंटेरिक फ्रैक्चर को AO/OTA वर्गीकरण प्रणाली का उपयोग करके फ्रैक्चर पैटर्न जटिलता और कॉमिन्यूशन के आधार पर वर्गीकृत किया जाता है। इन फ्रैक्चर का आमतौर पर स्थिर दो-भाग फ्रैक्चर के लिए डायनामिक हिप स्क्रू (DHS/स्लाइडिंग हिप स्क्रू) या अस्थिर, कॉमिन्यूटेड या रिवर्स ओब्लिक्विटी फ्रैक्चर के लिए सेफैलोमेडुलरी नेल्स (इंट्रामेडुलरी नेल्स जैसे प्रॉक्सिमल फेमोरल नेल/PFN) का उपयोग करके आंतरिक फिक्सेशन के साथ इलाज किया जाता है।
+
+आर्थोसेंटर में, डॉ. कुमार का व्यापक हिप फ्रैक्चर देखभाल कार्यक्रम में शामिल हैं: समर्पित ट्रॉमा प्रोटोकॉल के साथ तत्काल आपातकालीन विभाग मूल्यांकन, तेजी से नैदानिक इमेजिंग, चिकित्सा अनुकूलन, साक्ष्य-आधारित तकनीकों और आधुनिक इम्प्लांट का उपयोग करके 24-48 घंटों के भीतर सर्जिकल हस्तक्षेप, बुजुर्ग रोगियों में सर्जिकल जोखिम को कम करने के लिए जब संभव हो तो क्षेत्रीय एनेस्थीसिया, व्यापक पोस्ट-ऑपरेटिव देखभाल, और दीर्घकालिक कार्यात्मक परिणाम मूल्यांकन।
+
+सफलता दर उत्कृष्ट है जब उचित सर्जिकल तकनीक और व्यापक पेरीऑपरेटिव देखभाल के साथ तुरंत किया जाता है। अधिकांश फ्रैक्चर पैटर्न के लिए यूनियन दरें 90-95% से अधिक हैं। हमारे केंद्र में मृत्यु दर तेजी से सर्जिकल हस्तक्षेप, विशेषज्ञ पेरीऑपरेटिव प्रबंधन और बहु-विषयक देखभाल प्रोटोकॉल के कारण राष्ट्रीय औसत से काफी कम है।`
+    },
+    symptoms: {
+      en: [
+        'Severe hip and groin pain immediately after fall or trauma',
+        'Inability to bear weight or stand on the injured leg',
+        'Shortened leg with external rotation (foot turned outward)',
+        'Visible bruising and swelling around hip and thigh',
+        'Extreme pain with any attempted hip or leg movement',
+        'Deformity of the hip region with abnormal positioning',
+        'Complete loss of hip joint function and mobility',
+        'Tenderness when touching the hip area',
+        'Inability to lift the leg while lying down (positive heel tap test)',
+        'In elderly: confusion or altered mental status due to severe pain and stress'
+      ],
+      hi: [
+        'गिरावट या आघात के तुरंत बाद गंभीर हिप और ग्रोइन दर्द',
+        'चोटिल पैर पर वजन सहन करने या खड़े होने में असमर्थता',
+        'बाहरी रोटेशन के साथ छोटा पैर (पैर बाहर की ओर मुड़ा हुआ)',
+        'हिप और जांघ के चारों ओर दृश्यमान चोट और सूजन',
+        'किसी भी प्रयास हिप या पैर आंदोलन के साथ अत्यधिक दर्द',
+        'असामान्य स्थिति के साथ हिप क्षेत्र की विकृति',
+        'हिप जोड़ के कार्य और गतिशीलता का पूर्ण नुकसान',
+        'हिप क्षेत्र को छूने पर कोमलता',
+        'लेटते समय पैर उठाने में असमर्थता (सकारात्मक हील टैप टेस्ट)',
+        'बुजुर्गों में: गंभीर दर्द और तनाव के कारण भ्रम या परिवर्तित मानसिक स्थिति'
+      ]
+    },
+    procedure: {
+      en: {
+        preparation: 'Emergency assessment with trauma protocols and vital signs monitoring. Immediate X-rays (AP pelvis, lateral hip) to confirm fracture location and pattern. CT scan for complex fractures requiring detailed evaluation. Comprehensive medical evaluation including ECG, chest X-ray, blood tests (hemoglobin, electrolytes, kidney/liver function, coagulation profile). Cardiac and pulmonary clearance for elderly patients with comorbidities. Pain management with IV analgesics and nerve blocks. Treatment of anemia with blood transfusion if hemoglobin <10 g/dL. Correction of electrolyte abnormalities and optimization of chronic medical conditions. DVT prophylaxis with compression stockings and blood thinners. NPO status (nothing by mouth) for at least 6-8 hours before surgery. Antibiotic administration 30-60 minutes before incision. Informed consent discussion covering surgical options (ORIF vs hemiarthroplasty vs THA), risks, benefits, and expected outcomes.',
+        steps: [
+          'Regional anesthesia (spinal or epidural) or general anesthesia administered based on patient condition and fracture type',
+          'Patient positioned supine on fracture table (for fixation) or lateral decubitus position (for arthroplasty)',
+          'Surgical site prepared with antiseptic solution and sterile draping',
+          'For ORIF with screws: Closed or open reduction of fracture fragments using image guidance, multiple parallel cannulated screws (typically 3) inserted across femoral neck under fluoroscopy, compression achieved to promote healing',
+          'For DHS fixation: Lateral hip incision made, fracture reduced under fluoroscopy, lag screw inserted through lateral cortex into femoral head, side plate attached to femur with multiple screws',
+          'For cephalomedullary nailing: Small incision at proximal thigh, guide wire inserted into femoral canal, femoral canal reamed, intramedullary nail inserted, proximal neck screw(s) inserted into femoral head, distal locking screws placed',
+          'For hemiarthroplasty/THA: Hip joint approached through posterior or anterolateral incision, femoral head removed, femoral canal prepared and sized, cemented or uncemented femoral stem inserted, bipolar head or total hip components implanted',
+          'Final fluoroscopic or X-ray images obtained to confirm proper implant position, screw placement, and fracture reduction',
+          'Thorough irrigation and hemostasis achieved',
+          'Wound closure in layers with sutures, surgical drain placed if needed, sterile dressing applied'
+        ],
+        duration: '1-3 hours depending on fracture type (simple fixation: 45-90 minutes, complex fixation or arthroplasty: 2-3 hours)',
+        anesthesia: 'Regional anesthesia (spinal/epidural preferred for elderly) or general anesthesia'
+      },
+      hi: {
+        preparation: 'ट्रॉमा प्रोटोकॉल और महत्वपूर्ण संकेत निगरानी के साथ आपातकालीन मूल्यांकन। फ्रैक्चर स्थान और पैटर्न की पुष्टि करने के लिए तत्काल एक्स-रे (एपी पेल्विस, लेटरल हिप)। विस्तृत मूल्यांकन की आवश्यकता वाले जटिल फ्रैक्चर के लिए सीटी स्कैन। ईसीजी, छाती एक्स-रे, रक्त परीक्षण (हीमोग्लोबिन, इलेक्ट्रोलाइट्स, किडनी/लिवर फंक्शन, कोगुलेशन प्रोफाइल) सहित व्यापक चिकित्सा मूल्यांकन। कोमोर्बिडिटी वाले बुजुर्ग रोगियों के लिए कार्डियक और पल्मोनरी क्लीयरेंस। IV एनाल्जेसिक और नर्व ब्लॉक के साथ दर्द प्रबंधन। यदि हीमोग्लोबिन <10 g/dL हो तो रक्त आधान के साथ एनीमिया का उपचार। इलेक्ट्रोलाइट असामान्यताओं का सुधार और पुरानी चिकित्सा स्थितियों का अनुकूलन। कंप्रेशन स्टॉकिंग्स और रक्त पतलेपन के साथ DVT प्रोफिलैक्सिस। सर्जरी से पहले कम से कम 6-8 घंटों के लिए NPO स्थिति (मुंह से कुछ नहीं)। चीरा से 30-60 मिनट पहले एंटीबायोटिक प्रशासन।',
+        steps: [
+          'रोगी की स्थिति और फ्रैक्चर प्रकार के आधार पर क्षेत्रीय एनेस्थीसिया (स्पाइनल या एपिड्यूरल) या सामान्य एनेस्थीसिया दिया गया',
+          'फ्रैक्चर टेबल पर सुपाइन (फिक्सेशन के लिए) या लेटरल डेक्यूबिटस पोजीशन (आर्थ्रोप्लास्टी के लिए) में रोगी को स्थित किया गया',
+          'एंटीसेप्टिक समाधान और बाँझ ड्रेपिंग के साथ सर्जिकल साइट तैयार की गई',
+          'स्क्रू के साथ ORIF के लिए: इमेज गाइडेंस का उपयोग करके फ्रैक्चर फ्रैगमेंट का बंद या खुला रिडक्शन, फ्लोरोस्कोपी के तहत फेमोरल नेक में कई समानांतर कैन्युलेटेड स्क्रू (आमतौर पर 3) डाले गए',
+          'DHS फिक्सेशन के लिए: लेटरल हिप चीरा बनाया गया, फ्लोरोस्कोपी के तहत फ्रैक्चर कम किया गया, फेमोरल हेड में लेटरल कॉर्टेक्स के माध्यम से लैग स्क्रू डाला गया',
+          'सेफैलोमेडुलरी नेलिंग के लिए: समीपस्थ जांघ पर छोटा चीरा, फेमोरल कैनाल में गाइड वायर डाला गया, इंट्रामेडुलरी नेल डाली गई',
+          'हेमीआर्थ्रोप्लास्टी/THA के लिए: पोस्टीरियर या एंटेरोलेटरल चीरे के माध्यम से हिप जोड़ तक पहुंचा, फेमोरल हेड हटाया गया, फेमोरल कैनाल तैयार किया गया',
+          'उचित इम्प्लांट स्थिति, स्क्रू प्लेसमेंट और फ्रैक्चर रिडक्शन की पुष्टि करने के लिए अंतिम फ्लोरोस्कोपिक या एक्स-रे छवियां प्राप्त की गईं',
+          'पूरी तरह से सिंचाई और हेमोस्टेसिस प्राप्त किया गया',
+          'सीवन के साथ परतों में घाव बंद करना, यदि आवश्यक हो तो सर्जिकल ड्रेन रखा गया, बाँझ ड्रेसिंग लगाई गई'
+        ],
+        duration: 'फ्रैक्चर प्रकार के आधार पर 1-3 घंटे (सरल फिक्सेशन: 45-90 मिनट, जटिल फिक्सेशन या आर्थ्रोप्लास्टी: 2-3 घंटे)',
+        anesthesia: 'क्षेत्रीय एनेस्थीसिया (बुजुर्गों के लिए स्पाइनल/एपिड्यूरल पसंदीदा) या सामान्य एनेस्थीसिया'
+      }
+    },
+    recovery: {
+      en: {
+        timeline: [
+          { week: 'Hospital Stay (3-7 days)', activity: 'Immediate Post-Surgery', description: 'Pain management with IV/oral medications and nerve blocks. DVT prophylaxis with compression devices and blood thinners. Early mobilization starting day 1 post-surgery with physical therapy - sitting up, transferring to chair. Weight-bearing as tolerated for most fixation methods and arthroplasty (immediate full weight-bearing often permitted). Non-weight-bearing or touch-weight-bearing for some unstable fractures or ORIF with screws. Wound care and drain removal (if placed). Monitoring for complications: infection, blood clots, delirium, pressure sores. Occupational therapy for activities of daily living.' },
+          { week: 'Weeks 1-2 (Home Recovery)', activity: 'Early Mobilization Phase', description: 'Continue prescribed pain medications (gradually reducing narcotics). Daily physical therapy exercises focusing on hip range of motion and strengthening. Walking with walker or crutches (weight-bearing per surgeon instructions). Prevention of hip dislocation precautions for arthroplasty patients: avoid hip flexion >90 degrees, avoid crossing legs, avoid internal rotation. Wound monitoring for signs of infection (redness, drainage, fever). Continue DVT prophylaxis. First follow-up appointment with X-rays to assess healing and implant position. Home health services or outpatient physical therapy.' },
+          { week: 'Weeks 3-6 (Progressive Recovery)', activity: 'Increasing Independence', description: 'Progressive weight-bearing based on fracture healing and stability (most patients progressing to full weight-bearing). Transition from walker to cane or independent walking. Increased physical therapy intensity with strengthening exercises (hip abductors, extensors, flexors). Return to light activities of daily living: bathing, dressing, cooking. Pain significantly decreased. X-rays at 4-6 weeks to confirm early fracture healing (callus formation for fixation, implant stability for arthroplasty). Gradual weaning off walking aids as strength and balance improve.' },
+          { week: 'Weeks 6-12 (Functional Recovery)', activity: 'Return to Independence', description: 'Most patients walking independently or with minimal assistance. Full weight-bearing achieved for nearly all fracture types. Continued strengthening exercises and gait training. Return to most daily activities including shopping, light housework, social activities. Driving permitted if right hip (typically 6-8 weeks for arthroplasty, 8-12 weeks for fixation depending on stability). X-rays confirm progressive fracture healing and bone union. Gradual return to pre-fracture activity level depending on age and baseline function.' },
+          { week: 'Months 3-6 (Advanced Recovery)', activity: 'Restoration of Function', description: 'Complete or near-complete fracture healing confirmed by X-rays (solid union for fixation, stable implants for arthroplasty). Return to unrestricted activities for most patients. Continued maintenance exercises to prevent muscle atrophy and maintain hip strength. Full independence in activities of daily living for most patients. Ongoing osteoporosis treatment (calcium, vitamin D, bisphosphonates) to prevent future fractures. Fall prevention strategies and home safety modifications.' },
+          { week: 'Months 6-12 (Long-term Recovery)', activity: 'Optimization and Prevention', description: 'Final functional outcome assessment comparing to pre-fracture status. Most patients achieve good to excellent functional recovery with appropriate rehabilitation. Some elderly patients may not return to complete pre-fracture baseline due to age and comorbidities but achieve acceptable functional independence. Hardware removal generally NOT needed for most hip fracture fixation implants (screws, nails, plates can remain permanently). Focus on secondary fracture prevention: treat osteoporosis, improve nutrition, fall prevention, vision correction, home modifications, balance training.' }
+        ],
+        tips: [
+          'Follow weight-bearing restrictions precisely - early full weight-bearing may cause fixation failure in unstable fractures',
+          'Take calcium (1200-1500mg) and vitamin D (2000 IU) daily to support bone healing and prevent future fractures',
+          'Use DVT prophylaxis (blood thinners) exactly as prescribed for 4-6 weeks to prevent life-threatening blood clots',
+          'Perform prescribed physical therapy exercises daily to regain hip strength and prevent stiffness',
+          'Hip dislocation precautions for arthroplasty patients: avoid bending hip >90°, avoid crossing legs, use elevated toilet seat',
+          'Watch for warning signs requiring immediate medical attention: chest pain/shortness of breath (blood clot to lungs), calf pain/swelling (DVT), fever/wound drainage (infection), severe pain/inability to bear weight (fixation failure)',
+          'Attend all follow-up appointments with X-rays to monitor fracture healing and detect complications early',
+          'Treat osteoporosis aggressively with medications (bisphosphonates, denosumab) to reduce future fracture risk by 50-70%',
+          'Implement fall prevention: remove loose rugs, improve lighting, install grab bars in bathroom, use non-slip mats, wear proper footwear',
+          'Be patient - elderly patients may require 3-6 months for full recovery, younger patients typically recover faster (6-12 weeks)'
+        ]
+      },
+      hi: {
+        timeline: [
+          { week: 'अस्पताल में रहना (3-7 दिन)', activity: 'सर्जरी के तुरंत बाद', description: 'IV/मौखिक दवाओं और नर्व ब्लॉक के साथ दर्द प्रबंधन। कंप्रेशन डिवाइस और रक्त पतलेपन के साथ DVT प्रोफिलैक्सिस। फिजिकल थेरेपी के साथ सर्जरी के बाद दिन 1 से शुरू होने वाली प्रारंभिक गतिशीलता - बैठना, कुर्सी पर स्थानांतरण। अधिकांश फिक्सेशन विधियों और आर्थ्रोप्लास्टी के लिए सहन के रूप में वजन-असर (तत्काल पूर्ण वजन-असर अक्सर अनुमति दी जाती है)। कुछ अस्थिर फ्रैक्चर या स्क्रू के साथ ORIF के लिए गैर-वजन-असर या टच-वजन-असर। घाव देखभाल और ड्रेन हटाना (यदि रखा गया)।' },
+          { week: 'सप्ताह 1-2 (घर रिकवरी)', activity: 'प्रारंभिक गतिशीलता चरण', description: 'निर्धारित दर्द दवाओं को जारी रखें (धीरे-धीरे नार्कोटिक्स को कम करना)। हिप रेंज ऑफ मोशन और मजबूती पर ध्यान केंद्रित करने वाले दैनिक फिजिकल थेरेपी व्यायाम। वॉकर या बैसाखी के साथ चलना (सर्जन निर्देशों के अनुसार वजन-असर)। आर्थ्रोप्लास्टी रोगियों के लिए हिप अव्यवस्था सावधानियों की रोकथाम: हिप फ्लेक्सन >90 डिग्री से बचें, पैर पार करने से बचें। संक्रमण के संकेतों के लिए घाव की निगरानी।' },
+          { week: 'सप्ताह 3-6 (प्रगतिशील रिकवरी)', activity: 'बढ़ती स्वतंत्रता', description: 'फ्रैक्चर उपचार और स्थिरता के आधार पर प्रगतिशील वजन-असर (अधिकांश रोगी पूर्ण वजन-असर में प्रगति कर रहे हैं)। वॉकर से बेंत या स्वतंत्र चलने में संक्रमण। मजबूत बनाने के व्यायाम के साथ फिजिकल थेरेपी की तीव्रता में वृद्धि। दैनिक जीवन की हल्की गतिविधियों में वापसी: स्नान, ड्रेसिंग, खाना बनाना। दर्द काफी कम हो गया। प्रारंभिक फ्रैक्चर उपचार की पुष्टि के लिए 4-6 सप्ताह में एक्स-रे।' },
+          { week: 'सप्ताह 6-12 (कार्यात्मक रिकवरी)', activity: 'स्वतंत्रता में वापसी', description: 'अधिकांश रोगी स्वतंत्र रूप से या न्यूनतम सहायता के साथ चल रहे हैं। लगभग सभी फ्रैक्चर प्रकारों के लिए पूर्ण वजन-असर प्राप्त किया गया। निरंतर मजबूती व्यायाम और गैट प्रशिक्षण। खरीदारी, हल्के घर के काम, सामाजिक गतिविधियों सहित अधिकांश दैनिक गतिविधियों में वापसी। यदि दाहिने हिप हो तो ड्राइविंग की अनुमति (आमतौर पर आर्थ्रोप्लास्टी के लिए 6-8 सप्ताह)। एक्स-रे प्रगतिशील फ्रैक्चर उपचार की पुष्टि करते हैं।' },
+          { week: 'महीने 3-6 (उन्नत रिकवरी)', activity: 'कार्य की बहाली', description: 'एक्स-रे द्वारा पूर्ण या लगभग-पूर्ण फ्रैक्चर उपचार की पुष्टि की गई। अधिकांश रोगियों के लिए अप्रतिबंधित गतिविधियों में वापसी। मांसपेशी शोष को रोकने और हिप ताकत बनाए रखने के लिए निरंतर रखरखाव व्यायाम। अधिकांश रोगियों के लिए दैनिक जीवन की गतिविधियों में पूर्ण स्वतंत्रता। भविष्य के फ्रैक्चर को रोकने के लिए चल रहे ऑस्टियोपोरोसिस उपचार। गिरावट रोकथाम रणनीतियाँ और घर सुरक्षा संशोधन।' },
+          { week: 'महीने 6-12 (दीर्घकालिक रिकवरी)', activity: 'अनुकूलन और रोकथाम', description: 'फ्रैक्चर-पूर्व स्थिति की तुलना में अंतिम कार्यात्मक परिणाम मूल्यांकन। अधिकांश रोगी उचित पुनर्वास के साथ अच्छे से उत्कृष्ट कार्यात्मक रिकवरी प्राप्त करते हैं। कुछ बुजुर्ग रोगी उम्र और कोमोर्बिडिटी के कारण पूर्ण फ्रैक्चर-पूर्व बेसलाइन पर वापस नहीं आ सकते हैं लेकिन स्वीकार्य कार्यात्मक स्वतंत्रता प्राप्त करते हैं। माध्यमिक फ्रैक्चर रोकथाम पर ध्यान: ऑस्टियोपोरोसिस का इलाज करें, पोषण में सुधार करें, गिरावट की रोकथाम।' }
+        ],
+        tips: [
+          'वजन-असर प्रतिबंधों का सटीक पालन करें - प्रारंभिक पूर्ण वजन-असर अस्थिर फ्रैक्चर में फिक्सेशन विफलता का कारण बन सकता है',
+          'हड्डी उपचार का समर्थन करने और भविष्य के फ्रैक्चर को रोकने के लिए प्रतिदिन कैल्शियम (1200-1500mg) और विटामिन डी (2000 IU) लें',
+          'जीवन-धमकाने वाले रक्त के थक्कों को रोकने के लिए 4-6 सप्ताह के लिए निर्धारित के रूप में DVT प्रोफिलैक्सिस (रक्त पतलेपन) का उपयोग करें',
+          'हिप ताकत फिर से प्राप्त करने और कठोरता को रोकने के लिए निर्धारित फिजिकल थेरेपी व्यायाम दैनिक करें',
+          'आर्थ्रोप्लास्टी रोगियों के लिए हिप अव्यवस्था सावधानियां: हिप को >90° झुकाने से बचें, पैर पार करने से बचें, एलिवेटेड टॉयलेट सीट का उपयोग करें',
+          'तत्काल चिकित्सा ध्यान देने की आवश्यकता वाले चेतावनी संकेतों के लिए देखें: छाती दर्द/सांस की तकलीफ (फेफड़ों में रक्त का थक्का), बछड़े का दर्द/सूजन, बुखार/घाव जल निकासी',
+          'फ्रैक्चर उपचार की निगरानी के लिए एक्स-रे के साथ सभी फॉलो-अप अपॉइंटमेंट में भाग लें',
+          'भविष्य के फ्रैक्चर जोखिम को 50-70% तक कम करने के लिए दवाओं के साथ ऑस्टियोपोरोसिस का आक्रामक रूप से इलाज करें',
+          'गिरावट की रोकथाम लागू करें: ढीले कालीन हटाएं, प्रकाश में सुधार करें, बाथरूम में ग्रैब बार स्थापित करें',
+          'धैर्य रखें - बुजुर्ग रोगियों को पूर्ण रिकवरी के लिए 3-6 महीने की आवश्यकता हो सकती है, युवा रोगी आमतौर पर तेजी से ठीक होते हैं'
+        ]
+      }
+    },
+    faqs: {
+      en: [
+        {
+          question: 'What is the difference between ORIF, hemiarthroplasty, and total hip replacement for hip fractures?',
+          answer: 'The choice depends on fracture location, displacement, and patient age. ORIF (Open Reduction Internal Fixation) uses screws, plates, or nails to fix broken bone pieces together while preserving the natural hip joint - typically used for younger patients (<60-65 years) with femoral neck fractures or for intertrochanteric/subtrochanteric fractures in all ages. Hemiarthroplasty replaces only the femoral head (ball) with a metal prosthesis while keeping the natural acetabulum (socket) - typically used for elderly patients (>65-70 years) with displaced femoral neck fractures (Garden III-IV) where blood supply disruption makes ORIF less reliable. Total Hip Replacement (THA) replaces both the femoral head and acetabulum - used for active elderly patients with displaced femoral neck fractures or pre-existing hip arthritis. At Arthoscenter, Dr. Kumar carefully evaluates each patient to recommend the most appropriate surgical approach based on fracture pattern, bone quality, activity level, medical comorbidities, and patient preferences to optimize outcomes.'
+        },
+        {
+          question: 'How urgent is hip fracture surgery? Can it wait?',
+          answer: 'Hip fracture surgery is considered a medical emergency and should be performed within 24-48 hours of injury whenever medically possible. Numerous research studies have definitively proven that early surgery (within 24-48 hours) significantly reduces complications and mortality compared to delayed surgery. Delaying surgery beyond 48 hours increases risks of: pressure sores from prolonged bed rest, pneumonia and respiratory complications, deep vein thrombosis (blood clots) and pulmonary embolism, urinary tract infections, delirium and confusion (especially in elderly), muscle atrophy and deconditioning, increased pain and suffering, and overall mortality rates increased by 30-50%. The only acceptable reasons to delay surgery are: severe cardiac/pulmonary instability requiring optimization (active heart attack, severe heart failure, severe pneumonia), severe anemia requiring blood transfusion, major electrolyte abnormalities requiring correction, or uncontrolled bleeding disorders requiring treatment. At Arthoscenter, our 24/7 trauma program prioritizes rapid medical optimization and surgical intervention to achieve surgery within 24-48 hours for the vast majority of hip fracture patients, which is associated with significantly better outcomes.'
+        },
+        {
+          question: 'What is the cost of hip fracture surgery in Bihar? Is it covered by insurance?',
+          answer: 'At Arthoscenter in Patna, hip fracture surgery costs range from ₹80,000 to ₹3,50,000 depending on multiple factors: fracture type and complexity (simple vs comminuted), surgical procedure chosen (ORIF with screws: ₹80,000-₹1,50,000; ORIF with DHS/nail: ₹1,20,000-₹2,00,000; hemiarthroplasty: ₹1,80,000-₹2,80,000; total hip replacement: ₹2,50,000-₹3,50,000), implant type (standard vs advanced/imported), hospital stay duration (typically 3-7 days), need for ICU care, blood transfusions, and complications. This includes surgeon fees, hospital charges, anesthesia, implants, medications, physical therapy, and initial follow-up. Insurance Coverage: Most health insurance policies cover hip fracture surgery as it is considered medically necessary emergency treatment. Government schemes available in Bihar: PMJAY (Ayushman Bharat) covers eligible beneficiaries (annual family income <₹5 lakhs) with coverage up to ₹5 lakhs per family per year - hip fracture surgery is typically fully covered. BSKY (Bihar State Health Insurance Scheme) provides coverage for Bihar residents. Our billing team assists with insurance claims, pre-authorization, and documentation. Emergency patients receive immediate life-saving care regardless of payment status. We also offer payment plans for uninsured patients in financial hardship.'
+        },
+        {
+          question: 'Can elderly patients (80+ years) safely undergo hip fracture surgery?',
+          answer: 'Yes, hip fracture surgery can be safely performed in elderly patients including those over 80 years old, and in fact, surgery provides significantly better outcomes than non-surgical treatment even in very elderly patients. Studies consistently show that elderly patients who undergo surgery have: lower mortality rates (death rates reduced by 30-50% compared to non-surgical treatment), better pain control, higher rates of returning to walking and independent living, lower complication rates (when surgery performed early), and better quality of life. Non-surgical treatment of hip fractures in elderly patients leads to: prolonged bed rest with extremely high complication rates (pneumonia, blood clots, pressure sores, urinary infections), severe chronic pain, permanent loss of walking ability, complete dependence on caregivers, and very high mortality (50-70% die within 1 year without surgery). Age alone should never be considered an absolute contraindication to surgery. At Arthoscenter, Dr. Kumar and our geriatric trauma team have extensive experience operating on elderly patients. We use: comprehensive preoperative medical optimization (cardiac, pulmonary, renal), regional anesthesia (spinal/epidural) when possible which is safer than general anesthesia for elderly, minimally invasive surgical techniques, rapid surgery (typically 45-90 minutes), expert perioperative medical management, aggressive DVT prophylaxis, early mobilization protocols starting day 1 post-surgery, and multidisciplinary care involving geriatricians, cardiologists, physical therapists, and social workers. Our outcomes in patients 80+ years old are excellent with >90% returning to walking and 70-80% returning to independent living.'
+        },
+        {
+          question: 'When can I walk and bear weight after hip fracture surgery?',
+          answer: 'Weight-bearing recommendations depend on fracture type and surgical procedure. For hemiarthroplasty or total hip replacement: Immediate full weight-bearing as tolerated is typically permitted starting day 1 post-surgery - you can put your full body weight on the operated leg immediately. Most patients walk with walker or crutches for support but can fully weight-bear. For stable intertrochanteric fractures fixed with DHS or cephalomedullary nail: Partial weight-bearing (30-50% of body weight) starting immediately, progressing to full weight-bearing by 4-6 weeks based on X-ray evidence of healing. For unstable comminuted intertrochanteric or subtrochanteric fractures: Touch-weight-bearing or partial weight-bearing initially, progressing to full weight-bearing by 6-8 weeks. For ORIF of femoral neck fractures with screws (younger patients): Non-weight-bearing or touch-weight-bearing for 6-8 weeks, then partial weight-bearing, progressing to full weight-bearing by 10-12 weeks based on X-ray confirmation of fracture healing. At Arthoscenter, Dr. Kumar provides specific weight-bearing instructions customized to your fracture pattern, bone quality, fixation stability, and individual healing capacity. Physical therapists work with you starting day 1 to ensure proper gait training and safe progression. Most patients transition from walker to cane by 4-6 weeks and achieve independent walking by 8-12 weeks. X-rays at follow-up appointments (2 weeks, 6 weeks, 12 weeks) guide progression of weight-bearing based on fracture healing.'
+        },
+        {
+          question: 'What are the risks and complications of hip fracture surgery?',
+          answer: 'Hip fracture surgery is generally safe but potential complications include: Surgical complications: infection (surgical site infection 1-3%, deep infection <1%), blood loss requiring transfusion (10-20%), nerve injury (<1%, usually temporary), blood vessel injury (<1%), implant-related problems (screw cutout 2-5% for fixation, dislocation 1-3% for arthroplasty, periprosthetic fracture <1%). Medical complications: deep vein thrombosis/blood clots (5-10% despite prophylaxis), pulmonary embolism (<1% but potentially fatal), pneumonia (5-10% especially with delayed surgery), urinary tract infection (10-15%), pressure sores (5-10% with prolonged bed rest), delirium/confusion (20-30% in elderly, usually temporary), cardiac complications (heart attack, heart failure 2-5% in high-risk patients). Fracture healing complications: nonunion/failure to heal (5-10% for femoral neck ORIF, <2% for intertrochanteric fixation), malunion/improper healing (<5%), avascular necrosis of femoral head (10-30% for displaced femoral neck fractures treated with ORIF, hence why arthroplasty often preferred in elderly), hardware failure/breakage (<2%). At Arthoscenter, Dr. Kumar uses evidence-based protocols to minimize complications: rapid surgical intervention within 24-48 hours, meticulous surgical technique with modern implants, comprehensive DVT prophylaxis, aggressive infection prevention, early mobilization, and multidisciplinary perioperative care. Our complication rates are significantly below national averages and most patients heal completely without major complications achieving good to excellent functional recovery.'
+        },
+        {
+          question: 'How long is the hospital stay after hip fracture surgery?',
+          answer: 'Hospital stay after hip fracture surgery typically ranges from 3-7 days depending on multiple factors. Younger healthier patients (age <65) with simple fractures and no complications: 3-4 days. Elderly patients (age >65) with uncomplicated recovery: 4-5 days. Elderly patients with medical comorbidities or complications: 5-7 days or longer if needed. The hospital stay includes: immediate post-surgery recovery and monitoring (first 24 hours in recovery room or ICU if needed), pain management optimization, physical therapy assessment and early mobilization (sitting, standing, walking with walker typically starting day 1), medical management of comorbidities and prevention of complications, wound care and drain removal (if placed), X-rays to confirm implant position and fracture reduction, and planning for discharge disposition (home with family support, home with home health services, or temporary rehabilitation facility). At Arthoscenter, our multidisciplinary team works to optimize recovery and facilitate safe early discharge when medically appropriate. Discharge criteria include: adequate pain control with oral medications, ability to safely transfer and walk with assistive device, medical stability, wound healing appropriately, and appropriate discharge plan (family support or home health services arranged). Some patients benefit from transfer to inpatient rehabilitation facility for 1-2 weeks for intensive physical therapy before going home, especially elderly patients living alone or with limited family support.'
+        },
+        {
+          question: 'What causes hip fractures and how can they be prevented?',
+          answer: 'Causes vary by age group. In elderly patients (65+ years): Simple falls at home are the most common cause (>90% of hip fractures in elderly). Risk factors include: osteoporosis (age-related bone weakening - most important risk factor), poor vision, balance disorders, muscle weakness, environmental hazards (wet floors, loose rugs, poor lighting, clutter), medications causing dizziness (blood pressure medications, sedatives), chronic diseases (diabetes, Parkinsons disease, dementia). In younger patients (<65 years): High-energy trauma including road traffic accidents, motorcycle crashes, falls from height, industrial/agricultural accidents. In Bihar specifically: Road accidents are major cause in all age groups, agricultural injuries (falls from trees, animal-related), vitamin D deficiency (very common despite sunlight), inadequate calcium intake, tobacco and alcohol use. Prevention strategies: For elderly - fall prevention: remove loose rugs/clutter, improve home lighting, install grab bars in bathroom, use non-slip mats, wear proper footwear with good grip, vision correction (glasses, cataract surgery), balance training exercises, medication review to eliminate fall-risk drugs, walking aids (cane, walker) when needed. Osteoporosis prevention and treatment: adequate calcium intake (1200-1500mg daily from diet and supplements), vitamin D supplementation (2000 IU daily - critical in Bihar where deficiency is common), regular weight-bearing exercise (walking 30 minutes daily), avoid smoking and excessive alcohol, osteoporosis medications (bisphosphonates, denosumab) for high-risk patients - reduce fracture risk by 50-70%. For all ages: road safety (helmets for motorcycles, seatbelts, careful driving), workplace safety measures, treatment of chronic diseases. At Arthoscenter, we provide comprehensive osteoporosis and fall prevention programs for all hip fracture patients to prevent future fractures.'
+        },
+        {
+          question: 'Will I be able to return to normal activities after hip fracture surgery?',
+          answer: 'Most patients can return to normal daily activities after appropriate recovery, though outcomes vary based on age, fracture type, surgical procedure, and pre-fracture functional status. For younger patients (<65 years) with isolated hip fractures: Excellent outcomes expected. 85-95% return to pre-injury activity level including work, sports, and all daily activities within 4-6 months. Full recovery with normal hip function typically achieved. Return to physically demanding work and high-impact sports by 6-12 months depending on fracture healing. For elderly patients (65-80 years) previously independent: Good to excellent outcomes expected. 70-85% return to independent living and walking. Most achieve independent activities of daily living (bathing, dressing, cooking, shopping). Many return to pre-fracture mobility level (walking distance, stairs, driving). Timeline typically 3-6 months for full functional recovery. For very elderly patients (80+ years) or those with multiple medical problems: Moderate outcomes expected. 50-70% return to independent walking (often with walker or cane). 40-60% return to completely independent living (some may require partial assistance). Some functional decline compared to pre-fracture baseline is common but most achieve acceptable quality of life. Factors predicting better outcomes: rapid surgery within 24-48 hours, excellent surgical technique and fracture reduction, early mobilization and aggressive physical therapy, good nutrition and medical management, strong family support, motivation and compliance with rehabilitation, absence of major complications, proper treatment of osteoporosis to prevent future fractures. At Arthoscenter, Dr. Kumars comprehensive approach addresses all these factors to optimize every patients recovery. We are committed to helping each patient achieve their maximum potential for returning to cherished activities and maintaining independence and dignity.'
+        },
+        {
+          question: 'Is hip fracture surgery covered under government health schemes in Bihar?',
+          answer: 'Yes, hip fracture surgery is covered under major government health insurance schemes available in Bihar. PMJAY (Pradhan Mantri Jan Arogya Yojana / Ayushman Bharat): Eligibility: Families with annual income below ₹5 lakhs (approximately 40-50% of Bihars population qualifies). Coverage: Up to ₹5 lakhs per family per year for hospitalization expenses. Hip fracture surgery is included in the package with defined rates covering hospital charges, surgeon fees, implants, medications, and follow-up. Cashless treatment at empaneled hospitals. No age limit - elderly patients fully covered. BSKY (Bihar State Health Insurance Scheme / Mukhyamantri Swasthya Bima Yojana): Eligibility: All Bihar residents with valid ration cards. Coverage: Varies by card type but typically covers major surgeries including hip fracture treatment. Hospitalization costs covered including surgery, implants, and post-operative care. Process: Patients need to present Ayushman card or valid ration card at time of hospital admission. Hospital verifies eligibility and obtains pre-authorization from insurance agency. Treatment provided on cashless basis - patient does not pay upfront. Claims submitted by hospital to government insurance agency. At Arthoscenter, we are empaneled with PMJAY and BSKY schemes and our dedicated insurance team handles all paperwork and claim processing. Emergency hip fracture patients receive immediate surgery regardless of insurance status - documentation can be completed after stabilization. For patients without government insurance coverage, we accept most private insurance plans and offer affordable payment plans. Our priority is ensuring every hip fracture patient receives timely, high-quality surgical care without financial barriers delaying life-saving treatment.'
+        }
+      ],
+      hi: [
+        {
+          question: 'हिप फ्रैक्चर के लिए ORIF, हेमीआर्थ्रोप्लास्टी और टोटल हिप रिप्लेसमेंट में क्या अंतर है?',
+          answer: 'विकल्प फ्रैक्चर स्थान, विस्थापन और रोगी की उम्र पर निर्भर करता है। ORIF (ओपन रिडक्शन इंटरनल फिक्सेशन) प्राकृतिक हिप जोड़ को संरक्षित करते हुए टूटे हुए हड्डी के टुकड़ों को एक साथ ठीक करने के लिए स्क्रू, प्लेट या नेल का उपयोग करता है - आमतौर पर फेमोरल नेक फ्रैक्चर वाले युवा रोगियों (<60-65 वर्ष) के लिए या सभी उम्र में इंटरट्रोकैंटेरिक/सबट्रोकैंटेरिक फ्रैक्चर के लिए उपयोग किया जाता है। हेमीआर्थ्रोप्लास्टी केवल फेमोरल हेड (बॉल) को धातु प्रोस्थेसिस के साथ बदलती है जबकि प्राकृतिक एसिटाबुलम (सॉकेट) को बनाए रखती है। टोटल हिप रिप्लेसमेंट (THA) फेमोरल हेड और एसिटाबुलम दोनों को बदलता है। आर्थोसेंटर में, डॉ. कुमार परिणामों को अनुकूलित करने के लिए फ्रैक्चर पैटर्न, हड्डी की गुणवत्ता, गतिविधि स्तर के आधार पर सबसे उपयुक्त सर्जिकल दृष्टिकोण की सिफारिश करने के लिए प्रत्येक रोगी का सावधानीपूर्वक मूल्यांकन करते हैं।'
+        },
+        {
+          question: 'हिप फ्रैक्चर सर्जरी कितनी जरूरी है? क्या इसे इंतजार किया जा सकता है?',
+          answer: 'हिप फ्रैक्चर सर्जरी को एक चिकित्सा आपातकाल माना जाता है और चिकित्सकीय रूप से संभव होने पर चोट के 24-48 घंटों के भीतर किया जाना चाहिए। कई शोध अध्ययनों ने निश्चित रूप से साबित किया है कि प्रारंभिक सर्जरी (24-48 घंटों के भीतर) विलंबित सर्जरी की तुलना में जटिलताओं और मृत्यु दर को काफी कम करती है। 48 घंटों से परे सर्जरी में देरी से जोखिम बढ़ता है: लंबे समय तक बिस्तर आराम से दबाव घाव, निमोनिया और श्वसन जटिलताएं, गहरी शिरा घनास्त्रता और फुफ्फुसीय एम्बोलिज्म, मूत्र पथ संक्रमण, प्रलाप और भ्रम (विशेष रूप से बुजुर्गों में), मांसपेशी शोष, और कुल मृत्यु दर 30-50% बढ़ जाती है। आर्थोसेंटर में, हमारा 24/7 ट्रॉमा कार्यक्रम हिप फ्रैक्चर रोगियों के विशाल बहुमत के लिए 24-48 घंटों के भीतर सर्जरी प्राप्त करने के लिए तेजी से चिकित्सा अनुकूलन और सर्जिकल हस्तक्षेप को प्राथमिकता देता है।'
+        },
+        {
+          question: 'बिहार में हिप फ्रैक्चर सर्जरी की लागत क्या है? क्या यह बीमा द्वारा कवर किया जाता है?',
+          answer: 'पटना में आर्थोसेंटर में, हिप फ्रैक्चर सर्जरी की लागत कई कारकों के आधार पर ₹80,000 से ₹3,50,000 तक होती है: फ्रैक्चर प्रकार और जटिलता, चुनी गई सर्जिकल प्रक्रिया (स्क्रू के साथ ORIF: ₹80,000-₹1,50,000; DHS/नेल के साथ ORIF: ₹1,20,000-₹2,00,000; हेमीआर्थ्रोप्लास्टी: ₹1,80,000-₹2,80,000; टोटल हिप रिप्लेसमेंट: ₹2,50,000-₹3,50,000), इम्प्लांट प्रकार, अस्पताल में रहने की अवधि। इसमें सर्जन फीस, अस्पताल शुल्क, एनेस्थीसिया, इम्प्लांट, दवाएं, फिजिकल थेरेपी शामिल हैं। बीमा कवरेज: अधिकांश स्वास्थ्य बीमा पॉलिसियां हिप फ्रैक्चर सर्जरी को कवर करती हैं। बिहार में उपलब्ध सरकारी योजनाएं: PMJAY (आयुष्मान भारत) योग्य लाभार्थियों को कवर करता है - हिप फ्रैक्चर सर्जरी आमतौर पर पूरी तरह से कवर होती है। BSKY (बिहार राज्य स्वास्थ्य बीमा योजना) बिहार निवासियों के लिए कवरेज प्रदान करती है। हमारी बिलिंग टीम बीमा दावों, प्री-ऑथराइजेशन में मदद करती है। आपातकालीन रोगियों को भुगतान स्थिति की परवाह किए बिना तत्काल देखभाल मिलती है।'
+        },
+        {
+          question: 'क्या बुजुर्ग रोगी (80+ वर्ष) सुरक्षित रूप से हिप फ्रैक्चर सर्जरी से गुजर सकते हैं?',
+          answer: 'हां, 80 वर्ष से अधिक उम्र के लोगों सहित बुजुर्ग रोगियों में हिप फ्रैक्चर सर्जरी सुरक्षित रूप से की जा सकती है, और वास्तव में, सर्जरी गैर-सर्जिकल उपचार की तुलना में बहुत बुजुर्ग रोगियों में भी काफी बेहतर परिणाम प्रदान करती है। अध्ययन लगातार दिखाते हैं कि जो बुजुर्ग रोगी सर्जरी से गुजरते हैं उनमें: कम मृत्यु दर (गैर-सर्जिकल उपचार की तुलना में मृत्यु दर 30-50% कम), बेहतर दर्द नियंत्रण, चलने और स्वतंत्र जीवन में वापस लौटने की उच्च दरें, कम जटिलता दरें (जब सर्जरी जल्दी की जाती है), और बेहतर जीवन की गुणवत्ता। बुजुर्ग रोगियों में हिप फ्रैक्चर के गैर-सर्जिकल उपचार से होता है: लंबे समय तक बिस्तर आराम, गंभीर पुराना दर्द, चलने की क्षमता का स्थायी नुकसान। आर्थोसेंटर में, डॉ. कुमार और हमारी जेरियाट्रिक ट्रॉमा टीम के पास बुजुर्ग रोगियों पर ऑपरेशन करने का व्यापक अनुभव है। हमारे 80+ वर्ष के रोगियों में परिणाम उत्कृष्ट हैं जिसमें >90% चलने में वापस लौटते हैं और 70-80% स्वतंत्र जीवन में वापस लौटते हैं।'
+        },
+        {
+          question: 'हिप फ्रैक्चर सर्जरी के बाद मैं कब चल सकता हूं और वजन सहन कर सकता हूं?',
+          answer: 'वजन-असर की सिफारिशें फ्रैक्चर प्रकार और सर्जिकल प्रक्रिया पर निर्भर करती हैं। हेमीआर्थ्रोप्लास्टी या टोटल हिप रिप्लेसमेंट के लिए: सर्जरी के बाद दिन 1 से शुरू होने वाली तत्काल पूर्ण वजन-असर आमतौर पर अनुमति दी जाती है - आप तुरंत ऑपरेटेड पैर पर अपने पूरे शरीर का वजन डाल सकते हैं। DHS या सेफैलोमेडुलरी नेल के साथ तय किए गए स्थिर इंटरट्रोकैंटेरिक फ्रैक्चर के लिए: तुरंत शुरू होने वाला आंशिक वजन-असर (शरीर के वजन का 30-50%), उपचार के एक्स-रे साक्ष्य के आधार पर 4-6 सप्ताह तक पूर्ण वजन-असर में प्रगति। अस्थिर कॉमिन्यूटेड इंटरट्रोकैंटेरिक या सबट्रोकैंटेरिक फ्रैक्चर के लिए: शुरुआत में टच-वजन-असर या आंशिक वजन-असर, 6-8 सप्ताह तक पूर्ण वजन-असर में प्रगति। स्क्रू के साथ फेमोरल नेक फ्रैक्चर के ORIF के लिए (युवा रोगी): 6-8 सप्ताह के लिए गैर-वजन-असर या टच-वजन-असर। आर्थोसेंटर में, डॉ. कुमार आपके फ्रैक्चर पैटर्न, हड्डी की गुणवत्ता, फिक्सेशन स्थिरता के अनुसार विशिष्ट वजन-असर निर्देश प्रदान करते हैं।'
+        },
+        {
+          question: 'हिप फ्रैक्चर सर्जरी के जोखिम और जटिलताएं क्या हैं?',
+          answer: 'हिप फ्रैक्चर सर्जरी आमतौर पर सुरक्षित है लेकिन संभावित जटिलताओं में शामिल हैं: सर्जिकल जटिलताएं: संक्रमण (सर्जिकल साइट संक्रमण 1-3%, गहरा संक्रमण <1%), रक्त हानि जिसके लिए आधान की आवश्यकता होती है (10-20%), तंत्रिका चोट (<1%, आमतौर पर अस्थायी), रक्त वाहिका चोट (<1%), इम्प्लांट से संबंधित समस्याएं। चिकित्सा जटिलताएं: गहरी शिरा घनास्त्रता/रक्त के थक्के (प्रोफिलैक्सिस के बावजूद 5-10%), फुफ्फुसीय एम्बोलिज्म (<1% लेकिन संभावित घातक), निमोनिया (5-10%), मूत्र पथ संक्रमण (10-15%), दबाव घाव (5-10%), प्रलाप/भ्रम (बुजुर्गों में 20-30%)। फ्रैक्चर उपचार जटिलताएं: नॉनयूनियन/ठीक होने में विफलता, मालयूनियन/अनुचित उपचार, फेमोरल हेड का एवास्कुलर नेक्रोसिस। आर्थोसेंटर में, डॉ. कुमार जटिलताओं को कम करने के लिए साक्ष्य-आधारित प्रोटोकॉल का उपयोग करते हैं: 24-48 घंटों के भीतर तेजी से सर्जिकल हस्तक्षेप, आधुनिक इम्प्लांट के साथ सावधानीपूर्वक सर्जिकल तकनीक।'
+        },
+        {
+          question: 'हिप फ्रैक्चर सर्जरी के बाद अस्पताल में कितने समय तक रहना पड़ता है?',
+          answer: 'हिप फ्रैक्चर सर्जरी के बाद अस्पताल में रहना आमतौर पर कई कारकों के आधार पर 3-7 दिनों तक होता है। सरल फ्रैक्चर और कोई जटिलताओं के बिना युवा स्वस्थ रोगी (आयु <65): 3-4 दिन। बिना जटिलताओं वाली रिकवरी के साथ बुजुर्ग रोगी (आयु >65): 4-5 दिन। चिकित्सा कोमोर्बिडिटी या जटिलताओं वाले बुजुर्ग रोगी: 5-7 दिन या यदि आवश्यक हो तो अधिक। अस्पताल में रहने में शामिल हैं: सर्जरी के बाद तत्काल रिकवरी और निगरानी, दर्द प्रबंधन अनुकूलन, फिजिकल थेरेपी मूल्यांकन और प्रारंभिक गतिशीलता, जटिलताओं की रोकथाम का चिकित्सा प्रबंधन, घाव देखभाल, इम्प्लांट स्थिति की पुष्टि के लिए एक्स-रे। आर्थोसेंटर में, हमारी बहु-विषयक टीम रिकवरी को अनुकूलित करने और चिकित्सकीय रूप से उपयुक्त होने पर सुरक्षित प्रारंभिक छुट्टी की सुविधा प्रदान करने के लिए काम करती है।'
+        },
+        {
+          question: 'हिप फ्रैक्चर के कारण क्या हैं और उन्हें कैसे रोका जा सकता है?',
+          answer: 'कारण आयु वर्ग के अनुसार भिन्न होते हैं। बुजुर्ग रोगियों में (65+ वर्ष): घर पर साधारण गिरावट सबसे आम कारण है (बुजुर्गों में हिप फ्रैक्चर का >90%)। जोखिम कारकों में शामिल हैं: ऑस्टियोपोरोसिस (उम्र से संबंधित हड्डी कमजोरी - सबसे महत्वपूर्ण जोखिम कारक), खराब दृष्टि, संतुलन विकार, मांसपेशी कमजोरी, पर्यावरणीय खतरे (गीले फर्श, ढीले कालीन, खराब प्रकाश), चक्कर पैदा करने वाली दवाएं, पुरानी बीमारियां। युवा रोगियों में (<65 वर्ष): सड़क यातायात दुर्घटनाओं सहित उच्च-ऊर्जा आघात। बिहार में विशेष रूप से: सड़क दुर्घटनाएं सभी आयु समूहों में प्रमुख कारण हैं, कृषि चोटें, विटामिन डी की कमी, अपर्याप्त कैल्शियम सेवन। रोकथाम रणनीतियाँ: बुजुर्गों के लिए - गिरावट की रोकथाम: ढीले कालीन/अव्यवस्था हटाएं, घर की रोशनी में सुधार करें, बाथरूम में ग्रैब बार स्थापित करें, गैर-पर्ची मैट का उपयोग करें, संतुलन प्रशिक्षण व्यायाम। ऑस्टियोपोरोसिस रोकथाम और उपचार: पर्याप्त कैल्शियम सेवन, विटामिन डी पूरकता (2000 IU दैनिक), नियमित वजन-असर व्यायाम, धूम्रपान और अत्यधिक शराब से बचें।'
+        },
+        {
+          question: 'क्या मैं हिप फ्रैक्चर सर्जरी के बाद सामान्य गतिविधियों में वापस लौट सकता हूं?',
+          answer: 'अधिकांश रोगी उचित रिकवरी के बाद सामान्य दैनिक गतिविधियों में वापस लौट सकते हैं, हालांकि परिणाम उम्र, फ्रैक्चर प्रकार, सर्जिकल प्रक्रिया और पूर्व-फ्रैक्चर कार्यात्मक स्थिति के आधार पर भिन्न होते हैं। युवा रोगियों के लिए (<65 वर्ष) अलग-थलग हिप फ्रैक्चर के साथ: उत्कृष्ट परिणाम की उम्मीद। 4-6 महीनों के भीतर काम, खेल और सभी दैनिक गतिविधियों सहित पूर्व-चोट गतिविधि स्तर पर 85-95% वापसी। बुजुर्ग रोगियों के लिए (65-80 वर्ष) पहले स्वतंत्र: अच्छे से उत्कृष्ट परिणाम की उम्मीद। 70-85% स्वतंत्र जीवन और चलने में वापस लौटते हैं। बहुत बुजुर्ग रोगियों के लिए (80+ वर्ष) या कई चिकित्सा समस्याओं वाले: मध्यम परिणाम की उम्मीद। 50-70% स्वतंत्र चलने में वापस लौटते हैं। 40-60% पूरी तरह से स्वतंत्र जीवन में वापस लौटते हैं। आर्थोसेंटर में, डॉ. कुमार का व्यापक दृष्टिकोण प्रत्येक रोगी की रिकवरी को अनुकूलित करने के लिए इन सभी कारकों को संबोधित करता है।'
+        },
+        {
+          question: 'क्या बिहार में सरकारी स्वास्थ्य योजनाओं के तहत हिप फ्रैक्चर सर्जरी कवर की जाती है?',
+          answer: 'हां, बिहार में उपलब्ध प्रमुख सरकारी स्वास्थ्य बीमा योजनाओं के तहत हिप फ्रैक्चर सर्जरी को कवर किया जाता है। PMJAY (प्रधान मंत्री जन आरोग्य योजना / आयुष्मान भारत): पात्रता: ₹5 लाख से कम वार्षिक आय वाले परिवार (बिहार की आबादी का लगभग 40-50% योग्य)। कवरेज: अस्पताल में भर्ती खर्चों के लिए प्रति परिवार प्रति वर्ष ₹5 लाख तक। हिप फ्रैक्चर सर्जरी पैकेज में शामिल है जिसमें अस्पताल शुल्क, सर्जन फीस, इम्प्लांट, दवाएं और फॉलो-अप को कवर करने वाली परिभाषित दरें हैं। सूचीबद्ध अस्पतालों में कैशलेस उपचार। कोई आयु सीमा नहीं - बुजुर्ग रोगी पूरी तरह से कवर किए जाते हैं। BSKY (बिहार राज्य स्वास्थ्य बीमा योजना / मुख्यमंत्री स्वास्थ्य बीमा योजना): पात्रता: वैध राशन कार्ड वाले सभी बिहार निवासी। कवरेज: कार्ड प्रकार के अनुसार भिन्न होता है लेकिन आमतौर पर हिप फ्रैक्चर उपचार सहित प्रमुख सर्जरी को कवर करता है। प्रक्रिया: रोगियों को अस्पताल में भर्ती होने के समय आयुष्मान कार्ड या वैध राशन कार्ड प्रस्तुत करना होगा। आर्थोसेंटर में, हम PMJAY और BSKY योजनाओं के साथ सूचीबद्ध हैं और हमारी समर्पित बीमा टीम सभी कागजी कार्रवाई और दावा प्रसंस्करण को संभालती है। आपातकालीन हिप फ्रैक्चर रोगियों को बीमा स्थिति की परवाह किए बिना तत्काल सर्जरी मिलती है।'
+        }
+      ]
+    },
+    meta: {
+      en: {
+        title: 'Hip Fracture Surgery in Patna, Bihar | Dr. Gurudeo Kumar - Expert Trauma Care',
+        description: 'Expert hip fracture surgery in Patna by Dr. Gurudeo Kumar at Arthoscenter. 1800+ successful surgeries, 94% union rate. 24/7 emergency trauma care. PMJAY/BSKY covered. Book ₹999 consultation.',
+        keywords: ['hip fracture surgery', 'hip fracture treatment', 'femoral neck fracture', 'intertrochanteric fracture', 'subtrochanteric fracture', 'hemiarthroplasty', 'total hip replacement', 'ORIF hip fracture', 'DHS surgery', 'cephalomedullary nailing', 'elderly hip fracture', 'trauma surgery Bihar', 'orthopedic trauma Patna', 'Dr. Gurudeo Kumar', 'Arthoscenter Patna', 'emergency fracture care', 'geriatric trauma surgery', 'osteoporosis fracture treatment', 'PMJAY hip surgery', 'BSKY hip fracture coverage']
+      },
+      hi: {
+        title: 'पटना, बिहार में हिप फ्रैक्चर सर्जरी | डॉ. गुरुदेव कुमार - विशेषज्ञ ट्रॉमा केयर',
+        description: 'डॉ. गुरुदेव कुमार द्वारा आर्थोसेंटर पटना में विशेषज्ञ हिप फ्रैक्चर सर्जरी। 1800+ सफल सर्जरी, 94% यूनियन दर। 24/7 आपातकालीन ट्रॉमा देखभाल। PMJAY/BSKY कवर। ₹999 परामर्श बुक करें।',
+        keywords: ['हिप फ्रैक्चर सर्जरी', 'हिप फ्रैक्चर उपचार', 'फेमोरल नेक फ्रैक्चर', 'इंटरट्रोकैंटेरिक फ्रैक्चर', 'सबट्रोकैंटेरिक फ्रैक्चर', 'हेमीआर्थ्रोप्लास्टी', 'टोटल हिप रिप्लेसमेंट', 'ORIF हिप फ्रैक्चर', 'DHS सर्जरी', 'सेफैलोमेडुलरी नेलिंग', 'बुजुर्ग हिप फ्रैक्चर', 'बिहार में ट्रॉमा सर्जरी', 'पटना आर्थोपेडिक ट्रॉमा', 'डॉ. गुरुदेव कुमार', 'आर्थोसेंटर पटना', 'आपातकालीन फ्रैक्चर देखभाल', 'जेरियाट्रिक ट्रॉमा सर्जरी', 'ऑस्टियोपोरोसिस फ्रैक्चर उपचार', 'PMJAY हिप सर्जरी', 'BSKY हिप फ्रैक्चर कवरेज']
+      }
+    },
+    relatedSurgeries: ['femur-fracture-fixation', 'total-hip-replacement', 'pelvic-fracture-fixation', 'osteoporosis-treatment']
+  },
+
+  'hip-resurfacing': {
+    id: 'hip-resurfacing',
+    category: 'joint-replacement',
+    slug: 'hip-resurfacing',
+    title: {
+      en: 'Hip Resurfacing Arthroplasty',
+      hi: 'हिप रिसर्फेसिंग आर्थ्रोप्लास्टी'
+    },
+    shortDesc: {
+      en: 'Bone-preserving hip surgery that caps the femoral head instead of removing it, ideal for young, active patients',
+      hi: 'हड्डी संरक्षण करने वाली हिप सर्जरी जो फीमोरल हेड को हटाने के बजाय उसे कैप करती है, युवा सक्रिय रोगियों के लिए आदर्श'
+    },
+    overview: {
+      en: `Hip Resurfacing Arthroplasty is an advanced bone-conserving alternative to total hip replacement that is specifically designed for younger, more active patients with hip arthritis or hip damage. Unlike traditional total hip replacement where the entire femoral head is removed, hip resurfacing preserves most of the femoral head bone by capping it with a smooth metal covering. This bone-preserving approach offers significant advantages for patients who want to maintain an active lifestyle and potentially need future revision surgeries.
+
+At Arthroscenter in Patna, Bihar, Dr. Gurudeo Kumar has established himself as a pioneer in hip resurfacing surgery, having successfully performed over 300 hip resurfacing procedures using the advanced Birmingham Hip Resurfacing (BHR) system and other modern metal-on-metal bearing surfaces. Our state-of-the-art facility is equipped with computer-assisted navigation systems, high-precision surgical instruments, and advanced imaging technology to ensure accurate component positioning and optimal long-term outcomes for every patient.
+
+Hip resurfacing is particularly beneficial for young, active patients under 60 years of age with good bone quality who wish to return to high-impact activities, sports, and physically demanding work. The procedure is especially popular among young farmers, athletes, manual laborers, and active professionals in Bihar who cannot afford the activity restrictions that come with traditional hip replacement. The larger femoral head size used in hip resurfacing (typically 40-56mm compared to 28-36mm in total hip replacement) provides superior stability, more natural hip mechanics, greater range of motion, and significantly lower dislocation risk.
+
+The Birmingham Hip Resurfacing system, which Dr. Kumar specializes in, uses a metal-on-metal bearing surface with a cobalt-chrome femoral cap that covers the prepared femoral head and a matching metal acetabular cup. This design preserves the natural femoral bone stock, maintains normal hip biomechanics, allows for easier revision to total hip replacement if ever needed in the future, and enables patients to return to activities that would be restricted after conventional hip replacement including running, jumping, and high-impact sports.
+
+During the procedure, the damaged cartilage and a thin layer of bone are removed from the femoral head, and the head is reshaped to fit a smooth metal cap. The hip socket (acetabulum) is also prepared and fitted with a metal cup. When these two metal surfaces articulate, they create a smooth, low-friction joint that can withstand high activity levels. The surgery typically takes 1.5-2 hours and is performed through a posterior or anterolateral approach using minimally invasive techniques whenever possible.
+
+Bihar has a large population of young, active agricultural workers, manual laborers, and athletes who develop early hip arthritis due to heavy physical work, sports injuries, or conditions like avascular necrosis. For these patients, hip resurfacing offers the possibility of returning to their demanding physical activities without the long-term restrictions associated with traditional hip replacement. Dr. Gurudeo Kumar's extensive experience with hip resurfacing in the Bihar population has led to exceptional outcomes with over 95% of patients returning to their pre-surgery activity levels.
+
+However, hip resurfacing is not suitable for everyone. Ideal candidates are young men (typically under 60) with good bone quality, adequate femoral head size, and no significant bone cysts or osteoporosis. The procedure is generally not recommended for women of childbearing age due to concerns about metal ion release, patients with osteoporosis or poor bone quality, those with renal disease, patients with metal allergies, or individuals with very small femoral heads or significant bone defects. Dr. Kumar conducts thorough pre-operative evaluations including specialized imaging, bone density scans, and blood tests to determine the best surgical option for each patient.
+
+One important consideration with metal-on-metal hip resurfacing is the need for periodic monitoring of blood metal ion levels, particularly cobalt and chromium. While modern hip resurfacing implants have excellent safety records, patients require annual blood tests and periodic imaging to monitor implant function and detect any potential complications early. At Arthroscenter, we provide comprehensive long-term follow-up care including metal ion monitoring, imaging surveillance, and clinical assessments to ensure the continued success of the procedure.
+
+The recovery from hip resurfacing is often faster than traditional hip replacement because less bone is removed and hip biomechanics are better preserved. Most patients can bear weight immediately after surgery with walking aids, transition to a cane within 2-4 weeks, and return to light activities within 6-8 weeks. With proper rehabilitation, most patients return to high-impact activities and sports within 4-6 months. The success rate exceeds 95% at 15 years, and many patients enjoy 20+ years of excellent function from their hip resurfacing.
+
+At Arthoscenter, we accept all major insurance plans including PMJAY (Pradhan Mantri Jan Arogya Yojana) and BSKY (Bhamashah Swasthya Bima Yojana) schemes which cover hip resurfacing surgery for eligible patients. For uninsured patients, we offer transparent pricing and flexible payment options. Our comprehensive care includes pre-operative education, advanced surgical techniques, personalized rehabilitation programs, long-term metal ion monitoring, and lifetime follow-up support to ensure the best possible outcomes for every patient choosing hip resurfacing.`,
+      hi: `हिप रिसर्फेसिंग आर्थ्रोप्लास्टी एक उन्नत हड्डी-संरक्षण विकल्प है जो कुल हिप प्रतिस्थापन का विकल्प है और विशेष रूप से हिप गठिया या हिप क्षति वाले युवा, अधिक सक्रिय रोगियों के लिए डिज़ाइन किया गया है। पारंपरिक कुल हिप प्रतिस्थापन के विपरीत जहां पूरे फीमोरल हेड को हटा दिया जाता है, हिप रिसर्फेसिंग एक चिकनी धातु कवरिंग के साथ इसे कैप करके अधिकांश फीमोरल हेड हड्डी को संरक्षित करता है। यह हड्डी-संरक्षण दृष्टिकोण उन रोगियों के लिए महत्वपूर्ण लाभ प्रदान करता है जो एक सक्रिय जीवन शैली बनाए रखना चाहते हैं और संभावित रूप से भविष्य में संशोधन सर्जरी की आवश्यकता हो सकती है।
+
+आर्थोसेंटर पटना, बिहार में, डॉ. गुरुदेव कुमार ने हिप रिसर्फेसिंग सर्जरी में खुद को एक अग्रणी के रूप में स्थापित किया है, उन्होंने उन्नत बर्मिंघम हिप रिसर्फेसिंग (BHR) सिस्टम और अन्य आधुनिक मेटल-ऑन-मेटल बेयरिंग सतहों का उपयोग करके 300 से अधिक हिप रिसर्फेसिंग प्रक्रियाएं सफलतापूर्वक की हैं। हमारी अत्याधुनिक सुविधा कंप्यूटर-सहायता प्राप्त नेविगेशन सिस्टम, उच्च-परिशुद्धता शल्य चिकित्सा उपकरण और उन्नत इमेजिंग तकनीक से सुसज्जित है ताकि सटीक घटक स्थिति और प्रत्येक रोगी के लिए इष्टतम दीर्घकालिक परिणाम सुनिश्चित हो सके।
+
+हिप रिसर्फेसिंग विशेष रूप से 60 वर्ष से कम आयु के युवा, सक्रिय रोगियों के लिए फायदेमंद है जिनके पास अच्छी हड्डी गुणवत्ता है और जो उच्च-प्रभाव गतिविधियों, खेल और शारीरिक रूप से मांग वाले काम में वापस आना चाहते हैं। यह प्रक्रिया विशेष रूप से बिहार में युवा किसानों, एथलीटों, मैनुअल श्रमिकों और सक्रिय पेशेवरों के बीच लोकप्रिय है जो पारंपरिक हिप प्रतिस्थापन के साथ आने वाली गतिविधि प्रतिबंधों को वहन नहीं कर सकते हैं। हिप रिसर्फेसिंग में उपयोग किया जाने वाला बड़ा फीमोरल हेड आकार (आमतौर पर 40-56mm कुल हिप प्रतिस्थापन में 28-36mm की तुलना में) बेहतर स्थिरता, अधिक प्राकृतिक हिप यांत्रिकी, अधिक गति सीमा और काफी कम विस्थापन जोखिम प्रदान करता है।
+
+बर्मिंघम हिप रिसर्फेसिंग सिस्टम, जिसमें डॉ. कुमार विशेषज्ञ हैं, एक कोबाल्ट-क्रोम फीमोरल कैप के साथ एक मेटल-ऑन-मेटल बेयरिंग सतह का उपयोग करता है जो तैयार फीमोरल हेड को कवर करता है और एक मिलान धातु एसिटाबुलर कप। यह डिज़ाइन प्राकृतिक फीमोरल हड्डी स्टॉक को संरक्षित करता है, सामान्य हिप बायोमैकेनिक्स बनाए रखता है, भविष्य में आवश्यकता पड़ने पर कुल हिप प्रतिस्थापन के लिए आसान संशोधन की अनुमति देता है, और रोगियों को उन गतिविधियों में वापस आने में सक्षम बनाता है जो पारंपरिक हिप प्रतिस्थापन के बाद प्रतिबंधित होंगी जिनमें दौड़ना, कूदना और उच्च-प्रभाव खेल शामिल हैं।
+
+प्रक्रिया के दौरान, फीमोरल हेड से क्षतिग्रस्त उपास्थि और हड्डी की एक पतली परत को हटा दिया जाता है, और हेड को एक चिकनी धातु कैप फिट करने के लिए फिर से आकार दिया जाता है। हिप सॉकेट (एसिटाबुलम) भी तैयार किया जाता है और एक धातु कप के साथ फिट किया जाता है। जब ये दो धातु सतहें जुड़ती हैं, तो वे एक चिकनी, कम घर्षण वाला जोड़ बनाती हैं जो उच्च गतिविधि स्तरों का सामना कर सकता है। सर्जरी में आमतौर पर 1.5-2 घंटे लगते हैं और जब भी संभव हो न्यूनतम आक्रामक तकनीकों का उपयोग करके पोस्टीरियर या एंटेरोलेटरल दृष्टिकोण के माध्यम से की जाती है।
+
+बिहार में युवा, सक्रिय कृषि श्रमिकों, मैनुअल श्रमिकों और एथलीटों की एक बड़ी आबादी है जो भारी शारीरिक काम, खेल चोटों या एवस्कुलर नेक्रोसिस जैसी स्थितियों के कारण शुरुआती हिप गठिया विकसित करते हैं। इन रोगियों के लिए, हिप रिसर्फेसिंग पारंपरिक हिप प्रतिस्थापन से जुड़े दीर्घकालिक प्रतिबंधों के बिना अपनी मांग वाली शारीरिक गतिविधियों में वापस आने की संभावना प्रदान करता है। बिहार की आबादी में हिप रिसर्फेसिंग के साथ डॉ. गुरुदेव कुमार के व्यापक अनुभव ने 95% से अधिक रोगियों के अपने सर्जरी-पूर्व गतिविधि स्तरों पर वापस आने के साथ असाधारण परिणाम दिए हैं।
+
+हालांकि, हिप रिसर्फेसिंग सभी के लिए उपयुक्त नहीं है। आदर्श उम्मीदवार युवा पुरुष हैं (आमतौर पर 60 से कम) अच्छी हड्डी गुणवत्ता, पर्याप्त फीमोरल हेड आकार और कोई महत्वपूर्ण हड्डी सिस्ट या ऑस्टियोपोरोसिस नहीं। यह प्रक्रिया आमतौर पर धातु आयन रिलीज के बारे में चिंताओं के कारण प्रसव उम्र की महिलाओं के लिए अनुशंसित नहीं है, ऑस्टियोपोरोसिस या खराब हड्डी गुणवत्ता वाले रोगी, गुर्दे की बीमारी वाले, धातु एलर्जी वाले रोगी, या बहुत छोटे फीमोरल हेड या महत्वपूर्ण हड्डी दोष वाले व्यक्ति। डॉ. कुमार प्रत्येक रोगी के लिए सर्वोत्तम शल्य विकल्प निर्धारित करने के लिए विशेष इमेजिंग, हड्डी घनत्व स्कैन और रक्त परीक्षण सहित गहन पूर्व-ऑपरेटिव मूल्यांकन करते हैं।
+
+मेटल-ऑन-मेटल हिप रिसर्फेसिंग के साथ एक महत्वपूर्ण विचार रक्त धातु आयन स्तर की आवधिक निगरानी की आवश्यकता है, विशेष रूप से कोबाल्ट और क्रोमियम। जबकि आधुनिक हिप रिसर्फेसिंग प्रत्यारोपण के पास उत्कृष्ट सुरक्षा रिकॉर्ड हैं, रोगियों को वार्षिक रक्त परीक्षण और आवधिक इमेजिंग की आवश्यकता होती है ताकि प्रत्यारोपण कार्य की निगरानी की जा सके और किसी भी संभावित जटिलताओं का जल्दी पता लगाया जा सके। आर्थोसेंटर में, हम धातु आयन निगरानी, इमेजिंग निगरानी और नैदानिक मूल्यांकन सहित व्यापक दीर्घकालिक अनुवर्ती देखभाल प्रदान करते हैं ताकि प्रक्रिया की निरंतर सफलता सुनिश्चित हो सके।
+
+हिप रिसर्फेसिंग से रिकवरी अक्सर पारंपरिक हिप प्रतिस्थापन की तुलना में तेज होती है क्योंकि कम हड्डी हटाई जाती है और हिप बायोमैकेनिक्स बेहतर संरक्षित होती है। अधिकांश रोगी चलने की सहायता के साथ सर्जरी के तुरंत बाद वजन सहन कर सकते हैं, 2-4 सप्ताह के भीतर एक छड़ी में संक्रमण कर सकते हैं, और 6-8 सप्ताह के भीतर हल्की गतिविधियों में वापस आ सकते हैं। उचित पुनर्वास के साथ, अधिकांश रोगी 4-6 महीनों के भीतर उच्च-प्रभाव गतिविधियों और खेलों में वापस आ जाते हैं। सफलता दर 15 वर्षों में 95% से अधिक है, और कई रोगी अपने हिप रिसर्फेसिंग से 20+ वर्षों के उत्कृष्ट कार्य का आनंद लेते हैं।
+
+आर्थोसेंटर में, हम PMJAY (प्रधान मंत्री जन आरोग्य योजना) और BSKY (भामाशाह स्वास्थ्य बीमा योजना) योजनाओं सहित सभी प्रमुख बीमा योजनाओं को स्वीकार करते हैं जो पात्र रोगियों के लिए हिप रिसर्फेसिंग सर्जरी को कवर करती हैं। बिना बीमा वाले रोगियों के लिए, हम पारदर्शी मूल्य निर्धारण और लचीले भुगतान विकल्प प्रदान करते हैं।`
+    },
+    symptoms: {
+      en: [
+        'Severe hip pain that limits daily activities and quality of life',
+        'Hip pain that worsens with high-impact activities like running or jumping',
+        'Persistent groin pain radiating to the thigh or buttocks',
+        'Morning stiffness lasting more than 30 minutes',
+        'Progressive loss of hip range of motion and flexibility',
+        'Difficulty with activities requiring hip flexion (climbing stairs, getting in/out of cars)',
+        'Limping or altered gait pattern affecting mobility',
+        'Hip pain disrupting sleep and rest',
+        'Failed conservative treatments including medications, injections, and physical therapy',
+        'Advanced hip arthritis or avascular necrosis confirmed on imaging studies'
+      ],
+      hi: [
+        'गंभीर हिप दर्द जो दैनिक गतिविधियों और जीवन की गुणवत्ता को सीमित करता है',
+        'दौड़ने या कूदने जैसी उच्च-प्रभाव गतिविधियों के साथ बिगड़ने वाला हिप दर्द',
+        'जांघ या नितंबों तक फैलने वाला लगातार कमर का दर्द',
+        '30 मिनट से अधिक समय तक चलने वाली सुबह की कठोरता',
+        'हिप गति सीमा और लचीलेपन का प्रगतिशील नुकसान',
+        'हिप फ्लेक्सन की आवश्यकता वाली गतिविधियों में कठिनाई (सीढ़ियां चढ़ना, कार में बैठना/उतरना)',
+        'गतिशीलता को प्रभावित करने वाला लंगड़ाना या बदली हुई चाल पैटर्न',
+        'नींद और आराम को बाधित करने वाला हिप दर्द',
+        'दवाओं, इंजेक्शन और फिजियोथेरेपी सहित विफल रूढ़िवादी उपचार',
+        'इमेजिंग अध्ययनों पर पुष्टि किए गए उन्नत हिप गठिया या एवस्कुलर नेक्रोसिस'
+      ]
+    },
+    procedure: {
+      en: {
+        preparation: 'Comprehensive pre-operative assessment including detailed hip X-rays, CT or MRI scans to evaluate femoral head size and bone quality, bone density (DEXA) scan to rule out osteoporosis, blood tests including metal ion baseline levels, renal function tests, cardiac evaluation with ECG and echocardiogram if needed. Patient education sessions covering the procedure, expected outcomes, activity restrictions, and metal ion monitoring requirements. Arrangement for post-operative care assistance and rehabilitation support.',
+        steps: [
+          'General or spinal anesthesia is administered along with prophylactic antibiotics',
+          'A 4-6 inch surgical incision is made using posterior or anterolateral approach to access the hip joint',
+          'Hip joint is dislocated and the femoral head is carefully exposed while preserving surrounding soft tissues',
+          'Damaged cartilage and diseased bone are removed from the femoral head using specialized reaming tools',
+          'The femoral head is precisely shaped using graduated cylindrical reamers to match the metal cap',
+          'The acetabulum (hip socket) is prepared by removing damaged cartilage and reaming to appropriate size',
+          'A hemispherical metal acetabular cup (typically cobalt-chrome) is press-fitted into the prepared socket',
+          'The metal femoral cap is cemented onto the prepared femoral head with bone cement (polymethylmethacrylate)',
+          'The hip is reduced (put back together) and tested for stability, range of motion, and proper component alignment',
+          'Wound is thoroughly irrigated, soft tissues are repaired, and the incision is closed in layers with sutures',
+          'Sterile dressing is applied and patient is transferred to recovery room for monitoring'
+        ],
+        duration: '1.5-2 hours',
+        anesthesia: 'General or Spinal Anesthesia with nerve blocks for enhanced pain control'
+      },
+      hi: {
+        preparation: 'व्यापक पूर्व-ऑपरेटिव मूल्यांकन जिसमें विस्तृत हिप एक्स-रे, फीमोरल हेड आकार और हड्डी गुणवत्ता का मूल्यांकन करने के लिए सीटी या एमआरआई स्कैन, ऑस्टियोपोरोसिस को खारिज करने के लिए हड्डी घनत्व (DEXA) स्कैन, धातु आयन आधारभूत स्तर सहित रक्त परीक्षण, गुर्दे की कार्य परीक्षण, यदि आवश्यक हो तो ईसीजी और इकोकार्डियोग्राम के साथ कार्डियक मूल्यांकन शामिल है। रोगी शिक्षा सत्र जिसमें प्रक्रिया, अपेक्षित परिणाम, गतिविधि प्रतिबंध और धातु आयन निगरानी आवश्यकताओं को शामिल किया गया है। पोस्ट-ऑपरेटिव देखभाल सहायता और पुनर्वास समर्थन की व्यवस्था।',
+        steps: [
+          'प्रोफिलैक्टिक एंटीबायोटिक्स के साथ जनरल या स्पाइनल एनेस्थीसिया दिया जाता है',
+          'हिप जोड़ तक पहुंचने के लिए पोस्टीरियर या एंटेरोलेटरल दृष्टिकोण का उपयोग करके 4-6 इंच का सर्जिकल चीरा लगाया जाता है',
+          'हिप जोड़ को विस्थापित किया जाता है और आसपास के कोमल ऊतकों को संरक्षित करते हुए फीमोरल हेड को सावधानीपूर्वक उजागर किया जाता है',
+          'विशेष रीमिंग उपकरणों का उपयोग करके फीमोरल हेड से क्षतिग्रस्त उपास्थि और रोगग्रस्त हड्डी को हटा दिया जाता है',
+          'धातु कैप से मेल खाने के लिए ग्रेजुएटेड सिलेंड्रिकल रीमर का उपयोग करके फीमोरल हेड को सटीक रूप से आकार दिया जाता है',
+          'एसिटाबुलम (हिप सॉकेट) क्षतिग्रस्त उपास्थि को हटाकर और उचित आकार में रीमिंग करके तैयार किया जाता है',
+          'एक अर्धगोलाकार धातु एसिटाबुलर कप (आमतौर पर कोबाल्ट-क्रोम) तैयार सॉकेट में प्रेस-फिट किया जाता है',
+          'धातु फीमोरल कैप को हड्डी सीमेंट (पॉलीमेथाइलमेथाक्रिलेट) के साथ तैयार फीमोरल हेड पर सीमेंट किया जाता है',
+          'हिप को कम किया जाता है (वापस एक साथ रखा जाता है) और स्थिरता, गति सीमा और उचित घटक संरेखण के लिए परीक्षण किया जाता है',
+          'घाव को अच्छी तरह से सिंचित किया जाता है, कोमल ऊतकों की मरम्मत की जाती है, और चीरे को टांके के साथ परतों में बंद किया जाता है',
+          'बाँझ ड्रेसिंग लगाई जाती है और रोगी को निगरानी के लिए रिकवरी रूम में स्थानांतरित किया जाता है'
+        ],
+        duration: '1.5-2 घंटे',
+        anesthesia: 'बेहतर दर्द नियंत्रण के लिए तंत्रिका ब्लॉक के साथ जनरल या स्पाइनल एनेस्थीसिया'
+      }
+    },
+    recovery: {
+      en: {
+        timeline: [
+          {
+            week: 'Day 1-2',
+            activity: 'Hospital Stay & Immediate Mobilization',
+            description: 'Pain management with multimodal analgesia. Physical therapy begins on day 1 with sitting, standing, and walking with walker or crutches. Immediate weight-bearing as tolerated. Drain removal if placed. Monitoring for complications.'
+          },
+          {
+            week: 'Week 1-2',
+            activity: 'Early Recovery Phase',
+            description: 'Continued walking with walker or crutches, gradual increase in distance. Home physical therapy exercises focusing on hip range of motion and muscle activation. Wound care and monitoring for infection signs. Anticoagulation therapy to prevent blood clots.'
+          },
+          {
+            week: 'Week 2-4',
+            activity: 'Transition to Cane',
+            description: 'Progression from walker to single crutch or cane. Increased independence in activities of daily living. Gentle strengthening exercises. First post-operative follow-up with X-rays to assess implant position and healing.'
+          },
+          {
+            week: 'Week 4-8',
+            activity: 'Intermediate Rehabilitation',
+            description: 'Walking without aids for short distances. Progressive strengthening exercises including resistance training. Return to light activities like stationary cycling. Suture removal if not absorbable. Blood metal ion level testing.'
+          },
+          {
+            week: 'Month 2-4',
+            activity: 'Advanced Strengthening',
+            description: 'Significant improvement in strength and mobility. Return to work for sedentary jobs. Swimming and aquatic therapy. Progressive resistance training. May begin driving if comfortable.'
+          },
+          {
+            week: 'Month 4-6',
+            activity: 'Return to High Activity',
+            description: 'Return to sports and high-impact activities with surgeon approval. Running, jumping, and sports participation possible. Continued strengthening program. Most restrictions lifted. Regular monitoring appointments.'
+          }
+        ],
+        tips: [
+          'Take prescribed medications including pain relievers and blood thinners as directed',
+          'Weight-bearing is typically allowed immediately, but follow your surgeon\'s specific instructions',
+          'Hip precautions are generally less restrictive than total hip replacement, but avoid extremes of motion initially',
+          'Attend all physical therapy sessions and perform home exercises daily',
+          'Monitor wound for signs of infection (increased redness, swelling, drainage, fever)',
+          'Annual blood tests to monitor cobalt and chromium metal ion levels are mandatory',
+          'Inform all healthcare providers about your metal-on-metal hip resurfacing implant',
+          'Maintain healthy body weight to reduce stress on the implant',
+          'Stay active with low-impact exercises like swimming, cycling, and walking',
+          'Schedule regular follow-up appointments with imaging to monitor implant function and bone health'
+        ]
+      },
+      hi: {
+        timeline: [
+          {
+            week: 'दिन 1-2',
+            activity: 'अस्पताल में रहना और तत्काल गतिशीलता',
+            description: 'मल्टीमोडल एनाल्जेसिया के साथ दर्द प्रबंधन। दिन 1 से फिजियोथेरेपी शुरू होती है जिसमें बैठना, खड़े होना और वॉकर या बैसाखी के साथ चलना शामिल है। सहन के अनुसार तत्काल वजन-सहन। यदि रखा गया हो तो ड्रेन हटाना। जटिलताओं के लिए निगरानी।'
+          },
+          {
+            week: 'सप्ताह 1-2',
+            activity: 'प्रारंभिक रिकवरी चरण',
+            description: 'वॉकर या बैसाखी के साथ निरंतर चलना, दूरी में धीरे-धीरे वृद्धि। हिप गति सीमा और मांसपेशी सक्रियण पर ध्यान केंद्रित करने वाले घर की फिजियोथेरेपी व्यायाम। घाव की देखभाल और संक्रमण के संकेतों के लिए निगरानी। रक्त के थक्कों को रोकने के लिए एंटीकोगुलेशन थेरेपी।'
+          },
+          {
+            week: 'सप्ताह 2-4',
+            activity: 'छड़ी में संक्रमण',
+            description: 'वॉकर से एकल बैसाखी या छड़ी में प्रगति। दैनिक जीवन की गतिविधियों में बढ़ी हुई स्वतंत्रता। कोमल मजबूत बनाने के व्यायाम। प्रत्यारोपण स्थिति और उपचार का आकलन करने के लिए एक्स-रे के साथ पहला पोस्ट-ऑपरेटिव फॉलो-अप।'
+          },
+          {
+            week: 'सप्ताह 4-8',
+            activity: 'मध्यवर्ती पुनर्वास',
+            description: 'छोटी दूरी के लिए बिना सहायता के चलना। प्रतिरोध प्रशिक्षण सहित प्रगतिशील मजबूत बनाने के व्यायाम। स्थिर साइकिलिंग जैसी हल्की गतिविधियों में वापसी। यदि अवशोषित नहीं हो तो टांके हटाना। रक्त धातु आयन स्तर परीक्षण।'
+          },
+          {
+            week: 'महीना 2-4',
+            activity: 'उन्नत मजबूती',
+            description: 'शक्ति और गतिशीलता में महत्वपूर्ण सुधार। बैठे काम के लिए काम पर वापसी। तैराकी और जलीय चिकित्सा। प्रगतिशील प्रतिरोध प्रशिक्षण। यदि सहज हो तो ड्राइविंग शुरू कर सकते हैं।'
+          },
+          {
+            week: 'महीना 4-6',
+            activity: 'उच्च गतिविधि में वापसी',
+            description: 'सर्जन की मंजूरी के साथ खेल और उच्च-प्रभाव गतिविधियों में वापसी। दौड़ना, कूदना और खेल भागीदारी संभव है। निरंतर मजबूती कार्यक्रम। अधिकांश प्रतिबंध हटा दिए गए। नियमित निगरानी नियुक्तियां।'
+          }
+        ],
+        tips: [
+          'निर्धारित दवाएं लें जिनमें दर्द निवारक और रक्त पतला करने वाली दवाएं शामिल हैं',
+          'वजन-सहन आमतौर पर तुरंत अनुमति दी जाती है, लेकिन अपने सर्जन के विशिष्ट निर्देशों का पालन करें',
+          'हिप सावधानियां आमतौर पर कुल हिप प्रतिस्थापन की तुलना में कम प्रतिबंधात्मक हैं, लेकिन शुरू में गति की चरम सीमा से बचें',
+          'सभी फिजियोथेरेपी सत्रों में भाग लें और दैनिक घर के व्यायाम करें',
+          'संक्रमण के संकेतों के लिए घाव की निगरानी करें (बढ़ी हुई लाली, सूजन, निर्वहन, बुखार)',
+          'कोबाल्ट और क्रोमियम धातु आयन स्तरों की निगरानी के लिए वार्षिक रक्त परीक्षण अनिवार्य हैं',
+          'अपने मेटल-ऑन-मेटल हिप रिसर्फेसिंग प्रत्यारोपण के बारे में सभी स्वास्थ्य सेवा प्रदाताओं को सूचित करें',
+          'प्रत्यारोपण पर तनाव कम करने के लिए स्वस्थ शरीर का वजन बनाए रखें',
+          'तैराकी, साइकिलिंग और चलने जैसे कम-प्रभाव व्यायाम के साथ सक्रिय रहें',
+          'प्रत्यारोपण कार्य और हड्डी स्वास्थ्य की निगरानी के लिए इमेजिंग के साथ नियमित फॉलो-अप नियुक्तियां निर्धारित करें'
+        ]
+      }
+    },
+    faqs: {
+      en: [
+        {
+          question: 'What is the difference between hip resurfacing and total hip replacement?',
+          answer: 'Hip resurfacing preserves most of the femoral head bone by capping it with a metal cover, while total hip replacement removes the entire femoral head and replaces it with a prosthetic stem and ball. Hip resurfacing preserves more bone, allows for more natural hip mechanics, and is ideal for younger, active patients. It also makes future revision surgery easier if ever needed.'
+        },
+        {
+          question: 'Am I a good candidate for hip resurfacing?',
+          answer: 'Ideal candidates are typically men under 60 years old with good bone quality, adequate femoral head size (>45mm), no osteoporosis, and a desire to return to high-impact activities. The procedure is generally not recommended for women of childbearing age, patients with osteoporosis, renal disease, or very small femoral heads. Dr. Kumar will evaluate your specific case with imaging and tests to determine if hip resurfacing is right for you.'
+        },
+        {
+          question: 'Can I return to sports and high-impact activities after hip resurfacing?',
+          answer: 'Yes, one of the main advantages of hip resurfacing is the ability to return to high-impact activities including running, jumping, tennis, football, and other sports. Most patients can gradually return to these activities starting 4-6 months after surgery with proper rehabilitation. This is a significant advantage over traditional hip replacement which restricts high-impact activities.'
+        },
+        {
+          question: 'What are metal ions and why do they need to be monitored?',
+          answer: 'Metal-on-metal hip resurfacing implants have cobalt and chromium surfaces that articulate together. Microscopic metal particles can be released into the bloodstream, which is why annual blood tests are required to monitor cobalt and chromium ion levels. While modern implants have excellent safety records, monitoring ensures early detection of any potential issues. Most patients have metal ion levels well within safe ranges.'
+        },
+        {
+          question: 'How much does hip resurfacing cost in Patna, Bihar?',
+          answer: 'At Arthroscenter, hip resurfacing surgery typically costs between ₹3,00,000 to ₹5,00,000 depending on implant choice and hospital stay. We accept PMJAY and BSKY insurance schemes which cover the procedure for eligible patients. For uninsured patients, we offer transparent pricing and flexible payment plans. The cost includes surgery, implants, hospital stay, and initial follow-up care.'
+        },
+        {
+          question: 'How long do hip resurfacing implants last?',
+          answer: 'Modern hip resurfacing implants have excellent long-term outcomes with success rates exceeding 95% at 15 years. Many patients enjoy 20+ years of excellent function. Factors affecting longevity include patient age, activity level, body weight, bone quality, and proper component positioning. Younger patients with higher activity levels may eventually need revision to total hip replacement, but the preserved bone makes this easier.'
+        },
+        {
+          question: 'Is hip resurfacing more difficult to recover from than total hip replacement?',
+          answer: 'No, recovery from hip resurfacing is often faster than total hip replacement because more bone is preserved and hip biomechanics are better maintained. Most patients bear weight immediately, walk with minimal assistance within days, and return to daily activities within 6-8 weeks. The larger femoral head also provides better stability with lower dislocation risk and fewer movement restrictions.'
+        },
+        {
+          question: 'Why is hip resurfacing not commonly recommended for women?',
+          answer: 'Hip resurfacing is generally not recommended for women of childbearing age due to concerns about metal ion exposure during pregnancy and the potential effects on fetal development. Additionally, women typically have smaller femoral heads and lower bone density compared to men, which can affect implant fixation and longevity. Post-menopausal women with good bone quality may still be candidates, which Dr. Kumar evaluates on a case-by-case basis.'
+        },
+        {
+          question: 'What happens if my hip resurfacing needs revision in the future?',
+          answer: 'One major advantage of hip resurfacing is that if revision is ever needed, it can be easily converted to a total hip replacement because the femoral bone stock has been preserved. This is much simpler than revising a total hip replacement which has already removed significant bone. The preserved bone provides better options for future surgery if ever needed, making hip resurfacing an excellent choice for younger patients.'
+        },
+        {
+          question: 'Are hip resurfacing implants available in Bihar? Does Dr. Kumar have experience with this procedure?',
+          answer: 'Yes, Arthroscenter in Patna is equipped with advanced Birmingham Hip Resurfacing (BHR) and other modern metal-on-metal hip resurfacing systems. Dr. Gurudeo Kumar has extensive experience with over 300 successful hip resurfacing procedures and is one of the few surgeons in Bihar offering this specialized procedure. We have computer-assisted navigation, high-precision instruments, and comprehensive follow-up protocols including metal ion monitoring to ensure optimal outcomes.'
+        }
+      ],
+      hi: [
+        {
+          question: 'हिप रिसर्फेसिंग और कुल हिप प्रतिस्थापन के बीच क्या अंतर है?',
+          answer: 'हिप रिसर्फेसिंग फीमोरल हेड को धातु कवर के साथ कैप करके अधिकांश फीमोरल हेड हड्डी को संरक्षित करती है, जबकि कुल हिप प्रतिस्थापन पूरे फीमोरल हेड को हटा देता है और इसे एक प्रोस्थेटिक स्टेम और बॉल से बदल देता है। हिप रिसर्फेसिंग अधिक हड्डी को संरक्षित करती है, अधिक प्राकृतिक हिप यांत्रिकी की अनुमति देती है, और युवा, सक्रिय रोगियों के लिए आदर्श है। यह भविष्य में कभी आवश्यकता पड़ने पर संशोधन सर्जरी को भी आसान बनाती है।'
+        },
+        {
+          question: 'क्या मैं हिप रिसर्फेसिंग के लिए एक अच्छा उम्मीदवार हूं?',
+          answer: 'आदर्श उम्मीदवार आमतौर पर 60 वर्ष से कम आयु के पुरुष हैं जिनके पास अच्छी हड्डी गुणवत्ता, पर्याप्त फीमोरल हेड आकार (>45mm), कोई ऑस्टियोपोरोसिस नहीं, और उच्च-प्रभाव गतिविधियों में वापस आने की इच्छा है। यह प्रक्रिया आमतौर पर प्रसव उम्र की महिलाओं, ऑस्टियोपोरोसिस, गुर्दे की बीमारी, या बहुत छोटे फीमोरल हेड वाले रोगियों के लिए अनुशंसित नहीं है। डॉ. कुमार यह निर्धारित करने के लिए इमेजिंग और परीक्षणों के साथ आपके विशिष्ट मामले का मूल्यांकन करेंगे कि हिप रिसर्फेसिंग आपके लिए सही है या नहीं।'
+        },
+        {
+          question: 'क्या मैं हिप रिसर्फेसिंग के बाद खेल और उच्च-प्रभाव गतिविधियों में वापस आ सकता हूं?',
+          answer: 'हां, हिप रिसर्फेसिंग के मुख्य लाभों में से एक दौड़ना, कूदना, टेनिस, फुटबॉल और अन्य खेलों सहित उच्च-प्रभाव गतिविधियों में वापस आने की क्षमता है। अधिकांश रोगी उचित पुनर्वास के साथ सर्जरी के 4-6 महीने बाद धीरे-धीरे इन गतिविधियों में वापस आ सकते हैं। यह पारंपरिक हिप प्रतिस्थापन की तुलना में एक महत्वपूर्ण लाभ है जो उच्च-प्रभाव गतिविधियों को प्रतिबंधित करता है।'
+        },
+        {
+          question: 'धातु आयन क्या हैं और उन्हें निगरानी की आवश्यकता क्यों है?',
+          answer: 'मेटल-ऑन-मेटल हिप रिसर्फेसिंग प्रत्यारोपण में कोबाल्ट और क्रोमियम सतहें होती हैं जो एक साथ जुड़ती हैं। सूक्ष्म धातु कण रक्तप्रवाह में जारी हो सकते हैं, यही कारण है कि कोबाल्ट और क्रोमियम आयन स्तरों की निगरानी के लिए वार्षिक रक्त परीक्षण की आवश्यकता होती है। जबकि आधुनिक प्रत्यारोपण के पास उत्कृष्ट सुरक्षा रिकॉर्ड हैं, निगरानी किसी भी संभावित समस्याओं का शीघ्र पता लगाने को सुनिश्चित करती है। अधिकांश रोगियों में धातु आयन स्तर सुरक्षित सीमा के भीतर होते हैं।'
+        },
+        {
+          question: 'पटना, बिहार में हिप रिसर्फेसिंग की लागत कितनी है?',
+          answer: 'आर्थोसेंटर में, हिप रिसर्फेसिंग सर्जरी की लागत आमतौर पर प्रत्यारोपण पसंद और अस्पताल में रहने के आधार पर ₹3,00,000 से ₹5,00,000 के बीच होती है। हम PMJAY और BSKY बीमा योजनाओं को स्वीकार करते हैं जो पात्र रोगियों के लिए प्रक्रिया को कवर करती हैं। बिना बीमा वाले रोगियों के लिए, हम पारदर्शी मूल्य निर्धारण और लचीली भुगतान योजनाएं प्रदान करते हैं। लागत में सर्जरी, प्रत्यारोपण, अस्पताल में रहना और प्रारंभिक अनुवर्ती देखभाल शामिल है।'
+        },
+        {
+          question: 'हिप रिसर्फेसिंग प्रत्यारोपण कितने समय तक चलते हैं?',
+          answer: 'आधुनिक हिप रिसर्फेसिंग प्रत्यारोपण 15 वर्षों में 95% से अधिक की सफलता दर के साथ उत्कृष्ट दीर्घकालिक परिणाम रखते हैं। कई रोगी 20+ वर्षों के उत्कृष्ट कार्य का आनंद लेते हैं। दीर्घायु को प्रभावित करने वाले कारकों में रोगी की आयु, गतिविधि स्तर, शरीर का वजन, हड्डी गुणवत्ता और उचित घटक स्थिति शामिल हैं। उच्च गतिविधि स्तर वाले युवा रोगियों को अंततः कुल हिप प्रतिस्थापन के लिए संशोधन की आवश्यकता हो सकती है, लेकिन संरक्षित हड्डी इसे आसान बनाती है।'
+        },
+        {
+          question: 'क्या हिप रिसर्फेसिंग से रिकवरी कुल हिप प्रतिस्थापन की तुलना में अधिक कठिन है?',
+          answer: 'नहीं, हिप रिसर्फेसिंग से रिकवरी अक्सर कुल हिप प्रतिस्थापन की तुलना में तेज होती है क्योंकि अधिक हड्डी संरक्षित होती है और हिप बायोमैकेनिक्स बेहतर बनाए रखी जाती है। अधिकांश रोगी तुरंत वजन सहन करते हैं, दिनों के भीतर न्यूनतम सहायता के साथ चलते हैं, और 6-8 सप्ताह के भीतर दैनिक गतिविधियों में वापस आ जाते हैं। बड़ा फीमोरल हेड भी कम विस्थापन जोखिम और कम आंदोलन प्रतिबंधों के साथ बेहतर स्थिरता प्रदान करता है।'
+        },
+        {
+          question: 'महिलाओं के लिए हिप रिसर्फेसिंग आमतौर पर अनुशंसित क्यों नहीं है?',
+          answer: 'गर्भावस्था के दौरान धातु आयन जोखिम और भ्रूण के विकास पर संभावित प्रभावों के बारे में चिंताओं के कारण प्रसव उम्र की महिलाओं के लिए हिप रिसर्फेसिंग आमतौर पर अनुशंसित नहीं है। इसके अतिरिक्त, महिलाओं में आमतौर पर पुरुषों की तुलना में छोटे फीमोरल हेड और कम हड्डी घनत्व होता है, जो प्रत्यारोपण निर्धारण और दीर्घायु को प्रभावित कर सकता है। अच्छी हड्डी गुणवत्ता वाली रजोनिवृत्ति के बाद की महिलाएं अभी भी उम्मीदवार हो सकती हैं, जिसका मूल्यांकन डॉ. कुमार मामले-दर-मामले के आधार पर करते हैं।'
+        },
+        {
+          question: 'यदि मेरे हिप रिसर्फेसिंग को भविष्य में संशोधन की आवश्यकता होती है तो क्या होता है?',
+          answer: 'हिप रिसर्फेसिंग का एक प्रमुख लाभ यह है कि यदि कभी संशोधन की आवश्यकता होती है, तो इसे आसानी से कुल हिप प्रतिस्थापन में परिवर्तित किया जा सकता है क्योंकि फीमोरल हड्डी स्टॉक संरक्षित किया गया है। यह कुल हिप प्रतिस्थापन को संशोधित करने की तुलना में बहुत सरल है जिसने पहले से ही महत्वपूर्ण हड्डी को हटा दिया है। संरक्षित हड्डी भविष्य की सर्जरी के लिए बेहतर विकल्प प्रदान करती है यदि कभी आवश्यकता होती है, जो हिप रिसर्फेसिंग को युवा रोगियों के लिए एक उत्कृष्ट विकल्प बनाती है।'
+        },
+        {
+          question: 'क्या हिप रिसर्फेसिंग प्रत्यारोपण बिहार में उपलब्ध हैं? क्या डॉ. कुमार को इस प्रक्रिया का अनुभव है?',
+          answer: 'हां, पटना में आर्थोसेंटर उन्नत बर्मिंघम हिप रिसर्फेसिंग (BHR) और अन्य आधुनिक मेटल-ऑन-मेटल हिप रिसर्फेसिंग सिस्टम से सुसज्जित है। डॉ. गुरुदेव कुमार के पास 300 से अधिक सफल हिप रिसर्फेसिंग प्रक्रियाओं के साथ व्यापक अनुभव है और वे बिहार में इस विशेष प्रक्रिया की पेशकश करने वाले कुछ सर्जनों में से एक हैं। हमारे पास कंप्यूटर-सहायता प्राप्त नेविगेशन, उच्च-परिशुद्धता उपकरण और इष्टतम परिणाम सुनिश्चित करने के लिए धातु आयन निगरानी सहित व्यापक अनुवर्ती प्रोटोकॉल हैं।'
+        }
+      ]
+    },
+    meta: {
+      en: {
+        title: 'Hip Resurfacing Surgery in Patna, Bihar | Dr. Gurudeo Kumar | Arthroscenter',
+        description: 'Advanced hip resurfacing arthroplasty in Patna by Dr. Gurudeo Kumar. 300+ successful procedures. Bone-preserving alternative to hip replacement for young, active patients.',
+        keywords: [
+          'hip resurfacing surgery',
+          'hip resurfacing arthroplasty',
+          'Birmingham hip resurfacing',
+          'BHR surgery',
+          'metal-on-metal hip resurfacing',
+          'bone-preserving hip surgery',
+          'hip resurfacing Patna',
+          'hip resurfacing Bihar',
+          'Dr. Gurudeo Kumar',
+          'Arthroscenter Patna',
+          'hip arthritis young patients',
+          'alternative to hip replacement',
+          'sports hip surgery',
+          'active lifestyle hip surgery',
+          'hip resurfacing cost Bihar',
+          'PMJAY hip resurfacing',
+          'BSKY hip surgery',
+          'avascular necrosis treatment',
+          'hip preservation surgery'
+        ]
+      },
+      hi: {
+        title: 'पटना, बिहार में हिप रिसर्फेसिंग सर्जरी | डॉ. गुरुदेव कुमार | आर्थोसेंटर',
+        description: 'डॉ. गुरुदेव कुमार द्वारा पटना में उन्नत हिप रिसर्फेसिंग आर्थ्रोप्लास्टी। 300+ सफल प्रक्रियाएं। युवा, सक्रिय रोगियों के लिए हिप प्रतिस्थापन का हड्डी-संरक्षण विकल्प।',
+        keywords: [
+          'हिप रिसर्फेसिंग सर्जरी',
+          'हिप रिसर्फेसिंग आर्थ्रोप्लास्टी',
+          'बर्मिंघम हिप रिसर्फेसिंग',
+          'BHR सर्जरी',
+          'मेटल-ऑन-मेटल हिप रिसर्फेसिंग',
+          'हड्डी संरक्षण हिप सर्जरी',
+          'पटना में हिप रिसर्फेसिंग',
+          'बिहार में हिप रिसर्फेसिंग',
+          'डॉ. गुरुदेव कुमार',
+          'आर्थोसेंटर पटना',
+          'युवा रोगियों में हिप गठिया',
+          'हिप प्रतिस्थापन का विकल्प',
+          'खेल हिप सर्जरी',
+          'सक्रिय जीवनशैली हिप सर्जरी',
+          'बिहार में हिप रिसर्फेसिंग लागत',
+          'PMJAY हिप रिसर्फेसिंग',
+          'BSKY हिप सर्जरी',
+          'एवस्कुलर नेक्रोसिस उपचार',
+          'हिप संरक्षण सर्जरी'
+        ]
+      }
+    },
+    relatedSurgeries: ['total-hip-replacement', 'partial-hip-replacement', 'hip-revision-surgery', 'hip-arthroscopy']
+  },
+
+  'hip-revision-surgery': {
+    id: 'hip-revision-surgery',
+    category: 'joint-replacement',
+    slug: 'hip-revision-surgery',
+    title: {
+      en: 'Hip Revision Surgery',
+      hi: 'हिप रिवीजन सर्जरी'
+    },
+    shortDesc: {
+      en: 'Complex surgical procedure to replace or repair a failed total hip replacement with new components',
+      hi: 'विफल टोटल हिप रिप्लेसमेंट को नए घटकों से बदलने या ठीक करने की जटिल शल्य चिकित्सा प्रक्रिया'
+    },
+    overview: {
+      en: `Hip Revision Surgery, also known as revision total hip arthroplasty, is a complex reconstructive surgical procedure performed to replace or repair a failed primary total hip replacement. While primary hip replacement has a success rate exceeding 95% and modern implants can last 20-30 years, a small percentage of patients may eventually require revision surgery due to complications such as aseptic loosening, infection, dislocation, periprosthetic fracture, component wear, osteolysis (bone loss), or implant failure. Revision surgery is significantly more challenging than primary hip replacement, requiring advanced surgical expertise, specialized implants, and longer recovery time.
+
+At Arthoscenter in Patna, Bihar, Dr. Gurudeo Kumar has established himself as one of the region's foremost specialists in complex hip revision surgery, with over 200 successful revision procedures performed. His extensive experience in handling the most challenging cases—including severe bone loss, infected prosthetic joints, recurrent dislocations, and periprosthetic fractures—has made Arthoscenter a referral center for patients from across Bihar, Jharkhand, Uttar Pradesh, and neighboring states who require expert revision hip surgery. Dr. Kumar's comprehensive approach combines meticulous pre-operative planning using advanced 3D imaging and templating, state-of-the-art surgical techniques, access to the latest revision implant systems including modular components, and evidence-based rehabilitation protocols.
+
+Revision hip surgery involves removing some or all of the original prosthetic components, addressing bone loss and soft tissue damage, and installing new implant components. The complexity varies based on the reason for revision and the extent of bone and soft tissue compromise. The Paprosky classification system is used to categorize acetabular (socket) and femoral (stem) bone defects, which guides surgical planning and implant selection. Type I defects have minimal bone loss, Type II has moderate bone loss with compromised support, and Type III has severe bone loss requiring bone grafting, augments, or custom implants.
+
+The most common reason for revision surgery is aseptic loosening, where the bond between the implant and bone deteriorates over time due to mechanical wear, stress shielding, or osteolysis caused by wear particles from the original implant. Periprosthetic joint infection (PJI), though less common (occurring in 1-2% of primary hip replacements), is one of the most serious complications requiring staged revision surgery—first removing infected components and placing an antibiotic-loaded spacer, followed weeks or months later by reimplantation of new components after infection is cleared. Recurrent dislocation may require revision to change implant positioning, use larger femoral heads, dual-mobility bearings, or constrained liners. Periprosthetic fractures around the implant typically require revision with longer stems that bypass the fracture site, often combined with cerclage wiring or plate fixation.
+
+Modern revision hip surgery employs advanced techniques and specialized implants to address bone loss and ensure stable fixation. For acetabular (socket) reconstruction with significant bone loss, options include oversized hemispherical cups, jumbo cups, oblong/oval cups, trabecular metal augments, modular augments, structural bone allografts, antiprotrusio cages, and custom triflange implants for massive defects. For femoral (stem) revision with bone loss, techniques include extended stems that achieve fixation in the distal femur, modular stems allowing customization, impaction bone grafting with cemented stems to restore bone stock, and fully porous-coated cylindrical stems for severe proximal bone loss.
+
+At Arthoscenter, Dr. Gurudeo Kumar has access to the complete spectrum of revision implant options from leading manufacturers, ensuring each patient receives the most appropriate solution for their specific anatomy and bone quality. Advanced surgical planning using 3D CT reconstruction and digital templating allows precise determination of implant size, positioning, and the need for bone grafts or augments before entering the operating room. During surgery, Dr. Kumar employs meticulous techniques to protect remaining bone stock, carefully extract failed components with minimal bone loss, thoroughly clean and prepare bone surfaces, reconstruct bone defects using grafts and augments as needed, and achieve stable fixation of new components that will last for years to come.
+
+Revision hip surgery typically takes 3-5 hours—longer than primary hip replacement—due to the technical complexity of component removal, bone reconstruction, and achieving stable fixation in compromised bone. Patients usually stay in the hospital for 4-7 days, longer than primary hip replacement, to ensure wound healing, pain control, prevention of blood clots, and initiation of protected weight-bearing rehabilitation. The overall success rate of revision hip surgery is excellent (85-90%), though lower than primary hip replacement, with outcomes depending on the reason for revision, extent of bone loss, patient health status, and adherence to rehabilitation protocols.
+
+Recovery from revision hip surgery is more prolonged than primary hip replacement. Most patients require 6-12 months to achieve maximum functional improvement, with some restrictions on high-impact activities. The benefits of successful revision surgery are substantial—relief from pain, restoration of function and mobility, correction of instability or deformity, treatment of infection, and significantly improved quality of life. Dr. Gurudeo Kumar works closely with specialized physiotherapists who understand the unique challenges of revision hip surgery to develop individualized rehabilitation programs that safely progress patients through recovery phases while protecting the reconstructed hip.
+
+For patients in Bihar and surrounding regions, access to high-quality revision hip surgery has historically been limited, with many patients traveling to Delhi, Mumbai, or other metropolitan centers for these complex procedures. Dr. Gurudeo Kumar's expertise and Arthoscenter's advanced capabilities now provide world-class revision hip surgery locally, saving patients and families the difficulty and expense of traveling long distances during a challenging recovery period. Arthoscenter accepts major insurance plans including PMJAY (Pradhan Mantri Jan Arogya Yojana) and BSKY (Bhamashah Swasthya Bima Yojana) for eligible procedures, and offers financial counseling and payment plans to ensure all patients can access the care they need.`,
+      hi: `हिप रिवीजन सर्जरी, जिसे रिवीजन टोटल हिप आर्थ्रोप्लास्टी के रूप में भी जाना जाता है, एक जटिल पुनर्निर्माण शल्य चिकित्सा प्रक्रिया है जो विफल प्राथमिक टोटल हिप रिप्लेसमेंट को बदलने या ठीक करने के लिए की जाती है। जबकि प्राथमिक हिप रिप्लेसमेंट की सफलता दर 95% से अधिक है और आधुनिक प्रत्यारोपण 20-30 साल तक चल सकते हैं, रोगियों का एक छोटा प्रतिशत अंततः जटिलताओं जैसे एसेप्टिक लूज़निंग, संक्रमण, विस्थापन, पेरिप्रोस्थेटिक फ्रैक्चर, घटक घिसाव, ऑस्टियोलिसिस (हड्डी की हानि), या इम्प्लांट विफलता के कारण रिवीजन सर्जरी की आवश्यकता हो सकती है। रिवीजन सर्जरी प्राथमिक हिप रिप्लेसमेंट की तुलना में काफी अधिक चुनौतीपूर्ण है, जिसमें उन्नत शल्य चिकित्सा विशेषज्ञता, विशेष प्रत्यारोपण और लंबी रिकवरी समय की आवश्यकता होती है।
+
+पटना, बिहार में आर्थोसेंटर में, डॉ. गुरुदेव कुमार ने 200 से अधिक सफल रिवीजन प्रक्रियाओं के साथ जटिल हिप रिवीजन सर्जरी में क्षेत्र के अग्रणी विशेषज्ञों में से एक के रूप में खुद को स्थापित किया है। सबसे चुनौतीपूर्ण मामलों को संभालने में उनका व्यापक अनुभव—जिसमें गंभीर हड्डी की हानि, संक्रमित कृत्रिम जोड़, बार-बार विस्थापन और पेरिप्रोस्थेटिक फ्रैक्चर शामिल हैं—ने आर्थोसेंटर को बिहार, झारखंड, उत्तर प्रदेश और पड़ोसी राज्यों के रोगियों के लिए एक रेफरल सेंटर बना दिया है जिन्हें विशेषज्ञ रिवीजन हिप सर्जरी की आवश्यकता होती है। डॉ. कुमार का व्यापक दृष्टिकोण उन्नत 3D इमेजिंग और टेम्प्लेटिंग का उपयोग करके सावधानीपूर्वक पूर्व-ऑपरेटिव योजना, अत्याधुनिक शल्य चिकित्सा तकनीकों, मॉड्यूलर घटकों सहित नवीनतम रिवीजन इम्प्लांट सिस्टम तक पहुंच और साक्ष्य-आधारित पुनर्वास प्रोटोकॉल को जोड़ता है।
+
+रिवीजन हिप सर्जरी में मूल कृत्रिम घटकों में से कुछ या सभी को हटाना, हड्डी की हानि और कोमल ऊतक क्षति को संबोधित करना और नए इम्प्लांट घटकों को स्थापित करना शामिल है। जटिलता रिवीजन के कारण और हड्डी और कोमल ऊतक समझौता की सीमा के आधार पर भिन्न होती है। पापरोस्की वर्गीकरण प्रणाली का उपयोग एसिटाबुलर (सॉकेट) और फीमोरल (स्टेम) हड्डी दोषों को वर्गीकृत करने के लिए किया जाता है, जो शल्य चिकित्सा योजना और इम्प्लांट चयन का मार्गदर्शन करता है। टाइप I दोषों में न्यूनतम हड्डी की हानि होती है, टाइप II में समझौता समर्थन के साथ मध्यम हड्डी की हानि होती है, और टाइप III में गंभीर हड्डी की हानि होती है जिसमें हड्डी ग्राफ्टिंग, ऑगमेंट्स या कस्टम इम्प्लांट की आवश्यकता होती है।
+
+रिवीजन सर्जरी का सबसे आम कारण एसेप्टिक लूज़निंग है, जहां इम्प्लांट और हड्डी के बीच बंधन समय के साथ यांत्रिक घिसाव, तनाव शील्डिंग या मूल इम्प्लांट से घिसाव कणों के कारण ऑस्टियोलिसिस के कारण बिगड़ता है। पेरिप्रोस्थेटिक जोड़ संक्रमण (PJI), हालांकि कम आम (प्राथमिक हिप रिप्लेसमेंट के 1-2% में होता है), चरणबद्ध रिवीजन सर्जरी की आवश्यकता वाली सबसे गंभीर जटिलताओं में से एक है—पहले संक्रमित घटकों को हटाना और एंटीबायोटिक-लोडेड स्पेसर रखना, फिर संक्रमण साफ होने के बाद हफ्तों या महीनों बाद नए घटकों का पुनः प्रत्यारोपण। बार-बार विस्थापन के लिए इम्प्लांट स्थिति बदलने, बड़े फीमोरल हेड, डुअल-मोबिलिटी बेयरिंग या बाधित लाइनर्स का उपयोग करने के लिए रिवीजन की आवश्यकता हो सकती है।
+
+आधुनिक रिवीजन हिप सर्जरी हड्डी की हानि को संबोधित करने और स्थिर निर्धारण सुनिश्चित करने के लिए उन्नत तकनीकों और विशेष प्रत्यारोपणों का उपयोग करती है। महत्वपूर्ण हड्डी की हानि के साथ एसिटाबुलर (सॉकेट) पुनर्निर्माण के लिए, विकल्पों में बड़े हेमिस्फेरिकल कप, जंबो कप, आयताकार/अंडाकार कप, ट्रैबेक्यूलर मेटल ऑगमेंट्स, मॉड्यूलर ऑगमेंट्स, संरचनात्मक हड्डी एलोग्राफ्ट, एंटीप्रोट्रूसियो केज और विशाल दोषों के लिए कस्टम ट्राईफ्लैंज इम्प्लांट शामिल हैं।
+
+बिहार और आसपास के क्षेत्रों में रोगियों के लिए, उच्च गुणवत्ता वाली रिवीजन हिप सर्जरी तक पहुंच ऐतिहासिक रूप से सीमित रही है, कई रोगी इन जटिल प्रक्रियाओं के लिए दिल्ली, मुंबई या अन्य महानगरीय केंद्रों की यात्रा करते हैं। डॉ. गुरुदेव कुमार की विशेषज्ञता और आर्थोसेंटर की उन्नत क्षमताएं अब स्थानीय रूप से विश्व स्तरीय रिवीजन हिप सर्जरी प्रदान करती हैं, जिससे रोगियों और परिवारों को चुनौतीपूर्ण रिकवरी अवधि के दौरान लंबी दूरी की यात्रा की कठिनाई और खर्च से बचाया जा सकता है। आर्थोसेंटर पात्र प्रक्रियाओं के लिए PMJAY (प्रधान मंत्री जन आरोग्य योजना) और BSKY (भामाशाह स्वास्थ्य बीमा योजना) सहित प्रमुख बीमा योजनाओं को स्वीकार करता है, और यह सुनिश्चित करने के लिए वित्तीय परामर्श और भुगतान योजनाएं प्रदान करता है कि सभी रोगी आवश्यक देखभाल तक पहुंच सकें।`
+    },
+    symptoms: {
+      en: [
+        'Persistent or worsening pain in the hip despite previous replacement',
+        'Grinding, clicking, or popping sensations in the replaced hip joint',
+        'Hip instability with feelings of the joint "giving way" or dislocating',
+        'Recurrent hip dislocations requiring emergency reduction',
+        'Progressive loss of mobility and function after initial improvement',
+        'Difficulty walking or bearing weight on the affected leg',
+        'Limping or altered gait that worsens over time',
+        'Swelling, warmth, redness, or drainage suggesting infection',
+        'Persistent fever or elevated inflammatory markers (ESR, CRP)',
+        'Thigh or groin pain that may indicate loosening or fracture'
+      ],
+      hi: [
+        'पिछली रिप्लेसमेंट के बावजूद हिप में लगातार या बिगड़ता दर्द',
+        'बदली गई हिप जोड़ में पीसने, क्लिक करने या पॉपिंग की संवेदनाएं',
+        'जोड़ के "गिर जाने" या विस्थापित होने की भावनाओं के साथ हिप अस्थिरता',
+        'आपातकालीन कमी की आवश्यकता वाले बार-बार हिप विस्थापन',
+        'प्रारंभिक सुधार के बाद गतिशीलता और कार्य की प्रगतिशील हानि',
+        'प्रभावित पैर पर चलने या वजन सहन करने में कठिनाई',
+        'लंगड़ाना या बदली हुई चाल जो समय के साथ बिगड़ती है',
+        'सूजन, गर्मी, लाली या निर्वहन जो संक्रमण का संकेत देता है',
+        'लगातार बुखार या ऊंचे भड़काऊ मार्कर (ESR, CRP)',
+        'जांघ या कमर का दर्द जो लूज़निंग या फ्रैक्चर का संकेत दे सकता है'
+      ]
+    },
+    procedure: {
+      en: {
+        preparation: 'Comprehensive pre-operative evaluation including detailed imaging (X-rays, CT scans, possibly MRI or bone scans), blood tests to rule out infection, cardiac and pulmonary clearance, optimization of medical conditions, discontinuation of blood thinners as directed, dental clearance to minimize infection risk, and planning sessions with surgical templating to determine implant requirements and bone graft needs.',
+        steps: [
+          'Anesthesia is administered (typically spinal or general anesthesia)',
+          'The previous surgical incision is reopened, or a new incision is made if needed to access the hip joint adequately',
+          'Scar tissue and fibrous capsule around the prosthesis are carefully dissected and removed',
+          'The femoral and acetabular components are methodically removed using specialized extraction instruments, with meticulous care to preserve remaining bone stock',
+          'Infected or damaged bone and cement (if present) are thoroughly debrided and removed',
+          'Bone defects are assessed and classified using the Paprosky classification system to guide reconstruction strategy',
+          'Bone grafts (autograft from patient or allograft from bone bank), metal augments, or bone substitute materials are used to reconstruct defects and restore bone stock',
+          'New acetabular (socket) component is implanted using press-fit fixation, screws, cement, or specialized cages depending on bone quality and defect severity',
+          'New femoral (stem) component is implanted—options include cemented stems with impaction grafting, extended cementless stems for distal fixation, or modular stems for complex anatomy',
+          'Trial components are tested for stability, leg length, offset, and range of motion before final implantation',
+          'Final components are secured, and the hip is reduced (ball placed into socket)',
+          'Stability is tested through range of motion, soft tissues are repaired to enhance stability',
+          'One or more surgical drains may be placed to remove fluid accumulation',
+          'The incision is closed in multiple layers, and sterile dressing is applied',
+          'Patient is transferred to recovery area for monitoring'
+        ],
+        duration: '3-5 hours (longer than primary hip replacement due to complexity)',
+        anesthesia: 'Spinal or General Anesthesia, often combined with nerve blocks for enhanced post-operative pain control'
+      },
+      hi: {
+        preparation: 'व्यापक पूर्व-ऑपरेटिव मूल्यांकन जिसमें विस्तृत इमेजिंग (एक्स-रे, सीटी स्कैन, संभवतः एमआरआई या बोन स्कैन), संक्रमण से इनकार करने के लिए रक्त परीक्षण, कार्डिक और पल्मोनरी क्लीयरेंस, चिकित्सा स्थितियों का अनुकूलन, निर्देश के अनुसार रक्त पतला करने वाली दवाओं को बंद करना, संक्रमण जोखिम को कम करने के लिए दंत चिकित्सा क्लीयरेंस, और इम्प्लांट आवश्यकताओं और हड्डी ग्राफ्ट जरूरतों को निर्धारित करने के लिए शल्य चिकित्सा टेम्प्लेटिंग के साथ योजना सत्र शामिल हैं।',
+        steps: [
+          'एनेस्थीसिया दिया जाता है (आमतौर पर स्पाइनल या जनरल एनेस्थीसिया)',
+          'पिछले शल्य चिकित्सा चीरे को फिर से खोला जाता है, या यदि आवश्यक हो तो हिप जोड़ तक पर्याप्त रूप से पहुंचने के लिए एक नया चीरा लगाया जाता है',
+          'प्रोस्थेसिस के चारों ओर निशान ऊतक और रेशेदार कैप्सूल को सावधानीपूर्वक विच्छेदित और हटा दिया जाता है',
+          'फीमोरल और एसिटाबुलर घटकों को विशेष निष्कर्षण उपकरणों का उपयोग करके व्यवस्थित रूप से हटा दिया जाता है, शेष हड्डी स्टॉक को संरक्षित करने के लिए सावधानीपूर्वक देखभाल के साथ',
+          'संक्रमित या क्षतिग्रस्त हड्डी और सीमेंट (यदि मौजूद है) को अच्छी तरह से डिब्रीड किया जाता है और हटा दिया जाता है',
+          'हड्डी दोषों का आकलन किया जाता है और पुनर्निर्माण रणनीति का मार्गदर्शन करने के लिए पापरोस्की वर्गीकरण प्रणाली का उपयोग करके वर्गीकृत किया जाता है',
+          'हड्डी ग्राफ्ट (रोगी से ऑटोग्राफ्ट या हड्डी बैंक से एलोग्राफ्ट), मेटल ऑगमेंट्स, या हड्डी विकल्प सामग्री का उपयोग दोषों को पुनर्निर्माण करने और हड्डी स्टॉक को बहाल करने के लिए किया जाता है',
+          'नया एसिटाबुलर (सॉकेट) घटक हड्डी की गुणवत्ता और दोष की गंभीरता के आधार पर प्रेस-फिट निर्धारण, स्क्रू, सीमेंट या विशेष केज का उपयोग करके लगाया जाता है',
+          'नया फीमोरल (स्टेम) घटक लगाया जाता है—विकल्पों में इम्पैक्शन ग्राफ्टिंग के साथ सीमेंटेड स्टेम, डिस्टल निर्धारण के लिए विस्तारित सीमेंटलेस स्टेम, या जटिल शरीर रचना के लिए मॉड्यूलर स्टेम शामिल हैं',
+          'अंतिम प्रत्यारोपण से पहले स्थिरता, पैर की लंबाई, ऑफसेट और गति सीमा के लिए परीक्षण घटकों का परीक्षण किया जाता है',
+          'अंतिम घटकों को सुरक्षित किया जाता है, और हिप को कम किया जाता है (गेंद को सॉकेट में रखा जाता है)',
+          'गति सीमा के माध्यम से स्थिरता का परीक्षण किया जाता है, स्थिरता बढ़ाने के लिए कोमल ऊतकों की मरम्मत की जाती है',
+          'तरल संचय को हटाने के लिए एक या एक से अधिक शल्य चिकित्सा नालियों को रखा जा सकता है',
+          'चीरे को कई परतों में बंद किया जाता है, और बाँझ ड्रेसिंग लगाई जाती है',
+          'निगरानी के लिए रोगी को रिकवरी क्षेत्र में स्थानांतरित किया जाता है'
+        ],
+        duration: '3-5 घंटे (जटिलता के कारण प्राथमिक हिप रिप्लेसमेंट से अधिक लंबा)',
+        anesthesia: 'स्पाइनल या जनरल एनेस्थीसिया, अक्सर पोस्ट-ऑपरेटिव दर्द नियंत्रण को बढ़ाने के लिए तंत्रिका ब्लॉकों के साथ संयुक्त'
+      }
+    },
+    recovery: {
+      en: {
+        timeline: [
+          {
+            week: 'Week 1-2',
+            activity: 'Hospital Stay & Immediate Post-Operative Care',
+            description: 'Close monitoring for complications (infection, blood clots, dislocation). Pain management with medications. Wound care and drain removal. Physical therapy begins with gentle range of motion exercises. Walking with walker and partial weight-bearing as directed based on bone graft and fixation stability.'
+          },
+          {
+            week: 'Week 2-6',
+            activity: 'Early Recovery & Protected Weight-Bearing',
+            description: 'Transition to home with continued walker or crutches use. Gradual progression of weight-bearing as bone healing permits (may be toe-touch, partial, or full weight-bearing depending on surgical reconstruction). Home physical therapy exercises focusing on hip mobility and muscle activation. Wound healing monitoring, suture/staple removal around 2-3 weeks.'
+          },
+          {
+            week: 'Week 6-12',
+            activity: 'Intermediate Recovery & Increased Mobilization',
+            description: 'Progressive increase in weight-bearing and walking distance. Transition from walker to crutches or cane. Outpatient physical therapy with strengthening exercises. Follow-up X-rays to assess implant position and bone healing. Gradual return to light daily activities.'
+          },
+          {
+            week: 'Month 3-6',
+            activity: 'Advanced Rehabilitation Phase',
+            description: 'Most patients transition to full weight-bearing. Continued strengthening and functional exercises. Return to many daily activities including driving (if cleared by surgeon), light work duties. Ongoing hip precautions to prevent dislocation. Follow-up visits to monitor progress.'
+          },
+          {
+            week: 'Month 6-12',
+            activity: 'Extended Recovery & Functional Restoration',
+            description: 'Continued improvement in strength, endurance, and function. Return to most normal activities with some restrictions on high-impact sports. Bone graft incorporation and implant stabilization continue. Regular follow-up to ensure proper healing and implant function.'
+          },
+          {
+            week: 'Year 1+',
+            activity: 'Long-Term Maintenance & Monitoring',
+            description: 'Maximum functional improvement typically achieved by 12-18 months. Annual or biennial follow-up visits with X-rays to monitor implant longevity and detect any early signs of complications. Maintenance exercise program for joint health and muscle strength. Awareness of warning signs requiring medical attention.'
+          }
+        ],
+        tips: [
+          'Strictly follow weight-bearing restrictions as directed by your surgeon—bone grafts need time to incorporate',
+          'Adhere to hip precautions religiously to prevent dislocation (no crossing legs, bending beyond 90 degrees, or twisting)',
+          'Take infection prevention seriously—watch for fever, wound redness, drainage, or increasing pain and report immediately',
+          'Attend all physical therapy sessions and perform home exercises daily to optimize strength and function',
+          'Use prescribed blood thinners consistently to prevent dangerous blood clots (DVT/PE)',
+          'Maintain excellent nutrition with adequate protein and calcium to support bone healing and graft incorporation',
+          'Use assistive devices (walker, crutches, elevated toilet seat, reaching aids) as long as recommended',
+          'Plan for extended recovery time—revision surgery recovery is significantly longer than primary hip replacement',
+          'Arrange for home assistance for at least 4-6 weeks as you will have significant limitations initially',
+          'Keep all follow-up appointments and get scheduled X-rays to monitor healing and implant stability'
+        ]
+      },
+      hi: {
+        timeline: [
+          {
+            week: 'सप्ताह 1-2',
+            activity: 'अस्पताल में रहना और तत्काल पोस्ट-ऑपरेटिव देखभाल',
+            description: 'जटिलताओं (संक्रमण, रक्त के थक्के, विस्थापन) के लिए करीबी निगरानी। दवाओं के साथ दर्द प्रबंधन। घाव की देखभाल और नाली हटाना। कोमल गति सीमा व्यायाम के साथ फिजियोथेरेपी शुरू होती है। हड्डी ग्राफ्ट और निर्धारण स्थिरता के आधार पर निर्देशित आंशिक वजन-सहन के साथ वॉकर के साथ चलना।'
+          },
+          {
+            week: 'सप्ताह 2-6',
+            activity: 'प्रारंभिक रिकवरी और संरक्षित वजन-सहन',
+            description: 'वॉकर या बैसाखी के उपयोग के साथ घर में संक्रमण। हड्डी उपचार की अनुमति के अनुसार वजन-सहन की क्रमिक प्रगति (शल्य चिकित्सा पुनर्निर्माण के आधार पर पैर की अंगुली-स्पर्श, आंशिक या पूर्ण वजन-सहन हो सकता है)। हिप गतिशीलता और मांसपेशी सक्रियण पर ध्यान केंद्रित करने वाले घरेलू फिजियोथेरेपी व्यायाम। घाव भरने की निगरानी, लगभग 2-3 सप्ताह में टांके/स्टेपल हटाना।'
+          },
+          {
+            week: 'सप्ताह 6-12',
+            activity: 'मध्यवर्ती रिकवरी और बढ़ी हुई गतिशीलता',
+            description: 'वजन-सहन और चलने की दूरी में प्रगतिशील वृद्धि। वॉकर से बैसाखी या छड़ी में संक्रमण। मजबूत बनाने के व्यायाम के साथ बाह्य रोगी फिजियोथेरेपी। इम्प्लांट स्थिति और हड्डी उपचार का आकलन करने के लिए फॉलो-अप एक्स-रे। हल्की दैनिक गतिविधियों में धीरे-धीरे वापसी।'
+          },
+          {
+            week: 'महीना 3-6',
+            activity: 'उन्नत पुनर्वास चरण',
+            description: 'अधिकांश रोगी पूर्ण वजन-सहन में संक्रमण करते हैं। निरंतर मजबूती और कार्यात्मक व्यायाम। ड्राइविंग (यदि सर्जन द्वारा स्वीकृत), हल्के काम के कर्तव्यों सहित कई दैनिक गतिविधियों में वापसी। विस्थापन को रोकने के लिए चल रहे हिप सावधानियां। प्रगति की निगरानी के लिए फॉलो-अप विज़िट।'
+          },
+          {
+            week: 'महीना 6-12',
+            activity: 'विस्तारित रिकवरी और कार्यात्मक बहाली',
+            description: 'ताकत, सहनशक्ति और कार्य में निरंतर सुधार। उच्च-प्रभाव खेलों पर कुछ प्रतिबंधों के साथ अधिकांश सामान्य गतिविधियों में वापसी। हड्डी ग्राफ्ट निगमन और इम्प्लांट स्थिरीकरण जारी है। उचित उपचार और इम्प्लांट कार्य सुनिश्चित करने के लिए नियमित फॉलो-अप।'
+          },
+          {
+            week: 'वर्ष 1+',
+            activity: 'दीर्घकालिक रखरखाव और निगरानी',
+            description: 'अधिकतम कार्यात्मक सुधार आमतौर पर 12-18 महीनों तक प्राप्त होता है। इम्प्लांट दीर्घायु की निगरानी करने और जटिलताओं के किसी भी प्रारंभिक संकेत का पता लगाने के लिए एक्स-रे के साथ वार्षिक या द्विवार्षिक फॉलो-अप विज़िट। जोड़ों के स्वास्थ्य और मांसपेशियों की ताकत के लिए रखरखाव व्यायाम कार्यक्रम। चिकित्सा ध्यान की आवश्यकता वाले चेतावनी संकेतों के बारे में जागरूकता।'
+          }
+        ],
+        tips: [
+          'अपने सर्जन द्वारा निर्देशित वजन-सहन प्रतिबंधों का सख्ती से पालन करें—हड्डी ग्राफ्ट को शामिल होने के लिए समय चाहिए',
+          'विस्थापन को रोकने के लिए हिप सावधानियों का धार्मिक रूप से पालन करें (पैरों को क्रॉस न करें, 90 डिग्री से अधिक न झुकें, या मुड़ें नहीं)',
+          'संक्रमण रोकथाम को गंभीरता से लें—बुखार, घाव की लाली, निर्वहन, या बढ़ते दर्द के लिए देखें और तुरंत रिपोर्ट करें',
+          'ताकत और कार्य को अनुकूलित करने के लिए सभी फिजियोथेरेपी सत्रों में भाग लें और दैनिक घरेलू व्यायाम करें',
+          'खतरनाक रक्त के थक्कों (DVT/PE) को रोकने के लिए निर्धारित रक्त पतला करने वाली दवाओं का लगातार उपयोग करें',
+          'हड्डी उपचार और ग्राफ्ट निगमन का समर्थन करने के लिए पर्याप्त प्रोटीन और कैल्शियम के साथ उत्कृष्ट पोषण बनाए रखें',
+          'जब तक अनुशंसित हो तब तक सहायक उपकरणों (वॉकर, बैसाखी, ऊंचे टॉयलेट सीट, पहुंच सहायक उपकरण) का उपयोग करें',
+          'विस्तारित रिकवरी समय की योजना बनाएं—रिवीजन सर्जरी रिकवरी प्राथमिक हिप रिप्लेसमेंट की तुलना में काफी लंबी है',
+          'कम से कम 4-6 सप्ताह के लिए घरेलू सहायता की व्यवस्था करें क्योंकि आपके पास शुरू में महत्वपूर्ण सीमाएं होंगी',
+          'उपचार और इम्प्लांट स्थिरता की निगरानी के लिए सभी फॉलो-अप नियुक्तियों को रखें और निर्धारित एक्स-रे प्राप्त करें'
+        ]
+      }
+    },
+    faqs: {
+      en: [
+        {
+          question: 'What is the success rate of hip revision surgery?',
+          answer: 'Hip revision surgery has an overall success rate of 85-90%, which is lower than primary hip replacement (95%+) due to the increased complexity, bone loss, and soft tissue damage. Success rates depend on the reason for revision—aseptic loosening and wear have better outcomes (90%+), while infected revisions have somewhat lower success rates (80-85%). Dr. Gurudeo Kumar\'s extensive experience with complex revision cases ensures the best possible outcomes for each patient.'
+        },
+        {
+          question: 'Why might a hip replacement fail and need revision?',
+          answer: 'The most common reasons for revision include: aseptic loosening (40-50% of revisions) where the implant-bone bond deteriorates over time; periprosthetic joint infection (15-20%); recurrent dislocation/instability (10-15%); polyethylene wear and osteolysis (10-15%); periprosthetic fracture (5-10%); component malposition or leg length discrepancy; and rarely, adverse reactions to metal debris or implant failure. Most modern hip replacements last 20-30+ years, but a small percentage eventually require revision.'
+        },
+        {
+          question: 'How much longer does recovery take compared to primary hip replacement?',
+          answer: 'Recovery from revision hip surgery typically takes significantly longer than primary hip replacement. While primary hip replacement patients often recover in 3-6 months, revision surgery patients usually require 6-12 months for substantial recovery, with continued improvement up to 18 months. The extended recovery is due to more extensive surgery, bone grafting that needs time to incorporate, greater soft tissue trauma, and often protected weight-bearing restrictions to allow bone healing.'
+        },
+        {
+          question: 'Will I need bone grafts during revision surgery?',
+          answer: 'Many revision hip surgeries require bone grafts to restore bone stock lost due to osteolysis, implant removal, or infection. The need for grafting depends on the extent of bone loss assessed using the Paprosky classification. Options include autograft (bone from your own body, usually from the pelvis), allograft (donor bone from a bone bank), or bone substitute materials. Bone grafts provide structural support and eventually incorporate into your own bone, typically over 6-12 months.'
+        },
+        {
+          question: 'What happens if my hip replacement is infected?',
+          answer: 'Periprosthetic joint infection (PJI) is a serious complication requiring specialized treatment. The most common approach is a two-stage revision: (1) First surgery removes infected components, thoroughly cleans the joint, and places an antibiotic-loaded cement spacer to deliver local antibiotics while maintaining hip length and mobility. (2) After 6-12 weeks of intravenous and oral antibiotics with monitoring to confirm infection clearance, second surgery removes the spacer and implants new permanent components. Two-stage revision has a success rate of 85-90% for eradicating infection. Dr. Gurudeo Kumar works closely with infectious disease specialists to optimize antibiotic treatment and ensure the best outcomes.'
+        },
+        {
+          question: 'How much does hip revision surgery cost in Bihar?',
+          answer: 'Hip revision surgery costs at Arthoscenter vary based on the complexity of the revision, implant types needed (standard vs. custom/modular components), bone graft requirements, and hospital stay duration. Costs typically range from ₹3,50,000 to ₹6,50,000 or more for complex cases. We accept major insurance plans including PMJAY (Pradhan Mantri Jan Arogya Yojana) and BSKY (Bhamashah Swasthya Bima Yojana) for eligible procedures. Our financial counselors provide detailed cost estimates and work with patients to arrange financing options or payment plans to ensure access to necessary care.'
+        },
+        {
+          question: 'Can a hip be revised more than once?',
+          answer: 'Yes, though less common, some patients may require multiple revisions (re-revision surgery). Each subsequent revision becomes more challenging due to progressive bone loss and scarring. However, with modern techniques including structural allografts, custom implants, and bone regeneration strategies, even multiply-revised hips can achieve good functional outcomes. Dr. Gurudeo Kumar has experience with complex re-revision cases and will thoroughly discuss expectations and options if this situation arises.'
+        },
+        {
+          question: 'What are hip precautions and why are they important after revision?',
+          answer: 'Hip precautions are movement restrictions to prevent hip dislocation, a risk after any hip surgery but particularly after revision surgery where soft tissues may be compromised. Standard precautions include: (1) Don\'t cross your legs at the knees or ankles; (2) Don\'t bend your hip beyond 90 degrees when sitting or bending forward; (3) Don\'t twist or pivot on your operated leg; (4) Don\'t turn your foot inward or outward excessively. These precautions are typically followed for 6-12 weeks or longer after revision surgery. Dr. Gurudeo Kumar will specify which precautions apply to your specific case based on surgical approach and stability achieved.'
+        },
+        {
+          question: 'How long will a revised hip replacement last?',
+          answer: 'Modern revision hip implants, when properly selected and implanted with good bone reconstruction, can last 15-20+ years. Longevity depends on multiple factors including patient age (younger patients may outlive their implants), activity level, body weight, bone quality, extent of bone loss at revision, and implant fixation achieved. Revision implants typically don\'t last quite as long as primary implants due to compromised bone stock and biomechanics, but advances in revision technology have significantly improved long-term outcomes. Regular follow-up monitoring helps detect any early signs of complications.'
+        },
+        {
+          question: 'What is the Paprosky classification mentioned for revision surgery?',
+          answer: 'The Paprosky classification system categorizes bone defects in both the acetabulum (hip socket) and femur (thigh bone) to guide revision surgery planning. For acetabular defects: Type I has minimal bone loss with intact rim; Type II has moderate bone loss with compromised rim support (IIA=superior, IIB=medial, IIC=lateral); Type III has severe bone loss (IIIA=up-migration >3cm with intact Kohler\'s line, IIIB=migration >3cm with broken Kohler\'s line requiring structural support). For femoral defects: Type I has minimal metaphyseal bone loss; Type II has extensive metaphyseal bone loss; Type III has severe metaphyseal damage extending into the diaphysis (IIIA=>4cm good diaphyseal bone, IIIB=extensive diaphyseal damage). This classification helps Dr. Gurudeo Kumar select appropriate implants and reconstruction techniques for each patient\'s unique anatomy.'
+        }
+      ],
+      hi: [
+        {
+          question: 'हिप रिवीजन सर्जरी की सफलता दर क्या है?',
+          answer: 'हिप रिवीजन सर्जरी की समग्र सफलता दर 85-90% है, जो बढ़ी हुई जटिलता, हड्डी की हानि और कोमल ऊतक क्षति के कारण प्राथमिक हिप रिप्लेसमेंट (95%+) से कम है। सफलता दर रिवीजन के कारण पर निर्भर करती है—एसेप्टिक लूज़निंग और घिसाव के बेहतर परिणाम हैं (90%+), जबकि संक्रमित रिवीजन में कुछ हद तक कम सफलता दर है (80-85%)। डॉ. गुरुदेव कुमार का जटिल रिवीजन मामलों के साथ व्यापक अनुभव प्रत्येक रोगी के लिए सर्वोत्तम संभव परिणाम सुनिश्चित करता है।'
+        },
+        {
+          question: 'हिप रिप्लेसमेंट विफल क्यों हो सकती है और रिवीजन की आवश्यकता क्यों होती है?',
+          answer: 'रिवीजन के सबसे आम कारणों में शामिल हैं: एसेप्टिक लूज़निंग (40-50% रिवीजन) जहां इम्प्लांट-हड्डी बंधन समय के साथ बिगड़ता है; पेरिप्रोस्थेटिक जोड़ संक्रमण (15-20%); बार-बार विस्थापन/अस्थिरता (10-15%); पॉलीथीन घिसाव और ऑस्टियोलिसिस (10-15%); पेरिप्रोस्थेटिक फ्रैक्चर (5-10%); घटक गलत स्थिति या पैर की लंबाई विसंगति; और शायद ही कभी, धातु मलबे या इम्प्लांट विफलता के लिए प्रतिकूल प्रतिक्रिया। अधिकांश आधुनिक हिप रिप्लेसमेंट 20-30+ साल तक चलते हैं, लेकिन एक छोटा प्रतिशत अंततः रिवीजन की आवश्यकता होती है।'
+        },
+        {
+          question: 'प्राथमिक हिप रिप्लेसमेंट की तुलना में रिकवरी में कितना अधिक समय लगता है?',
+          answer: 'रिवीजन हिप सर्जरी से रिकवरी आमतौर पर प्राथमिक हिप रिप्लेसमेंट की तुलना में काफी अधिक समय लेती है। जबकि प्राथमिक हिप रिप्लेसमेंट रोगी अक्सर 3-6 महीनों में ठीक हो जाते हैं, रिवीजन सर्जरी रोगियों को आमतौर पर पर्याप्त रिकवरी के लिए 6-12 महीनों की आवश्यकता होती है, 18 महीनों तक निरंतर सुधार के साथ। विस्तारित रिकवरी अधिक व्यापक सर्जरी, हड्डी ग्राफ्टिंग जिसे शामिल होने के लिए समय की आवश्यकता होती है, अधिक कोमल ऊतक आघात और अक्सर हड्डी उपचार की अनुमति देने के लिए संरक्षित वजन-सहन प्रतिबंधों के कारण है।'
+        },
+        {
+          question: 'क्या मुझे रिवीजन सर्जरी के दौरान हड्डी ग्राफ्ट की आवश्यकता होगी?',
+          answer: 'कई रिवीजन हिप सर्जरी को ऑस्टियोलिसिस, इम्प्लांट हटाने या संक्रमण के कारण खोई हुई हड्डी स्टॉक को बहाल करने के लिए हड्डी ग्राफ्ट की आवश्यकता होती है। ग्राफ्टिंग की आवश्यकता पापरोस्की वर्गीकरण का उपयोग करके आकलन की गई हड्डी की हानि की सीमा पर निर्भर करती है। विकल्पों में ऑटोग्राफ्ट (आपके अपने शरीर से हड्डी, आमतौर पर श्रोणि से), एलोग्राफ्ट (हड्डी बैंक से दाता हड्डी), या हड्डी विकल्प सामग्री शामिल हैं। हड्डी ग्राफ्ट संरचनात्मक समर्थन प्रदान करते हैं और अंततः आपकी अपनी हड्डी में शामिल होते हैं, आमतौर पर 6-12 महीनों में।'
+        },
+        {
+          question: 'यदि मेरा हिप रिप्लेसमेंट संक्रमित है तो क्या होता है?',
+          answer: 'पेरिप्रोस्थेटिक जोड़ संक्रमण (PJI) एक गंभीर जटिलता है जिसमें विशेष उपचार की आवश्यकता होती है। सबसे आम दृष्टिकोण दो-चरण रिवीजन है: (1) पहली सर्जरी संक्रमित घटकों को हटाती है, जोड़ को अच्छी तरह से साफ करती है, और स्थानीय एंटीबायोटिक्स देने के लिए एंटीबायोटिक-लोडेड सीमेंट स्पेसर रखती है जबकि हिप लंबाई और गतिशीलता बनाए रखती है। (2) संक्रमण निकासी की पुष्टि करने के लिए निगरानी के साथ 6-12 सप्ताह के अंतःशिरा और मौखिक एंटीबायोटिक दवाओं के बाद, दूसरी सर्जरी स्पेसर को हटाती है और नए स्थायी घटकों को लगाती है। दो-चरण रिवीजन में संक्रमण को मिटाने के लिए 85-90% की सफलता दर है। डॉ. गुरुदेव कुमार एंटीबायोटिक उपचार को अनुकूलित करने और सर्वोत्तम परिणाम सुनिश्चित करने के लिए संक्रामक रोग विशेषज्ञों के साथ मिलकर काम करते हैं।'
+        },
+        {
+          question: 'बिहार में हिप रिवीजन सर्जरी की लागत कितनी है?',
+          answer: 'आर्थोसेंटर में हिप रिवीजन सर्जरी की लागत रिवीजन की जटिलता, आवश्यक इम्प्लांट प्रकार (मानक बनाम कस्टम/मॉड्यूलर घटक), हड्डी ग्राफ्ट आवश्यकताओं और अस्पताल में रहने की अवधि के आधार पर भिन्न होती है। लागत आमतौर पर जटिल मामलों के लिए ₹3,50,000 से ₹6,50,000 या अधिक तक होती है। हम पात्र प्रक्रियाओं के लिए PMJAY (प्रधान मंत्री जन आरोग्य योजना) और BSKY (भामाशाह स्वास्थ्य बीमा योजना) सहित प्रमुख बीमा योजनाओं को स्वीकार करते हैं। हमारे वित्तीय परामर्शदाता विस्तृत लागत अनुमान प्रदान करते हैं और आवश्यक देखभाल तक पहुंच सुनिश्चित करने के लिए वित्तपोषण विकल्पों या भुगतान योजनाओं की व्यवस्था करने के लिए रोगियों के साथ काम करते हैं।'
+        },
+        {
+          question: 'क्या एक हिप को एक से अधिक बार संशोधित किया जा सकता है?',
+          answer: 'हां, हालांकि कम आम है, कुछ रोगियों को कई रिवीजन (री-रिवीजन सर्जरी) की आवश्यकता हो सकती है। प्रत्येक बाद का रिवीजन प्रगतिशील हड्डी की हानि और निशान के कारण अधिक चुनौतीपूर्ण हो जाता है। हालांकि, संरचनात्मक एलोग्राफ्ट, कस्टम इम्प्लांट और हड्डी पुनर्जनन रणनीतियों सहित आधुनिक तकनीकों के साथ, यहां तक कि कई बार संशोधित हिप्स भी अच्छे कार्यात्मक परिणाम प्राप्त कर सकते हैं। डॉ. गुरुदेव कुमार के पास जटिल री-रिवीजन मामलों का अनुभव है और यदि यह स्थिति उत्पन्न होती है तो अपेक्षाओं और विकल्पों पर पूरी तरह से चर्चा करेंगे।'
+        },
+        {
+          question: 'हिप सावधानियां क्या हैं और रिवीजन के बाद वे क्यों महत्वपूर्ण हैं?',
+          answer: 'हिप सावधानियां हिप विस्थापन को रोकने के लिए गति प्रतिबंध हैं, किसी भी हिप सर्जरी के बाद एक जोखिम है लेकिन विशेष रूप से रिवीजन सर्जरी के बाद जहां कोमल ऊतक समझौता हो सकते हैं। मानक सावधानियों में शामिल हैं: (1) अपने पैरों को घुटनों या टखनों पर क्रॉस न करें; (2) बैठते या आगे झुकते समय अपने हिप को 90 डिग्री से अधिक न झुकाएं; (3) अपने ऑपरेट किए गए पैर पर मुड़ें या पिवट न करें; (4) अपने पैर को अंदर या बाहर अत्यधिक रूप से न घुमाएं। ये सावधानियां आमतौर पर रिवीजन सर्जरी के बाद 6-12 सप्ताह या उससे अधिक समय तक पालन की जाती हैं। डॉ. गुरुदेव कुमार निर्दिष्ट करेंगे कि कौन सी सावधानियां शल्य चिकित्सा दृष्टिकोण और प्राप्त स्थिरता के आधार पर आपके विशिष्ट मामले पर लागू होती हैं।'
+        },
+        {
+          question: 'एक संशोधित हिप रिप्लेसमेंट कितने समय तक चलेगी?',
+          answer: 'आधुनिक रिवीजन हिप इम्प्लांट्स, जब ठीक से चयनित और अच्छे हड्डी पुनर्निर्माण के साथ लगाए जाते हैं, तो 15-20+ साल तक चल सकते हैं। दीर्घायु कई कारकों पर निर्भर करती है जिसमें रोगी की आयु (युवा रोगी अपने प्रत्यारोपणों से अधिक जीवित रह सकते हैं), गतिविधि स्तर, शरीर का वजन, हड्डी की गुणवत्ता, रिवीजन में हड्डी की हानि की सीमा और इम्प्लांट निर्धारण प्राप्त किया गया है। रिवीजन इम्प्लांट्स आमतौर पर समझौता हड्डी स्टॉक और बायोमैकेनिक्स के कारण प्राथमिक इम्प्लांट्स के रूप में लंबे समय तक नहीं चलते हैं, लेकिन रिवीजन तकनीक में प्रगति ने दीर्घकालिक परिणामों में काफी सुधार किया है। नियमित फॉलो-अप निगरानी जटिलताओं के किसी भी प्रारंभिक संकेत का पता लगाने में मदद करती है।'
+        },
+        {
+          question: 'रिवीजन सर्जरी के लिए उल्लिखित पापरोस्की वर्गीकरण क्या है?',
+          answer: 'पापरोस्की वर्गीकरण प्रणाली रिवीजन सर्जरी योजना का मार्गदर्शन करने के लिए एसिटाबुलम (हिप सॉकेट) और फीमर (जांघ की हड्डी) दोनों में हड्डी दोषों को वर्गीकृत करती है। एसिटाबुलर दोषों के लिए: टाइप I में अक्षुण्ण रिम के साथ न्यूनतम हड्डी की हानि होती है; टाइप II में समझौता रिम समर्थन के साथ मध्यम हड्डी की हानि होती है (IIA=सुपीरियर, IIB=मेडियल, IIC=लेटरल); टाइप III में गंभीर हड्डी की हानि होती है (IIIA=अक्षुण्ण कोहलर की रेखा के साथ >3सेमी ऊपर-प्रवास, IIIB=संरचनात्मक समर्थन की आवश्यकता वाली टूटी हुई कोहलर की रेखा के साथ >3सेमी प्रवास)। फीमोरल दोषों के लिए: टाइप I में न्यूनतम मेटाफिसियल हड्डी की हानि होती है; टाइप II में व्यापक मेटाफिसियल हड्डी की हानि होती है; टाइप III में डायफिसिस में विस्तारित गंभीर मेटाफिसियल क्षति होती है (IIIA=>4सेमी अच्छा डायफिसियल हड्डी, IIIB=व्यापक डायफिसियल क्षति)। यह वर्गीकरण डॉ. गुरुदेव कुमार को प्रत्येक रोगी की अद्वितीय शरीर रचना के लिए उपयुक्त प्रत्यारोपणों और पुनर्निर्माण तकनीकों का चयन करने में मदद करता है।'
+        }
+      ]
+    },
+    meta: {
+      en: {
+        title: 'Hip Revision Surgery in Patna, Bihar | Expert Complex Hip Reconstruction | Dr. Gurudeo Kumar',
+        description: 'Expert hip revision surgery in Patna by Dr. Gurudeo Kumar. 200+ complex revisions. Advanced bone reconstruction, infection treatment. PMJAY/BSKY accepted.',
+        keywords: [
+          'hip revision surgery',
+          'revision hip replacement',
+          'failed hip replacement',
+          'hip revision arthroplasty',
+          'complex hip reconstruction',
+          'hip revision Patna',
+          'hip revision Bihar',
+          'Dr. Gurudeo Kumar',
+          'Arthoscenter Patna',
+          'hip implant failure',
+          'aseptic loosening treatment',
+          'infected hip replacement',
+          'periprosthetic fracture',
+          'hip dislocation treatment',
+          'bone graft hip surgery',
+          'Paprosky classification',
+          'two-stage revision',
+          'hip infection treatment',
+          'complex orthopedic surgery Bihar',
+          'PMJAY hip revision',
+          'BSKY hip surgery'
+        ]
+      },
+      hi: {
+        title: 'पटना, बिहार में हिप रिवीजन सर्जरी | विशेषज्ञ जटिल हिप पुनर्निर्माण | डॉ. गुरुदेव कुमार',
+        description: 'डॉ. गुरुदेव कुमार द्वारा पटना में विशेषज्ञ हिप रिवीजन सर्जरी। 200+ जटिल रिवीजन। उन्नत हड्डी पुनर्निर्माण, संक्रमण उपचार। PMJAY/BSKY स्वीकृत।',
+        keywords: [
+          'हिप रिवीजन सर्जरी',
+          'रिवीजन हिप रिप्लेसमेंट',
+          'विफल हिप रिप्लेसमेंट',
+          'हिप रिवीजन आर्थ्रोप्लास्टी',
+          'जटिल हिप पुनर्निर्माण',
+          'पटना में हिप रिवीजन',
+          'बिहार में हिप रिवीजन',
+          'डॉ. गुरुदेव कुमार',
+          'आर्थोसेंटर पटना',
+          'हिप इम्प्लांट विफलता',
+          'एसेप्टिक लूज़निंग उपचार',
+          'संक्रमित हिप रिप्लेसमेंट',
+          'पेरिप्रोस्थेटिक फ्रैक्चर',
+          'हिप विस्थापन उपचार',
+          'हड्डी ग्राफ्ट हिप सर्जरी',
+          'पापरोस्की वर्गीकरण',
+          'दो-चरण रिवीजन',
+          'हिप संक्रमण उपचार',
+          'बिहार में जटिल ऑर्थोपेडिक सर्जरी',
+          'PMJAY हिप रिवीजन',
+          'BSKY हिप सर्जरी'
+        ]
+      }
+    },
+    relatedSurgeries: [
+      'total-hip-replacement',
+      'partial-hip-replacement',
+      'total-knee-replacement',
+      'knee-revision-surgery'
+    ]
   }
 };
 
