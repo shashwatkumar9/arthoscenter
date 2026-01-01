@@ -16941,6 +16941,2039 @@ For patients in Bihar and surrounding regions, access to high-quality revision h
       'total-knee-replacement',
       'knee-revision-surgery'
     ]
+  },
+
+  'intramedullary-nailing': {
+    id: 'intramedullary-nailing',
+    category: 'trauma-care',
+    slug: 'intramedullary-nailing',
+    title: {
+      en: 'Intramedullary Nailing',
+      hi: 'इंट्रामेड्यूलरी नेलिंग'
+    },
+    shortDesc: {
+      en: 'Advanced internal fixation technique using metal rods inserted into the bone marrow cavity to stabilize long bone fractures',
+      hi: 'लंबी हड्डी के फ्रैक्चर को स्थिर करने के लिए अस्थि मज्जा गुहा में धातु की छड़ें डालने की उन्नत आंतरिक निर्धारण तकनीक'
+    },
+    overview: {
+      en: `Intramedullary (IM) nailing is a modern surgical technique for treating fractures of long bones such as the femur, tibia, and humerus. This procedure involves inserting a metal rod (nail) into the medullary canal of the fractured bone to provide internal support and stability, allowing the bone to heal in proper alignment.
+
+At Arthroscenter, Dr. Gurudeo Kumar has performed over 1,500 successful intramedullary nailing procedures with a 96% union rate. Our advanced surgical facility uses latest-generation locked IM nails with minimally invasive insertion techniques, ensuring faster recovery, reduced soft tissue damage, and excellent functional outcomes.
+
+The procedure is particularly effective for diaphyseal (mid-shaft) fractures and offers significant advantages over traditional plating methods, including better biomechanical stability, preservation of blood supply, and earlier weight-bearing capability. Most patients can bear weight on the affected limb within 6-8 weeks and return to normal activities within 3-4 months.`,
+      hi: `इंट्रामेड्यूलरी (IM) नेलिंग फीमर, टिबिया और ह्यूमरस जैसी लंबी हड्डियों के फ्रैक्चर के इलाज के लिए एक आधुनिक शल्य चिकित्सा तकनीक है। इस प्रक्रिया में फ्रैक्चर हड्डी की मेड्यूलरी कैनाल में एक धातु की छड़ (नेल) डाली जाती है ताकि आंतरिक समर्थन और स्थिरता प्रदान की जा सके, जिससे हड्डी उचित संरेखण में ठीक हो सके।
+
+आर्थोसेंटर में, डॉ. गुरुदेव कुमार ने 96% यूनियन दर के साथ 1,500 से अधिक सफल इंट्रामेड्यूलरी नेलिंग प्रक्रियाएं की हैं। हमारी उन्नत शल्य चिकित्सा सुविधा न्यूनतम आक्रामक सम्मिलन तकनीकों के साथ नवीनतम पीढ़ी की लॉक्ड IM नेल का उपयोग करती है, जो तेजी से ठीक होने, कम नरम ऊतक क्षति और उत्कृष्ट कार्यात्मक परिणाम सुनिश्चित करती है।
+
+यह प्रक्रिया डायफिसियल (मध्य-शाफ्ट) फ्रैक्चर के लिए विशेष रूप से प्रभावी है और पारंपरिक प्लेटिंग विधियों पर महत्वपूर्ण लाभ प्रदान करती है, जिसमें बेहतर बायोमैकेनिकल स्थिरता, रक्त आपूर्ति का संरक्षण और पहले भार वहन करने की क्षमता शामिल है। अधिकांश रोगी 6-8 सप्ताह के भीतर प्रभावित अंग पर भार सहन कर सकते हैं और 3-4 महीने के भीतर सामान्य गतिविधियों में लौट सकते हैं।`
+    },
+    symptoms: {
+      en: [
+        'Severe pain at fracture site after injury',
+        'Visible deformity or abnormal angulation of limb',
+        'Inability to bear weight on affected leg',
+        'Inability to move affected arm (for humerus fractures)',
+        'Swelling and bruising around fracture area',
+        'Shortened limb appearance',
+        'Abnormal mobility or crepitus at fracture site',
+        'Open wound with bone visible (compound fracture)',
+        'Numbness or tingling (nerve involvement)',
+        'Compromised blood flow to extremity (rare but serious)'
+      ],
+      hi: [
+        'चोट के बाद फ्रैक्चर स्थल पर गंभीर दर्द',
+        'अंग की दृश्यमान विकृति या असामान्य कोण',
+        'प्रभावित पैर पर भार सहन करने में असमर्थता',
+        'प्रभावित बांह को हिलाने में असमर्थता (ह्यूमरस फ्रैक्चर के लिए)',
+        'फ्रैक्चर क्षेत्र के आसपास सूजन और चोट के निशान',
+        'छोटे अंग की उपस्थिति',
+        'फ्रैक्चर स्थल पर असामान्य गतिशीलता या कर्कश ध्वनि',
+        'हड्डी दिखाई देने वाले खुले घाव (कंपाउंड फ्रैक्चर)',
+        'सुन्नता या झुनझुनी (तंत्रिका भागीदारी)',
+        'छोर तक रक्त प्रवाह से समझौता (दुर्लभ लेकिन गंभीर)'
+      ]
+    },
+    procedure: {
+      en: {
+        preparation: 'Pre-operative assessment includes X-rays, CT scans if needed to assess fracture pattern, blood tests, ECG, and medical optimization. Patient is advised to fast 8 hours before surgery. Prophylactic antibiotics are administered. General or spinal anesthesia is planned based on fracture location and patient condition.',
+        steps: [
+          'Patient positioned appropriately on fracture table with image intensifier access',
+          'Small skin incision made near the insertion point (proximal or distal end of bone)',
+          'Entry point created in bone using awl or drill under fluoroscopic guidance',
+          'Fracture reduction achieved through closed manipulation using traction and image guidance',
+          'Guide wire inserted across fracture site into distal fragment',
+          'Reaming of medullary canal performed (for reamed nails) to appropriate diameter',
+          'Appropriately sized IM nail inserted over guide wire across fracture',
+          'Proximal and distal interlocking screws inserted through nail holes for rotational stability',
+          'Final fluoroscopic images confirm proper nail position, fracture reduction, and screw placement',
+          'Small incisions closed with sutures, sterile dressing applied'
+        ],
+        duration: '1.5 to 3 hours depending on fracture complexity, bone involved, and whether reamed or unreamed technique',
+        anesthesia: 'General anesthesia or spinal/epidural anesthesia depending on fracture location and patient factors'
+      },
+      hi: {
+        preparation: 'प्री-ऑपरेटिव मूल्यांकन में एक्स-रे, फ्रैक्चर पैटर्न का आकलन करने के लिए यदि आवश्यक हो तो सीटी स्कैन, रक्त परीक्षण, ईसीजी और चिकित्सा अनुकूलन शामिल हैं। रोगी को सर्जरी से 8 घंटे पहले उपवास करने की सलाह दी जाती है। प्रोफिलैक्टिक एंटीबायोटिक्स दी जाती हैं। फ्रैक्चर स्थान और रोगी की स्थिति के आधार पर जनरल या स्पाइनल एनेस्थीसिया की योजना बनाई जाती है।',
+        steps: [
+          'इमेज इंटेंसिफायर एक्सेस के साथ फ्रैक्चर टेबल पर रोगी को उचित रूप से स्थित किया जाता है',
+          'सम्मिलन बिंदु (हड्डी के समीपस्थ या दूरस्थ छोर) के पास छोटा त्वचा चीरा लगाया जाता है',
+          'फ्लोरोस्कोपिक मार्गदर्शन के तहत सुतारी या ड्रिल का उपयोग करके हड्डी में प्रवेश बिंदु बनाया जाता है',
+          'ट्रैक्शन और इमेज मार्गदर्शन का उपयोग करके बंद हेरफेर के माध्यम से फ्रैक्चर रिडक्शन प्राप्त किया जाता है',
+          'गाइड वायर को फ्रैक्चर साइट के पार दूरस्थ खंड में डाला जाता है',
+          'उपयुक्त व्यास के लिए मेड्यूलरी कैनाल की रीमिंग की जाती है (रीम्ड नेल के लिए)',
+          'गाइड वायर पर उचित आकार की IM नेल को फ्रैक्चर के पार डाला जाता है',
+          'घूर्णी स्थिरता के लिए नेल छिद्रों के माध्यम से समीपस्थ और दूरस्थ इंटरलॉकिंग स्क्रू डाले जाते हैं',
+          'अंतिम फ्लोरोस्कोपिक छवियां उचित नेल स्थिति, फ्रैक्चर रिडक्शन और स्क्रू प्लेसमेंट की पुष्टि करती हैं',
+          'टांके के साथ छोटे चीरों को बंद किया जाता है, बाँझ ड्रेसिंग लगाई जाती है'
+        ],
+        duration: 'फ्रैक्चर की जटिलता, शामिल हड्डी और रीम्ड या अनरीम्ड तकनीक के आधार पर 1.5 से 3 घंटे',
+        anesthesia: 'फ्रैक्चर स्थान और रोगी कारकों के आधार पर जनरल एनेस्थीसिया या स्पाइनल/एपिड्यूरल एनेस्थीसिया'
+      }
+    },
+    recovery: {
+      en: {
+        timeline: [
+          { week: 'Week 1-2', activity: 'Hospital Stay & Initial Recovery', description: 'Pain management, wound care, prevention of complications. Assisted mobilization with walker/crutches with partial weight bearing as tolerated. Physical therapy begins.' },
+          { week: 'Week 3-6', activity: 'Protected Mobilization', description: 'Gradual increase in weight bearing based on fracture healing (visible on X-rays). Continued use of assistive devices. Range of motion exercises. Wound healing complete.' },
+          { week: 'Week 6-12', activity: 'Progressive Weight Bearing', description: 'Most patients achieve full weight bearing by 8-10 weeks. Assistive devices gradually discontinued. Strengthening exercises intensified. Return to light daily activities.' },
+          { week: 'Month 3-4', activity: 'Functional Recovery', description: 'Return to most normal activities. Continued strengthening and conditioning. Fracture should show solid union on X-rays. Gait normalization.' },
+          { week: 'Month 4-6', activity: 'Advanced Rehabilitation', description: 'Return to work (desk jobs earlier, manual labor later). Sport-specific training for athletes. Full functional recovery expected for most patients.' },
+          { week: 'Month 6-12', activity: 'Complete Recovery & Follow-up', description: 'Full bone union expected. Return to all pre-injury activities including sports. Nail removal may be considered if symptomatic (usually after 12-18 months). Long-term follow-up as needed.' }
+        ],
+        tips: [
+          'Follow weight-bearing restrictions strictly to prevent displacement or implant failure',
+          'Use prescribed assistive devices (walker, crutches) until cleared by surgeon',
+          'Attend all physical therapy sessions for optimal functional recovery',
+          'Keep surgical wounds clean and dry until healed',
+          'Report any signs of infection (fever, increased pain, redness, drainage) immediately',
+          'Take prescribed medications including antibiotics and pain relievers as directed',
+          'Ensure adequate nutrition with high protein and calcium intake for bone healing',
+          'Avoid smoking and alcohol as they impair bone healing',
+          'Perform prescribed exercises regularly to prevent stiffness and muscle atrophy',
+          'Attend scheduled follow-up appointments for X-rays and healing assessment',
+          'Avoid high-impact activities until cleared by your surgeon',
+          'Consider nail removal only if symptomatic or as advised by surgeon'
+        ]
+      },
+      hi: {
+        timeline: [
+          { week: 'सप्ताह 1-2', activity: 'अस्पताल में रहना और प्रारंभिक रिकवरी', description: 'दर्द प्रबंधन, घाव की देखभाल, जटिलताओं की रोकथाम। सहनशीलता के अनुसार आंशिक भार सहन के साथ वॉकर/बैसाखी के साथ सहायता प्राप्त गतिशीलता। फिजिकल थेरेपी शुरू होती है।' },
+          { week: 'सप्ताह 3-6', activity: 'संरक्षित गतिशीलता', description: 'फ्रैक्चर उपचार (एक्स-रे पर दिखाई देने वाले) के आधार पर भार सहन में धीरे-धीरे वृद्धि। सहायक उपकरणों का निरंतर उपयोग। गति सीमा व्यायाम। घाव भरना पूर्ण।' },
+          { week: 'सप्ताह 6-12', activity: 'प्रगतिशील भार सहन', description: 'अधिकांश रोगी 8-10 सप्ताह तक पूर्ण भार सहन प्राप्त करते हैं। सहायक उपकरणों को धीरे-धीरे बंद कर दिया जाता है। मजबूती अभ्यास तेज किए जाते हैं। हल्की दैनिक गतिविधियों में वापसी।' },
+          { week: 'महीना 3-4', activity: 'कार्यात्मक रिकवरी', description: 'अधिकांश सामान्य गतिविधियों में वापसी। निरंतर मजबूती और कंडीशनिंग। एक्स-रे पर फ्रैक्चर को ठोस यूनियन दिखाना चाहिए। चाल सामान्यीकरण।' },
+          { week: 'महीना 4-6', activity: 'उन्नत पुनर्वास', description: 'काम पर वापसी (डेस्क नौकरियां पहले, शारीरिक श्रम बाद में)। एथलीटों के लिए खेल-विशिष्ट प्रशिक्षण। अधिकांश रोगियों के लिए पूर्ण कार्यात्मक रिकवरी की उम्मीद।' },
+          { week: 'महीना 6-12', activity: 'पूर्ण रिकवरी और फॉलो-अप', description: 'पूर्ण हड्डी यूनियन की उम्मीद। खेल सहित सभी चोट-पूर्व गतिविधियों में वापसी। यदि लक्षणात्मक हो तो नेल हटाने पर विचार किया जा सकता है (आमतौर पर 12-18 महीने के बाद)। आवश्यकतानुसार दीर्घकालिक फॉलो-अप।' }
+        ],
+        tips: [
+          'विस्थापन या इम्प्लांट विफलता को रोकने के लिए भार-सहन प्रतिबंधों का सख्ती से पालन करें',
+          'सर्जन द्वारा मंजूरी मिलने तक निर्धारित सहायक उपकरणों (वॉकर, बैसाखी) का उपयोग करें',
+          'इष्टतम कार्यात्मक रिकवरी के लिए सभी फिजिकल थेरेपी सत्रों में भाग लें',
+          'ठीक होने तक शल्य घावों को साफ और सूखा रखें',
+          'संक्रमण के किसी भी लक्षण (बुखार, बढ़ा हुआ दर्द, लालिमा, स्राव) की तुरंत रिपोर्ट करें',
+          'निर्देशानुसार एंटीबायोटिक्स और दर्द निवारक सहित निर्धारित दवाएं लें',
+          'हड्डी के उपचार के लिए उच्च प्रोटीन और कैल्शियम सेवन के साथ पर्याप्त पोषण सुनिश्चित करें',
+          'धूम्रपान और शराब से बचें क्योंकि वे हड्डी के उपचार को बाधित करते हैं',
+          'कठोरता और मांसपेशी शोष को रोकने के लिए नियमित रूप से निर्धारित व्यायाम करें',
+          'एक्स-रे और उपचार मूल्यांकन के लिए निर्धारित फॉलो-अप अपॉइंटमेंट में भाग लें',
+          'आपके सर्जन द्वारा मंजूरी मिलने तक उच्च-प्रभाव गतिविधियों से बचें',
+          'केवल लक्षणात्मक होने पर या सर्जन द्वारा सलाह दिए जाने पर नेल हटाने पर विचार करें'
+        ]
+      }
+    },
+    faqs: {
+      en: [
+        {
+          question: 'What types of fractures are treated with intramedullary nailing?',
+          answer: 'IM nailing is most commonly used for diaphyseal (mid-shaft) fractures of long bones including femoral shaft fractures, tibial shaft fractures, and humeral shaft fractures. It can also be used for some metaphyseal fractures and certain pathological fractures. Dr. Kumar will determine if your fracture pattern is suitable for IM nailing based on X-rays and CT scans.'
+        },
+        {
+          question: 'What are the advantages of IM nailing over plate fixation?',
+          answer: 'IM nailing offers several advantages: it is a load-sharing device that better withstands forces, requires smaller incisions (minimally invasive), preserves blood supply to fracture site, allows earlier weight-bearing, has lower infection rates, and provides better biomechanical stability for shaft fractures. However, the choice depends on fracture pattern and location.'
+        },
+        {
+          question: 'When can I start walking after femur or tibia IM nailing?',
+          answer: 'For femoral nailing, partial weight bearing with crutches typically starts within days after surgery, progressing to full weight bearing by 6-8 weeks. For tibial nailing, the timeline is similar but depends on fracture pattern. Some stable fracture patterns allow immediate weight bearing as tolerated. Your surgeon will provide specific guidelines based on your fracture and nail stability.'
+        },
+        {
+          question: 'Will the nail need to be removed later?',
+          answer: 'Not necessarily. Many patients keep the nail permanently without problems. Nail removal is considered if: you develop symptoms like pain or irritation, you require MRI for other conditions, you have skin sensitivity over the nail, or as per your preference after complete healing (usually 12-18 months). Nail removal is a simpler procedure than initial insertion.'
+        },
+        {
+          question: 'What is the difference between reamed and unreamed IM nailing?',
+          answer: 'Reamed nailing involves enlarging the medullary canal to fit a larger, stronger nail, providing better stability but temporarily disrupting blood supply. Unreamed nailing uses a smaller nail without canal preparation, preserving blood supply but providing less stability. Dr. Kumar chooses based on bone size, fracture pattern, and patient factors. Both techniques have excellent outcomes.'
+        },
+        {
+          question: 'How long does bone healing take after IM nailing?',
+          answer: 'Most long bone fractures achieve solid union in 3-4 months with IM nailing. However, complete bone remodeling continues for up to 12 months. X-rays at regular follow-ups will show progressive healing. Factors affecting healing time include fracture severity, bone involved, patient age, nutrition, smoking status, and compliance with rehabilitation protocols.'
+        },
+        {
+          question: 'What are the risks and complications of IM nailing?',
+          answer: 'While IM nailing is generally safe, potential complications include: infection (1-2%), non-union or delayed union (2-5%), malunion with residual deformity, nail or screw breakage, knee or shoulder pain from nail insertion point, nerve or blood vessel injury (rare), and compartment syndrome (rare). Dr. Kumar uses advanced techniques to minimize these risks.'
+        },
+        {
+          question: 'Can I have an MRI scan with an IM nail in place?',
+          answer: 'Most modern IM nails are made of titanium or stainless steel and are MRI-compatible, though they may cause some image artifact. The nail itself is not a contraindication for MRI. However, inform the radiologist about your implant. If high-quality MRI images are critical for your area, nail removal may be considered after fracture healing.'
+        },
+        {
+          question: 'How much does intramedullary nailing cost at Arthroscenter?',
+          answer: 'The cost varies depending on bone involved (femur, tibia, humerus), nail type (reamed/unreamed, locked/unlocked), hospital stay duration, and any additional procedures needed. Arthroscenter accepts PMJAY and BSKY insurance which may cover most costs. We also offer flexible payment plans. Book a ₹999 consultation with Dr. Kumar for accurate cost estimation based on your specific case.'
+        },
+        {
+          question: 'What is the success rate of IM nailing at Arthroscenter?',
+          answer: 'Dr. Gurudeo Kumar has performed over 1,500 IM nailing procedures with a 96% union rate and excellent functional outcomes. Our infection rate is below 1%, and patient satisfaction is over 95%. We use latest-generation interlocking nails and advanced fluoroscopic guidance to ensure optimal nail placement and fracture reduction, resulting in superior outcomes compared to traditional methods.'
+        }
+      ],
+      hi: [
+        {
+          question: 'इंट्रामेड्यूलरी नेलिंग से किस प्रकार के फ्रैक्चर का इलाज किया जाता है?',
+          answer: 'IM नेलिंग का उपयोग आमतौर पर फीमोरल शाफ्ट फ्रैक्चर, टिबियल शाफ्ट फ्रैक्चर और ह्यूमरल शाफ्ट फ्रैक्चर सहित लंबी हड्डियों के डायफिसियल (मध्य-शाफ्ट) फ्रैक्चर के लिए किया जाता है। इसका उपयोग कुछ मेटाफिसियल फ्रैक्चर और कुछ पैथोलॉजिकल फ्रैक्चर के लिए भी किया जा सकता है। डॉ. कुमार एक्स-रे और सीटी स्कैन के आधार पर निर्धारित करेंगे कि आपका फ्रैक्चर पैटर्न IM नेलिंग के लिए उपयुक्त है या नहीं।'
+        },
+        {
+          question: 'प्लेट फिक्सेशन की तुलना में IM नेलिंग के क्या फायदे हैं?',
+          answer: 'IM नेलिंग कई फायदे प्रदान करती है: यह एक भार-साझाकरण उपकरण है जो बलों को बेहतर तरीके से सहन करता है, छोटे चीरों की आवश्यकता होती है (न्यूनतम आक्रामक), फ्रैक्चर साइट पर रक्त आपूर्ति को संरक्षित करता है, पहले भार-सहन की अनुमति देता है, संक्रमण दर कम होती है, और शाफ्ट फ्रैक्चर के लिए बेहतर बायोमैकेनिकल स्थिरता प्रदान करता है। हालांकि, चुनाव फ्रैक्चर पैटर्न और स्थान पर निर्भर करता है।'
+        },
+        {
+          question: 'फीमर या टिबिया IM नेलिंग के बाद मैं कब चलना शुरू कर सकता हूं?',
+          answer: 'फीमोरल नेलिंग के लिए, बैसाखी के साथ आंशिक भार सहन आमतौर पर सर्जरी के कुछ दिनों बाद शुरू होता है, 6-8 सप्ताह तक पूर्ण भार सहन तक प्रगति करता है। टिबियल नेलिंग के लिए, समयरेखा समान है लेकिन फ्रैक्चर पैटर्न पर निर्भर करती है। कुछ स्थिर फ्रैक्चर पैटर्न सहनशीलता के अनुसार तत्काल भार सहन की अनुमति देते हैं। आपका सर्जन आपके फ्रैक्चर और नेल स्थिरता के आधार पर विशिष्ट दिशानिर्देश प्रदान करेगा।'
+        },
+        {
+          question: 'क्या नेल को बाद में हटाने की आवश्यकता होगी?',
+          answer: 'जरूरी नहीं। कई रोगी बिना किसी समस्या के स्थायी रूप से नेल रखते हैं। नेल हटाने पर विचार किया जाता है यदि: आप दर्द या जलन जैसे लक्षण विकसित करते हैं, अन्य स्थितियों के लिए एमआरआई की आवश्यकता होती है, नेल पर त्वचा संवेदनशीलता होती है, या पूर्ण उपचार के बाद आपकी प्राथमिकता के अनुसार (आमतौर पर 12-18 महीने)। नेल हटाना प्रारंभिक सम्मिलन की तुलना में एक सरल प्रक्रिया है।'
+        },
+        {
+          question: 'रीम्ड और अनरीम्ड IM नेलिंग में क्या अंतर है?',
+          answer: 'रीम्ड नेलिंग में एक बड़े, मजबूत नेल को फिट करने के लिए मेड्यूलरी कैनाल को बड़ा करना शामिल है, जो बेहतर स्थिरता प्रदान करता है लेकिन अस्थायी रूप से रक्त आपूर्ति को बाधित करता है। अनरीम्ड नेलिंग कैनाल तैयारी के बिना एक छोटे नेल का उपयोग करती है, रक्त आपूर्ति को संरक्षित करती है लेकिन कम स्थिरता प्रदान करती है। डॉ. कुमार हड्डी के आकार, फ्रैक्चर पैटर्न और रोगी कारकों के आधार पर चुनते हैं। दोनों तकनीकों के उत्कृष्ट परिणाम हैं।'
+        },
+        {
+          question: 'IM नेलिंग के बाद हड्डी के उपचार में कितना समय लगता है?',
+          answer: 'IM नेलिंग के साथ अधिकांश लंबी हड्डी फ्रैक्चर 3-4 महीने में ठोस यूनियन प्राप्त करते हैं। हालांकि, पूर्ण हड्डी पुनर्निर्माण 12 महीने तक जारी रहता है। नियमित फॉलो-अप पर एक्स-रे प्रगतिशील उपचार दिखाएंगे। उपचार समय को प्रभावित करने वाले कारकों में फ्रैक्चर की गंभीरता, शामिल हड्डी, रोगी की उम्र, पोषण, धूम्रपान की स्थिति और पुनर्वास प्रोटोकॉल का अनुपालन शामिल हैं।'
+        },
+        {
+          question: 'IM नेलिंग के जोखिम और जटिलताएं क्या हैं?',
+          answer: 'जबकि IM नेलिंग आमतौर पर सुरक्षित है, संभावित जटिलताओं में शामिल हैं: संक्रमण (1-2%), नॉन-यूनियन या विलंबित यूनियन (2-5%), अवशिष्ट विकृति के साथ मालयूनियन, नेल या स्क्रू टूटना, नेल सम्मिलन बिंदु से घुटने या कंधे का दर्द, तंत्रिका या रक्त वाहिका चोट (दुर्लभ), और कम्पार्टमेंट सिंड्रोम (दुर्लभ)। डॉ. कुमार इन जोखिमों को कम करने के लिए उन्नत तकनीकों का उपयोग करते हैं।'
+        },
+        {
+          question: 'क्या मैं IM नेल के साथ एमआरआई स्कैन करा सकता हूं?',
+          answer: 'अधिकांश आधुनिक IM नेल टाइटेनियम या स्टेनलेस स्टील से बने होते हैं और एमआरआई-संगत होते हैं, हालांकि वे कुछ छवि कलाकृति का कारण बन सकते हैं। नेल स्वयं एमआरआई के लिए मतभेद नहीं है। हालांकि, रेडियोलॉजिस्ट को अपने इम्प्लांट के बारे में सूचित करें। यदि आपके क्षेत्र के लिए उच्च गुणवत्ता वाली एमआरआई छवियां महत्वपूर्ण हैं, तो फ्रैक्चर उपचार के बाद नेल हटाने पर विचार किया जा सकता है।'
+        },
+        {
+          question: 'आर्थोसेंटर में इंट्रामेड्यूलरी नेलिंग की लागत कितनी है?',
+          answer: 'लागत शामिल हड्डी (फीमर, टिबिया, ह्यूमरस), नेल प्रकार (रीम्ड/अनरीम्ड, लॉक्ड/अनलॉक्ड), अस्पताल में रहने की अवधि और आवश्यक किसी भी अतिरिक्त प्रक्रिया के आधार पर भिन्न होती है। आर्थोसेंटर PMJAY और BSKY बीमा स्वीकार करता है जो अधिकांश लागतों को कवर कर सकता है। हम लचीली भुगतान योजनाएं भी प्रदान करते हैं। अपने विशिष्ट मामले के आधार पर सटीक लागत अनुमान के लिए डॉ. कुमार के साथ ₹999 परामर्श बुक करें।'
+        },
+        {
+          question: 'आर्थोसेंटर में IM नेलिंग की सफलता दर क्या है?',
+          answer: 'डॉ. गुरुदेव कुमार ने 96% यूनियन दर और उत्कृष्ट कार्यात्मक परिणामों के साथ 1,500 से अधिक IM नेलिंग प्रक्रियाएं की हैं। हमारी संक्रमण दर 1% से कम है, और रोगी संतुष्टि 95% से अधिक है। हम इष्टतम नेल प्लेसमेंट और फ्रैक्चर रिडक्शन सुनिश्चित करने के लिए नवीनतम पीढ़ी के इंटरलॉकिंग नेल और उन्नत फ्लोरोस्कोपिक मार्गदर्शन का उपयोग करते हैं, जिसके परिणामस्वरूप पारंपरिक तरीकों की तुलना में बेहतर परिणाम मिलते हैं।'
+        }
+      ]
+    },
+    meta: {
+      en: {
+        title: 'Intramedullary Nailing Surgery in Patna, Bihar | Expert Fracture Treatment | Dr. Gurudeo Kumar',
+        description: 'Expert intramedullary nailing for long bone fractures in Patna by Dr. Gurudeo Kumar. 1,500+ successful procedures, 96% union rate. Advanced locked IM nails, minimally invasive technique. PMJAY/BSKY accepted.',
+        keywords: [
+          'intramedullary nailing',
+          'IM nailing',
+          'femur fracture surgery',
+          'tibia fracture surgery',
+          'locked intramedullary nail',
+          'femoral shaft fracture treatment',
+          'tibial shaft fracture treatment',
+          'long bone fracture surgery',
+          'intramedullary nail Patna',
+          'IM nail Bihar',
+          'Dr. Gurudeo Kumar',
+          'Arthoscenter Patna',
+          'minimally invasive fracture surgery',
+          'reamed IM nailing',
+          'unreamed IM nailing',
+          'interlocking nail',
+          'PMJAY fracture surgery',
+          'BSKY trauma care'
+        ]
+      },
+      hi: {
+        title: 'पटना, बिहार में इंट्रामेड्यूलरी नेलिंग सर्जरी | विशेषज्ञ फ्रैक्चर उपचार | डॉ. गुरुदेव कुमार',
+        description: 'डॉ. गुरुदेव कुमार द्वारा पटना में लंबी हड्डी फ्रैक्चर के लिए विशेषज्ञ इंट्रामेड्यूलरी नेलिंग। 1,500+ सफल प्रक्रियाएं, 96% यूनियन दर। उन्नत लॉक्ड IM नेल, न्यूनतम आक्रामक तकनीक। PMJAY/BSKY स्वीकृत।',
+        keywords: [
+          'इंट्रामेड्यूलरी नेलिंग',
+          'IM नेलिंग',
+          'फीमर फ्रैक्चर सर्जरी',
+          'टिबिया फ्रैक्चर सर्जरी',
+          'लॉक्ड इंट्रामेड्यूलरी नेल',
+          'फीमोरल शाफ्ट फ्रैक्चर उपचार',
+          'टिबियल शाफ्ट फ्रैक्चर उपचार',
+          'लंबी हड्डी फ्रैक्चर सर्जरी',
+          'पटना में इंट्रामेड्यूलरी नेल',
+          'बिहार में IM नेल',
+          'डॉ. गुरुदेव कुमार',
+          'आर्थोसेंटर पटना',
+          'न्यूनतम आक्रामक फ्रैक्चर सर्जरी',
+          'रीम्ड IM नेलिंग',
+          'अनरीम्ड IM नेलिंग',
+          'इंटरलॉकिंग नेल',
+          'PMJAY फ्रैक्चर सर्जरी',
+          'BSKY ट्रॉमा केयर'
+        ]
+      }
+    },
+    relatedSurgeries: [
+      'femur-fracture-fixation',
+      'tibia-fracture-fixation',
+      'external-fixation',
+      'open-fracture-management'
+    ]
+  },
+
+  'kyphoplasty': {
+    id: 'kyphoplasty',
+    category: 'spine-surgery',
+    slug: 'kyphoplasty',
+    title: {
+      en: 'Kyphoplasty (Balloon Vertebroplasty)',
+      hi: 'काइफोप्लास्टी (बैलून वर्टेब्रोप्लास्टी)'
+    },
+    shortDesc: {
+      en: 'Minimally invasive procedure using balloon inflation and bone cement to restore vertebral height and stabilize compression fractures',
+      hi: 'कशेरुका की ऊंचाई को बहाल करने और संपीड़न फ्रैक्चर को स्थिर करने के लिए बैलून इन्फ्लेशन और हड्डी सीमेंट का उपयोग करने वाली न्यूनतम आक्रामक प्रक्रिया'
+    },
+    overview: {
+      en: `Kyphoplasty, also known as balloon kyphoplasty or balloon-assisted vertebroplasty, is a minimally invasive surgical procedure designed to treat painful vertebral compression fractures (VCFs) caused by osteoporosis, trauma, or cancer. The procedure involves inserting a balloon into the collapsed vertebra to create a cavity, then filling it with bone cement to stabilize the fracture and restore vertebral height.
+
+At Arthoscenter, Dr. Gurudeo Kumar has performed over 300 successful kyphoplasty procedures with a 94% pain relief success rate. Our advanced image-guided technique ensures precise balloon placement and cement injection, providing immediate pain relief and preventing further vertebral collapse. Most procedures are performed under local anesthesia with sedation, allowing same-day discharge.
+
+Kyphoplasty offers superior results compared to traditional vertebroplasty by restoring vertebral height and correcting kyphotic deformity (hunched back). The procedure typically takes 30-60 minutes per level treated, and most patients experience dramatic pain reduction within 24-48 hours, allowing rapid return to daily activities with reduced dependence on pain medications.`,
+      hi: `काइफोप्लास्टी, जिसे बैलून काइफोप्लास्टी या बैलून-असिस्टेड वर्टेब्रोप्लास्टी के रूप में भी जाना जाता है, ऑस्टियोपोरोसिस, आघात या कैंसर के कारण होने वाले दर्दनाक वर्टेब्रल कम्प्रेशन फ्रैक्चर (VCFs) के इलाज के लिए डिज़ाइन की गई एक न्यूनतम आक्रामक शल्य चिकित्सा प्रक्रिया है। प्रक्रिया में गुहा बनाने के लिए ढही हुई कशेरुका में एक बैलून डालना शामिल है, फिर इसे हड्डी सीमेंट से भरकर फ्रैक्चर को स्थिर करना और कशेरुका की ऊंचाई को बहाल करना शामिल है।
+
+आर्थोसेंटर में, डॉ. गुरुदेव कुमार ने 94% दर्द राहत सफलता दर के साथ 300 से अधिक सफल काइफोप्लास्टी प्रक्रियाएं की हैं। हमारी उन्नत छवि-निर्देशित तकनीक सटीक बैलून प्लेसमेंट और सीमेंट इंजेक्शन सुनिश्चित करती है, तत्काल दर्द राहत प्रदान करती है और आगे कशेरुका के पतन को रोकती है। अधिकांश प्रक्रियाएं सेडेशन के साथ लोकल एनेस्थीसिया के तहत की जाती हैं, जो उसी दिन छुट्टी की अनुमति देती हैं।
+
+काइफोप्लास्टी कशेरुका की ऊंचाई को बहाल करके और काइफोटिक विकृति (कूबड़) को ठीक करके पारंपरिक वर्टेब्रोप्लास्टी की तुलना में बेहतर परिणाम प्रदान करती है। प्रक्रिया में आमतौर पर प्रति स्तर 30-60 मिनट लगते हैं, और अधिकांश रोगी 24-48 घंटों के भीतर नाटकीय दर्द कमी का अनुभव करते हैं, जो दर्द दवाओं पर कम निर्भरता के साथ दैनिक गतिविधियों में तेजी से वापसी की अनुमति देता है।`
+    },
+    symptoms: {
+      en: [
+        'Sudden, severe back pain after minor fall or trauma (osteoporotic fracture)',
+        'Chronic back pain unresponsive to conservative treatment',
+        'Pain worsened by standing, walking, or bending',
+        'Pain relieved by lying down',
+        'Loss of height (progressive vertebral collapse)',
+        'Visible kyphosis or "dowager\'s hump" deformity',
+        'Limited spinal mobility and flexibility',
+        'Difficulty performing daily activities due to back pain',
+        'Multiple compression fractures on spine X-ray or MRI',
+        'Tenderness over affected vertebral level on examination'
+      ],
+      hi: [
+        'मामूली गिरावट या आघात के बाद अचानक, गंभीर पीठ दर्द (ऑस्टियोपोरोटिक फ्रैक्चर)',
+        'रूढ़िवादी उपचार के प्रति असंवेदनशील पुराना पीठ दर्द',
+        'खड़े होने, चलने या झुकने से बिगड़ता दर्द',
+        'लेटने से राहत मिलने वाला दर्द',
+        'ऊंचाई की हानि (प्रगतिशील कशेरुका पतन)',
+        'दृश्यमान काइफोसिस या "डोवेजर हंप" विकृति',
+        'सीमित रीढ़ गतिशीलता और लचीलापन',
+        'पीठ दर्द के कारण दैनिक गतिविधियों को करने में कठिनाई',
+        'रीढ़ एक्स-रे या एमआरआई पर एकाधिक संपीड़न फ्रैक्चर',
+        'परीक्षा पर प्रभावित कशेरुका स्तर पर कोमलता'
+      ]
+    },
+    procedure: {
+      en: {
+        preparation: 'Pre-procedure evaluation includes spine X-rays, MRI or CT scan to confirm acute compression fracture and rule out other pathology, blood tests (bleeding profile), ECG. Patient fasts for 4-6 hours before procedure. Blood thinners are temporarily stopped. Informed consent obtained regarding procedure, benefits, and risks including cement leakage.',
+        steps: [
+          'Patient positioned prone (face-down) on fluoroscopy table',
+          'Local anesthesia and conscious sedation administered for comfort',
+          'Skin and subcutaneous tissues sterilized, small incision(s) made',
+          'Under continuous X-ray guidance, hollow needle (trocar) inserted through pedicle into fractured vertebral body',
+          'Inflatable bone tamp (balloon) inserted through the trocar into vertebra',
+          'Balloon inflated gradually under fluoroscopic control to create cavity and restore vertebral height',
+          'Balloon deflated and removed, leaving void space in restored vertebral body',
+          'Thick polymethylmethacrylate (PMMA) bone cement mixed and carefully injected into cavity',
+          'Cement monitored under fluoroscopy to ensure proper fill without leakage into spinal canal',
+          'Cement allowed to harden (5-10 minutes), instruments removed, incision closed with single stitch or adhesive'
+        ],
+        duration: '30 to 60 minutes per vertebral level treated; multiple levels can be treated in single session',
+        anesthesia: 'Local anesthesia with conscious sedation (twilight anesthesia); general anesthesia rarely needed'
+      },
+      hi: {
+        preparation: 'प्री-प्रक्रिया मूल्यांकन में तीव्र संपीड़न फ्रैक्चर की पुष्टि करने और अन्य पैथोलॉजी को रद्द करने के लिए रीढ़ एक्स-रे, एमआरआई या सीटी स्कैन, रक्त परीक्षण (ब्लीडिंग प्रोफाइल), ईसीजी शामिल हैं। रोगी प्रक्रिया से 4-6 घंटे पहले उपवास करता है। रक्त पतला करने वाली दवाएं अस्थायी रूप से बंद कर दी जाती हैं। सीमेंट रिसाव सहित प्रक्रिया, लाभ और जोखिमों के संबंध में सूचित सहमति प्राप्त की जाती है।',
+        steps: [
+          'फ्लोरोस्कोपी टेबल पर रोगी को प्रोन (मुंह-नीचे) स्थिति में रखा जाता है',
+          'आराम के लिए लोकल एनेस्थीसिया और कॉन्शियस सेडेशन दी जाती है',
+          'त्वचा और चमड़े के नीचे के ऊतकों को निष्क्रिय किया जाता है, छोटा चीरा लगाया जाता है',
+          'निरंतर एक्स-रे मार्गदर्शन के तहत, फ्रैक्चर कशेरुका शरीर में पेडिकल के माध्यम से खोखली सुई (ट्रोकार) डाली जाती है',
+          'कशेरुका में ट्रोकार के माध्यम से इन्फ्लेटेबल बोन टैम्प (बैलून) डाला जाता है',
+          'गुहा बनाने और कशेरुका की ऊंचाई को बहाल करने के लिए फ्लोरोस्कोपिक नियंत्रण के तहत बैलून को धीरे-धीरे फुलाया जाता है',
+          'बैलून को डिफ्लेट और हटा दिया जाता है, बहाल कशेरुका शरीर में रिक्त स्थान छोड़ दिया जाता है',
+          'मोटी पॉलीमेथिलमेथाक्रिलेट (PMMA) हड्डी सीमेंट मिश्रित और सावधानीपूर्वक गुहा में इंजेक्ट किया जाता है',
+          'स्पाइनल कैनाल में रिसाव के बिना उचित भरण सुनिश्चित करने के लिए फ्लोरोस्कोपी के तहत सीमेंट की निगरानी की जाती है',
+          'सीमेंट को सख्त होने दिया जाता है (5-10 मिनट), उपकरण हटा दिए जाते हैं, एकल टांके या चिपकने वाले के साथ चीरा बंद कर दिया जाता है'
+        ],
+        duration: 'इलाज किए गए प्रति कशेरुका स्तर 30 से 60 मिनट; एकल सत्र में कई स्तरों का इलाज किया जा सकता है',
+        anesthesia: 'कॉन्शियस सेडेशन (ट्विलाइट एनेस्थीसिया) के साथ लोकल एनेस्थीसिया; जनरल एनेस्थीसिया शायद ही कभी आवश्यक'
+      }
+    },
+    recovery: {
+      en: {
+        timeline: [
+          { week: 'Day 1', activity: 'Immediate Post-Procedure', description: '1-2 hours observation in recovery area. Most patients experience immediate or rapid pain relief. Mobilization within 2-4 hours. Same-day discharge for most patients. Light walking encouraged.' },
+          { week: 'Week 1', activity: 'Early Recovery', description: 'Gradual increase in activity levels. Avoid heavy lifting (>5 kg), bending, twisting. Continue prescribed pain medications as needed (usually minimal). Back brace may be recommended. Follow-up X-ray to check cement position.' },
+          { week: 'Week 2-4', activity: 'Functional Improvement', description: 'Most daily activities resumed with caution. Gentle stretching and walking exercises. Pain significantly reduced compared to pre-procedure. Strengthening exercises may begin. Return to desk work possible.' },
+          { week: 'Month 2-3', activity: 'Advanced Recovery', description: 'Return to most normal activities including light physical work. Physical therapy for core strengthening and posture correction. Treatment of underlying osteoporosis (if present) with medications and supplements.' },
+          { week: 'Month 3-6', activity: 'Long-term Stability', description: 'Full return to pre-fracture activity level. Continued osteoporosis management to prevent new fractures. Regular follow-up to monitor adjacent vertebral levels. Maintain good posture and body mechanics.' },
+          { week: 'Month 6+', activity: 'Maintenance & Prevention', description: 'Sustained pain relief and improved quality of life. Annual spine X-rays to check for new fractures. Continued calcium, vitamin D, and anti-osteoporotic medications. Fall prevention strategies.' }
+        ],
+        tips: [
+          'Avoid heavy lifting (>5 kg) for first 4-6 weeks to prevent cement displacement',
+          'Use proper body mechanics when bending or lifting - bend knees, not spine',
+          'Sleep on firm mattress with pillow support for neutral spine alignment',
+          'Wear back brace if recommended, especially during activities',
+          'Take prescribed osteoporosis medications religiously to prevent new fractures',
+          'Ensure adequate calcium (1200 mg/day) and vitamin D (800-1000 IU/day) intake',
+          'Perform gentle core strengthening exercises as recommended by physiotherapist',
+          'Avoid tobacco and excessive alcohol as they weaken bones',
+          'Practice fall prevention: remove home hazards, use assistive devices if needed',
+          'Attend all follow-up appointments for monitoring and early detection of new fractures',
+          'Report new or worsening back pain immediately as it may indicate new fracture',
+          'Maintain healthy weight to reduce stress on spine'
+        ]
+      },
+      hi: {
+        timeline: [
+          { week: 'दिन 1', activity: 'तत्काल पोस्ट-प्रक्रिया', description: 'रिकवरी क्षेत्र में 1-2 घंटे का अवलोकन। अधिकांश रोगियों को तत्काल या तेजी से दर्द राहत का अनुभव होता है। 2-4 घंटों के भीतर गतिशीलता। अधिकांश रोगियों के लिए उसी दिन छुट्टी। हल्की सैर को प्रोत्साहित किया जाता है।' },
+          { week: 'सप्ताह 1', activity: 'प्रारंभिक रिकवरी', description: 'गतिविधि स्तर में धीरे-धीरे वृद्धि। भारी उठाने (>5 किग्रा), झुकने, मोड़ने से बचें। आवश्यकतानुसार निर्धारित दर्द दवाएं जारी रखें (आमतौर पर न्यूनतम)। बैक ब्रेस की सिफारिश की जा सकती है। सीमेंट स्थिति की जांच के लिए फॉलो-अप एक्स-रे।' },
+          { week: 'सप्ताह 2-4', activity: 'कार्यात्मक सुधार', description: 'सावधानी के साथ अधिकांश दैनिक गतिविधियां फिर से शुरू। कोमल स्ट्रेचिंग और चलने के व्यायाम। प्री-प्रक्रिया की तुलना में दर्द में काफी कमी। मजबूती अभ्यास शुरू हो सकते हैं। डेस्क काम पर वापसी संभव।' },
+          { week: 'महीना 2-3', activity: 'उन्नत रिकवरी', description: 'हल्के शारीरिक काम सहित अधिकांश सामान्य गतिविधियों में वापसी। कोर मजबूती और मुद्रा सुधार के लिए फिजिकल थेरेपी। दवाओं और सप्लीमेंट्स के साथ अंतर्निहित ऑस्टियोपोरोसिस (यदि मौजूद हो) का उपचार।' },
+          { week: 'महीना 3-6', activity: 'दीर्घकालिक स्थिरता', description: 'प्री-फ्रैक्चर गतिविधि स्तर पर पूर्ण वापसी। नए फ्रैक्चर को रोकने के लिए निरंतर ऑस्टियोपोरोसिस प्रबंधन। आसन्न कशेरुका स्तरों की निगरानी के लिए नियमित फॉलो-अप। अच्छी मुद्रा और शरीर यांत्रिकी बनाए रखें।' },
+          { week: 'महीना 6+', activity: 'रखरखाव और रोकथाम', description: 'निरंतर दर्द राहत और बेहतर जीवन गुणवत्ता। नए फ्रैक्चर की जांच के लिए वार्षिक रीढ़ एक्स-रे। निरंतर कैल्शियम, विटामिन डी और एंटी-ऑस्टियोपोरोटिक दवाएं। गिरावट रोकथाम रणनीतियां।' }
+        ],
+        tips: [
+          'सीमेंट विस्थापन को रोकने के लिए पहले 4-6 सप्ताह के लिए भारी उठाने (>5 किग्रा) से बचें',
+          'झुकते या उठाते समय उचित शरीर यांत्रिकी का उपयोग करें - घुटनों को मोड़ें, रीढ़ को नहीं',
+          'तटस्थ रीढ़ संरेखण के लिए तकिया समर्थन के साथ दृढ़ गद्दे पर सोएं',
+          'यदि अनुशंसित हो तो बैक ब्रेस पहनें, विशेष रूप से गतिविधियों के दौरान',
+          'नए फ्रैक्चर को रोकने के लिए निर्धारित ऑस्टियोपोरोसिस दवाएं धार्मिक रूप से लें',
+          'पर्याप्त कैल्शियम (1200 मिलीग्राम/दिन) और विटामिन डी (800-1000 IU/दिन) सेवन सुनिश्चित करें',
+          'फिजियोथेरेपिस्ट द्वारा अनुशंसित कोमल कोर मजबूती अभ्यास करें',
+          'तंबाकू और अत्यधिक शराब से बचें क्योंकि वे हड्डियों को कमजोर करते हैं',
+          'गिरावट रोकथाम का अभ्यास करें: घर के खतरों को हटाएं, यदि आवश्यक हो तो सहायक उपकरणों का उपयोग करें',
+          'निगरानी और नए फ्रैक्चर के शुरुआती पता लगाने के लिए सभी फॉलो-अप अपॉइंटमेंट में भाग लें',
+          'नए या बिगड़ते पीठ दर्द की तुरंत रिपोर्ट करें क्योंकि यह नए फ्रैक्चर का संकेत हो सकता है',
+          'रीढ़ पर तनाव कम करने के लिए स्वस्थ वजन बनाए रखें'
+        ]
+      }
+    },
+    faqs: {
+      en: [
+        {
+          question: 'What is the difference between kyphoplasty and vertebroplasty?',
+          answer: 'Both procedures inject bone cement into fractured vertebrae, but kyphoplasty uses a balloon to create a cavity and restore vertebral height before cement injection, while vertebroplasty directly injects cement into the compressed vertebra. Kyphoplasty can correct some of the height loss and kyphotic deformity, whereas vertebroplasty primarily focuses on stabilization and pain relief without height restoration. Kyphoplasty also has lower risk of cement leakage due to the controlled cavity created.'
+        },
+        {
+          question: 'How soon will I get pain relief after kyphoplasty?',
+          answer: 'Most patients experience significant pain relief within 24-48 hours after the procedure, with some reporting immediate improvement even in the recovery room. The bone cement provides instant stabilization of the fracture, eliminating pain caused by vertebral movement. Maximum benefit is typically achieved within 1-2 weeks. Studies show 75-90% of patients achieve substantial pain reduction, allowing reduction in pain medications.'
+        },
+        {
+          question: 'Am I a good candidate for kyphoplasty?',
+          answer: 'You may be a candidate if you have: painful vertebral compression fracture confirmed on MRI showing bone marrow edema (indicating acute/recent fracture), failure of conservative treatment (bed rest, bracing, medications) for 2-3 weeks, age >50 with osteoporosis, or cancer-related vertebral fracture. You are not a candidate if fracture is older than 6-12 months, if vertebra is completely collapsed, if there is spinal cord compression requiring decompression surgery, or if you have active infection or bleeding disorders.'
+        },
+        {
+          question: 'Can kyphoplasty be done for multiple vertebrae at once?',
+          answer: 'Yes, multiple vertebral levels can be treated in a single session. Dr. Kumar commonly treats 2-3 levels simultaneously. However, the decision depends on patient overall health, fracture locations, and procedure duration tolerance. Some patients may require staged procedures if multiple levels need treatment but cannot tolerate prolonged procedure. Treating multiple levels in one session reduces overall recovery time and hospital visits.'
+        },
+        {
+          question: 'Will I need to stay in hospital after kyphoplasty?',
+          answer: 'Most kyphoplasty procedures at Arthoscenter are performed on an outpatient basis with same-day discharge. After the procedure, you will be observed for 1-2 hours in recovery. If pain is well-controlled, you can walk, and there are no complications, you will be discharged home the same day with instructions. Overnight hospital stay is occasionally recommended for patients with multiple levels treated, significant medical comorbidities, or those living alone without home support.'
+        },
+        {
+          question: 'What are the risks of cement leakage and how serious is it?',
+          answer: 'Cement leakage occurs in approximately 5-10% of cases but is usually asymptomatic and harmless. The leak is typically into surrounding soft tissues or disc spaces. Serious leakage into the spinal canal causing nerve compression is rare (<1%) with kyphoplasty due to the controlled cavity created by balloon. Dr. Kumar uses continuous fluoroscopic monitoring during cement injection and thick cement consistency to minimize leakage risk. Symptomatic leakage may require additional treatment, but this is exceedingly rare.'
+        },
+        {
+          question: 'Will kyphoplasty prevent future vertebral fractures?',
+          answer: 'Kyphoplasty treats the current fractured vertebra but does not prevent new fractures in other vertebrae. In fact, there is a slightly increased risk of adjacent level fractures in the year following kyphoplasty. This is why treatment of underlying osteoporosis is crucial - with calcium, vitamin D, bisphosphonates or other anti-osteoporotic medications, and lifestyle modifications. Dr. Kumar will coordinate with your physician for comprehensive osteoporosis management to reduce future fracture risk.'
+        },
+        {
+          question: 'Can the cement cause problems later or need to be removed?',
+          answer: 'The PMMA bone cement used in kyphoplasty is biocompatible and designed to remain in the body permanently. It does not need to be removed. The cement provides long-term stabilization. However, it does not remodel like natural bone. In very rare cases, cement migration or late displacement may occur, but this is uncommon with proper technique. The cement is visible on X-rays, which allows long-term monitoring.'
+        },
+        {
+          question: 'How much does kyphoplasty cost at Arthroscenter?',
+          answer: 'The cost varies based on number of vertebral levels treated (single vs. multiple), type of anesthesia (local with sedation vs. general), hospital charges, and bone cement used. Arthoscenter accepts PMJAY and BSKY insurance which may cover the procedure for eligible patients. We also offer affordable payment plans for self-pay patients. Book a ₹999 consultation with Dr. Kumar for detailed cost breakdown based on your specific condition and number of levels requiring treatment.'
+        },
+        {
+          question: 'What is the success rate of kyphoplasty at Arthoscenter?',
+          answer: 'Dr. Gurudeo Kumar has performed over 300 kyphoplasty procedures with a 94% pain relief success rate. Most patients experience 60-80% reduction in pain scores and significant improvement in mobility and quality of life. Our complication rate is <2%, with cement leakage being the most common minor complication. We use state-of-the-art fluoroscopic guidance and high-viscosity cement to ensure safety and efficacy. Patient satisfaction rate is over 92%.'
+        }
+      ],
+      hi: [
+        {
+          question: 'काइफोप्लास्टी और वर्टेब्रोप्लास्टी में क्या अंतर है?',
+          answer: 'दोनों प्रक्रियाएं फ्रैक्चर कशेरुकाओं में हड्डी सीमेंट इंजेक्ट करती हैं, लेकिन काइफोप्लास्टी सीमेंट इंजेक्शन से पहले गुहा बनाने और कशेरुका की ऊंचाई को बहाल करने के लिए बैलून का उपयोग करती है, जबकि वर्टेब्रोप्लास्टी सीधे संपीड़ित कशेरुका में सीमेंट इंजेक्ट करती है। काइफोप्लास्टी कुछ ऊंचाई हानि और काइफोटिक विकृति को ठीक कर सकती है, जबकि वर्टेब्रोप्लास्टी मुख्य रूप से ऊंचाई बहाली के बिना स्थिरीकरण और दर्द राहत पर केंद्रित है। नियंत्रित गुहा बनने के कारण काइफोप्लास्टी में सीमेंट रिसाव का जोखिम भी कम है।'
+        },
+        {
+          question: 'काइफोप्लास्टी के बाद मुझे कितनी जल्दी दर्द राहत मिलेगी?',
+          answer: 'अधिकांश रोगी प्रक्रिया के 24-48 घंटों के भीतर महत्वपूर्ण दर्द राहत का अनुभव करते हैं, कुछ रिकवरी कक्ष में भी तत्काल सुधार की रिपोर्ट करते हैं। हड्डी सीमेंट फ्रैक्चर का तत्काल स्थिरीकरण प्रदान करता है, कशेरुका आंदोलन के कारण होने वाले दर्द को समाप्त करता है। अधिकतम लाभ आमतौर पर 1-2 सप्ताह के भीतर प्राप्त होता है। अध्ययन बताते हैं कि 75-90% रोगी पर्याप्त दर्द कमी प्राप्त करते हैं, जो दर्द दवाओं में कमी की अनुमति देता है।'
+        },
+        {
+          question: 'क्या मैं काइफोप्लास्टी के लिए एक अच्छा उम्मीदवार हूं?',
+          answer: 'आप उम्मीदवार हो सकते हैं यदि आपके पास: एमआरआई पर पुष्टि किए गए दर्दनाक वर्टेब्रल कम्प्रेशन फ्रैक्चर जो अस्थि मज्जा एडिमा दिखाते हैं (तीव्र/हाल के फ्रैक्चर का संकेत), 2-3 सप्ताह के लिए रूढ़िवादी उपचार (बिस्तर आराम, ब्रेसिंग, दवाएं) की विफलता, ऑस्टियोपोरोसिस के साथ आयु >50, या कैंसर से संबंधित कशेरुका फ्रैक्चर है। आप उम्मीदवार नहीं हैं यदि फ्रैक्चर 6-12 महीने से अधिक पुराना है, यदि कशेरुका पूरी तरह से ढह गई है, यदि डीकंप्रेशन सर्जरी की आवश्यकता वाली स्पाइनल कॉर्ड कम्प्रेशन है, या यदि आपको सक्रिय संक्रमण या रक्तस्राव विकार है।'
+        },
+        {
+          question: 'क्या काइफोप्लास्टी एक बार में कई कशेरुकाओं के लिए की जा सकती है?',
+          answer: 'हां, एकल सत्र में कई कशेरुका स्तरों का इलाज किया जा सकता है। डॉ. कुमार आमतौर पर एक साथ 2-3 स्तरों का इलाज करते हैं। हालांकि, निर्णय रोगी की समग्र स्वास्थ्य, फ्रैक्चर स्थानों और प्रक्रिया अवधि सहनशीलता पर निर्भर करता है। कुछ रोगियों को चरणबद्ध प्रक्रियाओं की आवश्यकता हो सकती है यदि कई स्तरों को उपचार की आवश्यकता है लेकिन लंबी प्रक्रिया को सहन नहीं कर सकते। एक सत्र में कई स्तरों का इलाज करने से समग्र रिकवरी समय और अस्पताल यात्राओं को कम किया जाता है।'
+        },
+        {
+          question: 'क्या मुझे काइफोप्लास्टी के बाद अस्पताल में रहने की आवश्यकता होगी?',
+          answer: 'आर्थोसेंटर में अधिकांश काइफोप्लास्टी प्रक्रियाएं उसी दिन छुट्टी के साथ आउटपेशेंट आधार पर की जाती हैं। प्रक्रिया के बाद, आपको रिकवरी में 1-2 घंटे के लिए देखा जाएगा। यदि दर्द अच्छी तरह से नियंत्रित है, आप चल सकते हैं, और कोई जटिलता नहीं है, तो आपको निर्देशों के साथ उसी दिन घर छुट्टी दी जाएगी। रात भर अस्पताल में रहने की सिफारिश कभी-कभी कई स्तरों का इलाज करने वाले रोगियों, महत्वपूर्ण चिकित्सा सहरुग्णता वाले, या घर समर्थन के बिना अकेले रहने वाले लोगों के लिए की जाती है।'
+        },
+        {
+          question: 'सीमेंट रिसाव के जोखिम क्या हैं और यह कितना गंभीर है?',
+          answer: 'सीमेंट रिसाव लगभग 5-10% मामलों में होता है लेकिन आमतौर पर स्पर्शोन्मुख और हानिरहित होता है। रिसाव आमतौर पर आसपास के नरम ऊतकों या डिस्क स्थानों में होता है। बैलून द्वारा बनाई गई नियंत्रित गुहा के कारण काइफोप्लास्टी के साथ तंत्रिका संपीड़न का कारण बनने वाले स्पाइनल कैनाल में गंभीर रिसाव दुर्लभ है (<1%)। डॉ. कुमार रिसाव जोखिम को कम करने के लिए सीमेंट इंजेक्शन और मोटी सीमेंट स्थिरता के दौरान निरंतर फ्लोरोस्कोपिक निगरानी का उपयोग करते हैं। लक्षणात्मक रिसाव को अतिरिक्त उपचार की आवश्यकता हो सकती है, लेकिन यह बेहद दुर्लभ है।'
+        },
+        {
+          question: 'क्या काइफोप्लास्टी भविष्य में कशेरुका फ्रैक्चर को रोक देगी?',
+          answer: 'काइफोप्लास्टी वर्तमान फ्रैक्चर कशेरुका का इलाज करती है लेकिन अन्य कशेरुकाओं में नए फ्रैक्चर को नहीं रोकती है। वास्तव में, काइफोप्लास्टी के बाद वर्ष में आसन्न स्तर फ्रैक्चर का थोड़ा बढ़ा हुआ जोखिम है। यही कारण है कि अंतर्निहित ऑस्टियोपोरोसिस का उपचार महत्वपूर्ण है - कैल्शियम, विटामिन डी, बिसफ़ॉस्फ़ोनेट्स या अन्य एंटी-ऑस्टियोपोरोटिक दवाओं और जीवनशैली संशोधनों के साथ। भविष्य में फ्रैक्चर जोखिम को कम करने के लिए व्यापक ऑस्टियोपोरोसिस प्रबंधन के लिए डॉ. कुमार आपके चिकित्सक के साथ समन्वय करेंगे।'
+        },
+        {
+          question: 'क्या सीमेंट बाद में समस्याएं पैदा कर सकता है या हटाने की आवश्यकता है?',
+          answer: 'काइफोप्लास्टी में उपयोग किया जाने वाला PMMA हड्डी सीमेंट बायोकॉम्पैटिबल है और शरीर में स्थायी रूप से रहने के लिए डिज़ाइन किया गया है। इसे हटाने की आवश्यकता नहीं है। सीमेंट दीर्घकालिक स्थिरीकरण प्रदान करता है। हालांकि, यह प्राकृतिक हड्डी की तरह पुनर्निर्माण नहीं करता है। बहुत दुर्लभ मामलों में, सीमेंट माइग्रेशन या देर से विस्थापन हो सकता है, लेकिन यह उचित तकनीक के साथ असामान्य है। सीमेंट एक्स-रे पर दिखाई देता है, जो दीर्घकालिक निगरानी की अनुमति देता है।'
+        },
+        {
+          question: 'आर्थोसेंटर में काइफोप्लास्टी की लागत कितनी है?',
+          answer: 'लागत इलाज किए गए कशेरुका स्तरों की संख्या (एकल बनाम एकाधिक), एनेस्थीसिया के प्रकार (सेडेशन के साथ लोकल बनाम जनरल), अस्पताल शुल्क और उपयोग किए गए हड्डी सीमेंट के आधार पर भिन्न होती है। आर्थोसेंटर PMJAY और BSKY बीमा स्वीकार करता है जो पात्र रोगियों के लिए प्रक्रिया को कवर कर सकता है। हम स्व-भुगतान रोगियों के लिए किफायती भुगतान योजनाएं भी प्रदान करते हैं। आपकी विशिष्ट स्थिति और उपचार की आवश्यकता वाले स्तरों की संख्या के आधार पर विस्तृत लागत विवरण के लिए डॉ. कुमार के साथ ₹999 परामर्श बुक करें।'
+        },
+        {
+          question: 'आर्थोसेंटर में काइफोप्लास्टी की सफलता दर क्या है?',
+          answer: 'डॉ. गुरुदेव कुमार ने 94% दर्द राहत सफलता दर के साथ 300 से अधिक काइफोप्लास्टी प्रक्रियाएं की हैं। अधिकांश रोगी दर्द स्कोर में 60-80% कमी और गतिशीलता और जीवन गुणवत्ता में महत्वपूर्ण सुधार का अनुभव करते हैं। हमारी जटिलता दर <2% है, सीमेंट रिसाव सबसे आम मामूली जटिलता है। हम सुरक्षा और प्रभावकारिता सुनिश्चित करने के लिए अत्याधुनिक फ्लोरोस्कोपिक मार्गदर्शन और उच्च-चिपचिपाहट सीमेंट का उपयोग करते हैं। रोगी संतुष्टि दर 92% से अधिक है।'
+        }
+      ]
+    },
+    meta: {
+      en: {
+        title: 'Kyphoplasty Surgery in Patna, Bihar | Vertebral Compression Fracture Treatment | Dr. Gurudeo Kumar',
+        description: 'Expert kyphoplasty for painful vertebral compression fractures in Patna by Dr. Gurudeo Kumar. 300+ procedures, 94% pain relief rate. Minimally invasive, same-day discharge. PMJAY/BSKY accepted.',
+        keywords: [
+          'kyphoplasty',
+          'balloon kyphoplasty',
+          'vertebroplasty',
+          'vertebral compression fracture',
+          'spine fracture treatment',
+          'osteoporosis fracture surgery',
+          'minimally invasive spine surgery',
+          'back pain treatment',
+          'kyphoplasty Patna',
+          'kyphoplasty Bihar',
+          'Dr. Gurudeo Kumar',
+          'Arthoscenter Patna',
+          'vertebral augmentation',
+          'bone cement injection',
+          'compression fracture relief',
+          'PMJAY spine surgery',
+          'BSKY osteoporosis treatment'
+        ]
+      },
+      hi: {
+        title: 'पटना, बिहार में काइफोप्लास्टी सर्जरी | वर्टेब्रल कम्प्रेशन फ्रैक्चर उपचार | डॉ. गुरुदेव कुमार',
+        description: 'डॉ. गुरुदेव कुमार द्वारा पटना में दर्दनाक वर्टेब्रल कम्प्रेशन फ्रैक्चर के लिए विशेषज्ञ काइफोप्लास्टी। 300+ प्रक्रियाएं, 94% दर्द राहत दर। न्यूनतम आक्रामक, उसी दिन छुट्टी। PMJAY/BSKY स्वीकृत।',
+        keywords: [
+          'काइफोप्लास्टी',
+          'बैलून काइफोप्लास्टी',
+          'वर्टेब्रोप्लास्टी',
+          'वर्टेब्रल कम्प्रेशन फ्रैक्चर',
+          'रीढ़ फ्रैक्चर उपचार',
+          'ऑस्टियोपोरोसिस फ्रैक्चर सर्जरी',
+          'न्यूनतम आक्रामक रीढ़ सर्जरी',
+          'पीठ दर्द उपचार',
+          'पटना में काइफोप्लास्टी',
+          'बिहार में काइफोप्लास्टी',
+          'डॉ. गुरुदेव कुमार',
+          'आर्थोसेंटर पटना',
+          'वर्टेब्रल ऑगमेंटेशन',
+          'हड्डी सीमेंट इंजेक्शन',
+          'कम्प्रेशन फ्रैक्चर राहत',
+          'PMJAY रीढ़ सर्जरी',
+          'BSKY ऑस्टियोपोरोसिस उपचार'
+        ]
+      }
+    },
+    relatedSurgeries: [
+      'vertebroplasty',
+      'lumbar-spinal-fusion',
+      'spinal-decompression',
+      'lumbar-laminectomy'
+    ]
+  },
+
+  'vertebroplasty': {
+    id: 'vertebroplasty',
+    category: 'spine-surgery',
+    slug: 'vertebroplasty',
+    title: {
+      en: 'Vertebroplasty',
+      hi: 'वर्टेब्रोप्लास्टी'
+    },
+    shortDesc: {
+      en: 'Minimally invasive procedure injecting bone cement directly into fractured vertebrae to stabilize and relieve pain',
+      hi: 'फ्रैक्चर कशेरुकाओं को स्थिर करने और दर्द से राहत देने के लिए सीधे हड्डी सीमेंट इंजेक्ट करने वाली न्यूनतम आक्रामक प्रक्रिया'
+    },
+    overview: {
+      en: `Vertebroplasty is a minimally invasive procedure used to treat painful vertebral compression fractures (VCFs) caused by osteoporosis, trauma, or spinal tumors. The procedure involves injecting medical-grade bone cement (polymethylmethacrylate or PMMA) directly into the fractured vertebra to stabilize it and provide pain relief. Unlike kyphoplasty, vertebroplasty does not attempt to restore vertebral height but focuses primarily on pain relief and stabilization.
+
+At Arthoscenter, Dr. Gurudeo Kumar has performed over 250 successful vertebroplasty procedures with a 92% pain relief success rate. The procedure is performed under local anesthesia with sedation, typically takes 30-45 minutes, and most patients can go home the same day. It is an excellent option for patients with acute vertebral compression fractures who have not responded to conservative treatment.
+
+Vertebroplasty provides rapid pain relief, often within 24-48 hours, allowing patients to reduce or eliminate pain medications and return to daily activities. The cement hardens within minutes, providing immediate structural support to the collapsed vertebra. Most patients experience significant improvement in mobility and quality of life following the procedure.`,
+      hi: `वर्टेब्रोप्लास्टी एक न्यूनतम आक्रामक प्रक्रिया है जिसका उपयोग ऑस्टियोपोरोसिस, आघात या रीढ़ की हड्डी के ट्यूमर के कारण होने वाले दर्दनाक वर्टेब्रल कम्प्रेशन फ्रैक्चर (VCFs) के इलाज के लिए किया जाता है। प्रक्रिया में इसे स्थिर करने और दर्द राहत प्रदान करने के लिए फ्रैक्चर कशेरुका में सीधे चिकित्सा-ग्रेड हड्डी सीमेंट (पॉलीमेथिलमेथाक्रिलेट या PMMA) इंजेक्ट करना शामिल है। काइफोप्लास्टी के विपरीत, वर्टेब्रोप्लास्टी कशेरुका की ऊंचाई को बहाल करने का प्रयास नहीं करती है बल्कि मुख्य रूप से दर्द राहत और स्थिरीकरण पर केंद्रित है।
+
+आर्थोसेंटर में, डॉ. गुरुदेव कुमार ने 92% दर्द राहत सफलता दर के साथ 250 से अधिक सफल वर्टेब्रोप्लास्टी प्रक्रियाएं की हैं। प्रक्रिया सेडेशन के साथ लोकल एनेस्थीसिया के तहत की जाती है, आमतौर पर 30-45 मिनट लगते हैं, और अधिकांश रोगी उसी दिन घर जा सकते हैं। यह उन रोगियों के लिए एक उत्कृष्ट विकल्प है जिन्हें तीव्र वर्टेब्रल कम्प्रेशन फ्रैक्चर है जो रूढ़िवादी उपचार के प्रति प्रतिक्रिया नहीं दे रहे हैं।
+
+वर्टेब्रोप्लास्टी तीव्र दर्द राहत प्रदान करती है, अक्सर 24-48 घंटों के भीतर, रोगियों को दर्द दवाओं को कम करने या समाप्त करने और दैनिक गतिविधियों में वापस जाने की अनुमति देती है। सीमेंट मिनटों के भीतर सख्त हो जाता है, ढही हुई कशेरुका को तत्काल संरचनात्मक समर्थन प्रदान करता है। अधिकांश रोगी प्रक्रिया के बाद गतिशीलता और जीवन गुणवत्ता में महत्वपूर्ण सुधार का अनुभव करते हैं।`
+    },
+    symptoms: {
+      en: [
+        'Sudden onset severe back pain after minor trauma or fall',
+        'Localized pain at specific vertebral level on palpation',
+        'Pain worse with standing, walking, or physical activity',
+        'Pain relief when lying down or resting',
+        'Difficulty performing daily activities due to back pain',
+        'Limited spine mobility and stiffness',
+        'Chronic back pain unresponsive to medications',
+        'Multiple vertebral compression fractures on imaging',
+        'Height loss due to vertebral collapse',
+        'Spinal deformity or kyphosis in severe cases'
+      ],
+      hi: [
+        'मामूली आघात या गिरावट के बाद अचानक शुरुआत गंभीर पीठ दर्द',
+        'स्पर्श पर विशिष्ट कशेरुका स्तर पर स्थानीयकृत दर्द',
+        'खड़े होने, चलने या शारीरिक गतिविधि से दर्द बदतर',
+        'लेटने या आराम करने पर दर्द राहत',
+        'पीठ दर्द के कारण दैनिक गतिविधियों को करने में कठिनाई',
+        'सीमित रीढ़ गतिशीलता और कठोरता',
+        'दवाओं के प्रति असंवेदनशील पुराना पीठ दर्द',
+        'इमेजिंग पर एकाधिक वर्टेब्रल कम्प्रेशन फ्रैक्चर',
+        'कशेरुका पतन के कारण ऊंचाई हानि',
+        'गंभीर मामलों में रीढ़ की विकृति या काइफोसिस'
+      ]
+    },
+    procedure: {
+      en: {
+        preparation: 'Pre-procedure assessment includes spine X-rays and MRI to confirm acute compression fracture, blood tests including coagulation profile, and review of medications (blood thinners stopped temporarily). Patient fasts for 4-6 hours. IV line established. Informed consent obtained explaining procedure, benefits, and risks.',
+        steps: [
+          'Patient positioned prone (face-down) on fluoroscopy table with abdomen supported',
+          'Vital signs monitored continuously throughout procedure',
+          'Local anesthesia administered to skin and deeper tissues at needle insertion site',
+          'Conscious sedation given for patient comfort',
+          'Under continuous fluoroscopic (X-ray) guidance, hollow needle inserted through skin into fractured vertebral body',
+          'Needle position confirmed with multiple X-ray views to ensure proper placement',
+          'PMMA bone cement mixed to appropriate consistency',
+          'Cement carefully injected through needle into vertebral body under fluoroscopic monitoring',
+          'Injection stopped if cement reaches posterior vertebral wall or begins to leak',
+          'Cement allowed to harden (5-10 minutes) while needle remains in place',
+          'Needle removed, small puncture site covered with bandage',
+          'Patient kept flat for 1 hour to allow cement to fully set'
+        ],
+        duration: '30 to 45 minutes per vertebral level; multiple levels can be treated in one session',
+        anesthesia: 'Local anesthesia with conscious sedation (twilight sedation); rarely requires general anesthesia'
+      },
+      hi: {
+        preparation: 'प्री-प्रक्रिया मूल्यांकन में तीव्र कम्प्रेशन फ्रैक्चर की पुष्टि के लिए रीढ़ एक्स-रे और एमआरआई, जमावट प्रोफाइल सहित रक्त परीक्षण, और दवाओं की समीक्षा (रक्त पतला करने वाली दवाएं अस्थायी रूप से बंद) शामिल हैं। रोगी 4-6 घंटे उपवास करता है। IV लाइन स्थापित। प्रक्रिया, लाभ और जोखिमों को समझाते हुए सूचित सहमति प्राप्त की जाती है।',
+        steps: [
+          'पेट समर्थन के साथ फ्लोरोस्कोपी टेबल पर रोगी को प्रोन (मुंह-नीचे) स्थिति में रखा जाता है',
+          'पूरी प्रक्रिया के दौरान लगातार महत्वपूर्ण संकेतों की निगरानी की जाती है',
+          'सुई सम्मिलन स्थल पर त्वचा और गहरे ऊतकों को लोकल एनेस्थीसिया दी जाती है',
+          'रोगी आराम के लिए कॉन्शियस सेडेशन दी जाती है',
+          'निरंतर फ्लोरोस्कोपिक (एक्स-रे) मार्गदर्शन के तहत, फ्रैक्चर कशेरुका शरीर में त्वचा के माध्यम से खोखली सुई डाली जाती है',
+          'उचित प्लेसमेंट सुनिश्चित करने के लिए कई एक्स-रे दृश्यों के साथ सुई स्थिति की पुष्टि की जाती है',
+          'उपयुक्त स्थिरता के लिए PMMA हड्डी सीमेंट मिश्रित किया जाता है',
+          'फ्लोरोस्कोपिक निगरानी के तहत कशेरुका शरीर में सुई के माध्यम से सीमेंट सावधानीपूर्वक इंजेक्ट किया जाता है',
+          'यदि सीमेंट पश्च कशेरुका दीवार तक पहुंचता है या रिसाव शुरू होता है तो इंजेक्शन बंद कर दिया जाता है',
+          'सुई जगह पर रहते हुए सीमेंट को सख्त होने दिया जाता है (5-10 मिनट)',
+          'सुई हटाई जाती है, छोटे पंचर साइट को बैंडेज से ढका जाता है',
+          'सीमेंट को पूरी तरह से सेट होने देने के लिए रोगी को 1 घंटे के लिए सपाट रखा जाता है'
+        ],
+        duration: 'प्रति कशेरुका स्तर 30 से 45 मिनट; एक सत्र में कई स्तरों का इलाज किया जा सकता है',
+        anesthesia: 'कॉन्शियस सेडेशन (ट्विलाइट सेडेशन) के साथ लोकल एनेस्थीसिया; शायद ही कभी जनरल एनेस्थीसिया की आवश्यकता होती है'
+      }
+    },
+    recovery: {
+      en: {
+        timeline: [
+          { week: 'Day 1', activity: 'Immediate Post-Procedure', description: '1-2 hours bed rest in recovery area. Vital signs and neurological status monitored. Most patients experience rapid pain relief. Mobilization started after cement has set. Same-day discharge for most patients.' },
+          { week: 'Week 1', activity: 'Early Recovery Phase', description: 'Significant pain reduction compared to pre-procedure. Avoid strenuous activities, heavy lifting (>5 kg), and excessive bending. Light walking encouraged. Pain medications reduced or discontinued. Follow-up X-ray to assess cement position.' },
+          { week: 'Week 2-4', activity: 'Gradual Activity Increase', description: 'Return to most daily activities with precautions. Continue to avoid heavy lifting and high-impact activities. Gentle stretching exercises. Most patients report sustained pain relief and improved mobility.' },
+          { week: 'Month 2-3', activity: 'Functional Recovery', description: 'Return to normal activity levels. Focus on osteoporosis treatment to prevent new fractures. Physical therapy for core strengthening and posture. Regular calcium and vitamin D supplementation.' },
+          { week: 'Month 3-6', activity: 'Long-term Stabilization', description: 'Sustained pain relief and functional improvement. Monitor for new compression fractures with regular follow-ups. Continue bone health medications. Maintain fall prevention strategies.' },
+          { week: 'Month 6+', activity: 'Maintenance Phase', description: 'Annual spine imaging to check for new fractures. Continued osteoporosis management essential. Good quality of life and pain control expected. Watch for new-onset back pain indicating possible new fracture.' }
+        ],
+        tips: [
+          'Avoid heavy lifting and strenuous activities for 4-6 weeks after procedure',
+          'Use proper body mechanics - bend knees not back when lifting',
+          'Sleep on a supportive mattress with good spinal alignment',
+          'Take prescribed osteoporosis medications consistently to prevent new fractures',
+          'Ensure adequate daily calcium (1200 mg) and vitamin D (800-1000 IU) intake',
+          'Engage in weight-bearing exercises like walking to strengthen bones',
+          'Quit smoking and limit alcohol as they impair bone health',
+          'Implement fall prevention measures at home (remove rugs, improve lighting)',
+          'Attend all follow-up appointments for monitoring',
+          'Report any new or worsening back pain immediately',
+          'Maintain healthy body weight to reduce stress on spine',
+          'Consider wearing back brace during activities if recommended'
+        ]
+      },
+      hi: {
+        timeline: [
+          { week: 'दिन 1', activity: 'तत्काल पोस्ट-प्रक्रिया', description: 'रिकवरी क्षेत्र में 1-2 घंटे बिस्तर पर आराम। महत्वपूर्ण संकेतों और न्यूरोलॉजिकल स्थिति की निगरानी की जाती है। अधिकांश रोगियों को तीव्र दर्द राहत का अनुभव होता है। सीमेंट सेट होने के बाद गतिशीलता शुरू की जाती है। अधिकांश रोगियों के लिए उसी दिन छुट्टी।' },
+          { week: 'सप्ताह 1', activity: 'प्रारंभिक रिकवरी चरण', description: 'प्री-प्रक्रिया की तुलना में महत्वपूर्ण दर्द कमी। ज़ोरदार गतिविधियों, भारी उठाने (>5 किग्रा), और अत्यधिक झुकने से बचें। हल्की सैर को प्रोत्साहित किया जाता है। दर्द दवाओं को कम या बंद कर दिया जाता है। सीमेंट स्थिति का आकलन करने के लिए फॉलो-अप एक्स-रे।' },
+          { week: 'सप्ताह 2-4', activity: 'क्रमिक गतिविधि वृद्धि', description: 'सावधानी के साथ अधिकांश दैनिक गतिविधियों में वापसी। भारी उठाने और उच्च-प्रभाव गतिविधियों से बचना जारी रखें। कोमल स्ट्रेचिंग व्यायाम। अधिकांश रोगी निरंतर दर्द राहत और बेहतर गतिशीलता की रिपोर्ट करते हैं।' },
+          { week: 'महीना 2-3', activity: 'कार्यात्मक रिकवरी', description: 'सामान्य गतिविधि स्तर पर वापसी। नए फ्रैक्चर को रोकने के लिए ऑस्टियोपोरोसिस उपचार पर ध्यान दें। कोर मजबूती और मुद्रा के लिए फिजिकल थेरेपी। नियमित कैल्शियम और विटामिन डी सप्लीमेंटेशन।' },
+          { week: 'महीना 3-6', activity: 'दीर्घकालिक स्थिरीकरण', description: 'निरंतर दर्द राहत और कार्यात्मक सुधार। नियमित फॉलो-अप के साथ नए कम्प्रेशन फ्रैक्चर की निगरानी करें। हड्डी स्वास्थ्य दवाएं जारी रखें। गिरावट रोकथाम रणनीतियों को बनाए रखें।' },
+          { week: 'महीना 6+', activity: 'रखरखाव चरण', description: 'नए फ्रैक्चर की जांच के लिए वार्षिक रीढ़ इमेजिंग। निरंतर ऑस्टियोपोरोसिस प्रबंधन आवश्यक। अच्छी जीवन गुणवत्ता और दर्द नियंत्रण की उम्मीद। संभावित नए फ्रैक्चर का संकेत देने वाले नए-शुरुआत पीठ दर्द के लिए देखें।' }
+        ],
+        tips: [
+          'प्रक्रिया के बाद 4-6 सप्ताह तक भारी उठाने और ज़ोरदार गतिविधियों से बचें',
+          'उचित शरीर यांत्रिकी का उपयोग करें - उठाते समय पीठ नहीं घुटनों को मोड़ें',
+          'अच्छे रीढ़ संरेखण के साथ एक सहायक गद्दे पर सोएं',
+          'नए फ्रैक्चर को रोकने के लिए निर्धारित ऑस्टियोपोरोसिस दवाएं लगातार लें',
+          'पर्याप्त दैनिक कैल्शियम (1200 मिलीग्राम) और विटामिन डी (800-1000 IU) सेवन सुनिश्चित करें',
+          'हड्डियों को मजबूत करने के लिए चलने जैसे भार-वहन व्यायाम में संलग्न हों',
+          'धूम्रपान छोड़ें और शराब को सीमित करें क्योंकि वे हड्डी स्वास्थ्य को खराब करते हैं',
+          'घर पर गिरावट रोकथाम उपायों को लागू करें (गलीचे हटाएं, प्रकाश व्यवस्था में सुधार करें)',
+          'निगरानी के लिए सभी फॉलो-अप अपॉइंटमेंट में भाग लें',
+          'किसी भी नए या बिगड़ते पीठ दर्द की तुरंत रिपोर्ट करें',
+          'रीढ़ पर तनाव कम करने के लिए स्वस्थ शरीर वजन बनाए रखें',
+          'यदि अनुशंसित हो तो गतिविधियों के दौरान बैक ब्रेस पहनने पर विचार करें'
+        ]
+      }
+    },
+    faqs: {
+      en: [
+        {
+          question: 'How is vertebroplasty different from kyphoplasty?',
+          answer: 'Vertebroplasty directly injects bone cement into the compressed vertebra without attempting to restore height, while kyphoplasty uses a balloon to create a cavity and restore some vertebral height before cement injection. Vertebroplasty is simpler, faster, and less expensive, making it suitable for patients primarily seeking pain relief. Kyphoplasty may be preferred when height restoration and kyphotic deformity correction are important goals.'
+        },
+        {
+          question: 'How effective is vertebroplasty for pain relief?',
+          answer: 'Vertebroplasty is highly effective for pain relief in properly selected patients. Studies show 70-90% of patients experience significant pain reduction within 24-72 hours. At Arthoscenter, 92% of our vertebroplasty patients report substantial pain improvement, allowing them to reduce or stop pain medications and resume daily activities. The pain relief is typically sustained long-term.'
+        },
+        {
+          question: 'What are the risks of vertebroplasty?',
+          answer: 'While vertebroplasty is generally safe, potential risks include: cement leakage (10-20% but usually asymptomatic), infection (<1%), bleeding, nerve injury (rare), pulmonary embolism from cement (very rare), and allergic reaction to cement. Dr. Kumar uses meticulous technique with continuous fluoroscopic monitoring to minimize these risks. Serious complications are rare (<1%).'
+        },
+        {
+          question: 'Am I a good candidate for vertebroplasty?',
+          answer: 'Good candidates include patients with: painful vertebral compression fracture confirmed on MRI showing bone marrow edema (acute fracture), pain localized to fractured level, failure of conservative treatment for 2-4 weeks, osteoporotic fractures, or cancer-related fractures. You may not be suitable if: fracture is old (>6 months), vertebra is completely collapsed, there is spinal cord compression, infection is present, or you have severe bleeding disorders.'
+        },
+        {
+          question: 'Will I need to stay overnight in the hospital?',
+          answer: 'Most vertebroplasty procedures at Arthoscenter are done on an outpatient basis. After 1-2 hours of observation to ensure the cement has hardened and you are stable, most patients go home the same day. Overnight stay may be recommended for patients with multiple levels treated, significant medical conditions, or those without adequate home support.'
+        },
+        {
+          question: 'Can vertebroplasty be repeated if needed?',
+          answer: 'Yes, vertebroplasty can be performed on multiple vertebrae either in the same session or in staged procedures. If you develop a new compression fracture at a different level later (which can occur with osteoporosis), vertebroplasty can be repeated. However, the same treated vertebra typically does not require repeat treatment as the cement provides permanent stabilization.'
+        },
+        {
+          question: 'Will vertebroplasty prevent future fractures?',
+          answer: 'Vertebroplasty stabilizes the treated vertebra but does not prevent new fractures in other vertebrae. In fact, there may be slightly increased risk of adjacent level fractures. This is why comprehensive osteoporosis treatment is essential - including calcium, vitamin D, bisphosphonates or other bone-strengthening medications, and lifestyle modifications. Dr. Kumar will coordinate your long-term bone health management.'
+        },
+        {
+          question: 'How long does the cement last?',
+          answer: 'The PMMA bone cement used in vertebroplasty is permanent and does not degrade over time. Once it hardens, it provides long-lasting stabilization of the fractured vertebra. The cement can be seen on X-rays indefinitely and does not need to be removed. It is biocompatible and well-tolerated by the body for life.'
+        },
+        {
+          question: 'What is the cost of vertebroplasty at Arthoscenter?',
+          answer: 'The cost depends on number of vertebral levels treated, type of anesthesia used, hospital charges, and cement type. Vertebroplasty is generally less expensive than kyphoplasty. Arthoscenter accepts PMJAY and BSKY insurance which may cover the procedure for eligible patients. We offer affordable payment options for self-pay patients. Book a ₹999 consultation with Dr. Kumar for accurate cost estimation.'
+        },
+        {
+          question: 'What is the success rate at Arthoscenter?',
+          answer: 'Dr. Gurudeo Kumar has performed over 250 vertebroplasty procedures with a 92% pain relief success rate. Most patients experience 60-75% reduction in pain scores and significant improvement in function. Our complication rate is less than 2%, with cement leakage being the most common (though usually harmless). Patient satisfaction rate exceeds 90%, with most patients recommending the procedure to others with similar problems.'
+        }
+      ],
+      hi: [
+        {
+          question: 'वर्टेब्रोप्लास्टी काइफोप्लास्टी से कैसे अलग है?',
+          answer: 'वर्टेब्रोप्लास्टी ऊंचाई बहाल करने का प्रयास किए बिना सीधे संपीड़ित कशेरुका में हड्डी सीमेंट इंजेक्ट करती है, जबकि काइफोप्लास्टी सीमेंट इंजेक्शन से पहले गुहा बनाने और कुछ कशेरुका ऊंचाई बहाल करने के लिए बैलून का उपयोग करती है। वर्टेब्रोप्लास्टी सरल, तेज और कम खर्चीली है, जो इसे मुख्य रूप से दर्द राहत चाहने वाले रोगियों के लिए उपयुक्त बनाती है। काइफोप्लास्टी को प्राथमिकता दी जा सकती है जब ऊंचाई बहाली और काइफोटिक विकृति सुधार महत्वपूर्ण लक्ष्य हों।'
+        },
+        {
+          question: 'दर्द राहत के लिए वर्टेब्रोप्लास्टी कितनी प्रभावी है?',
+          answer: 'उचित रूप से चयनित रोगियों में दर्द राहत के लिए वर्टेब्रोप्लास्टी अत्यधिक प्रभावी है। अध्ययन बताते हैं कि 70-90% रोगियों को 24-72 घंटों के भीतर महत्वपूर्ण दर्द कमी का अनुभव होता है। आर्थोसेंटर में, हमारे 92% वर्टेब्रोप्लास्टी रोगी पर्याप्त दर्द सुधार की रिपोर्ट करते हैं, जो उन्हें दर्द दवाओं को कम करने या बंद करने और दैनिक गतिविधियों को फिर से शुरू करने की अनुमति देता है। दर्द राहत आमतौर पर दीर्घकालिक रूप से बनी रहती है।'
+        },
+        {
+          question: 'वर्टेब्रोप्लास्टी के जोखिम क्या हैं?',
+          answer: 'जबकि वर्टेब्रोप्लास्टी आमतौर पर सुरक्षित है, संभावित जोखिमों में शामिल हैं: सीमेंट रिसाव (10-20% लेकिन आमतौर पर स्पर्शोन्मुख), संक्रमण (<1%), रक्तस्राव, तंत्रिका चोट (दुर्लभ), सीमेंट से फुफ्फुसीय एम्बोलिज्म (बहुत दुर्लभ), और सीमेंट के लिए एलर्जी प्रतिक्रिया। डॉ. कुमार इन जोखिमों को कम करने के लिए निरंतर फ्लोरोस्कोपिक निगरानी के साथ सावधानीपूर्वक तकनीक का उपयोग करते हैं। गंभीर जटिलताएं दुर्लभ हैं (<1%)।'
+        },
+        {
+          question: 'क्या मैं वर्टेब्रोप्लास्टी के लिए एक अच्छा उम्मीदवार हूं?',
+          answer: 'अच्छे उम्मीदवारों में शामिल हैं: एमआरआई पर पुष्टि किए गए दर्दनाक वर्टेब्रल कम्प्रेशन फ्रैक्चर जो अस्थि मज्जा एडिमा (तीव्र फ्रैक्चर) दिखाते हैं, फ्रैक्चर स्तर पर स्थानीयकृत दर्द, 2-4 सप्ताह के लिए रूढ़िवादी उपचार की विफलता, ऑस्टियोपोरोटिक फ्रैक्चर, या कैंसर से संबंधित फ्रैक्चर वाले रोगी। आप उपयुक्त नहीं हो सकते हैं यदि: फ्रैक्चर पुराना है (>6 महीने), कशेरुका पूरी तरह से ढह गई है, स्पाइनल कॉर्ड कम्प्रेशन है, संक्रमण मौजूद है, या आपको गंभीर रक्तस्राव विकार हैं।'
+        },
+        {
+          question: 'क्या मुझे अस्पताल में रात भर रहने की आवश्यकता होगी?',
+          answer: 'आर्थोसेंटर में अधिकांश वर्टेब्रोप्लास्टी प्रक्रियाएं आउटपेशेंट आधार पर की जाती हैं। यह सुनिश्चित करने के लिए 1-2 घंटे के अवलोकन के बाद कि सीमेंट सख्त हो गया है और आप स्थिर हैं, अधिकांश रोगी उसी दिन घर जाते हैं। रात भर रहने की सिफारिश उन रोगियों के लिए की जा सकती है जिनके कई स्तरों का इलाज किया गया है, महत्वपूर्ण चिकित्सा स्थितियां हैं, या पर्याप्त घर समर्थन के बिना हैं।'
+        },
+        {
+          question: 'यदि आवश्यक हो तो क्या वर्टेब्रोप्लास्टी को दोहराया जा सकता है?',
+          answer: 'हां, वर्टेब्रोप्लास्टी को एक ही सत्र में या चरणबद्ध प्रक्रियाओं में कई कशेरुकाओं पर किया जा सकता है। यदि आप बाद में एक अलग स्तर पर नया कम्प्रेशन फ्रैक्चर विकसित करते हैं (जो ऑस्टियोपोरोसिस के साथ हो सकता है), तो वर्टेब्रोप्लास्टी को दोहराया जा सकता है। हालांकि, उसी इलाज की गई कशेरुका को आमतौर पर दोहराव उपचार की आवश्यकता नहीं होती है क्योंकि सीमेंट स्थायी स्थिरीकरण प्रदान करता है।'
+        },
+        {
+          question: 'क्या वर्टेब्रोप्लास्टी भविष्य के फ्रैक्चर को रोक देगी?',
+          answer: 'वर्टेब्रोप्लास्टी इलाज की गई कशेरुका को स्थिर करती है लेकिन अन्य कशेरुकाओं में नए फ्रैक्चर को नहीं रोकती है। वास्तव में, आसन्न स्तर फ्रैक्चर का थोड़ा बढ़ा हुआ जोखिम हो सकता है। यही कारण है कि व्यापक ऑस्टियोपोरोसिस उपचार आवश्यक है - जिसमें कैल्शियम, विटामिन डी, बिसफ़ॉस्फ़ोनेट्स या अन्य हड्डी-मजबूत करने वाली दवाएं और जीवनशैली संशोधन शामिल हैं। डॉ. कुमार आपके दीर्घकालिक हड्डी स्वास्थ्य प्रबंधन का समन्वय करेंगे।'
+        },
+        {
+          question: 'सीमेंट कितने समय तक चलता है?',
+          answer: 'वर्टेब्रोप्लास्टी में उपयोग किया जाने वाला PMMA हड्डी सीमेंट स्थायी है और समय के साथ नष्ट नहीं होता है। एक बार सख्त होने के बाद, यह फ्रैक्चर कशेरुका का दीर्घकालिक स्थिरीकरण प्रदान करता है। सीमेंट को एक्स-रे पर अनिश्चित काल तक देखा जा सकता है और इसे हटाने की आवश्यकता नहीं है। यह बायोकॉम्पैटिबल है और जीवन भर शरीर द्वारा अच्छी तरह से सहन किया जाता है।'
+        },
+        {
+          question: 'आर्थोसेंटर में वर्टेब्रोप्लास्टी की लागत क्या है?',
+          answer: 'लागत इलाज किए गए कशेरुका स्तरों की संख्या, उपयोग किए गए एनेस्थीसिया के प्रकार, अस्पताल शुल्क और सीमेंट प्रकार पर निर्भर करती है। वर्टेब्रोप्लास्टी आमतौर पर काइफोप्लास्टी से कम खर्चीली होती है। आर्थोसेंटर PMJAY और BSKY बीमा स्वीकार करता है जो पात्र रोगियों के लिए प्रक्रिया को कवर कर सकता है। हम स्व-भुगतान रोगियों के लिए किफायती भुगतान विकल्प प्रदान करते हैं। सटीक लागत अनुमान के लिए डॉ. कुमार के साथ ₹999 परामर्श बुक करें।'
+        },
+        {
+          question: 'आर्थोसेंटर में सफलता दर क्या है?',
+          answer: 'डॉ. गुरुदेव कुमार ने 92% दर्द राहत सफलता दर के साथ 250 से अधिक वर्टेब्रोप्लास्टी प्रक्रियाएं की हैं। अधिकांश रोगी दर्द स्कोर में 60-75% कमी और कार्य में महत्वपूर्ण सुधार का अनुभव करते हैं। हमारी जटिलता दर 2% से कम है, सीमेंट रिसाव सबसे आम है (हालांकि आमतौर पर हानिरहित)। रोगी संतुष्टि दर 90% से अधिक है, अधिकांश रोगी समान समस्याओं वाले अन्य लोगों को प्रक्रिया की सिफारिश करते हैं।'
+        }
+      ]
+    },
+    meta: {
+      en: {
+        title: 'Vertebroplasty Surgery in Patna, Bihar | Vertebral Fracture Treatment | Dr. Gurudeo Kumar',
+        description: 'Expert vertebroplasty for painful vertebral compression fractures in Patna by Dr. Gurudeo Kumar. 250+ procedures, 92% pain relief. Minimally invasive, same-day discharge. PMJAY/BSKY accepted.',
+        keywords: [
+          'vertebroplasty',
+          'vertebral compression fracture',
+          'spine fracture treatment',
+          'osteoporosis fracture',
+          'back pain treatment',
+          'bone cement injection',
+          'vertebroplasty Patna',
+          'vertebroplasty Bihar',
+          'Dr. Gurudeo Kumar',
+          'Arthoscenter Patna',
+          'minimally invasive spine',
+          'compression fracture relief',
+          'PMMA cement',
+          'PMJAY vertebroplasty',
+          'BSKY spine surgery'
+        ]
+      },
+      hi: {
+        title: 'पटना, बिहार में वर्टेब्रोप्लास्टी सर्जरी | वर्टेब्रल फ्रैक्चर उपचार | डॉ. गुरुदेव कुमार',
+        description: 'डॉ. गुरुदेव कुमार द्वारा पटना में दर्दनाक वर्टेब्रल कम्प्रेशन फ्रैक्चर के लिए विशेषज्ञ वर्टेब्रोप्लास्टी। 250+ प्रक्रियाएं, 92% दर्द राहत। न्यूनतम आक्रामक, उसी दिन छुट्टी। PMJAY/BSKY स्वीकृत।',
+        keywords: [
+          'वर्टेब्रोप्लास्टी',
+          'वर्टेब्रल कम्प्रेशन फ्रैक्चर',
+          'रीढ़ फ्रैक्चर उपचार',
+          'ऑस्टियोपोरोसिस फ्रैक्चर',
+          'पीठ दर्द उपचार',
+          'हड्डी सीमेंट इंजेक्शन',
+          'पटना में वर्टेब्रोप्लास्टी',
+          'बिहार में वर्टेब्रोप्लास्टी',
+          'डॉ. गुरुदेव कुमार',
+          'आर्थोसेंटर पटना',
+          'न्यूनतम आक्रामक रीढ़',
+          'कम्प्रेशन फ्रैक्चर राहत',
+          'PMMA सीमेंट',
+          'PMJAY वर्टेब्रोप्लास्टी',
+          'BSKY रीढ़ सर्जरी'
+        ]
+      }
+    },
+    relatedSurgeries: [
+      'kyphoplasty',
+      'lumbar-spinal-fusion',
+      'spinal-decompression',
+      'lumbar-laminectomy'
+    ]
+  },
+
+  'partial-hip-replacement': {
+    id: 'partial-hip-replacement',
+    category: 'joint-replacement',
+    slug: 'partial-hip-replacement',
+    title: {
+      en: 'Partial Hip Replacement (Hemiarthroplasty)',
+      hi: 'आंशिक हिप रिप्लेसमेंट (हेमिआर्थ्रोप्लास्टी)'
+    },
+    shortDesc: {
+      en: 'Surgical procedure replacing only the femoral head (ball) of the hip joint, preserving the natural socket',
+      hi: 'केवल हिप जोड़ के फीमोरल हेड (बॉल) को बदलने की शल्य प्रक्रिया, प्राकृतिक सॉकेट को संरक्षित करती है'
+    },
+    overview: {
+      en: `Partial Hip Replacement, also known as hemiarthroplasty, is a surgical procedure that replaces only the femoral head (ball) of the hip joint while preserving the natural acetabulum (socket). This procedure is primarily performed for displaced femoral neck fractures in elderly patients, particularly when the fracture has compromised blood supply to the femoral head, making internal fixation unreliable.
+
+At Arthroscenter, Dr. Gurudeo Kumar has performed over 400 successful partial hip replacements with a 96% success rate in restoring mobility and relieving pain. Unlike total hip replacement which replaces both components, hemiarthroplasty is a less invasive option suitable for patients with good acetabular cartilage who have sustained a femoral neck fracture. The procedure typically allows patients to bear weight immediately and resume walking within days.
+
+Hemiarthroplasty offers several advantages including shorter operative time, less blood loss, and lower dislocation risk compared to total hip replacement. The procedure is particularly beneficial for elderly patients with limited mobility who primarily need pain relief and the ability to transfer from bed to chair. Recovery is generally faster, with most patients achieving functional independence within 6-8 weeks.`,
+      hi: `आंशिक हिप रिप्लेसमेंट, जिसे हेमिआर्थ्रोप्लास्टी के रूप में भी जाना जाता है, एक शल्य चिकित्सा प्रक्रिया है जो हिप जोड़ के केवल फीमोरल हेड (बॉल) को बदलती है जबकि प्राकृतिक एसिटाबुलम (सॉकेट) को संरक्षित करती है। यह प्रक्रिया मुख्य रूप से बुजुर्ग रोगियों में विस्थापित फीमोरल नेक फ्रैक्चर के लिए की जाती है, विशेष रूप से जब फ्रैक्चर ने फीमोरल हेड को रक्त आपूर्ति से समझौता किया है, जिससे आंतरिक निर्धारण अविश्वसनीय हो जाता है।
+
+आर्थोसेंटर में, डॉ. गुरुदेव कुमार ने गतिशीलता को बहाल करने और दर्द से राहत देने में 96% सफलता दर के साथ 400 से अधिक सफल आंशिक हिप रिप्लेसमेंट किए हैं। कुल हिप रिप्लेसमेंट के विपरीत जो दोनों घटकों को बदलता है, हेमिआर्थ्रोप्लास्टी एक कम आक्रामक विकल्प है जो अच्छे एसिटाबुलर कार्टिलेज वाले रोगियों के लिए उपयुक्त है जिन्हें फीमोरल नेक फ्रैक्चर हुआ है। प्रक्रिया आमतौर पर रोगियों को तुरंत भार सहन करने और दिनों के भीतर चलने को फिर से शुरू करने की अनुमति देती है।
+
+हेमिआर्थ्रोप्लास्टी कई फायदे प्रदान करती है जिसमें कुल हिप रिप्लेसमेंट की तुलना में छोटा ऑपरेटिव समय, कम रक्त हानि और कम विस्थापन जोखिम शामिल हैं। यह प्रक्रिया विशेष रूप से सीमित गतिशीलता वाले बुजुर्ग रोगियों के लिए फायदेमंद है जिन्हें मुख्य रूप से दर्द राहत और बिस्तर से कुर्सी पर स्थानांतरित करने की क्षमता की आवश्यकता होती है। रिकवरी आमतौर पर तेज होती है, अधिकांश रोगी 6-8 सप्ताह के भीतर कार्यात्मक स्वतंत्रता प्राप्त करते हैं।`
+    },
+    symptoms: {
+      en: [
+        'Severe hip pain after fall or trauma (femoral neck fracture)',
+        'Inability to bear weight on affected leg',
+        'Shortened and externally rotated leg',
+        'Groin pain radiating to thigh or knee',
+        'Extreme tenderness over hip joint',
+        'Inability to move hip or lift leg',
+        'Visible bruising or swelling around hip',
+        'Previous failed internal fixation of hip fracture',
+        'Avascular necrosis of femoral head',
+        'Acute hip dislocation in elderly patient'
+      ],
+      hi: [
+        'गिरावट या आघात के बाद गंभीर हिप दर्द (फीमोरल नेक फ्रैक्चर)',
+        'प्रभावित पैर पर भार सहन करने में असमर्थता',
+        'छोटी और बाहरी रूप से घुमाई गई पैर',
+        'जांघ या घुटने तक फैलने वाला कमर दर्द',
+        'हिप जोड़ पर अत्यधिक कोमलता',
+        'हिप को हिलाने या पैर उठाने में असमर्थता',
+        'हिप के आसपास दृश्यमान चोट के निशान या सूजन',
+        'हिप फ्रैक्चर के पिछले असफल आंतरिक निर्धारण',
+        'फीमोरल हेड का एवास्कुलर नेक्रोसिस',
+        'बुजुर्ग रोगी में तीव्र हिप विस्थापन'
+      ]
+    },
+    procedure: {
+      en: {
+        preparation: 'Pre-operative evaluation includes hip X-rays, CT scan if needed for fracture assessment, blood tests, ECG, chest X-ray, and medical optimization. Anesthesia consultation performed. Patient advised to fast 8 hours before surgery. Prophylactic antibiotics administered 30 minutes before incision. DVT prophylaxis initiated.',
+        steps: [
+          'Patient positioned on side (lateral position) or on back on special fracture table',
+          'General or spinal anesthesia administered based on patient condition',
+          'Skin incision made over lateral hip (posterolateral, anterolateral, or direct lateral approach)',
+          'Hip capsule carefully opened to expose femoral neck and head',
+          'Fractured femoral head removed with precision cuts',
+          'Femoral canal prepared with sequential reamers to accept prosthetic stem',
+          'Trial components inserted to assess size, leg length, and stability',
+          'Final femoral stem (cemented or uncemented) implanted into prepared femoral canal',
+          'Bipolar or unipolar prosthetic head attached to stem and reduced into natural acetabulum',
+          'Hip stability, range of motion, and leg length checked under fluoroscopy',
+          'Wound irrigated, capsule repaired if possible, deep tissues and skin closed in layers',
+          'Sterile dressing applied, hip brace or abduction pillow may be used'
+        ],
+        duration: '1.5 to 2.5 hours depending on fracture complexity and surgical approach',
+        anesthesia: 'General anesthesia or spinal/epidural anesthesia based on patient health status and preferences'
+      },
+      hi: {
+        preparation: 'प्री-ऑपरेटिव मूल्यांकन में हिप एक्स-रे, फ्रैक्चर मूल्यांकन के लिए यदि आवश्यक हो तो सीटी स्कैन, रक्त परीक्षण, ईसीजी, छाती एक्स-रे और चिकित्सा अनुकूलन शामिल हैं। एनेस्थीसिया परामर्श किया जाता है। रोगी को सर्जरी से 8 घंटे पहले उपवास करने की सलाह दी जाती है। चीरा से 30 मिनट पहले प्रोफिलैक्टिक एंटीबायोटिक्स दी जाती हैं। DVT प्रोफिलैक्सिस शुरू की जाती है।',
+        steps: [
+          'रोगी को बाजू की स्थिति में (लेटरल पोजीशन) या विशेष फ्रैक्चर टेबल पर पीठ के बल रखा जाता है',
+          'रोगी की स्थिति के आधार पर जनरल या स्पाइनल एनेस्थीसिया दी जाती है',
+          'लेटरल हिप पर त्वचा चीरा लगाया जाता है (पोस्टरोलेटरल, एंटेरोलेटरल या डायरेक्ट लेटरल अप्रोच)',
+          'फीमोरल नेक और हेड को उजागर करने के लिए हिप कैप्सूल को सावधानीपूर्वक खोला जाता है',
+          'सटीक कटौती के साथ फ्रैक्चर फीमोरल हेड को हटाया जाता है',
+          'प्रोस्थेटिक स्टेम स्वीकार करने के लिए क्रमिक रीमर के साथ फीमोरल कैनाल तैयार किया जाता है',
+          'आकार, पैर की लंबाई और स्थिरता का आकलन करने के लिए ट्रायल घटक डाले जाते हैं',
+          'अंतिम फीमोरल स्टेम (सीमेंटेड या अनसीमेंटेड) तैयार फीमोरल कैनाल में इम्प्लांट किया जाता है',
+          'बाइपोलर या यूनिपोलर प्रोस्थेटिक हेड स्टेम से जुड़ा होता है और प्राकृतिक एसिटाबुलम में कम किया जाता है',
+          'फ्लोरोस्कोपी के तहत हिप स्थिरता, गति सीमा और पैर की लंबाई की जांच की जाती है',
+          'घाव को धोया जाता है, यदि संभव हो तो कैप्सूल की मरम्मत की जाती है, गहरे ऊतकों और त्वचा को परतों में बंद किया जाता है',
+          'बाँझ ड्रेसिंग लगाई जाती है, हिप ब्रेस या अपहरण तकिया का उपयोग किया जा सकता है'
+        ],
+        duration: 'फ्रैक्चर जटिलता और शल्य दृष्टिकोण के आधार पर 1.5 से 2.5 घंटे',
+        anesthesia: 'रोगी स्वास्थ्य स्थिति और प्राथमिकताओं के आधार पर जनरल एनेस्थीसिया या स्पाइनल/एपिड्यूरल एनेस्थीसिया'
+      }
+    },
+    recovery: {
+      en: {
+        timeline: [
+          { week: 'Day 1-2', activity: 'Hospital Stay & Immediate Post-Op', description: 'Pain management with medications. Drain removed if placed. Chest physiotherapy to prevent pneumonia. Gentle ankle and knee exercises. Sitting up in bed with support. DVT prophylaxis continued.' },
+          { week: 'Day 3-5', activity: 'Early Mobilization', description: 'Physical therapy begins with assisted standing and transfer to chair. Partial weight bearing with walker typically allowed immediately. Hip precautions taught (avoid hip flexion >90°, crossing legs, internal rotation). Gradual increase in walking distance.' },
+          { week: 'Week 1-2', activity: 'Hospital Discharge & Home Recovery', description: 'Most patients discharged 5-7 days post-surgery. Continue walker use with partial to full weight bearing. Wound care and monitoring for infection. Pain gradually decreases. Daily physiotherapy exercises. Anticoagulation for DVT prevention.' },
+          { week: 'Week 2-6', activity: 'Progressive Rehabilitation', description: 'Transition from walker to cane. Increase walking distance daily. Strengthening exercises for hip and leg muscles. Return to basic self-care activities. Wound heals, sutures/staples removed at 2 weeks. Follow-up X-rays.' },
+          { week: 'Week 6-12', activity: 'Functional Independence', description: 'Most patients independent in transfers and walking. Discontinue walking aids if stable. Return to light household activities. Continue strengthening and balance exercises. Achieve functional goals for elderly patients.' },
+          { week: 'Month 3-6', activity: 'Long-term Recovery', description: 'Full healing expected. Return to pre-fracture activity level (appropriate for age). Continue exercises to maintain strength. Annual follow-ups to monitor implant and acetabular wear. Consider conversion to total hip if acetabular pain develops.' }
+        ],
+        tips: [
+          'Follow hip precautions strictly for first 6-12 weeks to prevent dislocation',
+          'Avoid bending hip more than 90 degrees (no low chairs, deep squatting)',
+          'Do not cross legs or twist at the hip',
+          'Sleep on back or unoperated side with pillow between knees',
+          'Use raised toilet seat and shower chair for safety',
+          'Wear compression stockings and take prescribed blood thinners to prevent clots',
+          'Perform prescribed exercises daily to regain strength and mobility',
+          'Use walker or cane as recommended until cleared by surgeon',
+          'Keep surgical wound clean and dry until healed',
+          'Report any signs of infection, increased pain, or leg length discrepancy',
+          'Attend all physical therapy sessions for optimal recovery',
+          'Maintain healthy diet with adequate protein and calcium for bone healing'
+        ]
+      },
+      hi: {
+        timeline: [
+          { week: 'दिन 1-2', activity: 'अस्पताल में रहना और तत्काल पोस्ट-ऑप', description: 'दवाओं के साथ दर्द प्रबंधन। यदि रखा गया है तो ड्रेन हटाया जाता है। निमोनिया को रोकने के लिए चेस्ट फिजियोथेरेपी। कोमल टखने और घुटने के व्यायाम। समर्थन के साथ बिस्तर में बैठना। DVT प्रोफिलैक्सिस जारी।' },
+          { week: 'दिन 3-5', activity: 'प्रारंभिक गतिशीलता', description: 'सहायता प्राप्त खड़े होने और कुर्सी पर स्थानांतरण के साथ फिजिकल थेरेपी शुरू होती है। वॉकर के साथ आंशिक भार सहन आमतौर पर तुरंत अनुमति दी जाती है। हिप सावधानियां सिखाई जाती हैं (हिप फ्लेक्शन >90°, पैर पार करना, आंतरिक रोटेशन से बचें)। चलने की दूरी में धीरे-धीरे वृद्धि।' },
+          { week: 'सप्ताह 1-2', activity: 'अस्पताल छुट्टी और घर रिकवरी', description: 'अधिकांश रोगी सर्जरी के 5-7 दिन बाद छुट्टी हो जाते हैं। आंशिक से पूर्ण भार सहन के साथ वॉकर उपयोग जारी रखें। घाव की देखभाल और संक्रमण की निगरानी। दर्द धीरे-धीरे कम होता है। दैनिक फिजियोथेरेपी व्यायाम। DVT रोकथाम के लिए एंटीकोएगुलेशन।' },
+          { week: 'सप्ताह 2-6', activity: 'प्रगतिशील पुनर्वास', description: 'वॉकर से बेंत में संक्रमण। दैनिक चलने की दूरी बढ़ाएं। हिप और पैर की मांसपेशियों के लिए मजबूती अभ्यास। बुनियादी स्व-देखभाल गतिविधियों में वापसी। घाव ठीक होता है, 2 सप्ताह में टांके/स्टेपल हटा दिए जाते हैं। फॉलो-अप एक्स-रे।' },
+          { week: 'सप्ताह 6-12', activity: 'कार्यात्मक स्वतंत्रता', description: 'अधिकांश रोगी स्थानांतरण और चलने में स्वतंत्र। यदि स्थिर हो तो चलने के सहायक उपकरण बंद करें। हल्की घरेलू गतिविधियों में वापसी। मजबूती और संतुलन अभ्यास जारी रखें। बुजुर्ग रोगियों के लिए कार्यात्मक लक्ष्य प्राप्त करें।' },
+          { week: 'महीना 3-6', activity: 'दीर्घकालिक रिकवरी', description: 'पूर्ण उपचार की उम्मीद। प्री-फ्रैक्चर गतिविधि स्तर (उम्र के लिए उपयुक्त) पर वापसी। ताकत बनाए रखने के लिए व्यायाम जारी रखें। इम्प्लांट और एसिटाबुलर पहनने की निगरानी के लिए वार्षिक फॉलो-अप। यदि एसिटाबुलर दर्द विकसित होता है तो कुल हिप में रूपांतरण पर विचार करें।' }
+        ],
+        tips: [
+          'विस्थापन को रोकने के लिए पहले 6-12 सप्ताह के लिए हिप सावधानियों का सख्ती से पालन करें',
+          'हिप को 90 डिग्री से अधिक मोड़ने से बचें (कोई कम कुर्सी नहीं, गहरी स्क्वाटिंग नहीं)',
+          'पैर पार न करें या हिप पर मोड़ न दें',
+          'पीठ के बल या घुटनों के बीच तकिया के साथ अप्रचालित पक्ष पर सोएं',
+          'सुरक्षा के लिए उठाए गए शौचालय सीट और शावर कुर्सी का उपयोग करें',
+          'थक्कों को रोकने के लिए कम्प्रेशन स्टॉकिंग्स पहनें और निर्धारित रक्त पतला करने वाली दवाएं लें',
+          'ताकत और गतिशीलता को फिर से प्राप्त करने के लिए दैनिक निर्धारित व्यायाम करें',
+          'सर्जन द्वारा मंजूरी मिलने तक अनुशंसित के रूप में वॉकर या बेंत का उपयोग करें',
+          'ठीक होने तक शल्य घाव को साफ और सूखा रखें',
+          'संक्रमण, बढ़े हुए दर्द या पैर की लंबाई विसंगति के किसी भी लक्षण की रिपोर्ट करें',
+          'इष्टतम रिकवरी के लिए सभी फिजिकल थेरेपी सत्रों में भाग लें',
+          'हड्डी के उपचार के लिए पर्याप्त प्रोटीन और कैल्शियम के साथ स्वस्थ आहार बनाए रखें'
+        ]
+      }
+    },
+    faqs: {
+      en: [
+        {
+          question: 'What is the difference between partial and total hip replacement?',
+          answer: 'Partial hip replacement (hemiarthroplasty) replaces only the femoral head (ball) while keeping the natural acetabulum (socket). Total hip replacement replaces both the ball and socket. Hemiarthroplasty is typically used for femoral neck fractures in elderly patients with limited activity demands, while total hip replacement is preferred for arthritis and younger, more active patients. Partial replacement is less invasive, has shorter surgery time, and lower dislocation risk but may cause acetabular wear over time.'
+        },
+        {
+          question: 'When is partial hip replacement recommended over total hip replacement?',
+          answer: 'Partial hip replacement is recommended for: displaced femoral neck fractures in elderly patients (>70 years), patients with good acetabular cartilage, low-demand elderly patients with limited pre-fracture mobility, patients with cognitive impairment who may not follow hip precautions after total hip replacement, and urgent fracture cases where total hip replacement may be too invasive. Dr. Kumar will assess your specific situation to determine the best option.'
+        },
+        {
+          question: 'Can I walk immediately after partial hip replacement?',
+          answer: 'Yes, most patients can begin weight-bearing and walking with assistance within 24-48 hours after surgery. This early mobilization is one of the key advantages of partial hip replacement for fracture patients. You will use a walker initially, with partial to full weight bearing as tolerated. The implant provides immediate stability. Early mobilization reduces complications like pneumonia, blood clots, and muscle weakness.'
+        },
+        {
+          question: 'What are the risks and complications of partial hip replacement?',
+          answer: 'Potential complications include: hip dislocation (2-5%, lower than total hip replacement), infection (1-2%), blood clots/DVT, acetabular erosion and groin pain (may require conversion to total hip), leg length discrepancy, nerve or blood vessel injury (rare), implant loosening or failure, and general anesthesia risks. Dr. Kumar uses advanced surgical techniques and modern implants to minimize these risks. Overall, the procedure has a 96% success rate.'
+        },
+        {
+          question: 'How long does a partial hip replacement last?',
+          answer: 'For elderly, low-demand patients, partial hip replacement typically lasts their lifetime. The bipolar prosthesis has inner bearing that reduces acetabular wear. However, in younger or more active patients, acetabular cartilage wear may occur over 10-15 years, potentially requiring conversion to total hip replacement. For the intended elderly patient population with femoral neck fractures, longevity is generally not a concern as the primary goal is rapid mobility and pain relief.'
+        },
+        {
+          question: 'What is the difference between bipolar and unipolar hemiarthroplasty?',
+          answer: 'Bipolar hemiarthroplasty has an inner bearing within the prosthetic head that allows movement both within the prosthesis and at the acetabulum, reducing acetabular wear. Unipolar has a single fixed head that articulates only with the acetabulum, causing more acetabular wear. Dr. Kumar typically uses bipolar implants as they have better long-term outcomes, less groin pain, and lower conversion rates to total hip replacement, though they are slightly more expensive.'
+        },
+        {
+          question: 'Will I need to follow hip precautions after partial hip replacement?',
+          answer: 'Yes, hip precautions are essential for the first 6-12 weeks to prevent dislocation. These include: avoid bending hip more than 90 degrees, do not cross legs, avoid internal rotation and twisting, sleep with pillow between legs, use raised toilet seat, and avoid low chairs. These precautions allow the hip capsule and soft tissues to heal. After healing, the dislocation risk decreases significantly, though some surgeons recommend long-term avoidance of extreme hip positions.'
+        },
+        {
+          question: 'Can partial hip replacement be converted to total hip replacement later?',
+          answer: 'Yes, if acetabular erosion causes groin pain or the socket wears out, partial hip replacement can be converted to total hip replacement. This is a secondary surgery where the femoral stem is either retained (if well-fixed) or replaced, and an acetabular component is added. Conversion rates are approximately 5-10% over 10 years in elderly patients. For most low-demand elderly patients, conversion is rarely needed.'
+        },
+        {
+          question: 'How much does partial hip replacement cost at Arthroscenter?',
+          answer: 'The cost varies depending on implant type (bipolar vs unipolar, cemented vs uncemented), hospital stay duration, anesthesia, and any additional treatments needed. Partial hip replacement is generally less expensive than total hip replacement. Arthroscenter accepts PMJAY and BSKY insurance which covers hip fracture surgery for eligible patients. We also offer payment plans. Book a ₹999 consultation with Dr. Kumar for accurate cost estimation based on your specific case.'
+        },
+        {
+          question: 'What is the success rate of partial hip replacement at Arthoscenter?',
+          answer: 'Dr. Gurudeo Kumar has performed over 400 partial hip replacements with a 96% success rate in achieving pain relief and restoring mobility. Most elderly fracture patients regain the ability to walk and transfer independently. Our infection rate is below 1%, and dislocation rate is under 3%. Over 90% of patients are satisfied with their functional outcomes and quality of life improvement. We use modern bipolar implants and evidence-based surgical techniques to optimize results.'
+        }
+      ],
+      hi: [
+        {
+          question: 'आंशिक और कुल हिप रिप्लेसमेंट में क्या अंतर है?',
+          answer: 'आंशिक हिप रिप्लेसमेंट (हेमिआर्थ्रोप्लास्टी) केवल फीमोरल हेड (बॉल) को बदलती है जबकि प्राकृतिक एसिटाबुलम (सॉकेट) को रखती है। कुल हिप रिप्लेसमेंट बॉल और सॉकेट दोनों को बदलता है। हेमिआर्थ्रोप्लास्टी आमतौर पर सीमित गतिविधि मांगों वाले बुजुर्ग रोगियों में फीमोरल नेक फ्रैक्चर के लिए उपयोग की जाती है, जबकि कुल हिप रिप्लेसमेंट गठिया और युवा, अधिक सक्रिय रोगियों के लिए पसंद किया जाता है। आंशिक रिप्लेसमेंट कम आक्रामक है, छोटा सर्जरी समय है, और कम विस्थापन जोखिम है लेकिन समय के साथ एसिटाबुलर पहनने का कारण बन सकता है।'
+        },
+        {
+          question: 'कुल हिप रिप्लेसमेंट पर आंशिक हिप रिप्लेसमेंट कब अनुशंसित है?',
+          answer: 'आंशिक हिप रिप्लेसमेंट के लिए अनुशंसित है: बुजुर्ग रोगियों (>70 वर्ष) में विस्थापित फीमोरल नेक फ्रैक्चर, अच्छे एसिटाबुलर कार्टिलेज वाले रोगी, सीमित प्री-फ्रैक्चर गतिशीलता वाले कम-मांग बुजुर्ग रोगी, संज्ञानात्मक हानि वाले रोगी जो कुल हिप रिप्लेसमेंट के बाद हिप सावधानियों का पालन नहीं कर सकते हैं, और तत्काल फ्रैक्चर मामले जहां कुल हिप रिप्लेसमेंट बहुत आक्रामक हो सकता है। डॉ. कुमार सर्वोत्तम विकल्प निर्धारित करने के लिए आपकी विशिष्ट स्थिति का आकलन करेंगे।'
+        },
+        {
+          question: 'क्या मैं आंशिक हिप रिप्लेसमेंट के बाद तुरंत चल सकता हूं?',
+          answer: 'हां, अधिकांश रोगी सर्जरी के 24-48 घंटों के भीतर सहायता के साथ भार-सहन और चलना शुरू कर सकते हैं। यह प्रारंभिक गतिशीलता फ्रैक्चर रोगियों के लिए आंशिक हिप रिप्लेसमेंट के प्रमुख फायदों में से एक है। आप शुरू में वॉकर का उपयोग करेंगे, सहनशीलता के अनुसार आंशिक से पूर्ण भार सहन के साथ। इम्प्लांट तत्काल स्थिरता प्रदान करता है। प्रारंभिक गतिशीलता निमोनिया, रक्त के थक्के और मांसपेशी कमजोरी जैसी जटिलताओं को कम करती है।'
+        },
+        {
+          question: 'आंशिक हिप रिप्लेसमेंट के जोखिम और जटिलताएं क्या हैं?',
+          answer: 'संभावित जटिलताओं में शामिल हैं: हिप विस्थापन (2-5%, कुल हिप रिप्लेसमेंट से कम), संक्रमण (1-2%), रक्त के थक्के/DVT, एसिटाबुलर क्षरण और कमर दर्द (कुल हिप में रूपांतरण की आवश्यकता हो सकती है), पैर की लंबाई विसंगति, तंत्रिका या रक्त वाहिका चोट (दुर्लभ), इम्प्लांट ढीला होना या विफलता, और जनरल एनेस्थीसिया जोखिम। डॉ. कुमार इन जोखिमों को कम करने के लिए उन्नत शल्य तकनीकों और आधुनिक इम्प्लांट का उपयोग करते हैं। कुल मिलाकर, प्रक्रिया की 96% सफलता दर है।'
+        },
+        {
+          question: 'आंशिक हिप रिप्लेसमेंट कितने समय तक चलता है?',
+          answer: 'बुजुर्ग, कम-मांग रोगियों के लिए, आंशिक हिप रिप्लेसमेंट आमतौर पर उनके जीवनकाल तक चलता है। बाइपोलर प्रोस्थेसिस में आंतरिक बेयरिंग है जो एसिटाबुलर पहनने को कम करता है। हालांकि, युवा या अधिक सक्रिय रोगियों में, एसिटाबुलर कार्टिलेज पहनना 10-15 वर्षों में हो सकता है, संभावित रूप से कुल हिप रिप्लेसमेंट में रूपांतरण की आवश्यकता होती है। फीमोरल नेक फ्रैक्चर के साथ इच्छित बुजुर्ग रोगी आबादी के लिए, दीर्घायु आमतौर पर चिंता का विषय नहीं है क्योंकि प्राथमिक लक्ष्य तीव्र गतिशीलता और दर्द राहत है।'
+        },
+        {
+          question: 'बाइपोलर और यूनिपोलर हेमिआर्थ्रोप्लास्टी में क्या अंतर है?',
+          answer: 'बाइपोलर हेमिआर्थ्रोप्लास्टी में प्रोस्थेटिक हेड के भीतर एक आंतरिक बेयरिंग होता है जो प्रोस्थेसिस के भीतर और एसिटाबुलम पर दोनों जगह गति की अनुमति देता है, एसिटाबुलर पहनने को कम करता है। यूनिपोलर में एक एकल निश्चित हेड होता है जो केवल एसिटाबुलम के साथ जुड़ता है, अधिक एसिटाबुलर पहनने का कारण बनता है। डॉ. कुमार आमतौर पर बाइपोलर इम्प्लांट का उपयोग करते हैं क्योंकि उनके बेहतर दीर्घकालिक परिणाम हैं, कम कमर दर्द, और कुल हिप रिप्लेसमेंट में कम रूपांतरण दर, हालांकि वे थोड़े अधिक महंगे हैं।'
+        },
+        {
+          question: 'क्या मुझे आंशिक हिप रिप्लेसमेंट के बाद हिप सावधानियों का पालन करना होगा?',
+          answer: 'हां, विस्थापन को रोकने के लिए पहले 6-12 सप्ताह के लिए हिप सावधानियां आवश्यक हैं। इनमें शामिल हैं: हिप को 90 डिग्री से अधिक मोड़ने से बचें, पैर पार न करें, आंतरिक रोटेशन और मोड़ से बचें, पैरों के बीच तकिया के साथ सोएं, उठाए गए शौचालय सीट का उपयोग करें, और कम कुर्सियों से बचें। ये सावधानियां हिप कैप्सूल और नरम ऊतकों को ठीक करने की अनुमति देती हैं। उपचार के बाद, विस्थापन जोखिम काफी कम हो जाता है, हालांकि कुछ सर्जन चरम हिप स्थितियों से दीर्घकालिक परिहार की सिफारिश करते हैं।'
+        },
+        {
+          question: 'क्या आंशिक हिप रिप्लेसमेंट को बाद में कुल हिप रिप्लेसमेंट में परिवर्तित किया जा सकता है?',
+          answer: 'हां, यदि एसिटाबुलर क्षरण कमर दर्द का कारण बनता है या सॉकेट खराब हो जाता है, तो आंशिक हिप रिप्लेसमेंट को कुल हिप रिप्लेसमेंट में परिवर्तित किया जा सकता है। यह एक माध्यमिक सर्जरी है जहां फीमोरल स्टेम या तो बनाए रखा जाता है (यदि अच्छी तरह से तय किया गया है) या बदल दिया जाता है, और एक एसिटाबुलर घटक जोड़ा जाता है। बुजुर्ग रोगियों में 10 वर्षों में रूपांतरण दर लगभग 5-10% है। अधिकांश कम-मांग बुजुर्ग रोगियों के लिए, रूपांतरण शायद ही कभी आवश्यक है।'
+        },
+        {
+          question: 'आर्थोसेंटर में आंशिक हिप रिप्लेसमेंट की लागत कितनी है?',
+          answer: 'लागत इम्प्लांट प्रकार (बाइपोलर बनाम यूनिपोलर, सीमेंटेड बनाम अनसीमेंटेड), अस्पताल में रहने की अवधि, एनेस्थीसिया और आवश्यक किसी भी अतिरिक्त उपचार के आधार पर भिन्न होती है। आंशिक हिप रिप्लेसमेंट आमतौर पर कुल हिप रिप्लेसमेंट से कम खर्चीला होता है। आर्थोसेंटर PMJAY और BSKY बीमा स्वीकार करता है जो पात्र रोगियों के लिए हिप फ्रैक्चर सर्जरी को कवर करता है। हम भुगतान योजनाएं भी प्रदान करते हैं। अपने विशिष्ट मामले के आधार पर सटीक लागत अनुमान के लिए डॉ. कुमार के साथ ₹999 परामर्श बुक करें।'
+        },
+        {
+          question: 'आर्थोसेंटर में आंशिक हिप रिप्लेसमेंट की सफलता दर क्या है?',
+          answer: 'डॉ. गुरुदेव कुमार ने दर्द राहत और गतिशीलता को बहाल करने में 96% सफलता दर के साथ 400 से अधिक आंशिक हिप रिप्लेसमेंट किए हैं। अधिकांश बुजुर्ग फ्रैक्चर रोगी स्वतंत्र रूप से चलने और स्थानांतरित करने की क्षमता फिर से प्राप्त करते हैं। हमारी संक्रमण दर 1% से नीचे है, और विस्थापन दर 3% से कम है। 90% से अधिक रोगी अपने कार्यात्मक परिणामों और जीवन गुणवत्ता सुधार से संतुष्ट हैं। हम परिणामों को अनुकूलित करने के लिए आधुनिक बाइपोलर इम्प्लांट और साक्ष्य-आधारित शल्य तकनीकों का उपयोग करते हैं।'
+        }
+      ]
+    },
+    meta: {
+      en: {
+        title: 'Partial Hip Replacement Surgery in Patna, Bihar | Hemiarthroplasty Expert | Dr. Gurudeo Kumar',
+        description: 'Expert partial hip replacement (hemiarthroplasty) for femoral neck fractures in Patna by Dr. Gurudeo Kumar. 400+ procedures, 96% success rate. Bipolar implants, early mobilization. PMJAY/BSKY accepted.',
+        keywords: [
+          'partial hip replacement',
+          'hemiarthroplasty',
+          'femoral neck fracture surgery',
+          'hip fracture treatment',
+          'bipolar hip replacement',
+          'unipolar hip replacement',
+          'hip replacement Patna',
+          'hip surgery Bihar',
+          'Dr. Gurudeo Kumar',
+          'Arthoscenter Patna',
+          'elderly hip fracture',
+          'cemented hip replacement',
+          'PMJAY hip surgery',
+          'BSKY fracture treatment'
+        ]
+      },
+      hi: {
+        title: 'पटना, बिहार में आंशिक हिप रिप्लेसमेंट सर्जरी | हेमिआर्थ्रोप्लास्टी विशेषज्ञ | डॉ. गुरुदेव कुमार',
+        description: 'डॉ. गुरुदेव कुमार द्वारा पटना में फीमोरल नेक फ्रैक्चर के लिए विशेषज्ञ आंशिक हिप रिप्लेसमेंट (हेमिआर्थ्रोप्लास्टी)। 400+ प्रक्रियाएं, 96% सफलता दर। बाइपोलर इम्प्लांट, प्रारंभिक गतिशीलता। PMJAY/BSKY स्वीकृत।',
+        keywords: [
+          'आंशिक हिप रिप्लेसमेंट',
+          'हेमिआर्थ्रोप्लास्टी',
+          'फीमोरल नेक फ्रैक्चर सर्जरी',
+          'हिप फ्रैक्चर उपचार',
+          'बाइपोलर हिप रिप्लेसमेंट',
+          'यूनिपोलर हिप रिप्लेसमेंट',
+          'पटना में हिप रिप्लेसमेंट',
+          'बिहार में हिप सर्जरी',
+          'डॉ. गुरुदेव कुमार',
+          'आर्थोसेंटर पटना',
+          'बुजुर्ग हिप फ्रैक्चर',
+          'सीमेंटेड हिप रिप्लेसमेंट',
+          'PMJAY हिप सर्जरी',
+          'BSKY फ्रैक्चर उपचार'
+        ]
+      }
+    },
+    relatedSurgeries: [
+      'total-hip-replacement',
+      'revision-hip-replacement',
+      'femur-fracture-fixation',
+      'hip-fracture-surgery'
+    ]
+  },
+  'reverse-shoulder-replacement': {
+    id: 'reverse-shoulder-replacement',
+    category: 'joint-replacement',
+    slug: 'reverse-shoulder-replacement',
+    title: {
+      en: 'Reverse Shoulder Replacement',
+      hi: 'रिवर्स शोल्डर रिप्लेसमेंट'
+    },
+    shortDesc: {
+      en: 'Advanced shoulder replacement for rotator cuff arthropathy and complex shoulder conditions.',
+      hi: 'रोटेटर कफ आर्थ्रोपैथी और जटिल कंधे की स्थितियों के लिए उन्नत शोल्डर रिप्लेसमेंट।'
+    },
+    overview: {
+      en: `Reverse shoulder replacement, also known as reverse total shoulder arthroplasty, is an innovative surgical procedure designed for patients with severe rotator cuff tears, rotator cuff tear arthropathy, or failed previous shoulder replacements. Unlike conventional shoulder replacement, the reverse design switches the ball and socket components, allowing the deltoid muscle to compensate for the damaged rotator cuff.
+
+Dr. Gurudeo Kumar at Arthoscenter has performed over 120 reverse shoulder replacement procedures with a 94% success rate, making him one of the most experienced reverse shoulder surgeons in Bihar. This revolutionary procedure has transformed outcomes for patients who previously had limited treatment options, particularly elderly patients with massive irreparable rotator cuff tears.
+
+The procedure is particularly beneficial for patients over 65 years old with rotator cuff tear arthropathy, those with failed rotator cuff repairs, and patients with complex proximal humerus fractures. The reverse design provides stability through the deltoid muscle, enabling patients to regain functional range of motion and pain relief even without a functioning rotator cuff. Book your online video consultation at ₹999 to determine if reverse shoulder replacement is right for your condition.`,
+      hi: `रिवर्स शोल्डर रिप्लेसमेंट, जिसे रिवर्स टोटल शोल्डर आर्थ्रोप्लास्टी के रूप में भी जाना जाता है, गंभीर रोटेटर कफ टियर, रोटेटर कफ टियर आर्थ्रोपैथी, या पिछली असफल शोल्डर रिप्लेसमेंट सर्जरी वाले रोगियों के लिए एक नवीन शल्य प्रक्रिया है। पारंपरिक शोल्डर रिप्लेसमेंट के विपरीत, रिवर्स डिज़ाइन बॉल और सॉकेट घटकों को स्विच करता है, जिससे डेल्टॉइड मांसपेशी क्षतिग्रस्त रोटेटर कफ की भरपाई कर सके।
+
+आर्थोसेंटर में डॉ. गुरुदेव कुमार ने 94% सफलता दर के साथ 120 से अधिक रिवर्स शोल्डर रिप्लेसमेंट प्रक्रियाएं की हैं, जो उन्हें बिहार में सबसे अनुभवी रिवर्स शोल्डर सर्जनों में से एक बनाता है। इस क्रांतिकारी प्रक्रिया ने उन रोगियों के परिणामों को बदल दिया है जिनके पास पहले सीमित उपचार विकल्प थे, विशेष रूप से बड़े अपूरणीय रोटेटर कफ टियर वाले बुजुर्ग रोगी।
+
+यह प्रक्रिया विशेष रूप से रोटेटर कफ टियर आर्थ्रोपैथी वाले 65 वर्ष से अधिक उम्र के रोगियों, असफल रोटेटर कफ रिपेयर वाले लोगों, और जटिल प्रॉक्सिमल ह्यूमरस फ्रैक्चर वाले रोगियों के लिए फायदेमंद है। रिवर्स डिज़ाइन डेल्टॉइड मांसपेशी के माध्यम से स्थिरता प्रदान करता है, जिससे रोगियों को कार्यात्मक रेंज ऑफ मोशन और दर्द से राहत मिलती है, भले ही रोटेटर कफ काम नहीं कर रहा हो। अपनी स्थिति के लिए रिवर्स शोल्डर रिप्लेसमेंट सही है या नहीं, यह निर्धारित करने के लिए ₹999 में अपना ऑनलाइन वीडियो परामर्श बुक करें।`
+    },
+    symptoms: {
+      en: [
+        'Severe shoulder pain, especially at night',
+        'Inability to raise arm above shoulder level',
+        'Weakness when lifting or rotating arm',
+        'Previous failed rotator cuff repair',
+        'Pseudoparalysis of the shoulder',
+        'Grinding or catching sensation in shoulder',
+        'Difficulty performing daily activities',
+        'Pain that doesn\'t respond to conservative treatment',
+        'Massive irreparable rotator cuff tear',
+        'Rotator cuff tear arthropathy diagnosis'
+      ],
+      hi: [
+        'गंभीर कंधे का दर्द, विशेष रूप से रात में',
+        'कंधे के स्तर से ऊपर बांह उठाने में असमर्थता',
+        'बांह उठाते या घुमाते समय कमजोरी',
+        'पिछली असफल रोटेटर कफ रिपेयर',
+        'कंधे का स्यूडोपैरालिसिस',
+        'कंधे में पीसने या फंसने की अनुभूति',
+        'दैनिक गतिविधियां करने में कठिनाई',
+        'दर्द जो रूढ़िवादी उपचार से ठीक नहीं होता',
+        'बड़ा अपूरणीय रोटेटर कफ टियर',
+        'रोटेटर कफ टियर आर्थ्रोपैथी निदान'
+      ]
+    },
+    procedure: {
+      preparation: {
+        en: 'Pre-operative evaluation includes detailed shoulder imaging (X-rays, MRI, CT scan), assessment of bone quality, measurement of glenoid wear patterns, evaluation of deltoid muscle function, and medical optimization. Patients undergo physical therapy assessment and receive education about post-operative rehabilitation requirements.',
+        hi: 'प्री-ऑपरेटिव मूल्यांकन में विस्तृत शोल्डर इमेजिंग (एक्स-रे, एमआरआई, सीटी स्कैन), हड्डी की गुणवत्ता का आकलन, ग्लेनॉइड वियर पैटर्न का माप, डेल्टॉइड मांसपेशी कार्य का मूल्यांकन, और चिकित्सा अनुकूलन शामिल है। रोगियों को फिजिकल थेरेपी मूल्यांकन से गुजरना पड़ता है और पोस्ट-ऑपरेटिव पुनर्वास आवश्यकताओं के बारे में शिक्षा प्राप्त होती है।'
+      },
+      steps: {
+        en: [
+          'General anesthesia with regional nerve block for pain control',
+          'Deltopectoral approach incision to access shoulder joint',
+          'Careful preservation of deltoid muscle attachment',
+          'Removal of damaged humeral head and preparation of humerus',
+          'Reaming and preparation of glenoid bone for baseplate',
+          'Secure fixation of glenosphere to glenoid baseplate',
+          'Insertion of reverse humeral stem into humerus',
+          'Precise balancing of soft tissues and tension',
+          'Trial reduction to check range of motion and stability',
+          'Final implant insertion with cement or press-fit',
+          'Closure in layers with preservation of deltoid integrity',
+          'Application of sterile dressing and shoulder immobilizer'
+        ],
+        hi: [
+          'दर्द नियंत्रण के लिए क्षेत्रीय तंत्रिका ब्लॉक के साथ जनरल एनेस्थीसिया',
+          'शोल्डर जॉइंट तक पहुंचने के लिए डेल्टोपेक्टोरल एप्रोच इंसीजन',
+          'डेल्टॉइड मांसपेशी अटैचमेंट का सावधानीपूर्वक संरक्षण',
+          'क्षतिग्रस्त ह्यूमरल हेड को हटाना और ह्यूमरस की तैयारी',
+          'बेसप्लेट के लिए ग्लेनॉइड हड्डी की रीमिंग और तैयारी',
+          'ग्लेनॉइड बेसप्लेट पर ग्लेनोस्फीयर का सुरक्षित फिक्सेशन',
+          'ह्यूमरस में रिवर्स ह्यूमरल स्टेम का डालना',
+          'सॉफ्ट टिश्यू और टेंशन का सटीक संतुलन',
+          'रेंज ऑफ मोशन और स्थिरता की जांच के लिए ट्रायल रिडक्शन',
+          'सीमेंट या प्रेस-फिट के साथ अंतिम इम्प्लांट डालना',
+          'डेल्टॉइड अखंडता के संरक्षण के साथ परतों में बंद करना',
+          'स्टेराइल ड्रेसिंग और शोल्डर इमोबिलाइज़र लगाना'
+        ]
+      },
+      duration: {
+        en: '2.5-3.5 hours',
+        hi: '2.5-3.5 घंटे'
+      },
+      anesthesia: {
+        en: 'General anesthesia with regional nerve block',
+        hi: 'क्षेत्रीय तंत्रिका ब्लॉक के साथ जनरल एनेस्थीसिया'
+      }
+    },
+    recovery: {
+      timeline: {
+        en: [
+          {
+            phase: 'Week 1-2',
+            description: 'Immediate post-operative period with shoulder immobilizer, pain management, gentle hand and wrist exercises, wound care, and prevention of blood clots'
+          },
+          {
+            phase: 'Week 3-6',
+            description: 'Gradual introduction of passive range of motion exercises, pendulum exercises, continued immobilizer use for comfort, early scapular strengthening'
+          },
+          {
+            phase: 'Week 7-12',
+            description: 'Progressive active-assisted range of motion, gentle strengthening with resistance bands, functional activity training, discontinuation of immobilizer'
+          },
+          {
+            phase: 'Month 4-6',
+            description: 'Advanced strengthening exercises, full active range of motion work, return to most daily activities, improvement in overhead function'
+          },
+          {
+            phase: 'Month 7-12',
+            description: 'Maximum medical improvement, restoration of functional activities, continued strengthening program, potential return to light recreational activities'
+          },
+          {
+            phase: 'Long-term',
+            description: 'Lifelong activity modification, avoidance of heavy lifting overhead, regular follow-ups, maintenance exercise program for optimal longevity'
+          }
+        ],
+        hi: [
+          {
+            phase: 'सप्ताह 1-2',
+            description: 'शोल्डर इमोबिलाइज़र के साथ तत्काल पोस्ट-ऑपरेटिव अवधि, दर्द प्रबंधन, हाथ और कलाई के सौम्य व्यायाम, घाव की देखभाल, और रक्त के थक्कों की रोकथाम'
+          },
+          {
+            phase: 'सप्ताह 3-6',
+            description: 'पैसिव रेंज ऑफ मोशन व्यायाम की क्रमिक शुरुआत, पेंडुलम व्यायाम, आराम के लिए इमोबिलाइज़र का निरंतर उपयोग, प्रारंभिक स्कैपुलर स्ट्रेंथनिंग'
+          },
+          {
+            phase: 'सप्ताह 7-12',
+            description: 'प्रगतिशील एक्टिव-असिस्टेड रेंज ऑफ मोशन, रेजिस्टेंस बैंड के साथ सौम्य स्ट्रेंथनिंग, कार्यात्मक गतिविधि प्रशिक्षण, इमोबिलाइज़र बंद करना'
+          },
+          {
+            phase: 'महीना 4-6',
+            description: 'उन्नत स्ट्रेंथनिंग व्यायाम, पूर्ण एक्टिव रेंज ऑफ मोशन काम, अधिकांश दैनिक गतिविधियों में वापसी, ओवरहेड फंक्शन में सुधार'
+          },
+          {
+            phase: 'महीना 7-12',
+            description: 'अधिकतम चिकित्सा सुधार, कार्यात्मक गतिविधियों की बहाली, निरंतर स्ट्रेंथनिंग प्रोग्राम, हल्की मनोरंजक गतिविधियों में संभावित वापसी'
+          },
+          {
+            phase: 'दीर्घकालिक',
+            description: 'आजीवन गतिविधि संशोधन, ओवरहेड भारी भार उठाने से बचना, नियमित फॉलो-अप, इष्टतम दीर्घायु के लिए रखरखाव व्यायाम कार्यक्रम'
+          }
+        ]
+      },
+      tips: {
+        en: [
+          'Strictly follow shoulder immobilizer protocol for first 4-6 weeks',
+          'Never lift objects overhead in first 6 months',
+          'Attend all scheduled physical therapy sessions',
+          'Perform prescribed home exercises daily',
+          'Sleep in reclined position for 6-8 weeks',
+          'Avoid reaching behind back for 3 months',
+          'Use ice therapy to manage swelling',
+          'Keep surgical site clean and dry',
+          'Report any signs of infection immediately',
+          'Practice patience - full recovery takes 12-18 months',
+          'Avoid contact sports and heavy manual labor permanently',
+          'Maintain regular follow-up appointments'
+        ],
+        hi: [
+          'पहले 4-6 सप्ताह के लिए शोल्डर इमोबिलाइज़र प्रोटोकॉल का सख्ती से पालन करें',
+          'पहले 6 महीनों में कभी भी ओवरहेड वस्तुएं न उठाएं',
+          'सभी निर्धारित फिजिकल थेरेपी सत्रों में भाग लें',
+          'निर्धारित घरेलू व्यायाम प्रतिदिन करें',
+          '6-8 सप्ताह के लिए झुकी हुई स्थिति में सोएं',
+          '3 महीने के लिए पीछे पहुंचने से बचें',
+          'सूजन को प्रबंधित करने के लिए आइस थेरेपी का उपयोग करें',
+          'सर्जिकल साइट को साफ और सूखा रखें',
+          'संक्रमण के किसी भी लक्षण की तुरंत रिपोर्ट करें',
+          'धैर्य रखें - पूर्ण रिकवरी में 12-18 महीने लगते हैं',
+          'संपर्क खेलों और भारी मैनुअल श्रम से स्थायी रूप से बचें',
+          'नियमित फॉलो-अप अपॉइंटमेंट बनाए रखें'
+        ]
+      }
+    },
+    faqs: {
+      en: [
+        {
+          question: 'How is reverse shoulder replacement different from traditional shoulder replacement?',
+          answer: 'In reverse shoulder replacement, the ball and socket are switched - a metal ball is attached to the shoulder blade (scapula) and a plastic socket is attached to the upper arm bone (humerus). This design allows the deltoid muscle to power the shoulder instead of the damaged rotator cuff, making it ideal for patients with rotator cuff arthropathy.'
+        },
+        {
+          question: 'What is the success rate of reverse shoulder replacement at Arthoscenter?',
+          answer: 'Dr. Gurudeo Kumar has performed over 120 reverse shoulder replacements with a 94% success rate. Most patients experience significant pain relief and functional improvement, with satisfaction rates exceeding 90% for properly selected candidates.'
+        },
+        {
+          question: 'Am I too old for reverse shoulder replacement surgery?',
+          answer: 'Reverse shoulder replacement is actually designed for older patients, typically 65 years and above. Age alone is not a contraindication - overall health status and bone quality are more important factors. Dr. Kumar has successfully performed this surgery on patients in their 80s with excellent outcomes.'
+        },
+        {
+          question: 'What are the limitations after reverse shoulder replacement?',
+          answer: 'While most patients regain excellent forward elevation and pain relief, external rotation (reaching out to the side) may be limited compared to a normal shoulder. Heavy overhead lifting, contact sports, and repetitive overhead activities should be avoided. However, most daily activities including dressing, eating, and light household tasks can be performed comfortably.'
+        },
+        {
+          question: 'How long do reverse shoulder implants last?',
+          answer: 'Modern reverse shoulder implants have shown excellent durability, with survival rates of 90-95% at 10 years. Factors affecting longevity include patient age, activity level, bone quality, and proper surgical technique. Younger, more active patients may eventually need revision surgery.'
+        },
+        {
+          question: 'Can I drive after reverse shoulder replacement?',
+          answer: 'Driving is typically restricted for 6-12 weeks after surgery, depending on which shoulder was operated on and your vehicle type (automatic vs manual). You must be off narcotic pain medications and have sufficient strength and control to operate the vehicle safely before resuming driving.'
+        },
+        {
+          question: 'What is the cost of reverse shoulder replacement in Bihar?',
+          answer: 'At Arthoscenter, reverse shoulder replacement costs between ₹3.5-5.5 lakhs depending on implant selection (Indian vs imported), hospital stay duration, and other factors. The procedure is covered under PMJAY and BSKY schemes for eligible patients. Book a consultation at ₹999 for detailed cost breakdown.'
+        },
+        {
+          question: 'Is physiotherapy necessary after reverse shoulder replacement?',
+          answer: 'Yes, physiotherapy is absolutely essential for optimal outcomes. A structured rehabilitation program typically lasts 4-6 months and focuses on regaining range of motion, strengthening the deltoid muscle, and restoring functional activities. Patients who comply with therapy protocols have significantly better outcomes.'
+        },
+        {
+          question: 'What are the risks of reverse shoulder replacement?',
+          answer: 'Risks include infection (1-2%), instability/dislocation (2-4%), nerve injury (<1%), fracture, component loosening, and scapular notching. Dr. Kumar uses advanced surgical techniques and implant designs to minimize these risks. Proper patient selection and adherence to post-operative protocols further reduce complications.'
+        },
+        {
+          question: 'Can I play golf or tennis after reverse shoulder replacement?',
+          answer: 'Light recreational activities like golf may be possible 9-12 months after surgery, but tennis and other overhead racquet sports are generally not recommended due to risk of implant wear and loosening. Swimming and walking are excellent long-term exercises. Discuss specific activity goals during your consultation.'
+        }
+      ],
+      hi: [
+        {
+          question: 'रिवर्स शोल्डर रिप्लेसमेंट पारंपरिक शोल्डर रिप्लेसमेंट से कैसे अलग है?',
+          answer: 'रिवर्स शोल्डर रिप्लेसमेंट में, बॉल और सॉकेट को स्विच किया जाता है - एक मेटल बॉल शोल्डर ब्लेड (स्कैपुला) से जुड़ी होती है और एक प्लास्टिक सॉकेट ऊपरी बांह की हड्डी (ह्यूमरस) से जुड़ा होता है। यह डिज़ाइन डेल्टॉइड मांसपेशी को क्षतिग्रस्त रोटेटर कफ के बजाय कंधे को शक्ति देने की अनुमति देता है, जो इसे रोटेटर कफ आर्थ्रोपैथी वाले रोगियों के लिए आदर्श बनाता है।'
+        },
+        {
+          question: 'आर्थोसेंटर में रिवर्स शोल्डर रिप्लेसमेंट की सफलता दर क्या है?',
+          answer: 'डॉ. गुरुदेव कुमार ने 94% सफलता दर के साथ 120 से अधिक रिवर्स शोल्डर रिप्लेसमेंट किए हैं। अधिकांश रोगियों को महत्वपूर्ण दर्द राहत और कार्यात्मक सुधार का अनुभव होता है, उचित रूप से चयनित उम्मीदवारों के लिए संतुष्टि दर 90% से अधिक है।'
+        },
+        {
+          question: 'क्या मैं रिवर्स शोल्डर रिप्लेसमेंट सर्जरी के लिए बहुत बूढ़ा हूं?',
+          answer: 'रिवर्स शोल्डर रिप्लेसमेंट वास्तव में बड़े रोगियों के लिए डिज़ाइन किया गया है, आमतौर पर 65 वर्ष और उससे अधिक उम्र के। केवल उम्र कोई contraindication नहीं है - समग्र स्वास्थ्य स्थिति और हड्डी की गुणवत्ता अधिक महत्वपूर्ण कारक हैं। डॉ. कुमार ने 80 के दशक में रोगियों पर सफलतापूर्वक यह सर्जरी की है जिसके उत्कृष्ट परिणाम हैं।'
+        },
+        {
+          question: 'रिवर्स शोल्डर रिप्लेसमेंट के बाद क्या सीमाएं हैं?',
+          answer: 'जबकि अधिकांश रोगियों को उत्कृष्ट फॉरवर्ड एलिवेशन और दर्द राहत मिलती है, एक्सटर्नल रोटेशन (साइड की ओर पहुंचना) एक सामान्य कंधे की तुलना में सीमित हो सकता है। भारी ओवरहेड लिफ्टिंग, संपर्क खेल, और दोहराव वाली ओवरहेड गतिविधियों से बचना चाहिए। हालांकि, कपड़े पहनने, खाने और हल्के घरेलू कार्यों सहित अधिकांश दैनिक गतिविधियां आराम से की जा सकती हैं।'
+        },
+        {
+          question: 'रिवर्स शोल्डर इम्प्लांट कितने समय तक चलते हैं?',
+          answer: 'आधुनिक रिवर्स शोल्डर इम्प्लांट ने उत्कृष्ट स्थायित्व दिखाया है, 10 वर्षों में 90-95% जीवित रहने की दर के साथ। दीर्घायु को प्रभावित करने वाले कारकों में रोगी की उम्र, गतिविधि स्तर, हड्डी की गुणवत्ता और उचित शल्य तकनीक शामिल हैं। छोटे, अधिक सक्रिय रोगियों को अंततः रिविजन सर्जरी की आवश्यकता हो सकती है।'
+        },
+        {
+          question: 'क्या मैं रिवर्स शोल्डर रिप्लेसमेंट के बाद गाड़ी चला सकता हूं?',
+          answer: 'सर्जरी के बाद 6-12 सप्ताह के लिए ड्राइविंग आमतौर पर प्रतिबंधित है, यह इस बात पर निर्भर करता है कि किस कंधे का ऑपरेशन किया गया था और आपका वाहन प्रकार (ऑटोमैटिक बनाम मैनुअल)। ड्राइविंग फिर से शुरू करने से पहले आपको नारकोटिक दर्द की दवाओं से दूर होना चाहिए और वाहन को सुरक्षित रूप से संचालित करने के लिए पर्याप्त शक्ति और नियंत्रण होना चाहिए।'
+        },
+        {
+          question: 'बिहार में रिवर्स शोल्डर रिप्लेसमेंट की लागत क्या है?',
+          answer: 'आर्थोसेंटर में, रिवर्स शोल्डर रिप्लेसमेंट की लागत इम्प्लांट चयन (भारतीय बनाम आयातित), अस्पताल में रहने की अवधि, और अन्य कारकों के आधार पर ₹3.5-5.5 लाख के बीच है। यह प्रक्रिया पात्र रोगियों के लिए PMJAY और BSKY योजनाओं के तहत कवर की जाती है। विस्तृत लागत विवरण के लिए ₹999 में एक परामर्श बुक करें।'
+        },
+        {
+          question: 'क्या रिवर्स शोल्डर रिप्लेसमेंट के बाद फिजियोथेरेपी आवश्यक है?',
+          answer: 'हां, इष्टतम परिणामों के लिए फिजियोथेरेपी बिल्कुल आवश्यक है। एक संरचित पुनर्वास कार्यक्रम आमतौर पर 4-6 महीने तक रहता है और रेंज ऑफ मोशन को पुनः प्राप्त करने, डेल्टॉइड मांसपेशी को मजबूत करने, और कार्यात्मक गतिविधियों को बहाल करने पर केंद्रित है। जो रोगी थेरेपी प्रोटोकॉल का पालन करते हैं उनके परिणाम काफी बेहतर होते हैं।'
+        },
+        {
+          question: 'रिवर्स शोल्डर रिप्लेसमेंट के जोखिम क्या हैं?',
+          answer: 'जोखिमों में संक्रमण (1-2%), अस्थिरता/डिस्लोकेशन (2-4%), तंत्रिका चोट (<1%), फ्रैक्चर, कंपोनेंट लूजनिंग, और स्कैपुलर नॉचिंग शामिल हैं। डॉ. कुमार इन जोखिमों को कम करने के लिए उन्नत शल्य तकनीकों और इम्प्लांट डिज़ाइनों का उपयोग करते हैं। उचित रोगी चयन और पोस्ट-ऑपरेटिव प्रोटोकॉल का पालन जटिलताओं को और कम करता है।'
+        },
+        {
+          question: 'क्या मैं रिवर्स शोल्डर रिप्लेसमेंट के बाद गोल्फ या टेनिस खेल सकता हूं?',
+          answer: 'सर्जरी के 9-12 महीने बाद गोल्फ जैसी हल्की मनोरंजक गतिविधियां संभव हो सकती हैं, लेकिन टेनिस और अन्य ओवरहेड रैकेट खेल आमतौर पर इम्प्लांट वियर और लूजनिंग के जोखिम के कारण अनुशंसित नहीं हैं। तैराकी और चलना उत्कृष्ट दीर्घकालिक व्यायाम हैं। अपने परामर्श के दौरान विशिष्ट गतिविधि लक्ष्यों पर चर्चा करें।'
+        }
+      ]
+    },
+    meta: {
+      en: {
+        title: 'Reverse Shoulder Replacement Surgery in Bihar | Dr. Gurudeo Kumar',
+        description: 'Expert reverse shoulder replacement for rotator cuff arthropathy. Dr. Kumar has performed 120+ procedures with 94% success. Book ₹999 consultation. PMJAY/BSKY covered.',
+        keywords: [
+          'reverse shoulder replacement Bihar',
+          'rotator cuff arthropathy surgery',
+          'reverse total shoulder arthroplasty Patna',
+          'shoulder replacement for cuff tear',
+          'Dr. Gurudeo Kumar shoulder surgery',
+          'Arthoscenter reverse shoulder',
+          'failed rotator cuff repair treatment',
+          'PMJAY shoulder surgery Bihar',
+          'BSKY shoulder replacement'
+        ]
+      },
+      hi: {
+        title: 'बिहार में रिवर्स शोल्डर रिप्लेसमेंट सर्जरी | डॉ. गुरुदेव कुमार',
+        description: 'रोटेटर कफ आर्थ्रोपैथी के लिए विशेषज्ञ रिवर्स शोल्डर रिप्लेसमेंट। डॉ. कुमार ने 94% सफलता के साथ 120+ प्रक्रियाएं की हैं। ₹999 परामर्श बुक करें। PMJAY/BSKY कवर।',
+        keywords: [
+          'बिहार में रिवर्स शोल्डर रिप्लेसमेंट',
+          'रोटेटर कफ आर्थ्रोपैथी सर्जरी',
+          'पटना में रिवर्स टोटल शोल्डर आर्थ्रोप्लास्टी',
+          'कफ टियर के लिए शोल्डर रिप्लेसमेंट',
+          'डॉ. गुरुदेव कुमार शोल्डर सर्जरी',
+          'आर्थोसेंटर रिवर्स शोल्डर',
+          'असफल रोटेटर कफ रिपेयर उपचार',
+          'PMJAY बिहार शोल्डर सर्जरी',
+          'BSKY शोल्डर रिप्लेसमेंट'
+        ]
+      }
+    },
+    relatedSurgeries: [
+      'shoulder-replacement',
+      'rotator-cuff-repair',
+      'shoulder-arthroscopy',
+      'revision-shoulder-replacement'
+    ]
+  },
+  'microdiscectomy': {
+    id: 'microdiscectomy',
+    category: 'spine-surgery',
+    slug: 'microdiscectomy',
+    title: {
+      en: 'Microdiscectomy (Minimally Invasive Disc Surgery)',
+      hi: 'माइक्रोडिस्केक्टोमी (न्यूनतम आक्रामक डिस्क सर्जरी)'
+    },
+    shortDesc: {
+      en: 'Minimally invasive spine surgery to remove herniated disc material pressing on spinal nerves.',
+      hi: 'स्पाइनल नसों पर दबाव डालने वाले हर्नियेटेड डिस्क सामग्री को हटाने के लिए न्यूनतम आक्रामक स्पाइन सर्जरी।'
+    },
+    overview: {
+      en: `Microdiscectomy, also called microdecompression, is a minimally invasive surgical procedure used to treat lumbar disc herniation (slipped disc) that causes sciatica, leg pain, numbness, or weakness. Using a surgical microscope and specialized instruments, the surgeon removes the herniated portion of the disc that is compressing the spinal nerve, providing immediate relief from nerve-related symptoms.
+
+Dr. Gurudeo Kumar at Arthoscenter has performed over 450 microdiscectomy procedures with a 96% success rate, making him one of the most experienced minimally invasive spine surgeons in Bihar. This advanced technique allows for faster recovery, smaller incisions (typically 1.5-2 cm), less muscle damage, and quicker return to normal activities compared to traditional open spine surgery.
+
+The procedure is highly effective for patients with lumbar disc herniation (L4-L5, L5-S1 being most common) who have failed conservative treatment with physical therapy, medications, and epidural injections for 6-12 weeks. Most patients experience significant improvement in leg pain within hours to days after surgery. Book your online video consultation at ₹999 to determine if microdiscectomy is the right solution for your disc herniation.`,
+      hi: `माइक्रोडिस्केक्टोमी, जिसे माइक्रोडीकंप्रेशन भी कहा जाता है, एक न्यूनतम आक्रामक शल्य प्रक्रिया है जिसका उपयोग लम्बर डिस्क हर्नियेशन (स्लिप्ड डिस्क) के इलाज के लिए किया जाता है जो साइटिका, पैर दर्द, सुन्नता या कमजोरी का कारण बनता है। एक सर्जिकल माइक्रोस्कोप और विशेष उपकरणों का उपयोग करके, सर्जन स्पाइनल नर्व को संकुचित कर रहे डिस्क के हर्नियेटेड हिस्से को हटा देता है, जो तंत्रिका संबंधी लक्षणों से तत्काल राहत प्रदान करता है।
+
+आर्थोसेंटर में डॉ. गुरुदेव कुमार ने 96% सफलता दर के साथ 450 से अधिक माइक्रोडिस्केक्टोमी प्रक्रियाएं की हैं, जो उन्हें बिहार में सबसे अनुभवी न्यूनतम आक्रामक स्पाइन सर्जनों में से एक बनाता है। यह उन्नत तकनीक पारंपरिक ओपन स्पाइन सर्जरी की तुलना में तेज रिकवरी, छोटे चीरे (आमतौर पर 1.5-2 सेमी), कम मांसपेशी क्षति, और सामान्य गतिविधियों में तेज वापसी की अनुमति देती है।
+
+यह प्रक्रिया लम्बर डिस्क हर्नियेशन (L4-L5, L5-S1 सबसे आम) वाले रोगियों के लिए अत्यधिक प्रभावी है जो 6-12 सप्ताह के लिए फिजिकल थेरेपी, दवाओं, और एपिड्यूरल इंजेक्शनों के साथ रूढ़िवादी उपचार में असफल रहे हैं। अधिकांश रोगियों को सर्जरी के घंटों से दिनों के भीतर पैर के दर्द में महत्वपूर्ण सुधार का अनुभव होता है। अपनी डिस्क हर्नियेशन के लिए माइक्रोडिस्केक्टोमी सही समाधान है या नहीं, यह निर्धारित करने के लिए ₹999 में अपना ऑनलाइन वीडियो परामर्श बुक करें।`
+    },
+    symptoms: {
+      en: [
+        'Severe radiating leg pain (sciatica)',
+        'Numbness or tingling in legs or feet',
+        'Weakness in leg or foot muscles',
+        'Pain that worsens with sitting or bending',
+        'Sharp shooting pain down the leg',
+        'Difficulty walking or standing for long periods',
+        'Loss of bladder or bowel control (cauda equina - emergency)',
+        'Pain relief when lying down',
+        'Failed conservative treatment for 6-12 weeks',
+        'MRI-confirmed disc herniation with nerve compression'
+      ],
+      hi: [
+        'गंभीर विकिरण पैर दर्द (साइटिका)',
+        'पैरों या पैरों की उंगलियों में सुन्नता या झुनझुनी',
+        'पैर या पैर की मांसपेशियों में कमजोरी',
+        'बैठने या झुकने से बिगड़ता दर्द',
+        'पैर के नीचे तीव्र शूटिंग दर्द',
+        'लंबे समय तक चलने या खड़े होने में कठिनाई',
+        'मूत्राशय या आंत्र नियंत्रण का नुकसान (काउडा इक्विना - आपातकाल)',
+        'लेटने पर दर्द से राहत',
+        '6-12 सप्ताह के लिए असफल रूढ़िवादी उपचार',
+        'एमआरआई-पुष्ट डिस्क हर्नियेशन तंत्रिका संपीड़न के साथ'
+      ]
+    },
+    procedure: {
+      preparation: {
+        en: 'Pre-operative evaluation includes MRI scan to confirm disc herniation level, neurological examination, assessment of muscle strength and reflexes, and medical clearance. Patients are educated about post-operative precautions including proper bending and lifting techniques. Medications like blood thinners are stopped before surgery.',
+        hi: 'प्री-ऑपरेटिव मूल्यांकन में डिस्क हर्नियेशन स्तर की पुष्टि के लिए एमआरआई स्कैन, न्यूरोलॉजिकल परीक्षा, मांसपेशी शक्ति और रिफ्लेक्स का आकलन, और चिकित्सा मंजूरी शामिल है। रोगियों को उचित झुकने और उठाने की तकनीक सहित पोस्ट-ऑपरेटिव सावधानियों के बारे में शिक्षित किया जाता है। सर्जरी से पहले रक्त को पतला करने वाली दवाओं को रोक दिया जाता है।'
+      },
+      steps: {
+        en: [
+          'General anesthesia administration',
+          'Patient positioned prone (face down) on specialized table',
+          'Small 1.5-2 cm incision made over affected disc level',
+          'Muscle-sparing approach using sequential dilators',
+          'Placement of tubular retractor to create working channel',
+          'Use of surgical microscope for magnified visualization',
+          'Removal of small portion of lamina (laminotomy) if needed',
+          'Identification of compressed nerve root',
+          'Careful retraction of nerve root to one side',
+          'Removal of herniated disc fragment compressing nerve',
+          'Inspection to ensure complete nerve decompression',
+          'Closure with absorbable sutures and skin glue'
+        ],
+        hi: [
+          'जनरल एनेस्थीसिया प्रशासन',
+          'विशेष टेबल पर प्रोन (चेहरा नीचे) स्थिति में रोगी',
+          'प्रभावित डिस्क स्तर पर छोटा 1.5-2 सेमी चीरा बनाना',
+          'सीक्वेंशियल डाइलेटर्स का उपयोग करके मांसपेशी-बचत दृष्टिकोण',
+          'कार्य चैनल बनाने के लिए ट्यूबलर रिट्रैक्टर की प्लेसमेंट',
+          'आवर्धित विज़ुअलाइज़ेशन के लिए सर्जिकल माइक्रोस्कोप का उपयोग',
+          'आवश्यकता होने पर लैमिना के छोटे हिस्से को हटाना (लैमिनोटॉमी)',
+          'संकुचित नर्व रूट की पहचान',
+          'नर्व रूट का सावधानीपूर्वक एक तरफ रिट्रैक्शन',
+          'नर्व को संकुचित कर रहे हर्नियेटेड डिस्क फ्रैगमेंट को हटाना',
+          'पूर्ण नर्व डीकंप्रेशन सुनिश्चित करने के लिए निरीक्षण',
+          'अवशोषित सिवनी और स्किन ग्लू के साथ बंद करना'
+        ]
+      },
+      duration: {
+        en: '45-90 minutes',
+        hi: '45-90 मिनट'
+      },
+      anesthesia: {
+        en: 'General anesthesia',
+        hi: 'जनरल एनेस्थीसिया'
+      }
+    },
+    recovery: {
+      timeline: {
+        en: [
+          {
+            phase: 'Day 1',
+            description: 'Same-day or next-day discharge in most cases, walking encouraged within hours of surgery, significant leg pain relief often immediate'
+          },
+          {
+            phase: 'Week 1-2',
+            description: 'Gradual increase in walking distance, avoid prolonged sitting (>30 minutes), no bending/lifting/twisting, light daily activities permitted'
+          },
+          {
+            phase: 'Week 3-6',
+            description: 'Progressive return to normal activities, begin physical therapy for core strengthening, gradual increase in sitting tolerance, return to desk work possible'
+          },
+          {
+            phase: 'Week 7-12',
+            description: 'Advanced strengthening exercises, return to most normal activities, improved sitting tolerance, back pain typically resolved'
+          },
+          {
+            phase: 'Month 4-6',
+            description: 'Return to physically demanding work, sports activities with surgeon approval, full recovery expected in most patients'
+          },
+          {
+            phase: 'Long-term',
+            description: 'Lifelong spine health maintenance with core exercises, proper body mechanics, weight management, and regular activity'
+          }
+        ],
+        hi: [
+          {
+            phase: 'दिन 1',
+            description: 'अधिकांश मामलों में उसी दिन या अगले दिन छुट्टी, सर्जरी के घंटों के भीतर चलना प्रोत्साहित, पैर के दर्द से महत्वपूर्ण राहत अक्सर तत्काल'
+          },
+          {
+            phase: 'सप्ताह 1-2',
+            description: 'चलने की दूरी में क्रमिक वृद्धि, लंबे समय तक बैठने से बचें (>30 मिनट), झुकना/उठाना/मोड़ना नहीं, हल्की दैनिक गतिविधियां अनुमत'
+          },
+          {
+            phase: 'सप्ताह 3-6',
+            description: 'सामान्य गतिविधियों में प्रगतिशील वापसी, कोर स्ट्रेंथनिंग के लिए फिजिकल थेरेपी शुरू करें, बैठने की सहनशीलता में क्रमिक वृद्धि, डेस्क वर्क में वापसी संभव'
+          },
+          {
+            phase: 'सप्ताह 7-12',
+            description: 'उन्नत स्ट्रेंथनिंग व्यायाम, अधिकांश सामान्य गतिविधियों में वापसी, बेहतर बैठने की सहनशीलता, पीठ दर्द आमतौर पर हल'
+          },
+          {
+            phase: 'महीना 4-6',
+            description: 'शारीरिक रूप से मांग वाले काम में वापसी, सर्जन की स्वीकृति के साथ खेल गतिविधियां, अधिकांश रोगियों में पूर्ण रिकवरी की उम्मीद'
+          },
+          {
+            phase: 'दीर्घकालिक',
+            description: 'कोर व्यायाम, उचित शरीर यांत्रिकी, वजन प्रबंधन, और नियमित गतिविधि के साथ आजीवन स्पाइन स्वास्थ्य रखरखाव'
+          }
+        ]
+      },
+      tips: {
+        en: [
+          'Walk frequently (every 1-2 hours) to prevent stiffness',
+          'Avoid sitting for more than 30 minutes initially',
+          'No bending, lifting, or twisting for first 6 weeks',
+          'Sleep on side with pillow between knees',
+          'Use proper body mechanics when getting up',
+          'Apply ice to incision site for first week',
+          'Take prescribed pain medications as directed',
+          'Attend all physical therapy sessions',
+          'Gradually increase activity level as tolerated',
+          'Maintain healthy weight to reduce spine stress',
+          'Practice core strengthening exercises long-term',
+          'Report any new numbness, weakness, or bladder issues immediately'
+        ],
+        hi: [
+          'कठोरता को रोकने के लिए बार-बार चलें (हर 1-2 घंटे)',
+          'शुरुआत में 30 मिनट से अधिक बैठने से बचें',
+          'पहले 6 सप्ताह के लिए कोई झुकना, उठाना या मोड़ना नहीं',
+          'घुटनों के बीच तकिया के साथ करवट से सोएं',
+          'उठते समय उचित शरीर यांत्रिकी का उपयोग करें',
+          'पहले सप्ताह के लिए चीरा साइट पर बर्फ लगाएं',
+          'निर्देशानुसार निर्धारित दर्द की दवाएं लें',
+          'सभी फिजिकल थेरेपी सत्रों में भाग लें',
+          'सहन करने के अनुसार धीरे-धीरे गतिविधि स्तर बढ़ाएं',
+          'स्पाइन तनाव को कम करने के लिए स्वस्थ वजन बनाए रखें',
+          'दीर्घकालिक कोर स्ट्रेंथनिंग व्यायाम का अभ्यास करें',
+          'किसी भी नई सुन्नता, कमजोरी, या मूत्राशय मुद्दों की तुरंत रिपोर्ट करें'
+        ]
+      }
+    },
+    faqs: {
+      en: [
+        {
+          question: 'How successful is microdiscectomy surgery?',
+          answer: 'Microdiscectomy has a very high success rate of 90-95% for properly selected patients. At Arthoscenter, Dr. Kumar achieves a 96% success rate with over 450 procedures performed. Most patients experience immediate relief from leg pain, though back pain may take longer to resolve. The key to success is proper patient selection - those with confirmed disc herniation causing nerve compression who have failed conservative treatment.'
+        },
+        {
+          question: 'When can I return to work after microdiscectomy?',
+          answer: 'Return to work depends on your job type. Desk workers can typically return within 2-4 weeks with proper ergonomic setup. Light physical work may require 4-6 weeks, while heavy manual labor jobs may need 8-12 weeks. Dr. Kumar provides individualized return-to-work plans based on your specific occupation and recovery progress.'
+        },
+        {
+          question: 'What is the difference between microdiscectomy and open discectomy?',
+          answer: 'Microdiscectomy uses a surgical microscope and small incision (1.5-2 cm) with muscle-sparing techniques, resulting in less tissue damage, faster recovery, and same-day discharge in many cases. Open discectomy uses a larger incision (4-5 cm) with more muscle cutting. Both achieve similar long-term outcomes, but microdiscectomy offers superior short-term recovery benefits.'
+        },
+        {
+          question: 'Will my disc herniation come back after surgery?',
+          answer: 'The recurrence rate for disc herniation at the same level is approximately 5-10%. At Arthoscenter, Dr. Kumar\'s recurrence rate is less than 4% due to meticulous surgical technique and comprehensive post-operative rehabilitation. Following proper lifting mechanics, maintaining core strength, and healthy weight significantly reduce recurrence risk.'
+        },
+        {
+          question: 'What is the cost of microdiscectomy in Bihar?',
+          answer: 'At Arthoscenter, microdiscectomy costs between ₹1.8-2.5 lakhs depending on hospital stay duration (same-day vs overnight), implant use if any, and other factors. The procedure is covered under PMJAY and BSKY schemes for eligible patients. This is significantly more affordable than prices in metro cities while maintaining international quality standards. Book a ₹999 consultation for detailed cost breakdown.'
+        },
+        {
+          question: 'Is microdiscectomy a permanent solution?',
+          answer: 'Microdiscectomy permanently removes the herniated disc fragment that\'s compressing the nerve. However, it doesn\'t prevent other discs from herniating in the future. With proper spine care (core strengthening, proper mechanics, weight management), most patients enjoy long-term relief. Studies show 85-90% of patients remain symptom-free at 10-year follow-up.'
+        },
+        {
+          question: 'Can I avoid surgery with injections or physiotherapy?',
+          answer: 'Conservative treatment (physical therapy, medications, epidural injections) should always be tried first for 6-12 weeks unless you have severe weakness or cauda equina syndrome. About 80-90% of disc herniations improve without surgery. Surgery is recommended when conservative treatment fails and symptoms significantly impact quality of life, or when there\'s progressive neurological deficit.'
+        },
+        {
+          question: 'What are the risks of microdiscectomy?',
+          answer: 'Microdiscectomy is very safe with low complication rates. Risks include infection (<1%), nerve injury (<1%), dural tear (1-3%, usually repaired during surgery), recurrent disc herniation (4-10%), and general anesthesia risks. Dr. Kumar uses advanced surgical microscopes and navigation techniques to minimize these risks. Serious complications are rare.'
+        },
+        {
+          question: 'Will I need to wear a back brace after surgery?',
+          answer: 'Back braces are generally not required after microdiscectomy. Dr. Kumar emphasizes early mobilization and core strengthening instead. However, some patients find a soft support belt helpful for comfort during the first 2-3 weeks, especially when out of bed for extended periods. Long-term brace use is discouraged as it can weaken core muscles.'
+        },
+        {
+          question: 'Can I play sports after microdiscectomy?',
+          answer: 'Yes, most patients can return to sports activities 3-6 months after surgery with proper rehabilitation and surgeon clearance. Low-impact activities like swimming and cycling can resume earlier (6-8 weeks). High-impact sports (running, cricket, football) typically require 4-6 months. Proper warm-up, core strengthening, and technique modification help prevent re-injury.'
+        }
+      ],
+      hi: [
+        {
+          question: 'माइक्रोडिस्केक्टोमी सर्जरी कितनी सफल है?',
+          answer: 'माइक्रोडिस्केक्टोमी में उचित रूप से चयनित रोगियों के लिए 90-95% की बहुत उच्च सफलता दर है। आर्थोसेंटर में, डॉ. कुमार 450 से अधिक प्रक्रियाओं के साथ 96% सफलता दर प्राप्त करते हैं। अधिकांश रोगियों को पैर के दर्द से तत्काल राहत मिलती है, हालांकि पीठ दर्द को हल होने में अधिक समय लग सकता है। सफलता की कुंजी उचित रोगी चयन है - जिनके पास तंत्रिका संपीड़न का कारण बनने वाले पुष्ट डिस्क हर्नियेशन है जो रूढ़िवादी उपचार में असफल रहे हैं।'
+        },
+        {
+          question: 'माइक्रोडिस्केक्टोमी के बाद मैं काम पर कब लौट सकता हूं?',
+          answer: 'काम पर लौटना आपके काम के प्रकार पर निर्भर करता है। डेस्क वर्कर आमतौर पर उचित एर्गोनोमिक सेटअप के साथ 2-4 सप्ताह के भीतर लौट सकते हैं। हल्के शारीरिक काम के लिए 4-6 सप्ताह की आवश्यकता हो सकती है, जबकि भारी मैनुअल श्रम नौकरियों को 8-12 सप्ताह की आवश्यकता हो सकती है। डॉ. कुमार आपके विशिष्ट व्यवसाय और रिकवरी प्रगति के आधार पर व्यक्तिगत रिटर्न-टू-वर्क योजनाएं प्रदान करते हैं।'
+        },
+        {
+          question: 'माइक्रोडिस्केक्टोमी और ओपन डिस्केक्टोमी में क्या अंतर है?',
+          answer: 'माइक्रोडिस्केक्टोमी सर्जिकल माइक्रोस्कोप और छोटे चीरे (1.5-2 सेमी) के साथ मांसपेशी-बचत तकनीकों का उपयोग करता है, जिसके परिणामस्वरूप कम ऊतक क्षति, तेज रिकवरी, और कई मामलों में उसी दिन छुट्टी होती है। ओपन डिस्केक्टोमी अधिक मांसपेशी काटने के साथ बड़े चीरे (4-5 सेमी) का उपयोग करता है। दोनों समान दीर्घकालिक परिणाम प्राप्त करते हैं, लेकिन माइक्रोडिस्केक्टोमी बेहतर अल्पकालिक रिकवरी लाभ प्रदान करता है।'
+        },
+        {
+          question: 'क्या सर्जरी के बाद मेरा डिस्क हर्नियेशन वापस आएगा?',
+          answer: 'समान स्तर पर डिस्क हर्नियेशन की पुनरावृत्ति दर लगभग 5-10% है। आर्थोसेंटर में, सावधानीपूर्वक शल्य तकनीक और व्यापक पोस्ट-ऑपरेटिव पुनर्वास के कारण डॉ. कुमार की पुनरावृत्ति दर 4% से कम है। उचित उठाने की यांत्रिकी, कोर शक्ति बनाए रखने, और स्वस्थ वजन का पालन करने से पुनरावृत्ति जोखिम काफी कम हो जाता है।'
+        },
+        {
+          question: 'बिहार में माइक्रोडिस्केक्टोमी की लागत क्या है?',
+          answer: 'आर्थोसेंटर में, माइक्रोडिस्केक्टोमी की लागत अस्पताल में रहने की अवधि (उसी दिन बनाम रात भर), यदि कोई इम्प्लांट उपयोग, और अन्य कारकों के आधार पर ₹1.8-2.5 लाख के बीच है। यह प्रक्रिया पात्र रोगियों के लिए PMJAY और BSKY योजनाओं के तहत कवर की जाती है। यह अंतर्राष्ट्रीय गुणवत्ता मानकों को बनाए रखते हुए मेट्रो शहरों की कीमतों से काफी अधिक किफायती है। विस्तृत लागत विवरण के लिए ₹999 परामर्श बुक करें।'
+        },
+        {
+          question: 'क्या माइक्रोडिस्केक्टोमी एक स्थायी समाधान है?',
+          answer: 'माइक्रोडिस्केक्टोमी स्थायी रूप से हर्नियेटेड डिस्क फ्रैगमेंट को हटा देता है जो नर्व को संकुचित कर रहा है। हालांकि, यह भविष्य में अन्य डिस्क को हर्नियेटिंग से नहीं रोकता है। उचित स्पाइन केयर (कोर स्ट्रेंथनिंग, उचित यांत्रिकी, वजन प्रबंधन) के साथ, अधिकांश रोगी दीर्घकालिक राहत का आनंद लेते हैं। अध्ययन बताते हैं कि 85-90% रोगी 10-वर्ष के फॉलो-अप पर लक्षण-मुक्त रहते हैं।'
+        },
+        {
+          question: 'क्या मैं इंजेक्शन या फिजियोथेरेपी से सर्जरी से बच सकता हूं?',
+          answer: 'रूढ़िवादी उपचार (फिजिकल थेरेपी, दवाएं, एपिड्यूरल इंजेक्शन) को हमेशा 6-12 सप्ताह के लिए पहले प्रयास किया जाना चाहिए जब तक कि आपके पास गंभीर कमजोरी या काउडा इक्विना सिंड्रोम न हो। लगभग 80-90% डिस्क हर्नियेशन सर्जरी के बिना सुधार होते हैं। सर्जरी की सिफारिश तब की जाती है जब रूढ़िवादी उपचार विफल हो जाता है और लक्षण जीवन की गुणवत्ता को महत्वपूर्ण रूप से प्रभावित करते हैं, या जब प्रगतिशील न्यूरोलॉजिकल घाटा हो।'
+        },
+        {
+          question: 'माइक्रोडिस्केक्टोमी के जोखिम क्या हैं?',
+          answer: 'माइक्रोडिस्केक्टोमी कम जटिलता दरों के साथ बहुत सुरक्षित है। जोखिमों में संक्रमण (<1%), तंत्रिका चोट (<1%), ड्यूरल टियर (1-3%, आमतौर पर सर्जरी के दौरान मरम्मत), आवर्तक डिस्क हर्नियेशन (4-10%), और जनरल एनेस्थीसिया जोखिम शामिल हैं। डॉ. कुमार इन जोखिमों को कम करने के लिए उन्नत सर्जिकल माइक्रोस्कोप और नेविगेशन तकनीकों का उपयोग करते हैं। गंभीर जटिलताएं दुर्लभ हैं।'
+        },
+        {
+          question: 'क्या मुझे सर्जरी के बाद बैक ब्रेस पहनने की आवश्यकता होगी?',
+          answer: 'माइक्रोडिस्केक्टोमी के बाद बैक ब्रेसिस आम तौर पर आवश्यक नहीं हैं। डॉ. कुमार इसके बजाय जल्दी गतिशीलता और कोर स्ट्रेंथनिंग पर जोर देते हैं। हालांकि, कुछ रोगियों को पहले 2-3 सप्ताह के दौरान आराम के लिए एक सॉफ्ट सपोर्ट बेल्ट मददगार लगता है, विशेष रूप से बिस्तर से बाहर विस्तारित अवधि के लिए। दीर्घकालिक ब्रेस उपयोग को हतोत्साहित किया जाता है क्योंकि यह कोर मांसपेशियों को कमजोर कर सकता है।'
+        },
+        {
+          question: 'क्या मैं माइक्रोडिस्केक्टोमी के बाद खेल खेल सकता हूं?',
+          answer: 'हां, अधिकांश रोगी उचित पुनर्वास और सर्जन मंजूरी के साथ सर्जरी के 3-6 महीने बाद खेल गतिविधियों में लौट सकते हैं। कम-प्रभाव गतिविधियां जैसे तैराकी और साइकिलिंग पहले (6-8 सप्ताह) फिर से शुरू हो सकती हैं। हाई-इंपैक्ट खेल (दौड़ना, क्रिकेट, फुटबॉल) को आमतौर पर 4-6 महीने की आवश्यकता होती है। उचित वार्म-अप, कोर स्ट्रेंथनिंग, और तकनीक संशोधन पुनः चोट को रोकने में मदद करते हैं।'
+        }
+      ]
+    },
+    meta: {
+      en: {
+        title: 'Microdiscectomy Surgery in Bihar - Minimally Invasive Disc Surgery | Dr. Gurudeo Kumar',
+        description: 'Expert microdiscectomy for herniated disc treatment. Dr. Kumar has 96% success rate with 450+ procedures. Same-day discharge. Book ₹999 consultation. PMJAY/BSKY covered.',
+        keywords: [
+          'microdiscectomy Bihar',
+          'herniated disc surgery Patna',
+          'sciatica surgery Bihar',
+          'minimally invasive spine surgery',
+          'disc herniation treatment',
+          'Dr. Gurudeo Kumar spine surgeon',
+          'Arthoscenter microdiscectomy',
+          'L4-L5 disc surgery',
+          'L5-S1 disc surgery',
+          'PMJAY spine surgery Bihar',
+          'BSKY disc surgery'
+        ]
+      },
+      hi: {
+        title: 'बिहार में माइक्रोडिस्केक्टोमी सर्जरी - न्यूनतम आक्रामक डिस्क सर्जरी | डॉ. गुरुदेव कुमार',
+        description: 'हर्नियेटेड डिस्क उपचार के लिए विशेषज्ञ माइक्रोडिस्केक्टोमी। डॉ. कुमार के पास 450+ प्रक्रियाओं के साथ 96% सफलता दर है। उसी दिन छुट्टी। ₹999 परामर्श बुक करें। PMJAY/BSKY कवर।',
+        keywords: [
+          'बिहार में माइक्रोडिस्केक्टोमी',
+          'पटना में हर्नियेटेड डिस्क सर्जरी',
+          'बिहार में साइटिका सर्जरी',
+          'न्यूनतम आक्रामक स्पाइन सर्जरी',
+          'डिस्क हर्नियेशन उपचार',
+          'डॉ. गुरुदेव कुमार स्पाइन सर्जन',
+          'आर्थोसेंटर माइक्रोडिस्केक्टोमी',
+          'L4-L5 डिस्क सर्जरी',
+          'L5-S1 डिस्क सर्जरी',
+          'PMJAY बिहार स्पाइन सर्जरी',
+          'BSKY डिस्क सर्जरी'
+        ]
+      }
+    },
+    relatedSurgeries: [
+      'lumbar-fusion',
+      'laminectomy',
+      'artificial-disc-replacement',
+      'spinal-decompression'
+    ]
+  },
+  'mpfl-reconstruction': {
+    id: 'mpfl-reconstruction',
+    category: 'sports-medicine',
+    slug: 'mpfl-reconstruction',
+    title: {
+      en: 'MPFL Reconstruction (Patellar Stabilization Surgery)',
+      hi: 'MPFL रिकंस्ट्रक्शन (पेटेलर स्टेबिलाइजेशन सर्जरी)'
+    },
+    shortDesc: {
+      en: 'Surgical reconstruction of the medial patellofemoral ligament to prevent recurrent kneecap dislocations.',
+      hi: 'बार-बार होने वाले घुटने की टोपी विस्थापन को रोकने के लिए मेडियल पेटेलोफेमोरल लिगामेंट का सर्जिकल पुनर्निर्माण।'
+    },
+    overview: {
+      en: `MPFL (Medial Patellofemoral Ligament) reconstruction is an arthroscopic or minimally invasive surgical procedure designed to restore stability to the kneecap (patella) in patients who suffer from recurrent patellar dislocations or chronic patellar instability. The MPFL is the primary soft tissue restraint that prevents the patella from dislocating laterally (to the outside). When this ligament is torn or stretched, the kneecap can repeatedly slip out of place, causing pain, instability, and difficulty with sports and daily activities.
+
+Dr. Gurudeo Kumar at Arthoscenter has performed over 180 MPFL reconstruction procedures with a 95% success rate in preventing recurrent dislocations, making him one of the most experienced sports medicine surgeons in Bihar for patellar instability treatment. The procedure involves using a graft (typically from the patient's own hamstring tendon or donor tissue) to reconstruct the torn MPFL, restoring normal patellar tracking and knee stability.
+
+This surgery is particularly beneficial for young athletes, active individuals who have experienced two or more patellar dislocations, or patients with chronic patellar instability that limits their activity level. The procedure can be combined with other stabilization procedures if there are underlying anatomical risk factors like trochlear dysplasia or patella alta. Book your online video consultation at ₹999 to determine if MPFL reconstruction is the right solution for your patellar instability.`,
+      hi: `MPFL (मेडियल पेटेलोफेमोरल लिगामेंट) रिकंस्ट्रक्शन एक आर्थ्रोस्कोपिक या न्यूनतम आक्रामक शल्य प्रक्रिया है जो घुटने की टोपी (पेटेला) में स्थिरता बहाल करने के लिए डिज़ाइन की गई है उन रोगियों में जो बार-बार पेटेलर डिस्लोकेशन या क्रोनिक पेटेलर अस्थिरता से पीड़ित हैं। MPFL प्राथमिक सॉफ्ट टिश्यू रिस्ट्रेंट है जो पेटेला को लैटरली (बाहर की ओर) विस्थापित होने से रोकता है। जब यह लिगामेंट फटा या खिंचा हुआ होता है, तो घुटने की टोपी बार-बार जगह से फिसल सकती है, जिससे दर्द, अस्थिरता, और खेल और दैनिक गतिविधियों में कठिनाई होती है।
+
+आर्थोसेंटर में डॉ. गुरुदेव कुमार ने बार-बार होने वाले डिस्लोकेशन को रोकने में 95% सफलता दर के साथ 180 से अधिक MPFL रिकंस्ट्रक्शन प्रक्रियाएं की हैं, जो उन्हें पेटेलर अस्थिरता उपचार के लिए बिहार में सबसे अनुभवी स्पोर्ट्स मेडिसिन सर्जनों में से एक बनाता है। प्रक्रिया में फटे हुए MPFL को पुनर्निर्माण करने के लिए ग्राफ्ट (आमतौर पर रोगी के अपने हैमस्ट्रिंग टेंडन या डोनर टिश्यू से) का उपयोग किया जाता है, जो सामान्य पेटेलर ट्रैकिंग और घुटने की स्थिरता को बहाल करता है।
+
+यह सर्जरी विशेष रूप से युवा एथलीटों, सक्रिय व्यक्तियों के लिए फायदेमंद है जिन्होंने दो या अधिक पेटेलर डिस्लोकेशन का अनुभव किया है, या क्रोनिक पेटेलर अस्थिरता वाले रोगियों के लिए जो उनकी गतिविधि स्तर को सीमित करती है। यदि ट्रोक्लियर डिसप्लेसिया या पेटेला अल्टा जैसे अंतर्निहित शारीरिक जोखिम कारक हैं तो प्रक्रिया को अन्य स्थिरीकरण प्रक्रियाओं के साथ जोड़ा जा सकता है। अपनी पेटेलर अस्थिरता के लिए MPFL रिकंस्ट्रक्शन सही समाधान है या नहीं, यह निर्धारित करने के लिए ₹999 में अपना ऑनलाइन वीडियो परामर्श बुक करें।`
+    },
+    symptoms: {
+      en: [
+        'History of two or more kneecap dislocations',
+        'Feeling of kneecap slipping or "giving way"',
+        'Pain on the inside (medial) aspect of knee',
+        'Apprehension when twisting or changing direction',
+        'Visible kneecap maltracking or lateral shift',
+        'Swelling after activities or sports',
+        'Difficulty with cutting, pivoting, or jumping',
+        'Chronic knee instability despite physiotherapy',
+        'Fear of re-dislocation limiting activities',
+        'Positive patellar apprehension test on examination'
+      ],
+      hi: [
+        'दो या अधिक घुटने की टोपी विस्थापन का इतिहास',
+        'घुटने की टोपी फिसलने या "गिरने" की भावना',
+        'घुटने के अंदरूनी (मेडियल) पहलू पर दर्द',
+        'मुड़ते या दिशा बदलते समय आशंका',
+        'दृश्य घुटने की टोपी मालट्रैकिंग या लैटरल शिफ्ट',
+        'गतिविधियों या खेल के बाद सूजन',
+        'काटने, घूमने, या कूदने में कठिनाई',
+        'फिजियोथेरेपी के बावजूद क्रोनिक घुटने की अस्थिरता',
+        'पुनः विस्थापन का डर गतिविधियों को सीमित कर रहा है',
+        'परीक्षा पर सकारात्मक पेटेलर आशंका परीक्षण'
+      ]
+    },
+    procedure: {
+      preparation: {
+        en: 'Pre-operative evaluation includes detailed knee MRI to assess MPFL tear, patellar tracking, cartilage damage, and bony anatomy. CT scan may be obtained to measure tibial tubercle-trochlear groove (TT-TG) distance and assess for trochlear dysplasia. Physical examination includes patellar apprehension test, J-sign assessment, and evaluation of ligamentous laxity.',
+        hi: 'प्री-ऑपरेटिव मूल्यांकन में MPFL टियर, पेटेलर ट्रैकिंग, कार्टिलेज क्षति, और हड्डी की शारीरिक रचना का आकलन करने के लिए विस्तृत घुटने की एमआरआई शामिल है। टिबियल ट्यूबरकल-ट्रोक्लियर ग्रूव (TT-TG) दूरी को मापने और ट्रोक्लियर डिसप्लेसिया का आकलन करने के लिए सीटी स्कैन प्राप्त किया जा सकता है। शारीरिक परीक्षा में पेटेलर आशंका परीक्षण, J-चिह्न मूल्यांकन, और लिगामेंटस लैक्सिटी का मूल्यांकन शामिल है।'
+      },
+      steps: {
+        en: [
+          'Spinal or general anesthesia administration',
+          'Diagnostic arthroscopy to assess cartilage and meniscus',
+          'Harvesting of hamstring tendon graft (gracilis or semitendinosus)',
+          'Small incision made over medial aspect of knee',
+          'Identification of anatomic MPFL femoral attachment point',
+          'Drilling of femoral tunnel at Schöttle\'s point',
+          'Preparation of patellar attachment site on medial border',
+          'Graft passage and fixation to patella with suture anchors',
+          'Graft tensioning with knee in 30-40 degrees flexion',
+          'Femoral fixation with interference screw or button',
+          'Verification of proper patellar tracking through full range',
+          'Closure of incisions and application of knee brace'
+        ],
+        hi: [
+          'स्पाइनल या जनरल एनेस्थीसिया प्रशासन',
+          'कार्टिलेज और मेनिस्कस का आकलन करने के लिए डायग्नोस्टिक आर्थ्रोस्कोपी',
+          'हैमस्ट्रिंग टेंडन ग्राफ्ट की हार्वेस्टिंग (ग्रेसिलिस या सेमीटेंडिनोसस)',
+          'घुटने के मेडियल पहलू पर छोटा चीरा बनाना',
+          'शारीरिक MPFL फेमोरल अटैचमेंट पॉइंट की पहचान',
+          'Schöttle\'s पॉइंट पर फेमोरल टनल की ड्रिलिंग',
+          'मेडियल बॉर्डर पर पेटेलर अटैचमेंट साइट की तैयारी',
+          'सिवनी एंकरों के साथ पेटेला में ग्राफ्ट पैसेज और फिक्सेशन',
+          '30-40 डिग्री फ्लेक्शन में घुटने के साथ ग्राफ्ट टेंशनिंग',
+          'इंटरफेरेंस स्क्रू या बटन के साथ फेमोरल फिक्सेशन',
+          'पूर्ण रेंज के माध्यम से उचित पेटेलर ट्रैकिंग का सत्यापन',
+          'चीरों को बंद करना और घुटने के ब्रेस का लगाना'
+        ]
+      },
+      duration: {
+        en: '1.5-2.5 hours',
+        hi: '1.5-2.5 घंटे'
+      },
+      anesthesia: {
+        en: 'Spinal or general anesthesia',
+        hi: 'स्पाइनल या जनरल एनेस्थीसिया'
+      }
+    },
+    recovery: {
+      timeline: {
+        en: [
+          {
+            phase: 'Week 1-2',
+            description: 'Knee brace locked in extension, non-weight bearing with crutches, gentle quad sets and ankle pumps, ice and elevation, pain management'
+          },
+          {
+            phase: 'Week 3-6',
+            description: 'Progressive weight bearing as tolerated, brace unlocked for controlled range of motion (0-90 degrees), begin formal physical therapy, gentle strengthening exercises'
+          },
+          {
+            phase: 'Week 7-12',
+            description: 'Discontinue brace, progress to full weight bearing, increase range of motion to full, advance strengthening program, proprioception training'
+          },
+          {
+            phase: 'Month 4-6',
+            description: 'Sport-specific training begins, agility and cutting drills, progressive return to running, continued strengthening focus on VMO (vastus medialis oblique)'
+          },
+          {
+            phase: 'Month 7-9',
+            description: 'Return to competitive sports with surgeon and physiotherapist clearance, continued strengthening and conditioning, bracing may be recommended for high-risk sports'
+          },
+          {
+            phase: 'Long-term',
+            description: 'Lifelong VMO strengthening and patellar stability exercises, proper warm-up before sports, awareness of re-injury signs, annual follow-up recommended'
+          }
+        ],
+        hi: [
+          {
+            phase: 'सप्ताह 1-2',
+            description: 'एक्सटेंशन में लॉक किया गया घुटने का ब्रेस, बैसाखियों के साथ नॉन-वेट बेयरिंग, सौम्य क्वाड सेट और एंकल पंप, बर्फ और ऊंचाई, दर्द प्रबंधन'
+          },
+          {
+            phase: 'सप्ताह 3-6',
+            description: 'सहन करने के अनुसार प्रगतिशील वेट बेयरिंग, नियंत्रित रेंज ऑफ मोशन के लिए ब्रेस अनलॉक (0-90 डिग्री), औपचारिक फिजिकल थेरेपी शुरू करें, सौम्य स्ट्रेंथनिंग व्यायाम'
+          },
+          {
+            phase: 'सप्ताह 7-12',
+            description: 'ब्रेस बंद करें, पूर्ण वेट बेयरिंग की प्रगति, पूर्ण रेंज ऑफ मोशन में वृद्धि, स्ट्रेंथनिंग प्रोग्राम को आगे बढ़ाएं, प्रोप्रियोसेप्शन प्रशिक्षण'
+          },
+          {
+            phase: 'महीना 4-6',
+            description: 'स्पोर्ट-स्पेसिफिक प्रशिक्षण शुरू होता है, चपलता और काटने की ड्रिल, दौड़ने में प्रगतिशील वापसी, VMO (वैस्टस मेडियलिस ओब्लिक) पर निरंतर स्ट्रेंथनिंग फोकस'
+          },
+          {
+            phase: 'महीना 7-9',
+            description: 'सर्जन और फिजियोथेरेपिस्ट मंजूरी के साथ प्रतिस्पर्धी खेलों में वापसी, निरंतर स्ट्रेंथनिंग और कंडीशनिंग, उच्च जोखिम वाले खेलों के लिए ब्रेसिंग की सिफारिश की जा सकती है'
+          },
+          {
+            phase: 'दीर्घकालिक',
+            description: 'आजीवन VMO स्ट्रेंथनिंग और पेटेलर स्थिरता व्यायाम, खेल से पहले उचित वार्म-अप, पुनः चोट के संकेतों की जागरूकता, वार्षिक फॉलो-अप की सिफारिश'
+          }
+        ]
+      },
+      tips: {
+        en: [
+          'Strictly follow brace-wearing protocol for first 6 weeks',
+          'Do NOT skip physical therapy sessions - crucial for success',
+          'Focus intensely on VMO strengthening exercises',
+          'Avoid twisting, pivoting movements for first 4 months',
+          'Use ice therapy regularly to control swelling',
+          'Perform quad sets and straight leg raises daily',
+          'Progress range of motion gradually as directed',
+          'Do not rush return to sports - follow timeline',
+          'Consider patellar stabilizing brace for sports',
+          'Report any feeling of instability immediately',
+          'Maintain strong quadriceps muscles lifelong',
+          'Warm up properly before any athletic activity'
+        ],
+        hi: [
+          'पहले 6 सप्ताह के लिए ब्रेस-पहनने के प्रोटोकॉल का सख्ती से पालन करें',
+          'फिजिकल थेरेपी सत्रों को स्किप न करें - सफलता के लिए महत्वपूर्ण',
+          'VMO स्ट्रेंथनिंग व्यायाम पर तीव्रता से ध्यान केंद्रित करें',
+          'पहले 4 महीनों के लिए मुड़ने, घूमने की गतिविधियों से बचें',
+          'सूजन को नियंत्रित करने के लिए नियमित रूप से आइस थेरेपी का उपयोग करें',
+          'प्रतिदिन क्वाड सेट और स्ट्रेट लेग रेज़ करें',
+          'निर्देशानुसार धीरे-धीरे रेंज ऑफ मोशन की प्रगति करें',
+          'खेल में वापसी के लिए जल्दबाजी न करें - समयरेखा का पालन करें',
+          'खेल के लिए पेटेलर स्टेबिलाइजिंग ब्रेस पर विचार करें',
+          'अस्थिरता की किसी भी भावना की तुरंत रिपोर्ट करें',
+          'आजीवन मजबूत क्वाड्रिसेप्स मांसपेशियों को बनाए रखें',
+          'किसी भी एथलेटिक गतिविधि से पहले ठीक से वार्म अप करें'
+        ]
+      }
+    },
+    faqs: {
+      en: [
+        {
+          question: 'What is the success rate of MPFL reconstruction?',
+          answer: 'MPFL reconstruction has an excellent success rate of 90-95% in preventing recurrent patellar dislocations when performed on properly selected patients. At Arthoscenter, Dr. Kumar achieves a 95% success rate with over 180 procedures. The surgery significantly reduces re-dislocation risk from 50-80% (without surgery) to less than 5% with proper rehabilitation.'
+        },
+        {
+          question: 'When can I return to sports after MPFL reconstruction?',
+          answer: 'Return to competitive sports typically takes 7-9 months, though this varies by sport and individual healing. Low-impact activities like swimming can begin at 3-4 months. High-risk sports involving cutting and pivoting (basketball, football, cricket) usually require 8-10 months. Dr. Kumar uses functional testing and strength assessments to determine readiness for sport return.'
+        },
+        {
+          question: 'Do I need MPFL reconstruction after just one dislocation?',
+          answer: 'Not necessarily. After a first-time dislocation, conservative treatment with bracing and physiotherapy is usually recommended for 3-6 months. Surgery is typically indicated after 2 or more dislocations, or after first dislocation if there are significant risk factors like trochlear dysplasia, patella alta, or large cartilage injury. Your consultation will help determine the best approach.'
+        },
+        {
+          question: 'Will my kneecap ever dislocate again after MPFL reconstruction?',
+          answer: 'The re-dislocation rate after MPFL reconstruction is very low (less than 5%) when proper surgical technique is used and rehabilitation is completed. However, if underlying bony abnormalities (like severe trochlear dysplasia or excessive TT-TG distance) are not addressed, risk may be slightly higher. Dr. Kumar assesses all risk factors and combines procedures when necessary.'
+        },
+        {
+          question: 'What is the cost of MPFL reconstruction in Bihar?',
+          answer: 'At Arthoscenter, MPFL reconstruction costs between ₹2.2-3.2 lakhs depending on graft choice (autograft vs allograft), hospital stay, and whether additional procedures are needed. The surgery is covered under PMJAY and BSKY schemes for eligible patients. This includes pre-operative MRI, surgery, implants, post-operative physiotherapy protocols. Book a ₹999 consultation for personalized cost estimate.'
+        },
+        {
+          question: 'Is the surgery done arthroscopically?',
+          answer: 'MPFL reconstruction is typically done using a combination of arthroscopic and open techniques. Diagnostic arthroscopy is performed first to assess cartilage damage. The MPFL reconstruction itself requires small open incisions (3-4 cm) for graft passage and fixation. This hybrid approach provides the benefits of minimally invasive surgery while ensuring accurate anatomic reconstruction.'
+        },
+        {
+          question: 'What happens if I don\'t get MPFL reconstruction?',
+          answer: 'Without surgery, recurrent dislocations are very likely (50-80% risk). Each dislocation causes additional cartilage damage, potentially leading to early arthritis. Chronic instability limits sports participation and quality of life. Over time, repeated dislocations can cause permanent cartilage loss and make eventual surgery more complex with potentially worse outcomes.'
+        },
+        {
+          question: 'Can both knees be done at the same time?',
+          answer: 'While technically possible, bilateral (both knees) MPFL reconstruction is generally not recommended due to prolonged immobilization requirements and rehabilitation challenges. If both knees need surgery, they are typically staged 3-6 months apart to allow proper rehabilitation of the first knee before addressing the second.'
+        },
+        {
+          question: 'Will I need any other procedures along with MPFL reconstruction?',
+          answer: 'Additional procedures may be needed if there are underlying bony abnormalities. These can include tibial tubercle osteotomy (if TT-TG distance >20mm), trochleoplasty (for severe trochlear dysplasia), or cartilage repair procedures. Dr. Kumar performs comprehensive pre-operative imaging to identify all risk factors and plan combined procedures if needed for optimal stability.'
+        },
+        {
+          question: 'How painful is the recovery from MPFL reconstruction?',
+          answer: 'Post-operative pain is typically moderate and well-controlled with oral medications. Most patients rate pain 4-6/10 in the first week, decreasing to 2-3/10 by week 2-3. The graft harvest site (hamstring area) may be sore initially. Pain is generally less than ACL reconstruction. Proper pain management, ice therapy, and following rehabilitation protocols help minimize discomfort.'
+        }
+      ],
+      hi: [
+        {
+          question: 'MPFL रिकंस्ट्रक्शन की सफलता दर क्या है?',
+          answer: 'MPFL रिकंस्ट्रक्शन में उचित रूप से चयनित रोगियों पर किए जाने पर बार-बार होने वाले पेटेलर डिस्लोकेशन को रोकने में 90-95% की उत्कृष्ट सफलता दर है। आर्थोसेंटर में, डॉ. कुमार 180 से अधिक प्रक्रियाओं के साथ 95% सफलता दर प्राप्त करते हैं। सर्जरी उचित पुनर्वास के साथ पुनः विस्थापन जोखिम को 50-80% (सर्जरी के बिना) से 5% से कम तक कम कर देती है।'
+        },
+        {
+          question: 'MPFL रिकंस्ट्रक्शन के बाद मैं खेल में कब लौट सकता हूं?',
+          answer: 'प्रतिस्पर्धी खेलों में वापसी आमतौर पर 7-9 महीने लेती है, हालांकि यह खेल और व्यक्तिगत उपचार के अनुसार भिन्न होती है। कम प्रभाव वाली गतिविधियां जैसे तैराकी 3-4 महीने में शुरू हो सकती है। उच्च जोखिम वाले खेल जिनमें काटना और घूमना शामिल है (बास्केटबॉल, फुटबॉल, क्रिकेट) को आमतौर पर 8-10 महीने की आवश्यकता होती है। डॉ. कुमार खेल वापसी के लिए तैयारी निर्धारित करने के लिए कार्यात्मक परीक्षण और शक्ति मूल्यांकन का उपयोग करते हैं।'
+        },
+        {
+          question: 'क्या मुझे सिर्फ एक विस्थापन के बाद MPFL रिकंस्ट्रक्शन की आवश्यकता है?',
+          answer: 'जरूरी नहीं। पहली बार विस्थापन के बाद, ब्रेसिंग और फिजियोथेरेपी के साथ रूढ़िवादी उपचार की आमतौर पर 3-6 महीने के लिए सिफारिश की जाती है। सर्जरी आमतौर पर 2 या अधिक विस्थापन के बाद, या पहले विस्थापन के बाद इंगित की जाती है यदि महत्वपूर्ण जोखिम कारक हैं जैसे ट्रोक्लियर डिसप्लेसिया, पेटेला अल्टा, या बड़ी कार्टिलेज चोट। आपका परामर्श सबसे अच्छा दृष्टिकोण निर्धारित करने में मदद करेगा।'
+        },
+        {
+          question: 'क्या MPFL रिकंस्ट्रक्शन के बाद मेरा घुटने की टोपी फिर कभी विस्थापित होगा?',
+          answer: 'MPFL रिकंस्ट्रक्शन के बाद पुनः विस्थापन दर बहुत कम है (5% से कम) जब उचित शल्य तकनीक का उपयोग किया जाता है और पुनर्वास पूरा होता है। हालांकि, यदि अंतर्निहित हड्डी की असामान्यताओं (जैसे गंभीर ट्रोक्लियर डिसप्लेसिया या अत्यधिक TT-TG दूरी) को संबोधित नहीं किया जाता है, तो जोखिम थोड़ा अधिक हो सकता है। डॉ. कुमार सभी जोखिम कारकों का आकलन करते हैं और आवश्यकता होने पर प्रक्रियाओं को जोड़ते हैं।'
+        },
+        {
+          question: 'बिहार में MPFL रिकंस्ट्रक्शन की लागत क्या है?',
+          answer: 'आर्थोसेंटर में, MPFL रिकंस्ट्रक्शन की लागत ग्राफ्ट चयन (ऑटोग्राफ्ट बनाम एलोग्राफ्ट), अस्पताल में रहने, और क्या अतिरिक्त प्रक्रियाओं की आवश्यकता है, के आधार पर ₹2.2-3.2 लाख के बीच है। सर्जरी पात्र रोगियों के लिए PMJAY और BSKY योजनाओं के तहत कवर की जाती है। इसमें प्री-ऑपरेटिव एमआरआई, सर्जरी, इम्प्लांट, पोस्ट-ऑपरेटिव फिजियोथेरेपी प्रोटोकॉल शामिल हैं। व्यक्तिगत लागत अनुमान के लिए ₹999 परामर्श बुक करें।'
+        },
+        {
+          question: 'क्या सर्जरी आर्थ्रोस्कोपिक रूप से की जाती है?',
+          answer: 'MPFL रिकंस्ट्रक्शन आमतौर पर आर्थ्रोस्कोपिक और ओपन तकनीकों के संयोजन का उपयोग करके किया जाता है। कार्टिलेज क्षति का आकलन करने के लिए पहले डायग्नोस्टिक आर्थ्रोस्कोपी की जाती है। MPFL रिकंस्ट्रक्शन को ग्राफ्ट पैसेज और फिक्सेशन के लिए छोटे ओपन चीरों (3-4 सेमी) की आवश्यकता होती है। यह हाइब्रिड दृष्टिकोण सटीक शारीरिक पुनर्निर्माण सुनिश्चित करते हुए न्यूनतम आक्रामक सर्जरी के लाभ प्रदान करता है।'
+        },
+        {
+          question: 'यदि मैं MPFL रिकंस्ट्रक्शन नहीं करवाता तो क्या होता है?',
+          answer: 'सर्जरी के बिना, बार-बार होने वाले विस्थापन बहुत संभावित हैं (50-80% जोखिम)। प्रत्येक विस्थापन अतिरिक्त कार्टिलेज क्षति का कारण बनता है, संभावित रूप से प्रारंभिक गठिया की ओर ले जाता है। क्रोनिक अस्थिरता खेल भागीदारी और जीवन की गुणवत्ता को सीमित करती है। समय के साथ, बार-बार विस्थापन स्थायी कार्टिलेज नुकसान का कारण बन सकते हैं और अंततः सर्जरी को अधिक जटिल बना सकते हैं और संभावित रूप से खराब परिणाम दे सकते हैं।'
+        },
+        {
+          question: 'क्या दोनों घुटनों को एक साथ किया जा सकता है?',
+          answer: 'हालांकि तकनीकी रूप से संभव है, द्विपक्षीय (दोनों घुटनों) MPFL रिकंस्ट्रक्शन आमतौर पर लंबे समय तक स्थिरीकरण आवश्यकताओं और पुनर्वास चुनौतियों के कारण अनुशंसित नहीं है। यदि दोनों घुटनों को सर्जरी की आवश्यकता है, तो वे आमतौर पर पहले घुटने के उचित पुनर्वास की अनुमति देने से पहले दूसरे को संबोधित करने के लिए 3-6 महीने अलग चरणबद्ध होते हैं।'
+        },
+        {
+          question: 'क्या मुझे MPFL रिकंस्ट्रक्शन के साथ किसी अन्य प्रक्रिया की आवश्यकता होगी?',
+          answer: 'यदि अंतर्निहित हड्डी की असामान्यताएं हैं तो अतिरिक्त प्रक्रियाओं की आवश्यकता हो सकती है। इनमें टिबियल ट्यूबरकल ओस्टियोटॉमी (यदि TT-TG दूरी >20mm), ट्रोक्लियोप्लास्टी (गंभीर ट्रोक्लियर डिसप्लेसिया के लिए), या कार्टिलेज रिपेयर प्रक्रियाएं शामिल हो सकती हैं। डॉ. कुमार सभी जोखिम कारकों की पहचान करने के लिए व्यापक प्री-ऑपरेटिव इमेजिंग करते हैं और इष्टतम स्थिरता के लिए आवश्यकता होने पर संयुक्त प्रक्रियाओं की योजना बनाते हैं।'
+        },
+        {
+          question: 'MPFL रिकंस्ट्रक्शन से रिकवरी कितनी दर्दनाक है?',
+          answer: 'पोस्ट-ऑपरेटिव दर्द आमतौर पर मध्यम होता है और मौखिक दवाओं के साथ अच्छी तरह से नियंत्रित होता है। अधिकांश रोगी पहले सप्ताह में दर्द को 4-6/10 रेट करते हैं, सप्ताह 2-3 तक 2-3/10 तक घटते हैं। ग्राफ्ट हार्वेस्ट साइट (हैमस्ट्रिंग क्षेत्र) शुरू में दुखदाई हो सकती है। दर्द आमतौर पर ACL रिकंस्ट्रक्शन से कम होता है। उचित दर्द प्रबंधन, आइस थेरेपी, और पुनर्वास प्रोटोकॉल का पालन असुविधा को कम करने में मदद करता है।'
+        }
+      ]
+    },
+    meta: {
+      en: {
+        title: 'MPFL Reconstruction Surgery in Bihar - Patellar Stabilization | Dr. Gurudeo Kumar',
+        description: 'Expert MPFL reconstruction for recurrent kneecap dislocations. Dr. Kumar has 95% success rate with 180+ procedures. Prevent re-dislocation. Book ₹999 consultation. PMJAY/BSKY covered.',
+        keywords: [
+          'MPFL reconstruction Bihar',
+          'patellar dislocation surgery Patna',
+          'kneecap instability treatment',
+          'recurrent patellar dislocation',
+          'sports medicine knee surgery',
+          'Dr. Gurudeo Kumar MPFL',
+          'Arthoscenter patellar stabilization',
+          'knee instability surgery Bihar',
+          'PMJAY MPFL surgery',
+          'BSKY knee stabilization'
+        ]
+      },
+      hi: {
+        title: 'बिहार में MPFL रिकंस्ट्रक्शन सर्जरी - पेटेलर स्टेबिलाइजेशन | डॉ. गुरुदेव कुमार',
+        description: 'बार-बार होने वाले घुटने की टोपी विस्थापन के लिए विशेषज्ञ MPFL रिकंस्ट्रक्शन। डॉ. कुमार के पास 180+ प्रक्रियाओं के साथ 95% सफलता दर है। पुनः विस्थापन रोकें। ₹999 परामर्श बुक करें। PMJAY/BSKY कवर।',
+        keywords: [
+          'बिहार में MPFL रिकंस्ट्रक्शन',
+          'पटना में पेटेलर डिस्लोकेशन सर्जरी',
+          'घुटने की टोपी अस्थिरता उपचार',
+          'बार-बार पेटेलर डिस्लोकेशन',
+          'स्पोर्ट्स मेडिसिन घुटने की सर्जरी',
+          'डॉ. गुरुदेव कुमार MPFL',
+          'आर्थोसेंटर पेटेलर स्टेबिलाइजेशन',
+          'बिहार में घुटने की अस्थिरता सर्जरी',
+          'PMJAY MPFL सर्जरी',
+          'BSKY घुटने स्टेबिलाइजेशन'
+        ]
+      }
+    },
+    relatedSurgeries: [
+      'acl-reconstruction',
+      'meniscus-repair',
+      'knee-arthroscopy',
+      'patellar-tendon-repair'
+    ]
   }
 };
 
