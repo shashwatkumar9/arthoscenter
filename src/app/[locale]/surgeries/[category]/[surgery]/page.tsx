@@ -15,6 +15,9 @@ import {
 import { menuCategories } from '@/constants/navigation';
 import { surgeriesData } from '@/data/surgeries';
 
+// Force dynamic rendering to avoid build-time errors with surgery data
+export const dynamic = 'force-dynamic';
+
 type Props = {
   params: Promise<{
     locale: string;
