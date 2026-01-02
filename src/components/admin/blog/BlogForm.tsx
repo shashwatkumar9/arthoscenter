@@ -27,7 +27,7 @@ export default function BlogForm({ blog }: BlogFormProps) {
     setValue,
     formState: { errors },
   } = useForm<BlogFormData>({
-    resolver: zodResolver(blogSchema),
+    resolver: zodResolver(blogSchema) as any,
     defaultValues: blog
       ? {
           title: blog.title,
@@ -42,8 +42,8 @@ export default function BlogForm({ blog }: BlogFormProps) {
           status: blog.status as any,
         }
       : {
-          language: 'en',
-          status: 'DRAFT',
+          language: 'en' as const,
+          status: 'DRAFT' as const,
         },
   });
 

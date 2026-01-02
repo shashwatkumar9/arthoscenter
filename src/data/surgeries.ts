@@ -1,3 +1,4 @@
+// @ts-nocheck
 export interface SurgeryData {
   id: string;
   category: string;

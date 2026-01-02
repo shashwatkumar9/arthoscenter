@@ -90,19 +90,19 @@ export default async function BlogListPage({
           <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-4">
             <p className="text-sm text-gray-600">Published</p>
             <p className="text-2xl font-bold text-green-600">
-              {blogs.filter(b => b.status === 'PUBLISHED').length}
+              {blogs.filter((b) => b.status === 'PUBLISHED').length}
             </p>
           </div>
           <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-4">
             <p className="text-sm text-gray-600">Drafts</p>
             <p className="text-2xl font-bold text-yellow-600">
-              {blogs.filter(b => b.status === 'DRAFT').length}
+              {blogs.filter((b) => b.status === 'DRAFT').length}
             </p>
           </div>
           <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-4">
             <p className="text-sm text-gray-600">Languages</p>
             <p className="text-2xl font-bold text-blue-600">
-              {new Set(blogs.map(b => b.language)).size}
+              {new Set(blogs.map((b) => b.language)).size}
             </p>
           </div>
         </div>

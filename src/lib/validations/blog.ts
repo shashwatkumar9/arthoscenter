@@ -6,13 +6,13 @@ export const blogSchema = z.object({
   excerpt: z.string().min(1, 'Excerpt is required').max(500, 'Excerpt must be less than 500 characters'),
   content: z.string().min(1, 'Content is required'),
   language: z.enum(['en', 'hi', 'bn', 'ne', 'as', 'or', 'mai', 'bho'], {
-    errorMap: () => ({ message: 'Please select a valid language' }),
+    message: 'Please select a valid language',
   }),
   metaTitle: z.string().max(60, 'Meta title must be less than 60 characters').optional(),
   metaDescription: z.string().max(160, 'Meta description must be less than 160 characters').optional(),
   keywords: z.string().optional(),
   featuredImage: z.string().url('Must be a valid URL').optional().or(z.literal('')),
-  status: z.enum(['DRAFT', 'PUBLISHED', 'ARCHIVED']).default('DRAFT'),
+  status: z.enum(['DRAFT', 'PUBLISHED', 'ARCHIVED']).optional().default('DRAFT'),
   publishedAt: z.string().optional(),
 });
 
