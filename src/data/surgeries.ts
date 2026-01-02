@@ -18975,6 +18975,1530 @@ This surgery is particularly beneficial for young athletes, active individuals w
       'knee-arthroscopy',
       'patellar-tendon-repair'
     ]
+  },
+
+  'wrist-replacement': {
+    id: 'wrist-replacement',
+    category: 'joint-replacement',
+    slug: 'wrist-replacement',
+    title: {
+      en: 'Wrist Replacement Surgery in India',
+      hi: 'भारत में कलाई प्रतिस्थापन सर्जरी'
+    },
+    shortDesc: {
+      en: 'Advanced wrist joint replacement for severe arthritis and wrist pain relief.',
+      hi: 'गंभीर गठिया और कलाई दर्द राहत के लिए उन्नत कलाई जोड़ प्रतिस्थापन।'
+    },
+    overview: {
+      en: `Wrist Replacement Surgery, also called Total Wrist Arthroplasty, is an advanced surgical procedure designed to replace a severely damaged wrist joint with artificial components, providing pain relief and restoring function for patients with debilitating wrist arthritis or injury. The wrist is a complex joint system comprising eight small carpal bones connecting the forearm (radius and ulna) to the hand, allowing for intricate movements essential for daily activities.
+
+Dr. Gurudeo Kumar at Arthoscenter brings extensive experience in upper extremity surgery, having performed numerous wrist replacement procedures with excellent outcomes. While wrist replacement is less common than knee or hip replacement due to the complexity of wrist biomechanics and the availability of alternative treatments like wrist fusion, it offers significant advantages for select patients, particularly those requiring bilateral wrist use for work or daily activities.
+
+Modern wrist implants consist of metal and plastic components that replicate the natural gliding motion of the wrist joint. The procedure involves removing damaged bone and cartilage from the radius and carpal bones, then inserting precisely designed prosthetic components that allow for flexion, extension, and some degree of side-to-side movement. Success rates for wrist replacement have improved dramatically with newer implant designs, achieving 80-90% good to excellent results at 5-10 years.
+
+Ideal candidates for wrist replacement include patients with severe rheumatoid arthritis, post-traumatic arthritis following wrist fractures, advanced osteoarthritis, or avascular necrosis who have failed conservative treatments and desire to maintain wrist motion (as opposed to wrist fusion which eliminates motion but provides stability). The procedure is particularly beneficial for elderly patients with low physical demand and those requiring use of both hands for self-care activities.`,
+      hi: `कलाई प्रतिस्थापन सर्जरी, जिसे टोटल रिस्ट आर्थ्रोप्लास्टी भी कहा जाता है, एक उन्नत शल्य प्रक्रिया है जो गंभीर रूप से क्षतिग्रस्त कलाई के जोड़ को कृत्रिम घटकों से बदलने के लिए डिज़ाइन की गई है, जो दुर्बल करने वाले कलाई गठिया या चोट वाले रोगियों के लिए दर्द राहत और कार्य बहाली प्रदान करती है।
+
+आर्थोसेंटर में डॉ. गुरुदेव कुमार ऊपरी अंग सर्जरी में व्यापक अनुभव लाते हैं, जिन्होंने उत्कृष्ट परिणामों के साथ कई कलाई प्रतिस्थापन प्रक्रियाएं की हैं। जबकि कलाई प्रतिस्थापन घुटने या कूल्हे के प्रतिस्थापन की तुलना में कम आम है, यह चयनित रोगियों के लिए महत्वपूर्ण लाभ प्रदान करता है।
+
+आधुनिक कलाई प्रत्यारोपण धातु और प्लास्टिक घटकों से मिलकर बनते हैं जो कलाई जोड़ की प्राकृतिक ग्लाइडिंग गति की नकल करते हैं। कलाई प्रतिस्थापन के लिए आदर्श उम्मीदवार गंभीर रुमेटीइड आर्थराइटिस, कलाई फ्रैक्चर के बाद पोस्ट-ट्रॉमैटिक आर्थराइटिस, उन्नत ऑस्टियोआर्थराइटिस वाले रोगी हैं।`
+    },
+    symptoms: {
+      en: [
+        'Severe chronic wrist pain limiting daily activities',
+        'Significant loss of wrist motion and grip strength',
+        'Difficulty performing basic tasks (turning doorknobs, opening jars)',
+        'Pain at rest and night pain affecting sleep',
+        'Visible wrist deformity or swelling',
+        'Inability to bear weight on hands (push-ups, transfers)',
+        'Weakness and instability in the wrist',
+        'Failed conservative treatments (medications, splints, injections)',
+        'X-ray evidence of severe arthritis with joint space loss',
+        'Rheumatoid arthritis affecting multiple joints including wrist'
+      ],
+      hi: [
+        'गंभीर पुरानी कलाई दर्द जो दैनिक गतिविधियों को सीमित करती है',
+        'कलाई गति और पकड़ शक्ति का महत्वपूर्ण नुकसान',
+        'बुनियादी कार्य करने में कठिनाई (दरवाज़े के घुंडी को मोड़ना, जार खोलना)',
+        'आराम पर दर्द और रात का दर्द नींद को प्रभावित करता है',
+        'दृश्यमान कलाई विकृति या सूजन',
+        'हाथों पर वजन सहन करने में असमर्थता',
+        'कलाई में कमजोरी और अस्थिरता',
+        'असफल रूढ़िवादी उपचार (दवाएं, स्प्लिंट्स, इंजेक्शन)',
+        'जोड़ स्थान हानि के साथ गंभीर गठिया का एक्स-रे साक्ष्य',
+        'रुमेटीइड आर्थराइटिस कलाई सहित कई जोड़ों को प्रभावित करता है'
+      ]
+    },
+    procedure: {
+      en: {
+        preparation: 'Comprehensive wrist X-rays and CT scans for surgical planning. Bone density assessment. Occupational therapy evaluation. Discussion of realistic expectations regarding motion and strength recovery. Optimization of rheumatoid arthritis medications if applicable.',
+        steps: [
+          'General or regional anesthesia (axillary block)',
+          'Patient positioned supine with arm on hand table',
+          'Longitudinal incision on back of wrist (dorsal approach)',
+          'Careful dissection protecting tendons and nerves',
+          'Exposure of wrist joint capsule',
+          'Removal of damaged portions of radius and carpal bones',
+          'Precise bone preparation for implant components',
+          'Trial implants to test fit and motion',
+          'Insertion of final radial and carpal components',
+          'Cement or press-fit fixation depending on bone quality',
+          'Testing of wrist motion and stability',
+          'Meticulous wound closure in layers',
+          'Application of well-padded bulky dressing',
+          'Placement in short-arm splint for initial protection'
+        ],
+        duration: '2-3 hours',
+        anesthesia: 'General Anesthesia or Regional Block'
+      },
+      hi: {
+        preparation: 'सर्जिकल योजना के लिए व्यापक कलाई एक्स-रे और सीटी स्कैन। हड्डी घनत्व मूल्यांकन। व्यावसायिक चिकित्सा मूल्यांकन। गति और शक्ति रिकवरी के बारे में यथार्थवादी अपेक्षाओं की चर्चा।',
+        steps: [
+          'जनरल या क्षेत्रीय एनेस्थीसिया (एक्सिलरी ब्लॉक)',
+          'हाथ टेबल पर बांह के साथ सुपाइन स्थिति में रोगी',
+          'कलाई के पीछे अनुदैर्ध्य चीरा (पृष्ठीय दृष्टिकोण)',
+          'टेंडन और नसों की रक्षा करते हुए सावधानीपूर्वक विच्छेदन',
+          'कलाई जोड़ कैप्सूल का एक्सपोजर',
+          'त्रिज्या और कार्पल हड्डियों के क्षतिग्रस्त हिस्सों को हटाना',
+          'प्रत्यारोपण घटकों के लिए सटीक हड्डी तैयारी',
+          'फिट और गति का परीक्षण करने के लिए परीक्षण प्रत्यारोपण',
+          'अंतिम रेडियल और कार्पल घटकों का सम्मिलन',
+          'हड्डी की गुणवत्ता के आधार पर सीमेंट या प्रेस-फिट फिक्सेशन',
+          'कलाई गति और स्थिरता का परीक्षण',
+          'परतों में सावधानीपूर्वक घाव बंद करना',
+          'अच्छी तरह से गद्देदार भारी ड्रेसिंग का आवेदन',
+          'प्रारंभिक सुरक्षा के लिए शॉर्ट-आर्म स्प्लिंट में प्लेसमेंट'
+        ],
+        duration: '2-3 घंटे',
+        anesthesia: 'जनरल एनेस्थीसिया या क्षेत्रीय ब्लॉक'
+      }
+    },
+    recovery: {
+      en: {
+        timeline: [
+          {
+            week: 'Week 1-2',
+            activity: 'Splint immobilization, finger exercises',
+            description: 'Keep wrist in protective splint, move fingers to prevent stiffness, manage pain and swelling with ice and elevation'
+          },
+          {
+            week: 'Week 3-6',
+            activity: 'Begin gentle wrist exercises',
+            description: 'Start occupational therapy, gentle passive motion exercises, continue splint protection between exercises'
+          },
+          {
+            week: 'Week 7-12',
+            activity: 'Active range of motion',
+            description: 'Progress to active wrist movements, light daily activities permitted, no heavy lifting or twisting'
+          },
+          {
+            week: 'Month 4-6',
+            activity: 'Strengthening exercises',
+            description: 'Gradual grip strengthening, increase functional activities, return to light work duties'
+          },
+          {
+            week: 'Month 7-12',
+            activity: 'Full recovery',
+            description: 'Return to most daily activities, avoid high-impact or heavy manual labor, maintain exercise program'
+          },
+          {
+            week: 'Long-term',
+            activity: 'Maintenance',
+            description: 'Regular follow-ups, protect wrist from falls and impacts, maintain flexibility and strength'
+          }
+        ],
+        tips: [
+          'Elevate hand above heart level frequently for first 2 weeks',
+          'Perform finger exercises hourly to prevent stiffness',
+          'Follow occupational therapy program diligently',
+          'Avoid lifting anything heavier than a cup of coffee for 3 months',
+          'Protect wrist from falls - use walking aids if balance concerns',
+          'Wear splint as directed, especially during sleep',
+          'Apply ice to reduce swelling (20 minutes, 3-4 times daily)',
+          'Take pain medications as prescribed',
+          'Do not attempt forceful gripping or twisting motions',
+          'Report any signs of infection (redness, warmth, drainage)',
+          'Avoid high-impact activities lifelong',
+          'Consider wrist protection during activities with fall risk'
+        ]
+      },
+      hi: {
+        timeline: [
+          {
+            week: 'सप्ताह 1-2',
+            activity: 'स्प्लिंट स्थिरीकरण, उंगली व्यायाम',
+            description: 'सुरक्षात्मक स्प्लिंट में कलाई रखें, कठोरता को रोकने के लिए उंगलियां हिलाएं, बर्फ और उन्नयन के साथ दर्द और सूजन का प्रबंधन करें'
+          },
+          {
+            week: 'सप्ताह 3-6',
+            activity: 'कोमल कलाई व्यायाम शुरू करें',
+            description: 'व्यावसायिक चिकित्सा शुरू करें, कोमल निष्क्रिय गति व्यायाम, व्यायाम के बीच स्प्लिंट सुरक्षा जारी रखें'
+          },
+          {
+            week: 'सप्ताह 7-12',
+            activity: 'सक्रिय गति की सीमा',
+            description: 'सक्रिय कलाई गति के लिए प्रगति, हल्की दैनिक गतिविधियां अनुमत, कोई भारी उठाना या मोड़ना नहीं'
+          },
+          {
+            week: 'महीना 4-6',
+            activity: 'मजबूती व्यायाम',
+            description: 'क्रमिक पकड़ मजबूती, कार्यात्मक गतिविधियों में वृद्धि, हल्के काम के कर्तव्यों में वापसी'
+          },
+          {
+            week: 'महीना 7-12',
+            activity: 'पूर्ण रिकवरी',
+            description: 'अधिकांश दैनिक गतिविधियों में वापसी, उच्च-प्रभाव या भारी मैनुअल श्रम से बचें, व्यायाम कार्यक्रम बनाए रखें'
+          },
+          {
+            week: 'दीर्घकालिक',
+            activity: 'रखरखाव',
+            description: 'नियमित फॉलो-अप, गिरने और प्रभावों से कलाई की रक्षा करें, लचीलापन और शक्ति बनाए रखें'
+          }
+        ],
+        tips: [
+          'पहले 2 सप्ताह के लिए हृदय स्तर से ऊपर हाथ उठाएं',
+          'कठोरता को रोकने के लिए हर घंटे उंगली व्यायाम करें',
+          'व्यावसायिक चिकित्सा कार्यक्रम का परिश्रमपूर्वक पालन करें',
+          '3 महीने के लिए कॉफी के कप से भारी कुछ भी उठाने से बचें',
+          'गिरने से कलाई की रक्षा करें - संतुलन चिंताओं के लिए चलने की सहायता का उपयोग करें',
+          'निर्देशानुसार स्प्लिंट पहनें, विशेष रूप से नींद के दौरान',
+          'सूजन को कम करने के लिए बर्फ लगाएं (20 मिनट, दिन में 3-4 बार)',
+          'निर्धारित अनुसार दर्द की दवाएं लें',
+          'बलपूर्वक पकड़ने या मोड़ने की गति का प्रयास न करें',
+          'संक्रमण के किसी भी संकेत की रिपोर्ट करें (लालिमा, गर्मी, जल निकासी)',
+          'आजीवन उच्च-प्रभाव गतिविधियों से बचें',
+          'गिरने के जोखिम वाली गतिविधियों के दौरान कलाई सुरक्षा पर विचार करें'
+        ]
+      }
+    },
+    faqs: {
+      en: [
+        {
+          question: 'How is wrist replacement different from wrist fusion?',
+          answer: 'Wrist replacement preserves motion (typically 50-70% of normal), allowing flexion, extension, and some lateral movement, which is beneficial for daily activities. Wrist fusion (arthrodesis) eliminates pain by removing the joint and fusing bones together, providing excellent pain relief and stability but no motion. Replacement is preferred for patients needing bilateral hand function, while fusion is better for younger, active patients or manual laborers who need strength over motion.'
+        },
+        {
+          question: 'What is the success rate and longevity of wrist implants?',
+          answer: 'Modern wrist replacement implants achieve 80-90% good to excellent results at 5-10 years. Longevity has improved significantly with newer designs, with many implants lasting 10-15 years or longer. Factors affecting longevity include patient age, activity level, bone quality, rheumatoid arthritis control, and adherence to activity restrictions. Revision surgery may be needed if the implant loosens, wears out, or complications develop.'
+        },
+        {
+          question: 'Who is the ideal candidate for wrist replacement?',
+          answer: 'Ideal candidates are typically older patients (60+) with severe rheumatoid arthritis or post-traumatic arthritis, low physical demand lifestyle, need for bilateral hand use, and failed conservative treatments. Good bone quality, realistic expectations, and ability to comply with rehab protocols are important. Younger patients, manual laborers, or those with high activity demands are usually better candidates for wrist fusion.'
+        },
+        {
+          question: 'What activities can I do after wrist replacement?',
+          answer: 'After full recovery, most daily activities are possible including dressing, eating, personal hygiene, light housework, computer work, and driving. Recreational activities like golf (modified swing) and swimming are typically allowed. However, you must avoid: lifting more than 5-10 pounds, high-impact sports, contact sports, push-ups or bearing full body weight on hands, and activities requiring forceful gripping or twisting. Dr. Kumar will provide specific guidelines based on your implant and recovery.'
+        },
+        {
+          question: 'How much wrist motion will I regain?',
+          answer: 'Typical motion after wrist replacement is 50-70% of normal wrist motion, which is usually adequate for most daily activities. You can expect approximately 30-40 degrees of flexion and extension combined (normal is 130-140 degrees total), and limited side-to-side (radial-ulnar deviation) movement. While not full motion, this is significantly better than the pre-surgery arthritic state and maintains functional independence.'
+        },
+        {
+          question: 'What are the main risks and complications?',
+          answer: 'Risks include: infection (2-3%), implant loosening requiring revision (10-15% at 10 years), dislocation of components (rare with modern designs), nerve injury causing numbness, stiffness limiting motion, fracture of surrounding bones during or after surgery, tendon irritation or rupture, complex regional pain syndrome (CRPS), and need for conversion to wrist fusion if replacement fails. Most complications can be managed if detected early through regular follow-up.'
+        },
+        {
+          question: 'How long is the recovery and rehabilitation?',
+          answer: 'Recovery timeline: splint immobilization for 2 weeks, begin gentle therapy at 3-6 weeks, active motion by 8-12 weeks, strengthening at 3-4 months, and full recovery by 6-9 months. Occupational therapy is essential, typically 2-3 sessions weekly for 3-4 months. Most patients achieve maximum benefit by 9-12 months. Unlike knee or hip replacement, wrist replacement requires patient commitment to protective precautions lifelong.'
+        },
+        {
+          question: 'Can both wrists be replaced at the same time?',
+          answer: 'Bilateral simultaneous wrist replacement is generally not recommended due to the need for at least one functional hand during recovery for self-care activities (eating, dressing, personal hygiene). Most surgeons recommend staging procedures 3-6 months apart, allowing the first wrist to recover sufficiently before replacing the second. However, for patients with severe bilateral disease and adequate support systems, simultaneous surgery may be considered in select cases.'
+        },
+        {
+          question: 'What is the cost of wrist replacement in India?',
+          answer: 'At Arthoscenter, wrist replacement surgery costs approximately ₹2.5-4 lakhs all-inclusive, covering implant, surgery, hospital stay, anesthesia, and initial follow-up. This is significantly more affordable than international costs (₹8-15 lakhs abroad). Final cost depends on implant choice, hospital stay duration, and any complications. We accept insurance (PMJAY, BSKY, private insurance) and offer transparent pricing. Book a ₹999 consultation to discuss your specific case and receive detailed cost estimate.'
+        },
+        {
+          question: 'What type of follow-up care is needed?',
+          answer: 'Follow-up schedule: first visit at 2 weeks for wound check and splint removal, then at 6 weeks, 3 months, 6 months, 1 year, and annually thereafter. X-rays are taken at each visit to monitor implant position, bone integration, and detect early loosening. Regular occupational therapy for first 3-4 months is crucial. Patients should report any new pain, swelling, weakness, or mechanical symptoms immediately. Lifelong awareness of activity restrictions is essential to protect the implant.'
+        }
+      ],
+      hi: [
+        {
+          question: 'कलाई प्रतिस्थापन कलाई फ्यूजन से कैसे अलग है?',
+          answer: 'कलाई प्रतिस्थापन गति (आमतौर पर सामान्य का 50-70%) को संरक्षित करता है, जो लचीलापन, विस्तार और कुछ पार्श्व गति की अनुमति देता है। कलाई फ्यूजन (आर्थ्रोडेसिस) जोड़ को हटाकर और हड्डियों को एक साथ फ्यूज करके दर्द को समाप्त करता है।'
+        },
+        {
+          question: 'कलाई प्रत्यारोपण की सफलता दर और दीर्घायु क्या है?',
+          answer: 'आधुनिक कलाई प्रतिस्थापन प्रत्यारोपण 5-10 वर्षों में 80-90% अच्छे से उत्कृष्ट परिणाम प्राप्त करते हैं। नए डिजाइनों के साथ दीर्घायु में काफी सुधार हुआ है।'
+        },
+        {
+          question: 'कलाई प्रतिस्थापन के लिए आदर्श उम्मीदवार कौन है?',
+          answer: 'आदर्श उम्मीदवार आमतौर पर बड़े रोगी (60+) हैं जिनमें गंभीर रुमेटीइड आर्थराइटिस या पोस्ट-ट्रॉमैटिक आर्थराइटिस है।'
+        },
+        {
+          question: 'कलाई प्रतिस्थापन के बाद मैं कौन सी गतिविधियां कर सकता हूं?',
+          answer: 'पूर्ण रिकवरी के बाद, अधिकांश दैनिक गतिविधियां संभव हैं जिनमें कपड़े पहनना, खाना, व्यक्तिगत स्वच्छता, हल्का घर का काम, कंप्यूटर काम और ड्राइविंग शामिल हैं।'
+        },
+        {
+          question: 'मैं कितनी कलाई गति वापस पाऊंगा?',
+          answer: 'कलाई प्रतिस्थापन के बाद विशिष्ट गति सामान्य कलाई गति का 50-70% है, जो आमतौर पर अधिकांश दैनिक गतिविधियों के लिए पर्याप्त है।'
+        },
+        {
+          question: 'मुख्य जोखिम और जटिलताएं क्या हैं?',
+          answer: 'जोखिमों में शामिल हैं: संक्रमण (2-3%), प्रत्यारोपण ढीला होना संशोधन की आवश्यकता (10 वर्षों में 10-15%), घटकों की अव्यवस्था, तंत्रिका चोट।'
+        },
+        {
+          question: 'रिकवरी और पुनर्वास कितना लंबा है?',
+          answer: 'रिकवरी समयरेखा: 2 सप्ताह के लिए स्प्लिंट स्थिरीकरण, 3-6 सप्ताह में कोमल चिकित्सा शुरू करें, 8-12 सप्ताह तक सक्रिय गति, 3-4 महीने में मजबूती, और 6-9 महीने तक पूर्ण रिकवरी।'
+        },
+        {
+          question: 'क्या दोनों कलाइयों को एक साथ बदला जा सकता है?',
+          answer: 'द्विपक्षीय एक साथ कलाई प्रतिस्थापन आमतौर पर अनुशंसित नहीं है क्योंकि रिकवरी के दौरान स्व-देखभाल गतिविधियों के लिए कम से कम एक कार्यात्मक हाथ की आवश्यकता होती है।'
+        },
+        {
+          question: 'भारत में कलाई प्रतिस्थापन की लागत क्या है?',
+          answer: 'आर्थोसेंटर में, कलाई प्रतिस्थापन सर्जरी की लागत लगभग ₹2.5-4 लाख सभी समावेशी है। ₹999 परामर्श बुक करें।'
+        },
+        {
+          question: 'किस प्रकार की फॉलो-अप देखभाल की आवश्यकता है?',
+          answer: 'फॉलो-अप शेड्यूल: घाव जांच और स्प्लिंट हटाने के लिए 2 सप्ताह में पहली यात्रा, फिर 6 सप्ताह, 3 महीने, 6 महीने, 1 वर्ष और उसके बाद सालाना।'
+        }
+      ]
+    },
+    seo: {
+      en: {
+        title: 'Wrist Replacement Surgery in India | Total Wrist Arthroplasty | Dr. Gurudeo Kumar',
+        description: 'Expert wrist replacement surgery in Patna, Bihar. Dr. Gurudeo Kumar - Advanced wrist arthroplasty for severe arthritis. Pain relief, motion preservation. Book ₹999 consultation.',
+        keywords: [
+          'wrist replacement surgery India',
+          'total wrist arthroplasty Bihar',
+          'wrist joint replacement Patna',
+          'Dr. Gurudeo Kumar wrist surgery',
+          'arthritis wrist treatment Bihar',
+          'wrist replacement cost India',
+          'Arthoscenter Patna',
+          'rheumatoid arthritis wrist surgery',
+          'wrist implant surgery Bihar',
+          'best wrist surgeon Patna'
+        ]
+      },
+      hi: {
+        title: 'भारत में कलाई प्रतिस्थापन सर्जरी | टोटल रिस्ट आर्थ्रोप्लास्टी | डॉ. गुरुदेव कुमार',
+        description: 'पटना, बिहार में विशेषज्ञ कलाई प्रतिस्थापन सर्जरी। डॉ. गुरुदेव कुमार - गंभीर गठिया के लिए उन्नत कलाई आर्थ्रोप्लास्टी। दर्द राहत, गति संरक्षण। ₹999 परामर्श बुक करें।',
+        keywords: [
+          'भारत में कलाई प्रतिस्थापन सर्जरी',
+          'बिहार में टोटल रिस्ट आर्थ्रोप्लास्टी',
+          'पटना में कलाई जोड़ प्रतिस्थापन',
+          'डॉ. गुरुदेव कुमार कलाई सर्जरी',
+          'बिहार में गठिया कलाई उपचार'
+        ]
+      }
+    },
+    procedureCount: 45,
+    successRate: 88,
+    relatedSurgeries: [
+      'finger-joint-replacement',
+      'wrist-arthroscopy',
+      'elbow-replacement',
+      'radius-ulna-fracture-fixation'
+    ]
+  },
+  'finger-joint-replacement': {
+    id: 'finger-joint-replacement',
+    category: 'joint-replacement',
+    slug: 'finger-joint-replacement',
+    title: {
+      en: 'Finger Joint Replacement Surgery in India',
+      hi: 'भारत में उंगली जोड़ प्रतिस्थापन सर्जरी'
+    },
+    shortDescription: {
+      en: 'Advanced finger joint replacement surgery at Arthros Center, Patna. Restore hand function and relieve arthritis pain with modern implants.',
+      hi: 'आर्थ्रोस सेंटर, पटना में उन्नत उंगली जोड़ प्रतिस्थापन सर्जरी। आधुनिक इम्प्लांट के साथ हाथ की कार्यक्षमता बहाल करें और गठिया के दर्द से राहत पाएं।'
+    },
+    overview: {
+      en: `Finger joint replacement surgery, also known as finger arthroplasty, is a sophisticated procedure that replaces damaged or arthritic finger joints with artificial implants. At Arthros Center in Patna, Bihar, we specialize in treating severe finger arthritis, trauma-related joint damage, and degenerative joint conditions that significantly impact hand function and quality of life.
+
+The human hand contains 14 joints in the fingers (proximal interphalangeal joints - PIP, distal interphalangeal joints - DIP, and metacarpophalangeal joints - MCP). When these joints become severely damaged due to osteoarthritis, rheumatoid arthritis, post-traumatic arthritis, or other degenerative conditions, they can cause chronic pain, stiffness, deformity, and loss of grip strength.
+
+Dr. Kumar and his team have successfully performed over 35 finger joint replacement procedures with an 85% patient satisfaction rate. Our approach combines precision surgical techniques with modern silicone or pyrocarbon implants that closely mimic natural joint movement.
+
+**When is Finger Joint Replacement Needed?**
+
+This surgery is typically recommended when conservative treatments such as medication, splinting, physical therapy, and corticosteroid injections have failed to provide adequate relief. Common conditions requiring finger joint replacement include severe rheumatoid arthritis affecting multiple finger joints, post-traumatic arthritis following finger fractures or dislocations, osteoarthritis causing significant pain and functional limitation, and boutonniere or swan-neck deformities.
+
+**Types of Finger Implants**
+
+We use two main types of implants at Arthros Center:
+
+1. **Silicone Implants**: Flexible, one-piece spacers that act as cushions between bone ends. These are ideal for low-demand patients and those with rheumatoid arthritis.
+
+2. **Pyrocarbon Implants**: More durable, two-piece implants that better preserve natural joint mechanics. These are preferred for younger, more active patients with post-traumatic arthritis.
+
+**Why Choose Arthros Center for Finger Joint Replacement?**
+
+Our center offers specialized hand surgery expertise under Dr. Kumar's guidance, microsurgical precision with magnification equipment, customized implant selection based on your activity level and arthritis type, comprehensive hand therapy program post-surgery, and affordable treatment under PMJAY and BSKY schemes.
+
+**Success Outcomes**
+
+Most patients experience significant pain relief within 3-6 weeks, improved finger alignment and appearance, better grip strength for daily activities, and ability to return to work and hobbies. The implants typically last 10-15 years with proper care.
+
+**Cost and Accessibility**
+
+Finger joint replacement surgery in India costs between ₹50,000-₹1,50,000 per joint, depending on the type of implant and number of joints replaced. At Arthros Center, we accept PMJAY (Ayushman Bharat) and BSKY (Bhamashah Swasthya Bima Yojana) coverage, making this life-changing surgery accessible to economically weaker sections of Bihar society.`,
+      hi: `उंगली जोड़ प्रतिस्थापन सर्जरी, जिसे फिंगर आर्थ्रोप्लास्टी भी कहा जाता है, एक परिष्कृत प्रक्रिया है जो क्षतिग्रस्त या गठिया वाले उंगली के जोड़ों को कृत्रिम इम्प्लांट से बदल देती है। पटना, बिहार में आर्थ्रोस सेंटर में, हम गंभीर उंगली गठिया, आघात से संबंधित जोड़ों की क्षति, और अपक्षयी जोड़ों की स्थितियों के इलाज में विशेषज्ञ हैं जो हाथ की कार्यक्षमता और जीवन की गुणवत्ता को महत्वपूर्ण रूप से प्रभावित करते हैं।
+
+मानव हाथ में उंगलियों में 14 जोड़ होते हैं (प्रॉक्सिमल इंटरफैलेंजियल जोड़ - PIP, डिस्टल इंटरफैलेंजियल जोड़ - DIP, और मेटाकार्पोफैलेंजियल जोड़ - MCP)। जब ये जोड़ ऑस्टियोआर्थराइटिस, रुमेटीइड गठिया, पोस्ट-ट्रॉमेटिक गठिया, या अन्य अपक्षयी स्थितियों के कारण गंभीर रूप से क्षतिग्रस्त हो जाते हैं, तो वे पुराने दर्द, कठोरता, विकृति, और पकड़ की ताकत के नुकसान का कारण बन सकते हैं।
+
+डॉ. कुमार और उनकी टीम ने 85% रोगी संतुष्टि दर के साथ 35 से अधिक उंगली जोड़ प्रतिस्थापन प्रक्रियाएं सफलतापूर्वक की हैं। हमारा दृष्टिकोण आधुनिक सिलिकॉन या पाइरोकार्बन इम्प्लांट के साथ सटीक शल्य चिकित्सा तकनीकों को जोड़ता है जो प्राकृतिक जोड़ों की गति की बारीकी से नकल करते हैं।
+
+**उंगली जोड़ प्रतिस्थापन कब आवश्यक है?**
+
+यह सर्जरी आम तौर पर तब अनुशंसित की जाती है जब दवा, स्प्लिंटिंग, फिजिकल थेरेपी, और कॉर्टिकोस्टेरॉइड इंजेक्शन जैसे रूढ़िवादी उपचार पर्याप्त राहत प्रदान करने में विफल रहे हैं। उंगली जोड़ प्रतिस्थापन की आवश्यकता वाली सामान्य स्थितियों में गंभीर रुमेटीइड गठिया जो कई उंगली जोड़ों को प्रभावित करता है, उंगली के फ्रैक्चर या अव्यवस्थाओं के बाद पोस्ट-ट्रॉमेटिक गठिया, ऑस्टियोआर्थराइटिस जो महत्वपूर्ण दर्द और कार्यात्मक सीमा का कारण बनता है, और बाउटोनियर या स्वान-नेक विकृतियां शामिल हैं।
+
+**उंगली इम्प्लांट के प्रकार**
+
+हम आर्थ्रोस सेंटर में दो मुख्य प्रकार के इम्प्लांट का उपयोग करते हैं:
+
+1. **सिलिकॉन इम्प्लांट**: लचीले, एक-टुकड़ा स्पेसर जो हड्डी के सिरों के बीच कुशन के रूप में कार्य करते हैं। ये कम-मांग वाले रोगियों और रुमेटीइड गठिया वाले लोगों के लिए आदर्श हैं।
+
+2. **पाइरोकार्बन इम्प्लांट**: अधिक टिकाऊ, दो-टुकड़ा इम्प्लांट जो प्राकृतिक जोड़ यांत्रिकी को बेहतर ढंग से संरक्षित करते हैं। ये पोस्ट-ट्रॉमेटिक गठिया के साथ युवा, अधिक सक्रिय रोगियों के लिए पसंद किए जाते हैं।
+
+**उंगली जोड़ प्रतिस्थापन के लिए आर्थ्रोस सेंटर क्यों चुनें?**
+
+हमारा केंद्र डॉ. कुमार के मार्गदर्शन में विशेष हाथ सर्जरी विशेषज्ञता, आवर्धन उपकरण के साथ माइक्रोसर्जिकल सटीकता, आपकी गतिविधि स्तर और गठिया प्रकार के आधार पर अनुकूलित इम्प्लांट चयन, सर्जरी के बाद व्यापक हाथ चिकित्सा कार्यक्रम, और PMJAY और BSKY योजनाओं के तहत किफायती उपचार प्रदान करता है।
+
+**सफलता परिणाम**
+
+अधिकांश रोगी 3-6 सप्ताह के भीतर महत्वपूर्ण दर्द राहत का अनुभव करते हैं, बेहतर उंगली संरेखण और उपस्थिति, दैनिक गतिविधियों के लिए बेहतर पकड़ की ताकत, और काम और शौक में लौटने की क्षमता प्राप्त करते हैं। इम्प्लांट आमतौर पर उचित देखभाल के साथ 10-15 साल तक चलते हैं।
+
+**लागत और पहुंच**
+
+भारत में उंगली जोड़ प्रतिस्थापन सर्जरी की लागत इम्प्लांट के प्रकार और बदले गए जोड़ों की संख्या के आधार पर प्रति जोड़ ₹50,000-₹1,50,000 के बीच है। आर्थ्रोस सेंटर में, हम PMJAY (आयुष्मान भारत) और BSKY (भामाशाह स्वास्थ्य बीमा योजना) कवरेज स्वीकार करते हैं, जो इस जीवन-बदलने वाली सर्जरी को बिहार समाज के आर्थिक रूप से कमजोर वर्गों के लिए सुलभ बनाता है।`
+    },
+    symptoms: [
+      'Persistent pain in finger joints, especially with gripping or pinching movements',
+      'Morning stiffness in fingers lasting more than 30 minutes',
+      'Visible swelling and deformity of finger joints',
+      'Difficulty buttoning clothes, writing, or using utensils',
+      'Reduced range of motion in affected finger joints',
+      'Finger deviation (crooked appearance) due to joint destruction',
+      'Inability to make a complete fist',
+      'Joint crepitus (grinding or crackling sensation) with movement',
+      'Nodules or bone spurs around finger joints',
+      'Weakness in hand grip affecting daily tasks'
+    ],
+    procedure: {
+      preparation: 'Comprehensive hand evaluation including X-rays and joint function assessment. Patients should stop blood thinners 5-7 days before surgery as directed. The procedure is performed under regional anesthesia (nerve block) or general anesthesia.',
+      steps: [
+        'Administration of regional anesthesia to numb the arm and hand',
+        'Application of sterile drapes and tourniquet to minimize bleeding',
+        'Small incision (2-3 cm) made over the affected finger joint',
+        'Careful dissection through tendons and ligaments to expose the joint',
+        'Removal of damaged cartilage and bone ends using precision instruments',
+        'Preparation of bone canals to receive the implant stems',
+        'Insertion of appropriately sized silicone or pyrocarbon implant',
+        'Trial range of motion testing to ensure proper implant fit',
+        'Realignment of tendons and ligaments around the new joint',
+        'Closure of incision with fine sutures for minimal scarring',
+        'Application of padded splint to protect the finger',
+        'Elevation of hand to reduce post-operative swelling'
+      ],
+      duration: '45-90 minutes per joint',
+      anesthesia: 'Regional nerve block or general anesthesia'
+    },
+    recovery: {
+      hospital: '4-6 hours (day surgery) or overnight observation',
+      timeline: {
+        week1: 'Keep hand elevated, wound care, pain management with prescribed medications. Splint worn continuously.',
+        week2: 'Suture removal, begin gentle passive finger exercises with hand therapist. Splint worn between exercises.',
+        week4: 'Gradual increase in active finger movements, light grip strengthening exercises. Splint worn at night only.',
+        week8: 'Progressive strengthening program, return to light daily activities. Protective splinting during heavy tasks.',
+        week12: 'Most patients resume normal activities with some restrictions. Continued hand therapy for optimal function.',
+        month6: 'Full recovery expected. Return to work and hobbies. Continued precautions for high-impact activities.'
+      },
+      tips: [
+        'Keep the hand elevated above heart level for first 3-5 days to minimize swelling',
+        'Perform finger exercises exactly as prescribed by hand therapist to prevent stiffness',
+        'Avoid gripping, pinching, or lifting objects heavier than 500g for first 6 weeks',
+        'Wear protective splint consistently during healing period',
+        'Apply ice packs for 15-20 minutes several times daily to reduce inflammation',
+        'Keep surgical wound clean and dry; avoid water immersion until fully healed',
+        'Take pain medications as prescribed; don\'t wait for severe pain to develop',
+        'Attend all scheduled hand therapy sessions for best functional outcomes',
+        'Avoid smoking as it impairs bone healing and implant integration',
+        'Report any signs of infection (increased redness, warmth, drainage) immediately',
+        'Use adaptive devices (large-grip utensils, button hooks) during recovery',
+        'Practice patience - full finger function returns gradually over 3-6 months'
+      ]
+    },
+    faqs: [
+      {
+        question: {
+          en: 'Which finger joints can be replaced?',
+          hi: 'किन उंगली के जोड़ों को बदला जा सकता है?'
+        },
+        answer: {
+          en: 'We can replace the PIP (middle knuckle), MCP (knuckle at hand base), and DIP (fingertip joint) joints. The PIP and MCP joints are most commonly replaced. At Arthros Center, we assess each joint individually to determine the best treatment approach.',
+          hi: 'हम PIP (बीच की पोर) , MCP (हाथ के आधार पर पोर), और DIP (उंगली की नोक का जोड़) जोड़ों को बदल सकते हैं। PIP और MCP जोड़ सबसे अधिक बार बदले जाते हैं। आर्थ्रोस सेंटर में, हम सर्वोत्तम उपचार दृष्टिकोण निर्धारित करने के लिए प्रत्येक जोड़ का व्यक्तिगत रूप से मूल्यांकन करते हैं।'
+        }
+      },
+      {
+        question: {
+          en: 'How long do finger implants last?',
+          hi: 'उंगली इम्प्लांट कितने समय तक चलते हैं?'
+        },
+        answer: {
+          en: 'Silicone implants typically last 10-15 years with proper care and activity modification. Pyrocarbon implants may last 15-20 years in ideal conditions. The longevity depends on your activity level, implant type, and adherence to post-operative precautions. Regular follow-ups help monitor implant condition.',
+          hi: 'सिलिकॉन इम्प्लांट आमतौर पर उचित देखभाल और गतिविधि संशोधन के साथ 10-15 साल तक चलते हैं। पाइरोकार्बन इम्प्लांट आदर्श स्थितियों में 15-20 साल तक चल सकते हैं। दीर्घायु आपकी गतिविधि स्तर, इम्प्लांट प्रकार, और पोस्ट-ऑपरेटिव सावधानियों के पालन पर निर्भर करती है। नियमित फॉलो-अप इम्प्लांट की स्थिति की निगरानी में मदद करते हैं।'
+        }
+      },
+      {
+        question: {
+          en: 'Can multiple finger joints be replaced in one surgery?',
+          hi: 'क्या एक सर्जरी में कई उंगली के जोड़ों को बदला जा सकता है?'
+        },
+        answer: {
+          en: 'Yes, we can replace 2-3 joints in a single surgery session if needed. This is common in rheumatoid arthritis patients with multiple affected joints. However, the decision depends on your overall health, bone quality, and the complexity of the procedure. We discuss the best approach during consultation.',
+          hi: 'हां, आवश्यकता होने पर हम एक सर्जरी सत्र में 2-3 जोड़ों को बदल सकते हैं। यह कई प्रभावित जोड़ों वाले रुमेटीइड गठिया रोगियों में आम है। हालांकि, निर्णय आपके समग्र स्वास्थ्य, हड्डी की गुणवत्ता, और प्रक्रिया की जटिलता पर निर्भर करता है। हम परामर्श के दौरान सर्वोत्तम दृष्टिकोण पर चर्चा करते हैं।'
+        }
+      },
+      {
+        question: {
+          en: 'What is the difference between finger fusion and finger replacement?',
+          hi: 'उंगली फ्यूजन और उंगली प्रतिस्थापन में क्या अंतर है?'
+        },
+        answer: {
+          en: 'Finger fusion (arthrodesis) permanently joins the bones, eliminating pain but also eliminating movement at that joint. Finger replacement preserves some motion while relieving pain. We recommend replacement for joints where motion is important (like PIP joint) and fusion for joints where stability is more critical (like DIP joint).',
+          hi: 'उंगली फ्यूजन (आर्थ्रोडेसिस) हड्डियों को स्थायी रूप से जोड़ता है, दर्द को समाप्त करता है लेकिन उस जोड़ पर गति को भी समाप्त करता है। उंगली प्रतिस्थापन दर्द से राहत देते हुए कुछ गति को संरक्षित करता है। हम उन जोड़ों के लिए प्रतिस्थापन की सलाह देते हैं जहां गति महत्वपूर्ण है (जैसे PIP जोड़) और उन जोड़ों के लिए फ्यूजन जहां स्थिरता अधिक महत्वपूर्ण है (जैसे DIP जोड़)।'
+        }
+      },
+      {
+        question: {
+          en: 'Will I regain full finger motion after surgery?',
+          hi: 'क्या सर्जरी के बाद मुझे पूर्ण उंगली गति वापस मिलेगी?'
+        },
+        answer: {
+          en: 'Most patients regain 60-80% of normal finger motion, which is typically sufficient for most daily activities. The goal is pain-free functional movement rather than complete range of motion. Hand therapy is crucial for optimizing your final range of motion. Results vary based on pre-operative stiffness, implant type, and therapy compliance.',
+          hi: 'अधिकांश रोगी सामान्य उंगली गति का 60-80% वापस प्राप्त करते हैं, जो आमतौर पर अधिकांश दैनिक गतिविधियों के लिए पर्याप्त है। लक्ष्य गति की पूर्ण सीमा के बजाय दर्द रहित कार्यात्मक गति है। हाथ चिकित्सा आपकी अंतिम गति सीमा को अनुकूलित करने के लिए महत्वपूर्ण है। परिणाम प्री-ऑपरेटिव कठोरता, इम्प्लांट प्रकार, और थेरेपी अनुपालन के आधार पर भिन्न होते हैं।'
+        }
+      },
+      {
+        question: {
+          en: 'Is finger joint replacement covered under PMJAY/BSKY?',
+          hi: 'क्या PMJAY/BSKY के तहत उंगली जोड़ प्रतिस्थापन कवर है?'
+        },
+        answer: {
+          en: 'Yes, finger joint replacement surgery is covered under both PMJAY (Ayushman Bharat) and BSKY schemes at Arthros Center, Patna. Eligible patients can receive treatment at minimal or no cost. Our team helps with documentation and claim processing to ensure smooth access to these government healthcare benefits.',
+          hi: 'हां, आर्थ्रोस सेंटर, पटना में PMJAY (आयुष्मान भारत) और BSKY दोनों योजनाओं के तहत उंगली जोड़ प्रतिस्थापन सर्जरी कवर है। पात्र रोगी न्यूनतम या बिना किसी लागत के उपचार प्राप्त कर सकते हैं। हमारी टीम इन सरकारी स्वास्थ्य सेवा लाभों तक सुचारू पहुंच सुनिश्चित करने के लिए दस्तावेज़ीकरण और दावा प्रसंस्करण में मदद करती है।'
+        }
+      },
+      {
+        question: {
+          en: 'How soon can I return to work after finger joint replacement?',
+          hi: 'उंगली जोड़ प्रतिस्थापन के बाद मैं कितनी जल्दी काम पर लौट सकता हूं?'
+        },
+        answer: {
+          en: 'For desk jobs or light work, most patients return within 4-6 weeks. Manual laborers may need 8-12 weeks before resuming full duties. The timeline depends on which fingers are affected, your occupation\'s demands, and healing progress. We provide work modification recommendations and communicate with your employer if needed.',
+          hi: 'डेस्क जॉब या हल्के काम के लिए, अधिकांश रोगी 4-6 सप्ताह के भीतर लौटते हैं। मैनुअल श्रमिकों को पूर्ण कर्तव्यों को फिर से शुरू करने से पहले 8-12 सप्ताह की आवश्यकता हो सकती है। समयरेखा इस बात पर निर्भर करती है कि कौन सी उंगलियां प्रभावित हैं, आपके व्यवसाय की मांग, और उपचार प्रगति। हम काम संशोधन सिफारिशें प्रदान करते हैं और यदि आवश्यक हो तो आपके नियोक्ता के साथ संवाद करते हैं।'
+        }
+      },
+      {
+        question: {
+          en: 'What are the risks of finger joint replacement surgery?',
+          hi: 'उंगली जोड़ प्रतिस्थापन सर्जरी के जोखिम क्या हैं?'
+        },
+        answer: {
+          en: 'Risks include infection (1-2%), implant loosening or dislocation (3-5%), stiffness requiring additional therapy, nerve or blood vessel injury, and need for revision surgery. At Arthros Center, we minimize risks through sterile techniques, precise surgical planning, and comprehensive post-operative care. Most patients experience successful outcomes with significant symptom improvement.',
+          hi: 'जोखिमों में संक्रमण (1-2%), इम्प्लांट ढीला होना या अव्यवस्था (3-5%), अतिरिक्त थेरेपी की आवश्यकता वाली कठोरता, तंत्रिका या रक्त वाहिका की चोट, और संशोधन सर्जरी की आवश्यकता शामिल हैं। आर्थ्रोस सेंटर में, हम स्टेराइल तकनीकों, सटीक शल्य चिकित्सा योजना, और व्यापक पोस्ट-ऑपरेटिव देखभाल के माध्यम से जोखिमों को कम करते हैं। अधिकांश रोगी महत्वपूर्ण लक्षण सुधार के साथ सफल परिणाम का अनुभव करते हैं।'
+        }
+      },
+      {
+        question: {
+          en: 'Can I play sports or musical instruments after finger joint replacement?',
+          hi: 'क्या मैं उंगली जोड़ प्रतिस्थापन के बाद खेल खेल सकता हूं या संगीत वाद्ययंत्र बजा सकता हूं?'
+        },
+        answer: {
+          en: 'Low-impact activities like swimming, walking, and cycling are encouraged. Musicians can often return to playing instruments with some adaptations. High-impact sports like cricket, boxing, or heavy weightlifting should be avoided to protect the implants. We work with hand therapists to develop activity-specific rehabilitation programs tailored to your goals.',
+          hi: 'तैराकी, चलना, और साइकिल चलाना जैसी कम-प्रभाव वाली गतिविधियों को प्रोत्साहित किया जाता है। संगीतकार अक्सर कुछ अनुकूलन के साथ वाद्ययंत्र बजाने में लौट सकते हैं। क्रिकेट, बॉक्सिंग, या भारी वेटलिफ्टिंग जैसे उच्च-प्रभाव वाले खेलों से इम्प्लांट की रक्षा के लिए बचा जाना चाहिए। हम आपके लक्ष्यों के अनुरूप गतिविधि-विशिष्ट पुनर्वास कार्यक्रम विकसित करने के लिए हाथ चिकित्सकों के साथ काम करते हैं।'
+        }
+      },
+      {
+        question: {
+          en: 'What happens if the finger implant fails or wears out?',
+          hi: 'यदि उंगली इम्प्लांट विफल हो जाता है या खराब हो जाता है तो क्या होता है?'
+        },
+        answer: {
+          en: 'If an implant fails, revision surgery can replace the worn implant with a new one, or the joint can be fused for permanent stability. At Arthros Center, we monitor implant condition through regular X-rays and clinical exams. Most modern implants last 10-20 years, and revision procedures have good success rates when performed by experienced hand surgeons.',
+          hi: 'यदि कोई इम्प्लांट विफल हो जाता है, तो संशोधन सर्जरी खराब इम्प्लांट को एक नए के साथ बदल सकती है, या स्थायी स्थिरता के लिए जोड़ को फ्यूज किया जा सकता है। आर्थ्रोस सेंटर में, हम नियमित एक्स-रे और नैदानिक परीक्षाओं के माध्यम से इम्प्लांट की स्थिति की निगरानी करते हैं। अधिकांश आधुनिक इम्प्लांट 10-20 साल तक चलते हैं, और अनुभवी हाथ सर्जनों द्वारा किए जाने पर संशोधन प्रक्रियाओं में अच्छी सफलता दर होती है।'
+        }
+      }
+    ],
+    seo: {
+      title: 'Finger Joint Replacement Surgery in India - Arthros Center Patna',
+      description: 'Advanced finger joint replacement surgery at Arthros Center, Patna, Bihar. Expert treatment for finger arthritis with modern implants. PMJAY/BSKY accepted. 85% success rate.',
+      keywords: [
+        'finger joint replacement India',
+        'finger arthroplasty Patna',
+        'finger arthritis surgery Bihar',
+        'hand surgery Patna',
+        'finger implant surgery India',
+        'PIP joint replacement',
+        'MCP joint replacement',
+        'rheumatoid arthritis finger surgery',
+        'silicone finger implants India',
+        'pyrocarbon finger implants',
+        'hand surgeon Patna Bihar',
+        'PMJAY finger surgery'
+      ]
+    },
+    procedureCount: 35,
+    successRate: 85,
+    relatedSurgeries: [
+      'wrist-replacement',
+      'wrist-arthroscopy',
+      'elbow-replacement',
+      'biceps-tendon-repair'
+    ]
+  },
+  'lumbar-fusion': {
+    id: 'lumbar-fusion',
+    category: 'spine-surgery',
+    slug: 'lumbar-fusion',
+    title: {
+      en: 'Lumbar Fusion Surgery in India',
+      hi: 'भारत में लंबर फ्यूजन सर्जरी'
+    },
+    shortDescription: {
+      en: 'Expert lumbar spinal fusion surgery at Arthros Center, Patna. Advanced treatment for chronic lower back pain, spinal instability, and degenerative disc disease.',
+      hi: 'आर्थ्रोस सेंटर, पटना में विशेषज्ञ लंबर स्पाइनल फ्यूजन सर्जरी। पुराने निचले पीठ दर्द, रीढ़ की अस्थिरता, और अपक्षयी डिस्क रोग के लिए उन्नत उपचार।'
+    },
+    overview: {
+      en: `Lumbar fusion surgery, also known as lumbar spinal fusion or spondylodesis, is a major surgical procedure that permanently joins two or more vertebrae in the lower back to eliminate motion between them. At Arthros Center in Patna, Bihar, we specialize in treating severe chronic lower back pain, spinal instability, spondylolisthesis, degenerative disc disease, and spinal deformities that have not responded to conservative treatments.
+
+The lumbar spine consists of five vertebrae (L1-L5) in the lower back. When these vertebrae or the discs between them become damaged due to injury, degeneration, or disease, they can cause severe pain, nerve compression, and functional disability. Lumbar fusion eliminates painful motion at the affected segment while maintaining overall spinal stability.
+
+Dr. Kumar and his specialized spine surgery team have successfully performed over 280 lumbar fusion procedures with a 92% patient satisfaction rate. Our approach combines modern surgical techniques including minimally invasive methods, advanced imaging guidance, and biologics to promote faster bone healing and optimal outcomes.
+
+**When is Lumbar Fusion Surgery Needed?**
+
+This surgery is typically recommended when conservative treatments such as physical therapy, medications, epidural injections, and lifestyle modifications have failed to provide adequate relief after 6-12 months. Common conditions requiring lumbar fusion include degenerative disc disease causing chronic mechanical back pain, spondylolisthesis (vertebral slippage) with nerve compression, spinal stenosis with instability, failed previous back surgery (revision fusion), traumatic fractures requiring stabilization, and scoliosis or kyphosis causing progressive deformity.
+
+**Types of Lumbar Fusion Techniques**
+
+At Arthros Center, we offer multiple fusion approaches tailored to each patient's specific condition:
+
+1. **PLIF (Posterior Lumbar Interbody Fusion)**: Approach from the back with removal of the disc and insertion of bone graft cages between vertebrae.
+
+2. **TLIF (Transforaminal Lumbar Interbody Fusion)**: One-sided approach that preserves more back muscles and ligaments - our most commonly performed technique.
+
+3. **ALIF (Anterior Lumbar Interbody Fusion)**: Approach from the front of the abdomen, ideal for L5-S1 fusion with less muscle damage.
+
+4. **MIS Fusion (Minimally Invasive)**: Uses smaller incisions and specialized retractors for faster recovery - available for select patients.
+
+**The Fusion Process**
+
+Spinal fusion uses bone graft material (your own bone, donor bone, or synthetic bone substitute) placed between vertebrae. Metal screws, rods, and cages hold the vertebrae in the correct position while the bone graft heals. Over 3-6 months, the bone grows and fuses the vertebrae into a single solid bone, eliminating motion at that segment.
+
+**Why Choose Arthros Center for Lumbar Fusion?**
+
+Our center offers specialized spine surgery expertise with fellowship-trained surgeons, advanced intraoperative navigation and imaging for precise screw placement, comprehensive pre-operative evaluation including psychological screening, multimodal pain management protocols for better recovery, dedicated spine physical therapy program, and affordable treatment under PMJAY and BSKY schemes.
+
+**Success Outcomes**
+
+Most patients experience significant pain reduction (60-80% improvement), improved quality of life and functional capacity, successful return to work and daily activities, and solid fusion with stable spine. Success rates are highest when proper patient selection criteria are followed.
+
+**Cost and Accessibility**
+
+Lumbar fusion surgery in India costs between ₹2,50,000-₹6,00,000 depending on the number of levels fused, technique used (open vs MIS), and implant type. At Arthros Center, we accept PMJAY (Ayushman Bharat) and BSKY coverage, making this life-changing surgery accessible to economically weaker sections of Bihar society.`,
+      hi: `लंबर फ्यूजन सर्जरी, जिसे लंबर स्पाइनल फ्यूजन या स्पोंडिलोडेसिस के रूप में भी जाना जाता है, एक प्रमुख शल्य चिकित्सा प्रक्रिया है जो निचली पीठ में दो या अधिक कशेरुकाओं को स्थायी रूप से जोड़ती है ताकि उनके बीच गति को समाप्त किया जा सके। पटना, बिहार में आर्थ्रोस सेंटर में, हम गंभीर पुरानी निचली पीठ दर्द, रीढ़ की अस्थिरता, स्पोंडिलोलिस्थीसिस, अपक्षयी डिस्क रोग, और रीढ़ की विकृतियों के इलाज में विशेषज्ञ हैं जो रूढ़िवादी उपचारों का जवाब नहीं देते हैं।
+
+लंबर स्पाइन निचली पीठ में पांच कशेरुकाओं (L1-L5) से बनी होती है। जब ये कशेरुकाएं या उनके बीच की डिस्क चोट, अपक्षयन, या बीमारी के कारण क्षतिग्रस्त हो जाती हैं, तो वे गंभीर दर्द, तंत्रिका संपीड़न, और कार्यात्मक विकलांगता का कारण बन सकती हैं। लंबर फ्यूजन प्रभावित खंड पर दर्दनाक गति को समाप्त करता है जबकि समग्र रीढ़ की स्थिरता बनाए रखता है।
+
+डॉ. कुमार और उनकी विशेष रीढ़ सर्जरी टीम ने 92% रोगी संतुष्टि दर के साथ 280 से अधिक लंबर फ्यूजन प्रक्रियाएं सफलतापूर्वक की हैं। हमारा दृष्टिकोण आधुनिक शल्य चिकित्सा तकनीकों को जोड़ता है जिसमें न्यूनतम आक्रामक तरीके, उन्नत इमेजिंग मार्गदर्शन, और तेजी से हड्डी उपचार और इष्टतम परिणामों को बढ़ावा देने के लिए बायोलॉजिक्स शामिल हैं।
+
+**लंबर फ्यूजन सर्जरी कब आवश्यक है?**
+
+यह सर्जरी आमतौर पर तब अनुशंसित की जाती है जब फिजिकल थेरेपी, दवाओं, एपिड्यूरल इंजेक्शन, और जीवनशैली संशोधन जैसे रूढ़िवादी उपचार 6-12 महीनों के बाद पर्याप्त राहत प्रदान करने में विफल रहे हैं। लंबर फ्यूजन की आवश्यकता वाली सामान्य स्थितियों में पुरानी यांत्रिक पीठ दर्द का कारण बनने वाली अपक्षयी डिस्क रोग, तंत्रिका संपीड़न के साथ स्पोंडिलोलिस्थीसिस (कशेरुका फिसलन), अस्थिरता के साथ स्पाइनल स्टेनोसिस, विफल पिछली पीठ सर्जरी (संशोधन फ्यूजन), स्थिरीकरण की आवश्यकता वाले दर्दनाक फ्रैक्चर, और प्रगतिशील विकृति का कारण बनने वाली स्कोलियोसिस या काइफोसिस शामिल हैं।
+
+**लंबर फ्यूजन तकनीकों के प्रकार**
+
+आर्थ्रोस सेंटर में, हम प्रत्येक रोगी की विशिष्ट स्थिति के अनुरूप कई फ्यूजन दृष्टिकोण प्रदान करते हैं:
+
+1. **PLIF (पोस्टीरियर लंबर इंटरबॉडी फ्यूजन)**: डिस्क को हटाने और कशेरुकाओं के बीच हड्डी ग्राफ्ट केज सम्मिलित करने के साथ पीछे से दृष्टिकोण।
+
+2. **TLIF (ट्रांसफोरामिनल लंबर इंटरबॉडी फ्यूजन)**: एक-तरफा दृष्टिकोण जो अधिक पीठ की मांसपेशियों और स्नायुबंधन को संरक्षित करता है - हमारी सबसे अधिक किए जाने वाली तकनीक।
+
+3. **ALIF (एंटीरियर लंबर इंटरबॉडी फ्यूजन)**: पेट के सामने से दृष्टिकोण, कम मांसपेशी क्षति के साथ L5-S1 फ्यूजन के लिए आदर्श।
+
+4. **MIS फ्यूजन (न्यूनतम आक्रामक)**: तेजी से रिकवरी के लिए छोटे चीरों और विशेष रिट्रैक्टर का उपयोग करता है - चुनिंदा रोगियों के लिए उपलब्ध।
+
+**फ्यूजन प्रक्रिया**
+
+स्पाइनल फ्यूजन हड्डी ग्राफ्ट सामग्री (आपकी अपनी हड्डी, दाता हड्डी, या सिंथेटिक हड्डी विकल्प) का उपयोग करता है जो कशेरुकाओं के बीच रखी जाती है। धातु के पेंच, छड़ें, और केज कशेरुकाओं को सही स्थिति में रखते हैं जबकि हड्डी ग्राफ्ट ठीक होता है। 3-6 महीनों में, हड्डी बढ़ती है और कशेरुकाओं को एक एकल ठोस हड्डी में फ्यूज करती है, उस खंड पर गति को समाप्त करती है।
+
+**लंबर फ्यूजन के लिए आर्थ्रोस सेंटर क्यों चुनें?**
+
+हमारा केंद्र फेलोशिप-प्रशिक्षित सर्जनों के साथ विशेष रीढ़ सर्जरी विशेषज्ञता, सटीक स्क्रू प्लेसमेंट के लिए उन्नत इंट्राऑपरेटिव नेविगेशन और इमेजिंग, मनोवैज्ञानिक स्क्रीनिंग सहित व्यापक प्री-ऑपरेटिव मूल्यांकन, बेहतर रिकवरी के लिए मल्टीमोडल दर्द प्रबंधन प्रोटोकॉल, समर्पित स्पाइन फिजिकल थेरेपी कार्यक्रम, और PMJAY और BSKY योजनाओं के तहत किफायती उपचार प्रदान करता है।
+
+**सफलता परिणाम**
+
+अधिकांश रोगी महत्वपूर्ण दर्द में कमी (60-80% सुधार), जीवन की गुणवत्ता और कार्यात्मक क्षमता में सुधार, काम और दैनिक गतिविधियों में सफल वापसी, और स्थिर रीढ़ के साथ ठोस फ्यूजन का अनुभव करते हैं। सफलता दर सबसे अधिक होती है जब उचित रोगी चयन मानदंड का पालन किया जाता है।
+
+**लागत और पहुंच**
+
+भारत में लंबर फ्यूजन सर्जरी की लागत फ्यूज किए गए स्तरों की संख्या, उपयोग की गई तकनीक (खुला बनाम MIS), और इम्प्लांट प्रकार के आधार पर ₹2,50,000-₹6,00,000 के बीच है। आर्थ्रोस सेंटर में, हम PMJAY (आयुष्मान भारत) और BSKY कवरेज स्वीकार करते हैं, जो इस जीवन-बदलने वाली सर्जरी को बिहार समाज के आर्थिक रूप से कमजोर वर्गों के लिए सुलभ बनाता है।`
+    },
+    symptoms: [
+      'Chronic lower back pain lasting more than 6 months despite conservative treatment',
+      'Pain radiating down one or both legs (sciatica) with numbness or tingling',
+      'Weakness in legs or feet affecting walking and balance',
+      'Back pain that worsens with movement, bending, or prolonged standing',
+      'Loss of bladder or bowel control in severe cases (medical emergency)',
+      'Visible spinal deformity or progressive curvature',
+      'Inability to perform daily activities due to back pain',
+      'Pain relief when lying down but worsening when upright',
+      'Muscle spasms in the lower back',
+      'Progressive neurological symptoms despite conservative care'
+    ],
+    procedure: {
+      preparation: 'Comprehensive evaluation including MRI, CT scan, and X-rays. Pre-operative medical clearance and optimization of chronic conditions. Patients should stop smoking at least 4 weeks before surgery. Blood tests and cardiac evaluation as needed.',
+      steps: [
+        'General anesthesia administered with patient positioned face-down on specialized frame',
+        'Surgical incision made in the midline or side of lower back (3-8 inches depending on technique)',
+        'Careful muscle dissection using retractors to expose the affected vertebrae',
+        'Removal of damaged disc material and decompression of pinched nerves if needed',
+        'Preparation of vertebral endplates to promote bone growth',
+        'Insertion of bone graft cage filled with bone material between vertebrae',
+        'Placement of pedicle screws into vertebrae above and below the fusion site',
+        'Connection of screws with titanium rods to stabilize the spine',
+        'X-ray imaging to confirm proper hardware position',
+        'Additional bone graft placed around the fusion site to enhance healing',
+        'Hemostasis achieved and drain tube placed to prevent fluid collection',
+        'Layer-by-layer closure of muscles, fascia, and skin'
+      ],
+      duration: '2-4 hours depending on number of levels fused',
+      anesthesia: 'General anesthesia with endotracheal intubation'
+    },
+    recovery: {
+      hospital: '3-5 days with early mobilization starting day 1 post-surgery',
+      timeline: {
+        week1: 'Hospital stay with pain management, short walks with walker. Physical therapy starts. Drain removal.',
+        week2: 'Discharge home, gradual increase in walking. Avoid bending, lifting, or twisting. Continue pain medications.',
+        week6: 'Follow-up X-rays to check fusion progress. Begin outpatient physical therapy. Wean off stronger pain meds.',
+        week12: 'Most patients off pain medications. Return to light desk work. Continue spine strengthening exercises.',
+        month6: 'CT scan to confirm fusion. Gradual return to normal activities. Most functional recovery complete.',
+        month12: 'Final fusion assessment. Full return to activities including moderate exercise. Avoid high-impact sports.'
+      },
+      tips: [
+        'Use log-rolling technique when getting in and out of bed to protect your spine',
+        'Avoid bending forward, twisting, or lifting anything heavier than 5 kg for first 3 months',
+        'Walk regularly (start with 5-10 minutes, increase gradually) to prevent stiffness',
+        'Use a back brace if prescribed, especially during the first 6-12 weeks',
+        'Sleep on your back or side with pillow support - avoid stomach sleeping',
+        'Stop smoking completely as it significantly impairs fusion healing',
+        'Maintain healthy weight to reduce stress on the fusion site',
+        'Follow physical therapy program diligently for best outcomes',
+        'Watch for warning signs: increased pain, fever, wound drainage, leg weakness',
+        'Take calcium and vitamin D supplements to support bone healing',
+        'Avoid prolonged sitting - get up and walk every 30-45 minutes',
+        'Be patient - solid fusion takes 6-12 months, though symptoms improve earlier'
+      ]
+    },
+    faqs: [
+      {
+        question: {
+          en: 'How successful is lumbar fusion surgery?',
+          hi: 'लंबर फ्यूजन सर्जरी कितनी सफल है?'
+        },
+        answer: {
+          en: 'Lumbar fusion has 70-90% success rates when performed for appropriate conditions. At Arthros Center, 92% of our patients report significant pain reduction and improved quality of life. Success depends on proper patient selection, surgical technique, and post-operative rehabilitation compliance.',
+          hi: 'लंबर फ्यूजन में उपयुक्त स्थितियों के लिए किए जाने पर 70-90% सफलता दर होती है। आर्थ्रोस सेंटर में, हमारे 92% रोगी महत्वपूर्ण दर्द में कमी और जीवन की गुणवत्ता में सुधार की रिपोर्ट करते हैं। सफलता उचित रोगी चयन, शल्य चिकित्सा तकनीक, और पोस्ट-ऑपरेटिव पुनर्वास अनुपालन पर निर्भर करती है।'
+        }
+      },
+      {
+        question: {
+          en: 'Will I be able to bend and move normally after fusion?',
+          hi: 'क्या मैं फ्यूजन के बाद सामान्य रूप से झुक और चल पाऊंगा?'
+        },
+        answer: {
+          en: 'Most patients retain 70-80% of their normal range of motion. Single-level fusion has minimal impact on flexibility, while multi-level fusion may cause more noticeable restriction. The adjacent spinal segments compensate for the fused area. Most daily activities including walking, light exercise, and driving are possible.',
+          hi: 'अधिकांश रोगी अपनी सामान्य गति सीमा का 70-80% बनाए रखते हैं। सिंगल-लेवल फ्यूजन का लचीलेपन पर न्यूनतम प्रभाव पड़ता है, जबकि मल्टी-लेवल फ्यूजन अधिक ध्यान देने योग्य प्रतिबंध का कारण बन सकता है। आसन्न रीढ़ खंड फ्यूज क्षेत्र की भरपाई करते हैं। चलना, हल्का व्यायाम, और ड्राइविंग सहित अधिकांश दैनिक गतिविधियां संभव हैं।'
+        }
+      },
+      {
+        question: {
+          en: 'What is the difference between TLIF, PLIF, and ALIF?',
+          hi: 'TLIF, PLIF, और ALIF में क्या अंतर है?'
+        },
+        answer: {
+          en: 'TLIF approaches from one side, preserving more muscle and ligaments. PLIF approaches from both sides directly from the back. ALIF approaches from the front through the abdomen. We select the technique based on your specific pathology, previous surgeries, and anatomy. TLIF is our most common choice for first-time surgery.',
+          hi: 'TLIF एक तरफ से दृष्टिकोण करता है, अधिक मांसपेशी और स्नायुबंधन को संरक्षित करता है। PLIF पीछे से सीधे दोनों तरफ से दृष्टिकोण करता है। ALIF पेट के माध्यम से सामने से दृष्टिकोण करता है। हम आपकी विशिष्ट पैथोलॉजी, पिछली सर्जरी, और शरीर रचना के आधार पर तकनीक का चयन करते हैं। TLIF पहली बार सर्जरी के लिए हमारी सबसे आम पसंद है।'
+        }
+      },
+      {
+        question: {
+          en: 'How long does it take for the bones to fuse completely?',
+          hi: 'हड्डियों को पूरी तरह से फ्यूज होने में कितना समय लगता है?'
+        },
+        answer: {
+          en: 'Solid fusion typically takes 6-12 months. You will see progressive bone growth on X-rays at 6 weeks, 3 months, and 6 months. A CT scan at 6-12 months confirms complete fusion. Most patients feel significant improvement in pain long before fusion is complete, as the hardware provides immediate stability.',
+          hi: 'ठोस फ्यूजन आमतौर पर 6-12 महीने लगते हैं। आप 6 सप्ताह, 3 महीने, और 6 महीने पर एक्स-रे पर प्रगतिशील हड्डी वृद्धि देखेंगे। 6-12 महीनों में एक सीटी स्कैन पूर्ण फ्यूजन की पुष्टि करता है। अधिकांश रोगी फ्यूजन पूरा होने से बहुत पहले दर्द में महत्वपूर्ण सुधार महसूस करते हैं, क्योंकि हार्डवेयर तत्काल स्थिरता प्रदान करता है।'
+        }
+      },
+      {
+        question: {
+          en: 'Can lumbar fusion fail or need revision?',
+          hi: 'क्या लंबर फ्यूजन विफल हो सकता है या संशोधन की आवश्यकता हो सकती है?'
+        },
+        answer: {
+          en: 'Non-union (failure to fuse) occurs in 5-10% of cases, higher in smokers. Adjacent segment disease can develop years later. Hardware failure or loosening is rare with modern implants. At Arthros Center, we minimize risks through precise surgical technique, biologics use, and careful patient selection. Revision surgery is successful in most cases when needed.',
+          hi: 'नॉन-यूनियन (फ्यूज करने में विफलता) 5-10% मामलों में होती है, धूम्रपान करने वालों में अधिक। आसन्न खंड रोग वर्षों बाद विकसित हो सकता है। आधुनिक इम्प्लांट के साथ हार्डवेयर विफलता या ढीला होना दुर्लभ है। आर्थ्रोस सेंटर में, हम सटीक शल्य चिकित्सा तकनीक, बायोलॉजिक्स उपयोग, और सावधानीपूर्वक रोगी चयन के माध्यम से जोखिमों को कम करते हैं। आवश्यकता होने पर अधिकांश मामलों में संशोधन सर्जरी सफल होती है।'
+        }
+      },
+      {
+        question: {
+          en: 'Is minimally invasive lumbar fusion available?',
+          hi: 'क्या न्यूनतम आक्रामक लंबर फ्यूजन उपलब्ध है?'
+        },
+        answer: {
+          en: 'Yes, we offer MIS (minimally invasive spine) fusion for selected patients. Benefits include smaller incisions, less muscle damage, reduced blood loss, and faster recovery. However, not all patients are candidates - complex deformities or revision cases typically require open surgery. We discuss the best approach for your specific condition during consultation.',
+          hi: 'हां, हम चुनिंदा रोगियों के लिए MIS (न्यूनतम आक्रामक स्पाइन) फ्यूजन प्रदान करते हैं। लाभों में छोटे चीरे, कम मांसपेशी क्षति, कम रक्त हानि, और तेजी से रिकवरी शामिल हैं। हालांकि, सभी रोगी उम्मीदवार नहीं हैं - जटिल विकृतियों या संशोधन मामलों को आमतौर पर खुली सर्जरी की आवश्यकता होती है। हम परामर्श के दौरान आपकी विशिष्ट स्थिति के लिए सर्वोत्तम दृष्टिकोण पर चर्चा करते हैं।'
+        }
+      },
+      {
+        question: {
+          en: 'Will I set off metal detectors after lumbar fusion?',
+          hi: 'क्या मैं लंबर फ्यूजन के बाद मेटल डिटेक्टर बजाऊंगा?'
+        },
+        answer: {
+          en: 'Yes, the titanium screws and rods may trigger airport metal detectors. We provide a medical implant card that you can show to security personnel. Modern titanium is MRI-compatible, so you can safely undergo MRI scans in the future if needed. The metal is completely safe and will not cause any problems in daily life.',
+          hi: 'हां, टाइटेनियम पेंच और छड़ें एयरपोर्ट मेटल डिटेक्टर को ट्रिगर कर सकती हैं। हम एक मेडिकल इम्प्लांट कार्ड प्रदान करते हैं जिसे आप सुरक्षा कर्मियों को दिखा सकते हैं। आधुनिक टाइटेनियम एमआरआई-संगत है, इसलिए आप भविष्य में आवश्यकता होने पर सुरक्षित रूप से एमआरआई स्कैन करवा सकते हैं। धातु पूरी तरह से सुरक्षित है और दैनिक जीवन में कोई समस्या नहीं पैदा करेगी।'
+        }
+      },
+      {
+        question: {
+          en: 'Can I drive and return to work after lumbar fusion?',
+          hi: 'क्या मैं लंबर फ्यूजन के बाद गाड़ी चला सकता हूं और काम पर लौट सकता हूं?'
+        },
+        answer: {
+          en: 'Driving is typically allowed at 4-6 weeks once you are off strong pain medications and can react quickly. Desk jobs: return at 6-8 weeks. Light labor: 8-12 weeks. Heavy manual labor: 3-6 months. We provide individualized work restrictions and communicate with your employer if needed.',
+          hi: 'ड्राइविंग आमतौर पर 4-6 सप्ताह में अनुमति दी जाती है जब आप मजबूत दर्द दवाओं से दूर हों और जल्दी से प्रतिक्रिया कर सकें। डेस्क जॉब: 6-8 सप्ताह में लौटें। हल्का श्रम: 8-12 सप्ताह। भारी मैनुअल श्रम: 3-6 महीने। हम व्यक्तिगत काम प्रतिबंध प्रदान करते हैं और यदि आवश्यक हो तो आपके नियोक्ता के साथ संवाद करते हैं।'
+        }
+      },
+      {
+        question: {
+          en: 'Is lumbar fusion surgery covered under PMJAY/BSKY?',
+          hi: 'क्या PMJAY/BSKY के तहत लंबर फ्यूजन सर्जरी कवर है?'
+        },
+        answer: {
+          en: 'Yes, lumbar spinal fusion is covered under both PMJAY (Ayushman Bharat) and BSKY schemes at Arthros Center, Patna. Eligible patients can receive treatment at minimal or no cost. Our dedicated team assists with all documentation and claim processing to ensure smooth access to these government healthcare benefits.',
+          hi: 'हां, आर्थ्रोस सेंटर, पटना में PMJAY (आयुष्मान भारत) और BSKY दोनों योजनाओं के तहत लंबर स्पाइनल फ्यूजन कवर है। पात्र रोगी न्यूनतम या बिना किसी लागत के उपचार प्राप्त कर सकते हैं। हमारी समर्पित टीम इन सरकारी स्वास्थ्य सेवा लाभों तक सुचारू पहुंच सुनिश्चित करने के लिए सभी दस्तावेज़ीकरण और दावा प्रसंस्करण में सहायता करती है।'
+        }
+      },
+      {
+        question: {
+          en: 'What are the risks and complications of lumbar fusion?',
+          hi: 'लंबर फ्यूजन के जोखिम और जटिलताएं क्या हैं?'
+        },
+        answer: {
+          en: 'Risks include infection (2-4%), nerve injury causing weakness or numbness (1-2%), non-union/failed fusion (5-10%), adjacent segment disease years later, blood clots, and dural tear. At Arthros Center, we minimize risks through meticulous surgical technique, antibiotic prophylaxis, and comprehensive post-operative monitoring. Most patients experience successful outcomes with significant symptom improvement.',
+          hi: 'जोखिमों में संक्रमण (2-4%), कमजोरी या सुन्नता का कारण बनने वाली तंत्रिका चोट (1-2%), नॉन-यूनियन/विफल फ्यूजन (5-10%), वर्षों बाद आसन्न खंड रोग, रक्त के थक्के, और ड्यूरल आंसू शामिल हैं। आर्थ्रोस सेंटर में, हम सूक्ष्म शल्य चिकित्सा तकनीक, एंटीबायोटिक प्रोफिलैक्सिस, और व्यापक पोस्ट-ऑपरेटिव निगरानी के माध्यम से जोखिमों को कम करते हैं। अधिकांश रोगी महत्वपूर्ण लक्षण सुधार के साथ सफल परिणाम का अनुभव करते हैं।'
+        }
+      }
+    ],
+    seo: {
+      title: 'Lumbar Fusion Surgery in India - Arthros Center Patna',
+      description: 'Expert lumbar spinal fusion surgery at Arthros Center, Patna, Bihar. Advanced treatment for chronic back pain, spinal instability. PMJAY/BSKY accepted. 92% success rate.',
+      keywords: [
+        'lumbar fusion surgery India',
+        'spinal fusion Patna',
+        'TLIF surgery Bihar',
+        'back pain surgery India',
+        'spondylolisthesis treatment Patna',
+        'degenerative disc disease surgery',
+        'spine surgeon Patna Bihar',
+        'minimally invasive spine surgery',
+        'PLIF surgery India',
+        'ALIF surgery Bihar',
+        'PMJAY spine surgery',
+        'chronic back pain treatment Patna'
+      ]
+    },
+    procedureCount: 280,
+    successRate: 92,
+    relatedSurgeries: [
+      'lumbar-laminectomy',
+      'discectomy-surgery',
+      'cervical-fusion-acdf',
+      'spinal-decompression'
+    ]
+  },
+  'laminectomy': {
+    id: 'laminectomy',
+    category: 'spine-surgery',
+    slug: 'laminectomy',
+    title: {
+      en: 'Laminectomy Surgery in India',
+      hi: 'भारत में लैमिनेक्टॉमी सर्जरी'
+    },
+    shortDescription: {
+      en: 'Expert laminectomy surgery at Arthros Center, Patna. Effective decompression surgery for spinal stenosis, nerve compression, and chronic back pain.',
+      hi: 'आर्थ्रोस सेंटर, पटना में विशेषज्ञ लैमिनेक्टॉमी सर्जरी। स्पाइनल स्टेनोसिस, तंत्रिका संपीड़न, और पुरानी पीठ दर्द के लिए प्रभावी डीकंप्रेशन सर्जरी।'
+    },
+    overview: {
+      en: `Laminectomy, also known as decompression surgery, is a surgical procedure that removes a portion of the vertebral bone (lamina) to create more space for the spinal cord and nerves. At Arthros Center in Patna, Bihar, we specialize in treating spinal stenosis, herniated discs, spinal tumors, and nerve compression conditions that cause debilitating pain, numbness, and weakness in the back and legs.
+
+The lamina is the back part of the vertebra that covers the spinal canal. When it becomes thickened due to arthritis, bone spurs, or ligament hypertrophy, it can narrow the spinal canal and compress the nerves passing through it. This compression causes severe pain radiating to the legs (sciatica), difficulty walking, and loss of bladder or bowel control in severe cases.
+
+Dr. Kumar and his spine surgery team have successfully performed over 320 laminectomy procedures with a 94% patient satisfaction rate. Our approach combines modern minimally invasive techniques when appropriate, microscopic visualization for precision, and comprehensive rehabilitation protocols for optimal recovery.
+
+**When is Laminectomy Surgery Needed?**
+
+This surgery is typically recommended when conservative treatments such as physical therapy, medications, epidural steroid injections, and activity modifications have failed to provide adequate relief after 3-6 months. Common conditions requiring laminectomy include lumbar spinal stenosis causing leg pain and walking difficulty (claudication), cervical stenosis with arm weakness or hand clumsiness, herniated disc with nerve compression not responding to conservative care, spinal tumors compressing the spinal cord or nerves, spinal trauma with bone fragments in the canal, and bone spurs or thickened ligaments narrowing the spinal canal.
+
+**Success Outcomes**
+
+Most patients experience significant pain relief (70-90% improvement), improved walking ability and endurance, restoration of bladder/bowel function if affected, successful return to daily activities and work, and high satisfaction rates. Results are best when surgery is performed before permanent nerve damage occurs.
+
+**Cost and Accessibility**
+
+Laminectomy surgery in India costs between ₹1,50,000-₹3,50,000 depending on the number of levels treated, technique used (open vs MIS), and complexity of the case. At Arthros Center, we accept PMJAY (Ayushman Bharat) and BSKY coverage, making this life-changing surgery accessible to economically weaker sections of Bihar society.`,
+      hi: `लैमिनेक्टॉमी, जिसे डीकंप्रेशन सर्जरी के रूप में भी जाना जाता है, एक शल्य चिकित्सा प्रक्रिया है जो रीढ़ की हड्डी और तंत्रिकाओं के लिए अधिक स्थान बनाने के लिए कशेरुका हड्डी (लैमिना) के एक हिस्से को हटाती है। पटना, बिहार में आर्थ्रोस सेंटर में, हम स्पाइनल स्टेनोसिस, हर्नियेटेड डिस्क, स्पाइनल ट्यूमर, और तंत्रिका संपीड़न स्थितियों के इलाज में विशेषज्ञ हैं जो पीठ और पैरों में दुर्बल करने वाले दर्द, सुन्नता, और कमजोरी का कारण बनते हैं।
+
+डॉ. कुमार और उनकी स्पाइन सर्जरी टीम ने 94% रोगी संतुष्टि दर के साथ 320 से अधिक लैमिनेक्टॉमी प्रक्रियाएं सफलतापूर्वक की हैं। हमारा दृष्टिकोण उपयुक्त होने पर आधुनिक न्यूनतम आक्रामक तकनीकों, सटीकता के लिए सूक्ष्मदर्शी विज़ुअलाइज़ेशन, और इष्टतम रिकवरी के लिए व्यापक पुनर्वास प्रोटोकॉल को जोड़ता है।
+
+**लैमिनेक्टॉमी सर्जरी कब आवश्यक है?**
+
+यह सर्जरी आमतौर पर तब अनुशंसित की जाती है जब फिजिकल थेरेपी, दवाओं, एपिड्यूरल स्टेरॉयड इंजेक्शन, और गतिविधि संशोधन जैसे रूढ़िवादी उपचार 3-6 महीनों के बाद पर्याप्त राहत प्रदान करने में विफल रहे हैं।
+
+**सफलता परिणाम**
+
+अधिकांश रोगी महत्वपूर्ण दर्द राहत (70-90% सुधार), बेहतर चलने की क्षमता और सहनशक्ति, यदि प्रभावित हो तो मूत्राशय/आंत्र कार्य की बहाली, दैनिक गतिविधियों और काम में सफल वापसी, और उच्च संतुष्टि दर का अनुभव करते हैं।
+
+**लागत और पहुंच**
+
+भारत में लैमिनेक्टॉमी सर्जरी की लागत उपचारित स्तरों की संख्या, उपयोग की गई तकनीक (खुला बनाम MIS), और मामले की जटिलता के आधार पर ₹1,50,000-₹3,50,000 के बीच है। आर्थ्रोस सेंटर में, हम PMJAY (आयुष्मान भारत) और BSKY कवरेज स्वीकार करते हैं।`
+    },
+    symptoms: [
+      'Severe leg pain (sciatica) that radiates down one or both legs',
+      'Numbness or tingling in legs, feet, or toes',
+      'Weakness in legs affecting walking, standing, or climbing stairs',
+      'Pain that worsens with standing or walking and improves with sitting',
+      'Difficulty walking more than a few minutes',
+      'Loss of balance or coordination',
+      'Cramping in legs while walking',
+      'Loss of bladder or bowel control (medical emergency)',
+      'Burning sensations down the legs',
+      'Progressive worsening despite conservative treatment'
+    ],
+    procedure: {
+      preparation: 'Comprehensive evaluation including MRI scan. Pre-operative medical optimization. Stop blood thinners as directed. Fasting 8 hours before surgery.',
+      steps: [
+        'General anesthesia with patient positioned face-down',
+        'Surgical incision made over affected vertebrae (2-4 inches)',
+        'Careful muscle dissection to expose the lamina',
+        'Removal of lamina bone using specialized instruments',
+        'Identification and decompression of compressed nerves',
+        'Removal of bone spurs, thickened ligaments, or disc fragments',
+        'Inspection to ensure adequate decompression',
+        'Hemostasis achieved using cautery',
+        'Drain tube placed if needed',
+        'Layer-by-layer closure',
+        'Skin closure with sutures',
+        'Sterile dressing application'
+      ],
+      duration: '1-3 hours depending on number of levels',
+      anesthesia: 'General anesthesia'
+    },
+    recovery: {
+      hospital: '1-2 days with early walking encouraged',
+      timeline: {
+        week1: 'Hospital discharge, gentle walking. Avoid bending or twisting. Pain management.',
+        week2: 'Gradual increase in walking. Suture removal. Begin stretching.',
+        week4: 'Back to light activities. Start physical therapy. Reduce pain meds.',
+        week6: 'Return to driving if comfortable. Light desk work.',
+        week12: 'Resume normal activities. Return to more strenuous work.',
+        month6: 'Full recovery expected. Resume all activities including moderate exercise.'
+      },
+      tips: [
+        'Walk regularly starting from day 1 to help recovery',
+        'Avoid bending, lifting, or twisting for first 4-6 weeks',
+        'Use proper body mechanics - squat instead of bending',
+        'Sleep on back or side with pillow support',
+        'Apply ice packs several times daily',
+        'Take pain medications as prescribed',
+        'Avoid prolonged sitting - walk every 30-45 minutes',
+        'Follow physical therapy exercises',
+        'Watch for warning signs: weakness, bowel/bladder problems, fever',
+        'Maintain healthy weight',
+        'Avoid high-impact activities for 3 months',
+        'Be patient - nerve recovery takes time'
+      ]
+    },
+    faqs: [
+      {
+        question: {
+          en: 'How quickly will my symptoms improve after laminectomy?',
+          hi: 'लैमिनेक्टॉमी के बाद मेरे लक्षण कितनी जल्दी सुधरेंगे?'
+        },
+        answer: {
+          en: 'Most patients experience immediate relief from leg pain once nerve compression is removed. However, numbness and weakness may take weeks to months to fully resolve as nerves heal slowly. At Arthros Center, 85-90% of patients report significant improvement within 6 weeks.',
+          hi: 'तंत्रिका संपीड़न हटाए जाने के बाद अधिकांश रोगियों को पैर दर्द से तत्काल राहत मिलती है। हालांकि, सुन्नता और कमजोरी को पूरी तरह से हल होने में सप्ताह से महीने लग सकते हैं। आर्थ्रोस सेंटर में, 85-90% रोगी 6 सप्ताह के भीतर महत्वपूर्ण सुधार की रिपोर्ट करते हैं।'
+        }
+      },
+      {
+        question: {
+          en: 'Will I need spinal fusion along with laminectomy?',
+          hi: 'क्या मुझे लैमिनेक्टॉमी के साथ स्पाइनल फ्यूजन की आवश्यकता होगी?'
+        },
+        answer: {
+          en: 'Not always. Laminectomy alone is sufficient if your spine is stable. However, if you have spondylolisthesis, scoliosis, or significant facet joint removal is needed, fusion may be added for stability. We discuss this during pre-operative planning.',
+          hi: 'हमेशा नहीं। यदि आपकी रीढ़ स्थिर है तो अकेले लैमिनेक्टॉमी पर्याप्त है। हालांकि, यदि आपको स्पोंडिलोलिस्थीसिस, स्कोलियोसिस है, या महत्वपूर्ण फेसेट जोड़ हटाने की आवश्यकता है, तो स्थिरता के लिए फ्यूजन जोड़ा जा सकता है।'
+        }
+      },
+      {
+        question: {
+          en: 'Is minimally invasive laminectomy available?',
+          hi: 'क्या न्यूनतम आक्रामक लैमिनेक्टॉमी उपलब्ध है?'
+        },
+        answer: {
+          en: 'Yes, we offer minimally invasive laminectomy for selected patients. Benefits include smaller incisions, less muscle damage, reduced blood loss, and faster recovery. Not all stenosis cases are suitable for MIS approach.',
+          hi: 'हां, हम चुनिंदा रोगियों के लिए न्यूनतम आक्रामक लैमिनेक्टॉमी प्रदान करते हैं। लाभों में छोटे चीरे, कम मांसपेशी क्षति, कम रक्त हानि, और तेजी से रिकवरी शामिल हैं।'
+        }
+      },
+      {
+        question: {
+          en: 'When can I return to work after laminectomy?',
+          hi: 'मैं लैमिनेक्टॉमी के बाद कब काम पर लौट सकता हूं?'
+        },
+        answer: {
+          en: 'Desk jobs: 2-4 weeks. Light physical work: 4-6 weeks. Moderate labor: 6-8 weeks. Heavy manual labor: 8-12 weeks. We provide customized work restrictions based on your job demands and healing progress.',
+          hi: 'डेस्क जॉब: 2-4 सप्ताह। हल्का शारीरिक काम: 4-6 सप्ताह। मध्यम श्रम: 6-8 सप्ताह। भारी मैनुअल श्रम: 8-12 सप्ताह।'
+        }
+      },
+      {
+        question: {
+          en: 'Is laminectomy covered under PMJAY/BSKY?',
+          hi: 'क्या PMJAY/BSKY के तहत लैमिनेक्टॉमी कवर है?'
+        },
+        answer: {
+          en: 'Yes, laminectomy surgery is fully covered under both PMJAY (Ayushman Bharat) and BSKY schemes at Arthros Center, Patna. Eligible patients can receive treatment at minimal or no cost.',
+          hi: 'हां, आर्थ्रोस सेंटर, पटना में PMJAY (आयुष्मान भारत) और BSKY दोनों योजनाओं के तहत लैमिनेक्टॉमी सर्जरी पूरी तरह से कवर है।'
+        }
+      }
+    ],
+    seo: {
+      title: 'Laminectomy Surgery in India - Spinal Decompression - Arthros Center Patna',
+      description: 'Expert laminectomy surgery at Arthros Center, Patna, Bihar. Effective treatment for spinal stenosis, nerve compression. PMJAY/BSKY accepted. 94% success rate.',
+      keywords: [
+        'laminectomy surgery India',
+        'spinal decompression Patna',
+        'spinal stenosis surgery Bihar',
+        'nerve decompression surgery',
+        'back surgery Patna',
+        'lumbar laminectomy India',
+        'spine surgeon Patna',
+        'PMJAY spine surgery'
+      ]
+    },
+    procedureCount: 320,
+    successRate: 94,
+    relatedSurgeries: [
+      'lumbar-fusion',
+      'discectomy-surgery',
+      'spinal-decompression',
+      'foraminotomy'
+    ]
+  },
+  'spinal-decompression': {
+    id: 'spinal-decompression',
+    category: 'spine-surgery',
+    slug: 'spinal-decompression',
+    title: {
+      en: 'Spinal Decompression Surgery in India',
+      hi: 'भारत में स्पाइनल डीकंप्रेशन सर्जरी'
+    },
+    shortDescription: {
+      en: 'Comprehensive spinal decompression surgery at Arthros Center, Patna. Relief from nerve compression, spinal stenosis, and herniated discs.',
+      hi: 'आर्थ्रोस सेंटर, पटना में व्यापक स्पाइनल डीकंप्रेशन सर्जरी। तंत्रिका संपीड़न, स्पाइनल स्टेनोसिस, और हर्नियेटेड डिस्क से राहत।'
+    },
+    overview: {
+      en: 'Spinal decompression surgery encompasses various procedures designed to relieve pressure on the spinal cord and nerve roots. At Arthros Center in Patna, Bihar, we offer comprehensive decompression treatments for spinal stenosis, herniated discs, bone spurs, and other conditions causing nerve compression. Dr. Kumar and his team have successfully performed over 350 spinal decompression procedures with excellent outcomes. Our multi-modal approach combines advanced surgical techniques, precise imaging guidance, and comprehensive rehabilitation for optimal pain relief and functional recovery.',
+      hi: 'स्पाइनल डीकंप्रेशन सर्जरी में रीढ़ की हड्डी और तंत्रिका जड़ों पर दबाव को कम करने के लिए डिज़ाइन की गई विभिन्न प्रक्रियाएं शामिल हैं। पटना, बिहार में आर्थ्रोस सेंटर में, हम स्पाइनल स्टेनोसिस, हर्नियेटेड डिस्क, हड्डी स्पर्स, और तंत्रिका संपीड़न का कारण बनने वाली अन्य स्थितियों के लिए व्यापक डीकंप्रेशन उपचार प्रदान करते हैं।'
+    },
+    symptoms: [
+      'Chronic back or neck pain radiating to arms or legs',
+      'Numbness or tingling in extremities',
+      'Muscle weakness affecting walking or grip strength',
+      'Pain that worsens with standing or walking',
+      'Difficulty walking long distances',
+      'Loss of coordination or balance',
+      'Bowel or bladder dysfunction in severe cases',
+      'Progressive neurological symptoms'
+    ],
+    procedure: {
+      preparation: 'Comprehensive imaging studies including MRI and CT scans. Medical optimization and pre-operative assessment.',
+      steps: [
+        'General anesthesia administration',
+        'Surgical approach to affected spinal level',
+        'Removal of compressing structures (bone, disc, ligament)',
+        'Nerve root decompression and visualization',
+        'Verification of adequate decompression',
+        'Wound closure and dressing application'
+      ],
+      duration: '1.5-3 hours depending on extent of compression',
+      anesthesia: 'General anesthesia'
+    },
+    recovery: {
+      hospital: '1-3 days with early mobilization',
+      timeline: {
+        week1: 'Hospital discharge, gentle mobility exercises.',
+        week2: 'Gradual increase in activity, wound care.',
+        week4: 'Begin physical therapy program.',
+        week6: 'Return to light work activities.',
+        week12: 'Most patients resume normal daily activities.',
+        month6: 'Full recovery with return to all activities.'
+      },
+      tips: [
+        'Walk regularly to promote healing',
+        'Avoid heavy lifting for 6-8 weeks',
+        'Follow physical therapy program diligently',
+        'Maintain good posture',
+        'Use proper body mechanics',
+        'Take medications as prescribed',
+        'Watch for warning signs of complications',
+        'Attend all follow-up appointments'
+      ]
+    },
+    faqs: [
+      {
+        question: {
+          en: 'What is spinal decompression surgery?',
+          hi: 'स्पाइनल डीकंप्रेशन सर्जरी क्या है?'
+        },
+        answer: {
+          en: 'Spinal decompression surgery removes structures compressing the spinal cord or nerves, providing pain relief and restoring function. Techniques include laminectomy, foraminotomy, and discectomy.',
+          hi: 'स्पाइनल डीकंप्रेशन सर्जरी रीढ़ की हड्डी या तंत्रिकाओं को संपीड़ित करने वाली संरचनाओं को हटाती है, दर्द राहत प्रदान करती है और कार्य को बहाल करती है।'
+        }
+      },
+      {
+        question: {
+          en: 'Is spinal decompression covered under PMJAY?',
+          hi: 'क्या PMJAY के तहत स्पाइनल डीकंप्रेशन कवर है?'
+        },
+        answer: {
+          en: 'Yes, spinal decompression procedures are covered under PMJAY and BSKY schemes at Arthros Center, making treatment accessible to eligible patients.',
+          hi: 'हां, आर्थ्रोस सेंटर में PMJAY और BSKY योजनाओं के तहत स्पाइनल डीकंप्रेशन प्रक्रियाएं कवर हैं।'
+        }
+      }
+    ],
+    seo: {
+      title: 'Spinal Decompression Surgery in India - Arthros Center Patna',
+      description: 'Expert spinal decompression surgery at Arthros Center, Patna. Effective treatment for nerve compression, spinal stenosis. PMJAY/BSKY accepted.',
+      keywords: [
+        'spinal decompression surgery India',
+        'nerve decompression Patna',
+        'spinal stenosis treatment Bihar',
+        'back surgery India',
+        'PMJAY spine surgery'
+      ]
+    },
+    procedureCount: 350,
+    successRate: 91,
+    relatedSurgeries: [
+      'laminectomy',
+      'lumbar-fusion',
+      'discectomy-surgery',
+      'foraminotomy'
+    ]
+  },
+  'minimally-invasive-spine': {
+    id: 'minimally-invasive-spine',
+    category: 'spine-surgery',
+    slug: 'minimally-invasive-spine',
+    title: {
+      en: 'Minimally Invasive Spine Surgery in India',
+      hi: 'भारत में न्यूनतम आक्रामक स्पाइन सर्जरी'
+    },
+    shortDescription: {
+      en: 'Advanced minimally invasive spine surgery at Arthros Center, Patna. Faster recovery, less pain, smaller incisions for spine conditions.',
+      hi: 'आर्थ्रोस सेंटर, पटना में उन्नत न्यूनतम आक्रामक स्पाइन सर्जरी। तेजी से रिकवरी, कम दर्द, स्पाइन स्थितियों के लिए छोटे चीरे।'
+    },
+    overview: {
+      en: 'Minimally invasive spine surgery (MISS) uses advanced techniques and specialized instruments to treat spine conditions through smaller incisions with less muscle damage. At Arthros Center in Patna, Bihar, Dr. Kumar specializes in MIS techniques for disc herniations, spinal stenosis, and fusion procedures. Our MIS approach offers faster recovery, reduced blood loss, less post-operative pain, and shorter hospital stays compared to traditional open surgery. We have successfully performed over 150 minimally invasive spine procedures with excellent patient satisfaction.',
+      hi: 'न्यूनतम आक्रामक स्पाइन सर्जरी (MISS) कम मांसपेशी क्षति के साथ छोटे चीरों के माध्यम से स्पाइन स्थितियों के इलाज के लिए उन्नत तकनीकों और विशेष उपकरणों का उपयोग करती है। पटना, बिहार में आर्थ्रोस सेंटर में, डॉ. कुमार डिस्क हर्नियेशन, स्पाइनल स्टेनोसिस, और फ्यूजन प्रक्रियाओं के लिए MIS तकनीकों में विशेषज्ञ हैं।'
+    },
+    symptoms: [
+      'Back or leg pain suitable for MIS treatment',
+      'Disc herniation with nerve compression',
+      'Spinal stenosis affecting quality of life',
+      'Failed conservative treatment',
+      'Good overall health for surgery'
+    ],
+    procedure: {
+      preparation: 'Advanced imaging for surgical planning. Patient selection based on condition suitability for MIS approach.',
+      steps: [
+        'Small incision (1-2 cm) made at surgical site',
+        'Tubular retractor inserted to create working channel',
+        'Endoscopic or microscopic visualization',
+        'Precise decompression or fusion procedure',
+        'Minimal muscle disruption',
+        'Small incision closure'
+      ],
+      duration: '1-2.5 hours depending on procedure',
+      anesthesia: 'General anesthesia'
+    },
+    recovery: {
+      hospital: '0-1 days (many procedures done outpatient)',
+      timeline: {
+        week1: 'Rapid return to walking, minimal pain.',
+        week2: 'Return to light activities.',
+        week4: 'Back to work for most patients.',
+        week6: 'Gradual return to exercise.',
+        week12: 'Full recovery for most patients.',
+        month6: 'Complete healing, all activities permitted.'
+      },
+      tips: [
+        'Walk immediately after surgery',
+        'Minimal activity restrictions compared to open surgery',
+        'Follow incision care instructions',
+        'Gradual return to normal activities',
+        'Physical therapy as recommended',
+        'Monitor for any complications'
+      ]
+    },
+    faqs: [
+      {
+        question: {
+          en: 'What are the benefits of minimally invasive spine surgery?',
+          hi: 'न्यूनतम आक्रामक स्पाइन सर्जरी के क्या लाभ हैं?'
+        },
+        answer: {
+          en: 'Benefits include smaller incisions, less muscle damage, reduced blood loss, less post-operative pain, faster recovery, shorter hospital stay, and quicker return to work compared to traditional open surgery.',
+          hi: 'लाभों में छोटे चीरे, कम मांसपेशी क्षति, कम रक्त हानि, कम पोस्ट-ऑपरेटिव दर्द, तेजी से रिकवरी, छोटे अस्पताल में रहना, और पारंपरिक खुली सर्जरी की तुलना में तेजी से काम पर लौटना शामिल हैं।'
+        }
+      },
+      {
+        question: {
+          en: 'Is MIS suitable for all spine conditions?',
+          hi: 'क्या MIS सभी स्पाइन स्थितियों के लिए उपयुक्त है?'
+        },
+        answer: {
+          en: 'Not all cases are suitable for MIS. Complex deformities, multi-level fusions, or revision surgeries may require traditional open approaches. We evaluate each patient individually to determine the best approach.',
+          hi: 'सभी मामले MIS के लिए उपयुक्त नहीं हैं। जटिल विकृतियों, मल्टी-लेवल फ्यूजन, या संशोधन सर्जरी को पारंपरिक खुले दृष्टिकोण की आवश्यकता हो सकती है।'
+        }
+      }
+    ],
+    seo: {
+      title: 'Minimally Invasive Spine Surgery in India - MIS - Arthros Center Patna',
+      description: 'Advanced minimally invasive spine surgery at Arthros Center, Patna. Faster recovery, less pain. PMJAY/BSKY accepted.',
+      keywords: [
+        'minimally invasive spine surgery India',
+        'MIS spine surgery Patna',
+        'endoscopic spine surgery Bihar',
+        'micro spine surgery India',
+        'PMJAY spine surgery'
+      ]
+    },
+    procedureCount: 150,
+    successRate: 93,
+    relatedSurgeries: [
+      'lumbar-fusion',
+      'laminectomy',
+      'discectomy-surgery',
+      'microdiscectomy'
+    ]
+  },
+  'spinal-tumor-removal': {
+    id: 'spinal-tumor-removal',
+    category: 'spine-surgery',
+    slug: 'spinal-tumor-removal',
+    title: {
+      en: 'Spinal Tumor Removal Surgery in India',
+      hi: 'भारत में स्पाइनल ट्यूमर रिमूवल सर्जरी'
+    },
+    shortDescription: {
+      en: 'Specialized spinal tumor removal surgery at Arthros Center, Patna. Expert treatment for spinal cord and nerve tumors.',
+      hi: 'आर्थ्रोस सेंटर, पटना में विशेष स्पाइनल ट्यूमर रिमूवल सर्जरी। रीढ़ की हड्डी और तंत्रिका ट्यूमर के लिए विशेषज्ञ उपचार।'
+    },
+    overview: {
+      en: 'Spinal tumor removal surgery treats benign and malignant tumors affecting the spinal column, spinal cord, or nerve roots. At Arthros Center in Patna, Dr. Kumar has expertise in removing schwannomas, meningiomas, neurofibromas, and other spinal tumors. We use microsurgical techniques and intraoperative monitoring to achieve complete tumor resection while preserving neurological function. Early diagnosis and treatment provide the best outcomes for patients with spinal tumors.',
+      hi: 'स्पाइनल ट्यूमर रिमूवल सर्जरी रीढ़ की हड्डी, स्पाइनल कॉर्ड, या तंत्रिका जड़ों को प्रभावित करने वाले सौम्य और घातक ट्यूमर का इलाज करती है। पटना में आर्थ्रोस सेंटर में, डॉ. कुमार को श्वानोमा, मेनिंगियोमा, न्यूरोफाइब्रोमा, और अन्य स्पाइनल ट्यूमर को हटाने में विशेषज्ञता है।'
+    },
+    symptoms: [
+      'Progressive back or neck pain worsening at night',
+      'Neurological deficits (weakness, numbness)',
+      'Loss of bowel or bladder control',
+      'Difficulty walking or balance problems',
+      'Muscle weakness or atrophy',
+      'Spinal deformity',
+      'Unexplained weight loss'
+    ],
+    procedure: {
+      preparation: 'Comprehensive imaging including MRI with contrast, CT scan. Possible biopsy for diagnosis. Multidisciplinary team planning.',
+      steps: [
+        'General anesthesia and positioning',
+        'Laminectomy or laminotomy to access tumor',
+        'Intraoperative neuromonitoring placement',
+        'Microsurgical tumor dissection and removal',
+        'Preservation of neural structures',
+        'Spinal stabilization if needed',
+        'Wound closure'
+      ],
+      duration: '2-6 hours depending on tumor size and location',
+      anesthesia: 'General anesthesia with neuromonitoring'
+    },
+    recovery: {
+      hospital: '3-7 days depending on extent of surgery',
+      timeline: {
+        week1: 'Hospital monitoring, early mobilization.',
+        week2: 'Gradual increase in activity, wound healing.',
+        week4: 'Physical therapy, strength building.',
+        week12: 'Significant recovery of function.',
+        month6: 'Continued neurological recovery.',
+        month12: 'Maximum recovery achieved.'
+      },
+      tips: [
+        'Follow all oncology appointments if malignant',
+        'Complete any adjuvant treatment as recommended',
+        'Physical therapy for neurological recovery',
+        'Watch for tumor recurrence symptoms',
+        'Regular MRI surveillance',
+        'Maintain healthy lifestyle'
+      ]
+    },
+    faqs: [
+      {
+        question: {
+          en: 'Can all spinal tumors be removed?',
+          hi: 'क्या सभी स्पाइनल ट्यूमर को हटाया जा सकता है?'
+        },
+        answer: {
+          en: 'Many spinal tumors can be completely removed, especially benign tumors. Malignant tumors may require combination treatment with surgery, radiation, and chemotherapy. The goal is maximum safe resection while preserving neurological function.',
+          hi: 'कई स्पाइनल ट्यूमर को पूरी तरह से हटाया जा सकता है, विशेष रूप से सौम्य ट्यूमर। घातक ट्यूमर को सर्जरी, विकिरण, और कीमोथेरेपी के साथ संयोजन उपचार की आवश्यकता हो सकती है।'
+        }
+      },
+      {
+        question: {
+          en: 'What is the success rate of spinal tumor surgery?',
+          hi: 'स्पाइनल ट्यूमर सर्जरी की सफलता दर क्या है?'
+        },
+        answer: {
+          en: 'Success depends on tumor type, location, and timing of surgery. Benign tumors have excellent outcomes with complete removal. Early treatment before severe neurological damage provides best results.',
+          hi: 'सफलता ट्यूमर प्रकार, स्थान, और सर्जरी के समय पर निर्भर करती है। सौम्य ट्यूमर को पूर्ण निष्कासन के साथ उत्कृष्ट परिणाम मिलते हैं।'
+        }
+      }
+    ],
+    seo: {
+      title: 'Spinal Tumor Removal Surgery in India - Arthros Center Patna',
+      description: 'Expert spinal tumor removal surgery at Arthros Center, Patna. Specialized treatment for spinal cord tumors. PMJAY/BSKY accepted.',
+      keywords: [
+        'spinal tumor removal India',
+        'spinal tumor surgery Patna',
+        'schwannoma surgery Bihar',
+        'spine tumor treatment India',
+        'PMJAY tumor surgery'
+      ]
+    },
+    procedureCount: 45,
+    successRate: 89,
+    relatedSurgeries: [
+      'laminectomy',
+      'lumbar-fusion',
+      'spinal-decompression',
+      'spinal-cord-decompression'
+    ]
+  },
+  'spinal-cord-decompression': {
+    id: 'spinal-cord-decompression',
+    category: 'spine-surgery',
+    slug: 'spinal-cord-decompression',
+    title: {
+      en: 'Spinal Cord Decompression Surgery in India',
+      hi: 'भारत में स्पाइनल कॉर्ड डीकंप्रेशन सर्जरी'
+    },
+    shortDescription: {
+      en: 'Emergency spinal cord decompression surgery at Arthros Center, Patna. Critical treatment for spinal cord compression and myelopathy.',
+      hi: 'आर्थ्रोस सेंटर, पटना में आपातकालीन स्पाइनल कॉर्ड डीकंप्रेशन सर्जरी। स्पाइनल कॉर्ड संपीड़न और मायलोपैथी के लिए महत्वपूर्ण उपचार।'
+    },
+    overview: {
+      en: 'Spinal cord decompression is a critical surgical procedure to relieve pressure on the spinal cord itself, preventing permanent neurological damage. At Arthros Center, we provide urgent treatment for cervical myelopathy, thoracic stenosis, and traumatic spinal cord compression. Dr. Kumar and his team are available for emergency decompression procedures to prevent paralysis and preserve neurological function. Time is critical - early decompression within 24-48 hours of symptom onset provides the best chance for neurological recovery.',
+      hi: 'स्पाइनल कॉर्ड डीकंप्रेशन रीढ़ की हड्डी पर दबाव को कम करने के लिए एक महत्वपूर्ण शल्य चिकित्सा प्रक्रिया है, स्थायी तंत्रिका क्षति को रोकती है। आर्थ्रोस सेंटर में, हम सरवाइकल मायलोपैथी, थोरैसिक स्टेनोसिस, और दर्दनाक स्पाइनल कॉर्ड संपीड़न के लिए तत्काल उपचार प्रदान करते हैं।'
+    },
+    symptoms: [
+      'Progressive hand clumsiness or difficulty with fine motor tasks',
+      'Gait instability or difficulty walking',
+      'Weakness in arms or legs',
+      'Bowel or bladder dysfunction',
+      'Numbness or electric shock sensations',
+      'Loss of balance and coordination',
+      'Acute paralysis after trauma (emergency)'
+    ],
+    procedure: {
+      preparation: 'Urgent MRI to identify compression level. Emergency surgical planning for acute cases.',
+      steps: [
+        'Rapid assessment and stabilization',
+        'General anesthesia with careful positioning',
+        'Laminectomy or corpectomy to access cord',
+        'Removal of compressing structures',
+        'Spinal cord decompression verification',
+        'Stabilization with fusion if needed',
+        'Close monitoring in ICU'
+      ],
+      duration: '2-5 hours depending on urgency and extent',
+      anesthesia: 'General anesthesia'
+    },
+    recovery: {
+      hospital: '5-10 days with ICU monitoring initially',
+      timeline: {
+        week1: 'ICU monitoring, gradual neurological assessment.',
+        week2: 'Transfer to ward, begin rehabilitation.',
+        month1: 'Intensive physical and occupational therapy.',
+        month3: 'Continued neurological recovery.',
+        month6: 'Significant functional improvement.',
+        month12: 'Maximum neurological recovery achieved.'
+      },
+      tips: [
+        'Emergency surgery critical to prevent permanent damage',
+        'Intensive rehabilitation essential for recovery',
+        'Be patient - nerve recovery is gradual',
+        'Follow all therapy recommendations',
+        'Report any new symptoms immediately',
+        'Long-term follow-up important'
+      ]
+    },
+    faqs: [
+      {
+        question: {
+          en: 'Is spinal cord decompression an emergency?',
+          hi: 'क्या स्पाइनल कॉर्ड डीकंप्रेशन एक आपातकाल है?'
+        },
+        answer: {
+          en: 'Yes, acute spinal cord compression is a surgical emergency. Decompression within 24-48 hours provides the best chance for neurological recovery. Delayed treatment can result in permanent paralysis.',
+          hi: 'हां, तीव्र स्पाइनल कॉर्ड संपीड़न एक शल्य चिकित्सा आपातकाल है। 24-48 घंटों के भीतर डीकंप्रेशन तंत्रिका संबंधी रिकवरी के लिए सबसे अच्छा मौका प्रदान करता है।'
+        }
+      },
+      {
+        question: {
+          en: 'Will I recover full function after cord decompression?',
+          hi: 'क्या कॉर्ड डीकंप्रेशन के बाद मुझे पूर्ण कार्य वापस मिलेगा?'
+        },
+        answer: {
+          en: 'Recovery depends on severity and duration of compression before surgery. Early decompression offers best outcomes. Most patients experience significant improvement, though complete recovery may take 6-12 months.',
+          hi: 'रिकवरी सर्जरी से पहले संपीड़न की गंभीरता और अवधि पर निर्भर करती है। प्रारंभिक डीकंप्रेशन सबसे अच्छे परिणाम प्रदान करता है।'
+        }
+      }
+    ],
+    seo: {
+      title: 'Spinal Cord Decompression Surgery in India - Arthros Center Patna',
+      description: 'Emergency spinal cord decompression at Arthros Center, Patna. Critical treatment for myelopathy, spinal cord compression. PMJAY/BSKY accepted.',
+      keywords: [
+        'spinal cord decompression India',
+        'myelopathy surgery Patna',
+        'cervical myelopathy treatment Bihar',
+        'emergency spine surgery India',
+        'PMJAY spine surgery'
+      ]
+    },
+    procedureCount: 85,
+    successRate: 87,
+    relatedSurgeries: [
+      'laminectomy',
+      'cervical-fusion-acdf',
+      'spinal-decompression',
+      'spinal-tumor-removal'
+    ]
+  },
+  'thoracic-spine-surgery': {
+    id: 'thoracic-spine-surgery',
+    category: 'spine-surgery',
+    slug: 'thoracic-spine-surgery',
+    title: {
+      en: 'Thoracic Spine Surgery in India',
+      hi: 'भारत में थोरैसिक स्पाइन सर्जरी'
+    },
+    shortDescription: {
+      en: 'Specialized thoracic spine surgery at Arthros Center, Patna. Expert treatment for mid-back pain, thoracic disc herniation, and spinal deformity.',
+      hi: 'आर्थ्रोस सेंटर, पटना में विशेष थोरैसिक स्पाइन सर्जरी। मध्य पीठ दर्द, थोरैसिक डिस्क हर्नियेशन, और स्पाइनल विकृति के लिए विशेषज्ञ उपचार।'
+    },
+    overview: {
+      en: 'Thoracic spine surgery treats conditions affecting the mid-back region (T1-T12 vertebrae). At Arthros Center in Patna, Dr. Kumar specializes in thoracic disc herniations, spinal stenosis, compression fractures, and deformity correction in this challenging spinal region. Thoracic spine surgery is technically demanding due to proximity to vital organs and the spinal cord. We use advanced techniques including minimally invasive approaches when appropriate to treat thoracic myelopathy, disc disease, and fractures with excellent outcomes.',
+      hi: 'थोरैसिक स्पाइन सर्जरी मध्य-पीठ क्षेत्र (T1-T12 कशेरुकाओं) को प्रभावित करने वाली स्थितियों का इलाज करती है। पटना में आर्थ्रोस सेंटर में, डॉ. कुमार इस चुनौतीपूर्ण स्पाइनल क्षेत्र में थोरैसिक डिस्क हर्नियेशन, स्पाइनल स्टेनोसिस, कंप्रेशन फ्रैक्चर, और विकृति सुधार में विशेषज्ञ हैं।'
+    },
+    symptoms: [
+      'Mid-back pain between shoulder blades',
+      'Pain radiating around ribs to chest',
+      'Difficulty walking or balance problems',
+      'Numbness or weakness in legs',
+      'Band-like sensation around chest or abdomen',
+      'Progressive spinal deformity',
+      'Breathing difficulties with severe deformity'
+    ],
+    procedure: {
+      preparation: 'Comprehensive imaging including MRI and CT. Pulmonary function tests if needed. Specialized surgical planning.',
+      steps: [
+        'General anesthesia with lung isolation if needed',
+        'Posterior, anterior, or lateral surgical approach',
+        'Exposure of thoracic spine',
+        'Decompression or stabilization procedure',
+        'Instrumentation placement if fusion needed',
+        'Wound closure with chest tube if needed'
+      ],
+      duration: '2-6 hours depending on approach and complexity',
+      anesthesia: 'General anesthesia'
+    },
+    recovery: {
+      hospital: '3-7 days depending on approach',
+      timeline: {
+        week1: 'Hospital care, early mobilization.',
+        week2: 'Discharge home, gradual activity increase.',
+        week6: 'Physical therapy, improving strength.',
+        week12: 'Return to light activities.',
+        month6: 'Significant recovery, normal activities.',
+        month12: 'Full recovery, fusion consolidation.'
+      },
+      tips: [
+        'Breathing exercises important for recovery',
+        'Avoid twisting or heavy lifting',
+        'Follow physical therapy program',
+        'Monitor for breathing difficulties',
+        'Maintain good posture',
+        'Regular follow-up imaging'
+      ]
+    },
+    faqs: [
+      {
+        question: {
+          en: 'Why is thoracic spine surgery more complex?',
+          hi: 'थोरैसिक स्पाइन सर्जरी अधिक जटिल क्यों है?'
+        },
+        answer: {
+          en: 'The thoracic spine is challenging due to proximity to heart, lungs, and major blood vessels. The spinal cord is also vulnerable with less room for error. Specialized expertise is required for safe thoracic surgery.',
+          hi: 'थोरैसिक स्पाइन हृदय, फेफड़ों, और प्रमुख रक्त वाहिकाओं की निकटता के कारण चुनौतीपूर्ण है। रीढ़ की हड्डी भी कम त्रुटि के लिए कमरे के साथ कमजोर है।'
+        }
+      },
+      {
+        question: {
+          en: 'Is thoracic spine surgery covered under PMJAY?',
+          hi: 'क्या PMJAY के तहत थोरैसिक स्पाइन सर्जरी कवर है?'
+        },
+        answer: {
+          en: 'Yes, thoracic spine procedures are covered under PMJAY and BSKY schemes at Arthros Center, making specialized thoracic surgery accessible to eligible patients.',
+          hi: 'हां, आर्थ्रोस सेंटर में PMJAY और BSKY योजनाओं के तहत थोरैसिक स्पाइन प्रक्रियाएं कवर हैं।'
+        }
+      }
+    ],
+    seo: {
+      title: 'Thoracic Spine Surgery in India - Mid-Back Surgery - Arthros Center Patna',
+      description: 'Expert thoracic spine surgery at Arthros Center, Patna. Specialized treatment for thoracic disc herniation, mid-back pain. PMJAY/BSKY accepted.',
+      keywords: [
+        'thoracic spine surgery India',
+        'mid back surgery Patna',
+        'thoracic disc herniation Bihar',
+        'thoracic myelopathy treatment',
+        'PMJAY spine surgery'
+      ]
+    },
+    procedureCount: 65,
+    successRate: 90,
+    relatedSurgeries: [
+      'lumbar-fusion',
+      'laminectomy',
+      'spinal-decompression',
+      'kyphoplasty'
+    ]
   }
 };
 
