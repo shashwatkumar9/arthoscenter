@@ -22,8 +22,8 @@ export const categoryContent: Record<string, CategoryContent> = {
   'joint-replacement': {
     id: 'joint-replacement',
     title: {
-      en: 'Joint Replacement Surgery',
-      hi: 'जोड़ प्रतिस्थापन सर्जरी'
+      en: 'Joint Replacement Surgery in India',
+      hi: 'भारत में जोड़ प्रतिस्थापन सर्जरी'
     },
     overview: {
       en: `Joint Replacement Surgery represents one of the most transformative advances in modern orthopedic medicine, providing life-changing relief from chronic joint pain and disability for millions of patients worldwide. At Arthoscenter in Patna, Bihar, Dr. Gurudeo Kumar has established himself as one of the region's foremost joint replacement surgeons, having successfully performed over 3,500 joint replacement procedures with exceptional clinical outcomes, patient satisfaction rates exceeding 96%, and complication rates well below national averages.
@@ -195,8 +195,8 @@ Recovery milestones typically include: hospital discharge 2-4 days, independent 
   'spine-surgery': {
     id: 'spine-surgery',
     title: {
-      en: 'Spine Surgery',
-      hi: 'स्पाइन सर्जरी'
+      en: 'Spine Surgery in India',
+      hi: 'भारत में स्पाइन सर्जरी'
     },
     overview: {
       en: `Spine surgery represents one of the most technically demanding and rapidly evolving fields in modern orthopedic and neurosurgical practice. At Arthoscenter in Patna, Bihar, Dr. Gurudeo Kumar brings over 20 years of specialized expertise in complex spine surgery, having successfully treated more than 2,000 patients with conditions ranging from simple disc herniations to complex spinal deformities, tumors, infections, and trauma. Our comprehensive spine surgery program delivers world-class care using the latest minimally invasive techniques, advanced navigation systems, and state-of-the-art implant technology while maintaining affordable costs accessible to patients throughout Bihar and surrounding states.
@@ -353,8 +353,8 @@ Surgical technique varies by pathology but always emphasizes neural decompressio
   'sports-medicine': {
     id: 'sports-medicine',
     title: {
-      en: 'Sports Medicine & Athletic Injuries',
-      hi: 'खेल चिकित्सा और एथलेटिक चोटें'
+      en: 'Sports Medicine & Athletic Injuries in India',
+      hi: 'भारत में खेल चिकित्सा और एथलेटिक चोटें'
     },
     overview: {
       en: `Sports Medicine and Athletic Injury Care represent specialized branches of orthopedic surgery dedicated to preventing, diagnosing, and treating injuries related to sports participation, physical activity, and high-demand athletic endeavors. At Arthoscenter in Patna, Bihar, Dr. Gurudeo Kumar brings comprehensive expertise in sports medicine, having treated over 1,500 athletes ranging from professional cricketers and footballers to recreational runners, gym enthusiasts, and weekend warriors, helping them return to peak performance through advanced surgical techniques, evidence-based rehabilitation protocols, and personalized return-to-sport programs.
@@ -511,8 +511,8 @@ Surgical technique prioritizes anatomic reconstruction using autograft (patient'
   'trauma-care': {
     id: 'trauma-care',
     title: {
-      en: 'Trauma & Fracture Care',
-      hi: 'ट्रॉमा और फ्रैक्चर देखभाल'
+      en: 'Trauma & Fracture Care in India',
+      hi: 'भारत में ट्रॉमा और फ्रैक्चर देखभाल'
     },
     overview: {
       en: `Trauma and Fracture Care represents the acute emergency orthopedic service dedicated to treating bone fractures, joint dislocations, and musculoskeletal injuries resulting from motor vehicle accidents, falls, sports trauma, workplace injuries, and other high-energy or low-energy traumatic events. At Arthoscenter in Patna, Bihar, Dr. Gurudeo Kumar leads a dedicated 24/7 trauma team that has successfully treated over 2,500 fracture cases ranging from simple isolated fractures to complex polytrauma with multiple injuries, providing immediate expert care that saves limbs, prevents complications, and restores function.
@@ -667,8 +667,8 @@ Surgical fixation aims to achieve anatomic reduction, stable fixation allowing e
   'pediatric-ortho': {
     id: 'pediatric-ortho',
     title: {
-      en: 'Pediatric Orthopaedics',
-      hi: 'बाल चिकित्सा आर्थोपेडिक्स'
+      en: 'Pediatric Orthopaedics in India',
+      hi: 'भारत में बाल चिकित्सा आर्थोपेडिक्स'
     },
     overview: {
       en: `Pediatric Orthopaedics is a specialized branch dedicated to diagnosing and treating musculoskeletal conditions in infants, children, and adolescents from birth through skeletal maturity. At Arthoscenter in Patna, Bihar, Dr. Gurudeo Kumar has developed extensive expertise in pediatric bone and joint disorders, having successfully treated over 1,800 children with conditions ranging from common developmental problems like clubfoot and bowlegs to complex congenital deformities, cerebral palsy, and pediatric fractures, helping young patients achieve normal function and participate fully in childhood activities.
@@ -821,8 +821,8 @@ Non-surgical treatments include Ponseti casting for clubfoot (6-8 weeks casting 
   'arthroscopy': {
     id: 'arthroscopy',
     title: {
-      en: 'Arthroscopy & Minimally Invasive Surgery',
-      hi: 'आर्थ्रोस्कोपी और न्यूनतम आक्रामक सर्जरी'
+      en: 'Arthroscopy & Minimally Invasive Surgery in India',
+      hi: 'भारत में आर्थ्रोस्कोपी और न्यूनतम आक्रामक सर्जरी'
     },
     overview: {
       en: `Arthroscopy represents one of the most significant technological advances in orthopedic surgery, enabling surgeons to diagnose and treat joint problems through tiny incisions using a small camera (arthroscope) and specialized instruments. At Arthoscenter in Patna, Bihar, Dr. Gurudeo Kumar has established himself as a pioneer in arthroscopic surgery in the region, having performed over 2,200 arthroscopic procedures with expertise in knee arthroscopy, shoulder arthroscopy, ankle arthroscopy, hip arthroscopy, and elbow arthroscopy, helping patients avoid large open incisions, reduce tissue damage, minimize scarring, accelerate recovery, and return to activities faster.

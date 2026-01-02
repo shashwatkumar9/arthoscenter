@@ -68,8 +68,8 @@ export const surgeriesData: Record<string, SurgeryData> = {
     category: 'joint-replacement',
     slug: 'total-knee-replacement',
     title: {
-      en: 'Total Knee Replacement',
-      hi: 'पूर्ण घुटना प्रतिस्थापन'
+      en: 'Total Knee Replacement in India',
+      hi: 'भारत में पूर्ण घुटना प्रतिस्थापन'
     },
     shortDesc: {
       en: 'Complete replacement of damaged knee joint with artificial implant',
@@ -313,8 +313,8 @@ The procedure typically takes 1-2 hours and involves removing damaged cartilage 
     category: 'joint-replacement',
     slug: 'total-hip-replacement',
     title: {
-      en: 'Total Hip Replacement',
-      hi: 'पूर्ण हिप प्रतिस्थापन'
+      en: 'Total Hip Replacement in India',
+      hi: 'भारत में पूर्ण हिप प्रतिस्थापन'
     },
     shortDesc: {
       en: 'Complete replacement of damaged hip joint with artificial prosthesis',
@@ -576,8 +576,8 @@ Most patients experience dramatic improvement in quality of life after hip repla
     category: 'sports-medicine',
     slug: 'acl-reconstruction',
     title: {
-      en: 'ACL Reconstruction Surgery',
-      hi: 'एसीएल पुनर्निर्माण सर्जरी'
+      en: 'ACL Reconstruction Surgery in India',
+      hi: 'भारत में एसीएल पुनर्निर्माण सर्जरी'
     },
     shortDesc: {
       en: 'Surgical reconstruction of torn anterior cruciate ligament using graft',
@@ -833,8 +833,8 @@ The success rate of ACL reconstruction exceeds 90%, and most athletes can return
     category: 'spine-surgery',
     slug: 'lumbar-spinal-fusion',
     title: {
-      en: 'Lumbar Spinal Fusion Surgery',
-      hi: 'लम्बर स्पाइनल फ्यूजन सर्जरी'
+      en: 'Lumbar Spinal Fusion Surgery in India',
+      hi: 'भारत में लम्बर स्पाइनल फ्यूजन सर्जरी'
     },
     shortDesc: {
       en: 'Surgical procedure to permanently connect two or more vertebrae in lower back',
@@ -1092,8 +1092,8 @@ The success rate of lumbar fusion surgery for appropriate candidates exceeds 85%
     category: 'sports-medicine',
     slug: 'rotator-cuff-repair',
     title: {
-      en: 'Rotator Cuff Repair Surgery',
-      hi: 'रोटेटर कफ मरम्मत सर्जरी'
+      en: 'Rotator Cuff Repair Surgery in India',
+      hi: 'भारत में रोटेटर कफ मरम्मत सर्जरी'
     },
     shortDesc: {
       en: 'Surgical repair of torn shoulder tendons for pain relief and function restoration',
@@ -1349,8 +1349,8 @@ Success rates for rotator cuff repair range from 85-95% depending on tear size a
     category: 'joint-replacement',
     slug: 'partial-knee-replacement',
     title: {
-      en: 'Partial Knee Replacement (Unicompartmental)',
-      hi: 'आंशिक घुटना प्रतिस्थापन (एकल-कम्पार्टमेंट)'
+      en: 'Partial Knee Replacement (Unicompartmental) in India',
+      hi: 'भारत में आंशिक घुटना प्रतिस्थापन (एकल-कम्पार्टमेंट)'
     },
     shortDesc: {
       en: 'Minimally invasive replacement of damaged portion of knee joint',
@@ -1606,8 +1606,8 @@ Success rates for partial knee replacement exceed 90% with modern techniques and
     category: 'arthroscopy',
     slug: 'knee-arthroscopy',
     title: {
-      en: 'Knee Arthroscopy Surgery',
-      hi: 'घुटने की आर्थ्रोस्कोपी सर्जरी'
+      en: 'Knee Arthroscopy Surgery in India',
+      hi: 'भारत में घुटने की आर्थ्रोस्कोपी सर्जरी'
     },
     shortDesc: {
       en: 'Minimally invasive keyhole surgery to diagnose and treat knee problems',
@@ -1869,8 +1869,8 @@ Success rates for knee arthroscopy are excellent when performed for appropriate 
     category: 'arthroscopy',
     slug: 'hip-arthroscopy',
     title: {
-      en: 'Hip Arthroscopy Surgery',
-      hi: 'हिप आर्थ्रोस्कोपी सर्जरी'
+      en: 'Hip Arthroscopy Surgery in India',
+      hi: 'भारत में हिप आर्थ्रोस्कोपी सर्जरी'
     },
     shortDesc: {
       en: 'Minimally invasive surgery to diagnose and treat hip joint problems',
@@ -2130,8 +2130,8 @@ At Arthoscenter, we emphasize comprehensive rehabilitation following hip arthros
     category: 'sports-medicine',
     slug: 'meniscus-repair',
     title: {
-      en: 'Meniscus Repair Surgery',
-      hi: 'मेनिस्कस मरम्मत सर्जरी'
+      en: 'Meniscus Repair Surgery in India',
+      hi: 'भारत में मेनिस्कस मरम्मत सर्जरी'
     },
     shortDesc: {
       en: 'Arthroscopic surgery to repair torn meniscus cartilage in the knee',
@@ -2392,8 +2392,8 @@ At Arthoscenter, we combine surgical expertise with advanced rehabilitation prot
     category: 'spine-surgery',
     slug: 'cervical-fusion',
     title: {
-      en: 'Cervical Fusion (ACDF)',
-      hi: 'सर्वाइकल फ्यूजन'
+      en: 'Cervical Fusion (ACDF) in India',
+      hi: 'भारत में सर्वाइकल फ्यूजन'
     },
     shortDesc: {
       en: 'Surgical procedure to fuse cervical vertebrae and relieve nerve compression in the neck',
@@ -2616,8 +2616,8 @@ At Arthoscenter, we take a comprehensive approach to cervical fusion surgery, be
     category: 'trauma-care',
     slug: 'femur-fracture-fixation',
     title: {
-      en: 'Femur Fracture Fixation',
-      hi: 'फीमर फ्रैक्चर फिक्सेशन'
+      en: 'Femur Fracture Fixation in India',
+      hi: 'भारत में फीमर फ्रैक्चर फिक्सेशन'
     },
     shortDesc: {
       en: 'Surgical treatment for thigh bone fractures using advanced internal fixation techniques',
@@ -2843,8 +2843,8 @@ Our comprehensive trauma care program includes immediate emergency assessment wi
     category: 'joint-replacement',
     slug: 'knee-revision-surgery',
     title: {
-      en: 'Knee Revision Surgery',
-      hi: 'घुटना संशोधन सर्जरी'
+      en: 'Knee Revision Surgery in India',
+      hi: 'भारत में घुटना संशोधन सर्जरी'
     },
     shortDesc: {
       en: 'Replacement or repair of a failed or worn knee implant from previous surgery',
@@ -3000,8 +3000,8 @@ Knee revision surgery may be necessary 10-20 years after the initial replacement
     category: 'joint-replacement',
     slug: 'bilateral-knee-replacement',
     title: {
-      en: 'Bilateral Knee Replacement',
-      hi: 'द्विपक्षीय घुटना प्रतिस्थापन'
+      en: 'Bilateral Knee Replacement in India',
+      hi: 'भारत में द्विपक्षीय घुटना प्रतिस्थापन'
     },
     shortDesc: {
       en: 'Simultaneous replacement of both knee joints in a single surgery',
@@ -3157,8 +3157,8 @@ The main advantages include undergoing anesthesia only once, a single recovery p
     category: 'joint-replacement',
     slug: 'shoulder-replacement',
     title: {
-      en: 'Shoulder Replacement Surgery',
-      hi: 'कंधा प्रतिस्थापन सर्जरी'
+      en: 'Shoulder Replacement Surgery in India',
+      hi: 'भारत में कंधा प्रतिस्थापन सर्जरी'
     },
     shortDesc: {
       en: 'Replacement of damaged shoulder joint with artificial implant to restore function',
@@ -3314,8 +3314,8 @@ Shoulder replacement can dramatically improve quality of life for patients suffe
     category: 'spine-surgery',
     slug: 'discectomy',
     title: {
-      en: 'Discectomy Surgery',
-      hi: 'डिस्केक्टॉमी सर्जरी'
+      en: 'Discectomy Surgery in India',
+      hi: 'भारत में डिस्केक्टॉमी सर्जरी'
     },
     shortDesc: {
       en: 'Surgical removal of herniated disc material pressing on spinal nerves',
@@ -3471,8 +3471,8 @@ The procedure typically takes 1-2 hours and involves removing only the portion o
     category: 'sports-medicine',
     slug: 'pcl-reconstruction',
     title: {
-      en: 'PCL Reconstruction Surgery',
-      hi: 'पीसीएल पुनर्निर्माण सर्जरी'
+      en: 'PCL Reconstruction Surgery in India',
+      hi: 'भारत में पीसीएल पुनर्निर्माण सर्जरी'
     },
     shortDesc: {
       en: 'Surgical reconstruction of the posterior cruciate ligament to restore knee stability and function after injury.',
@@ -3628,8 +3628,8 @@ The procedure typically involves using a graft (from your own hamstring tendon, 
     category: 'trauma-care',
     slug: 'tibia-fracture-fixation',
     title: {
-      en: 'Tibia Fracture Fixation',
-      hi: 'टिबिया फ्रैक्चर फिक्सेशन'
+      en: 'Tibia Fracture Fixation in India',
+      hi: 'भारत में टिबिया फ्रैक्चर फिक्सेशन'
     },
     shortDesc: {
       en: 'Surgical repair of broken shin bone using plates, screws, or intramedullary nails to restore alignment and stability.',
@@ -3785,8 +3785,8 @@ The surgical approach depends on the fracture type, location, and severity. Simp
     category: 'pediatric-ortho',
     slug: 'clubfoot-correction',
     title: {
-      en: 'Clubfoot Correction Surgery',
-      hi: 'क्लबफुट सुधार सर्जरी'
+      en: 'Clubfoot Correction Surgery in India',
+      hi: 'भारत में क्लबफुट सुधार सर्जरी'
     },
     shortDesc: {
       en: 'Comprehensive surgical treatment to correct congenital clubfoot deformity in children, restoring normal foot position and function.',
@@ -4574,8 +4574,8 @@ Femur fracture fixation typically involves inserting an intramedullary nail (a m
     category: 'joint-replacement',
     slug: 'robotic-knee-replacement',
     title: {
-      en: 'Robotic Knee Replacement Surgery',
-      hi: 'रोबोटिक घुटना प्रतिस्थापन सर्जरी'
+      en: 'Robotic Knee Replacement Surgery in India',
+      hi: 'भारत में रोबोटिक घुटना प्रतिस्थापन सर्जरी'
     },
     shortDesc: {
       en: 'Advanced robotic-assisted knee replacement surgery for superior precision, faster recovery, and better long-term outcomes with personalized implant positioning.',
@@ -4863,8 +4863,8 @@ With over 85 successful robotic knee replacements performed and a remarkable 97%
     category: 'spine-surgery',
     slug: 'scoliosis-correction',
     title: {
-      en: 'Scoliosis Correction Surgery',
-      hi: 'स्कोलियोसिस सुधार सर्जरी'
+      en: 'Scoliosis Correction Surgery in India',
+      hi: 'भारत में स्कोलियोसिस सुधार सर्जरी'
     },
     shortDesc: {
       en: 'Advanced spinal fusion surgery to correct abnormal curvature of the spine, restore proper alignment, and prevent progression in scoliosis patients.',
@@ -5156,8 +5156,8 @@ At Arthoscenter Patna, we've successfully performed over 120 scoliosis correctio
     category: 'sports-medicine',
     slug: 'shoulder-labral-repair',
     title: {
-      en: 'Shoulder Labral Repair Surgery',
-      hi: 'कंधे की लैब्रल मरम्मत सर्जरी'
+      en: 'Shoulder Labral Repair Surgery in India',
+      hi: 'भारत में कंधे की लैब्रल मरम्मत सर्जरी'
     },
     shortDesc: {
       en: 'Arthroscopic surgery to repair torn labrum in the shoulder joint, restoring stability and function for athletes and active individuals with shoulder instability.',
@@ -5449,8 +5449,8 @@ At Arthoscenter Patna, Dr. Kumar has successfully performed over 95 shoulder lab
     category: 'trauma-care',
     slug: 'ankle-fracture-surgery',
     title: {
-      en: 'Ankle Fracture Surgery',
-      hi: 'टखने की फ्रैक्चर सर्जरी'
+      en: 'Ankle Fracture Surgery in India',
+      hi: 'भारत में टखने की फ्रैक्चर सर्जरी'
     },
     shortDesc: {
       en: 'Surgical fixation of broken ankle bones using plates, screws, or rods to restore alignment and stability for proper healing and return to full mobility.',
@@ -5676,8 +5676,8 @@ At Arthoscenter Patna, Dr. Kumar has successfully performed over 210 ankle fract
     category: 'pediatric-ortho',
     slug: 'ddh-treatment',
     title: {
-      en: 'DDH Treatment (Hip Dysplasia)',
-      hi: 'डीडीएच उपचार (कूल्हा डिसप्लेसिया)'
+      en: 'DDH Treatment (Hip Dysplasia) in India',
+      hi: 'भारत में डीडीएच उपचार (कूल्हा डिसप्लेसिया)'
     },
     shortDesc: {
       en: 'Expert treatment for developmental dysplasia of the hip in children using Pavlik harness, closed reduction, or open surgery',
@@ -6055,8 +6055,8 @@ At Arthoscenter Patna, Dr. Kumar has successfully performed over 210 ankle fract
     category: 'joint-replacement',
     slug: 'robotic-hip-replacement',
     title: {
-      en: 'Robotic Hip Replacement Surgery',
-      hi: 'रोबोटिक हिप प्रतिस्थापन सर्जरी'
+      en: 'Robotic Hip Replacement Surgery in India',
+      hi: 'भारत में रोबोटिक हिप प्रतिस्थापन सर्जरी'
     },
     shortDesc: {
       en: 'Advanced robotic-assisted total hip replacement using MAKO technology for precision implant positioning and faster recovery',
@@ -6448,8 +6448,8 @@ At Arthoscenter Patna, Dr. Kumar has successfully performed over 210 ankle fract
     category: 'spine-surgery',
     slug: 'artificial-disc-replacement',
     title: {
-      en: 'Artificial Disc Replacement Surgery',
-      hi: 'कृत्रिम डिस्क प्रतिस्थापन सर्जरी'
+      en: 'Artificial Disc Replacement Surgery in India',
+      hi: 'भारत में कृत्रिम डिस्क प्रतिस्थापन सर्जरी'
     },
     shortDesc: {
       en: 'Advanced motion-preserving spine surgery replacing damaged disc with artificial implant to maintain flexibility and reduce adjacent segment disease',
@@ -6819,8 +6819,8 @@ At Arthoscenter Patna, Dr. Kumar has successfully performed over 210 ankle fract
     category: 'sports-medicine',
     slug: 'tennis-elbow-surgery',
     title: {
-      en: 'Tennis Elbow Surgery (Lateral Epicondylitis)',
-      hi: 'टेनिस एल्बो सर्जरी (लेटरल एपिकॉन्डिलाइटिस)'
+      en: 'Tennis Elbow Surgery (Lateral Epicondylitis) in India',
+      hi: 'भारत में टेनिस एल्बो सर्जरी (लेटरल एपिकॉन्डिलाइटिस)'
     },
     shortDesc: {
       en: 'Surgical repair of damaged elbow tendons for chronic tennis elbow not responding to conservative treatment, restoring pain-free arm function',
@@ -7170,8 +7170,8 @@ At Arthoscenter Patna, Dr. Kumar has successfully performed over 210 ankle fract
     category: 'trauma-care',
     slug: 'pelvic-fracture-fixation',
     title: {
-      en: 'Pelvic Fracture Fixation Surgery',
-      hi: 'पेल्विक फ्रैक्चर फिक्सेशन सर्जरी'
+      en: 'Pelvic Fracture Fixation Surgery in India',
+      hi: 'भारत में पेल्विक फ्रैक्चर फिक्सेशन सर्जरी'
     },
     shortDesc: {
       en: 'Advanced surgical repair of pelvic bone fractures using internal fixation techniques to restore pelvic ring stability and enable healing',
@@ -7886,8 +7886,8 @@ At Arthoscenter Patna, Dr. Kumar has successfully performed over 210 ankle fract
     category: 'joint-replacement',
     slug: 'revision-hip-replacement',
     title: {
-      en: 'Revision Hip Replacement Surgery',
-      hi: 'रिवीजन हिप रिप्लेसमेंट सर्जरी'
+      en: 'Revision Hip Replacement Surgery in India',
+      hi: 'भारत में रिवीजन हिप रिप्लेसमेंट सर्जरी'
     },
     shortDesc: {
       en: 'Complex surgical procedure to replace a failed or worn-out hip replacement with a new implant, restoring function and relieving pain',
@@ -8253,8 +8253,8 @@ At Arthoscenter Patna, Dr. Kumar has successfully performed over 210 ankle fract
     category: 'arthroscopy',
     slug: 'shoulder-arthroscopy',
     title: {
-      en: 'Shoulder Arthroscopy (Diagnostic & Therapeutic)',
-      hi: 'कंधे की आर्थोस्कोपी (निदान और चिकित्सीय)'
+      en: 'Shoulder Arthroscopy (Diagnostic & Therapeutic) in India',
+      hi: 'भारत में कंधे की आर्थोस्कोपी (निदान और चिकित्सीय)'
     },
     shortDesc: {
       en: 'Minimally invasive keyhole surgery to diagnose and treat shoulder joint problems including rotator cuff tears, labral injuries, and impingement using a small camera and specialized instruments',
@@ -8544,8 +8544,8 @@ Recovery varies based on the specific procedure performed - simple diagnostic ar
     category: 'arthroscopy',
     slug: 'ankle-arthroscopy',
     title: {
-      en: 'Ankle Arthroscopy (Diagnostic & Therapeutic)',
-      hi: 'टखने की आर्थोस्कोपी (निदान और चिकित्सीय)'
+      en: 'Ankle Arthroscopy (Diagnostic & Therapeutic) in India',
+      hi: 'भारत में टखने की आर्थोस्कोपी (निदान और चिकित्सीय)'
     },
     shortDesc: {
       en: 'Minimally invasive keyhole surgery to diagnose and treat ankle joint problems including cartilage damage, impingement, loose bodies, and ligament injuries using a small camera',
@@ -8851,8 +8851,8 @@ Dr. Kumar's comprehensive approach includes thorough pre-operative assessment wi
     category: 'spine-surgery',
     slug: 'lumbar-laminectomy',
     title: {
-      en: 'Lumbar Laminectomy (Decompression Surgery)',
-      hi: 'लम्बर लैमिनेक्टॉमी (डीकंप्रेशन सर्जरी)'
+      en: 'Lumbar Laminectomy (Decompression Surgery) in India',
+      hi: 'भारत में लम्बर लैमिनेक्टॉमी (डीकंप्रेशन सर्जरी)'
     },
     shortDesc: {
       en: 'Surgical procedure to remove part of the vertebral bone (lamina) to relieve pressure on spinal nerves caused by spinal stenosis or herniated discs',
@@ -9157,8 +9157,8 @@ Recovery typically allows walking within 24 hours, return to light activities in
     category: 'pediatric-ortho',
     slug: 'bowlegs-correction',
     title: {
-      en: 'Bowlegs Correction (Genu Varum Correction)',
-      hi: 'टेढ़े पैर सुधार (जेनु वरम करेक्शन)'
+      en: 'Bowlegs Correction (Genu Varum Correction) in India',
+      hi: 'भारत में टेढ़े पैर सुधार (जेनु वरम करेक्शन)'
     },
     shortDesc: {
       en: 'Surgical correction of bowlegs (genu varum) in children and adolescents through guided growth or corrective osteotomy to achieve normal limb alignment',
@@ -9461,8 +9461,8 @@ Our child-friendly facility provides comprehensive pediatric orthopedic care inc
     category: 'trauma-care',
     slug: 'humerus-fracture-fixation',
     title: {
-      en: 'Humerus Fracture Fixation (Upper Arm Fracture Surgery)',
-      hi: 'ह्यूमरस फ्रैक्चर फिक्सेशन (ऊपरी बांह की हड्डी टूटना सर्जरी)'
+      en: 'Humerus Fracture Fixation (Upper Arm Fracture Surgery) in India',
+      hi: 'भारत में ह्यूमरस फ्रैक्चर फिक्सेशन (ऊपरी बांह की हड्डी टूटना सर्जरी)'
     },
     shortDesc: {
       en: 'Surgical treatment of broken humerus (upper arm bone) using plates, screws, rods, or pins to restore bone alignment and function',
@@ -9823,8 +9823,8 @@ Our comprehensive trauma care includes 24/7 emergency orthopedic services, advan
     category: 'pediatric-ortho',
     slug: 'limb-lengthening',
     title: {
-      en: 'Limb Lengthening Surgery (Distraction Osteogenesis)',
-      hi: 'अंग लंबाई सर्जरी (डिस्ट्रैक्शन ऑस्टियोजेनेसिस)'
+      en: 'Limb Lengthening Surgery (Distraction Osteogenesis) in India',
+      hi: 'भारत में अंग लंबाई सर्जरी (डिस्ट्रैक्शन ऑस्टियोजेनेसिस)'
     },
     shortDesc: {
       en: 'Surgical procedure to gradually lengthen shortened bones using external fixators or internal lengthening nails to correct leg length discrepancy or increase height',
@@ -10133,8 +10133,8 @@ The lengthening journey is intensive, typically requiring 3-6 months for the dis
     category: 'trauma-care',
     slug: 'radius-ulna-fracture-fixation',
     title: {
-      en: 'Radius and Ulna Fracture Fixation (Forearm Fracture Surgery)',
-      hi: 'त्रिज्या और उलना फ्रैक्चर निर्धारण (अग्रबाहु फ्रैक्चर सर्जरी)'
+      en: 'Radius and Ulna Fracture Fixation (Forearm Fracture Surgery) in India',
+      hi: 'भारत में त्रिज्या और उलना फ्रैक्चर निर्धारण (अग्रबाहु फ्रैक्चर सर्जरी)'
     },
     shortDesc: {
       en: 'Surgical treatment of broken forearm bones (radius and ulna) using plates, screws, or intramedullary nails to restore alignment and enable proper healing',
@@ -10449,8 +10449,8 @@ Typical recovery involves 6-8 weeks for initial bone healing with progressive ra
     category: 'pediatric-ortho',
     slug: 'knock-knees-correction',
     title: {
-      en: 'Knock-Knees Correction (Genu Valgum Treatment)',
-      hi: 'नॉक-नीज़ सुधार (जेनू वाल्गम उपचार)'
+      en: 'Knock-Knees Correction (Genu Valgum Treatment) in India',
+      hi: 'भारत में नॉक-नीज़ सुधार (जेनू वाल्गम उपचार)'
     },
     shortDesc: {
       en: 'Surgical correction of inward-angled knees using guided growth or corrective osteotomy to restore normal leg alignment and prevent long-term knee problems',
@@ -11047,8 +11047,8 @@ Dr. Kumar performs minimally invasive surgical debridement and repair using mode
     category: 'pediatric-ortho',
     slug: 'developmental-dysplasia-hip-surgery',
     title: {
-      en: 'Developmental Dysplasia of Hip (DDH) Surgery',
-      hi: 'विकासात्मक हिप डिसप्लेसिया (DDH) सर्जरी'
+      en: 'Developmental Dysplasia of Hip (DDH) Surgery in India',
+      hi: 'भारत में विकासात्मक हिप डिसप्लेसिया (DDH) सर्जरी'
     },
     shortDesc: {
       en: 'Surgical correction of hip socket abnormalities in infants and children to ensure proper hip joint development and prevent long-term complications',
@@ -11951,8 +11951,8 @@ Most patients report: "If I had known how much it would improve my quality of li
     category: 'sports-medicine',
     slug: 'achilles-tendon-repair',
     title: {
-      en: 'Achilles Tendon Repair',
-      hi: 'एच्लीस टेंडन रिपेयर'
+      en: 'Achilles Tendon Repair in India',
+      hi: 'भारत में एच्लीस टेंडन रिपेयर'
     },
     shortDesc: {
       en: 'Surgical repair of ruptured or severely damaged Achilles tendon to restore ankle function and strength.',
@@ -12237,8 +12237,8 @@ The procedure typically involves surgically reattaching the torn tendon ends usi
     category: 'sports-medicine',
     slug: 'ankle-ligament-reconstruction',
     title: {
-      en: 'Ankle Ligament Reconstruction',
-      hi: 'एंकल लिगामेंट रिकंस्ट्रक्शन'
+      en: 'Ankle Ligament Reconstruction in India',
+      hi: 'भारत में एंकल लिगामेंट रिकंस्ट्रक्शन'
     },
     shortDesc: {
       en: 'Surgical repair or reconstruction of torn ankle ligaments to restore stability and prevent chronic instability.',
@@ -12514,8 +12514,8 @@ Chronic ankle instability affects up to 40% of patients following severe ankle s
     category: 'joint-replacement',
     slug: 'ankle-replacement',
     title: {
-      en: 'Ankle Replacement',
-      hi: 'एंकल रिप्लेसमेंट'
+      en: 'Ankle Replacement in India',
+      hi: 'भारत में एंकल रिप्लेसमेंट'
     },
     shortDesc: {
       en: 'Total ankle arthroplasty to replace damaged ankle joint with artificial implant',
@@ -12745,8 +12745,8 @@ The procedure involves removing damaged bone and cartilage from the tibia and ta
     category: 'diagnostic',
     slug: 'arthroscopic-biopsy',
     title: {
-      en: 'Arthroscopic Biopsy',
-      hi: 'आर्थ्रोस्कोपिक बायोप्सी'
+      en: 'Arthroscopic Biopsy in India',
+      hi: 'भारत में आर्थ्रोस्कोपिक बायोप्सी'
     },
     shortDesc: {
       en: 'Minimally invasive procedure to obtain tissue samples from joints for diagnostic purposes',
@@ -12971,8 +12971,8 @@ The procedure involves inserting a small camera (arthroscope) and specialized in
     category: 'sports-medicine',
     slug: 'biceps-tendon-repair',
     title: {
-      en: 'Biceps Tendon Repair',
-      hi: 'बाइसेप्स टेंडन रिपेयर'
+      en: 'Biceps Tendon Repair in India',
+      hi: 'भारत में बाइसेप्स टेंडन रिपेयर'
     },
     shortDesc: {
       en: 'Surgical repair of torn biceps tendon to restore arm strength and function. Essential for athletes and active individuals seeking full recovery.',
@@ -13247,8 +13247,8 @@ This procedure is particularly important for athletes, manual laborers, and acti
     category: 'pediatric-ortho',
     slug: 'bow-legs-correction',
     title: {
-      en: 'Bow Legs Correction (Genu Varum)',
-      hi: 'बो लेग्स करेक्शन (जीनू वेरम)'
+      en: 'Bow Legs Correction (Genu Varum) in India',
+      hi: 'भारत में बो लेग्स करेक्शन (जीनू वेरम)'
     },
     shortDesc: {
       en: 'Specialized surgical correction for bow-shaped legs in children and adults, restoring normal limb alignment and preventing long-term joint complications.',
@@ -13527,8 +13527,8 @@ Our patient-centered approach includes comprehensive evaluation with full-length
     category: 'sports-medicine',
     slug: 'capsular-release',
     title: {
-      en: 'Capsular Release (Frozen Shoulder Surgery)',
-      hi: 'कैप्सुलर रिलीज़ (फ्रोज़न शोल्डर सर्जरी)'
+      en: 'Capsular Release (Frozen Shoulder Surgery) in India',
+      hi: 'भारत में कैप्सुलर रिलीज़ (फ्रोज़न शोल्डर सर्जरी)'
     },
     shortDesc: {
       en: 'Arthroscopic procedure to release the tight shoulder capsule and restore mobility in adhesive capsulitis (frozen shoulder).',
@@ -13803,8 +13803,8 @@ Frozen shoulder is particularly prevalent among diabetic patients, affecting 10-
     category: 'sports-medicine',
     slug: 'cartilage-restoration',
     title: {
-      en: 'Cartilage Restoration Surgery',
-      hi: 'कार्टिलेज रेस्टोरेशन सर्जरी'
+      en: 'Cartilage Restoration Surgery in India',
+      hi: 'भारत में कार्टिलेज रेस्टोरेशन सर्जरी'
     },
     shortDesc: {
       en: 'Advanced surgical techniques to repair and regenerate damaged articular cartilage in knee joints, restoring function and preventing arthritis.',
@@ -14031,8 +14031,8 @@ These advanced procedures involve either transplanting the patient's own cartila
     category: 'pediatric-ortho',
     slug: 'cerebral-palsy-surgery',
     title: {
-      en: 'Cerebral Palsy Orthopaedic Surgery',
-      hi: 'सेरेब्रल पाल्सी ऑर्थोपेडिक सर्जरी'
+      en: 'Cerebral Palsy Orthopaedic Surgery in India',
+      hi: 'भारत में सेरेब्रल पाल्सी ऑर्थोपेडिक सर्जरी'
     },
     shortDesc: {
       en: 'Specialized surgical procedures to improve mobility, function, and quality of life in children with cerebral palsy through soft tissue and bony corrections.',
@@ -14307,8 +14307,8 @@ CP के लिए शल्य चिकित्सा दृष्टिक�
     category: 'arthroscopy',
     slug: 'chondroplasty',
     title: {
-      en: 'Chondroplasty (Cartilage Smoothing)',
-      hi: 'कॉन्ड्रोप्लास्टी (कार्टिलेज स्मूदिंग)'
+      en: 'Chondroplasty (Cartilage Smoothing) in India',
+      hi: 'भारत में कॉन्ड्रोप्लास्टी (कार्टिलेज स्मूदिंग)'
     },
     shortDesc: {
       en: 'Minimally invasive arthroscopic procedure to smooth and debride damaged or frayed cartilage surfaces in the knee joint.',
@@ -14615,8 +14615,8 @@ Recovery from chondroplasty is generally faster than cartilage restoration proce
     category: 'trauma-care',
     slug: 'clavicle-fracture-surgery',
     title: {
-      en: 'Clavicle Fracture Surgery (Collarbone Fixation)',
-      hi: 'क्लैविकल फ्रैक्चर सर्जरी (कॉलरबोन फिक्सेशन)'
+      en: 'Clavicle Fracture Surgery (Collarbone Fixation) in India',
+      hi: 'भारत में क्लैविकल फ्रैक्चर सर्जरी (कॉलरबोन फिक्सेशन)'
     },
     shortDesc: {
       en: 'Surgical fixation of broken collarbone using plates, screws or intramedullary nails to restore shoulder function and alignment.',
@@ -14914,8 +14914,8 @@ At Arthroscenter, Dr. Gurudeo Kumar has extensive experience in clavicle fractur
     category: 'joint-replacement',
     slug: 'elbow-replacement',
     title: {
-      en: 'Elbow Replacement (Total Elbow Arthroplasty)',
-      hi: 'एल्बो रिप्लेसमेंट (टोटल एल्बो आर्थ्रोप्लास्टी)'
+      en: 'Elbow Replacement (Total Elbow Arthroplasty) in India',
+      hi: 'भारत में एल्बो रिप्लेसमेंट (टोटल एल्बो आर्थ्रोप्लास्टी)'
     },
     shortDesc: {
       en: 'Surgical replacement of damaged elbow joint with prosthetic implant to restore function and relieve pain',
@@ -15107,8 +15107,8 @@ Elbow replacement is typically indicated for patients with severe rheumatoid art
     category: 'trauma-care',
     slug: 'external-fixation',
     title: {
-      en: 'External Fixation (Open Fracture Management)',
-      hi: 'एक्सटर्नल फिक्सेशन (ओपन फ्रैक्चर मैनेजमेंट)'
+      en: 'External Fixation (Open Fracture Management) in India',
+      hi: 'भारत में एक्सटर्नल फिक्सेशन (ओपन फ्रैक्चर मैनेजमेंट)'
     },
     shortDesc: {
       en: 'Specialized stabilization technique using external metal frames to treat complex and open fractures, providing secure fixation while allowing access to damaged soft tissues.',
@@ -15357,8 +15357,8 @@ The external fixator serves multiple purposes: immediate fracture stabilization 
     category: 'spine-surgery',
     slug: 'foraminotomy',
     title: {
-      en: 'Foraminotomy (Nerve Root Decompression)',
-      hi: 'फोरामिनोटॉमी (नर्व रूट डीकंप्रेशन)'
+      en: 'Foraminotomy (Nerve Root Decompression) in India',
+      hi: 'भारत में फोरामिनोटॉमी (नर्व रूट डीकंप्रेशन)'
     },
     shortDesc: {
       en: 'Surgical procedure to enlarge the neural foramen (bone opening where nerve roots exit the spine) to decompress a pinched spinal nerve.',
@@ -15698,8 +15698,8 @@ Dr. Kumar employs advanced microsurgical techniques and intraoperative nerve mon
     category: 'sports-medicine',
     slug: 'hamstring-repair',
     title: {
-      en: 'Hamstring Repair Surgery',
-      hi: 'हैमस्ट्रिंग मरम्मत सर्जरी'
+      en: 'Hamstring Repair Surgery in India',
+      hi: 'भारत में हैमस्ट्रिंग मरम्मत सर्जरी'
     },
     shortDesc: {
       en: 'Surgical repair of torn hamstring muscles for athletes and active individuals',
@@ -15983,8 +15983,8 @@ During hamstring repair surgery, the torn hamstring tendons are reattached to th
     category: 'trauma-care',
     slug: 'hip-fracture-surgery',
     title: {
-      en: 'Hip Fracture Surgery',
-      hi: 'हिप फ्रैक्चर सर्जरी'
+      en: 'Hip Fracture Surgery in India',
+      hi: 'भारत में हिप फ्रैक्चर सर्जरी'
     },
     shortDesc: {
       en: 'Surgical treatment for hip fractures including femoral neck, intertrochanteric, and subtrochanteric fractures',
@@ -16240,8 +16240,8 @@ Our hip fracture program emphasizes not just surgical excellence but comprehensi
     category: 'joint-replacement',
     slug: 'hip-resurfacing',
     title: {
-      en: 'Hip Resurfacing Arthroplasty',
-      hi: 'हिप रिसर्फेसिंग आर्थ्रोप्लास्टी'
+      en: 'Hip Resurfacing Arthroplasty in India',
+      hi: 'भारत में हिप रिसर्फेसिंग आर्थ्रोप्लास्टी'
     },
     shortDesc: {
       en: 'Bone-preserving hip surgery that caps the femoral head instead of removing it, ideal for young, active patients',
@@ -16591,8 +16591,8 @@ At Arthoscenter, we accept all major insurance plans including PMJAY (Pradhan Ma
     category: 'joint-replacement',
     slug: 'hip-revision-surgery',
     title: {
-      en: 'Hip Revision Surgery',
-      hi: 'हिप रिवीजन सर्जरी'
+      en: 'Hip Revision Surgery in India',
+      hi: 'भारत में हिप रिवीजन सर्जरी'
     },
     shortDesc: {
       en: 'Complex surgical procedure to replace or repair a failed total hip replacement with new components',
@@ -16949,8 +16949,8 @@ For patients in Bihar and surrounding regions, access to high-quality revision h
     category: 'trauma-care',
     slug: 'intramedullary-nailing',
     title: {
-      en: 'Intramedullary Nailing',
-      hi: 'इंट्रामेड्यूलरी नेलिंग'
+      en: 'Intramedullary Nailing in India',
+      hi: 'भारत में इंट्रामेड्यूलरी नेलिंग'
     },
     shortDesc: {
       en: 'Advanced internal fixation technique using metal rods inserted into the bone marrow cavity to stabilize long bone fractures',
@@ -17229,8 +17229,8 @@ The procedure is particularly effective for diaphyseal (mid-shaft) fractures and
     category: 'spine-surgery',
     slug: 'kyphoplasty',
     title: {
-      en: 'Kyphoplasty (Balloon Vertebroplasty)',
-      hi: 'काइफोप्लास्टी (बैलून वर्टेब्रोप्लास्टी)'
+      en: 'Kyphoplasty (Balloon Vertebroplasty) in India',
+      hi: 'भारत में काइफोप्लास्टी (बैलून वर्टेब्रोप्लास्टी)'
     },
     shortDesc: {
       en: 'Minimally invasive procedure using balloon inflation and bone cement to restore vertebral height and stabilize compression fractures',
@@ -17507,8 +17507,8 @@ Kyphoplasty offers superior results compared to traditional vertebroplasty by re
     category: 'spine-surgery',
     slug: 'vertebroplasty',
     title: {
-      en: 'Vertebroplasty',
-      hi: 'वर्टेब्रोप्लास्टी'
+      en: 'Vertebroplasty in India',
+      hi: 'भारत में वर्टेब्रोप्लास्टी'
     },
     shortDesc: {
       en: 'Minimally invasive procedure injecting bone cement directly into fractured vertebrae to stabilize and relieve pain',
@@ -17785,8 +17785,8 @@ Vertebroplasty provides rapid pain relief, often within 24-48 hours, allowing pa
     category: 'joint-replacement',
     slug: 'partial-hip-replacement',
     title: {
-      en: 'Partial Hip Replacement (Hemiarthroplasty)',
-      hi: 'आंशिक हिप रिप्लेसमेंट (हेमिआर्थ्रोप्लास्टी)'
+      en: 'Partial Hip Replacement (Hemiarthroplasty) in India',
+      hi: 'भारत में आंशिक हिप रिप्लेसमेंट (हेमिआर्थ्रोप्लास्टी)'
     },
     shortDesc: {
       en: 'Surgical procedure replacing only the femoral head (ball) of the hip joint, preserving the natural socket',
@@ -18060,8 +18060,8 @@ Hemiarthroplasty offers several advantages including shorter operative time, les
     category: 'joint-replacement',
     slug: 'reverse-shoulder-replacement',
     title: {
-      en: 'Reverse Shoulder Replacement',
-      hi: 'रिवर्स शोल्डर रिप्लेसमेंट'
+      en: 'Reverse Shoulder Replacement in India',
+      hi: 'भारत में रिवर्स शोल्डर रिप्लेसमेंट'
     },
     shortDesc: {
       en: 'Advanced shoulder replacement for rotator cuff arthropathy and complex shoulder conditions.',
@@ -18365,8 +18365,8 @@ The procedure is particularly beneficial for patients over 65 years old with rot
     category: 'spine-surgery',
     slug: 'microdiscectomy',
     title: {
-      en: 'Microdiscectomy (Minimally Invasive Disc Surgery)',
-      hi: 'माइक्रोडिस्केक्टोमी (न्यूनतम आक्रामक डिस्क सर्जरी)'
+      en: 'Microdiscectomy (Minimally Invasive Disc Surgery) in India',
+      hi: 'भारत में माइक्रोडिस्केक्टोमी (न्यूनतम आक्रामक डिस्क सर्जरी)'
     },
     shortDesc: {
       en: 'Minimally invasive spine surgery to remove herniated disc material pressing on spinal nerves.',
@@ -18674,8 +18674,8 @@ The procedure is highly effective for patients with lumbar disc herniation (L4-L
     category: 'sports-medicine',
     slug: 'mpfl-reconstruction',
     title: {
-      en: 'MPFL Reconstruction (Patellar Stabilization Surgery)',
-      hi: 'MPFL रिकंस्ट्रक्शन (पेटेलर स्टेबिलाइजेशन सर्जरी)'
+      en: 'MPFL Reconstruction (Patellar Stabilization Surgery) in India',
+      hi: 'भारत में MPFL रिकंस्ट्रक्शन (पेटेलर स्टेबिलाइजेशन सर्जरी)'
     },
     shortDesc: {
       en: 'Surgical reconstruction of the medial patellofemoral ligament to prevent recurrent kneecap dislocations.',
