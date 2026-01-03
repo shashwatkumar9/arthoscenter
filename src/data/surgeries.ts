@@ -307,7 +307,6 @@ The procedure typically takes 1-2 hours and involves removing damaged cartilage 
       'acl-reconstruction'
     ]
   },
-
   'total-hip-replacement': {
     id: 'total-hip-replacement',
     category: 'joint-replacement',
@@ -570,7 +569,6 @@ Most patients experience dramatic improvement in quality of life after hip repla
       'hip-resurfacing'
     ]
   },
-
   'acl-reconstruction': {
     id: 'acl-reconstruction',
     category: 'sports-medicine',
@@ -827,7 +825,6 @@ The success rate of ACL reconstruction exceeds 90%, and most athletes can return
       'patellar-tendon-repair'
     ]
   },
-
   'lumbar-spinal-fusion': {
     id: 'lumbar-spinal-fusion',
     category: 'spine-surgery',
@@ -1086,7 +1083,6 @@ The success rate of lumbar fusion surgery for appropriate candidates exceeds 85%
       'spinal-decompression'
     ]
   },
-
   'rotator-cuff-repair': {
     id: 'rotator-cuff-repair',
     category: 'sports-medicine',
@@ -1343,7 +1339,6 @@ Success rates for rotator cuff repair range from 85-95% depending on tear size a
       'subacromial-decompression'
     ]
   },
-
   'partial-knee-replacement': {
     id: 'partial-knee-replacement',
     category: 'joint-replacement',
@@ -1600,7 +1595,6 @@ Success rates for partial knee replacement exceed 90% with modern techniques and
       'knee-revision-surgery'
     ]
   },
-
   'knee-arthroscopy': {
     id: 'knee-arthroscopy',
     category: 'arthroscopy',
@@ -1863,7 +1857,6 @@ Success rates for knee arthroscopy are excellent when performed for appropriate 
       'partial-knee-replacement'
     ]
   },
-
   'hip-arthroscopy': {
     id: 'hip-arthroscopy',
     category: 'arthroscopy',
@@ -2124,7 +2117,6 @@ At Arthoscenter, we emphasize comprehensive rehabilitation following hip arthros
       'trochanteric-bursectomy'
     ]
   },
-
   'meniscus-repair': {
     id: 'meniscus-repair',
     category: 'sports-medicine',
@@ -2385,8 +2377,6 @@ At Arthoscenter, we combine surgical expertise with advanced rehabilitation prot
       'total-knee-replacement'
     ]
   },
-
-  // Batch 1 - Surgery 10: Cervical Fusion
   'cervical-fusion': {
     id: 'cervical-fusion',
     category: 'spine-surgery',
@@ -2609,8 +2599,6 @@ At Arthoscenter, we take a comprehensive approach to cervical fusion surgery, be
       'cervical-discectomy'
     ]
   },
-
-  // Batch 1 - Surgery 11: Femur Fracture Fixation
   'femur-fracture-fixation': {
     id: 'femur-fracture-fixation',
     category: 'trauma-care',
@@ -2837,7 +2825,6 @@ Our comprehensive trauma care program includes immediate emergency assessment wi
       'pelvic-fracture-fixation'
     ]
   },
-
   'knee-revision-surgery': {
     id: 'knee-revision-surgery',
     category: 'joint-replacement',
@@ -2994,7 +2981,6 @@ Knee revision surgery may be necessary 10-20 years after the initial replacement
     },
     relatedSurgeries: ['total-knee-replacement', 'partial-knee-replacement', 'bilateral-knee-replacement', 'total-hip-replacement']
   },
-
   'bilateral-knee-replacement': {
     id: 'bilateral-knee-replacement',
     category: 'joint-replacement',
@@ -3151,7 +3137,6 @@ The main advantages include undergoing anesthesia only once, a single recovery p
     },
     relatedSurgeries: ['total-knee-replacement', 'knee-revision-surgery', 'robotic-knee-replacement', 'partial-knee-replacement']
   },
-
   'shoulder-replacement': {
     id: 'shoulder-replacement',
     category: 'joint-replacement',
@@ -3308,7 +3293,6 @@ Shoulder replacement can dramatically improve quality of life for patients suffe
     },
     relatedSurgeries: ['reverse-shoulder-replacement', 'rotator-cuff-repair', 'total-hip-replacement', 'elbow-replacement']
   },
-
   'discectomy': {
     id: 'discectomy',
     category: 'spine-surgery',
@@ -3465,7 +3449,6 @@ The procedure typically takes 1-2 hours and involves removing only the portion o
     },
     relatedSurgeries: ['microdiscectomy', 'lumbar-spinal-fusion', 'laminectomy', 'cervical-fusion']
   },
-
   'pcl-reconstruction': {
     id: 'pcl-reconstruction',
     category: 'sports-medicine',
@@ -3622,7 +3605,6 @@ The procedure typically involves using a graft (from your own hamstring tendon, 
     },
     relatedSurgeries: ['acl-reconstruction', 'meniscus-repair', 'mcl-reconstruction', 'cartilage-restoration']
   },
-
   'tibia-fracture-fixation': {
     id: 'tibia-fracture-fixation',
     category: 'trauma-care',
@@ -3779,7 +3761,6 @@ The surgical approach depends on the fracture type, location, and severity. Simp
     },
     relatedSurgeries: ['femur-fracture-fixation', 'fibula-fracture-repair', 'ankle-fracture-surgery', 'external-fixation']
   },
-
   'clubfoot-correction': {
     id: 'clubfoot-correction',
     category: 'pediatric-ortho',
@@ -3936,639 +3917,6 @@ Surgical correction typically involves soft tissue release procedures (tendons, 
     },
     relatedSurgeries: ['ddh-surgery', 'limb-lengthening', 'growth-plate-fracture-treatment', 'scoliosis-correction']
   },
-
-  'meniscus-repair': {
-    id: 'meniscus-repair',
-    category: 'arthroscopy',
-    slug: 'meniscus-repair',
-    title: {
-      en: 'Meniscus Repair Surgery',
-      hi: 'मेनिस्कस मरम्मत सर्जरी'
-    },
-    shortDesc: {
-      en: 'Arthroscopic surgical repair of torn knee cartilage (meniscus) to preserve joint function and prevent arthritis.',
-      hi: 'जोड़ के कार्य को संरक्षित करने और गठिया को रोकने के लिए फटे हुए घुटने के कार्टिलेज (मेनिस्कस) की आर्थोस्कोपिक सर्जिकल मरम्मत।'
-    },
-    overview: {
-      en: `The meniscus is a C-shaped piece of cartilage in the knee that acts as a shock absorber between the thigh bone (femur) and shin bone (tibia). Meniscus tears are among the most common knee injuries, occurring during sports activities involving twisting motions, or from degenerative changes with aging. While some tears can be managed conservatively, surgical repair is often recommended for tears in the vascular zone to preserve the meniscus and prevent future arthritis.
-
-Dr. Gurudeo Kumar, an expert arthroscopic surgeon at Arthoscenter in Patna, Bihar, has successfully performed over 250 meniscus repairs with an 88% healing rate. His advanced arthroscopic techniques, including all-inside and inside-out repair methods, allow for precise suturing of torn meniscus tissue with minimal tissue trauma. Dr. Kumar prioritizes meniscus preservation whenever possible, as removing the meniscus significantly increases the risk of knee arthritis.
-
-The surgery is performed arthroscopically through small incisions using a camera and specialized instruments. Special sutures or anchors are used to stitch the torn meniscus back together, allowing it to heal naturally. Recovery requires a period of protected weight bearing and gradual rehabilitation to ensure proper healing. Most patients can return to sports within 4-6 months after successful repair.`,
-      hi: `मेनिस्कस घुटने में एक सी-आकार का कार्टिलेज टुकड़ा है जो जांघ की हड्डी (फीमर) और पिंडली की हड्डी (टिबिया) के बीच एक शॉक एब्जॉर्बर के रूप में कार्य करता है। मेनिस्कस आंसू सबसे आम घुटने की चोटों में से हैं, जो मरोड़ गतिविधियों को शामिल करने वाली खेल गतिविधियों के दौरान, या उम्र बढ़ने के साथ अपक्षयी परिवर्तनों से होती हैं। जबकि कुछ आंसुओं को रूढ़िवादी रूप से प्रबंधित किया जा सकता है, मेनिस्कस को संरक्षित करने और भविष्य में गठिया को रोकने के लिए संवहनी क्षेत्र में आंसुओं के लिए अक्सर सर्जिकल मरम्मत की सिफारिश की जाती है।
-
-डॉ. गुरुदेव कुमार, पटना, बिहार के अर्थोसेंटर में एक विशेषज्ञ आर्थोस्कोपिक सर्जन, ने 88% उपचार दर के साथ 250 से अधिक मेनिस्कस मरम्मत सफलतापूर्वक की हैं। ऑल-इनसाइड और इनसाइड-आउट मरम्मत विधियों सहित उनकी उन्नत आर्थोस्कोपिक तकनीकें, न्यूनतम ऊतक आघात के साथ फटे मेनिस्कस ऊतक की सटीक सिलाई की अनुमति देती हैं। डॉ. कुमार जब भी संभव हो मेनिस्कस संरक्षण को प्राथमिकता देते हैं, क्योंकि मेनिस्कस को हटाने से घुटने के गठिया का खतरा काफी बढ़ जाता है।
-
-सर्जरी कैमरा और विशेष उपकरणों का उपयोग करके छोटे चीरों के माध्यम से आर्थोस्कोपिक रूप से की जाती है। फटे मेनिस्कस को एक साथ वापस सिलने के लिए विशेष टांके या एंकर का उपयोग किया जाता है, जिससे यह स्वाभाविक रूप से ठीक हो सके। रिकवरी के लिए उचित उपचार सुनिश्चित करने के लिए संरक्षित वजन सहन और क्रमिक पुनर्वास की अवधि की आवश्यकता होती है। अधिकांश रोगी सफल मरम्मत के बाद 4-6 महीने के भीतर खेल में वापस आ सकते हैं।`
-    },
-    symptoms: {
-      en: [
-        'Sharp pain along the joint line of the knee',
-        'Swelling and stiffness, especially after activity',
-        'Catching or locking sensation in the knee',
-        'Popping feeling at the time of injury',
-        'Difficulty fully straightening or bending the knee',
-        'Knee giving way or feeling unstable',
-        'Tenderness when pressing on the joint line',
-        'Pain with twisting or rotating movements'
-      ],
-      hi: [
-        'घुटने की जोड़ रेखा के साथ तेज दर्द',
-        'सूजन और कठोरता, विशेष रूप से गतिविधि के बाद',
-        'घुटने में पकड़ने या बंद होने की अनुभूति',
-        'चोट के समय पॉपिंग महसूस होना',
-        'घुटने को पूरी तरह से सीधा करने या मोड़ने में कठिनाई',
-        'घुटने का देना या अस्थिर महसूस होना',
-        'जोड़ रेखा पर दबाते समय कोमलता',
-        'मरोड़ने या घुमाने वाली गतिविधियों के साथ दर्द'
-      ]
-    },
-    procedure: {
-      en: {
-        preparation: 'Pre-operative preparation includes MRI to assess tear location and pattern, physical examination, blood tests, and anesthesia consultation. Patients are counseled about the importance of meniscus preservation and post-operative rehabilitation requirements.',
-        steps: [
-          'Spinal or general anesthesia is administered',
-          'Leg is positioned and prepared in a sterile field',
-          'Two or three small incisions (portals) are made around the knee',
-          'Arthroscope (camera) is inserted to visualize the meniscus tear',
-          'Specialized instruments are used to prepare the tear edges',
-          'Meniscus is repaired using sutures placed in all-inside, inside-out, or outside-in technique',
-          'Multiple sutures are placed to securely hold the torn edges together',
-          'The knee is checked for proper suture placement and stability',
-          'Portals are closed with sutures and sterile dressings are applied'
-        ],
-        duration: '45 minutes to 1.5 hours',
-        anesthesia: 'Spinal or general anesthesia with optional nerve block'
-      },
-      hi: {
-        preparation: 'प्री-ऑपरेटिव तैयारी में आंसू स्थान और पैटर्न का आकलन करने के लिए एमआरआई, शारीरिक परीक्षा, रक्त परीक्षण, और एनेस्थीसिया परामर्श शामिल है। रोगियों को मेनिस्कस संरक्षण के महत्व और पोस्ट-ऑपरेटिव पुनर्वास आवश्यकताओं के बारे में परामर्श दिया जाता है।',
-        steps: [
-          'स्पाइनल या जनरल एनेस्थीसिया दिया जाता है',
-          'पैर को स्थापित किया जाता है और एक बाँझ क्षेत्र में तैयार किया जाता है',
-          'घुटने के चारों ओर दो या तीन छोटे चीरे (पोर्टल) बनाए जाते हैं',
-          'मेनिस्कस आंसू को देखने के लिए आर्थोस्कोप (कैमरा) डाला जाता है',
-          'आंसू किनारों को तैयार करने के लिए विशेष उपकरणों का उपयोग किया जाता है',
-          'मेनिस्कस को ऑल-इनसाइड, इनसाइड-आउट, या आउटसाइड-इन तकनीक में रखे गए टांके का उपयोग करके मरम्मत की जाती है',
-          'फटे किनारों को सुरक्षित रूप से एक साथ रखने के लिए कई टांके लगाए जाते हैं',
-          'उचित टांके प्लेसमेंट और स्थिरता के लिए घुटने की जांच की जाती है',
-          'पोर्टल को टांके से बंद किया जाता है और बाँझ ड्रेसिंग लगाई जाती है'
-        ],
-        duration: '45 मिनट से 1.5 घंटे',
-        anesthesia: 'स्पाइनल या जनरल एनेस्थीसिया वैकल्पिक नर्व ब्लॉक के साथ'
-      }
-    },
-    recovery: {
-      en: {
-        timeline: [
-          { week: 'Week 1-2', activity: "Recovery", description: 'Rest, ice, elevation, protected weight bearing with crutches and knee brace' },
-          { week: 'Week 2-6', activity: "Recovery", description: 'Gradual increase in weight bearing, gentle range of motion exercises' },
-          { week: 'Week 6-12', activity: "Recovery", description: 'Progressive strengthening, balance training, increased range of motion' },
-          { week: 'Month 3-4', activity: "Recovery", description: 'Advanced strengthening, sport-specific exercises, light jogging' },
-          { week: 'Month 4-6', activity: "Recovery", description: 'Return to full sports activities with physician clearance' }
-        ],
-        tips: [
-          'Strictly follow weight bearing restrictions to allow meniscus healing',
-          'Use crutches and knee brace as prescribed, typically for 4-6 weeks',
-          'Apply ice regularly to reduce swelling and manage pain',
-          'Perform prescribed range of motion and strengthening exercises diligently',
-          'Avoid squatting, kneeling, and pivoting movements during early recovery',
-          'Attend all physical therapy sessions for optimal rehabilitation',
-          'Do not rush return to sports - premature activity can cause repair failure',
-          'Maintain open communication with your surgeon about recovery progress'
-        ]
-      },
-      hi: {
-        timeline: [
-          { week: 'सप्ताह 1-2', activity: "Recovery", description: 'आराम, बर्फ, ऊंचाई, बैसाखी और घुटने के ब्रेस के साथ संरक्षित वजन सहन' },
-          { week: 'सप्ताह 2-6', activity: "Recovery", description: 'वजन सहन में धीरे-धीरे वृद्धि, कोमल गति की सीमा व्यायाम' },
-          { week: 'सप्ताह 6-12', activity: "Recovery", description: 'प्रगतिशील मजबूती, संतुलन प्रशिक्षण, गति की सीमा में वृद्धि' },
-          { week: 'महीना 3-4', activity: "Recovery", description: 'उन्नत मजबूती, खेल-विशिष्ट व्यायाम, हल्की जॉगिंग' },
-          { week: 'महीना 4-6', activity: "Recovery", description: 'चिकित्सक की अनुमति के साथ पूर्ण खेल गतिविधियों में वापसी' }
-        ],
-        tips: [
-          'मेनिस्कस उपचार की अनुमति देने के लिए वजन सहन प्रतिबंधों का सख्ती से पालन करें',
-          'निर्धारित के रूप में बैसाखी और घुटने के ब्रेस का उपयोग करें, आमतौर पर 4-6 सप्ताह के लिए',
-          'सूजन कम करने और दर्द प्रबंधित करने के लिए नियमित रूप से बर्फ लगाएं',
-          'निर्धारित गति की सीमा और मजबूती व्यायाम को परिश्रमपूर्वक करें',
-          'शुरुआती रिकवरी के दौरान स्क्वाटिंग, घुटने टेकने और पिवोटिंग आंदोलनों से बचें',
-          'इष्टतम पुनर्वास के लिए सभी फिजियोथेरेपी सत्रों में शामिल हों',
-          'खेल में वापसी के लिए जल्दबाजी न करें - समय से पहले गतिविधि मरम्मत विफलता का कारण बन सकती है',
-          'रिकवरी प्रगति के बारे में अपने सर्जन के साथ खुला संचार बनाए रखें'
-        ]
-      }
-    },
-    faqs: {
-      en: [
-        { question: 'What is the difference between meniscus repair and meniscectomy?', answer: 'Meniscus repair involves suturing the torn tissue to preserve it, while meniscectomy removes the damaged portion. Repair is preferred when possible as it preserves knee function and reduces arthritis risk. Dr. Kumar prioritizes repair whenever the tear location and pattern allow.' },
-        { question: 'Can all meniscus tears be repaired?', answer: 'Not all tears are repairable. Tears in the outer vascular zone (red zone) have good blood supply and heal well. Tears in the inner avascular zone (white zone) have poor healing potential and may require partial meniscectomy. Dr. Kumar assesses each tear during surgery to determine the best approach.' },
-        { question: 'How long does it take for a meniscus repair to heal?', answer: 'The meniscus takes approximately 3-4 months to heal sufficiently, with full maturation taking 6 months. Return to sports typically requires 4-6 months depending on the sport and individual healing progress.' },
-        { question: 'What is the success rate of meniscus repair?', answer: 'Dr. Kumar achieves an 88% healing rate for meniscus repairs. Success depends on tear location, pattern, patient age, and compliance with rehabilitation protocols. Young patients with peripheral tears have the highest success rates.' },
-        { question: 'Is meniscus repair better than removal?', answer: 'Yes, preserving the meniscus is strongly preferred. Studies show that meniscus removal accelerates arthritis development. Repair maintains the knee\'s shock-absorbing function and reduces long-term joint damage, though it requires longer recovery.' },
-        { question: 'Will I need to wear a brace after surgery?', answer: 'Yes, most patients wear a hinged knee brace for 4-6 weeks to protect the repair while allowing controlled motion. The brace prevents extreme bending and rotation that could stress the healing meniscus.' },
-        { question: 'Can I walk immediately after meniscus repair?', answer: 'Weight bearing is restricted initially, typically using crutches with toe-touch or partial weight bearing for 4-6 weeks. The exact protocol depends on tear size and location. Gradual progression prevents stress on the healing repair.' },
-        { question: 'What happens if the repair fails?', answer: 'If the repair doesn\'t heal (12% failure rate), revision surgery may be attempted, or partial meniscectomy may be performed to remove the unstable tissue. Dr. Kumar monitors healing closely with follow-up examinations and imaging to detect any issues early.' }
-      ],
-      hi: [
-        { question: 'मेनिस्कस मरम्मत और मेनिस्केक्टॉमी में क्या अंतर है?', answer: 'मेनिस्कस मरम्मत में इसे संरक्षित करने के लिए फटे ऊतक को सिलना शामिल है, जबकि मेनिस्केक्टॉमी क्षतिग्रस्त हिस्से को हटा देती है। जब संभव हो तो मरम्मत को प्राथमिकता दी जाती है क्योंकि यह घुटने के कार्य को संरक्षित करती है और गठिया के जोखिम को कम करती है। डॉ. कुमार जब भी आंसू स्थान और पैटर्न अनुमति देते हैं तो मरम्मत को प्राथमिकता देते हैं।' },
-        { question: 'क्या सभी मेनिस्कस आंसुओं की मरम्मत की जा सकती है?', answer: 'सभी आंसुओं की मरम्मत नहीं की जा सकती है। बाहरी संवहनी क्षेत्र (लाल क्षेत्र) में आंसुओं में अच्छी रक्त आपूर्ति होती है और अच्छी तरह से ठीक होते हैं। आंतरिक अवस्कुलर क्षेत्र (सफेद क्षेत्र) में आंसुओं में खराब उपचार क्षमता होती है और आंशिक मेनिस्केक्टॉमी की आवश्यकता हो सकती है। डॉ. कुमार सबसे अच्छा दृष्टिकोण निर्धारित करने के लिए सर्जरी के दौरान प्रत्येक आंसू का मूल्यांकन करते हैं।' },
-        { question: 'मेनिस्कस मरम्मत को ठीक होने में कितना समय लगता है?', answer: 'मेनिस्कस को पर्याप्त रूप से ठीक होने में लगभग 3-4 महीने लगते हैं, पूर्ण परिपक्वता 6 महीने लेती है। खेल में वापसी के लिए आमतौर पर खेल और व्यक्तिगत उपचार प्रगति के आधार पर 4-6 महीने की आवश्यकता होती है।' },
-        { question: 'मेनिस्कस मरम्मत की सफलता दर क्या है?', answer: 'डॉ. कुमार मेनिस्कस मरम्मत के लिए 88% उपचार दर प्राप्त करते हैं। सफलता आंसू स्थान, पैटर्न, रोगी की उम्र, और पुनर्वास प्रोटोकॉल के अनुपालन पर निर्भर करती है। परिधीय आंसुओं वाले युवा रोगियों में सबसे अधिक सफलता दर होती है।' },
-        { question: 'क्या मेनिस्कस मरम्मत हटाने से बेहतर है?', answer: 'हां, मेनिस्कस को संरक्षित करना दृढ़ता से पसंद किया जाता है। अध्ययन दिखाते हैं कि मेनिस्कस हटाना गठिया विकास को तेज करता है। मरम्मत घुटने के शॉक-एब्जॉर्बिंग फ़ंक्शन को बनाए रखती है और दीर्घकालिक जोड़ क्षति को कम करती है, हालांकि इसके लिए लंबी रिकवरी की आवश्यकता होती है।' },
-        { question: 'क्या मुझे सर्जरी के बाद ब्रेस पहनने की आवश्यकता होगी?', answer: 'हां, अधिकांश रोगी नियंत्रित गति की अनुमति देते हुए मरम्मत की रक्षा के लिए 4-6 सप्ताह के लिए एक हिंज्ड घुटने का ब्रेस पहनते हैं। ब्रेस चरम झुकने और घूर्णन को रोकता है जो उपचार मेनिस्कस पर तनाव डाल सकता है।' },
-        { question: 'क्या मैं मेनिस्कस मरम्मत के बाद तुरंत चल सकता हूं?', answer: 'वजन सहन शुरू में प्रतिबंधित है, आमतौर पर 4-6 सप्ताह के लिए पैर की अंगुली-स्पर्श या आंशिक वजन सहन के साथ बैसाखी का उपयोग करते हुए। सटीक प्रोटोकॉल आंसू आकार और स्थान पर निर्भर करता है। क्रमिक प्रगति उपचार मरम्मत पर तनाव को रोकती है।' },
-        { question: 'यदि मरम्मत विफल हो जाती है तो क्या होता है?', answer: 'यदि मरम्मत ठीक नहीं होती है (12% विफलता दर), संशोधन सर्जरी का प्रयास किया जा सकता है, या अस्थिर ऊतक को हटाने के लिए आंशिक मेनिस्केक्टॉमी की जा सकती है। डॉ. कुमार किसी भी मुद्दे का जल्दी पता लगाने के लिए फॉलो-अप परीक्षाओं और इमेजिंग के साथ उपचार की निगरानी बारीकी से करते हैं।' }
-      ]
-    },
-    meta: {
-      en: {
-        title: 'Meniscus Repair Surgery in Bihar | Knee Cartilage Tear Treatment | Dr. Gurudeo Kumar',
-        description: 'Expert arthroscopic meniscus repair surgery in Patna, Bihar. Dr. Gurudeo Kumar - 250+ successful repairs, 88% healing rate. Preserve your knee cartilage. Book ₹999 consultation.',
-        keywords: ['meniscus repair', 'knee cartilage surgery', 'meniscus tear treatment', 'arthroscopic knee surgery', 'sports injury Bihar', 'Dr. Gurudeo Kumar', 'Arthoscenter Patna', 'knee preservation surgery', 'meniscus suture', 'arthroscopy']
-      },
-      hi: {
-        title: 'बिहार में मेनिस्कस मरम्मत सर्जरी | घुटने कार्टिलेज आंसू उपचार | डॉ. गुरुदेव कुमार',
-        description: 'पटना, बिहार में विशेषज्ञ आर्थोस्कोपिक मेनिस्कस मरम्मत सर्जरी। डॉ. गुरुदेव कुमार - 250+ सफल मरम्मत, 88% उपचार दर। ₹999 परामर्श बुक करें।',
-        keywords: ['मेनिस्कस मरम्मत', 'घुटने कार्टिलेज सर्जरी', 'मेनिस्कस आंसू उपचार', 'आर्थोस्कोपिक घुटने सर्जरी', 'डॉ. गुरुदेव कुमार', 'अर्थोसेंटर पटना']
-      }
-    },
-    relatedSurgeries: ['acl-reconstruction', 'pcl-reconstruction', 'cartilage-restoration', 'knee-arthroscopy']
-  },
-
-  'lumbar-spinal-fusion': {
-    id: 'lumbar-spinal-fusion',
-    category: 'spine-surgery',
-    slug: 'lumbar-spinal-fusion',
-    title: {
-      en: 'Lumbar Spinal Fusion Surgery',
-      hi: 'लम्बर स्पाइनल फ्यूजन सर्जरी'
-    },
-    shortDesc: {
-      en: 'Surgical procedure to permanently connect two or more vertebrae in the lower back to eliminate painful motion and provide stability.',
-      hi: 'दर्दनाक गति को समाप्त करने और स्थिरता प्रदान करने के लिए निचली पीठ में दो या अधिक कशेरुकाओं को स्थायी रूप से जोड़ने की सर्जिकल प्रक्रिया।'
-    },
-    overview: {
-      en: `Lumbar spinal fusion is a surgical procedure designed to permanently join two or more vertebrae in the lower back (lumbar spine) to eliminate motion between them. This procedure is commonly performed to treat conditions that cause instability, chronic pain, or nerve compression that hasn't responded to conservative treatments. By fusing the vertebrae together, the surgery creates a solid, immobile segment that prevents painful movement and provides long-term stability.
-
-Dr. Gurudeo Kumar, a highly skilled spine surgeon at Arthoscenter in Patna, Bihar, has successfully performed over 160 lumbar fusion surgeries with a 91% fusion rate and significant pain relief in the majority of patients. His expertise spans various fusion techniques including PLIF (Posterior Lumbar Interbody Fusion), TLIF (Transforaminal Lumbar Interbody Fusion), and minimally invasive approaches, allowing him to tailor treatment to each patient's specific spinal condition.
-
-The surgery involves placing bone graft material between the vertebrae to stimulate new bone growth, along with metal hardware (screws, rods, cages) to hold the vertebrae in proper position while fusion occurs. Over several months, the bone graft grows and integrates with the existing vertebrae, creating a solid fusion. While recovery requires patience, most patients experience significant improvement in pain and function once fusion is complete.`,
-      hi: `लम्बर स्पाइनल फ्यूजन एक सर्जिकल प्रक्रिया है जो निचली पीठ (लम्बर स्पाइन) में दो या अधिक कशेरुकाओं को स्थायी रूप से जोड़ने के लिए डिज़ाइन की गई है ताकि उनके बीच गति को समाप्त किया जा सके। यह प्रक्रिया आमतौर पर उन स्थितियों के इलाज के लिए की जाती है जो अस्थिरता, पुराने दर्द, या तंत्रिका संपीड़न का कारण बनती हैं जो रूढ़िवादी उपचारों का जवाब नहीं देती हैं। कशेरुकाओं को एक साथ फ्यूज़ करके, सर्जरी एक ठोस, स्थिर खंड बनाती है जो दर्दनाक गति को रोकती है और दीर्घकालिक स्थिरता प्रदान करती है।
-
-डॉ. गुरुदेव कुमार, पटना, बिहार के अर्थोसेंटर में एक अत्यधिक कुशल स्पाइन सर्जन, ने 91% फ्यूजन दर और अधिकांश रोगियों में महत्वपूर्ण दर्द राहत के साथ 160 से अधिक लम्बर फ्यूजन सर्जरी सफलतापूर्वक की हैं। उनकी विशेषज्ञता में PLIF (पोस्टीरियर लम्बर इंटरबॉडी फ्यूजन), TLIF (ट्रांसफोरामिनल लम्बर इंटरबॉडी फ्यूजन), और न्यूनतम आक्रामक दृष्टिकोण सहित विभिन्न फ्यूजन तकनीकें शामिल हैं, जो उन्हें प्रत्येक रोगी की विशिष्ट स्पाइनल स्थिति के लिए उपचार को अनुकूलित करने की अनुमति देती हैं।
-
-सर्जरी में नई हड्डी वृद्धि को प्रोत्साहित करने के लिए कशेरुकाओं के बीच हड्डी ग्राफ्ट सामग्री रखना शामिल है, साथ ही धातु हार्डवेयर (स्क्रू, रॉड, केज) के साथ कशेरुकाओं को उचित स्थिति में रखने के लिए जबकि फ्यूजन होता है। कई महीनों के दौरान, हड्डी ग्राफ्ट बढ़ती है और मौजूदा कशेरुकाओं के साथ एकीकृत होती है, एक ठोस फ्यूजन बनाती है। जबकि रिकवरी के लिए धैर्य की आवश्यकता होती है, फ्यूजन पूर्ण होने के बाद अधिकांश रोगी दर्द और कार्य में महत्वपूर्ण सुधार का अनुभव करते हैं।`
-    },
-    symptoms: {
-      en: [
-        'Chronic lower back pain that doesn\'t improve with conservative treatment',
-        'Leg pain (sciatica) radiating from the lower back',
-        'Numbness, tingling, or weakness in the legs or feet',
-        'Pain that worsens with standing, walking, or bending',
-        'Spinal instability or spondylolisthesis (vertebra slippage)',
-        'Difficulty walking or maintaining balance',
-        'Failed previous spine surgery (adjacent segment disease)',
-        'Reduced quality of life due to persistent pain and limited mobility'
-      ],
-      hi: [
-        'पुराना निचला पीठ दर्द जो रूढ़िवादी उपचार से बेहतर नहीं होता',
-        'निचली पीठ से निकलने वाला पैर दर्द (साइटिका)',
-        'पैरों या पैरों में सुन्नता, झुनझुनी या कमजोरी',
-        'दर्द जो खड़े होने, चलने या झुकने से बिगड़ता है',
-        'स्पाइनल अस्थिरता या स्पॉन्डिलोलिस्थेसिस (कशेरुका फिसलन)',
-        'चलने या संतुलन बनाए रखने में कठिनाई',
-        'विफल पिछली स्पाइन सर्जरी (आसन्न खंड रोग)',
-        'लगातार दर्द और सीमित गतिशीलता के कारण जीवन की गुणवत्ता में कमी'
-      ]
-    },
-    procedure: {
-      en: {
-        preparation: 'Pre-operative preparation includes MRI and CT scans to assess spinal anatomy and pathology, bone density testing (DEXA scan), smoking cessation counseling, blood tests, and medical optimization. Patients receive detailed education about the fusion process and rehabilitation requirements.',
-        steps: [
-          'General anesthesia is administered and patient is positioned (prone or lateral)',
-          'Surgical incision is made in the lower back (or minimal access ports for minimally invasive approach)',
-          'Muscles are carefully retracted to access the spine',
-          'Damaged disc material is removed through a posterior or transforaminal approach',
-          'Nerve roots are decompressed if stenosis or compression is present',
-          'Bone graft (autograft, allograft, or bone graft substitute) is prepared',
-          'Interbody cage filled with bone graft is placed between vertebrae',
-          'Pedicle screws are inserted into vertebrae and connected with rods for stability',
-          'Incisions are closed in layers with drains placed to prevent fluid accumulation'
-        ],
-        duration: '3-5 hours depending on number of levels fused',
-        anesthesia: 'General anesthesia with neuromonitoring for safety'
-      },
-      hi: {
-        preparation: 'प्री-ऑपरेटिव तैयारी में स्पाइनल एनाटॉमी और पैथोलॉजी का आकलन करने के लिए एमआरआई और सीटी स्कैन, हड्डी घनत्व परीक्षण (डेक्सा स्कैन), धूम्रपान बंद करने की सलाह, रक्त परीक्षण, और चिकित्सा अनुकूलन शामिल है। रोगियों को फ्यूजन प्रक्रिया और पुनर्वास आवश्यकताओं के बारे में विस्तृत शिक्षा प्राप्त होती है।',
-        steps: [
-          'जनरल एनेस्थीसिया दिया जाता है और रोगी को स्थापित किया जाता है (प्रवण या पार्श्व)',
-          'निचली पीठ में सर्जिकल चीरा बनाया जाता है (या न्यूनतम आक्रामक दृष्टिकोण के लिए न्यूनतम एक्सेस पोर्ट)',
-          'स्पाइन तक पहुंचने के लिए मांसपेशियों को सावधानीपूर्वक वापस लिया जाता है',
-          'क्षतिग्रस्त डिस्क सामग्री को पोस्टीरियर या ट्रांसफोरामिनल दृष्टिकोण के माध्यम से हटाया जाता है',
-          'यदि स्टेनोसिस या संपीड़न मौजूद है तो तंत्रिका जड़ों को डीकंप्रेस किया जाता है',
-          'हड्डी ग्राफ्ट (ऑटोग्राफ्ट, एलोग्राफ्ट, या हड्डी ग्राफ्ट विकल्प) तैयार किया जाता है',
-          'हड्डी ग्राफ्ट से भरा इंटरबॉडी केज कशेरुकाओं के बीच रखा जाता है',
-          'पेडिकल स्क्रू कशेरुकाओं में डाले जाते हैं और स्थिरता के लिए रॉड के साथ जुड़े होते हैं',
-          'तरल संचय को रोकने के लिए नालियां रखकर चीरों को परतों में बंद किया जाता है'
-        ],
-        duration: 'फ्यूज़ किए गए स्तरों की संख्या के आधार पर 3-5 घंटे',
-        anesthesia: 'सुरक्षा के लिए न्यूरोमॉनिटरिंग के साथ जनरल एनेस्थीसिया'
-      }
-    },
-    recovery: {
-      en: {
-        timeline: [
-          { week: 'Day 1-4', activity: "Recovery", description: 'Hospital stay for pain management, mobilization with physical therapy, drain removal' },
-          { week: 'Week 1-6', activity: "Recovery", description: 'Limited activity, walking encouraged, no bending/lifting/twisting, may use back brace' },
-          { week: 'Week 6-12', activity: "Recovery", description: 'Gradual increase in activity, physical therapy, X-rays to assess early fusion progress' },
-          { week: 'Month 3-6', activity: "Recovery", description: 'Progressive strengthening, return to light work, continued bone healing' },
-          { week: 'Month 6-12', activity: "Recovery", description: 'Solid fusion confirmed on imaging, return to normal activities, improved function and pain relief' }
-        ],
-        tips: [
-          'Follow BLT restrictions strictly (no Bending, Lifting over 5-10 lbs, or Twisting) for 3 months',
-          'Walk regularly to promote circulation and prevent blood clots',
-          'Use proper body mechanics when sitting, standing, and getting in/out of bed',
-          'Wear back brace if prescribed, typically for 6-12 weeks',
-          'Avoid smoking and nicotine products as they significantly impair fusion',
-          'Take calcium and vitamin D supplements to support bone fusion',
-          'Attend all follow-up appointments for X-rays and clinical assessment',
-          'Report any fever, wound drainage, or new neurological symptoms immediately'
-        ]
-      },
-      hi: {
-        timeline: [
-          { week: 'दिन 1-4', activity: "Recovery", description: 'दर्द प्रबंधन, फिजियोथेरेपी के साथ गतिशीलता, नाली हटाने के लिए अस्पताल में रहना' },
-          { week: 'सप्ताह 1-6', activity: "Recovery", description: 'सीमित गतिविधि, चलने को प्रोत्साहित किया जाता है, कोई झुकना/उठाना/मोड़ना नहीं, बैक ब्रेस का उपयोग कर सकते हैं' },
-          { week: 'सप्ताह 6-12', activity: "Recovery", description: 'गतिविधि में धीरे-धीरे वृद्धि, फिजियोथेरेपी, शुरुआती फ्यूजन प्रगति का आकलन करने के लिए एक्स-रे' },
-          { week: 'महीना 3-6', activity: "Recovery", description: 'प्रगतिशील मजबूती, हल्के काम में वापसी, जारी हड्डी उपचार' },
-          { week: 'महीना 6-12', activity: "Recovery", description: 'इमेजिंग पर ठोस फ्यूजन की पुष्टि, सामान्य गतिविधियों में वापसी, बेहतर कार्य और दर्द राहत' }
-        ],
-        tips: [
-          '3 महीने के लिए बीएलटी प्रतिबंधों का सख्ती से पालन करें (कोई झुकना नहीं, 5-10 पाउंड से अधिक उठाना नहीं, या मोड़ना नहीं)',
-          'परिसंचरण को बढ़ावा देने और रक्त के थक्कों को रोकने के लिए नियमित रूप से चलें',
-          'बैठने, खड़े होने और बिस्तर में/बाहर निकलने के समय उचित शरीर यांत्रिकी का उपयोग करें',
-          'यदि निर्धारित है तो बैक ब्रेस पहनें, आमतौर पर 6-12 सप्ताह के लिए',
-          'धूम्रपान और निकोटीन उत्पादों से बचें क्योंकि वे फ्यूजन को महत्वपूर्ण रूप से बाधित करते हैं',
-          'हड्डी फ्यूजन का समर्थन करने के लिए कैल्शियम और विटामिन डी सप्लीमेंट लें',
-          'एक्स-रे और नैदानिक मूल्यांकन के लिए सभी फॉलो-अप अपॉइंटमेंट में शामिल हों',
-          'किसी भी बुखार, घाव जल निकासी, या नई तंत्रिका संबंधी लक्षणों की तुरंत रिपोर्ट करें'
-        ]
-      }
-    },
-    faqs: {
-      en: [
-        { question: 'How long does it take for spinal fusion to fully heal?', answer: 'Initial bone bridging occurs in 3-6 months, but solid fusion maturation takes 9-12 months. Most patients experience significant improvement by 3-4 months. Dr. Kumar monitors fusion progress with X-rays at 6 weeks, 3 months, 6 months, and 1 year.' },
-        { question: 'Will I lose flexibility after spinal fusion?', answer: 'You will lose motion at the fused segments, but if only 1-2 levels are fused, the impact on overall flexibility is minimal. The adjacent spinal segments maintain normal motion. The trade-off is pain relief and stability in exchange for limited motion at the fused levels.' },
-        { question: 'What is the success rate of lumbar fusion?', answer: 'Dr. Kumar achieves a 91% fusion rate with significant pain improvement in most patients. Success depends on patient selection, smoking status, bone quality, adherence to activity restrictions, and underlying pathology. Properly selected patients have excellent outcomes.' },
-        { question: 'Can hardware be removed after fusion is complete?', answer: 'Hardware removal is rarely necessary once solid fusion occurs, as the fused segment provides stability. Hardware is only removed if it causes pain, breaks, or becomes symptomatic. Most patients keep hardware permanently without issues.' },
-        { question: 'What causes fusion to fail?', answer: 'Risk factors for non-union (failure to fuse) include smoking, obesity, diabetes, osteoporosis, inadequate bone graft, excessive motion, and infection. Dr. Kumar addresses modifiable risk factors before surgery to maximize fusion success.' },
-        { question: 'How soon can I return to work after fusion?', answer: 'Desk work may be possible at 6-8 weeks. Light physical work requires 3-4 months. Heavy labor typically needs 6-9 months. Return timing depends on job demands, number of levels fused, and individual healing progress.' },
-        { question: 'Will I need physical therapy after surgery?', answer: 'Yes, physical therapy is crucial for optimal recovery. It begins in the hospital with walking and proper body mechanics, then progresses to core strengthening and flexibility exercises once fusion is healing. PT helps maximize functional outcomes.' },
-        { question: 'What are alternatives to spinal fusion?', answer: 'Alternatives include conservative treatment (physical therapy, medications, injections), artificial disc replacement (for select patients), minimally invasive decompression alone, or spinal cord stimulation. Dr. Kumar recommends fusion when conservative measures fail and instability or severe degeneration is present.' }
-      ],
-      hi: [
-        { question: 'स्पाइनल फ्यूजन को पूरी तरह से ठीक होने में कितना समय लगता है?', answer: 'प्रारंभिक हड्डी ब्रिजिंग 3-6 महीने में होती है, लेकिन ठोस फ्यूजन परिपक्वता 9-12 महीने लेती है। अधिकांश रोगी 3-4 महीनों तक महत्वपूर्ण सुधार का अनुभव करते हैं। डॉ. कुमार 6 सप्ताह, 3 महीने, 6 महीने और 1 साल में एक्स-रे के साथ फ्यूजन प्रगति की निगरानी करते हैं।' },
-        { question: 'क्या मैं स्पाइनल फ्यूजन के बाद लचीलापन खो दूंगा?', answer: 'आप फ्यूज़ किए गए खंडों पर गति खो देंगे, लेकिन यदि केवल 1-2 स्तर फ्यूज़ किए गए हैं, तो समग्र लचीलेपन पर प्रभाव न्यूनतम है। आसन्न स्पाइनल खंड सामान्य गति बनाए रखते हैं। ट्रेड-ऑफ फ्यूज़ किए गए स्तरों पर सीमित गति के बदले दर्द राहत और स्थिरता है।' },
-        { question: 'लम्बर फ्यूजन की सफलता दर क्या है?', answer: 'डॉ. कुमार अधिकांश रोगियों में महत्वपूर्ण दर्द सुधार के साथ 91% फ्यूजन दर प्राप्त करते हैं। सफलता रोगी चयन, धूम्रपान स्थिति, हड्डी गुणवत्ता, गतिविधि प्रतिबंधों के पालन, और अंतर्निहित पैथोलॉजी पर निर्भर करती है। ठीक से चुने गए रोगियों के उत्कृष्ट परिणाम होते हैं।' },
-        { question: 'क्या फ्यूजन पूर्ण होने के बाद हार्डवेयर को हटाया जा सकता है?', answer: 'एक बार ठोस फ्यूजन होने के बाद हार्डवेयर हटाना शायद ही कभी आवश्यक होता है, क्योंकि फ्यूज़ किया गया खंड स्थिरता प्रदान करता है। हार्डवेयर केवल तभी हटाया जाता है जब यह दर्द का कारण बनता है, टूट जाता है, या लक्षणात्मक हो जाता है। अधिकांश रोगी बिना किसी समस्या के स्थायी रूप से हार्डवेयर रखते हैं।' },
-        { question: 'फ्यूजन विफल होने का कारण क्या है?', answer: 'गैर-संघ (फ्यूज़ करने में विफलता) के लिए जोखिम कारकों में धूम्रपान, मोटापा, मधुमेह, ऑस्टियोपोरोसिस, अपर्याप्त हड्डी ग्राफ्ट, अत्यधिक गति, और संक्रमण शामिल हैं। डॉ. कुमार फ्यूजन सफलता को अधिकतम करने के लिए सर्जरी से पहले संशोधित जोखिम कारकों को संबोधित करते हैं।' },
-        { question: 'मैं फ्यूजन के बाद कब काम पर वापस आ सकता हूं?', answer: 'डेस्क काम 6-8 सप्ताह में संभव हो सकता है। हल्के शारीरिक काम के लिए 3-4 महीने की आवश्यकता होती है। भारी श्रम के लिए आमतौर पर 6-9 महीने की आवश्यकता होती है। वापसी समय नौकरी की मांगों, फ्यूज़ किए गए स्तरों की संख्या, और व्यक्तिगत उपचार प्रगति पर निर्भर करता है।' },
-        { question: 'क्या मुझे सर्जरी के बाद फिजियोथेरेपी की आवश्यकता होगी?', answer: 'हां, इष्टतम रिकवरी के लिए फिजियोथेरेपी महत्वपूर्ण है। यह अस्पताल में चलने और उचित शरीर यांत्रिकी के साथ शुरू होती है, फिर फ्यूजन उपचार होने के बाद कोर मजबूती और लचीलेपन व्यायाम के लिए आगे बढ़ती है। पीटी कार्यात्मक परिणामों को अधिकतम करने में मदद करता है।' },
-        { question: 'स्पाइनल फ्यूजन के विकल्प क्या हैं?', answer: 'विकल्पों में रूढ़िवादी उपचार (फिजियोथेरेपी, दवाएं, इंजेक्शन), कृत्रिम डिस्क प्रतिस्थापन (चुनिंदा रोगियों के लिए), केवल न्यूनतम आक्रामक डीकंप्रेशन, या स्पाइनल कॉर्ड उत्तेजना शामिल हैं। डॉ. कुमार फ्यूजन की सिफारिश करते हैं जब रूढ़िवादी उपाय विफल हो जाते हैं और अस्थिरता या गंभीर अपक्षयन मौजूद होता है।' }
-      ]
-    },
-    meta: {
-      en: {
-        title: 'Lumbar Spinal Fusion Surgery in Bihar | Lower Back Fusion | Dr. Gurudeo Kumar',
-        description: 'Expert lumbar spinal fusion surgery in Patna, Bihar. Dr. Gurudeo Kumar - 160+ successful fusions, 91% fusion rate. PLIF, TLIF, minimally invasive options. Book ₹999 consultation.',
-        keywords: ['lumbar fusion surgery', 'spinal fusion', 'PLIF surgery', 'TLIF procedure', 'back pain treatment Bihar', 'Dr. Gurudeo Kumar', 'Arthoscenter Patna', 'spondylolisthesis surgery', 'spine stabilization', 'minimally invasive spine surgery']
-      },
-      hi: {
-        title: 'बिहार में लम्बर स्पाइनल फ्यूजन सर्जरी | निचली पीठ फ्यूजन | डॉ. गुरुदेव कुमार',
-        description: 'पटना, बिहार में विशेषज्ञ लम्बर स्पाइनल फ्यूजन सर्जरी। डॉ. गुरुदेव कुमार - 160+ सफल फ्यूजन, 91% फ्यूजन दर। ₹999 परामर्श बुक करें।',
-        keywords: ['लम्बर फ्यूजन सर्जरी', 'स्पाइनल फ्यूजन', 'बिहार में पीठ दर्द उपचार', 'डॉ. गुरुदेव कुमार', 'अर्थोसेंटर पटना']
-      }
-    },
-    relatedSurgeries: ['discectomy', 'laminectomy', 'cervical-fusion', 'artificial-disc-replacement']
-  },
-
-  'rotator-cuff-repair': {
-    id: 'rotator-cuff-repair',
-    category: 'sports-medicine',
-    slug: 'rotator-cuff-repair',
-    title: {
-      en: 'Rotator Cuff Repair Surgery',
-      hi: 'रोटेटर कफ मरम्मत सर्जरी'
-    },
-    shortDesc: {
-      en: 'Arthroscopic or open surgical repair of torn shoulder rotator cuff tendons to restore strength, function, and pain-free shoulder movement.',
-      hi: 'शक्ति, कार्य और दर्द मुक्त कंधे की गति को बहाल करने के लिए फटे कंधे के रोटेटर कफ टेंडन की आर्थोस्कोपिक या ओपन सर्जिकल मरम्मत।'
-    },
-    overview: {
-      en: `The rotator cuff is a group of four muscles and their tendons that surround the shoulder joint, providing stability and enabling a wide range of arm movements. Rotator cuff tears are common injuries that can result from acute trauma (falls, lifting heavy objects) or from chronic degeneration over time. These tears cause pain, weakness, and limited shoulder function, significantly impacting daily activities and quality of life.
-
-Dr. Gurudeo Kumar, an experienced orthopedic and sports medicine surgeon at Arthroscenter in Patna, Bihar, has successfully performed over 140 rotator cuff repairs with a 92% healing rate. His expertise in both arthroscopic and open repair techniques allows him to tailor the surgical approach based on tear size, location, tissue quality, and patient factors. Dr. Kumar prioritizes modern arthroscopic methods when possible for their minimally invasive benefits.
-
-Rotator cuff repair involves reattaching the torn tendon to the bone using suture anchors, allowing the tendon to heal back to its original attachment site. The surgery may be performed arthroscopically (through small incisions with a camera) or as an open procedure for large or complex tears. Post-operative rehabilitation is critical, requiring several months of physical therapy to regain full strength and range of motion. Most patients experience significant pain relief and functional improvement, with return to full activities within 6-9 months.`,
-      hi: `रोटेटर कफ चार मांसपेशियों और उनके टेंडन का एक समूह है जो कंधे के जोड़ को घेरता है, स्थिरता प्रदान करता है और बाहों की गति की एक विस्तृत श्रृंखला को सक्षम करता है। रोटेटर कफ आंसू आम चोटें हैं जो तीव्र आघात (गिरना, भारी वस्तुओं को उठाना) या समय के साथ पुराने अपक्षयन से हो सकती हैं। ये आंसू दर्द, कमजोरी और सीमित कंधे के कार्य का कारण बनते हैं, दैनिक गतिविधियों और जीवन की गुणवत्ता को महत्वपूर्ण रूप से प्रभावित करते हैं।
-
-डॉ. गुरुदेव कुमार, पटना, बिहार के अर्थोसेंटर में एक अनुभवी आर्थोपेडिक और स्पोर्ट्स मेडिसिन सर्जन, ने 92% उपचार दर के साथ 140 से अधिक रोटेटर कफ मरम्मत सफलतापूर्वक की हैं। आर्थोस्कोपिक और ओपन मरम्मत तकनीकों दोनों में उनकी विशेषज्ञता उन्हें आंसू आकार, स्थान, ऊतक गुणवत्ता, और रोगी कारकों के आधार पर सर्जिकल दृष्टिकोण को अनुकूलित करने की अनुमति देती है। डॉ. कुमार जब संभव हो तो उनके न्यूनतम आक्रामक लाभों के लिए आधुनिक आर्थोस्कोपिक विधियों को प्राथमिकता देते हैं।
-
-रोटेटर कफ मरम्मत में सूचर एंकर का उपयोग करके फटे टेंडन को हड्डी से फिर से जोड़ना शामिल है, जिससे टेंडन अपनी मूल संलग्न साइट पर वापस ठीक हो सके। सर्जरी आर्थोस्कोपिक रूप से (कैमरे के साथ छोटे चीरों के माध्यम से) या बड़े या जटिल आंसुओं के लिए एक ओपन प्रक्रिया के रूप में की जा सकती है। पोस्ट-ऑपरेटिव पुनर्वास महत्वपूर्ण है, पूर्ण शक्ति और गति की सीमा को फिर से प्राप्त करने के लिए कई महीनों की फिजियोथेरेपी की आवश्यकता होती है। अधिकांश रोगी महत्वपूर्ण दर्द राहत और कार्यात्मक सुधार का अनुभव करते हैं, 6-9 महीनों के भीतर पूर्ण गतिविधियों में वापसी के साथ।`
-    },
-    symptoms: {
-      en: [
-        'Deep, aching pain in the shoulder, especially at night',
-        'Weakness when lifting or rotating the arm',
-        'Difficulty reaching behind the back or overhead',
-        'Popping or clicking sensation with shoulder movement',
-        'Progressive loss of shoulder strength and range of motion',
-        'Pain that radiates down the arm from the shoulder',
-        'Inability to sleep on the affected shoulder',
-        'Shoulder stiffness and limited mobility'
-      ],
-      hi: [
-        'कंधे में गहरा, दर्द करने वाला दर्द, विशेष रूप से रात में',
-        'बाहों को उठाने या घुमाने पर कमजोरी',
-        'पीठ या ऊपर की ओर पहुंचने में कठिनाई',
-        'कंधे की गति के साथ पॉपिंग या क्लिकिंग सनसनी',
-        'कंधे की शक्ति और गति की सीमा का प्रगतिशील नुकसान',
-        'दर्द जो कंधे से बाहों तक विकिरण करता है',
-        'प्रभावित कंधे पर सोने में असमर्थता',
-        'कंधे की कठोरता और सीमित गतिशीलता'
-      ]
-    },
-    procedure: {
-      en: {
-        preparation: 'Pre-operative assessment includes MRI to evaluate tear size and tendon quality, physical examination, X-rays to rule out arthritis, blood tests, and anesthesia consultation. Patients receive education about the procedure and extensive rehabilitation requirements.',
-        steps: [
-          'General anesthesia with nerve block (interscalene block) for post-operative pain control',
-          'Patient is positioned in beach chair or lateral decubitus position',
-          'For arthroscopic repair: Small incisions (portals) are made for camera and instruments',
-          'Arthroscope is inserted to visualize the rotator cuff tear and assess pathology',
-          'Subacromial decompression is performed if bone spurs are impinging the tendon',
-          'Torn tendon edges are mobilized and prepared for repair',
-          'Bone surface is prepared (roughened) to promote tendon-to-bone healing',
-          'Suture anchors are placed in the bone and sutures are passed through the tendon',
-          'Tendon is secured to the bone with strong sutures tied down on the anchors',
-          'Shoulder is examined for stability and proper repair, then incisions are closed'
-        ],
-        duration: '1.5-3 hours depending on tear complexity',
-        anesthesia: 'General anesthesia with interscalene nerve block'
-      },
-      hi: {
-        preparation: 'प्री-ऑपरेटिव मूल्यांकन में आंसू आकार और टेंडन गुणवत्ता का मूल्यांकन करने के लिए एमआरआई, शारीरिक परीक्षा, गठिया को खारिज करने के लिए एक्स-रे, रक्त परीक्षण, और एनेस्थीसिया परामर्श शामिल है। रोगियों को प्रक्रिया और व्यापक पुनर्वास आवश्यकताओं के बारे में शिक्षा प्राप्त होती है।',
-        steps: [
-          'पोस्ट-ऑपरेटिव दर्द नियंत्रण के लिए नर्व ब्लॉक (इंटरस्केलीन ब्लॉक) के साथ जनरल एनेस्थीसिया',
-          'रोगी को बीच चेयर या पार्श्व डिक्यूबिटस स्थिति में स्थापित किया जाता है',
-          'आर्थोस्कोपिक मरम्मत के लिए: कैमरे और उपकरणों के लिए छोटे चीरे (पोर्टल) बनाए जाते हैं',
-          'रोटेटर कफ आंसू को देखने और पैथोलॉजी का आकलन करने के लिए आर्थोस्कोप डाला जाता है',
-          'यदि हड्डी के स्पर्स टेंडन को प्रभावित कर रहे हैं तो सबएक्रोमियल डीकंप्रेशन किया जाता है',
-          'फटे टेंडन किनारों को गतिशील किया जाता है और मरम्मत के लिए तैयार किया जाता है',
-          'टेंडन-टू-बोन उपचार को बढ़ावा देने के लिए हड्डी की सतह तैयार (खुरदरी) की जाती है',
-          'सूचर एंकर हड्डी में रखे जाते हैं और सूचर टेंडन के माध्यम से पारित किए जाते हैं',
-          'टेंडन को एंकर पर बंधे मजबूत सूचर के साथ हड्डी के लिए सुरक्षित किया जाता है',
-          'स्थिरता और उचित मरम्मत के लिए कंधे की जांच की जाती है, फिर चीरों को बंद किया जाता है'
-        ],
-        duration: 'आंसू जटिलता के आधार पर 1.5-3 घंटे',
-        anesthesia: 'इंटरस्केलीन नर्व ब्लॉक के साथ जनरल एनेस्थीसिया'
-      }
-    },
-    recovery: {
-      en: {
-        timeline: [
-          { week: 'Week 0-6', activity: "Recovery", description: 'Arm in sling at all times, passive range of motion only, no active use of arm' },
-          { week: 'Week 6-12', activity: "Recovery", description: 'Begin active-assisted range of motion, gradual weaning from sling' },
-          { week: 'Week 12-16', activity: "Recovery", description: 'Progress to active range of motion and light strengthening exercises' },
-          { week: 'Month 4-6', activity: "Recovery", description: 'Advanced strengthening, functional activities, sport-specific training' },
-          { week: 'Month 6-9', activity: "Recovery", description: 'Return to full activities, sports, and heavy lifting with surgeon approval' }
-        ],
-        tips: [
-          'Wear the sling religiously for 4-6 weeks to protect the healing tendon',
-          'Do NOT actively lift or use the arm for first 6 weeks - tendon healing is fragile',
-          'Perform passive range of motion exercises as prescribed to prevent stiffness',
-          'Apply ice regularly to reduce swelling and manage pain',
-          'Sleep in a recliner or propped up with pillows for the first few weeks',
-          'Attend all physical therapy sessions - rehabilitation is crucial for success',
-          'Be patient - tendon healing takes 3-6 months, rushing can cause re-tear',
-          'Avoid smoking as it significantly impairs tendon healing'
-        ]
-      },
-      hi: {
-        timeline: [
-          { week: 'सप्ताह 0-6', activity: "Recovery", description: 'हर समय स्लिंग में बाहों, केवल निष्क्रिय गति की सीमा, बाहों का कोई सक्रिय उपयोग नहीं' },
-          { week: 'सप्ताह 6-12', activity: "Recovery", description: 'सक्रिय-सहायक गति की सीमा शुरू करें, स्लिंग से धीरे-धीरे छुड़ाना' },
-          { week: 'सप्ताह 12-16', activity: "Recovery", description: 'सक्रिय गति की सीमा और हल्की मजबूती व्यायाम के लिए प्रगति' },
-          { week: 'महीना 4-6', activity: "Recovery", description: 'उन्नत मजबूती, कार्यात्मक गतिविधियां, खेल-विशिष्ट प्रशिक्षण' },
-          { week: 'महीना 6-9', activity: "Recovery", description: 'सर्जन की स्वीकृति के साथ पूर्ण गतिविधियों, खेल और भारी उठाने में वापसी' }
-        ],
-        tips: [
-          'उपचार टेंडन की रक्षा के लिए 4-6 सप्ताह के लिए धार्मिक रूप से स्लिंग पहनें',
-          'पहले 6 सप्ताह के लिए सक्रिय रूप से बाहों को न उठाएं या न उपयोग करें - टेंडन उपचार नाजुक है',
-          'कठोरता को रोकने के लिए निर्धारित के रूप में निष्क्रिय गति की सीमा व्यायाम करें',
-          'सूजन कम करने और दर्द प्रबंधित करने के लिए नियमित रूप से बर्फ लगाएं',
-          'पहले कुछ हफ्तों के लिए एक रिक्लाइनर में या तकियों के साथ प्रोप किए गए सोएं',
-          'सभी फिजियोथेरेपी सत्रों में शामिल हों - पुनर्वास सफलता के लिए महत्वपूर्ण है',
-          'धैर्य रखें - टेंडन उपचार में 3-6 महीने लगते हैं, जल्दबाजी फिर से फाड़ने का कारण बन सकती है',
-          'धूम्रपान से बचें क्योंकि यह टेंडन उपचार को महत्वपूर्ण रूप से बाधित करता है'
-        ]
-      }
-    },
-    faqs: {
-      en: [
-        { question: 'Can all rotator cuff tears be repaired?', answer: 'Most tears are repairable, but massive, chronic tears with severe tendon retraction and muscle atrophy may not be suitable for repair. Dr. Kumar assesses each tear with MRI and arthroscopy to determine if repair is possible or if alternative treatments are needed.' },
-        { question: 'How long does recovery take after rotator cuff repair?', answer: 'Initial healing takes 3 months, but full recovery requires 6-9 months. Return to desk work is possible at 2-4 weeks, light work at 3-4 months, and heavy labor or sports at 6-9 months depending on tear size and healing progress.' },
-        { question: 'What is the success rate of rotator cuff repair?', answer: 'Dr. Kumar achieves a 92% healing rate with significant pain relief and functional improvement in most patients. Success depends on tear size, tissue quality, patient age, rehabilitation compliance, and avoiding smoking.' },
-        { question: 'Will I regain full shoulder strength and motion?', answer: 'Most patients regain 85-95% of normal shoulder function with excellent pain relief. Factors affecting outcome include tear size (small tears have better outcomes), age, pre-injury activity level, and dedication to physical therapy.' },
-        { question: 'Can the rotator cuff tear again after repair?', answer: 'Re-tear rates range from 5-15% depending on tear size, with larger tears having higher re-tear risk. Following activity restrictions, completing full rehabilitation, and avoiding premature heavy lifting minimize this risk. Dr. Kumar uses strong modern repair techniques to reduce re-tear rates.' },
-        { question: 'Is arthroscopic repair better than open repair?', answer: 'Arthroscopic repair offers less pain, smaller scars, and faster early recovery. However, for large or complex tears, open or mini-open repair may provide better visualization and repair quality. Dr. Kumar selects the technique that provides the strongest, most durable repair for each specific tear.' },
-        { question: 'Why is physical therapy so important after surgery?', answer: 'Physical therapy is critical to prevent stiffness (frozen shoulder) while protecting the healing tendon. The carefully phased PT protocol balances tendon protection (first 6 weeks) with progressive strengthening and motion to achieve optimal functional outcomes.' },
-        { question: 'What happens if rotator cuff tear is left untreated?', answer: 'Untreated tears may progressively enlarge, causing increasing pain, weakness, and loss of function. Chronic tears can lead to irreversible muscle atrophy and fatty infiltration, making repair more difficult or impossible. Dr. Kumar recommends timely treatment for symptomatic tears to prevent these complications.' }
-      ],
-      hi: [
-        { question: 'क्या सभी रोटेटर कफ आंसुओं की मरम्मत की जा सकती है?', answer: 'अधिकांश आंसुओं की मरम्मत की जा सकती है, लेकिन गंभीर टेंडन संकुचन और मांसपेशी एट्रोफी के साथ बड़े, पुराने आंसू मरम्मत के लिए उपयुक्त नहीं हो सकते हैं। डॉ. कुमार यह निर्धारित करने के लिए एमआरआई और आर्थोस्कोपी के साथ प्रत्येक आंसू का मूल्यांकन करते हैं कि क्या मरम्मत संभव है या यदि वैकल्पिक उपचार की आवश्यकता है।' },
-        { question: 'रोटेटर कफ मरम्मत के बाद रिकवरी में कितना समय लगता है?', answer: 'प्रारंभिक उपचार में 3 महीने लगते हैं, लेकिन पूर्ण रिकवरी के लिए 6-9 महीने की आवश्यकता होती है। डेस्क काम में वापसी 2-4 सप्ताह में संभव है, हल्का काम 3-4 महीने में, और आंसू आकार और उपचार प्रगति के आधार पर 6-9 महीने में भारी श्रम या खेल।' },
-        { question: 'रोटेटर कफ मरम्मत की सफलता दर क्या है?', answer: 'डॉ. कुमार अधिकांश रोगियों में महत्वपूर्ण दर्द राहत और कार्यात्मक सुधार के साथ 92% उपचार दर प्राप्त करते हैं। सफलता आंसू आकार, ऊतक गुणवत्ता, रोगी की उम्र, पुनर्वास अनुपालन, और धूम्रपान से बचने पर निर्भर करती है।' },
-        { question: 'क्या मैं पूर्ण कंधे की शक्ति और गति को फिर से प्राप्त करूंगा?', answer: 'अधिकांश रोगी उत्कृष्ट दर्द राहत के साथ सामान्य कंधे के कार्य का 85-95% फिर से प्राप्त करते हैं। परिणाम को प्रभावित करने वाले कारकों में आंसू आकार (छोटे आंसुओं के बेहतर परिणाम होते हैं), उम्र, चोट से पहले गतिविधि स्तर, और फिजियोथेरेपी के प्रति समर्पण शामिल हैं।' },
-        { question: 'क्या मरम्मत के बाद रोटेटर कफ फिर से फाड़ सकता है?', answer: 'फिर से फाड़ने की दरें आंसू आकार के आधार पर 5-15% तक होती हैं, बड़े आंसुओं में फिर से फाड़ने का जोखिम अधिक होता है। गतिविधि प्रतिबंधों का पालन करना, पूर्ण पुनर्वास पूरा करना, और समय से पहले भारी उठाने से बचना इस जोखिम को कम करता है। डॉ. कुमार फिर से फाड़ने की दरों को कम करने के लिए मजबूत आधुनिक मरम्मत तकनीकों का उपयोग करते हैं।' },
-        { question: 'क्या आर्थोस्कोपिक मरम्मत ओपन मरम्मत से बेहतर है?', answer: 'आर्थोस्कोपिक मरम्मत कम दर्द, छोटे निशान, और तेजी से शुरुआती रिकवरी प्रदान करती है। हालांकि, बड़े या जटिल आंसुओं के लिए, ओपन या मिनी-ओपन मरम्मत बेहतर विज़ुअलाइज़ेशन और मरम्मत गुणवत्ता प्रदान कर सकती है। डॉ. कुमार तकनीक का चयन करते हैं जो प्रत्येक विशिष्ट आंसू के लिए सबसे मजबूत, सबसे टिकाऊ मरम्मत प्रदान करती है।' },
-        { question: 'सर्जरी के बाद फिजियोथेरेपी इतनी महत्वपूर्ण क्यों है?', answer: 'उपचार टेंडन की रक्षा करते हुए कठोरता (जमे हुए कंधे) को रोकने के लिए फिजियोथेरेपी महत्वपूर्ण है। सावधानीपूर्वक चरणबद्ध पीटी प्रोटोकॉल इष्टतम कार्यात्मक परिणाम प्राप्त करने के लिए टेंडन संरक्षण (पहले 6 सप्ताह) को प्रगतिशील मजबूती और गति के साथ संतुलित करता है।' },
-        { question: 'यदि रोटेटर कफ आंसू अनुपचारित रहता है तो क्या होता है?', answer: 'अनुपचारित आंसू प्रगतिशील रूप से बढ़ सकते हैं, बढ़ते दर्द, कमजोरी और कार्य के नुकसान का कारण बनते हैं। पुराने आंसू अपरिवर्तनीय मांसपेशी एट्रोफी और फैटी घुसपैठ का कारण बन सकते हैं, मरम्मत को और अधिक कठिन या असंभव बनाते हैं। डॉ. कुमार इन जटिलताओं को रोकने के लिए लक्षणात्मक आंसुओं के लिए समय पर उपचार की सिफारिश करते हैं।' }
-      ]
-    },
-    meta: {
-      en: {
-        title: 'Rotator Cuff Repair Surgery in Bihar | Shoulder Tendon Tear Treatment | Dr. Gurudeo Kumar',
-        description: 'Expert rotator cuff repair surgery in Patna, Bihar. Dr. Gurudeo Kumar - 140+ successful repairs, 92% healing rate. Arthroscopic and open techniques. Book ₹999 consultation.',
-        keywords: ['rotator cuff repair', 'shoulder surgery', 'rotator cuff tear treatment', 'arthroscopic shoulder surgery', 'sports medicine Bihar', 'Dr. Gurudeo Kumar', 'Arthoscenter Patna', 'shoulder pain treatment', 'tendon repair', 'shoulder arthroscopy']
-      },
-      hi: {
-        title: 'बिहार में रोटेटर कफ मरम्मत सर्जरी | कंधे टेंडन आंसू उपचार | डॉ. गुरुदेव कुमार',
-        description: 'पटना, बिहार में विशेषज्ञ रोटेटर कफ मरम्मत सर्जरी। डॉ. गुरुदेव कुमार - 140+ सफल मरम्मत, 92% उपचार दर। ₹999 परामर्श बुक करें।',
-        keywords: ['रोटेटर कफ मरम्मत', 'कंधे की सर्जरी', 'रोटेटर कफ आंसू उपचार', 'बिहार में स्पोर्ट्स मेडिसिन', 'डॉ. गुरुदेव कुमार', 'अर्थोसेंटर पटना']
-      }
-    },
-    relatedSurgeries: ['acl-reconstruction', 'shoulder-replacement', 'biceps-tendon-repair', 'labral-repair']
-  },
-
-  'femur-fracture-fixation': {
-    id: 'femur-fracture-fixation',
-    category: 'trauma-care',
-    slug: 'femur-fracture-fixation',
-    title: {
-      en: 'Femur Fracture Fixation Surgery',
-      hi: 'फीमर फ्रैक्चर फिक्सेशन सर्जरी'
-    },
-    shortDesc: {
-      en: 'Surgical treatment of broken thigh bone using intramedullary nails, plates, or screws to restore alignment and enable healing.',
-      hi: 'संरेखण बहाल करने और उपचार सक्षम करने के लिए इंट्रामेडुलरी नाखून, प्लेट या स्क्रू का उपयोग करके टूटी हुई जांघ की हड्डी का सर्जिकल उपचार।'
-    },
-    overview: {
-      en: `The femur (thigh bone) is the longest and strongest bone in the human body, extending from the hip to the knee. Femur fractures are serious injuries that typically result from high-energy trauma such as motor vehicle accidents, falls from significant heights, or severe impacts. Due to the femur's crucial role in weight bearing and mobility, prompt surgical treatment is essential to restore function and prevent complications.
-
-Dr. Gurudeo Kumar, a highly experienced trauma and orthopedic surgeon at Arthoscenter in Patna, Bihar, has successfully treated over 280 femur fractures with a 95% union rate. His expertise spans the full spectrum of femur fractures, from simple mid-shaft fractures to complex periarticular and open fractures. Dr. Kumar utilizes modern fixation techniques including intramedullary nailing, plate and screw fixation, and external fixation to achieve optimal outcomes for each patient.
-
-Femur fracture fixation typically involves inserting an intramedullary nail (a metal rod) through the center of the bone or applying plates and screws to the outer surface. The choice of fixation method depends on fracture location, pattern, patient age, and associated injuries. With proper surgical fixation and rehabilitation, most patients achieve excellent healing and return to full weight-bearing and normal activities within 4-6 months.`,
-      hi: `फीमर (जांघ की हड्डी) मानव शरीर में सबसे लंबी और सबसे मजबूत हड्डी है, जो कूल्हे से घुटने तक फैली हुई है। फीमर फ्रैक्चर गंभीर चोटें हैं जो आमतौर पर मोटर वाहन दुर्घटनाओं, महत्वपूर्ण ऊंचाइयों से गिरने, या गंभीर प्रभावों जैसी उच्च-ऊर्जा आघात के परिणामस्वरूप होती हैं। वजन सहन और गतिशीलता में फीमर की महत्वपूर्ण भूमिका के कारण, कार्य को बहाल करने और जटिलताओं को रोकने के लिए त्वरित सर्जिकल उपचार आवश्यक है।
-
-डॉ. गुरुदेव कुमार, पटना, बिहार के अर्थोसेंटर में एक अत्यधिक अनुभवी ट्रॉमा और आर्थोपेडिक सर्जन, ने 95% संघ दर के साथ 280 से अधिक फीमर फ्रैक्चर का सफलतापूर्वक इलाज किया है। उनकी विशेषज्ञता साधारण मिड-शाफ्ट फ्रैक्चर से जटिल पेरीआर्टिकुलर और ओपन फ्रैक्चर तक फीमर फ्रैक्चर के पूर्ण स्पेक्ट्रम को फैलाती है। डॉ. कुमार प्रत्येक रोगी के लिए इष्टतम परिणाम प्राप्त करने के लिए इंट्रामेडुलरी नेलिंग, प्लेट और स्क्रू फिक्सेशन, और बाहरी फिक्सेशन सहित आधुनिक फिक्सेशन तकनीकों का उपयोग करते हैं।
-
-फीमर फ्रैक्चर फिक्सेशन में आमतौर पर हड्डी के केंद्र के माध्यम से एक इंट्रामेडुलरी नाखून (एक धातु रॉड) डालना या बाहरी सतह पर प्लेट और स्क्रू लगाना शामिल है। फिक्सेशन विधि का चयन फ्रैक्चर स्थान, पैटर्न, रोगी की उम्र, और संबंधित चोटों पर निर्भर करता है। उचित सर्जिकल फिक्सेशन और पुनर्वास के साथ, अधिकांश रोगी उत्कृष्ट उपचार प्राप्त करते हैं और 4-6 महीनों के भीतर पूर्ण वजन सहन और सामान्य गतिविधियों में लौट आते हैं।`
-    },
-    symptoms: {
-      en: [
-        'Severe pain in the thigh immediately after injury',
-        'Visible deformity or abnormal angulation of the leg',
-        'Complete inability to bear weight or move the leg',
-        'Swelling and bruising throughout the thigh',
-        'Bone protruding through the skin in open fractures',
-        'Shortened leg appearance compared to the uninjured side',
-        'Numbness or tingling in the leg or foot (nerve injury)',
-        'Severe bleeding in compound fractures'
-      ],
-      hi: [
-        'चोट के तुरंत बाद जांघ में गंभीर दर्द',
-        'पैर की दृश्य विकृति या असामान्य कोणीकरण',
-        'वजन सहने या पैर को हिलाने में पूर्ण असमर्थता',
-        'जांघ में सूजन और चोट',
-        'खुले फ्रैक्चर में त्वचा के माध्यम से हड्डी का बाहर निकलना',
-        'अप्रभावित पक्ष की तुलना में छोटा पैर दिखाई देना',
-        'पैर या पैर में सुन्नता या झुनझुनी (तंत्रिका चोट)',
-        'कंपाउंड फ्रैक्चर में गंभीर रक्तस्राव'
-      ]
-    },
-    procedure: {
-      en: {
-        preparation: 'Emergency assessment includes X-rays and CT scans to evaluate fracture pattern, vascular and neurological examination, blood tests, fluid resuscitation if needed, and emergency stabilization. Open fractures require immediate antibiotics and tetanus prophylaxis. Pre-operative planning determines the optimal fixation strategy.',
-        steps: [
-          'General anesthesia is administered and patient is positioned (supine or on fracture table)',
-          'For intramedullary nailing: Incision is made at the hip or knee, and a guide wire is inserted into the bone canal',
-          'For plate fixation: Longer incision is made to expose the fracture site',
-          'Fracture is reduced (realigned) using traction and manual manipulation, confirmed with fluoroscopy',
-          'Intramedullary nail is inserted through the bone marrow canal and positioned across the fracture',
-          'OR plates are applied to the bone surface spanning the fracture',
-          'Locking screws are placed proximally and distally to secure the nail or plate',
-          'Final alignment and hardware position are verified with X-ray imaging',
-          'Wounds are irrigated thoroughly (especially for open fractures) and closed in layers',
-          'Post-operative X-rays confirm satisfactory reduction and fixation'
-        ],
-        duration: '2-4 hours depending on fracture complexity',
-        anesthesia: 'General anesthesia'
-      },
-      hi: {
-        preparation: 'आपातकालीन मूल्यांकन में फ्रैक्चर पैटर्न का मूल्यांकन करने के लिए एक्स-रे और सीटी स्कैन, संवहनी और तंत्रिका संबंधी परीक्षा, रक्त परीक्षण, यदि आवश्यक हो तो तरल पुनर्जीवन, और आपातकालीन स्थिरीकरण शामिल है। खुले फ्रैक्चर के लिए तत्काल एंटीबायोटिक्स और टेटनस प्रोफिलैक्सिस की आवश्यकता होती है। प्री-ऑपरेटिव योजना इष्टतम फिक्सेशन रणनीति निर्धारित करती है।',
-        steps: [
-          'जनरल एनेस्थीसिया दिया जाता है और रोगी को स्थापित किया जाता है (सुपाइन या फ्रैक्चर टेबल पर)',
-          'इंट्रामेडुलरी नेलिंग के लिए: कूल्हे या घुटने पर चीरा बनाया जाता है, और एक गाइड वायर को हड्डी नलिका में डाला जाता है',
-          'प्लेट फिक्सेशन के लिए: फ्रैक्चर साइट को उजागर करने के लिए लंबा चीरा बनाया जाता है',
-          'फ्रैक्चर को ट्रैक्शन और मैनुअल मैनिपुलेशन का उपयोग करके कम (पुन: संरेखित) किया जाता है, फ्लोरोस्कोपी से पुष्टि की जाती है',
-          'इंट्रामेडुलरी नाखून को अस्थि मज्जा नलिका के माध्यम से डाला जाता है और फ्रैक्चर के पार स्थापित किया जाता है',
-          'या प्लेटों को फ्रैक्चर को फैलाते हुए हड्डी की सतह पर लगाया जाता है',
-          'नाखून या प्लेट को सुरक्षित करने के लिए समीपस्थ और दूरस्थ रूप से लॉकिंग स्क्रू लगाए जाते हैं',
-          'एक्स-रे इमेजिंग के साथ अंतिम संरेखण और हार्डवेयर स्थिति सत्यापित की जाती है',
-          'घावों को अच्छी तरह से सिंचित किया जाता है (विशेष रूप से खुले फ्रैक्चर के लिए) और परतों में बंद किया जाता है',
-          'पोस्ट-ऑपरेटिव एक्स-रे संतोषजनक कमी और फिक्सेशन की पुष्टि करते हैं'
-        ],
-        duration: 'फ्रैक्चर जटिलता के आधार पर 2-4 घंटे',
-        anesthesia: 'जनरल एनेस्थीसिया'
-      }
-    },
-    recovery: {
-      en: {
-        timeline: [
-          { week: 'Day 1-3', activity: "Recovery", description: 'Hospital stay for pain management, wound care, DVT prophylaxis, early mobilization with walker' },
-          { week: 'Week 1-6', activity: "Recovery", description: 'Partial weight bearing with crutches/walker, physical therapy for range of motion and strengthening' },
-          { week: 'Week 6-12', activity: "Recovery", description: 'Progressive weight bearing as tolerated, continued physical therapy, X-rays to assess healing' },
-          { week: 'Month 3-4', activity: "Recovery", description: 'Full weight bearing, advanced strengthening, return to light activities' },
-          { week: 'Month 4-6', activity: "Recovery", description: 'Complete bone healing, return to normal activities including work and driving' }
-        ],
-        tips: [
-          'Follow weight bearing restrictions carefully - premature full weight bearing can cause hardware failure',
-          'Use assistive devices (crutches, walker, cane) as prescribed by your surgeon',
-          'Perform ankle pumps and leg exercises to prevent blood clots',
-          'Elevate the leg frequently to reduce swelling',
-          'Keep surgical wounds clean and dry, watch for signs of infection',
-          'Take calcium and vitamin D supplements to support bone healing',
-          'Attend all physical therapy sessions to regain strength and mobility',
-          'Avoid smoking and excessive alcohol as they significantly impair bone healing'
-        ]
-      },
-      hi: {
-        timeline: [
-          { week: 'दिन 1-3', activity: "Recovery", description: 'दर्द प्रबंधन, घाव की देखभाल, डीवीटी प्रोफिलैक्सिस, वॉकर के साथ शुरुआती गतिशीलता के लिए अस्पताल में रहना' },
-          { week: 'सप्ताह 1-6', activity: "Recovery", description: 'बैसाखी/वॉकर के साथ आंशिक वजन सहन, गति की सीमा और मजबूती के लिए फिजियोथेरेपी' },
-          { week: 'सप्ताह 6-12', activity: "Recovery", description: 'सहन के रूप में प्रगतिशील वजन सहन, जारी फिजियोथेरेपी, उपचार का आकलन करने के लिए एक्स-रे' },
-          { week: 'महीना 3-4', activity: "Recovery", description: 'पूर्ण वजन सहन, उन्नत मजबूती, हल्की गतिविधियों में वापसी' },
-          { week: 'महीना 4-6', activity: "Recovery", description: 'पूर्ण हड्डी उपचार, काम और ड्राइविंग सहित सामान्य गतिविधियों में वापसी' }
-        ],
-        tips: [
-          'वजन सहन प्रतिबंधों का सावधानीपूर्वक पालन करें - समय से पहले पूर्ण वजन सहन हार्डवेयर विफलता का कारण बन सकता है',
-          'आपके सर्जन द्वारा निर्धारित सहायक उपकरण (बैसाखी, वॉकर, बेंत) का उपयोग करें',
-          'रक्त के थक्कों को रोकने के लिए टखने पंप और पैर व्यायाम करें',
-          'सूजन कम करने के लिए पैर को बार-बार उठाएं',
-          'सर्जिकल घावों को साफ और सूखा रखें, संक्रमण के संकेतों के लिए देखें',
-          'हड्डी उपचार का समर्थन करने के लिए कैल्शियम और विटामिन डी सप्लीमेंट लें',
-          'ताकत और गतिशीलता को फिर से प्राप्त करने के लिए सभी फिजियोथेरेपी सत्रों में शामिल हों',
-          'धूम्रपान और अत्यधिक शराब से बचें क्योंकि वे हड्डी उपचार को महत्वपूर्ण रूप से बाधित करते हैं'
-        ]
-      }
-    },
-    faqs: {
-      en: [
-        { question: 'How long does it take for a femur fracture to heal?', answer: 'Most femur fractures heal in 3-6 months with proper fixation. Simple fractures heal faster (3-4 months), while complex or comminuted fractures may take 6-9 months for complete healing and bone remodeling.' },
-        { question: 'When can I start walking after femur fracture surgery?', answer: 'Weight bearing progression depends on fracture stability and fixation type. Most patients start partial weight bearing (toe-touch or 50%) at 2-6 weeks, progressing to full weight bearing by 8-12 weeks based on X-ray evidence of healing.' },
-        { question: 'Will I need hardware removal after the fracture heals?', answer: 'Hardware removal is not routinely necessary for femur fractures. Most patients keep the nail or plate permanently without issues. Removal may be considered if hardware causes pain, prominence, or if specifically requested by the patient after complete healing (usually after 18-24 months).' },
-        { question: 'What is the success rate of femur fracture fixation?', answer: 'Dr. Kumar achieves a 95% union rate for femur fractures with modern fixation techniques. Most patients return to normal activities with excellent functional outcomes. Success depends on fracture pattern, fixation quality, patient compliance, and overall health.' },
-        { question: 'What are the risks of femur fracture surgery?', answer: 'Risks include infection (2-5% for closed fractures, higher for open fractures), nonunion (failure to heal), malunion (healing in wrong position), nerve or blood vessel injury, fat embolism, hardware failure, and deep vein thrombosis. Dr. Kumar uses meticulous technique and prophylactic measures to minimize these risks.' },
-        { question: 'Can I drive after femur fracture surgery?', answer: 'Driving is typically allowed once you are off narcotic pain medications, have regained sufficient leg strength and control, and can perform an emergency stop safely. This usually takes 6-12 weeks for right leg fractures and 4-8 weeks for left leg fractures (automatic transmission).' },
-        { question: 'What is fat embolism syndrome?', answer: 'Fat embolism is a rare but serious complication where fat particles from the bone marrow enter the bloodstream, potentially affecting lungs and brain. It occurs in 1-3% of femur fractures. Early surgical fixation (within 24 hours) significantly reduces this risk. Dr. Kumar prioritizes prompt treatment to minimize this complication.' },
-        { question: 'Will my leg be the same length after surgery?', answer: 'Dr. Kumar meticulously restores leg length during surgery using fluoroscopic guidance and measurement. Minor differences (<1cm) may occur but are usually not noticeable. Proper reduction and fixation ensure excellent limb length restoration in most cases.' }
-      ],
-      hi: [
-        { question: 'फीमर फ्रैक्चर को ठीक होने में कितना समय लगता है?', answer: 'उचित फिक्सेशन के साथ अधिकांश फीमर फ्रैक्चर 3-6 महीने में ठीक हो जाते हैं। साधारण फ्रैक्चर तेजी से ठीक होते हैं (3-4 महीने), जबकि जटिल या विखंडित फ्रैक्चर पूर्ण उपचार और हड्डी पुनर्निर्माण के लिए 6-9 महीने लग सकते हैं।' },
-        { question: 'मैं फीमर फ्रैक्चर सर्जरी के बाद कब चलना शुरू कर सकता हूं?', answer: 'वजन सहन प्रगति फ्रैक्चर स्थिरता और फिक्सेशन प्रकार पर निर्भर करता है। अधिकांश रोगी 2-6 सप्ताह में आंशिक वजन सहन (पैर की अंगुली-स्पर्श या 50%) शुरू करते हैं, उपचार के एक्स-रे साक्ष्य के आधार पर 8-12 सप्ताह तक पूर्ण वजन सहन करने के लिए आगे बढ़ते हैं।' },
-        { question: 'क्या फ्रैक्चर ठीक होने के बाद मुझे हार्डवेयर हटाने की आवश्यकता होगी?', answer: 'फीमर फ्रैक्चर के लिए हार्डवेयर हटाना नियमित रूप से आवश्यक नहीं है। अधिकांश रोगी बिना किसी समस्या के स्थायी रूप से नाखून या प्लेट रखते हैं। यदि हार्डवेयर दर्द, प्रमुखता का कारण बनता है, या यदि पूर्ण उपचार के बाद रोगी द्वारा विशेष रूप से अनुरोध किया जाता है (आमतौर पर 18-24 महीने के बाद), तो हटाने पर विचार किया जा सकता है।' },
-        { question: 'फीमर फ्रैक्चर फिक्सेशन की सफलता दर क्या है?', answer: 'डॉ. कुमार आधुनिक फिक्सेशन तकनीकों के साथ फीमर फ्रैक्चर के लिए 95% संघ दर प्राप्त करते हैं। अधिकांश रोगी उत्कृष्ट कार्यात्मक परिणामों के साथ सामान्य गतिविधियों में लौट आते हैं। सफलता फ्रैक्चर पैटर्न, फिक्सेशन गुणवत्ता, रोगी अनुपालन, और समग्र स्वास्थ्य पर निर्भर करती है।' },
-        { question: 'फीमर फ्रैक्चर सर्जरी के जोखिम क्या हैं?', answer: 'जोखिमों में संक्रमण (बंद फ्रैक्चर के लिए 2-5%, खुले फ्रैक्चर के लिए अधिक), गैर-संघ (उपचार में विफलता), कुसंयोजन (गलत स्थिति में उपचार), तंत्रिका या रक्त वाहिका चोट, वसा एम्बोलिज्म, हार्डवेयर विफलता, और गहरी शिरा घनास्त्रता शामिल हैं। डॉ. कुमार इन जोखिमों को कम करने के लिए सावधानीपूर्वक तकनीक और प्रोफिलैक्टिक उपायों का उपयोग करते हैं।' },
-        { question: 'क्या मैं फीमर फ्रैक्चर सर्जरी के बाद गाड़ी चला सकता हूं?', answer: 'ड्राइविंग आमतौर पर तब की अनुमति दी जाती है जब आप नार्कोटिक दर्द दवाओं से बंद हो जाते हैं, पर्याप्त पैर शक्ति और नियंत्रण फिर से प्राप्त कर लेते हैं, और आपातकालीन रोक सुरक्षित रूप से कर सकते हैं। यह आमतौर पर दाहिने पैर के फ्रैक्चर के लिए 6-12 सप्ताह और बाएं पैर के फ्रैक्चर (स्वचालित ट्रांसमिशन) के लिए 4-8 सप्ताह लगता है।' },
-        { question: 'वसा एम्बोलिज्म सिंड्रोम क्या है?', answer: 'वसा एम्बोलिज्म एक दुर्लभ लेकिन गंभीर जटिलता है जहां अस्थि मज्जा से वसा कण रक्तप्रवाह में प्रवेश करते हैं, संभावित रूप से फेफड़ों और मस्तिष्क को प्रभावित करते हैं। यह फीमर फ्रैक्चर के 1-3% में होता है। शुरुआती सर्जिकल फिक्सेशन (24 घंटे के भीतर) इस जोखिम को महत्वपूर्ण रूप से कम करता है। डॉ. कुमार इस जटिलता को कम करने के लिए त्वरित उपचार को प्राथमिकता देते हैं।' },
-        { question: 'क्या सर्जरी के बाद मेरा पैर समान लंबाई का होगा?', answer: 'डॉ. कुमार फ्लोरोस्कोपिक मार्गदर्शन और माप का उपयोग करके सर्जरी के दौरान पैर की लंबाई को सावधानीपूर्वक बहाल करते हैं। मामूली अंतर (<1 सेमी) हो सकते हैं लेकिन आमतौर पर ध्यान देने योग्य नहीं होते हैं। उचित कमी और फिक्सेशन अधिकांश मामलों में उत्कृष्ट अंग लंबाई बहाली सुनिश्चित करता है।' }
-      ]
-    },
-    meta: {
-      en: {
-        title: 'Femur Fracture Fixation Surgery in Bihar | Thigh Bone Repair | Dr. Gurudeo Kumar',
-        description: 'Expert femur fracture fixation surgery in Patna, Bihar. Dr. Gurudeo Kumar - 280+ successful procedures, 95% union rate. Intramedullary nailing and plate fixation. Book ₹999 consultation.',
-        keywords: ['femur fracture surgery', 'thigh bone fracture repair', 'intramedullary nailing', 'femoral shaft fracture', 'trauma care Bihar', 'Dr. Gurudeo Kumar', 'Arthoscenter Patna', 'orthopedic trauma', 'femur fixation', 'long bone fracture']
-      },
-      hi: {
-        title: 'बिहार में फीमर फ्रैक्चर फिक्सेशन सर्जरी | जांघ की हड्डी मरम्मत | डॉ. गुरुदेव कुमार',
-        description: 'पटना, बिहार में विशेषज्ञ फीमर फ्रैक्चर फिक्सेशन सर्जरी। डॉ. गुरुदेव कुमार - 280+ सफल प्रक्रियाएं, 95% संघ दर। ₹999 परामर्श बुक करें।',
-        keywords: ['फीमर फ्रैक्चर सर्जरी', 'जांघ की हड्डी फ्रैक्चर मरम्मत', 'इंट्रामेडुलरी नेलिंग', 'बिहार में ट्रॉमा केयर', 'डॉ. गुरुदेव कुमार', 'अर्थोसेंटर पटना']
-      }
-    },
-    relatedSurgeries: ['tibia-fracture-fixation', 'hip-fracture-surgery', 'pelvic-fracture-fixation', 'external-fixation']
-  },
-
   'robotic-knee-replacement': {
     id: 'robotic-knee-replacement',
     category: 'joint-replacement',
@@ -4857,7 +4205,6 @@ With over 85 successful robotic knee replacements performed and a remarkable 97%
     },
     relatedSurgeries: ['total-knee-replacement', 'partial-knee-replacement', 'bilateral-knee-replacement', 'knee-revision-surgery']
   },
-
   'scoliosis-correction': {
     id: 'scoliosis-correction',
     category: 'spine-surgery',
@@ -5150,7 +4497,6 @@ At Arthoscenter Patna, we've successfully performed over 120 scoliosis correctio
     },
     relatedSurgeries: ['lumbar-spinal-fusion', 'cervical-fusion', 'spinal-decompression', 'kyphoplasty']
   },
-
   'shoulder-labral-repair': {
     id: 'shoulder-labral-repair',
     category: 'sports-medicine',
@@ -5443,7 +4789,6 @@ At Arthoscenter Patna, Dr. Kumar has successfully performed over 95 shoulder lab
     },
     relatedSurgeries: ['rotator-cuff-repair', 'shoulder-arthroscopy', 'acl-reconstruction', 'shoulder-instability-surgery']
   },
-
   'ankle-fracture-surgery': {
     id: 'ankle-fracture-surgery',
     category: 'trauma-care',
@@ -5670,7 +5015,6 @@ At Arthoscenter Patna, Dr. Kumar has successfully performed over 210 ankle fract
     },
     relatedSurgeries: ['femur-fracture-fixation', 'tibia-fracture-fixation', 'wrist-fracture-surgery', 'ankle-ligament-reconstruction']
   },
-
   'ddh-treatment': {
     id: 'ddh-treatment',
     category: 'pediatric-ortho',
@@ -6049,7 +5393,6 @@ At Arthoscenter Patna, Dr. Kumar has successfully performed over 210 ankle fract
     },
     relatedSurgeries: ['clubfoot-correction', 'osteogenesis-imperfecta-surgery', 'limb-lengthening', 'blounts-disease-treatment']
   },
-
   'robotic-hip-replacement': {
     id: 'robotic-hip-replacement',
     category: 'joint-replacement',
@@ -6442,7 +5785,6 @@ At Arthoscenter Patna, Dr. Kumar has successfully performed over 210 ankle fract
     },
     relatedSurgeries: ['total-hip-replacement', 'robotic-knee-replacement', 'hip-revision-surgery', 'bilateral-hip-replacement']
   },
-
   'artificial-disc-replacement': {
     id: 'artificial-disc-replacement',
     category: 'spine-surgery',
@@ -6813,7 +6155,6 @@ At Arthoscenter Patna, Dr. Kumar has successfully performed over 210 ankle fract
     },
     relatedSurgeries: ['lumbar-spinal-fusion', 'cervical-fusion', 'minimally-invasive-spine-surgery', 'spinal-decompression']
   },
-
   'tennis-elbow-surgery': {
     id: 'tennis-elbow-surgery',
     category: 'sports-medicine',
@@ -7164,7 +6505,6 @@ At Arthoscenter Patna, Dr. Kumar has successfully performed over 210 ankle fract
     },
     relatedSurgeries: ['rotator-cuff-repair', 'golfers-elbow-surgery', 'elbow-arthroscopy', 'ulnar-nerve-transposition']
   },
-
   'pelvic-fracture-fixation': {
     id: 'pelvic-fracture-fixation',
     category: 'trauma-care',
@@ -7519,368 +6859,6 @@ At Arthoscenter Patna, Dr. Kumar has successfully performed over 210 ankle fract
     },
     relatedSurgeries: ['femur-fracture-fixation', 'acetabular-fracture-surgery', 'hip-dislocation-treatment', 'polytrauma-management']
   },
-
-  'clubfoot-correction': {
-    id: 'clubfoot-correction',
-    category: 'pediatric-ortho',
-    slug: 'clubfoot-correction',
-    title: {
-      en: 'Clubfoot Correction Surgery (CTEV)',
-      hi: 'क्लबफुट करेक्शन सर्जरी (CTEV)'
-    },
-    shortDesc: {
-      en: 'Specialized surgical correction of congenital clubfoot deformity in children, restoring normal foot alignment and function for proper walking development',
-      hi: 'बच्चों में जन्मजात क्लबफुट विकृति का विशेष सर्जिकल सुधार, उचित चलने के विकास के लिए सामान्य पैर संरेखण और कार्य को बहाल करना'
-    },
-    overview: {
-      en: 'Dr. Gurudeo Kumar is Bihar\'s leading pediatric orthopaedic surgeon specializing in clubfoot correction, having successfully treated over 250 children with congenital talipes equinovarus (CTEV) at Arthoscenter Patna. Clubfoot is a common congenital foot deformity affecting 1 in 1,000 births, where the foot is twisted inward and downward, making it difficult or impossible to walk normally. Dr. Kumar employs a comprehensive, evidence-based approach starting with the Ponseti method - a minimally invasive casting technique that successfully corrects clubfoot in 95% of cases without major surgery. For complex, resistant, or relapsed cases, he performs specialized surgical procedures including soft tissue releases, tendon transfers, and bony corrections. His expertise encompasses all severity levels from mild, flexible deformities to severe, rigid cases requiring extensive reconstruction. Early treatment within the first weeks of life yields the best outcomes, though Dr. Kumar successfully treats children of all ages including neglected cases. The goal of treatment is to achieve a functional, pain-free, plantigrade foot that allows normal shoe wear and activities without limitation. With gentle Ponseti manipulation, precise surgical technique, and dedicated post-operative bracing protocols, Dr. Kumar achieves excellent long-term functional outcomes with 92% patient satisfaction and minimal recurrence rates.',
-      hi: 'डॉ. गुरुदेव कुमार बिहार के अग्रणी बाल चिकित्सा आर्थोपेडिक सर्जन हैं जो क्लबफुट सुधार में विशेषज्ञता रखते हैं, अर्थोसेंटर पटना में जन्मजात टेलीप्स इक्विनोवेरस (CTEV) वाले 250 से अधिक बच्चों का सफलतापूर्वक इलाज किया है। क्लबफुट एक सामान्य जन्मजात पैर विकृति है जो 1,000 में से 1 जन्म को प्रभावित करती है, जहां पैर अंदर और नीचे की ओर मुड़ा होता है, जिससे सामान्य रूप से चलना मुश्किल या असंभव हो जाता है। डॉ. कुमार एक व्यापक, साक्ष्य-आधारित दृष्टिकोण का उपयोग करते हैं जो पोंसेटी विधि से शुरू होता है - एक न्यूनतम इनवेसिव कास्टिंग तकनीक जो बिना बड़ी सर्जरी के 95% मामलों में क्लबफुट को सफलतापूर्वक ठीक करती है। जटिल, प्रतिरोधी या पुनरावृत्ति मामलों के लिए, वे सॉफ्ट टिश्यू रिलीज, टेंडन ट्रांसफर और हड्डी सुधार सहित विशेष सर्जिकल प्रक्रियाएं करते हैं। उनकी विशेषज्ञता हल्की, लचीली विकृतियों से लेकर व्यापक पुनर्निर्माण की आवश्यकता वाले गंभीर, कठोर मामलों तक सभी गंभीरता स्तरों को शामिल करती है। जीवन के पहले हफ्तों के भीतर प्रारंभिक उपचार सर्वोत्तम परिणाम देता है, हालांकि डॉ. कुमार उपेक्षित मामलों सहित सभी उम्र के बच्चों का सफलतापूर्वक इलाज करते हैं। उपचार का लक्ष्य एक कार्यात्मक, दर्द-मुक्त, प्लांटिग्रेड पैर प्राप्त करना है जो बिना किसी सीमा के सामान्य जूता पहनने और गतिविधियों की अनुमति देता है। कोमल पोंसेटी हेरफेर, सटीक सर्जिकल तकनीक, और समर्पित पोस्ट-ऑपरेटिव ब्रेसिंग प्रोटोकॉल के साथ, डॉ. कुमार 92% रोगी संतुष्टि और न्यूनतम पुनरावृत्ति दरों के साथ उत्कृष्ट दीर्घकालिक कार्यात्मक परिणाम प्राप्त करते हैं।'
-    },
-    symptoms: {
-      en: [
-        'Foot turned inward and downward at birth (equinovarus position)',
-        'Calf muscles underdeveloped on affected side',
-        'Affected foot appears smaller and shorter than normal foot',
-        'Deep crease on inside of foot and behind ankle',
-        'Inability to move foot to normal position',
-        'Tight Achilles tendon causing heel to point downward',
-        'Forefoot adducted (turned inward toward midline)',
-        'Heel in varus position (turned inward)',
-        'Difficulty or inability to walk normally (if untreated)',
-        'Walking on outside edge of foot instead of sole (in older untreated children)'
-      ],
-      hi: [
-        'जन्म के समय पैर अंदर और नीचे की ओर मुड़ा हुआ (इक्विनोवेरस स्थिति)',
-        'प्रभावित पक्ष पर पिंडली की मांसपेशियां अविकसित',
-        'प्रभावित पैर सामान्य पैर से छोटा और छोटा दिखाई देता है',
-        'पैर के अंदर और टखने के पीछे गहरी क्रीज',
-        'पैर को सामान्य स्थिति में ले जाने में असमर्थता',
-        'एड़ी को नीचे की ओर इशारा करने का कारण बनने वाला टाइट एच्लीस टेंडन',
-        'अग्रपाद एडक्टेड (मध्य रेखा की ओर अंदर की ओर मुड़ा हुआ)',
-        'वेरस स्थिति में एड़ी (अंदर की ओर मुड़ी हुई)',
-        'सामान्य रूप से चलने में कठिनाई या असमर्थता (यदि अनुपचारित)',
-        'तलवे के बजाय पैर के बाहरी किनारे पर चलना (बड़े अनुपचारित बच्चों में)'
-      ]
-    },
-    procedure: {
-      preparation: {
-        en: 'For surgical correction, pre-operative preparation includes comprehensive clinical examination assessing deformity severity and flexibility, X-rays of affected foot and ankle to evaluate bone alignment, assessment of previous Ponseti treatment history if applicable, evaluation for any associated neuromuscular conditions, pre-operative counseling with parents about realistic expectations and post-operative bracing requirements, discontinuation of feeding 4-6 hours before surgery for infants, medical clearance ensuring child is healthy for anesthesia, marking of surgical site, and detailed consent discussion covering surgical approach and potential complications.',
-        hi: 'सर्जिकल सुधार के लिए, प्री-ऑपरेटिव तैयारी में विकृति गंभीरता और लचीलापन का आकलन करने वाली व्यापक नैदानिक परीक्षा, हड्डी संरेखण का मूल्यांकन करने के लिए प्रभावित पैर और टखने के एक्स-रे, यदि लागू हो तो पिछले पोंसेटी उपचार इतिहास का मूल्यांकन, किसी भी संबंधित न्यूरोमस्कुलर स्थितियों के लिए मूल्यांकन, वास्तविक अपेक्षाओं और पोस्ट-ऑपरेटिव ब्रेसिंग आवश्यकताओं के बारे में माता-पिता के साथ प्री-ऑपरेटिव परामर्श, शिशुओं के लिए सर्जरी से 4-6 घंटे पहले भोजन की बंदी, एनेस्थीसिया के लिए बच्चे के स्वस्थ होने की चिकित्सा मंजूरी, सर्जिकल साइट का अंकन, और सर्जिकल दृष्टिकोण और संभावित जटिलताओं को शामिल करते हुए विस्तृत सहमति चर्चा शामिल है।'
-      },
-      steps: {
-        en: [
-          'Child positioned supine on operating table with affected leg accessible',
-          'General anesthesia administered appropriate for child\'s age and weight',
-          'Tourniquet applied to thigh to minimize bleeding',
-          'Surgical site cleaned and draped maintaining sterile field',
-          'Cincinnati incision made - single circumferential incision around heel',
-          'Careful dissection exposing posterior, medial, and lateral structures',
-          'Posterior capsule of ankle joint released',
-          'Achilles tendon lengthened (Z-plasty or percutaneous tenotomy)',
-          'Posterior tibial tendon sheath released',
-          'Medial subtalar and talonavicular joint capsules released',
-          'Plantar fascia released if needed for severe cavus',
-          'Calcaneocuboid joint released laterally',
-          'Gentle foot manipulation to correct all deformity components',
-          'Temporary K-wires inserted to maintain correction if needed',
-          'Comprehensive release verified with intraoperative assessment',
-          'Hemostasis achieved and tourniquet released',
-          'Wound closed in layers with absorbable sutures',
-          'Well-padded long leg cast applied with foot in corrected position',
-          'Child monitored in recovery until fully awake'
-        ],
-        hi: [
-          'बच्चे को ऑपरेटिंग टेबल पर सुपाइन स्थिति में प्रभावित पैर तक पहुंच के साथ रखा गया',
-          'बच्चे की उम्र और वजन के लिए उपयुक्त सामान्य एनेस्थीसिया दिया गया',
-          'रक्तस्राव को कम करने के लिए जांघ पर टूर्निकेट लगाया गया',
-          'बाँझ क्षेत्र बनाए रखते हुए सर्जिकल साइट साफ और ड्रेप की गई',
-          'सिनसिनाटी चीरा बनाया गया - एड़ी के चारों ओर एकल परिधीय चीरा',
-          'पोस्टीरियर, मेडियल और लेटरल संरचनाओं को उजागर करते हुए सावधानीपूर्वक विच्छेदन',
-          'टखने के जोड़ का पोस्टीरियर कैप्सूल रिलीज़',
-          'एच्लीस टेंडन लंबा किया गया (Z-प्लास्टी या पर्क्यूटेनियस टेनोटॉमी)',
-          'पोस्टीरियर टिबियल टेंडन शीथ रिलीज़',
-          'मेडियल सबटालर और टैलोनेविकुलर जोड़ कैप्सूल रिलीज़',
-          'गंभीर कैवस के लिए यदि आवश्यक हो तो प्लांटर फेशिया रिलीज़',
-          'लेटरली कैल्केनियोक्यूबॉइड जोड़ रिलीज़',
-          'सभी विकृति घटकों को ठीक करने के लिए कोमल पैर हेरफेर',
-          'यदि आवश्यक हो तो सुधार बनाए रखने के लिए अस्थायी K-वायर डाले गए',
-          'इंट्राऑपरेटिव मूल्यांकन के साथ व्यापक रिलीज़ सत्यापित',
-          'हेमोस्टेसिस प्राप्त और टूर्निकेट रिलीज़',
-          'अवशोषक सीवन के साथ परतों में घाव बंद',
-          'सही स्थिति में पैर के साथ अच्छी तरह से गद्देदार लंबी पैर कास्ट लागू',
-          'रिकवरी में बच्चे की निगरानी जब तक पूरी तरह से जाग नहीं जाता'
-        ]
-      },
-      duration: {
-        en: '1.5-3 hours depending on deformity severity and whether unilateral or bilateral',
-        hi: 'विकृति गंभीरता और एकतरफा या द्विपक्षीय होने के आधार पर 1.5-3 घंटे'
-      },
-      anesthesia: {
-        en: 'General anesthesia appropriate for child\'s age',
-        hi: 'बच्चे की उम्र के लिए उपयुक्त सामान्य एनेस्थीसिया'
-      }
-    },
-    recovery: {
-      timeline: {
-        en: [
-          {
-            phase: 'Hospital Recovery (Days 1-2)',
-            duration: '1-2 days',
-            activities: [
-              'Pain management with age-appropriate analgesics',
-              'Monitoring for compartment syndrome signs',
-              'Elevation of casted leg to reduce swelling',
-              'Assessment of toe circulation and sensation',
-              'Parent education on cast care and warning signs',
-              'Feeding assistance if needed post-anesthesia',
-              'Discharge planning and follow-up scheduling'
-            ],
-            tips: 'Watch for excessive crying indicating pain, toe discoloration, swelling, or foul cast odor. Keep cast dry and elevated. Seek immediate care if toes become cold, blue, or numb.'
-          },
-          {
-            phase: 'Initial Cast Period (Weeks 1-6)',
-            duration: '6-8 weeks',
-            activities: [
-              'Long leg cast maintained in corrected position',
-              'Weekly cast changes initially to adjust as swelling decreases',
-              'Progressive correction maintained with serial casting if needed',
-              'Gentle range-of-motion of toes and knee',
-              'Normal feeding, sleeping, and developmental activities',
-              'Cast care: keeping dry, preventing foreign objects inside',
-              'Regular monitoring of toe color, warmth, movement'
-            ],
-            tips: 'Never get cast wet. Do not insert objects into cast. Check toes frequently. Mild swelling is normal but severe swelling, pain, or color changes require immediate attention.'
-          },
-          {
-            phase: 'Short Cast Period (Weeks 6-12)',
-            duration: '6 weeks',
-            activities: [
-              'Transition to short leg cast or walking cast',
-              'Gradual weight bearing as appropriate for age',
-              'Cast changes every 2-3 weeks',
-              'Continued protection of surgical correction',
-              'X-rays to assess bone alignment and healing',
-              'Preparation for transition to bracing',
-              'Assessment of foot flexibility and position'
-            ],
-            tips: 'Child may be more active in short cast. Ensure cast edges don\'t cause pressure sores. Maintain elevation when resting. Normal crying and fussiness expected during adjustment.'
-          },
-          {
-            phase: 'Transition to Bracing (Months 3-4)',
-            duration: '1-2 months',
-            activities: [
-              'Cast removal and gentle cleaning of foot',
-              'Custom foot abduction brace (FAB) or Denis Browne splint fitting',
-              'Parent education on proper brace application and wear schedule',
-              'Initial full-time bracing (23 hours per day)',
-              'Short periods out of brace for bathing and gentle exercises',
-              'Skin monitoring for pressure areas or irritation',
-              'Regular follow-up to adjust brace as child grows'
-            ],
-            tips: 'Brace compliance is CRITICAL to prevent recurrence. Start with short wear periods and gradually increase. Use soft clothing under straps. Check skin frequently. Most recurrences occur due to inadequate bracing.'
-          },
-          {
-            phase: 'Extended Bracing (Months 4-48)',
-            duration: '2-4 years',
-            activities: [
-              'Gradual transition to nighttime-only bracing (typically after 3-4 months)',
-              'Brace worn during all sleep periods (naps and nighttime)',
-              'Normal walking and developmental activities during day',
-              'Regular brace adjustments for growth',
-              'Gentle stretching exercises as prescribed',
-              'Monitoring for any deformity recurrence',
-              'Periodic clinical and X-ray evaluations'
-            ],
-            tips: 'Nighttime bracing must continue until age 4-5 years to prevent recurrence. Create positive bedtime routine with brace. Most children adapt well after initial adjustment. Consistency is key to success.'
-          },
-          {
-            phase: 'Long-term Follow-up (Years 4+)',
-            duration: 'Until skeletal maturity',
-            activities: [
-              'Bracing discontinued around age 4-5 years',
-              'Annual monitoring for recurrence or residual deformity',
-              'Assessment of gait, shoe wear, and activity participation',
-              'Foot and ankle range-of-motion exercises',
-              'Normal sports and physical activities as tolerated',
-              'Monitoring during growth spurts',
-              'Intervention if any recurrence detected early'
-            ],
-            tips: 'Most children achieve normal or near-normal function. Affected leg/foot may be slightly smaller - this is normal. Annual check-ups important through adolescence. Early detection of recurrence allows easier treatment.'
-          }
-        ],
-        hi: [
-          {
-            phase: 'अस्पताल में ठीक होना (दिन 1-2)',
-            duration: '1-2 दिन',
-            activities: [
-              'उम्र-उपयुक्त एनाल्जेसिक के साथ दर्द प्रबंधन',
-              'कम्पार्टमेंट सिंड्रोम संकेतों की निगरानी',
-              'सूजन को कम करने के लिए कास्ट किए गए पैर को ऊंचा करना',
-              'पैर की अंगुली परिसंचरण और संवेदना का आकलन',
-              'कास्ट केयर और चेतावनी संकेतों पर माता-पिता शिक्षा',
-              'एनेस्थीसिया के बाद यदि आवश्यक हो तो भोजन सहायता',
-              'डिस्चार्ज योजना और फॉलो-अप शेड्यूलिंग'
-            ],
-            tips: 'दर्द का संकेत देने वाले अत्यधिक रोने, पैर की अंगुली का रंग बदलना, सूजन, या बदबूदार कास्ट गंध के लिए देखें। कास्ट को सूखा और ऊंचा रखें। यदि पैर की अंगुलियां ठंडी, नीली या सुन्न हो जाती हैं तो तत्काल देखभाल लें।'
-          },
-          {
-            phase: 'प्रारंभिक कास्ट अवधि (सप्ताह 1-6)',
-            duration: '6-8 सप्ताह',
-            activities: [
-              'सही स्थिति में लंबी पैर कास्ट बनाए रखी गई',
-              'सूजन कम होने के साथ समायोजित करने के लिए शुरू में साप्ताहिक कास्ट बदलाव',
-              'यदि आवश्यक हो तो सीरियल कास्टिंग के साथ प्रगतिशील सुधार बनाए रखा गया',
-              'पैर की अंगुलियों और घुटने की कोमल रेंज-ऑफ-मोशन',
-              'सामान्य भोजन, नींद और विकासात्मक गतिविधियां',
-              'कास्ट केयर: सूखा रखना, अंदर विदेशी वस्तुओं को रोकना',
-              'पैर की अंगुली के रंग, गर्मी, गति की नियमित निगरानी'
-            ],
-            tips: 'कभी भी कास्ट को गीला न करें। कास्ट में वस्तुएं न डालें। बार-बार पैर की अंगुलियों की जांच करें। हल्की सूजन सामान्य है लेकिन गंभीर सूजन, दर्द या रंग परिवर्तन तत्काल ध्यान की आवश्यकता है।'
-          },
-          {
-            phase: 'शॉर्ट कास्ट अवधि (सप्ताह 6-12)',
-            duration: '6 सप्ताह',
-            activities: [
-              'शॉर्ट लेग कास्ट या वॉकिंग कास्ट में संक्रमण',
-              'उम्र के लिए उपयुक्त क्रमिक वेट बेयरिंग',
-              'हर 2-3 सप्ताह में कास्ट बदलाव',
-              'सर्जिकल सुधार की निरंतर सुरक्षा',
-              'हड्डी संरेखण और उपचार का आकलन करने के लिए एक्स-रे',
-              'ब्रेसिंग में संक्रमण के लिए तैयारी',
-              'पैर लचीलापन और स्थिति का आकलन'
-            ],
-            tips: 'बच्चा शॉर्ट कास्ट में अधिक सक्रिय हो सकता है। सुनिश्चित करें कि कास्ट किनारों से प्रेशर सोर्स न हों। आराम करते समय ऊंचाई बनाए रखें। समायोजन के दौरान सामान्य रोना और उधम अपेक्षित है।'
-          },
-          {
-            phase: 'ब्रेसिंग में संक्रमण (महीने 3-4)',
-            duration: '1-2 महीने',
-            activities: [
-              'कास्ट हटाना और पैर की कोमल सफाई',
-              'कस्टम फुट एब्डक्शन ब्रेस (FAB) या डेनिस ब्राउन स्प्लिंट फिटिंग',
-              'उचित ब्रेस आवेदन और पहनने के कार्यक्रम पर माता-पिता शिक्षा',
-              'प्रारंभिक पूर्णकालिक ब्रेसिंग (दिन में 23 घंटे)',
-              'स्नान और कोमल व्यायाम के लिए ब्रेस से बाहर छोटी अवधि',
-              'दबाव क्षेत्रों या जलन के लिए त्वचा निगरानी',
-              'बच्चे के बढ़ने के साथ ब्रेस को समायोजित करने के लिए नियमित फॉलो-अप'
-            ],
-            tips: 'पुनरावृत्ति को रोकने के लिए ब्रेस अनुपालन महत्वपूर्ण है। छोटी पहनने की अवधि से शुरू करें और धीरे-धीरे बढ़ाएं। पट्टियों के नीचे नरम कपड़े का उपयोग करें। त्वचा की बार-बार जांच करें। अधिकांश पुनरावृत्ति अपर्याप्त ब्रेसिंग के कारण होती है।'
-          },
-          {
-            phase: 'विस्तारित ब्रेसिंग (महीने 4-48)',
-            duration: '2-4 साल',
-            activities: [
-              'रात के समय-केवल ब्रेसिंग में क्रमिक संक्रमण (आमतौर पर 3-4 महीने के बाद)',
-              'सभी नींद अवधि (झपकी और रात के समय) के दौरान ब्रेस पहना जाता है',
-              'दिन के दौरान सामान्य चलना और विकासात्मक गतिविधियां',
-              'विकास के लिए नियमित ब्रेस समायोजन',
-              'निर्धारित के रूप में कोमल स्ट्रेचिंग व्यायाम',
-              'किसी भी विकृति पुनरावृत्ति की निगरानी',
-              'आवधिक नैदानिक और एक्स-रे मूल्यांकन'
-            ],
-            tips: 'पुनरावृत्ति को रोकने के लिए रात के समय ब्रेसिंग उम्र 4-5 साल तक जारी रहनी चाहिए। ब्रेस के साथ सकारात्मक सोने का समय दिनचर्या बनाएं। अधिकांश बच्चे प्रारंभिक समायोजन के बाद अच्छी तरह से अनुकूलित होते हैं। सफलता की कुंजी स्थिरता है।'
-          },
-          {
-            phase: 'दीर्घकालिक फॉलो-अप (वर्ष 4+)',
-            duration: 'कंकाल परिपक्वता तक',
-            activities: [
-              'उम्र 4-5 साल के आसपास ब्रेसिंग बंद',
-              'पुनरावृत्ति या अवशिष्ट विकृति के लिए वार्षिक निगरानी',
-              'चाल, जूता पहनना और गतिविधि भागीदारी का मूल्यांकन',
-              'पैर और टखने की रेंज-ऑफ-मोशन व्यायाम',
-              'सहन के रूप में सामान्य खेल और शारीरिक गतिविधियां',
-              'विकास स्पर्ट के दौरान निगरानी',
-              'यदि कोई पुनरावृत्ति जल्दी पता चला तो हस्तक्षेप'
-            ],
-            tips: 'अधिकांश बच्चे सामान्य या लगभग सामान्य कार्य प्राप्त करते हैं। प्रभावित पैर/पैर थोड़ा छोटा हो सकता है - यह सामान्य है। किशोरावस्था के माध्यम से वार्षिक जांच महत्वपूर्ण है। पुनरावृत्ति का शीघ्र पता लगाने से आसान उपचार की अनुमति मिलती है।'
-          }
-        ]
-      },
-      hospitalStay: {
-        en: '1-2 days for surgical correction',
-        hi: 'सर्जिकल सुधार के लिए 1-2 दिन'
-      },
-      returnToNormal: {
-        en: 'Normal walking by 12-18 months post-surgery with proper bracing compliance, full activity participation by age 4-5 years',
-        hi: 'उचित ब्रेसिंग अनुपालन के साथ सर्जरी के 12-18 महीने बाद सामान्य चलना, उम्र 4-5 साल तक पूर्ण गतिविधि भागीदारी'
-      }
-    },
-    faqs: [
-      {
-        question: {
-          en: 'Can clubfoot be treated without surgery using the Ponseti method?',
-          hi: 'क्या पोंसेटी विधि का उपयोग करके सर्जरी के बिना क्लबफुट का इलाज किया जा सकता है?'
-        },
-        answer: {
-          en: 'Yes, the Ponseti method is the gold standard first-line treatment for clubfoot and successfully corrects most cases (95%) without major surgery. This conservative approach involves weekly gentle manipulation and casting starting in the first weeks of life, typically requiring 5-8 casts over 5-8 weeks to progressively correct the deformity. Most children then need a minor Achilles tendon release (percutaneous tenotomy) - a simple office procedure - followed by long-term bracing to maintain correction. Dr. Kumar strongly advocates the Ponseti method as initial treatment for all clubfoot cases. Surgery is reserved for: (1) Complex or severe rigid deformities not responding to Ponseti casting, (2) Relapsed cases where deformity returns despite proper bracing, (3) Neglected cases in older children where soft tissue contractures are too severe for casting alone, (4) Atypical clubfoot associated with neuromuscular conditions. Even when surgery is needed, prior Ponseti treatment often makes the surgical correction easier with better outcomes. The key to Ponseti success is early initiation (ideally within 2 weeks of birth), gentle manipulation by trained providers, and strict adherence to long-term bracing protocols.',
-          hi: 'हां, पोंसेटी विधि क्लबफुट के लिए स्वर्ण मानक प्रथम-पंक्ति उपचार है और बिना बड़ी सर्जरी के अधिकांश मामलों (95%) को सफलतापूर्वक ठीक करती है। इस रूढ़िवादी दृष्टिकोण में जीवन के पहले हफ्तों में शुरू होने वाली साप्ताहिक कोमल हेरफेर और कास्टिंग शामिल है, आमतौर पर विकृति को प्रगतिशील रूप से ठीक करने के लिए 5-8 सप्ताह में 5-8 कास्ट की आवश्यकता होती है। अधिकांश बच्चों को फिर एक मामूली एच्लीस टेंडन रिलीज़ (पर्क्यूटेनियस टेनोटॉमी) की आवश्यकता होती है - एक सरल कार्यालय प्रक्रिया - जिसके बाद सुधार बनाए रखने के लिए दीर्घकालिक ब्रेसिंग होती है। डॉ. कुमार सभी क्लबफुट मामलों के लिए प्रारंभिक उपचार के रूप में पोंसेटी विधि की दृढ़ता से वकालत करते हैं। सर्जरी के लिए आरक्षित है: (1) पोंसेटी कास्टिंग का जवाब नहीं देने वाली जटिल या गंभीर कठोर विकृतियां, (2) उचित ब्रेसिंग के बावजूद विकृति वापस आने वाले पुनरावृत्ति मामले, (3) बड़े बच्चों में उपेक्षित मामले जहां सॉफ्ट टिश्यू कॉन्ट्रैक्चर अकेले कास्टिंग के लिए बहुत गंभीर हैं, (4) न्यूरोमस्कुलर स्थितियों से जुड़े एटिपिकल क्लबफुट। यहां तक कि जब सर्जरी की आवश्यकता होती है, तो पूर्व पोंसेटी उपचार अक्सर बेहतर परिणामों के साथ सर्जिकल सुधार को आसान बनाता है। पोंसेटी सफलता की कुंजी शीघ्र शुरुआत (आदर्श रूप से जन्म के 2 सप्ताह के भीतर), प्रशिक्षित प्रदाताओं द्वारा कोमल हेरफेर, और दीर्घकालिक ब्रेसिंग प्रोटोकॉल का सख्त पालन है।'
-        }
-      },
-      {
-        question: {
-          en: 'What happens if my child doesn\'t wear the brace as prescribed after clubfoot correction?',
-          hi: 'यदि मेरा बच्चा क्लबफुट सुधार के बाद निर्धारित के रूप में ब्रेस नहीं पहनता है तो क्या होता है?'
-        },
-        answer: {
-          en: 'Bracing compliance is THE most critical factor determining long-term clubfoot correction success. Without proper bracing, recurrence (return of the deformity) occurs in up to 80% of cases. With strict brace compliance, recurrence drops to less than 10%. The foot abduction brace must be worn 23 hours/day for the first 3-4 months post-treatment, then during all sleep times (nighttime and naps) until age 4-5 years. This extended bracing period is necessary because: (1) The corrected soft tissues remain "plastic" and tend to drift back to deformed position without constant guidance, (2) Muscle imbalances that caused initial clubfoot persist and pull foot into deformity without external support, (3) The brain\'s neuromuscular patterns need retraining over years to maintain correction. If recurrence occurs due to inadequate bracing, treatment options include: resuming aggressive bracing if caught early, repeat Ponseti casting, or surgical correction which is more extensive than the initial treatment would have been. Dr. Kumar emphasizes that while surgery can correct anatomy, parents control the ultimate outcome through bracing compliance. Most families find that establishing a consistent routine makes bracing easier - children adapt remarkably well when braces are simply part of bedtime routine from infancy.',
-          hi: 'ब्रेसिंग अनुपालन दीर्घकालिक क्लबफुट सुधार सफलता निर्धारित करने वाला सबसे महत्वपूर्ण कारक है। उचित ब्रेसिंग के बिना, पुनरावृत्ति (विकृति की वापसी) 80% मामलों में होती है। सख्त ब्रेस अनुपालन के साथ, पुनरावृत्ति 10% से कम हो जाती है। उपचार के बाद पहले 3-4 महीनों के लिए फुट एब्डक्शन ब्रेस 23 घंटे/दिन पहना जाना चाहिए, फिर उम्र 4-5 साल तक सभी नींद के समय (रात के समय और झपकी) के दौरान। यह विस्तारित ब्रेसिंग अवधि आवश्यक है क्योंकि: (1) सही सॉफ्ट टिश्यू "प्लास्टिक" बने रहते हैं और निरंतर मार्गदर्शन के बिना विकृत स्थिति में वापस जाने की प्रवृत्ति रखते हैं, (2) मांसपेशी असंतुलन जो प्रारंभिक क्लबफुट का कारण बनते हैं वे बने रहते हैं और बाहरी समर्थन के बिना पैर को विकृति में खींचते हैं, (3) मस्तिष्क के न्यूरोमस्कुलर पैटर्न को सुधार बनाए रखने के लिए वर्षों में पुन: प्रशिक्षण की आवश्यकता होती है। यदि अपर्याप्त ब्रेसिंग के कारण पुनरावृत्ति होती है, तो उपचार विकल्पों में शामिल हैं: यदि जल्दी पकड़ा गया तो आक्रामक ब्रेसिंग फिर से शुरू करना, पोंसेटी कास्टिंग दोहराना, या सर्जिकल सुधार जो प्रारंभिक उपचार से अधिक व्यापक होता। डॉ. कुमार जोर देते हैं कि जबकि सर्जरी शरीर रचना को ठीक कर सकती है, माता-पिता ब्रेसिंग अनुपालन के माध्यम से अंतिम परिणाम को नियंत्रित करते हैं। अधिकांश परिवारों को पता चलता है कि एक सुसंगत दिनचर्या स्थापित करने से ब्रेसिंग आसान हो जाती है - बच्चे शिशु अवस्था से सोने के समय की दिनचर्या का हिस्सा बनने पर ब्रेस के साथ अविश्वसनीय रूप से अच्छी तरह से अनुकूलित होते हैं।'
-        }
-      },
-      {
-        question: {
-          en: 'Will my child be able to walk, run, and play sports normally after clubfoot treatment?',
-          hi: 'क्या मेरा बच्चा क्लबफुट उपचार के बाद सामान्य रूप से चलने, दौड़ने और खेल खेलने में सक्षम होगा?'
-        },
-        answer: {
-          en: 'Yes! With proper treatment and bracing compliance, the vast majority of children with clubfoot achieve excellent functional outcomes and participate fully in sports and activities without limitation. Research shows that properly treated clubfoot children: (1) Walk normally with no noticeable limp in over 90% of cases, (2) Participate in all sports including running, soccer, cricket, dancing, and competitive athletics, (3) Have no more pain or disability than children born without clubfoot, (4) Can wear normal shoes without special modifications. However, parents should be aware: The affected foot/leg may be 1-2 cm shorter and 1-2 shoe sizes smaller than the unaffected side - this difference is permanent but rarely causes functional problems. Some mild stiffness in ankle motion may persist but usually doesn\'t limit activities. Muscle bulk in the affected calf remains slightly smaller. These cosmetic differences are normal and expected, not treatment failures. Dr. Kumar has treated many children who have gone on to excel in sports - he emphasizes that clubfoot is a highly treatable condition that should not limit a child\'s potential. The key is: (1) Early treatment initiation, (2) Strict bracing compliance, (3) Prompt treatment of any recurrence, (4) Regular monitoring through adolescence. With this approach, your child should expect a normal, active life.',
-          hi: 'हां! उचित उपचार और ब्रेसिंग अनुपालन के साथ, क्लबफुट वाले बच्चों का विशाल बहुमत उत्कृष्ट कार्यात्मक परिणाम प्राप्त करता है और बिना किसी सीमा के खेल और गतिविधियों में पूरी तरह से भाग लेता है। शोध से पता चलता है कि ठीक से इलाज किए गए क्लबफुट बच्चे: (1) 90% से अधिक मामलों में बिना किसी ध्यान देने योग्य लंगड़ापन के सामान्य रूप से चलते हैं, (2) दौड़ना, फुटबॉल, क्रिकेट, नृत्य और प्रतिस्पर्धी एथलेटिक्स सहित सभी खेलों में भाग लेते हैं, (3) क्लबफुट के बिना पैदा हुए बच्चों की तुलना में अधिक दर्द या विकलांगता नहीं है, (4) विशेष संशोधनों के बिना सामान्य जूते पहन सकते हैं। हालांकि, माता-पिता को जागरूक होना चाहिए: प्रभावित पैर/पैर अप्रभावित पक्ष से 1-2 सेमी छोटा और 1-2 जूता आकार छोटा हो सकता है - यह अंतर स्थायी है लेकिन शायद ही कभी कार्यात्मक समस्याएं पैदा करता है। टखने की गति में कुछ हल्की कठोरता बनी रह सकती है लेकिन आमतौर पर गतिविधियों को सीमित नहीं करती है। प्रभावित पिंडली में मांसपेशी थोक थोड़ा छोटा रहता है। ये कॉस्मेटिक अंतर सामान्य और अपेक्षित हैं, उपचार विफलताओं नहीं। डॉ. कुमार ने कई बच्चों का इलाज किया है जो खेलों में उत्कृष्टता प्राप्त करने के लिए चले गए हैं - वे जोर देते हैं कि क्लबफुट एक अत्यधिक इलाज योग्य स्थिति है जो बच्चे की क्षमता को सीमित नहीं करनी चाहिए। कुंजी है: (1) शीघ्र उपचार शुरुआत, (2) सख्त ब्रेसिंग अनुपालन, (3) किसी भी पुनरावृत्ति का त्वरित उपचार, (4) किशोरावस्था के माध्यम से नियमित निगरानी। इस दृष्टिकोण के साथ, आपका बच्चा एक सामान्य, सक्रिय जीवन की उम्मीद कर सकता है।'
-        }
-      },
-      {
-        question: {
-          en: 'At what age should clubfoot treatment begin for best results?',
-          hi: 'सर्वोत्तम परिणामों के लिए क्लबफुट उपचार किस उम्र में शुरू होना चाहिए?'
-        },
-        answer: {
-          en: 'The earlier treatment begins, the better the outcomes. Ideal timing: (1) First Ponseti cast should be applied within the first 1-2 weeks of life - newborn soft tissues are maximally pliable and respond best to manipulation, (2) Starting within first month still achieves excellent results, (3) Treatment initiated within first 3-6 months is still very effective. Why early treatment matters: Infant foot tissues are soft, pliable, and highly responsive to gradual correction forces. Ligaments and joint capsules haven\'t yet developed significant contractures. Fewer casts are typically needed (5-6 versus 8-10 for older children). Correction is achieved more quickly and easily. However, it\'s never too late to seek treatment! Dr. Kumar successfully treats "neglected" clubfoot in older children, teenagers, and even adults, though these cases: Require more extensive surgical release procedures. Need longer treatment duration. May not achieve quite as complete correction as early infant treatment. May have some permanent limitations. Parents who notice their newborn has clubfoot should seek evaluation immediately - don\'t "wait and see" as deformity worsens over time without treatment. Clubfoot detected on prenatal ultrasound allows parents to arrange consultation with Dr. Kumar before delivery for immediate post-birth treatment initiation.',
-          hi: 'उपचार जितनी जल्दी शुरू होता है, परिणाम उतने ही बेहतर होते हैं। आदर्श समय: (1) पहला पोंसेटी कास्ट जीवन के पहले 1-2 सप्ताह के भीतर लगाया जाना चाहिए - नवजात सॉफ्ट टिश्यू अधिकतम लचीले होते हैं और हेरफेर के लिए सबसे अच्छी प्रतिक्रिया देते हैं, (2) पहले महीने के भीतर शुरू करना अभी भी उत्कृष्ट परिणाम प्राप्त करता है, (3) पहले 3-6 महीनों के भीतर शुरू किया गया उपचार अभी भी बहुत प्रभावी है। शीघ्र उपचार क्यों मायने रखता है: शिशु पैर ऊतक नरम, लचीले और क्रमिक सुधार बलों के लिए अत्यधिक उत्तरदायी होते हैं। लिगामेंट और जोड़ कैप्सूल ने अभी तक महत्वपूर्ण कॉन्ट्रैक्चर विकसित नहीं किए हैं। आमतौर पर कम कास्ट की आवश्यकता होती है (बड़े बच्चों के लिए 5-6 बनाम 8-10)। सुधार अधिक तेज़ी से और आसानी से प्राप्त होता है। हालांकि, उपचार की तलाश करने में कभी देर नहीं होती! डॉ. कुमार बड़े बच्चों, किशोरों और यहां तक कि वयस्कों में "उपेक्षित" क्लबफुट का सफलतापूर्वक इलाज करते हैं, हालांकि इन मामलों में: अधिक व्यापक सर्जिकल रिलीज़ प्रक्रियाओं की आवश्यकता होती है। लंबे उपचार की अवधि की आवश्यकता है। प्रारंभिक शिशु उपचार के रूप में पूर्ण सुधार प्राप्त नहीं हो सकता है। कुछ स्थायी सीमाएं हो सकती हैं। जो माता-पिता देखते हैं कि उनके नवजात को क्लबफुट है, उन्हें तुरंत मूल्यांकन की तलाश करनी चाहिए - "प्रतीक्षा और देखें" न करें क्योंकि उपचार के बिना समय के साथ विकृति बिगड़ती है। प्रसव पूर्व अल्ट्रासाउंड पर पता लगाया गया क्लबफुट माता-पिता को तत्काल जन्म के बाद उपचार शुरुआत के लिए प्रसव से पहले डॉ. कुमार के साथ परामर्श की व्यवस्था करने की अनुमति देता है।'
-        }
-      },
-      {
-        question: {
-          en: 'What causes clubfoot and could it happen again in future pregnancies?',
-          hi: 'क्लबफुट का कारण क्या है और क्या यह भविष्य की गर्भधारण में फिर से हो सकता है?'
-        },
-        answer: {
-          en: 'Clubfoot is a congenital condition present at birth, but the exact cause remains not fully understood. Current understanding: (1) Multifactorial etiology involving both genetic and environmental factors, (2) Genetic component - runs in families with 25% having affected family members, (3) Positional factors - abnormal positioning in crowded uterus may contribute, (4) Arrested development - disruption in normal fetal foot development between weeks 8-12 of pregnancy. Risk factors include: Family history (strongest risk factor), Male gender (boys affected twice as often), Smoking during pregnancy, Oligohydramnios (low amniotic fluid), First pregnancy, Breech positioning. Recurrence risk in future pregnancies: If one child has clubfoot with no family history: 3-5% recurrence risk in subsequent children. If one parent had clubfoot: 3-4% risk for their children. If both a parent and one child are affected: 25% risk. If one child has bilateral clubfoot: Higher recurrence risk. Genetic counseling is available if parents are concerned. Important points: Clubfoot is NOT caused by mother\'s actions during pregnancy - nothing the mother did or didn\'t do caused this. Prenatal vitamins and folic acid may slightly reduce risk but cannot prevent all cases. Prenatal ultrasound can sometimes detect clubfoot, allowing early treatment planning. Despite recurrence risk, the excellent treatment outcomes should reassure parents that even if another child is affected, they will also do very well with proper treatment.',
-          hi: 'क्लबफुट जन्म के समय मौजूद एक जन्मजात स्थिति है, लेकिन सटीक कारण पूरी तरह से समझ में नहीं आता है। वर्तमान समझ: (1) आनुवंशिक और पर्यावरणीय कारकों दोनों को शामिल करने वाली बहुक्रियाशील एटियोलॉजी, (2) आनुवंशिक घटक - परिवारों में चलता है जिसमें 25% प्रभावित परिवार के सदस्य होते हैं, (3) स्थितिगत कारक - भीड़भाड़ वाले गर्भाशय में असामान्य स्थिति योगदान कर सकती है, (4) गिरफ्तार विकास - गर्भावस्था के सप्ताह 8-12 के बीच सामान्य भ्रूण पैर विकास में व्यवधान। जोखिम कारकों में शामिल हैं: पारिवारिक इतिहास (सबसे मजबूत जोखिम कारक), पुरुष लिंग (लड़के दो बार अधिक प्रभावित), गर्भावस्था के दौरान धूम्रपान, ओलिगोहाइड्रामनिओस (कम एमनियोटिक द्रव), पहली गर्भावस्था, ब्रीच स्थिति। भविष्य की गर्भधारण में पुनरावृत्ति जोखिम: यदि एक बच्चे को परिवार के इतिहास के बिना क्लबफुट है: बाद के बच्चों में 3-5% पुनरावृत्ति जोखिम। यदि एक माता-पिता को क्लबफुट था: उनके बच्चों के लिए 3-4% जोखिम। यदि माता-पिता और एक बच्चा दोनों प्रभावित हैं: 25% जोखिम। यदि एक बच्चे को द्विपक्षीय क्लबफुट है: उच्च पुनरावृत्ति जोखिम। यदि माता-पिता चिंतित हैं तो आनुवंशिक परामर्श उपलब्ध है। महत्वपूर्ण बिंदु: गर्भावस्था के दौरान मां के कार्यों से क्लबफुट नहीं होता है - मां ने जो कुछ किया या नहीं किया, उसने इसका कारण नहीं बनाया। प्रसव पूर्व विटामिन और फोलिक एसिड जोखिम को थोड़ा कम कर सकते हैं लेकिन सभी मामलों को रोक नहीं सकते। प्रसव पूर्व अल्ट्रासाउंड कभी-कभी क्लबफुट का पता लगा सकता है, जिससे शीघ्र उपचार योजना की अनुमति मिलती है। पुनरावृत्ति जोखिम के बावजूद, उत्कृष्ट उपचार परिणामों को माता-पिता को आश्वस्त करना चाहिए कि भले ही कोई अन्य बच्चा प्रभावित हो, वे उचित उपचार के साथ बहुत अच्छा करेंगे।'
-        }
-      },
-      {
-        question: {
-          en: 'What is the cost of clubfoot treatment at Arthoscenter Patna?',
-          hi: 'अर्थोसेंटर पटना में क्लबफुट उपचार की लागत क्या है?'
-        },
-        answer: {
-          en: 'Clubfoot treatment cost varies depending on whether conservative (Ponseti) or surgical approach is needed. At Arthoscenter Patna under Dr. Gurudeo Kumar: Ponseti Method (non-surgical): ₹25,000-45,000 total including all serial casts (5-8 casts), percutaneous Achilles tenotomy if needed, foot abduction brace, and follow-up visits for first 6 months. Surgical Correction: ₹80,000-1,50,000 depending on severity, including pre-operative evaluation, surgery charges, anesthesia, hospital stay (1-2 days), casting materials, post-operative brace, follow-up care for 3 months. Bilateral clubfoot (both feet): Approximately 1.5-1.8x the unilateral cost as both feet treated in same session. What\'s included: Complete initial evaluation and counseling, all casting materials and application, surgical procedure if needed, anesthesia, hospital charges, braces and splints, regular follow-up visits, X-rays as needed, parent education and support. Long-term costs: Annual follow-up visits (₹500-1,000 each), brace adjustments and replacements as child grows (₹3,000-8,000 every 6-12 months), treatment of recurrence if occurs due to non-compliance. Cost-saving factors: Early Ponseti treatment is much less expensive than delayed surgical treatment, preventing recurrence through bracing compliance avoids costly revision procedures. Most health insurance policies cover clubfoot treatment. Government schemes may provide financial assistance for economically disadvantaged families. Dr. Kumar believes every child deserves treatment regardless of financial situation - payment plans and assistance programs are available. A ₹999 initial consultation allows complete evaluation and accurate cost estimate for your child\'s specific case.',
-          hi: 'क्लबफुट उपचार लागत रूढ़िवादी (पोंसेटी) या सर्जिकल दृष्टिकोण की आवश्यकता के आधार पर भिन्न होती है। डॉ. गुरुदेव कुमार के तहत अर्थोसेंटर पटना में: पोंसेटी विधि (गैर-सर्जिकल): ₹25,000-45,000 कुल में सभी सीरियल कास्ट (5-8 कास्ट), यदि आवश्यक हो तो पर्क्यूटेनियस एच्लीस टेनोटॉमी, फुट एब्डक्शन ब्रेस, और पहले 6 महीनों के लिए फॉलो-अप विज़िट शामिल हैं। सर्जिकल सुधार: गंभीरता के आधार पर ₹80,000-1,50,000, जिसमें प्री-ऑपरेटिव मूल्यांकन, सर्जरी शुल्क, एनेस्थीसिया, अस्पताल में रहना (1-2 दिन), कास्टिंग सामग्री, पोस्ट-ऑपरेटिव ब्रेस, 3 महीने के लिए फॉलो-अप देखभाल शामिल है। द्विपक्षीय क्लबफुट (दोनों पैर): एकतरफा लागत का लगभग 1.5-1.8x क्योंकि दोनों पैर एक ही सत्र में इलाज किए जाते हैं। क्या शामिल है: पूर्ण प्रारंभिक मूल्यांकन और परामर्श, सभी कास्टिंग सामग्री और आवेदन, यदि आवश्यक हो तो सर्जिकल प्रक्रिया, एनेस्थीसिया, अस्पताल शुल्क, ब्रेस और स्प्लिंट, नियमित फॉलो-अप विज़िट, आवश्यकतानुसार एक्स-रे, माता-पिता शिक्षा और समर्थन। दीर्घकालिक लागत: वार्षिक फॉलो-अप विज़िट (₹500-1,000 प्रत्येक), बच्चे के बढ़ने के साथ ब्रेस समायोजन और प्रतिस्थापन (₹3,000-8,000 हर 6-12 महीने), यदि गैर-अनुपालन के कारण पुनरावृत्ति होती है तो उपचार। लागत-बचत कारक: शीघ्र पोंसेटी उपचार विलंबित सर्जिकल उपचार से बहुत कम महंगा है, ब्रेसिंग अनुपालन के माध्यम से पुनरावृत्ति को रोकने से महंगी संशोधन प्रक्रियाओं से बचा जाता है। अधिकांश स्वास्थ्य बीमा पॉलिसियां क्लबफुट उपचार को कवर करती हैं। सरकारी योजनाएं आर्थिक रूप से वंचित परिवारों के लिए वित्तीय सहायता प्रदान कर सकती हैं। डॉ. कुमार मानते हैं कि वित्तीय स्थिति की परवाह किए बिना हर बच्चा उपचार का हकदार है - भुगतान योजनाएं और सहायता कार्यक्रम उपलब्ध हैं। ₹999 प्रारंभिक परामर्श आपके बच्चे के विशिष्ट मामले के लिए पूर्ण मूल्यांकन और सटीक लागत अनुमान की अनुमति देता है।'
-        }
-      }
-    ],
-    meta: {
-      en: {
-        title: 'Clubfoot Correction Surgery in Bihar | CTEV Treatment | Dr. Gurudeo Kumar | Ponseti Method',
-        description: 'Expert clubfoot treatment in Patna. Dr. Gurudeo Kumar - 250+ successful corrections. Ponseti method & surgical expertise. 92% excellent outcomes. Specialized pediatric orthopaedic care. Book ₹999 consultation.',
-        keywords: ['clubfoot surgery', 'CTEV treatment', 'Ponseti method', 'clubfoot correction Bihar', 'pediatric orthopaedic surgery', 'congenital foot deformity', 'Dr. Gurudeo Kumar', 'Arthoscenter Patna', 'clubfoot specialist']
-      },
-      hi: {
-        title: 'बिहार में क्लबफुट करेक्शन सर्जरी | CTEV उपचार | डॉ. गुरुदेव कुमार | पोंसेटी विधि',
-        description: 'पटना में विशेषज्ञ क्लबफुट उपचार। डॉ. गुरुदेव कुमार - 250+ सफल सुधार। पोंसेटी विधि और सर्जिकल विशेषज्ञता। 92% उत्कृष्ट परिणाम। विशेष बाल चिकित्सा आर्थोपेडिक देखभाल। ₹999 परामर्श बुक करें।',
-        keywords: ['क्लबफुट सर्जरी', 'CTEV उपचार', 'पोंसेटी विधि', 'क्लबफुट सुधार बिहार', 'बाल चिकित्सा आर्थोपेडिक सर्जरी', 'डॉ. गुरुदेव कुमार', 'अर्थोसेंटर पटना']
-      }
-    },
-    relatedSurgeries: ['developmental-dysplasia-hip', 'bow-legs-correction', 'flat-foot-correction', 'limb-lengthening']
-  },
-
   'revision-hip-replacement': {
     id: 'revision-hip-replacement',
     category: 'joint-replacement',
@@ -8247,7 +7225,6 @@ At Arthoscenter Patna, Dr. Kumar has successfully performed over 210 ankle fract
     },
     relatedSurgeries: ['total-hip-replacement', 'robotic-hip-replacement', 'hip-resurfacing', 'infected-joint-treatment']
   },
-
   'shoulder-arthroscopy': {
     id: 'shoulder-arthroscopy',
     category: 'arthroscopy',
@@ -8538,7 +7515,6 @@ Recovery varies based on the specific procedure performed - simple diagnostic ar
     },
     relatedSurgeries: ['rotator-cuff-repair', 'shoulder-labral-repair', 'shoulder-replacement', 'tennis-elbow-surgery']
   },
-
   'ankle-arthroscopy': {
     id: 'ankle-arthroscopy',
     category: 'arthroscopy',
@@ -8845,7 +7821,6 @@ Dr. Kumar's comprehensive approach includes thorough pre-operative assessment wi
     },
     relatedSurgeries: ['knee-arthroscopy', 'ankle-fracture-surgery', 'achilles-tendon-repair', 'ligament-reconstruction']
   },
-
   'lumbar-laminectomy': {
     id: 'lumbar-laminectomy',
     category: 'spine-surgery',
@@ -11480,472 +10455,6 @@ AVN वर्गीकरण (कलमची-मैकएवेन): टाइ�
     },
     relatedSurgeries: ['clubfoot-correction', 'limb-lengthening-surgery', 'growth-plate-fracture-surgery', 'pediatric-acl-reconstruction']
   },
-  'hip-arthroscopy': {
-    id: 'hip-arthroscopy',
-    category: 'arthroscopy',
-    slug: 'hip-arthroscopy',
-    title: {
-      en: 'Hip Arthroscopy (Minimally Invasive Hip Surgery)',
-      hi: 'हिप आर्थ्रोस्कोपी (न्यूनतम इनवेसिव हिप सर्जरी)'
-    },
-    shortDesc: {
-      en: 'Minimally invasive keyhole surgery using small incisions and camera to diagnose and treat hip labral tears, FAI, cartilage damage, and other hip joint problems',
-      hi: 'छोटे चीरों और कैमरे का उपयोग करके न्यूनतम इनवेसिव कीहोल सर्जरी हिप लैब्रल आँसू, FAI, कार्टिलेज क्षति और अन्य हिप जोड़ समस्याओं का निदान और उपचार करने के लिए'
-    },
-    overview: {
-      en: `Dr. Gurudeo Kumar is Bihar's leading hip arthroscopy specialist, having successfully performed over 380 hip arthroscopy procedures at Arthoscenter Patna with a 94% success rate in pain relief and return to activities. Hip arthroscopy represents one of the most technically demanding arthroscopic procedures in orthopedics, requiring specialized training, equipment, and expertise that Dr. Kumar acquired through advanced fellowship training in sports medicine and arthroscopy.
-
-Hip arthroscopy is a minimally invasive surgical technique using specialized cameras (arthroscope) and instruments inserted through 2-4 small incisions (portals) typically 5-8mm each - compared to traditional open hip surgery requiring 15-25cm incisions. This "keyhole" approach allows diagnosis and treatment of various hip conditions while preserving surrounding soft tissues, resulting in less pain, faster recovery, reduced scarring, and quicker return to activities compared to open surgery.
-
-PRIMARY CONDITIONS TREATED: Femoroacetabular Impingement (FAI) - abnormal bone growth causing hip joint damage (most common indication, 60-70% of hip arthroscopies); Labral Tears - damage to cartilage ring (labrum) surrounding hip socket; Hip cartilage damage (chondral lesions) - wear and tear or injury to articular cartilage; Loose bodies - free-floating bone or cartilage fragments causing catching/locking; Hip synovitis - inflamed joint lining causing pain and stiffness; Snapping hip syndrome - iliopsoas or iliotibial band causing painful snapping; Ligamentum teres tears - damage to ligament inside hip joint.
-
-FAI (Femoroacetabular Impingement) deserves special mention as it's the leading cause of hip pain in young active adults and primary indication for hip arthroscopy. FAI occurs when abnormal bone shape on femoral head (CAM impingement), acetabular rim (PINCER impingement), or both (MIXED type - most common at 85%) causes repetitive abnormal contact during hip motion. This repetitive impingement damages the labrum and articular cartilage, leading to pain with activity, limited hip flexion/internal rotation, and progressive arthritis if untreated. Hip arthroscopy addresses FAI through bone reshaping (femoroplasty/acetabuloplasty) removing the impingement while repairing damaged labrum and cartilage - preventing or delaying progression to hip arthritis.
-
-IDEAL CANDIDATES: Young to middle-aged adults (18-55 years) with mechanical hip pain (anterior groin pain with activity, clicking, catching, locking sensations), failed conservative treatment (physical therapy, activity modification, injections for 3-6 months), MRI or CT evidence of structural abnormality (FAI, labral tear, loose bodies), relatively preserved hip joint (Tönnis grade 0-1 arthritis; advanced arthritis better treated with hip replacement), and realistic expectations understanding that arthroscopy repairs damage but cannot reverse established arthritis.
-
-Hip arthroscopy has revolutionized treatment of young adult hip pain - previously these patients suffered for years or underwent invasive open surgery. Now, properly selected patients achieve 85-90% good-to-excellent outcomes with pain relief, improved function, and delay or prevention of hip arthritis. Dr. Kumar's expertise ensures Bihar patients have access to this advanced procedure without traveling to metropolitan centers.`,
-      hi: `डॉ. गुरुदेव कुमार बिहार के अग्रणी हिप आर्थ्रोस्कोपी विशेषज्ञ हैं, जिन्होंने अर्थोसेंटर पटना में 380 से अधिक हिप आर्थ्रोस्कोपी प्रक्रियाएं सफलतापूर्वक की हैं, जिसमें दर्द राहत और गतिविधियों में वापसी में 94% सफलता दर है। हिप आर्थ्रोस्कोपी आर्थोपेडिक्स में सबसे तकनीकी रूप से मांग वाली आर्थ्रोस्कोपिक प्रक्रियाओं में से एक है।
-
-हिप आर्थ्रोस्कोपी एक न्यूनतम इनवेसिव शल्य चिकित्सा तकनीक है जो विशेष कैमरा (आर्थ्रोस्कोप) और उपकरणों का उपयोग करती है जो 2-4 छोटे चीरों (पोर्टल्स) के माध्यम से डाले जाते हैं आमतौर पर प्रत्येक 5-8mm - पारंपरिक खुली हिप सर्जरी की तुलना में जिसमें 15-25cm चीरों की आवश्यकता होती है।
-
-प्राथमिक स्थितियां उपचारित: फेमोरोएसिटाबुलर इम्पिंजमेंट (FAI) - असामान्य हड्डी वृद्धि जो हिप जोड़ क्षति का कारण बनती है; लैब्रल आँसू - कार्टिलेज रिंग को नुकसान; हिप कार्टिलेज क्षति; लूज बॉडीज - मुक्त-तैरते हड्डी या कार्टिलेज टुकड़े।
-
-आदर्श उम्मीदवार: युवा से मध्यम आयु वर्ग के वयस्क (18-55 वर्ष) यांत्रिक हिप दर्द के साथ, विफल रूढ़िवादी उपचार, MRI या CT संरचनात्मक असामान्यता के साक्ष्य, अपेक्षाकृत संरक्षित हिप जोड़।`
-    },
-    symptoms: {
-      en: [
-        'Anterior groin pain with hip flexion - deep aching in front of hip worsening with sitting, squatting, getting in/out of car (C-sign: patient cups hand over groin describing pain location)',
-        'Clicking, popping, or catching sensation in hip - mechanical symptoms indicating labral tear or loose body; distinct from painless snapping outside hip',
-        'Limited hip internal rotation and flexion - difficulty crossing legs, putting on shoes/socks, sitting with knees together; positive impingement test reproducing pain',
-        'Pain with prolonged sitting - especially low seats, driving, desk work; relieved by standing and walking; characteristic of FAI and labral pathology',
-        'Activity-related pain - increases during/after sports (running, soccer, hockey, dance, martial arts); better with rest; suggests mechanical problem amenable to arthroscopy',
-        'Hip stiffness after rest - morning stiffness or stiffness after sitting; improves with gentle movement; indicates intra-articular pathology',
-        'Sharp stabbing pain with specific movements - sudden sharp pain with twisting, pivoting, getting up from chair; suggests labral tear catching in joint',
-        'Reduced athletic performance - decreased speed, agility, kicking power; inability to perform deep squats or lunges; athletes notice decline in performance',
-        'Night pain - difficulty sleeping on affected side; pain lying in bed especially with hip in flexed/rotated positions; advanced labral/cartilage damage',
-        'Failed conservative treatment - persistent symptoms despite 3-6 months physical therapy, activity modification, anti-inflammatory medications, cortisone injections'
-      ],
-      hi: [
-        'हिप फ्लेक्शन के साथ पूर्वकाल ग्रोइन दर्द - हिप के सामने गहरा दर्द बैठने, स्क्वाट करने, कार में प्रवेश/निकास के साथ बिगड़ रहा है (सी-साइन: रोगी दर्द स्थान का वर्णन करते हुए ग्रोइन पर हाथ रखता है)',
-        'हिप में क्लिकिंग, पॉपिंग, या कैचिंग सेंसेशन - यांत्रिक लक्षण लैब्रल टियर या लूज बॉडी का संकेत देते हैं',
-        'सीमित हिप आंतरिक रोटेशन और फ्लेक्शन - पैर क्रॉस करने में कठिनाई, जूते/मोजे पहनने में, घुटनों को एक साथ रखकर बैठने में',
-        'लंबे समय तक बैठने के साथ दर्द - विशेष रूप से कम सीटें, ड्राइविंग, डेस्क वर्क; खड़े होने और चलने से राहत मिलती है',
-        'गतिविधि-संबंधित दर्द - खेल के दौरान/बाद बढ़ता है (दौड़ना, सॉकर, हॉकी, डांस, मार्शल आर्ट्स); आराम के साथ बेहतर',
-        'आराम के बाद हिप कठोरता - सुबह की कठोरता या बैठने के बाद कठोरता; कोमल गति के साथ सुधार होता है',
-        'विशिष्ट आंदोलनों के साथ तीव्र छुरा घोंपने वाला दर्द - मोड़ने, पिवोट करने, कुर्सी से उठने के साथ अचानक तेज दर्द',
-        'कम एथलेटिक प्रदर्शन - गति, चपलता, किकिंग शक्ति में कमी; गहरे स्क्वाट या लंज करने में असमर्थता',
-        'रात का दर्द - प्रभावित पक्ष पर सोने में कठिनाई; बिस्तर में लेटने पर दर्द विशेष रूप से हिप फ्लेक्स/घुमाए गए पदों में',
-        'विफल रूढ़िवादी उपचार - 3-6 महीने फिजिकल थेरेपी, गतिविधि संशोधन के बावजूद लगातार लक्षण'
-      ]
-    },
-    procedure: {
-      en: {
-        preparation: `Comprehensive pre-operative evaluation essential for optimal hip arthroscopy outcomes. Clinical examination assesses hip range of motion (especially internal rotation typically reduced in FAI), impingement tests (FADDIR test: flexion-adduction-internal rotation reproduces anterior pain; FABER test: flexion-abduction-external rotation), strength testing hip flexors/abductors/extensors, gait analysis noting any antalgic patterns or compensations.
-
-Advanced imaging CRITICAL for surgical planning: Plain radiographs (AP pelvis and lateral hip views) measure alpha angle (>55° indicates CAM impingement), lateral center-edge angle (>40° suggests PINCER, <20° dysplasia), acetabular version, joint space, arthritis grade (Tönnis classification), femoral head-neck offset. MRI with intra-articular contrast (MR arthrogram) GOLD STANDARD - visualizes labral tears (95% sensitivity), cartilage damage, ligamentum teres tears, bone marrow edema, paralabral cysts, synovitis; sequences optimized for cartilage assessment. CT scan sometimes added for precise 3D bone anatomy assessment planning exact amount of bone resection needed.
-
-Proper patient selection CRITICAL - hip arthroscopy excellent for mechanical symptoms from structural problems in relatively preserved joints, but NOT appropriate for: advanced osteoarthritis (Tönnis grade 2-3; hip replacement better option), severe hip dysplasia (acetabular coverage <15-18°; periacetabular osteotomy may be needed), primarily inflammatory conditions (rheumatoid arthritis), unrealistic expectations (cannot reverse established arthritis, relieves mechanical symptoms from structural problems).
-
-Pre-operative medical optimization: NSAIDs discontinued 7-10 days before surgery (bleeding risk), aspirin discontinued if possible, anticoagulation managed per protocol, smoking cessation strongly encouraged (impairs healing), optimize medical comorbidities (diabetes control, cardiac clearance if needed). Anesthesia consultation for all patients - general anesthesia with paralysis required (muscle relaxation essential for hip distraction), often combined with lumbar plexus or epidural block for superior post-operative pain control. Patient education about traction table, post-operative precautions, crutches/walker use, realistic recovery timeline critical for compliance.`,
-        steps: [
-          'Patient positioned supine on specialized traction table with padded perineal post preventing hip subluxation during distraction (carefully padded to avoid pudendal nerve injury)',
-          'General anesthesia with muscle relaxation administered; supplemental lumbar plexus or epidural block placed for post-operative analgesia',
-          'Affected leg placed in traction boot; gentle traction force 20-50 lbs applied gradually distracting hip joint 8-12mm creating space for instruments',
-          'Fluoroscopy confirms adequate joint distraction (minimum 8-10mm between femoral head and acetabulum); inadequate distraction risks cartilage injury',
-          'Surgical time-out performed confirming correct patient, correct hip, planned procedure, antibiotic prophylaxis administered',
-
-          '**PORTAL PLACEMENT (Critical for Success):**',
-          'Anterolateral portal established first under fluoroscopic guidance: 1cm anterior and 1cm superior to greater trochanter tip; initial entry with switching stick',
-          'Hip capsule penetrated carefully; arthroscope inserted; joint inspected confirming intra-articular position (visualization of femoral head, labrum, ligamentum teres)',
-          'Mid-anterior portal created under direct visualization: anterior to anterolateral portal, superior to femoral head-neck junction; instruments enter under camera view preventing neurovascular injury',
-          'Posterolateral portal added if needed (15-20% cases): for posterior labral repair, ligamentum teres visualization, removing posterior loose bodies',
-
-          '**CENTRAL COMPARTMENT EVALUATION (Hip Distracted):**',
-          'Systematic arthroscopic examination documenting all pathology: acetabular labrum assessed 360° around clock face (12 o\'clock = superior, 3 o\'clock = anterior in right hip)',
-          'Labral tear identification and characterization: location (anterior most common 75-85%, superior 10-15%), tear pattern (fraying, radial, flap, bucket-handle), displacement, associated cartilage damage',
-          'Acetabular cartilage graded using Outerbridge classification or Beck classification: Grade 0 = normal, Grade 1 = softening, Grade 2 = partial-thickness defect <50%, Grade 3 = partial >50%, Grade 4 = full-thickness exposed bone',
-          'Ligamentum teres examined for tears or degeneration; if significantly torn and painful, may be debrided (preserving if intact - contributes to hip stability)',
-          'Loose bodies removed if present using graspers: can be bone, cartilage, or synovial; common after trauma or in FAI causing repetitive impingement',
-          'Synovium assessed for inflammation, pigmented villonodular synovitis (PVNS), or synovial chondromatosis; synovectomy performed if indicated',
-
-          '**LABRAL REPAIR (Preferred over Debridement):**',
-          'Damaged labral tissue debrided conservatively - remove only unstable frayed edges, preserve as much labrum as possible (critical for hip stability/seal)',
-          'Acetabular rim prepared for anchor placement: cartilage at labral-chondral junction evaluated; if damaged, may require acetabuloplasty (rim trimming)',
-          'Bone tunnels created in acetabular rim using specialized acetabular guide and drill - typically 2-4 anchors depending on tear size/location',
-          'Suture anchors (typically 2.9mm or 3.5mm bioabsorbable anchors) inserted into acetabular rim at labral footprint',
-          'Labral tissue mobilized and reduced to anatomic position at acetabular rim; sutures passed through labrum using specialized curved instruments',
-          'Sutures tied sequentially restoring labral-chondral seal and labral tension - critical for hip joint fluid seal and stability',
-
-          '**PERIPHERAL COMPARTMENT (Traction Released):**',
-          'Traction released allowing hip joint to compress; scope repositioned to peripheral compartment (space between femoral head-neck and hip capsule)',
-          'CAM deformity (if present) clearly visualized as abnormal prominence on anterior-superior femoral head-neck junction',
-          'Dynamic examination performed: hip flexed and internally rotated; impingement between CAM lesion and acetabular rim directly visualized confirming mechanical cause of symptoms',
-          'Femoroplasty (CAM resection) performed using motorized burr: bone carefully removed from femoral head-neck junction reshaping to normal anatomy',
-          'Goal: restore normal alpha angle <50-55° and adequate head-neck offset (typically removing 5-8mm bone depth at maximal point)',
-          'Fluoroscopy confirms adequate resection and sphericity of femoral head - over-resection risks femoral neck fracture, under-resection leaves residual impingement',
-
-          '**PINCER CORRECTION (If Needed):**',
-          'Acetabular rim trimming (acetabuloplasty) if PINCER impingement present: excessive acetabular coverage causing rim impingement against femoral neck',
-          'Motorized burr carefully removes prominent acetabular rim bone reducing lateral center-edge angle to normal 25-35°',
-          'Labrum already detached during earlier repair allows rim access; labrum re-attached to trimmed rim completing correction',
-
-          '**CAPSULAR CLOSURE AND COMPLETION:**',
-          'Meticulous capsular closure performed in most cases: capsule repaired using suture or anchors preventing post-operative hip instability/microinstability',
-          'Final arthroscopic examination confirms: adequate FAI correction, stable labral repair, no residual loose bodies, good joint appearance',
-          'Instruments removed; portals closed with 3-0 nylon sutures (typically 1-2 stitches per portal); sterile dressings applied',
-          'Hip gently ranged through motion confirming no impingement, adequate clearance, good stability',
-          'Local anesthetic infiltrated around portals and into joint (pain control); compression dressing applied hip to knee'
-        ],
-        duration: 'Straightforward FAI with labral repair: 90-120 minutes. Complex cases with extensive labral reconstruction, cartilage procedures, or bilateral procedures: 2-3 hours. Time includes positioning (20-30 minutes), traction setup, central compartment work (30-45 minutes), peripheral compartment FAI correction (30-45 minutes), closure. Surgeon experience significantly affects duration - fellowship-trained hip arthroscopists typically faster with better outcomes.',
-        anesthesia: 'General anesthesia with muscle paralysis REQUIRED - muscle relaxation essential for adequate hip distraction creating working space. Supplemental regional anesthesia (lumbar plexus block or epidural) HIGHLY RECOMMENDED - provides superior post-operative pain control during critical first 12-24 hours when most pain occurs. Some centers use spinal anesthesia successfully, but general preferred for airway control during prolonged positioning, allows better muscle relaxation. Post-operative pain management multimodal: regional block, oral analgesics, ice, early mobilization.'
-      },
-      hi: {
-        preparation: `इष्टतम हिप आर्थ्रोस्कोपी परिणामों के लिए व्यापक पूर्व-शल्य चिकित्सा मूल्यांकन आवश्यक है। नैदानिक परीक्षा हिप गति की सीमा का आकलन करती है (विशेष रूप से आंतरिक रोटेशन आमतौर पर FAI में कम होता है), इम्पिंजमेंट परीक्षण, ताकत परीक्षण, चाल विश्लेषण।
-
-उन्नत इमेजिंग शल्य चिकित्सा योजना के लिए महत्वपूर्ण: सादा रेडियोग्राफ अल्फा कोण को मापते हैं (>55° CAM इम्पिंजमेंट को इंगित करता है), पार्श्व केंद्र-किनारा कोण। इंट्रा-आर्टिकुलर कंट्रास्ट के साथ MRI (MR आर्थ्रोग्राम) स्वर्ण मानक - लैब्रल आँसू, कार्टिलेज क्षति की कल्पना करता है।
-
-उचित रोगी चयन महत्वपूर्ण - अपेक्षाकृत संरक्षित जोड़ों में संरचनात्मक समस्याओं से यांत्रिक लक्षणों के लिए हिप आर्थ्रोस्कोपी उत्कृष्ट है।`,
-        steps: [
-          'विशेष ट्रैक्शन टेबल पर रोगी को सुपाइन स्थिति में रखा गया पैडेड पेरिनियल पोस्ट के साथ जो विकर्षण के दौरान हिप सबलक्सेशन को रोकता है',
-          'मांसपेशी विश्राम के साथ सामान्य एनेस्थीसिया; पोस्ट-ऑपरेटिव एनाल्जेसिया के लिए पूरक लम्बर प्लेक्सस या एपिड्यूरल ब्लॉक',
-          'प्रभावित पैर को ट्रैक्शन बूट में रखा गया; धीरे-धीरे 20-50 एलबीएस ट्रैक्शन बल लगाया गया हिप जोड़ को 8-12mm विचलित करते हुए',
-          'फ्लोरोस्कोपी पर्याप्त संयुक्त विकर्षण की पुष्टि करती है (फेमोरल हेड और एसिटाबुलम के बीच न्यूनतम 8-10mm)',
-          'सर्जिकल टाइम-आउट किया गया सही रोगी, सही हिप, योजनाबद्ध प्रक्रिया की पुष्टि करते हुए',
-
-          '**पोर्टल प्लेसमेंट (सफलता के लिए महत्वपूर्ण):**',
-          'फ्लोरोस्कोपिक मार्गदर्शन के तहत पहले एंटरोलेटरल पोर्टल स्थापित किया गया',
-          'हिप कैप्सूल को सावधानीपूर्वक प्रवेश किया गया; आर्थ्रोस्कोप डाला गया',
-          'प्रत्यक्ष दृश्य के तहत मिड-एंटीरियर पोर्टल बनाया गया',
-
-          '**केंद्रीय कम्पार्टमेंट मूल्यांकन (हिप विचलित):**',
-          'सभी पैथोलॉजी का दस्तावेजीकरण करने वाली व्यवस्थित आर्थ्रोस्कोपिक परीक्षा',
-          'लैब्रल टियर पहचान और विशेषता: स्थान, टियर पैटर्न',
-          'एसिटाबुलर कार्टिलेज आउटरब्रिज वर्गीकरण का उपयोग करके वर्गीकृत',
-          'लिगामेंटम टेरेस आँसू या अध:पतन के लिए जांच की गई',
-
-          '**लैब्रल मरम्मत (डिब्राइडमेंट पर पसंदीदा):**',
-          'क्षतिग्रस्त लैब्रल ऊतक रूढ़िवादी रूप से डिब्राइड किया गया - केवल अस्थिर फ्रेड किनारों को हटाएं',
-          'एंकर प्लेसमेंट के लिए एसिटाबुलर रिम तैयार किया गया',
-          'विशेष एसिटाबुलर गाइड और ड्रिल का उपयोग करके एसिटाबुलर रिम में हड्डी की सुरंगें बनाई गईं',
-          'सूचर एंकर एसिटाबुलर रिम में लैब्रल फुटप्रिंट पर डाले गए',
-
-          '**परिधीय कम्पार्टमेंट (ट्रैक्शन जारी):**',
-          'ट्रैक्शन जारी किया गया हिप जोड़ को संपीड़ित करने की अनुमति देते हुए',
-          'CAM विकृति स्पष्ट रूप से दिखाई देती है',
-          'गतिशील परीक्षा की गई: हिप फ्लेक्स और आंतरिक रूप से घुमाया गया',
-          'फेमोरोप्लास्टी (CAM रिसेक्शन) मोटरयुक्त बुर का उपयोग करके की गई',
-
-          '**कैप्सुलर क्लोजर और पूर्णता:**',
-          'अधिकांश मामलों में सावधानीपूर्वक कैप्सुलर बंद किया गया',
-          'अंतिम आर्थ्रोस्कोपिक परीक्षा की पुष्टि करती है: पर्याप्त FAI सुधार, स्थिर लैब्रल मरम्मत',
-          'उपकरण हटाए गए; पोर्टल 3-0 नायलॉन सूचर के साथ बंद किए गए'
-        ],
-        duration: 'लैब्रल मरम्मत के साथ सीधा FAI: 90-120 मिनट। व्यापक लैब्रल पुनर्निर्माण के साथ जटिल मामले: 2-3 घंटे।',
-        anesthesia: 'मांसपेशी पक्षाघात के साथ सामान्य एनेस्थीसिया आवश्यक - पर्याप्त हिप विकर्षण के लिए मांसपेशी विश्राम आवश्यक है। पूरक क्षेत्रीय एनेस्थीसिया (लम्बर प्लेक्सस ब्लॉक या एपिड्यूरल) अत्यधिक अनुशंसित - महत्वपूर्ण पहले 12-24 घंटों के दौरान बेहतर पोस्ट-ऑपरेटिव दर्द नियंत्रण प्रदान करता है।'
-      }
-    },
-    recovery: {
-      en: {
-        timeline: [
-          {
-            week: 'Day 0-1: Immediate Post-Operative',
-            activity: 'Pain Management and Initial Mobilization',
-            description: `Most hip arthroscopy patients discharged same day (outpatient procedure) or after overnight observation depending on anesthesia recovery, pain control, ability to safely use crutches. Regional nerve block (if used) provides excellent pain relief first 12-18 hours - CAUTION: leg may feel numb/weak; must use crutches, no weight bearing on numb leg (fall risk). As block wears off, transition to oral pain medications: oxycodone or hydrocodone every 4-6 hours first 48-72 hours for severe pain, then transition to acetaminophen/ibuprofen.
-
-Ice therapy CRITICAL first 48-72 hours: ice machine or ice packs 20 minutes every 2-3 hours while awake reduces swelling and pain significantly. Compression stocking or ACE wrap from toes to mid-thigh prevents blood clots and reduces swelling. Elevation: keep leg elevated above heart level when resting (pillows under calf/foot, NOT under knee which can cause stiffness). Sleep semi-reclined or with pillow between legs preventing excessive hip motion.
-
-Weight bearing restrictions depend on procedure complexity: Simple arthroscopy (diagnostic, minor debridement): touch-down weight bearing (TDWB) with crutches 1-2 weeks. Standard FAI correction + labral repair: TDWB or partial weight bearing (20-30 lbs foot-flat) 2-4 weeks. Extensive labral reconstruction or cartilage procedures: strict TDWB 4-6 weeks protecting repair. Crutches or walker MANDATORY during weight bearing restriction period - premature full weight bearing risks labral repair failure.
-
-Hip precautions CRITICAL protecting repair: NO hip flexion beyond 90° first 2-3 weeks (no deep sitting, bending to tie shoes, bringing knee to chest); NO active hip abduction or external rotation against resistance first 4 weeks (protects labral repair); NO pivoting or twisting on affected leg; NO crossing legs. Raised toilet seat, shower chair, reacher/grabber for picking up objects essential for maintaining precautions while maintaining independence.`
-          },
-          {
-            week: 'Week 1-4: Protected Motion and Healing',
-            activity: 'Gentle Range of Motion, Gradual Weight Bearing Progression',
-            description: `Physical therapy begins within first week (typically day 3-7 post-op) - CRITICAL for optimal outcomes. Early PT goals: maintain hip range of motion within precautions, prevent stiffness, regain normal gait pattern, reduce swelling. Passive range of motion exercises performed by therapist: gentle hip flexion to 90°, gentle rotation, abduction (avoiding end-ranges that stress repair). Active-assisted exercises using opposite leg or therapist assistance progress to active motion as pain allows.
-
-Continuous passive motion (CPM) machine sometimes prescribed - mechanically moves hip through gentle range of motion 4-6 hours daily promoting cartilage healing, preventing stiffness, reducing pain. Not universally used, but some surgeons find beneficial especially after cartilage procedures. Stationary bike without resistance beginning week 2-3: seat HIGH (minimal hip flexion <90°), pedal backward initially (less hip flexion), then forward as tolerated. Bike excellent for regaining motion and maintaining cardiovascular fitness during recovery.
-
-Weight bearing progression: Week 1-2: TDWB (toe touches ground for balance, no weight), one crutch opposite side when walking. Week 2-4: Progress to partial weight bearing 30-50% body weight, may reduce to one crutch if gait normal. Week 4-6: Progress to full weight bearing as tolerated, discontinue crutches when walking normally without limp (forcing walking without crutches before ready creates abnormal gait patterns causing hip/knee/back problems). DO NOT rush progression - labral repair needs 6-8 weeks to heal securely.
-
-Swelling management ongoing: ice after PT sessions and at end of day, compression stocking continued, elevation when resting. NORMAL to have good days and bad days - may feel great one day then sore the next; gradual overall improvement trend expected, not linear day-to-day improvement. Avoid prolonged sitting >45 minutes - causes hip flexor tightness and increased pain; get up and walk every hour. Most patients return to desk work 1-2 weeks post-op with ergonomic setup (standing desk option, frequent breaks), manual labor typically delayed 6-8 weeks minimum.`
-          },
-          {
-            week: 'Week 4-12: Strengthening and Functional Progression',
-            activity: 'Progressive Strengthening, Return to Activities of Daily Living',
-            description: `PT advances to strengthening phase focusing on hip stabilizers essential for long-term success: Hip abductors (gluteus medius/minimus): side-lying leg raises, standing hip abduction with resistance band, single-leg balance - CRITICAL for normal gait and preventing Trendelenburg limp. Hip extensors (gluteus maximus): bridges, prone hip extension, prone planks, step-ups - important for walking, stairs, running. Hip flexors: gentle strengthening once acute pain resolved (avoid overworking iliopsoas which can cause anterior hip pain).
-
-Core strengthening integrated throughout: planks, bird dogs, dead bugs - strong core essential for pelvic stability supporting hip function. Proprioception and balance exercises: single-leg stance progressing from eyes open to eyes closed to unstable surface (foam pad, balance board), preparing for return to sports. Pool therapy excellent weeks 6-10: buoyancy reduces joint loading while allowing resistance exercises, walking, light kicking - psychologically beneficial feeling "normal" movement.
-
-Functional progression milestones: Week 6-8: Normal gait without limp, stairs reciprocal pattern (alternating feet vs step-together), standing from chair without hands, single-leg stance 30 seconds. Week 8-10: Light jogging in pool or on underwater treadmill, elliptical machine with low resistance, stationary bike normal resistance. Week 10-12: Progress to land-based jogging if no pain/limp, begin sport-specific agility drills, introduce cutting/pivoting gradually.
-
-Range of motion goals by 12 weeks: Hip flexion 110-120° (normal 120-130°), internal rotation 30-40° in flexion (typically gains 10-20° compared to pre-op), abduction 40-45°, external rotation 40-45°. Most patients achieve 90-95% range of motion by 12 weeks; some stiffness normal, continues improving to 6 months. Strength typically 70-80% of opposite side by 12 weeks - continues improving to one year with continued strengthening.
-
-Return to work: Sedentary/desk work 1-2 weeks (with modifications). Light duty 4-6 weeks. Moderate physical labor 8-12 weeks. Heavy labor/construction 3-4 months (surgeon clearance required). Patient-specific based on job demands, recovery progress, ability to perform job safely without risking repair.`
-          },
-          {
-            week: 'Month 3-6: Return to Impact Activities and Sports',
-            activity: 'Sport-Specific Training and Full Activity Return',
-            description: `Return to sport criteria (must meet ALL before clearance): Full pain-free range of motion matching opposite hip, Hip strength 85-90% of opposite side on objective testing, Single-leg hop test 85-90% of opposite side, Normal gait/running pattern without compensation, No pain with sport-specific movements, Surgeon clearance based on examination and imaging if needed.
-
-Sport-specific return timeline (EARLIEST - may be longer): Running: 3-4 months for straight-line running on level surfaces, 4-5 months for hills/sprints. Cycling: 2-3 months for recreational cycling, 4-5 months for competitive training. Swimming: 6-8 weeks for light swimming, 3 months for competitive training with flip turns. Soccer/hockey: 5-6 months minimum - high demands with cutting, kicking, contact. Tennis/racquet sports: 4-6 months depending on level (recreational vs competitive). Golf: 3-4 months for full swing (chipping/putting allowed earlier), 5-6 months for competitive play. Martial arts/boxing: 6-7 months minimum - high impact and rotational forces. Ballet/dance: 4-6 months depending on style and level.
-
-DO NOT rush return to sport - second most common cause of poor outcomes after hip arthroscopy (after poor patient selection). Premature return risks: re-tearing repaired labrum, damaging articular cartilage, creating hip microinstability, developing compensatory injuries elsewhere (knee, back, opposite hip). Better to wait extra 4-8 weeks and have long-term success than return too early and require revision surgery.
-
-Gradual return protocol: Phase 1 (weeks 12-16): Straight-line running, basic agility drills, non-contact sport-specific drills. Phase 2 (weeks 16-20): Increased cutting/pivoting, higher intensity drills, simulated game situations. Phase 3 (weeks 20-24+): Full practice participation, gradual return to competition (limited minutes initially), psychological readiness assessment. Many athletes benefit from 6-8 weeks gradual return rather than abrupt full participation.
-
-Expect some hip soreness with increased activity - normal part of returning to sports after surgery. Distinguish normal post-activity soreness (dull ache, improves with ice/rest within 24 hours) from problematic pain (sharp mechanical pain, catching, doesn't improve with rest, affects performance) which requires medical evaluation. Continue hip strengthening and flexibility program indefinitely - maintenance program prevents recurrent symptoms and optimizes long-term hip health.`
-          },
-          {
-            week: 'Month 6-12+: Long-Term Maintenance and Outcomes',
-            activity: 'Full Activities, Ongoing Hip Health Maintenance',
-            description: `By 6 months post-op, most patients (85-90%) have returned to desired activities with significant pain reduction and improved function. However, continued improvement occurs 6-12 months as hip fully adapts to corrected anatomy - some patients report continued gains up to 18 months. Realistic outcome expectations: 85-90% of patients achieve good-to-excellent outcomes (significant pain reduction, return to sports/activities, satisfied with results). 10-15% have fair outcomes (some improvement but persistent symptoms limiting full activity return). 5% poor outcomes (minimal improvement or worsened symptoms).
-
-Factors predicting better outcomes: Younger age (<40 years), shorter symptom duration (<2 years before surgery), minimal pre-existing arthritis (Tönnis grade 0-1), isolated labral tear or FAI without extensive cartilage damage, compliance with rehabilitation protocol, realistic expectations. Poorer outcomes associated with: age >50 years, advanced arthritis (Tönnis 2-3), extensive cartilage loss, hip dysplasia, revision procedures, workers compensation/litigation cases.
-
-Long-term hip preservation: Hip arthroscopy removes impingement and repairs damage BUT cannot reverse established arthritis - goal is preventing or slowing arthritis progression. Studies show 75-80% of patients maintain good outcomes at 5-10 years when appropriately selected. Some patients eventually require hip replacement (typically 15-20 years after arthroscopy if performed in late 30s-40s) - but arthroscopy likely delays replacement 10-20 years compared to no treatment. In younger patients (20s-30s) with minimal arthritis, hip arthroscopy may prevent hip replacement entirely.
-
-Ongoing maintenance CRITICAL for long-term success: Hip strengthening exercises 2-3 times weekly focusing on abductors, extensors, core - prevents recurrent symptoms. Flexibility program maintaining hip, hamstring, hip flexor range of motion - tight muscles increase hip joint forces. Activity modifications: avoid extreme repetitive hip flexion (deep squats, Olympic weightlifting), maintain healthy weight (extra pounds increase hip forces exponentially), cross-training rather than single sport year-round.
-
-Follow-up schedule: 2 weeks post-op (wound check, PT progression), 6 weeks (assess healing, advance weight bearing), 12 weeks (functional assessment, sport clearance discussion), 6 months (imaging if needed, final evaluation). Then annually or as needed. New onset hip pain, catching, or mechanical symptoms warrant prompt evaluation - may indicate recurrent labral tear (5-10% risk), progression of arthritis, hip microinstability, or new problem requiring treatment.
-
-Patient satisfaction high when realistic expectations set: hip arthroscopy excellent for relieving mechanical symptoms from structural problems in preserved joints, NOT a cure-all for all hip pain or reversal of established arthritis. Continued hip care and maintenance expected lifelong. Most patients state they would "definitely have surgery again" and recommend to others with similar problems - major improvement in quality of life, return to desired activities, delay or prevention of hip replacement makes short-term recovery worth the investment.`
-          }
-        ],
-        tips: [
-          'Crutch compliance NON-NEGOTIABLE - premature weight bearing most common cause of labral repair failure; use crutches exact duration prescribed',
-          'Ice religiously first 2 weeks - 20 minutes every 2-3 hours makes HUGE difference in pain and swelling; ice machine worth investment',
-          'Hip precautions CRITICAL first 4 weeks - no hip flexion >90°, no pivoting, no crossing legs; use raised toilet seat, reacher/grabber',
-          'Physical therapy attendance MANDATORY - home exercises alone insufficient; PT 2-3 times weekly first 12 weeks essential for optimal outcome',
-          'Patience with recovery timeline - hip arthroscopy recovery gradual; expect 4-6 months to feel "normal", 6-12 months for full improvement',
-          'Distinguish normal soreness from problematic pain - dull ache after activity that improves with ice/rest is normal; sharp catching pain warrants call to surgeon',
-          'DO NOT rush return to sport - most common patient mistake; wait until meet ALL criteria (strength, ROM, no pain, surgeon clearance)',
-          'Continue strengthening LIFELONG - hip abductor/core exercises 2-3 times weekly prevents recurrent symptoms and maintains hip health',
-          'Expect "good days and bad days" first 3 months - recovery not linear; overall trend should be gradual improvement over weeks/months',
-          'Sleep positioning first few weeks: back with pillow between legs or reclined; side sleeping allowed after 2-3 weeks with pillow between knees',
-          'Driving typically allowed 2-3 weeks for right hip (earlier for left hip) - must be off narcotic pain meds, able to safely control pedals',
-          'Sex restrictions first 4-6 weeks - respect hip precautions (no flexion >90°, no pivoting); resume when comfortable and cleared by surgeon',
-          'Weight management important - extra pounds increase hip forces significantly; maintain healthy BMI optimizes surgical outcome',
-          'Avoid prolonged sitting first 3 months - causes hip flexor tightness, increased pain; stand/walk every 45-60 minutes',
-          'Stationary bike EXCELLENT exercise weeks 2-12 - keep seat high (minimal hip flexion), start with backward pedaling, build gradually',
-          'Pool therapy valuable weeks 6-12 - allows movement feeling "normal" while reducing joint forces; swimming, walking, light kicking',
-          'Realistic expectations CRITICAL - hip arthroscopy relieves mechanical symptoms from structural problems but cannot reverse established arthritis',
-          'Second opinion reasonable if persistent pain >6 months post-op - may need revision arthroscopy, periacetabular osteotomy, or hip replacement',
-          'Young patients (<35) with minimal arthritis - excellent long-term outcomes; may prevent hip replacement entirely with proper treatment/maintenance',
-          'Some hip soreness with activities first year is NORMAL - distinguish from mechanical symptoms (catching, sharp pain, instability) requiring evaluation'
-        ]
-      },
-      hi: {
-        timeline: [
-          {
-            week: 'दिन 0-1: तत्काल पोस्ट-ऑपरेटिव',
-            activity: 'दर्द प्रबंधन और प्रारंभिक गतिशीलता',
-            description: `अधिकांश हिप आर्थ्रोस्कोपी रोगियों को उसी दिन छुट्टी दे दी जाती है (आउट पेशेंट प्रक्रिया) या एनेस्थीसिया रिकवरी के आधार पर रात भर अवलोकन के बाद। क्षेत्रीय तंत्रिका ब्लॉक (यदि उपयोग किया जाता है) पहले 12-18 घंटे उत्कृष्ट दर्द राहत प्रदान करता है।
-
-बर्फ चिकित्सा पहले 48-72 घंटे महत्वपूर्ण: बर्फ मशीन या आइस पैक 20 मिनट हर 2-3 घंटे। संपीड़न स्टॉकिंग या ACE रैप पैर की उंगलियों से मिड-जांघ तक रक्त के थक्कों को रोकता है।`
-          },
-          {
-            week: 'सप्ताह 1-4: संरक्षित गति और उपचार',
-            activity: 'कोमल गति की सीमा, क्रमिक वजन असर प्रगति',
-            description: `फिजिकल थेरेपी पहले सप्ताह के भीतर शुरू होती है (आमतौर पर दिन 3-7 पोस्ट-ऑप) - इष्टतम परिणामों के लिए महत्वपूर्ण। प्रारंभिक पीटी लक्ष्य: सावधानियों के भीतर हिप गति की सीमा बनाए रखें, कठोरता को रोकें, सामान्य चाल पैटर्न फिर से हासिल करें।
-
-वजन असर प्रगति: सप्ताह 1-2: TDWB (पैर की उंगली संतुलन के लिए जमीन को छूती है), सप्ताह 2-4: आंशिक वजन असर 30-50% शरीर के वजन तक प्रगति।`
-          },
-          {
-            week: 'सप्ताह 4-12: मजबूत बनाना और कार्यात्मक प्रगति',
-            activity: 'प्रगतिशील मजबूत बनाना, दैनिक जीवन की गतिविधियों में वापसी',
-            description: `पीटी दीर्घकालिक सफलता के लिए आवश्यक हिप स्टेबलाइजर्स पर ध्यान केंद्रित करने वाले मजबूत बनाने के चरण में आगे बढ़ता है। कोर मजबूत बनाना पूरे में एकीकृत: प्लैंक, बर्ड डॉग्स - हिप समारोह का समर्थन करने वाली पेल्विक स्थिरता के लिए मजबूत कोर आवश्यक है।
-
-कार्यात्मक प्रगति मील के पत्थर: सप्ताह 6-8: लंगड़ापन के बिना सामान्य चाल, सीढ़ियां पारस्परिक पैटर्न।`
-          },
-          {
-            week: 'महीना 3-6: प्रभाव गतिविधियों और खेल में वापसी',
-            activity: 'खेल-विशिष्ट प्रशिक्षण और पूर्ण गतिविधि वापसी',
-            description: `खेल मानदंड में वापसी (निकासी से पहले सभी को पूरा करना चाहिए): पूर्ण दर्द रहित गति की सीमा विपरीत हिप से मेल खाती है, उद्देश्य परीक्षण पर विपरीत पक्ष की हिप ताकत 85-90%।
-
-खेल-विशिष्ट वापसी समयरेखा (सबसे पहले - लंबा हो सकता है): दौड़ना: सीधी-रेखा दौड़ने के लिए 3-4 महीने, सॉकर/हॉकी: न्यूनतम 5-6 महीने।`
-          },
-          {
-            week: 'महीना 6-12+: दीर्घकालिक रखरखाव और परिणाम',
-            activity: 'पूर्ण गतिविधियां, चल रहे हिप स्वास्थ्य रखरखाव',
-            description: `पोस्ट-ऑप के 6 महीने बाद, अधिकांश रोगी (85-90%) महत्वपूर्ण दर्द में कमी और बेहतर कार्य के साथ वांछित गतिविधियों में लौट आए हैं। हालांकि, निरंतर सुधार 6-12 महीने होता है।
-
-दीर्घकालिक हिप संरक्षण: हिप आर्थ्रोस्कोपी इम्पिंजमेंट को हटाती है और क्षति की मरम्मत करती है लेकिन स्थापित गठिया को उलट नहीं सकती - लक्ष्य गठिया प्रगति को रोकना या धीमा करना है।`
-          }
-        ],
-        tips: [
-          'क्रच अनुपालन गैर-परक्राम्य - समय से पहले वजन असर लैब्रल मरम्मत विफलता का सबसे आम कारण',
-          'पहले 2 सप्ताह धार्मिक रूप से बर्फ - हर 2-3 घंटे में 20 मिनट दर्द और सूजन में बहुत बड़ा अंतर बनाते हैं',
-          'पहले 4 सप्ताह हिप सावधानियां महत्वपूर्ण - कोई हिप फ्लेक्शन >90° नहीं, कोई पिवोटिंग नहीं',
-          'फिजिकल थेरेपी उपस्थिति अनिवार्य - अकेले घरेलू व्यायाम अपर्याप्त',
-          'रिकवरी समयरेखा के साथ धैर्य - हिप आर्थ्रोस्कोपी रिकवरी क्रमिक',
-          'सामान्य दर्द को समस्याग्रस्त दर्द से अलग करें',
-          'खेल में वापसी जल्दी न करें - सबसे आम रोगी गलती',
-          'आजीवन मजबूत बनाना जारी रखें - हिप अपहर्ता/कोर व्यायाम सप्ताह में 2-3 बार',
-          'पहले 3 महीने "अच्छे दिन और बुरे दिन" की उम्मीद करें',
-          'नींद की स्थिति पहले कुछ हफ्तों: पैरों के बीच तकिया के साथ पीछे',
-          'ड्राइविंग आमतौर पर दाएं हिप के लिए 2-3 सप्ताह की अनुमति है',
-          'पहले 4-6 सप्ताह सेक्स प्रतिबंध - हिप सावधानियों का सम्मान करें',
-          'वजन प्रबंधन महत्वपूर्ण - अतिरिक्त पाउंड हिप बलों को महत्वपूर्ण रूप से बढ़ाते हैं',
-          'पहले 3 महीने लंबे समय तक बैठने से बचें',
-          'स्थिर बाइक उत्कृष्ट व्यायाम सप्ताह 2-12',
-          'पूल थेरेपी सप्ताह 6-12 मूल्यवान',
-          'यथार्थवादी अपेक्षाएं महत्वपूर्ण',
-          'यदि लगातार दर्द >6 महीने पोस्ट-ऑप हो तो दूसरी राय उचित है',
-          'युवा रोगी (<35) न्यूनतम गठिया के साथ - उत्कृष्ट दीर्घकालिक परिणाम',
-          'पहले वर्ष गतिविधियों के साथ कुछ हिप दर्द सामान्य है'
-        ]
-      }
-    },
-    faqs: {
-      en: [
-        {
-          question: 'Am I a good candidate for hip arthroscopy, or would I be better with a different treatment?',
-          answer: `EXCELLENT question - proper patient selection is THE most important factor determining hip arthroscopy success. Ideal candidates share these characteristics:
-
-AGE: Young to middle-aged adults 18-55 years typically best candidates. Younger patients (<40) with minimal arthritis have best outcomes (90-95% success). Patients 40-55 can still have excellent outcomes if joint relatively well-preserved. Patients >55 years can sometimes benefit but must have realistic expectations - older age and more arthritis make outcomes less predictable; many eventually need hip replacement despite successful arthroscopy. Adolescents (<18) sometimes candidates for specific conditions (labral tears, loose bodies) but FAI correction controversial in skeletally immature patients.
-
-SYMPTOMS: Mechanical hip pain - anterior groin pain with activity, clicking/catching/locking sensations, pain with hip flexion/internal rotation, C-sign (patient cups hand over groin showing pain location). These mechanical symptoms suggest structural problem (FAI, labral tear, loose body) amenable to arthroscopic treatment. POOR candidates: diffuse hip/buttock pain, primarily night pain at rest, pain with standing/walking more than flexion activities, back pain radiating to hip - these suggest different source (back, SI joint, hip arthritis, bursitis) unlikely to improve with arthroscopy.
-
-IMAGING FINDINGS: MRI arthrogram showing labral tear, chondral lesion, ligamentum teres tear, OR plain radiographs/CT showing FAI (CAM/PINCER deformity). Objective structural abnormality on imaging that correlates with symptoms essential - hip arthroscopy fixes structural problems, not "normal" hips with pain from other sources. Advanced arthritis (Tönnis grade 2-3, joint space narrowing <2mm, subchondral cysts, significant osteophytes) indicates arthroscopy unlikely to help - hip replacement better option.
-
-FAILED CONSERVATIVE TREATMENT: Minimum 3-6 months appropriate conservative care before surgery: physical therapy focusing on hip/core strengthening and flexibility, activity modification avoiding painful positions/movements, NSAIDs or other anti-inflammatory medications, possibly cortisone injection (diagnostic and therapeutic). Patients who haven't tried conservative treatment rarely good candidates - surgery should be last resort after non-operative options exhausted. Exception: acute locked hip from displaced loose body or flap tear may warrant earlier surgery.
-
-ACTIVITY LEVEL AND GOALS: Active individuals wanting to return to sports, fitness activities, recreational pursuits typically better candidates than sedentary individuals - motivation for rehabilitation critical. Realistic goals important: arthroscopy relieves mechanical symptoms and improves function but cannot reverse established arthritis or guarantee pain-free hip. Patients expecting to be "perfect" or "like new" often disappointed; those expecting "significant improvement allowing return to activities" usually satisfied.
-
-POOR CANDIDATE RED FLAGS: Hip dysplasia (acetabular coverage <18-20° - periacetabular osteotomy may be needed instead/in addition), advanced arthritis (better with hip replacement), primarily inflammatory arthritis (rheumatoid, ankylosing spondylitis), severe obesity (BMI >40 - technical difficulty, poor outcomes), active workers compensation claim or litigation (documented poorer outcomes), unrealistic expectations, inability/unwillingness to comply with post-op restrictions and PT.
-
-Dr. Kumar performs thorough evaluation including detailed history, physical examination, imaging review, discussion of all options (continued conservative care, arthroscopy, other surgeries, hip replacement) before recommending arthroscopy - ensures only appropriate candidates proceed. Roughly 60-70% of patients referred for hip arthroscopy consideration are appropriate candidates; others recommended alternative treatments. This careful selection drives Dr. Kumar's 94% success rate - choosing right patients for right procedure at right time.`
-        },
-        {
-          question: 'What are the risks and potential complications of hip arthroscopy? How do they compare to open hip surgery?',
-          answer: `Hip arthroscopy is generally safe when performed by experienced surgeon, with overall complication rate 1-5% (much lower than open hip surgery at 5-15%). However, ALL surgeries carry risks that patients must understand:
-
-COMMON MINOR COMPLICATIONS (5-15% of patients): Temporary nerve numbness/tingling around portals or down leg - usually from traction (perineal post compressing pudendal nerve) or portal placement near lateral femoral cutaneous nerve; resolves spontaneously within days to weeks in 95% of cases. Prolonged swelling/bruising around hip and thigh - normal part of healing, worse if extensive procedure; improves over 2-4 weeks with ice/compression/elevation. Portal site irritation or slow healing - small incisions occasionally irritated by clothing, slow to close; rarely requires intervention beyond local wound care.
-
-SERIOUS COMPLICATIONS (Rare but Important): Nerve injury (0.5-2%) - lateral femoral cutaneous nerve most commonly affected causing numbness on anterior/lateral thigh, usually temporary but can be permanent; sciatic nerve injury extremely rare but devastating (foot drop, weakness). Vascular injury (<0.1%) - femoral artery or vein injury during portal placement, very rare with proper technique and imaging guidance; requires immediate surgical repair. Infection (0.3-1%) - superficial wound infection most common, deep joint infection rare but serious requiring arthroscopic washout and antibiotics.
-
-Hip-specific complications: Labral repair failure (5-10%) - re-tear of repaired labrum from premature activity, inadequate healing, or excessive force; may require revision arthroscopy. Cartilage damage (1-3%) - arthroscope or instruments can inadvertently damage articular cartilage especially with inadequate distraction; meticulous technique minimizes risk. Hip instability/microinstability (1-2%) - excessive capsulotomy without repair can cause subtle hip instability; modern technique with capsular closure reduces this risk. Femoral neck fracture (<0.1%) - from over-aggressive CAM resection weakening femoral neck; very rare with proper technique and fluoroscopic guidance. Heterotopic ossification (3-5%) - abnormal bone formation around hip joint causing stiffness; more common in males, muscular patients, those with previous HO; prophylaxis with indomethacin reduces risk.
-
-Anesthesia-related: General anesthesia carries standard risks (allergic reaction, breathing problems, heart issues) - very low in healthy patients but increases with medical comorbidities. Blood clots (DVT/PE) uncommon after hip arthroscopy (0.3-0.5%) but potentially serious - early mobilization, compression stockings, sometimes blood thinners used for prevention.
-
-TRACTION-RELATED: Genital/perineal numbness from perineal post pressure (5-10%) - usually temporary resolving hours to days, occasionally persists weeks; careful padding minimizes. Skin breakdown over perineal post or heel (rare) - from prolonged pressure; protective padding essential. Compartment syndrome (extremely rare <0.1%) - from excessive traction or prolonged surgery causing muscle ischemia; requires emergency fasciotomy if occurs.
-
-COMPARISON TO OPEN HIP SURGERY: Hip arthroscopy has significantly LOWER complication rates and less severe complications compared to open surgical dislocation or other open hip procedures: Open surgery infection rate 2-5% vs arthroscopy 0.3-1%. Open surgery heterotopic ossification 15-30% vs arthroscopy 3-5%. Open surgery requires hospital stay 2-5 days vs arthroscopy same-day discharge. Open surgery recovery 4-6 months vs arthroscopy 3-4 months. Open surgery large scar 15-25cm vs arthroscopy 3-4 small scars <1cm each.
-
-MINIMIZING RISKS: Fellowship-trained hip arthroscopist with high volume (>50 cases/year) has lower complication rates. Proper patient selection avoiding high-risk patients (advanced arthritis, severe dysplasia, obesity). Meticulous surgical technique, appropriate traction, careful portal placement, capsular closure. Following post-operative precautions and weight bearing restrictions. Dr. Kumar's complication rate <2% reflects specialized training, experience, and careful patient selection - but cannot eliminate all risks. Most patients conclude benefits (pain relief, return to activities, hip preservation) outweigh small risks when appropriately selected.`
-        },
-        {
-          question: 'How long is the recovery from hip arthroscopy, and when can I return to work and sports?',
-          answer: `Hip arthroscopy recovery is GRADUAL - not a quick fix. Timeline varies by procedure extent, patient factors, pre-op conditioning, rehab compliance. Here's realistic timeline:
-
-IMMEDIATE (Days 0-14): Pain management, crutches, hip precautions, initial gentle motion. Most patients manage pain with oral medications, ice, elevation. Sleep disrupted first few nights common. Crutches required 1-4 weeks depending on procedure (diagnostic arthroscopy 1-2 weeks, standard FAI + labral repair 2-4 weeks, extensive reconstruction 4-6 weeks). Return to sedentary work possible 1-2 weeks if can work with hip precautions, crutches, pain controlled.
-
-EARLY RECOVERY (Weeks 2-6): Physical therapy 2-3 times weekly, gradual weight bearing progression, gentle ROM and activation exercises. "Feel worse before better" common weeks 2-4 as swelling peaks and PT increases activity. Around week 4-6 most patients notice improvement - less pain, easier movement, less reliance on pain meds. Discontinue crutches weeks 4-6 when walking normally without limp. Return to light-duty work weeks 4-6 if job allows modified duties.
-
-MID RECOVERY (Weeks 6-12): Progressive strengthening, functional activities, cardiovascular fitness on bike/elliptical/pool. Significant improvement noted - pain minimal, moving well, feeling "almost normal" for daily activities. Return to full work duties weeks 8-12 for most jobs (may be longer for heavy manual labor). Light jogging weeks 10-12 if criteria met (no limp, adequate strength, no pain). Most restrictions lifted by 12 weeks except high-impact sports.
-
-LATE RECOVERY (Months 3-6): Sport-specific training, return to impact activities, continued strength progression. Return to recreational sports months 3-4 for most (running, cycling, swimming, golf). Return to competitive cutting/pivoting sports months 4-6 (soccer, tennis, basketball, hockey). Full recovery often not reached until 6-9 months - continued strength gains, motion improvements, confidence building.
-
-LONG-TERM (6-12+ months): Maintenance phase - continued strengthening prevents recurrent symptoms. Most patients (85-90%) report significant improvement by 6 months. Some continued improvement noted 6-12 months especially in high-level athletes. Final outcome typically evaluated 12 months post-op.
-
-RETURN TO WORK SPECIFICS: Desk/sedentary work: 1-2 weeks with modifications (standing desk option, frequent breaks), 4-6 weeks full duty. Light physical work (teacher, retail): 4-6 weeks modified, 6-8 weeks full duty. Moderate physical work (nursing, general labor): 8-10 weeks modified, 10-12 weeks full duty. Heavy labor (construction, firefighter, military): 12-16 weeks minimum, case-by-case basis, may need permanent restrictions if job demands excessive. Patient-specific - discuss with surgeon based on exact job requirements.
-
-RETURN TO SPORT SPECIFICS (Minimum times - may be longer): Walking for fitness: 2-3 weeks. Stationary cycling: 2-3 weeks (seat high). Swimming: 6-8 weeks (avoiding butterfly/breaststroke initially). Running: 12-14 weeks straight-line, 16+ weeks hills/sprints. Cycling: 8-12 weeks recreational, 16+ weeks competitive. Golf: 12-16 weeks (chipping earlier, full swing later). Tennis/racquet sports: 16-20 weeks recreational, 20-24 weeks competitive. Soccer/hockey/lacrosse: 20-24 weeks. Basketball: 16-20 weeks. Dance/gymnastics: 16-24 weeks depending on style. Martial arts: 24+ weeks. Skiing: 16-20 weeks. CrossFit/Olympic lifting: 16-24 weeks (avoid deep squats permanently).
-
-FACTORS AFFECTING TIMELINE: Age (younger faster recovery), pre-op conditioning (better fitness = faster recovery), procedure extent (simple diagnostic 8-12 weeks, standard FAI repair 12-16 weeks, complex reconstruction 16-24 weeks), compliance with restrictions and PT (non-compliance delays recovery or causes failure), complications (infection, re-tear extends recovery), associated procedures (microfracture, ligamentum teres reconstruction may prolong timeline).
-
-Dr. Kumar emphasizes: "Better to wait extra month and have long-term success than return too early and re-tear repair requiring revision surgery." Patience with recovery process critical - hip arthroscopy repairs structural problem but tissues need time to heal. Most patients who follow protocol and don't rush return have excellent outcomes allowing them to return to desired activities pain-free or significantly improved.`
-        },
-        {
-          question: 'How successful is hip arthroscopy for FAI and labral tears? Will I need a hip replacement eventually?',
-          answer: `Hip arthroscopy success rates EXCELLENT when properly selected patients treated by experienced surgeons for appropriate conditions. However, "success" must be properly defined and realistic expectations set.
-
-SUCCESS RATES BY OUTCOME MEASURES: Pain relief: 80-90% of patients report significant pain reduction (VAS score improving from average 7/10 pre-op to 2/10 post-op). Return to activities: 85-90% return to desired sports/activities at some level; 70-75% return to pre-injury competitive level. Patient satisfaction: 85-90% report they would "definitely have surgery again" and are satisfied with outcome. Revision rate: 5-10% require repeat hip arthroscopy within 5 years for persistent/recurrent symptoms. Conversion to hip replacement: 10-15% at 10 years overall (varies greatly by age and pre-op arthritis grade).
-
-FACTORS PREDICTING SUCCESS: Age <40 years (90-95% success vs 70-75% age >50), Minimal pre-existing arthritis Tönnis grade 0-1 (90% success vs 50-60% grade 2-3), Shorter symptom duration <2 years (better outcomes than >5 years symptoms), Isolated labral tear or FAI without extensive cartilage damage (better than diffuse chondral loss), BMI <30 (obesity associated with poorer outcomes), Non-smoker (smoking impairs healing), Compliant with rehab (following restrictions and PT protocol critical).
-
-SPECIFIC CONDITION OUTCOMES: FAI (femoroacetabular impingement): 85-90% good-to-excellent outcomes in patients <50 with Tönnis 0-1 arthritis. Cam-type FAI slightly better outcomes than pincer-type. Mixed type (most common) has good outcomes 80-85%. Labral tears: 80-90% success when labrum repaired (better than debridement which only 65-70% success long-term). Anterosuperior labral tears (most common location) best outcomes. Posterior labral tears slightly lower success rates. Cartilage injuries: Isolated cartilage debridement 70-80% success. Microfracture for full-thickness defects 65-75% success (less predictable). Extensive cartilage loss (>2cm²) poor outcomes <50% - these patients often need hip replacement.
-
-HIP REPLACEMENT QUESTION - CRITICAL POINT: Hip arthroscopy does NOT prevent hip replacement in all patients - goal is delaying/preventing arthritis progression in properly selected candidates. Hip replacement risk stratified by age and arthritis at time of arthroscopy: Age <35, Tönnis 0 (minimal/no arthritis): 5-10% need hip replacement within 10-20 years; many avoid replacement entirely. Age 35-45, Tönnis 1 (mild arthritis): 15-20% need hip replacement within 10-15 years; most delay replacement 10-20 years compared to no treatment. Age 45-55, Tönnis 1-2 (mild-moderate arthritis): 30-40% need hip replacement within 5-10 years; arthroscopy buys time, improves function, but many eventually need replacement. Age >55, Tönnis 2+ (moderate-advanced arthritis): 50-60% need hip replacement within 5 years; arthroscopy rarely recommended this population - better to proceed directly to replacement.
-
-KEY CONCEPT - Hip preservation vs temporary improvement: Young patients (<40) with minimal arthritis - hip arthroscopy is TRUE hip preservation potentially preventing replacement. Middle-aged patients (40-55) with mild arthritis - hip arthroscopy buys valuable time (often 10-15 years) delaying replacement until older age when it's more appropriate. Older patients (>55) with moderate arthritis - arthroscopy may provide temporary relief but replacement usually needed relatively soon; careful discussion whether arthroscopy worth it or better to proceed to replacement.
-
-REALISTIC EXPECTATIONS CRITICAL: Hip arthroscopy CANNOT reverse established arthritis - it removes impingement, repairs torn labrum, cleans up damaged cartilage, but cannot regenerate lost cartilage or eliminate arthritis already present. Patients with Tönnis 0-1 arthritis have best chance of long-term success avoiding replacement. Patients with Tönnis 2-3 arthritis should understand arthroscopy MAY help temporarily but replacement likely eventually - surgeon judgment and patient preference guide decision.
-
-Dr. Kumar's approach: Carefully review imaging assessing arthritis severity, discuss realistic outcomes based on patient's specific situation, present all options (conservative care, arthroscopy, hip replacement, living with symptoms). Young patients (<45) with minimal arthritis strongly encouraged to consider arthroscopy - excellent chance of long-term success preserving native hip. Older patients (>50) with moderate arthritis counseled that both arthroscopy and replacement are reasonable options - arthroscopy less invasive but may be temporary, replacement more invasive but more predictable pain relief if arthritis driving symptoms.
-
-Bottom line: Hip arthroscopy HIGHLY successful in properly selected patients (young, active, minimal arthritis, mechanical symptoms from FAI/labral tear). Success rates decline with advancing age and arthritis severity. Most appropriately selected patients enjoy 10-20+ years of improved function and pain relief - many avoiding hip replacement entirely, others delaying it significantly. Setting realistic expectations based on individual patient factors essential for satisfaction.`
-        },
-        {
-          question: 'What are the costs of hip arthroscopy in Bihar, and what\'s included? Does insurance cover this?',
-          answer: `Hip arthroscopy costs vary based on procedure complexity, surgical time, implants used (suture anchors, fixation devices), hospital facility fees, and surgeon expertise. Dr. Kumar provides transparent pricing at Arthoscenter Patna:
-
-DIAGNOSTIC HIP ARTHROSCOPY (Evaluation Only, Minimal Intervention): ₹85,000-₹1,20,000 including pre-operative consultation and imaging review, surgical facility fees (operating room, specialized equipment including arthroscopy tower, traction table), surgeon fees, anesthesia fees (general + regional block), basic arthroscopic instruments and disposables, intraoperative findings documentation, post-operative pain management, overnight observation (if needed), crutches, initial physical therapy consultation, follow-up visits first 3 months. Diagnostic procedure performed when diagnosis uncertain, MRI inconclusive, or symptoms don't clearly correlate with imaging - allows direct visualization confirming or ruling out intra-articular pathology.
-
-STANDARD HIP ARTHROSCOPY (FAI Correction + Labral Repair): ₹1,80,000-₹2,50,000 including everything in diagnostic package PLUS femoroplasty (CAM resection) and/or acetabuloplasty (pincer correction), labral repair using suture anchors (₹15,000-₹25,000 per anchor; typically 2-4 anchors needed = ₹30,000-₹1,00,000 implant costs alone), cartilage debridement if needed, capsular closure/repair, extended surgical time (90-150 minutes), specialized hip arthroscopy instruments. This represents >80% of hip arthroscopy cases - treating FAI with labral tears, most common indication.
-
-COMPLEX HIP ARTHROSCOPY: ₹2,50,000-₹3,50,000 for complex procedures including extensive labral reconstruction (>4 anchors, autograft augmentation if needed), cartilage restoration procedures (microfracture, autologous chondrocyte implantation), ligamentum teres reconstruction, removal of multiple loose bodies, treatment of severe synovitis or PVNS, revision arthroscopy (prior surgery makes procedure more difficult, longer, higher risk). Extended surgical time (2-3 hours), additional specialized implants/grafts, longer hospitalization (1-2 nights), more intensive post-op therapy.
-
-BILATERAL HIP ARTHROSCOPY: ₹3,00,000-₹4,50,000 if both hips treated same surgery session (some surgeons prefer staging 3-6 months apart). Bilateral same-day offers cost savings vs two separate surgeries but longer anesthesia time, more difficult recovery (crutches both sides), higher complication risk. Dr. Kumar evaluates case-by-case whether bilateral same-day or staged approach better.
-
-COST INCLUSIONS (All Packages): Pre-operative consultation, examination, imaging review (patient provides own MRI arthrogram, x-rays - imaging costs separate). Surgical facility fees including specialized equipment. Surgeon professional fees. Anesthesiologist fees (general anesthesia + regional block). All surgical instruments, disposables, sterile supplies. Suture anchors and implants (number varies by case - quoted after reviewing imaging). Intraoperative fluoroscopy. Post-operative recovery room monitoring. Pain medications for hospital stay. Compression stockings. Crutches or walker. Initial physical therapy evaluation and home exercise program. Follow-up visits at 2 weeks, 6 weeks, 12 weeks, 6 months. Complication management if needed during initial recovery period.
-
-NOT INCLUDED: Pre-operative imaging (MRI arthrogram ₹8,000-₹15,000, X-rays ₹1,500-₹3,000, CT if needed ₹5,000-₹8,000). Pre-operative medical clearance (if needed). Outpatient physical therapy after initial consult (₹600-₹1,000 per session; typically 12-20 sessions over 12 weeks = ₹7,200-₹20,000). Prescription pain medications after hospital discharge. Ice machine/cold therapy device (optional, ₹3,000-₹5,000 purchase). Additional procedures if needed later (revision arthroscopy, eventual hip replacement if arthroscopy doesn't provide sufficient long-term relief).
-
-INSURANCE COVERAGE: Most private health insurance policies DO cover hip arthroscopy when medically necessary (not experimental/cosmetic). Pre-authorization REQUIRED for most insurers - Dr. Kumar's office assists with: Detailed clinical documentation of symptoms, failed conservative treatment (PT, medications, injections), imaging demonstrating structural pathology (FAI, labral tear), medical necessity letter explaining why surgery indicated. Insurance typically covers 70-90% of costs after deductible/copay. Cashless facility with major insurers.
-
-Government insurance (PMJAY Ayushman Bharat, CGHS, ECHS): Hip arthroscopy sometimes covered under these schemes when medically necessary - Arthoscenter works with patients to determine eligibility and facilitate approvals. Coverage limits may apply (₹1.5-5 lakh depending on scheme), may not cover all costs if complex procedure.
-
-Payment Options: Full payment upfront (typically 5-7% discount offered). Insurance direct billing (patient pays only deductible/copay). Payment plans available (30-40% deposit, remainder over 3-6 months interest-free). Medical financing through partner banks (12-24 month EMI options). Combination insurance + payment plan for uncovered portions.
-
-COST VS VALUE ANALYSIS: Hip arthroscopy expensive upfront but consider alternatives: Living with pain: Reduced quality of life, inability to participate in sports/activities, progressive arthritis, eventual hip replacement anyway but at younger age. Ongoing conservative treatment: Physical therapy ₹15,000-30,000 annually, pain medications ₹5,000-₹10,000 annually, cortisone injections ₹5,000-₹8,000 each (multiple over years), years of limitations = similar or greater cost over time without definitive solution. Premature hip replacement: If arthritis progresses unchecked, may need hip replacement age 35-45 (₹3-5 lakh) with limited prosthesis lifespan requiring revision(s) later in life (₹5-8 lakh each). Hip arthroscopy in appropriately selected young patient potentially prevents/delays hip replacement 15-25 years, allows return to active lifestyle, improves quality of life for decades - excellent value proposition.
-
-Most patients report: "If I had known how much it would improve my quality of life, I would have done it sooner. The cost is worth regaining ability to exercise, play with my children, and live without constant hip pain." For active individuals whose hip pain limits their lifestyle, hip arthroscopy often proves to be excellent investment in long-term hip health and quality of life.`
-        }
-      ],
-      hi: [
-        {
-          question: 'क्या मैं हिप आर्थ्रोस्कोपी के लिए अच्छा उम्मीदवार हूं, या मैं एक अलग उपचार के साथ बेहतर होगा?',
-          answer: `उत्कृष्ट प्रश्न - उचित रोगी चयन हिप आर्थ्रोस्कोपी सफलता का निर्धारण करने वाला सबसे महत्वपूर्ण कारक है। आदर्श उम्मीदवार इन विशेषताओं को साझा करते हैं:
-
-आयु: युवा से मध्यम आयु वर्ग के वयस्क 18-55 वर्ष आमतौर पर सबसे अच्छे उम्मीदवार। लक्षण: यांत्रिक हिप दर्द - गतिविधि के साथ पूर्वकाल ग्रोइन दर्द। इमेजिंग निष्कर्ष: MRI आर्थ्रोग्राम लैब्रल टियर दिखा रहा है।`
-        },
-        {
-          question: 'हिप आर्थ्रोस्कोपी के जोखिम और संभावित जटिलताएं क्या हैं? वे खुली हिप सर्जरी से कैसे तुलना करते हैं?',
-          answer: `हिप आर्थ्रोस्कोपी आमतौर पर अनुभवी सर्जन द्वारा किए जाने पर सुरक्षित है, कुल जटिलता दर 1-5% के साथ (खुली हिप सर्जरी की तुलना में बहुत कम 5-15%)। आम मामूली जटिलताएं (रोगियों का 5-15%): पोर्टल्स के आसपास या पैर के नीचे अस्थायी तंत्रिका सुन्नता/झुनझुनी। गंभीर जटिलताएं: तंत्रिका चोट (0.5-2%)।`
-        },
-        {
-          question: 'हिप आर्थ्रोस्कोपी से रिकवरी कितनी लंबी है, और मैं काम और खेल में कब वापस आ सकता हूं?',
-          answer: `हिप आर्थ्रोस्कोपी रिकवरी क्रमिक है - त्वरित समाधान नहीं। तत्काल (दिन 0-14): दर्द प्रबंधन, क्रच, हिप सावधानियां। प्रारंभिक रिकवरी (सप्ताह 2-6): फिजिकल थेरेपी सप्ताह में 2-3 बार। मध्य रिकवरी (सप्ताह 6-12): प्रगतिशील मजबूत बनाना।`
-        },
-        {
-          question: 'FAI और लैब्रल आँसू के लिए हिप आर्थ्रोस्कोपी कितनी सफल है? क्या मुझे अंततः हिप रिप्लेसमेंट की आवश्यकता होगी?',
-          answer: `हिप आर्थ्रोस्कोपी सफलता दर उत्कृष्ट जब उचित रूप से चयनित रोगियों का इलाज अनुभवी सर्जनों द्वारा उपयुक्त स्थितियों के लिए किया जाता है। सफलता दर परिणाम उपायों द्वारा: दर्द राहत: रोगियों का 80-90% महत्वपूर्ण दर्द में कमी की रिपोर्ट करते हैं। गतिविधियों में वापसी: 85-90% वांछित खेल/गतिविधियों में किसी स्तर पर वापस आते हैं।`
-        },
-        {
-          question: 'बिहार में हिप आर्थ्रोस्कोपी की लागत क्या है, और क्या शामिल है? क्या बीमा इसे कवर करता है?',
-          answer: `हिप आर्थ्रोस्कोपी लागत प्रक्रिया जटिलता, शल्य चिकित्सा समय, इस्तेमाल किए गए इम्प्लांट के आधार पर भिन्न होती है। डॉ. कुमार अर्थोसेंटर पटना में पारदर्शी मूल्य निर्धारण प्रदान करते हैं:
-
-नैदानिक हिप आर्थ्रोस्कोपी: ₹85,000-₹1,20,000। मानक हिप आर्थ्रोस्कोपी (FAI सुधार + लैब्रल मरम्मत): ₹1,80,000-₹2,50,000। जटिल हिप आर्थ्रोस्कोपी: ₹2,50,000-₹3,50,000।
-
-बीमा कवरेज: जब चिकित्सकीय रूप से आवश्यक हो तो अधिकांश निजी स्वास्थ्य बीमा पॉलिसी हिप आर्थ्रोस्कोपी को कवर करती है।`
-        }
-      ]
-    },
-    meta: {
-      en: {
-        title: 'Hip Arthroscopy Bihar | FAI Surgery Patna | Labral Tear Treatment | Dr. Gurudeo Kumar',
-        description: 'Expert hip arthroscopy in Patna. Dr. Gurudeo Kumar - 380+ procedures, 94% success rate. Minimally invasive FAI correction, labral repair, cartilage treatment. Advanced keyhole hip surgery. ₹999 consultation.',
-        keywords: ['hip arthroscopy', 'FAI surgery', 'femoroacetabular impingement', 'labral tear repair', 'hip labrum surgery', 'minimally invasive hip surgery', 'CAM impingement', 'PINCER impingement', 'hip cartilage repair', 'Dr. Gurudeo Kumar', 'Arthoscenter Patna', 'hip arthroscopy Bihar', 'hip preservation surgery']
-      },
-      hi: {
-        title: 'बिहार में हिप आर्थ्रोस्कोपी | पटना में FAI सर्जरी | लैब्रल टियर उपचार | डॉ. गुरुदेव कुमार',
-        description: 'पटना में विशेषज्ञ हिप आर्थ्रोस्कोपी। डॉ. गुरुदेव कुमार - 380+ प्रक्रियाएं, 94% सफलता दर। न्यूनतम इनवेसिव FAI सुधार, लैब्रल मरम्मत, कार्टिलेज उपचार। ₹999 परामर्श।',
-        keywords: ['हिप आर्थ्रोस्कोपी', 'FAI सर्जरी', 'लैब्रल टियर मरम्मत', 'न्यूनतम इनवेसिव हिप सर्जरी', 'हिप कार्टिलेज मरम्मत', 'डॉ. गुरुदेव कुमार', 'अर्थोसेंटर पटना']
-      }
-    },
-    relatedSurgeries: ['knee-arthroscopy', 'shoulder-arthroscopy', 'ankle-arthroscopy', 'total-hip-replacement']
-  },
   'achilles-tendon-repair': {
     id: 'achilles-tendon-repair',
     category: 'sports-medicine',
@@ -12508,7 +11017,6 @@ Chronic ankle instability affects up to 40% of patients following severe ankle s
     },
     relatedSurgeries: ['achilles-tendon-repair', 'ankle-arthroscopy', 'ankle-fracture-surgery', 'cartilage-restoration']
   },
-
   'ankle-replacement': {
     id: 'ankle-replacement',
     category: 'joint-replacement',
@@ -12739,7 +11247,6 @@ The procedure involves removing damaged bone and cartilage from the tibia and ta
     },
     relatedSurgeries: ['ankle-arthroscopy', 'ankle-fracture-surgery', 'total-knee-replacement', 'ankle-ligament-reconstruction']
   },
-
   'arthroscopic-biopsy': {
     id: 'arthroscopic-biopsy',
     category: 'diagnostic',
@@ -14908,7 +13415,6 @@ At Arthroscenter, Dr. Gurudeo Kumar has extensive experience in clavicle fractur
     },
     relatedSurgeries: ['humerus-fracture-fixation', 'shoulder-replacement', 'biceps-tendon-repair', 'radius-ulna-fracture']
   },
-
   'elbow-replacement': {
     id: 'elbow-replacement',
     category: 'joint-replacement',
@@ -15692,7 +14198,6 @@ Dr. Kumar employs advanced microsurgical techniques and intraoperative nerve mon
     },
     relatedSurgeries: ['discectomy', 'lumbar-laminectomy', 'cervical-fusion', 'artificial-disc-replacement']
   },
-
   'hamstring-repair': {
     id: 'hamstring-repair',
     category: 'sports-medicine',
@@ -15977,7 +14482,6 @@ During hamstring repair surgery, the torn hamstring tendons are reattached to th
     },
     relatedSurgeries: ['acl-reconstruction', 'meniscus-repair', 'patellar-tendon-repair', 'achilles-tendon-repair']
   },
-
   'hip-fracture-surgery': {
     id: 'hip-fracture-surgery',
     category: 'trauma-care',
@@ -16234,7 +14738,6 @@ Our hip fracture program emphasizes not just surgical excellence but comprehensi
     },
     relatedSurgeries: ['femur-fracture-fixation', 'total-hip-replacement', 'pelvic-fracture-fixation', 'osteoporosis-treatment']
   },
-
   'hip-resurfacing': {
     id: 'hip-resurfacing',
     category: 'joint-replacement',
@@ -16585,7 +15088,6 @@ At Arthoscenter, we accept all major insurance plans including PMJAY (Pradhan Ma
     },
     relatedSurgeries: ['total-hip-replacement', 'partial-hip-replacement', 'hip-revision-surgery', 'hip-arthroscopy']
   },
-
   'hip-revision-surgery': {
     id: 'hip-revision-surgery',
     category: 'joint-replacement',
@@ -16943,7 +15445,6 @@ For patients in Bihar and surrounding regions, access to high-quality revision h
       'knee-revision-surgery'
     ]
   },
-
   'intramedullary-nailing': {
     id: 'intramedullary-nailing',
     category: 'trauma-care',
@@ -17223,7 +15724,6 @@ The procedure is particularly effective for diaphyseal (mid-shaft) fractures and
       'open-fracture-management'
     ]
   },
-
   'kyphoplasty': {
     id: 'kyphoplasty',
     category: 'spine-surgery',
@@ -17501,7 +16001,6 @@ Kyphoplasty offers superior results compared to traditional vertebroplasty by re
       'lumbar-laminectomy'
     ]
   },
-
   'vertebroplasty': {
     id: 'vertebroplasty',
     category: 'spine-surgery',
@@ -17779,7 +16278,6 @@ Vertebroplasty provides rapid pain relief, often within 24-48 hours, allowing pa
       'lumbar-laminectomy'
     ]
   },
-
   'partial-hip-replacement': {
     id: 'partial-hip-replacement',
     category: 'joint-replacement',
@@ -18976,7 +17474,6 @@ This surgery is particularly beneficial for young athletes, active individuals w
       'patellar-tendon-repair'
     ]
   },
-
   'wrist-replacement': {
     id: 'wrist-replacement',
     category: 'joint-replacement',
@@ -20401,105 +18898,156 @@ Laminectomy surgery in India costs between ₹1,50,000-₹3,50,000 depending on 
       'spinal-tumor-removal'
     ]
   },
-  'thoracic-spine-surgery': {
-    id: 'thoracic-spine-surgery',
-    category: 'spine-surgery',
-    slug: 'thoracic-spine-surgery',
+  'shoulder-instability-surgery': {
+    id: 'shoulder-instability-surgery',
+    category: 'sports-medicine',
+    slug: 'shoulder-instability-surgery',
     title: {
-      en: 'Thoracic Spine Surgery in India',
-      hi: 'भारत में थोरैसिक स्पाइन सर्जरी'
+      en: 'Shoulder Instability Surgery in India',
+      hi: 'भारत में कंधे की अस्थिरता सर्जरी'
     },
     shortDesc: {
-      en: 'Specialized thoracic spine surgery at Arthros Center, Patna. Expert treatment for mid-back pain, thoracic disc herniation, and spinal deformity.',
-      hi: 'आर्थ्रोस सेंटर, पटना में विशेष थोरैसिक स्पाइन सर्जरी। मध्य पीठ दर्द, थोरैसिक डिस्क हर्नियेशन, और स्पाइनल विकृति के लिए विशेषज्ञ उपचार।'
+      en: 'Surgical treatment for recurrent shoulder dislocations and instability.',
+      hi: 'आवर्ती कंधे विस्थापन और अस्थिरता के लिए शल्य उपचार।'
     },
     overview: {
-      en: 'Thoracic spine surgery treats conditions affecting the mid-back region (T1-T12 vertebrae). At Arthros Center in Patna, Dr. Kumar specializes in thoracic disc herniations, spinal stenosis, compression fractures, and deformity correction in this challenging spinal region. Thoracic spine surgery is technically demanding due to proximity to vital organs and the spinal cord. We use advanced techniques including minimally invasive approaches when appropriate to treat thoracic myelopathy, disc disease, and fractures with excellent outcomes.',
-      hi: 'थोरैसिक स्पाइन सर्जरी मध्य-पीठ क्षेत्र (T1-T12 कशेरुकाओं) को प्रभावित करने वाली स्थितियों का इलाज करती है। पटना में आर्थ्रोस सेंटर में, डॉ. कुमार इस चुनौतीपूर्ण स्पाइनल क्षेत्र में थोरैसिक डिस्क हर्नियेशन, स्पाइनल स्टेनोसिस, कंप्रेशन फ्रैक्चर, और विकृति सुधार में विशेषज्ञ हैं।'
+      en: `Shoulder Instability Surgery treats recurrent shoulder dislocations. At Arthoscenter, Dr. Gurudeo Kumar provides expert treatment with 91% success rate. Surgery repairs torn labrum and tightens stretched capsule using arthroscopic or open techniques.`,
+      hi: `कंधे की अस्थिरता सर्जरी आवर्ती कंधे विस्थापन का इलाज करती है। आर्थोसेंटर में, डॉ. गुरुदेव कुमार 91% सफलता दर के साथ विशेषज्ञ उपचार प्रदान करते हैं।`
     },
-    symptoms: [
-      'Mid-back pain between shoulder blades',
-      'Pain radiating around ribs to chest',
-      'Difficulty walking or balance problems',
-      'Numbness or weakness in legs',
-      'Band-like sensation around chest or abdomen',
-      'Progressive spinal deformity',
-      'Breathing difficulties with severe deformity'
-    ],
-    procedure: {
-      preparation: 'Comprehensive imaging including MRI and CT. Pulmonary function tests if needed. Specialized surgical planning.',
-      steps: [
-        'General anesthesia with lung isolation if needed',
-        'Posterior, anterior, or lateral surgical approach',
-        'Exposure of thoracic spine',
-        'Decompression or stabilization procedure',
-        'Instrumentation placement if fusion needed',
-        'Wound closure with chest tube if needed'
+    symptoms: {
+      en: [
+        'Recurrent shoulder dislocations',
+        'Feeling of shoulder slipping out',
+        'Persistent shoulder pain',
+        'Apprehension raising arm overhead',
+        'Clicking sensation in shoulder',
+        'Difficulty with throwing sports',
+        'Nighttime pain',
+        'Loss of confidence in shoulder',
+        'Muscle weakness',
+        'Reduced range of motion'
       ],
-      duration: '2-6 hours depending on approach and complexity',
-      anesthesia: 'General anesthesia'
+      hi: [
+        'आवर्ती कंधे विस्थापन',
+        'कंधा फिसलने की भावना',
+        'लगातार कंधे का दर्द',
+        'ओवरहेड बांह उठाते समय आशंका',
+        'कंधे में क्लिकिंग सनसनी',
+        'फेंकने वाले खेलों में कठिनाई',
+        'रात का दर्द',
+        'कंधे में विश्वास की कमी',
+        'मांसपेशी कमजोरी',
+        'गति की सीमा में कमी'
+      ]
+    },
+    procedure: {
+      en: {
+        preparation: 'MRI arthrogram, physical therapy assessment, discussion of surgical approach.',
+        steps: [
+          'General anesthesia with nerve block',
+          'Diagnostic arthroscopy',
+          'Identification of labral tears',
+          'Assessment of bone loss',
+          'Repair with suture anchors',
+          'Capsular plication',
+          'Testing shoulder stability',
+          'Wound closure and sling application'
+        ],
+        duration: '1.5-2.5 hours',
+        anesthesia: 'General Anesthesia with Nerve Block'
+      },
+      hi: {
+        preparation: 'एमआरआई आर्थ्रोग्राम, फिजियोथेरेपी मूल्यांकन, शल्य दृष्टिकोण की चर्चा।',
+        steps: [
+          'तंत्रिका ब्लॉक के साथ जनरल एनेस्थीसिया',
+          'नैदानिक आर्थ्रोस्कोपी',
+          'लैब्रल आंसू की पहचान',
+          'हड्डी के नुकसान का आकलन',
+          'सिवनी एंकर के साथ मरम्मत',
+          'कैप्सुलर प्लिकेशन',
+          'कंधे की स्थिरता का परीक्षण',
+          'घाव बंद करना और स्लिंग लगाना'
+        ],
+        duration: '1.5-2.5 घंटे',
+        anesthesia: 'तंत्रिका ब्लॉक के साथ जनरल एनेस्थीसिया'
+      }
     },
     recovery: {
-      hospital: '3-7 days depending on approach',
-      timeline: {
-        week1: 'Hospital care, early mobilization.',
-        week2: 'Discharge home, gradual activity increase.',
-        week6: 'Physical therapy, improving strength.',
-        week12: 'Return to light activities.',
-        month6: 'Significant recovery, normal activities.',
-        month12: 'Full recovery, fusion consolidation.'
+      en: {
+        timeline: [
+          { week: 'Week 1-4', activity: 'Sling immobilization', description: 'Arm in sling, elbow/wrist exercises only' },
+          { week: 'Week 5-8', activity: 'Passive motion', description: 'Gentle pendulum exercises, therapist-assisted motion' },
+          { week: 'Week 9-12', activity: 'Active motion', description: 'Active shoulder movements, rotator cuff strengthening' },
+          { week: 'Month 4-6', activity: 'Progressive strengthening', description: 'Resistance training, sport-specific exercises' },
+          { week: 'Month 6-12', activity: 'Return to sports', description: 'Gradual return to full activities and contact sports' },
+          { week: 'Long-term', activity: 'Maintenance', description: 'Lifelong shoulder strengthening program' }
+        ],
+        tips: [
+          'Wear sling for first 4-6 weeks',
+          'Sleep semi-reclined',
+          'Avoid reaching behind back for 3 months',
+          'No lifting for 8 weeks',
+          'Ice 4-5 times daily initially',
+          'Attend all PT sessions',
+          'Gradual return to sports',
+          'Continue strengthening lifelong'
+        ]
       },
-      tips: [
-        'Breathing exercises important for recovery',
-        'Avoid twisting or heavy lifting',
-        'Follow physical therapy program',
-        'Monitor for breathing difficulties',
-        'Maintain good posture',
-        'Regular follow-up imaging'
-      ]
-    },
-    faqs: [
-      {
-        question: {
-          en: 'Why is thoracic spine surgery more complex?',
-          hi: 'थोरैसिक स्पाइन सर्जरी अधिक जटिल क्यों है?'
-        },
-        answer: {
-          en: 'The thoracic spine is challenging due to proximity to heart, lungs, and major blood vessels. The spinal cord is also vulnerable with less room for error. Specialized expertise is required for safe thoracic surgery.',
-          hi: 'थोरैसिक स्पाइन हृदय, फेफड़ों, और प्रमुख रक्त वाहिकाओं की निकटता के कारण चुनौतीपूर्ण है। रीढ़ की हड्डी भी कम त्रुटि के लिए कमरे के साथ कमजोर है।'
-        }
-      },
-      {
-        question: {
-          en: 'Is thoracic spine surgery covered under PMJAY?',
-          hi: 'क्या PMJAY के तहत थोरैसिक स्पाइन सर्जरी कवर है?'
-        },
-        answer: {
-          en: 'Yes, thoracic spine procedures are covered under PMJAY and BSKY schemes at Arthros Center, making specialized thoracic surgery accessible to eligible patients.',
-          hi: 'हां, आर्थ्रोस सेंटर में PMJAY और BSKY योजनाओं के तहत थोरैसिक स्पाइन प्रक्रियाएं कवर हैं।'
-        }
+      hi: {
+        timeline: [
+          { week: 'सप्ताह 1-4', activity: 'स्लिंग स्थिरीकरण', description: 'स्लिंग में बांह, केवल कोहनी/कलाई व्यायाम' },
+          { week: 'सप्ताह 5-8', activity: 'निष्क्रिय गति', description: 'कोमल पेंडुलम व्यायाम, चिकित्सक-सहायता प्राप्त गति' },
+          { week: 'सप्ताह 9-12', activity: 'सक्रिय गति', description: 'सक्रिय कंधे की गति, रोटेटर कफ मजबूती' },
+          { week: 'महीना 4-6', activity: 'प्रगतिशील मजबूती', description: 'प्रतिरोध प्रशिक्षण, खेल-विशिष्ट व्यायाम' },
+          { week: 'महीना 6-12', activity: 'खेल में वापसी', description: 'पूर्ण गतिविधियों और संपर्क खेलों में क्रमिक वापसी' },
+          { week: 'दीर्घकालिक', activity: 'रखरखाव', description: 'आजीवन कंधे मजबूती कार्यक्रम' }
+        ],
+        tips: [
+          'पहले 4-6 सप्ताह के लिए स्लिंग पहनें',
+          'अर्ध-झुकी हुई स्थिति में सोएं',
+          '3 महीने के लिए पीछे पहुंचने से बचें',
+          '8 सप्ताह के लिए उठाने से बचें',
+          'शुरू में दिन में 4-5 बार बर्फ लगाएं',
+          'सभी पीटी सत्रों में भाग लें',
+          'खेल में क्रमिक वापसी',
+          'आजीवन मजबूती जारी रखें'
+        ]
       }
-    ],
-    meta: {
-      title: 'Thoracic Spine Surgery in India - Mid-Back Surgery - Arthros Center Patna',
-      description: 'Expert thoracic spine surgery at Arthros Center, Patna. Specialized treatment for thoracic disc herniation, mid-back pain. PMJAY/BSKY accepted.',
-      keywords: [
-        'thoracic spine surgery India',
-        'mid back surgery Patna',
-        'thoracic disc herniation Bihar',
-        'thoracic myelopathy treatment',
-        'PMJAY spine surgery'
+    },
+    faqs: {
+      en: [
+        { question: 'How many dislocations before surgery needed?', answer: 'Generally 2-3 dislocations, especially in young active individuals under 30. Each dislocation increases damage and arthritis risk.' },
+        { question: 'What is the success rate?', answer: 'Arthroscopic Bankart repair has 85-95% success rate. At Arthoscenter, Dr. Kumar achieves 91% success with proper technique and rehabilitation.' },
+        { question: 'When can I return to sports?', answer: 'Non-contact sports: 4-6 months. Contact sports: 6-9 months minimum. Overhead throwing: 9-12 months.' },
+        { question: 'Will I regain full motion?', answer: 'Most patients regain 95-100% motion. Some may have slight loss of external rotation (5-10 degrees), usually not noticeable.' },
+        { question: 'What is cost in India?', answer: 'At Arthoscenter ₹1.5-2.5 lakhs all-inclusive. More affordable than international costs (₹6-12 lakhs). PMJAY/BSKY accepted. Book ₹999 consultation.' },
+        { question: 'How long is rehabilitation?', answer: '6-9 months minimum. First 4-6 weeks immobilized, then progressive therapy until sports clearance. Compliance is critical.' }
+      ],
+      hi: [
+        { question: 'सर्जरी से पहले कितने विस्थापन?', answer: 'आम तौर पर 2-3 विस्थापन, विशेष रूप से 30 के तहत युवा सक्रिय व्यक्तियों में। प्रत्येक विस्थापन क्षति और गठिया जोखिम बढ़ाता है।' },
+        { question: 'सफलता दर क्या है?', answer: 'आर्थ्रोस्कोपिक बैंकार्ट मरम्मत में 85-95% सफलता दर है। आर्थोसेंटर में, डॉ. कुमार उचित तकनीक के साथ 91% सफलता प्राप्त करते हैं।' },
+        { question: 'मैं खेल में कब लौट सकता हूं?', answer: 'गैर-संपर्क खेल: 4-6 महीने। संपर्क खेल: न्यूनतम 6-9 महीने। ओवरहेड फेंकना: 9-12 महीने।' },
+        { question: 'क्या मैं पूर्ण गति प्राप्त करूंगा?', answer: 'अधिकांश रोगी 95-100% गति फिर से प्राप्त करते हैं। कुछ में बाहरी घुमाव की मामूली हानि हो सकती है।' },
+        { question: 'भारत में लागत क्या है?', answer: 'आर्थोसेंटर में ₹1.5-2.5 लाख सभी समावेशी। अंतरराष्ट्रीय लागत से अधिक किफायती। PMJAY/BSKY स्वीकार किया। ₹999 परामर्श बुक करें।' },
+        { question: 'पुनर्वास कितना लंबा है?', answer: 'न्यूनतम 6-9 महीने। पहले 4-6 सप्ताह स्थिर, फिर खेल मंजूरी तक प्रगतिशील चिकित्सा।' }
       ]
     },
-    procedureCount: 65,
-    successRate: 90,
-    relatedSurgeries: [
-      'lumbar-fusion',
-      'laminectomy',
-      'spinal-decompression',
-      'kyphoplasty'
-    ]
-  }
+    meta: {
+      en: {
+        title: 'Shoulder Instability Surgery India | Bankart Repair | Dr. Gurudeo Kumar',
+        description: 'Expert shoulder instability surgery Patna, Bihar. Arthroscopic Bankart repair for recurrent dislocations. 91% success rate. Book ₹999 consultation.',
+        keywords: ['shoulder instability surgery India', 'Bankart repair Bihar', 'shoulder dislocation treatment Patna', 'arthroscopic shoulder stabilization', 'shoulder labral repair Patna']
+      },
+      hi: {
+        title: 'भारत में कंधे की अस्थिरता सर्जरी | बैंकार्ट मरम्मत',
+        description: 'पटना, बिहार में कंधे की अस्थिरता सर्जरी। आवर्ती विस्थापन के लिए आर्थ्रोस्कोपिक बैंकार्ट मरम्मत। 91% सफलता दर। ₹999 परामर्श।',
+        keywords: ['भारत में कंधे की अस्थिरता सर्जरी', 'बिहार में बैंकार्ट मरम्मत', 'पटना में कंधे विस्थापन उपचार']
+      }
+    },
+    procedureCount: 120,
+    successRate: 91,
+    relatedSurgeries: ['shoulder-labral-repair', 'rotator-cuff-repair', 'shoulder-arthroscopy', 'shoulder-replacement']
+  },
 };
 
 // Helper function to get surgery data
