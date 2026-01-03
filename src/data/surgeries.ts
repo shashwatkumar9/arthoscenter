@@ -19257,7 +19257,7 @@ Ideal candidates for wrist replacement include patients with severe rheumatoid a
         }
       ]
     },
-    seo: {
+    meta: {
       en: {
         title: 'Wrist Replacement Surgery in India | Total Wrist Arthroplasty | Dr. Gurudeo Kumar',
         description: 'Expert wrist replacement surgery in Patna, Bihar. Dr. Gurudeo Kumar - Advanced wrist arthroplasty for severe arthritis. Pain relief, motion preservation. Book ₹999 consultation.',
@@ -19303,7 +19303,7 @@ Ideal candidates for wrist replacement include patients with severe rheumatoid a
       en: 'Finger Joint Replacement Surgery in India',
       hi: 'भारत में उंगली जोड़ प्रतिस्थापन सर्जरी'
     },
-    shortDescription: {
+    shortDesc: {
       en: 'Advanced finger joint replacement surgery at Arthros Center, Patna. Restore hand function and relieve arthritis pain with modern implants.',
       hi: 'आर्थ्रोस सेंटर, पटना में उन्नत उंगली जोड़ प्रतिस्थापन सर्जरी। आधुनिक इम्प्लांट के साथ हाथ की कार्यक्षमता बहाल करें और गठिया के दर्द से राहत पाएं।'
     },
@@ -19525,7 +19525,7 @@ Finger joint replacement surgery in India costs between ₹50,000-₹1,50,000 pe
         }
       }
     ],
-    seo: {
+    meta: {
       title: 'Finger Joint Replacement Surgery in India - Arthros Center Patna',
       description: 'Advanced finger joint replacement surgery at Arthros Center, Patna, Bihar. Expert treatment for finger arthritis with modern implants. PMJAY/BSKY accepted. 85% success rate.',
       keywords: [
@@ -19560,7 +19560,7 @@ Finger joint replacement surgery in India costs between ₹50,000-₹1,50,000 pe
       en: 'Lumbar Fusion Surgery in India',
       hi: 'भारत में लंबर फ्यूजन सर्जरी'
     },
-    shortDescription: {
+    shortDesc: {
       en: 'Expert lumbar spinal fusion surgery at Arthros Center, Patna. Advanced treatment for chronic lower back pain, spinal instability, and degenerative disc disease.',
       hi: 'आर्थ्रोस सेंटर, पटना में विशेषज्ञ लंबर स्पाइनल फ्यूजन सर्जरी। पुराने निचले पीठ दर्द, रीढ़ की अस्थिरता, और अपक्षयी डिस्क रोग के लिए उन्नत उपचार।'
     },
@@ -19798,7 +19798,7 @@ Lumbar fusion surgery in India costs between ₹2,50,000-₹6,00,000 depending o
         }
       }
     ],
-    seo: {
+    meta: {
       title: 'Lumbar Fusion Surgery in India - Arthros Center Patna',
       description: 'Expert lumbar spinal fusion surgery at Arthros Center, Patna, Bihar. Advanced treatment for chronic back pain, spinal instability. PMJAY/BSKY accepted. 92% success rate.',
       keywords: [
@@ -19833,7 +19833,7 @@ Lumbar fusion surgery in India costs between ₹2,50,000-₹6,00,000 depending o
       en: 'Laminectomy Surgery in India',
       hi: 'भारत में लैमिनेक्टॉमी सर्जरी'
     },
-    shortDescription: {
+    shortDesc: {
       en: 'Expert laminectomy surgery at Arthros Center, Patna. Effective decompression surgery for spinal stenosis, nerve compression, and chronic back pain.',
       hi: 'आर्थ्रोस सेंटर, पटना में विशेषज्ञ लैमिनेक्टॉमी सर्जरी। स्पाइनल स्टेनोसिस, तंत्रिका संपीड़न, और पुरानी पीठ दर्द के लिए प्रभावी डीकंप्रेशन सर्जरी।'
     },
@@ -19979,7 +19979,7 @@ Laminectomy surgery in India costs between ₹1,50,000-₹3,50,000 depending on 
         }
       }
     ],
-    seo: {
+    meta: {
       title: 'Laminectomy Surgery in India - Spinal Decompression - Arthros Center Patna',
       description: 'Expert laminectomy surgery at Arthros Center, Patna, Bihar. Effective treatment for spinal stenosis, nerve compression. PMJAY/BSKY accepted. 94% success rate.',
       keywords: [
@@ -20010,7 +20010,7 @@ Laminectomy surgery in India costs between ₹1,50,000-₹3,50,000 depending on 
       en: 'Spinal Decompression Surgery in India',
       hi: 'भारत में स्पाइनल डीकंप्रेशन सर्जरी'
     },
-    shortDescription: {
+    shortDesc: {
       en: 'Comprehensive spinal decompression surgery at Arthros Center, Patna. Relief from nerve compression, spinal stenosis, and herniated discs.',
       hi: 'आर्थ्रोस सेंटर, पटना में व्यापक स्पाइनल डीकंप्रेशन सर्जरी। तंत्रिका संपीड़न, स्पाइनल स्टेनोसिस, और हर्नियेटेड डिस्क से राहत।'
     },
@@ -20084,7 +20084,7 @@ Laminectomy surgery in India costs between ₹1,50,000-₹3,50,000 depending on 
         }
       }
     ],
-    seo: {
+    meta: {
       title: 'Spinal Decompression Surgery in India - Arthros Center Patna',
       description: 'Expert spinal decompression surgery at Arthros Center, Patna. Effective treatment for nerve compression, spinal stenosis. PMJAY/BSKY accepted.',
       keywords: [
@@ -20112,7 +20112,7 @@ Laminectomy surgery in India costs between ₹1,50,000-₹3,50,000 depending on 
       en: 'Minimally Invasive Spine Surgery in India',
       hi: 'भारत में न्यूनतम आक्रामक स्पाइन सर्जरी'
     },
-    shortDescription: {
+    shortDesc: {
       en: 'Advanced minimally invasive spine surgery at Arthros Center, Patna. Faster recovery, less pain, smaller incisions for spine conditions.',
       hi: 'आर्थ्रोस सेंटर, पटना में उन्नत न्यूनतम आक्रामक स्पाइन सर्जरी। तेजी से रिकवरी, कम दर्द, स्पाइन स्थितियों के लिए छोटे चीरे।'
     },
@@ -20181,7 +20181,7 @@ Laminectomy surgery in India costs between ₹1,50,000-₹3,50,000 depending on 
         }
       }
     ],
-    seo: {
+    meta: {
       title: 'Minimally Invasive Spine Surgery in India - MIS - Arthros Center Patna',
       description: 'Advanced minimally invasive spine surgery at Arthros Center, Patna. Faster recovery, less pain. PMJAY/BSKY accepted.',
       keywords: [
@@ -20209,7 +20209,7 @@ Laminectomy surgery in India costs between ₹1,50,000-₹3,50,000 depending on 
       en: 'Spinal Tumor Removal Surgery in India',
       hi: 'भारत में स्पाइनल ट्यूमर रिमूवल सर्जरी'
     },
-    shortDescription: {
+    shortDesc: {
       en: 'Specialized spinal tumor removal surgery at Arthros Center, Patna. Expert treatment for spinal cord and nerve tumors.',
       hi: 'आर्थ्रोस सेंटर, पटना में विशेष स्पाइनल ट्यूमर रिमूवल सर्जरी। रीढ़ की हड्डी और तंत्रिका ट्यूमर के लिए विशेषज्ञ उपचार।'
     },
@@ -20281,7 +20281,7 @@ Laminectomy surgery in India costs between ₹1,50,000-₹3,50,000 depending on 
         }
       }
     ],
-    seo: {
+    meta: {
       title: 'Spinal Tumor Removal Surgery in India - Arthros Center Patna',
       description: 'Expert spinal tumor removal surgery at Arthros Center, Patna. Specialized treatment for spinal cord tumors. PMJAY/BSKY accepted.',
       keywords: [
@@ -20309,7 +20309,7 @@ Laminectomy surgery in India costs between ₹1,50,000-₹3,50,000 depending on 
       en: 'Spinal Cord Decompression Surgery in India',
       hi: 'भारत में स्पाइनल कॉर्ड डीकंप्रेशन सर्जरी'
     },
-    shortDescription: {
+    shortDesc: {
       en: 'Emergency spinal cord decompression surgery at Arthros Center, Patna. Critical treatment for spinal cord compression and myelopathy.',
       hi: 'आर्थ्रोस सेंटर, पटना में आपातकालीन स्पाइनल कॉर्ड डीकंप्रेशन सर्जरी। स्पाइनल कॉर्ड संपीड़न और मायलोपैथी के लिए महत्वपूर्ण उपचार।'
     },
@@ -20381,7 +20381,7 @@ Laminectomy surgery in India costs between ₹1,50,000-₹3,50,000 depending on 
         }
       }
     ],
-    seo: {
+    meta: {
       title: 'Spinal Cord Decompression Surgery in India - Arthros Center Patna',
       description: 'Emergency spinal cord decompression at Arthros Center, Patna. Critical treatment for myelopathy, spinal cord compression. PMJAY/BSKY accepted.',
       keywords: [
@@ -20409,7 +20409,7 @@ Laminectomy surgery in India costs between ₹1,50,000-₹3,50,000 depending on 
       en: 'Thoracic Spine Surgery in India',
       hi: 'भारत में थोरैसिक स्पाइन सर्जरी'
     },
-    shortDescription: {
+    shortDesc: {
       en: 'Specialized thoracic spine surgery at Arthros Center, Patna. Expert treatment for mid-back pain, thoracic disc herniation, and spinal deformity.',
       hi: 'आर्थ्रोस सेंटर, पटना में विशेष थोरैसिक स्पाइन सर्जरी। मध्य पीठ दर्द, थोरैसिक डिस्क हर्नियेशन, और स्पाइनल विकृति के लिए विशेषज्ञ उपचार।'
     },
@@ -20480,7 +20480,7 @@ Laminectomy surgery in India costs between ₹1,50,000-₹3,50,000 depending on 
         }
       }
     ],
-    seo: {
+    meta: {
       title: 'Thoracic Spine Surgery in India - Mid-Back Surgery - Arthros Center Patna',
       description: 'Expert thoracic spine surgery at Arthros Center, Patna. Specialized treatment for thoracic disc herniation, mid-back pain. PMJAY/BSKY accepted.',
       keywords: [
