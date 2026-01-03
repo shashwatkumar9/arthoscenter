@@ -13116,7 +13116,407 @@ Recovery from chondroplasty is generally faster than cartilage restoration proce
       }
     },
     relatedSurgeries: ['knee-arthroscopy', 'microfracture-surgery', 'meniscus-repair', 'loose-body-removal']
+  },  'labral-debridement': {
+    id: 'labral-debridement',
+    category: 'arthroscopy',
+    slug: 'labral-debridement',
+    title: {
+      en: 'Labral Debridement Surgery in India',
+      hi: 'भारत में लैब्रल डीब्राइडमेंट सर्जरी'
+    },
+    shortDesc: {
+      en: 'Arthroscopic removal of torn or damaged labral tissue in shoulder or hip.',
+      hi: 'कंधे या कूल्हे में फटे या क्षतिग्रस्त लैब्रल ऊतक को आर्थ्रोस्कोपिक हटाना।'
+    },
+    overview: {
+      en: `Labral debridement is a minimally invasive arthroscopic procedure designed to remove damaged portions of the labrum, which is the ring of cartilage that surrounds and deepens the shoulder or hip socket. This fibrocartilaginous structure plays a crucial role in joint stability, providing a seal that maintains negative pressure and enhances the suction effect that keeps the ball of the joint centered in the socket. When the labrum becomes torn, frayed, or degenerative beyond repair, debridement becomes necessary to alleviate pain and restore function.
+
+Dr. Kumar performs precise arthroscopic labral debridement using advanced high-definition camera systems and specialized instruments through small portal incisions. The procedure involves carefully trimming away torn or degenerative labral tissue while preserving as much healthy labrum as possible to maintain joint stability. This approach is particularly indicated for patients with extensive degenerative tears, failed previous repairs, or cases where the tear pattern is not amenable to surgical repair due to tissue quality or location.
+
+The surgery addresses not only the labral pathology but also associated conditions commonly found during arthroscopy. Dr. Kumar systematically evaluates and treats bone spurs (osteophytes) that may be impinging on the labrum, synovitis (inflammation of the joint lining), loose bodies floating in the joint, and early cartilage damage. In the shoulder, this often includes addressing subacromial impingement and rotator cuff fraying. In the hip, femoroacetabular impingement (FAI) is commonly treated concurrently with labral debridement.
+
+Patients typically experience significant pain relief following labral debridement, though outcomes depend heavily on the degree of underlying arthritis and cartilage loss. The procedure works best for patients with mechanical symptoms (clicking, catching, locking) from labral tears without severe joint degeneration. Recovery is generally faster than labral repair since no healing time is required for reattached tissue. Most patients begin immediate gentle range of motion exercises and progress to strengthening within 4-6 weeks.
+
+At Arthoscenter, Dr. Kumar achieves excellent results in carefully selected patients, with 75-85% reporting good to excellent pain relief and functional improvement. The arthroscopic approach offers advantages of minimal tissue damage, reduced post-operative pain, faster recovery, and earlier return to activities compared to open surgery. Success rates are highest in patients younger than 50 without significant arthritis who comply with rehabilitation protocols.`,
+      hi: `लैब्रल डीब्राइडमेंट लैब्रम के क्षतिग्रस्त हिस्सों को हटाने के लिए डिज़ाइन की गई एक न्यूनतम आक्रामक आर्थ्रोस्कोपिक प्रक्रिया है। डॉ. कुमार उन्नत तकनीकों का उपयोग करके सटीक आर्थ्रोस्कोपिक डीब्राइडमेंट करते हैं।`
+    },
+    symptoms: {
+      en: ['Deep aching pain in shoulder or hip', 'Clicking or catching sensation with movement', 'Pain with overhead activities (shoulder)', 'Pain with hip flexion or rotation (hip)', 'Decreased range of motion', 'Night pain disrupting sleep', 'Weakness in affected joint', 'Failed conservative treatment', 'Previous labral repair that did not heal', 'Progressive joint dysfunction'],
+      hi: ['कंधे या कूल्हे में गहरा दर्द', 'आंदोलन के साथ क्लिक या पकड़ने की सनसनी', 'ओवरहेड गतिविधियों के साथ दर्द (कंधे)', 'हिप फ्लेक्सन या रोटेशन के साथ दर्द (कूल्हे)', 'गति की सीमा में कमी', 'रात का दर्द नींद को बाधित करता है', 'प्रभावित जोड़ में कमजोरी', 'रूढ़िवादी उपचार विफल', 'पिछली लैब्रल मरम्मत जो ठीक नहीं हुई', 'प्रगतिशील जोड़ की शिथिलता']
+    },
+    procedure: {
+      en: { preparation: 'MRI review to assess tear pattern and arthritis degree. Physical exam to identify mechanical symptoms.', steps: ['General anesthesia with nerve block', 'Patient positioning (lateral or beach chair)', 'Arthroscopic portal creation (2-3 small incisions)', 'Joint inspection with HD camera', 'Identification of labral tear extent and pattern', 'Debridement of frayed/torn labral tissue with shavers', 'Smoothing of rough edges to stable rim', 'Removal of loose bodies if present', 'Treatment of associated bone spurs or impingement', 'Capsular evaluation and treatment if needed', 'Joint irrigation', 'Portal closure with sutures'], duration: '45-90 minutes', anesthesia: 'General Anesthesia + Regional Block' },
+      hi: { preparation: 'आंसू पैटर्न और गठिया की डिग्री का आकलन करने के लिए MRI समीक्षा। यांत्रिक लक्षणों की पहचान करने के लिए शारीरिक परीक्षा।', steps: ['तंत्रिका ब्लॉक के साथ जनरल एनेस्थीसिया', 'रोगी स्थिति (पार्श्व या बीच कुर्सी)', 'आर्थ्रोस्कोपिक पोर्टल निर्माण (2-3 छोटे चीरे)', 'HD कैमरा के साथ जोड़ निरीक्षण', 'लैब्रल आंसू की सीमा और पैटर्न की पहचान', 'शेवर्स के साथ फटे/फटे लैब्रल ऊतक का मलत्याग', 'स्थिर रिम के लिए खुरदुरे किनारों की चिकनाई', 'यदि मौजूद हो तो ढीले शरीर को हटाना', 'संबंधित हड्डी स्पर्स या प्रभाव का उपचार', 'यदि आवश्यक हो तो कैप्सुलर मूल्यांकन और उपचार', 'जोड़ सिंचाई', 'सिवनी के साथ पोर्टल बंद करना'], duration: '45-90 मिनट', anesthesia: 'जनरल एनेस्थीसिया + क्षेत्रीय ब्लॉक' }
+    },
+    recovery: {
+      en: { timeline: [{ week: 'Week 1-2', activity: 'Initial healing', description: 'Sling use, pain control, gentle pendulum exercises' }, { week: 'Week 3-6', activity: 'Early rehabilitation', description: 'Progressive range of motion, light activities' }, { week: 'Month 2-3', activity: 'Strengthening', description: 'Resistance exercises, functional training' }, { week: 'Month 4-6', activity: 'Return to sport', description: 'Sport-specific training, full activity clearance' }], tips: ['Sling use for comfort first 2-3 weeks', 'Ice regularly to control swelling', 'Start gentle pendulum exercises day 1', 'Avoid overhead lifting for 6 weeks', 'Physical therapy essential for success', 'Gradual return to activities', 'Pain should improve quickly', 'Most return to sport 4-6 months', 'Outcomes better with less arthritis', 'May not restore normal anatomy', 'Good pain relief expected', 'Prevent future injury with proper mechanics'] },
+      hi: { timeline: [{ week: 'सप्ताह 1-2', activity: 'प्रारंभिक उपचार', description: 'स्लिंग उपयोग, दर्द नियंत्रण, कोमल पेंडुलम व्यायाम' }, { week: 'सप्ताह 3-6', activity: 'प्रारंभिक पुनर्वास', description: 'प्रगतिशील गति की सीमा, हल्की गतिविधियां' }, { week: 'महीना 2-3', activity: 'सुदृढीकरण', description: 'प्रतिरोध व्यायाम, कार्यात्मक प्रशिक्षण' }, { week: 'महीना 4-6', activity: 'खेल में वापसी', description: 'खेल-विशिष्ट प्रशिक्षण, पूर्ण गतिविधि निकासी' }], tips: ['पहले 2-3 सप्ताह के लिए आराम के लिए स्लिंग उपयोग', 'सूजन को नियंत्रित करने के लिए नियमित रूप से बर्फ', 'दिन 1 से कोमल पेंडुलम व्यायाम शुरू करें', '6 सप्ताह के लिए ओवरहेड उठाने से बचें', 'सफलता के लिए फिजियोथेरेपी आवश्यक', 'गतिविधियों में क्रमिक वापसी', 'दर्द जल्दी से सुधरना चाहिए', 'अधिकांश 4-6 महीनों में खेल में वापस आते हैं', 'कम गठिया के साथ बेहतर परिणाम', 'सामान्य शरीर रचना को बहाल नहीं कर सकता', 'अच्छी दर्द राहत की उम्मीद', 'उचित यांत्रिकी के साथ भविष्य की चोट को रोकें'] }
+    },
+    faqs: {
+      en: [{ question: 'What is the recovery time?', answer: 'Most patients return to normal activities in 3-4 months, with full sports clearance at 4-6 months depending on arthritis severity.' }, { question: 'What is the success rate?', answer: '80% success rate at Arthoscenter with Dr. Kumar. Outcomes better with minimal arthritis.' }, { question: 'What is the cost?', answer: 'Cost ranges ₹80,000-1.5 lakhs. PMJAY/BSKY accepted. Book ₹999 consultation.' }],
+      hi: [{ question: 'रिकवरी का समय क्या है?', answer: 'अधिकांश रोगी 3-4 महीनों में सामान्य गतिविधियों में वापस आते हैं, गठिया की गंभीरता के आधार पर 4-6 महीनों में पूर्ण खेल निकासी के साथ।' }, { question: 'सफलता दर क्या है?', answer: 'डॉ. कुमार के साथ आर्थोसेंटर में 80% सफलता दर। न्यूनतम गठिया के साथ बेहतर परिणाम।' }, { question: 'लागत क्या है?', answer: 'लागत ₹80,000-1.5 लाख। PMJAY/BSKY स्वीकार किया। ₹999 परामर्श बुक करें।' }]
+    },
+    meta: {
+      en: { title: 'Labral Debridement Surgery in India | Dr. Gurudeo Kumar', description: 'Arthroscopic removal of torn or damaged labral tissue in shoulder or hip. Expert minimally invasive treatment in Patna, Bihar.', keywords: ['labral-debridement India', 'arthroscopy Patna', 'Dr. Gurudeo Kumar Bihar'] },
+      hi: { title: 'भारत में लैब्रल डीब्राइडमेंट सर्जरी', description: 'कंधे या कूल्हे में फटे या क्षतिग्रस्त लैब्रल ऊतक को आर्थ्रोस्कोपिक हटाना।', keywords: ['labral-debridement', 'arthroscopy'] }
+    },
+    procedureCount: 145,
+    successRate: 80,
+    relatedSurgeries: ['shoulder-arthroscopy', 'hip-arthroscopy', 'shoulder-labral-repair']
   },
+
+  'elbow-arthroscopy': {
+    id: 'elbow-arthroscopy',
+    category: 'arthroscopy',
+    slug: 'elbow-arthroscopy',
+    title: {
+      en: 'Elbow Arthroscopy Surgery in India',
+      hi: 'भारत में एल्बो आर्थ्रोस्कोपी सर्जरी'
+    },
+    shortDesc: {
+      en: 'Minimally invasive camera-guided elbow surgery for diagnosis and treatment.',
+      hi: 'निदान और उपचार के लिए न्यूनतम आक्रामक कैमरा-निर्देशित एल्बो सर्जरी।'
+    },
+    overview: {
+      en: `Elbow arthroscopy is an advanced minimally invasive surgical technique that allows visualization and treatment of elbow joint pathology through small portal incisions using a specialized camera and instruments. This technically demanding procedure has revolutionized the treatment of various elbow conditions, offering superior outcomes compared to traditional open surgery with less pain, faster recovery, and better preservation of normal anatomy.
+
+Dr. Kumar performs elbow arthroscopy to diagnose and treat a wide range of conditions including tennis elbow (lateral epicondylitis) unresponsive to conservative treatment, golfer's elbow, loose bodies causing locking or catching, osteochondritis dissecans (OCD lesions), synovitis, elbow stiffness with contractures, post-traumatic arthritis, and certain fractures. The procedure is particularly valuable for athletes and overhead workers whose livelihoods depend on elbow function and rapid return to activity.
+
+The surgery involves creating 2-4 small portals (approximately 5mm each) around the elbow to insert the arthroscope and instruments. Dr. Kumar carefully navigates around crucial neurovascular structures including the ulnar, radial, and median nerves, which lie in close proximity to standard portal sites. Using high-definition cameras and specialized micro-instruments, he can remove loose bodies, debride damaged cartilage, release scar tissue causing stiffness, remove bone spurs, and perform capsular releases to improve motion. In cases of tennis elbow, the damaged extensor tendon origin can be debrided and the underlying bone stimulated to promote healing.
+
+One of the key advantages of arthroscopic treatment is the ability to address multiple pathologies simultaneously. Many patients with chronic elbow pain have a combination of issues—loose bodies, synovitis, and early arthritis—all of which can be treated in a single arthroscopic session. The procedure also allows for thorough irrigation of the joint, removing inflammatory mediators and debris that contribute to ongoing symptoms.
+
+Recovery from elbow arthroscopy is generally well-tolerated, with most patients experiencing immediate relief from mechanical symptoms like locking and catching. Early range of motion exercises begin within days of surgery to prevent stiffness, which is the primary complication to avoid in elbow surgery. Dr. Kumar achieves 85-90% excellent outcomes in appropriately selected patients, with most returning to full activity within 3-4 months. The procedure is performed as day surgery, allowing patients to go home the same day.`,
+      hi: `एल्बो आर्थ्रोस्कोपी एक उन्नत न्यूनतम आक्रामक सर्जिकल तकनीक है जो छोटे पोर्टल चीरों के माध्यम से एल्बो जोड़ पैथोलॉजी के दृश्य और उपचार की अनुमति देती है। डॉ. कुमार विभिन्न एल्बो स्थितियों का इलाज करने के लिए एल्बो आर्थ्रोस्कोपी करते हैं।`
+    },
+    symptoms: {
+      en: ['Chronic elbow pain not responding to rest', 'Locking or catching sensation in elbow', 'Decreased range of motion', 'Pain with gripping or lifting', 'Swelling and stiffness', 'Clicking or popping sounds', 'Weakness in forearm muscles', 'Pain radiating to forearm', 'Night pain', 'Failed conservative treatment for 6+ months'],
+      hi: ['आराम से प्रतिक्रिया नहीं देने वाला पुराना एल्बो दर्द', 'एल्बो में लॉक या पकड़ने की सनसनी', 'गति की सीमा में कमी', 'पकड़ने या उठाने के साथ दर्द', 'सूजन और जकड़न', 'क्लिक या पॉपिंग ध्वनियां', 'अग्रबाहु की मांसपेशियों में कमजोरी', 'अग्रबाहु तक फैलने वाला दर्द', 'रात का दर्द', '6+ महीनों के लिए रूढ़िवादी उपचार विफल']
+    },
+    procedure: {
+      en: { preparation: 'Pre-op MRI or CT to identify pathology. Nerve conduction studies if nerve symptoms present.', steps: ['General anesthesia with nerve block', 'Patient positioned supine or lateral', 'Tourniquet application to arm', 'Portal creation (anteromedial, anterolateral, posterior)', 'Systematic joint inspection', 'Identification of pathology', 'Removal of loose bodies with graspers', 'Debridement of damaged tissue', 'Capsular release if stiffness present', 'Bone spur removal', 'Joint irrigation', 'Portal closure'], duration: '60-90 minutes', anesthesia: 'General Anesthesia + Regional Block' },
+      hi: { preparation: 'पैथोलॉजी की पहचान करने के लिए प्री-ऑप MRI या CT। यदि तंत्रिका लक्षण मौजूद हों तो तंत्रिका चालन अध्ययन।', steps: ['तंत्रिका ब्लॉक के साथ जनरल एनेस्थीसिया', 'रोगी को सुपाइन या पार्श्व स्थिति में रखा गया', 'हाथ पर टूर्निकेट अनुप्रयोग', 'पोर्टल निर्माण (एंटेरोमेडियल, एंटेरोलेटरल, पोस्टीरियर)', 'व्यवस्थित जोड़ निरीक्षण', 'पैथोलॉजी की पहचान', 'ग्रास्पर्स के साथ ढीले शरीर को हटाना', 'क्षतिग्रस्त ऊतक का मलत्याग', 'यदि जकड़न मौजूद हो तो कैप्सुलर रिलीज', 'हड्डी स्पर हटाना', 'जोड़ सिंचाई', 'पोर्टल बंद करना'], duration: '60-90 मिनट', anesthesia: 'जनरल एनेस्थीसिया + क्षेत्रीय ब्लॉक' }
+    },
+    recovery: {
+      en: { timeline: [{ week: 'Week 1-2', activity: 'Initial healing', description: 'Splint use, immediate gentle motion exercises' }, { week: 'Week 3-6', activity: 'Progressive motion', description: 'Active and passive ROM, light use' }, { week: 'Month 2-3', activity: 'Strengthening', description: 'Resistance exercises, functional activities' }, { week: 'Month 4-6', activity: 'Full recovery', description: 'Return to all activities including sports' }], tips: ['Start gentle ROM exercises day 1-2', 'Avoid elbow stiffness at all costs', 'Ice regularly for first 2 weeks', 'Elevate arm to reduce swelling', 'Compression wrap helpful', 'Physical therapy essential', 'Gradual return to gripping activities', 'Most pain resolves quickly', 'Stiffness main complication to prevent', 'Tennis elbow may take 4-6 months', 'Excellent motion expected', 'Return to sports 3-4 months'] },
+      hi: { timeline: [{ week: 'सप्ताह 1-2', activity: 'प्रारंभिक उपचार', description: 'स्प्लिंट उपयोग, तत्काल कोमल गति व्यायाम' }, { week: 'सप्ताह 3-6', activity: 'प्रगतिशील गति', description: 'सक्रिय और निष्क्रिय ROM, हल्का उपयोग' }, { week: 'महीना 2-3', activity: 'सुदृढीकरण', description: 'प्रतिरोध व्यायाम, कार्यात्मक गतिविधियां' }, { week: 'महीना 4-6', activity: 'पूर्ण रिकवरी', description: 'खेल सहित सभी गतिविधियों में वापसी' }], tips: ['दिन 1-2 से कोमल ROM व्यायाम शुरू करें', 'सभी लागतों पर एल्बो जकड़न से बचें', 'पहले 2 सप्ताह के लिए नियमित रूप से बर्फ', 'सूजन कम करने के लिए हाथ ऊंचा करें', 'संपीड़न रैप सहायक', 'फिजियोथेरेपी आवश्यक', 'पकड़ने वाली गतिविधियों में क्रमिक वापसी', 'अधिकांश दर्द जल्दी से हल हो जाता है', 'जकड़न मुख्य जटिलता को रोकने के लिए', 'टेनिस एल्बो में 4-6 महीने लग सकते हैं', 'उत्कृष्ट गति की उम्मीद', '3-4 महीनों में खेल में वापसी'] }
+    },
+    faqs: {
+      en: [{ question: 'What is the recovery time?', answer: 'Most patients return to work in 2-3 weeks, with full sports clearance at 3-4 months. Tennis elbow cases may need 4-6 months.' }, { question: 'What is the success rate?', answer: '88% success rate at Arthoscenter with Dr. Kumar for appropriate indications.' }, { question: 'What is the cost?', answer: 'Cost ranges ₹90,000-1.8 lakhs. PMJAY/BSKY accepted. Book ₹999 consultation.' }],
+      hi: [{ question: 'रिकवरी का समय क्या है?', answer: 'अधिकांश रोगी 2-3 सप्ताह में काम पर लौटते हैं, 3-4 महीनों में पूर्ण खेल निकासी के साथ। टेनिस एल्बो मामलों को 4-6 महीने की आवश्यकता हो सकती है।' }, { question: 'सफलता दर क्या है?', answer: 'उपयुक्त संकेतों के लिए डॉ. कुमार के साथ आर्थोसेंटर में 88% सफलता दर।' }, { question: 'लागत क्या है?', answer: 'लागत ₹90,000-1.8 लाख। PMJAY/BSKY स्वीकार किया। ₹999 परामर्श बुक करें।' }]
+    },
+    meta: {
+      en: { title: 'Elbow Arthroscopy Surgery in India | Dr. Gurudeo Kumar', description: 'Minimally invasive camera-guided elbow surgery for diagnosis and treatment. Expert care in Patna, Bihar.', keywords: ['elbow-arthroscopy India', 'arthroscopy Patna', 'Dr. Gurudeo Kumar Bihar'] },
+      hi: { title: 'भारत में एल्बो आर्थ्रोस्कोपी सर्जरी', description: 'निदान और उपचार के लिए न्यूनतम आक्रामक कैमरा-निर्देशित एल्बो सर्जरी।', keywords: ['elbow-arthroscopy', 'arthroscopy'] }
+    },
+    procedureCount: 112,
+    successRate: 88,
+    relatedSurgeries: ['knee-arthroscopy', 'shoulder-arthroscopy', 'wrist-arthroscopy']
+  },
+
+  'plica-excision': {
+    id: 'plica-excision',
+    category: 'arthroscopy',
+    slug: 'plica-excision',
+    title: {
+      en: 'Plica Excision Surgery in India',
+      hi: 'भारत में प्लिका एक्सिशन सर्जरी'
+    },
+    shortDesc: {
+      en: 'Arthroscopic removal of inflamed synovial fold causing knee pain.',
+      hi: 'घुटने के दर्द का कारण बनने वाली सूजन वाली सिनोवियल फोल्ड को आर्थ्रोस्कोपिक हटाना।'
+    },
+    overview: {
+      en: `Plica excision is an arthroscopic surgical procedure to remove a symptomatic plica, which is a fold of synovial tissue within the knee joint. Plicae are remnants of embryologic development when the knee joint initially forms as three separate compartments that later merge into one cavity. In most people, these folds resorb completely during fetal development, but in approximately 50-70% of the population, one or more plicae persist into adulthood. While usually asymptomatic, plicae can become thickened, fibrotic, and inflamed due to trauma, overuse, or repetitive flexion-extension activities, leading to significant pain and dysfunction.
+
+The medial plica is most commonly symptomatic, located along the inner aspect of the kneecap. When inflamed, it rubs against the femoral condyle (thigh bone) causing pain, catching, and sometimes a snapping sensation. Dr. Kumar diagnoses plica syndrome through a combination of clinical examination findings (tenderness along the medial border of the patella, pain with flexion-extension, positive plica test) and MRI confirmation showing thickened synovial tissue. The condition often mimics other knee pathologies like meniscus tears or patellar cartilage damage, making accurate diagnosis crucial.
+
+Arthroscopic plica excision is indicated when conservative treatment with rest, anti-inflammatory medications, physical therapy, and activity modification fails to provide relief after 3-6 months. During the procedure, Dr. Kumar uses high-definition arthroscopy to visualize the inflamed plica and removes it completely using specialized cutting instruments and radiofrequency devices. The excision is performed carefully to avoid damage to the underlying articular cartilage of the femoral condyle, which often shows an indentation or "groove" from chronic plica rubbing. Associated pathology such as synovitis, chondromalacia, or small meniscal tears can be addressed in the same surgical session.
+
+One of the significant advantages of plica excision is the rapid relief of symptoms following surgery. Since plicae are vestigial structures with no functional role in normal knee mechanics, their removal does not compromise joint stability or function. Most patients notice immediate improvement in pain and catching symptoms. Physical therapy focuses on regaining full range of motion and strengthening the quadriceps and hamstrings to support the knee during return to activities.
+
+Dr. Kumar achieves excellent results with plica excision, reporting 85-90% of patients experiencing complete resolution of symptoms. Success rates are highest in patients with true plica syndrome without significant arthritis or other knee pathology. The procedure is performed as outpatient day surgery using local or regional anesthesia with sedation. Athletes typically return to sport within 4-6 weeks, and office workers resume desk duties within days. Complications are rare and include the standard arthroscopy risks of infection, stiffness, and recurrent symptoms if a portion of the plica regenerates.`,
+      hi: `प्लिका एक्सिशन एक रोगसूचक प्लिका को हटाने के लिए एक आर्थ्रोस्कोपिक सर्जिकल प्रक्रिया है। डॉ. कुमार विशेषज्ञ देखभाल के साथ प्लिका एक्सिशन करते हैं।`
+    },
+    symptoms: {
+      en: ['Medial knee pain along inner kneecap', 'Snapping or popping sensation', 'Pain worse with prolonged sitting', 'Catching feeling during knee flexion', 'Tenderness along medial patella border', 'Pain with stairs and squatting', 'Swelling after activity', 'Pseudo-locking (not true locking)', 'Pain with running and jumping', 'Failed conservative treatment'],
+      hi: ['आंतरिक घुटने की टोपी के साथ मध्य घुटने का दर्द', 'स्नैपिंग या पॉपिंग सनसनी', 'लंबे समय तक बैठने के साथ दर्द बदतर', 'घुटने के झुकाव के दौरान पकड़ने की भावना', 'मध्य पटेला सीमा के साथ कोमलता', 'सीढ़ियों और स्क्वाटिंग के साथ दर्द', 'गतिविधि के बाद सूजन', 'स्यूडो-लॉकिंग (सच्चे लॉकिंग नहीं)', 'दौड़ने और कूदने के साथ दर्द', 'रूढ़िवादी उपचार विफल']
+    },
+    procedure: {
+      en: { preparation: 'MRI to confirm thickened plica. Clinical exam to reproduce symptoms.', steps: ['Spinal or general anesthesia', 'Tourniquet application', 'Standard arthroscopic portal creation', 'Systematic knee joint inspection', 'Identification of pathologic plica', 'Assessment of plica thickness and inflammation', 'Complete excision using arthroscopic scissors or shaver', 'Radiofrequency ablation of base', 'Inspection for associated cartilage damage', 'Treatment of any other pathology', 'Joint irrigation', 'Portal closure'], duration: '30-45 minutes', anesthesia: 'Spinal or General Anesthesia' },
+      hi: { preparation: 'मोटी प्लिका की पुष्टि करने के लिए MRI। लक्षणों को पुन: उत्पन्न करने के लिए नैदानिक परीक्षा।', steps: ['स्पाइनल या जनरल एनेस्थीसिया', 'टूर्निकेट अनुप्रयोग', 'मानक आर्थ्रोस्कोपिक पोर्टल निर्माण', 'व्यवस्थित घुटने के जोड़ का निरीक्षण', 'पैथोलॉजिक प्लिका की पहचान', 'प्लिका मोटाई और सूजन का आकलन', 'आर्थ्रोस्कोपिक कैंची या शेवर का उपयोग करके पूर्ण एक्सिशन', 'आधार का रेडियोफ्रीक्वेंसी एब्लेशन', 'संबंधित उपास्थि क्षति के लिए निरीक्षण', 'किसी अन्य पैथोलॉजी का उपचार', 'जोड़ सिंचाई', 'पोर्टल बंद करना'], duration: '30-45 मिनट', anesthesia: 'स्पाइनल या जनरल एनेस्थीसिया' }
+    },
+    recovery: {
+      en: { timeline: [{ week: 'Week 1-2', activity: 'Initial healing', description: 'Weight bearing as tolerated, gentle ROM' }, { week: 'Week 3-4', activity: 'Progressive rehab', description: 'Strengthening exercises, normal walking' }, { week: 'Month 2', activity: 'Return to activity', description: 'Light jogging, sport-specific training' }, { week: 'Month 3', activity: 'Full recovery', description: 'Return to all sports and activities' }], tips: ['Weight bearing immediately as tolerated', 'Minimal post-op restrictions', 'Start ROM exercises day 1', 'Ice and elevate for first week', 'Pain relief usually immediate', 'Return to work within days', 'Quadriceps strengthening important', 'Most symptoms resolve completely', 'Athletic activities resume 4-6 weeks', 'Excellent prognosis expected', 'Rare complications', 'High patient satisfaction'] },
+      hi: { timeline: [{ week: 'सप्ताह 1-2', activity: 'प्रारंभिक उपचार', description: 'सहन के रूप में वजन वहन, कोमल ROM' }, { week: 'सप्ताह 3-4', activity: 'प्रगतिशील पुनर्वास', description: 'सुदृढीकरण व्यायाम, सामान्य चलना' }, { week: 'महीना 2', activity: 'गतिविधि में वापसी', description: 'हल्की जॉगिंग, खेल-विशिष्ट प्रशिक्षण' }, { week: 'महीना 3', activity: 'पूर्ण रिकवरी', description: 'सभी खेलों और गतिविधियों में वापसी' }], tips: ['सहन के रूप में तुरंत वजन वहन', 'न्यूनतम पोस्ट-ऑप प्रतिबंध', 'दिन 1 से ROM व्यायाम शुरू करें', 'पहले सप्ताह के लिए बर्फ और ऊंचाई', 'दर्द राहत आमतौर पर तत्काल', 'दिनों के भीतर काम पर वापसी', 'क्वाड्रिसेप्स सुदृढीकरण महत्वपूर्ण', 'अधिकांश लक्षण पूरी तरह से हल हो जाते हैं', 'एथलेटिक गतिविधियां 4-6 सप्ताह में फिर से शुरू होती हैं', 'उत्कृष्ट पूर्वानुमान की उम्मीद', 'दुर्लभ जटिलताएं', 'उच्च रोगी संतुष्टि'] }
+    },
+    faqs: {
+      en: [{ question: 'What is the recovery time?', answer: 'Most patients return to normal activities within 4-6 weeks. Office work can resume within days.' }, { question: 'What is the success rate?', answer: '90% success rate at Arthoscenter with Dr. Kumar for true plica syndrome.' }, { question: 'What is the cost?', answer: 'Cost ranges ₹60,000-1.2 lakhs. PMJAY/BSKY accepted. Book ₹999 consultation.' }],
+      hi: [{ question: 'रिकवरी का समय क्या है?', answer: 'अधिकांश रोगी 4-6 सप्ताह के भीतर सामान्य गतिविधियों में लौटते हैं। कार्यालय कार्य दिनों के भीतर फिर से शुरू हो सकता है।' }, { question: 'सफलता दर क्या है?', answer: 'सच्चे प्लिका सिंड्रोम के लिए डॉ. कुमार के साथ आर्थोसेंटर में 90% सफलता दर।' }, { question: 'लागत क्या है?', answer: 'लागत ₹60,000-1.2 लाख। PMJAY/BSKY स्वीकार किया। ₹999 परामर्श बुक करें।' }]
+    },
+    meta: {
+      en: { title: 'Plica Excision Surgery in India | Dr. Gurudeo Kumar', description: 'Arthroscopic removal of inflamed synovial fold causing knee pain. Expert minimally invasive treatment in Patna, Bihar.', keywords: ['plica-excision India', 'arthroscopy Patna', 'Dr. Gurudeo Kumar Bihar'] },
+      hi: { title: 'भारत में प्लिका एक्सिशन सर्जरी', description: 'घुटने के दर्द का कारण बनने वाली सूजन वाली सिनोवियल फोल्ड को आर्थ्रोस्कोपिक हटाना।', keywords: ['plica-excision', 'arthroscopy'] }
+    },
+    procedureCount: 156,
+    successRate: 90,
+    relatedSurgeries: ['knee-arthroscopy', 'meniscus-repair', 'chondroplasty']
+  },
+
+  'loose-body-removal': {
+    id: 'loose-body-removal',
+    category: 'arthroscopy',
+    slug: 'loose-body-removal',
+    title: {
+      en: 'Loose Body Removal Surgery in India',
+      hi: 'भारत में लूज बॉडी रिमूवल सर्जरी'
+    },
+    shortDesc: {
+      en: 'Arthroscopic removal of free-floating fragments of bone or cartilage from joints.',
+      hi: 'जोड़ों से हड्डी या उपास्थि के मुक्त-तैरते टुकड़ों को आर्थ्रोस्कोपिक हटाना।'
+    },
+    overview: {
+      en: `Loose body removal is a minimally invasive arthroscopic procedure designed to extract free-floating fragments of bone, cartilage, or fibrous tissue from within a joint space. These loose bodies, also called joint mice, can develop from various causes including osteochondritis dissecans (where a piece of cartilage and underlying bone separates from the joint surface), degenerative arthritis with fragmentation of osteophytes (bone spurs), previous trauma with cartilage or bone chips, synovial chondromatosis (a rare condition where the joint lining produces cartilage nodules), or fractures that create intra-articular fragments. When these fragments move freely within the joint, they cause mechanical symptoms, inflammation, and progressive cartilage damage.
+
+Dr. Kumar performs precise arthroscopic loose body removal using high-definition camera systems and specialized grasping instruments through small portal incisions. The procedure involves systematic exploration of all joint compartments to identify and retrieve all loose fragments, as even small pieces left behind can continue to cause symptoms. The knee is the most common location for loose bodies, but they can occur in any joint including the shoulder, elbow, ankle, and hip. During arthroscopy, Dr. Kumar also evaluates the donor site where the fragment originated to determine if additional treatment such as microfracture or cartilage transplantation is needed.
+
+The surgery addresses both the immediate mechanical symptoms and helps prevent long-term cartilage damage. Loose bodies act like sandpaper within the joint, grinding against cartilage surfaces with every movement and accelerating degenerative changes. They can also get caught between joint surfaces, causing sudden painful locking episodes that prevent normal motion. By removing these fragments early, Dr. Kumar helps preserve joint cartilage and prevent progression to arthritis. The arthroscopic approach allows thorough joint inspection while minimizing surgical trauma to surrounding tissues.
+
+Patients typically experience immediate relief from mechanical symptoms like locking and catching following loose body removal. Pain and swelling improve rapidly, and most patients can return to normal activities within 4-8 weeks depending on the extent of associated cartilage damage and any concurrent procedures performed. Recovery is generally faster when loose bodies are removed early before they cause significant cartilage wear. Physical therapy focuses on restoring range of motion, reducing inflammation, and strengthening muscles to protect the joint.
+
+At Arthoscenter, Dr. Kumar achieves excellent results with arthroscopic loose body removal, with over 90% of patients experiencing complete resolution of mechanical symptoms. The minimally invasive approach offers advantages of reduced post-operative pain, faster recovery, earlier return to activities, and better cosmetic results compared to open surgery. Outcomes are best in younger patients without significant arthritis who undergo early treatment. Dr. Kumar's systematic arthroscopic technique ensures thorough removal of all fragments while addressing underlying causes to prevent recurrence.`,
+      hi: `लूज बॉडी रिमूवल एक न्यूनतम आक्रामक आर्थ्रोस्कोपिक प्रक्रिया है जो जोड़ की जगह के भीतर हड्डी, उपास्थि, या रेशेदार ऊतक के मुक्त-तैरते टुकड़ों को निकालने के लिए डिज़ाइन की गई है। डॉ. कुमार उन्नत तकनीकों का उपयोग करके सटीक आर्थ्रोस्कोपिक लूज बॉडी रिमूवल करते हैं।`
+    },
+    symptoms: {
+      en: ['Sudden joint locking or catching', 'Sharp pain with movement', 'Joint giving way or buckling', 'Popping or clicking sensation', 'Intermittent swelling episodes', 'Restricted range of motion', 'Pain relieved by changing position', 'Feeling of something moving in joint', 'Inability to fully straighten or bend joint', 'Recurrent joint effusion (fluid buildup)'],
+      hi: ['अचानक जोड़ का लॉक होना या पकड़ना', 'आंदोलन के साथ तीव्र दर्द', 'जोड़ का रास्ता देना या झुकना', 'पॉपिंग या क्लिकिंग सनसनी', 'रुक-रुक कर सूजन के एपिसोड', 'गति की सीमित सीमा', 'स्थिति बदलने से दर्द से राहत', 'जोड़ में कुछ चलने का एहसास', 'जोड़ को पूरी तरह से सीधा या मोड़ने में असमर्थता', 'आवर्तक संयुक्त इफ्यूजन (तरल निर्माण)']
+    },
+    procedure: {
+      en: { preparation: 'X-ray and MRI to identify loose body location and size.', steps: ['General or regional anesthesia', 'Arthroscopic portal creation (2-4 small incisions)', 'Joint distension with sterile fluid', 'Systematic exploration of all joint compartments', 'Identification of all loose bodies', 'Extraction using graspers or shavers', 'Evaluation of donor site where fragment originated', 'Treatment of cartilage defects if present', 'Removal of inflamed synovium if needed', 'Irrigation to clear debris', 'Confirmation all fragments removed', 'Portal closure with sutures'], duration: '30-60 minutes', anesthesia: 'General or Regional Anesthesia' },
+      hi: { preparation: 'लूज बॉडी के स्थान और आकार की पहचान के लिए X-ray और MRI।', steps: ['जनरल या क्षेत्रीय एनेस्थीसिया', 'आर्थ्रोस्कोपिक पोर्टल निर्माण (2-4 छोटे चीरे)', 'बाँझ तरल पदार्थ के साथ संयुक्त विस्तार', 'सभी संयुक्त डिब्बों का व्यवस्थित अन्वेषण', 'सभी लूज बॉडी की पहचान', 'ग्रैस्पर या शेवर का उपयोग करके निष्कर्षण', 'दाता साइट का मूल्यांकन जहां टुकड़ा उत्पन्न हुआ', 'यदि मौजूद हो तो उपास्थि दोषों का उपचार', 'यदि आवश्यक हो तो सूजन वाले सिनोवियम को हटाना', 'मलबे को साफ करने के लिए सिंचाई', 'सभी टुकड़ों की पुष्टि हटा दी गई', 'सिवनी के साथ पोर्टल बंद करना'], duration: '30-60 मिनट', anesthesia: 'जनरल या क्षेत्रीय एनेस्थीसिया' }
+    },
+    recovery: {
+      en: { timeline: [{ week: 'Week 1-2', activity: 'Initial healing', description: 'Rest, ice, elevation, gentle range of motion exercises' }, { week: 'Week 3-4', activity: 'Progressive mobility', description: 'Increase range of motion, light strengthening' }, { week: 'Week 5-8', activity: 'Strengthening phase', description: 'Progressive resistance exercises, functional training' }, { week: 'Month 3-4', activity: 'Return to activity', description: 'Sport-specific training, full activity clearance' }], tips: ['Weight bearing as tolerated immediately', 'Ice 20 minutes every 2-3 hours first week', 'Elevate leg above heart when resting', 'Start gentle range of motion day 1', 'Avoid high-impact activities for 6 weeks', 'Physical therapy essential for recovery', 'Most return to sports 2-3 months', 'Immediate symptom relief expected', 'Watch for recurrent locking (rare)', 'Strengthen muscles to protect joint', 'Maintain healthy weight to reduce stress', 'Address underlying causes to prevent recurrence'] },
+      hi: { timeline: [{ week: 'सप्ताह 1-2', activity: 'प्रारंभिक उपचार', description: 'आराम, बर्फ, ऊंचाई, कोमल गति की सीमा व्यायाम' }, { week: 'सप्ताह 3-4', activity: 'प्रगतिशील गतिशीलता', description: 'गति की सीमा बढ़ाएं, हल्का सुदृढीकरण' }, { week: 'सप्ताह 5-8', activity: 'सुदृढीकरण चरण', description: 'प्रगतिशील प्रतिरोध व्यायाम, कार्यात्मक प्रशिक्षण' }, { week: 'महीना 3-4', activity: 'गतिविधि में वापसी', description: 'खेल-विशिष्ट प्रशिक्षण, पूर्ण गतिविधि निकासी' }], tips: ['तुरंत सहन किए जाने के रूप में वजन वहन', 'पहले सप्ताह हर 2-3 घंटे में 20 मिनट बर्फ', 'आराम करते समय पैर को दिल से ऊपर उठाएं', 'दिन 1 से कोमल गति की सीमा शुरू करें', '6 सप्ताह के लिए उच्च प्रभाव वाली गतिविधियों से बचें', 'रिकवरी के लिए फिजियोथेरेपी आवश्यक', 'अधिकांश 2-3 महीनों में खेल में वापस आते हैं', 'तत्काल लक्षण राहत की उम्मीद', 'आवर्तक लॉकिंग के लिए देखें (दुर्लभ)', 'जोड़ की रक्षा के लिए मांसपेशियों को मजबूत करें', 'तनाव को कम करने के लिए स्वस्थ वजन बनाए रखें', 'पुनरावृत्ति को रोकने के लिए अंतर्निहित कारणों को संबोधित करें'] }
+    },
+    faqs: {
+      en: [{ question: 'What is the recovery time?', answer: 'Most patients return to normal activities in 4-8 weeks, with full sports clearance at 2-3 months. Recovery faster without significant cartilage damage.' }, { question: 'What is the success rate?', answer: 'Over 90% complete resolution of mechanical symptoms at Arthoscenter. Excellent outcomes with early treatment.' }, { question: 'What is the cost?', answer: 'Cost ranges ₹60,000-1.2 lakhs. PMJAY/BSKY accepted. Book ₹999 consultation.' }],
+      hi: [{ question: 'रिकवरी का समय क्या है?', answer: 'अधिकांश रोगी 4-8 सप्ताह में सामान्य गतिविधियों में वापस आते हैं, 2-3 महीनों में पूर्ण खेल निकासी के साथ। महत्वपूर्ण उपास्थि क्षति के बिना तेजी से रिकवरी।' }, { question: 'सफलता दर क्या है?', answer: 'आर्थोसेंटर में 90% से अधिक यांत्रिक लक्षणों का पूर्ण समाधान। प्रारंभिक उपचार के साथ उत्कृष्ट परिणाम।' }, { question: 'लागत क्या है?', answer: 'लागत ₹60,000-1.2 लाख। PMJAY/BSKY स्वीकार किया। ₹999 परामर्श बुक करें।' }]
+    },
+    meta: {
+      en: { title: 'Loose Body Removal Surgery in India | Dr. Gurudeo Kumar', description: 'Arthroscopic removal of free-floating fragments of bone or cartilage from joints. Expert minimally invasive treatment in Patna, Bihar.', keywords: ['loose-body-removal India', 'arthroscopy Patna', 'Dr. Gurudeo Kumar Bihar'] },
+      hi: { title: 'भारत में लूज बॉडी रिमूवल सर्जरी', description: 'जोड़ों से हड्डी या उपास्थि के मुक्त-तैरते टुकड़ों को आर्थ्रोस्कोपिक हटाना।', keywords: ['loose-body-removal', 'arthroscopy'] }
+    },
+    procedureCount: 220,
+    successRate: 92,
+    relatedSurgeries: ['knee-arthroscopy', 'shoulder-arthroscopy', 'microfracture-surgery']
+  },
+
+  'synovectomy': {
+    id: 'synovectomy',
+    category: 'arthroscopy',
+    slug: 'synovectomy',
+    title: {
+      en: 'Synovectomy Surgery in India',
+      hi: 'भारत में सायनोवेक्टोमी सर्जरी'
+    },
+    shortDesc: {
+      en: 'Surgical removal of inflamed synovial lining to treat chronic joint inflammation.',
+      hi: 'पुरानी जोड़ की सूजन के उपचार के लिए सूजन वाले सायनोवियल लाइनिंग को शल्य चिकित्सा से हटाना।'
+    },
+    overview: {
+      en: `Synovectomy is a surgical procedure that involves removing the inflamed synovial membrane (synovium) that lines the inside of joints. The synovium normally produces a small amount of lubricating fluid that allows smooth joint motion, but in various inflammatory conditions, it becomes thickened, inflamed, and produces excessive fluid that causes swelling, pain, and progressive joint damage. This procedure is most commonly performed for rheumatoid arthritis, but is also indicated for other inflammatory arthropathies, pigmented villonodular synovitis (PVNS), synovial chondromatosis, hemophilic arthropathy, and chronic synovitis that has failed conservative treatment with medications and injections.
+
+Dr. Kumar performs both arthroscopic and open synovectomy depending on the joint involved and extent of disease. Arthroscopic synovectomy is preferred whenever possible, as it offers the advantages of minimal invasive access, reduced post-operative pain, faster recovery, and better visualization of joint compartments using high-definition camera systems. The most common joints treated include the knee, shoulder, elbow, wrist, and ankle. During the procedure, Dr. Kumar systematically removes all diseased synovial tissue using specialized shavers and radiofrequency ablation devices while preserving important structures like ligaments, tendons, and cartilage. Thorough synovectomy requires meticulous technique to access all areas of the joint where inflamed tissue may be hiding.
+
+The primary goal of synovectomy is to reduce pain, decrease swelling, improve joint function, and slow the progression of cartilage destruction caused by chronic inflammation. While synovectomy does not cure the underlying inflammatory disease, it provides significant symptom relief and can delay the need for joint replacement surgery, particularly in younger patients with rheumatoid arthritis. The procedure is most effective when performed early in the disease process before extensive cartilage damage has occurred. In rheumatoid arthritis, synovectomy works best when combined with optimal medical management with disease-modifying drugs.
+
+Patients typically experience marked reduction in joint swelling and pain following synovectomy, with improvement in range of motion and functional capacity. The synovium can regenerate over time, so some patients may experience recurrence of symptoms, though this typically takes several years and the regenerated tissue is often less inflamed than the original diseased synovium. Recurrence rates are lower with arthroscopic synovectomy that achieves more complete removal compared to open techniques. Physical therapy is essential for optimal recovery to restore motion and strength.
+
+At Arthoscenter, Dr. Kumar achieves excellent results with arthroscopic synovectomy for carefully selected patients, with 70-85% experiencing significant symptom relief lasting 5-10 years or longer. The minimally invasive approach allows earlier mobilization and faster return to activities. Outcomes are best in patients with isolated synovitis without severe cartilage loss who maintain compliance with medical treatment for their underlying inflammatory condition. Dr. Kumar's systematic arthroscopic technique ensures thorough removal while minimizing surgical trauma and complications.`,
+      hi: `सायनोवेक्टोमी एक शल्य चिकित्सा प्रक्रिया है जिसमें जोड़ों के अंदर की रेखा वाली सूजन वाली सायनोवियल झिल्ली (सायनोवियम) को हटाना शामिल है। डॉ. कुमार उन्नत तकनीकों का उपयोग करके आर्थ्रोस्कोपिक और खुली सायनोवेक्टोमी दोनों करते हैं।`
+    },
+    symptoms: {
+      en: ['Persistent joint swelling despite medication', 'Chronic pain not controlled by anti-inflammatories', 'Joint stiffness especially morning', 'Warmth and tenderness around joint', 'Decreased range of motion', 'Recurrent joint effusions (fluid buildup)', 'Synovial thickening felt on examination', 'Progressive functional limitation', 'Failed conservative treatment for 6+ months', 'Joint instability from synovial overgrowth'],
+      hi: ['दवा के बावजूद लगातार जोड़ की सूजन', 'सूजनरोधी द्वारा नियंत्रित नहीं पुराना दर्द', 'जोड़ की जकड़न विशेष रूप से सुबह', 'जोड़ के आसपास गर्मी और कोमलता', 'गति की सीमा में कमी', 'आवर्तक संयुक्त इफ्यूजन (तरल निर्माण)', 'परीक्षा पर महसूस की गई सायनोवियल मोटाई', 'प्रगतिशील कार्यात्मक सीमा', '6+ महीनों के लिए रूढ़िवादी उपचार विफल', 'सायनोवियल अतिवृद्धि से जोड़ अस्थिरता']
+    },
+    procedure: {
+      en: { preparation: 'MRI to assess synovial thickening and cartilage status. Medical clearance for inflammatory condition.', steps: ['General or regional anesthesia', 'Arthroscopic portal creation (2-4 incisions)', 'Joint inspection with HD camera', 'Systematic identification of diseased synovium', 'Synovial removal using motorized shavers', 'Radiofrequency ablation of residual tissue', 'Access to all joint compartments', 'Preservation of ligaments and cartilage', 'Treatment of associated pathology', 'Thorough irrigation', 'Hemostasis and portal closure', 'Compression dressing application'], duration: '60-120 minutes', anesthesia: 'General or Regional Anesthesia' },
+      hi: { preparation: 'सायनोवियल मोटाई और उपास्थि स्थिति का आकलन करने के लिए MRI। सूजन की स्थिति के लिए चिकित्सा निकासी।', steps: ['जनरल या क्षेत्रीय एनेस्थीसिया', 'आर्थ्रोस्कोपिक पोर्टल निर्माण (2-4 चीरे)', 'HD कैमरा के साथ संयुक्त निरीक्षण', 'रोगग्रस्त सायनोवियम की व्यवस्थित पहचान', 'मोटराइज्ड शेवर का उपयोग करके सायनोवियल हटाना', 'अवशिष्ट ऊतक का रेडियोफ्रीक्वेंसी एब्लेशन', 'सभी संयुक्त डिब्बों तक पहुंच', 'स्नायुबंधन और उपास्थि का संरक्षण', 'संबंधित पैथोलॉजी का उपचार', 'पूरी तरह से सिंचाई', 'हेमोस्टेसिस और पोर्टल बंद करना', 'संपीड़न ड्रेसिंग आवेदन'], duration: '60-120 मिनट', anesthesia: 'जनरल या क्षेत्रीय एनेस्थीसिया' }
+    },
+    recovery: {
+      en: { timeline: [{ week: 'Week 1-2', activity: 'Initial healing', description: 'Pain control, gentle range of motion, compression' }, { week: 'Week 3-6', activity: 'Active rehabilitation', description: 'Progressive motion exercises, light strengthening' }, { week: 'Month 2-3', activity: 'Strengthening phase', description: 'Resistance training, functional activities' }, { week: 'Month 4-6', activity: 'Full recovery', description: 'Return to normal activities, continued medical management' }], tips: ['Continue disease-modifying medications', 'Early gentle range of motion critical', 'Compression reduces swelling effectively', 'Ice 20 minutes every 2-3 hours first week', 'Elevate joint when resting', 'Physical therapy essential for success', 'Gradual strengthening prevents stiffness', 'Most see improvement within 4-6 weeks', 'Symptom relief may last 5-10+ years', 'Monitor for recurrence of swelling', 'Maintain optimal medical control of inflammatory disease', 'Regular follow-up with rheumatologist important'] },
+      hi: { timeline: [{ week: 'सप्ताह 1-2', activity: 'प्रारंभिक उपचार', description: 'दर्द नियंत्रण, कोमल गति की सीमा, संपीड़न' }, { week: 'सप्ताह 3-6', activity: 'सक्रिय पुनर्वास', description: 'प्रगतिशील गति व्यायाम, हल्का सुदृढीकरण' }, { week: 'महीना 2-3', activity: 'सुदृढीकरण चरण', description: 'प्रतिरोध प्रशिक्षण, कार्यात्मक गतिविधियां' }, { week: 'महीना 4-6', activity: 'पूर्ण रिकवरी', description: 'सामान्य गतिविधियों में वापसी, निरंतर चिकित्सा प्रबंधन' }], tips: ['रोग-संशोधित दवाओं को जारी रखें', 'प्रारंभिक कोमल गति की सीमा महत्वपूर्ण', 'संपीड़न प्रभावी ढंग से सूजन को कम करता है', 'पहले सप्ताह हर 2-3 घंटे में 20 मिनट बर्फ', 'आराम करते समय जोड़ को ऊंचा करें', 'सफलता के लिए फिजियोथेरेपी आवश्यक', 'क्रमिक सुदृढीकरण जकड़न को रोकता है', 'अधिकांश 4-6 सप्ताह के भीतर सुधार देखते हैं', 'लक्षण राहत 5-10+ वर्षों तक रह सकती है', 'सूजन की पुनरावृत्ति के लिए निगरानी करें', 'सूजन रोग के इष्टतम चिकित्सा नियंत्रण को बनाए रखें', 'रुमेटोलॉजिस्ट के साथ नियमित फॉलो-अप महत्वपूर्ण'] }
+    },
+    faqs: {
+      en: [{ question: 'What is the recovery time?', answer: 'Most patients see significant improvement within 4-6 weeks and return to normal activities by 3-4 months. Symptom relief typically lasts 5-10+ years.' }, { question: 'What is the success rate?', answer: '70-85% significant symptom relief at Arthoscenter. Best results in patients maintaining medical treatment for underlying condition.' }, { question: 'What is the cost?', answer: 'Cost ranges ₹1-2.5 lakhs. PMJAY/BSKY accepted. Book ₹999 consultation.' }],
+      hi: [{ question: 'रिकवरी का समय क्या है?', answer: 'अधिकांश रोगी 4-6 सप्ताह के भीतर महत्वपूर्ण सुधार देखते हैं और 3-4 महीनों तक सामान्य गतिविधियों में वापस आते हैं। लक्षण राहत आमतौर पर 5-10+ वर्षों तक रहती है।' }, { question: 'सफलता दर क्या है?', answer: 'आर्थोसेंटर में 70-85% महत्वपूर्ण लक्षण राहत। अंतर्निहित स्थिति के लिए चिकित्सा उपचार बनाए रखने वाले रोगियों में सर्वोत्तम परिणाम।' }, { question: 'लागत क्या है?', answer: 'लागत ₹1-2.5 लाख। PMJAY/BSKY स्वीकार किया। ₹999 परामर्श बुक करें।' }]
+    },
+    meta: {
+      en: { title: 'Synovectomy Surgery in India | Dr. Gurudeo Kumar', description: 'Surgical removal of inflamed synovial lining to treat chronic joint inflammation. Expert arthroscopic treatment in Patna, Bihar.', keywords: ['synovectomy India', 'arthroscopy Patna', 'Dr. Gurudeo Kumar Bihar'] },
+      hi: { title: 'भारत में सायनोवेक्टोमी सर्जरी', description: 'पुरानी जोड़ की सूजन के उपचार के लिए सूजन वाले सायनोवियल लाइनिंग को शल्य चिकित्सा से हटाना।', keywords: ['synovectomy', 'arthroscopy'] }
+    },
+    procedureCount: 95,
+    successRate: 78,
+    relatedSurgeries: ['knee-arthroscopy', 'shoulder-arthroscopy', 'elbow-arthroscopy']
+  },
+
+  'wrist-arthroscopy': {
+    id: 'wrist-arthroscopy',
+    category: 'arthroscopy',
+    slug: 'wrist-arthroscopy',
+    title: {
+      en: 'Wrist Arthroscopy Surgery in India',
+      hi: 'भारत में रिस्ट आर्थ्रोस्कोपी सर्जरी'
+    },
+    shortDesc: {
+      en: 'Minimally invasive camera-guided surgery to diagnose and treat wrist problems.',
+      hi: 'कलाई की समस्याओं के निदान और उपचार के लिए न्यूनतम आक्रामक कैमरा-निर्देशित सर्जरी।'
+    },
+    overview: {
+      en: `Wrist arthroscopy is a minimally invasive surgical technique that uses a small fiber-optic camera (arthroscope) and specialized instruments inserted through tiny portals to diagnose and treat a wide variety of wrist conditions. The wrist is one of the most complex joints in the human body, containing eight small carpal bones, multiple ligaments, triangular fibrocartilage complex (TFCC), and numerous joint surfaces that can be difficult to fully evaluate with imaging studies alone. Arthroscopy allows direct visualization of these structures with magnification, enabling accurate diagnosis and precise treatment while minimizing damage to surrounding tissues.
+
+Dr. Kumar performs wrist arthroscopy for numerous conditions including triangular fibrocartilage complex (TFCC) tears, scapholunate ligament injuries, lunotriquetral ligament tears, wrist ganglion cysts arising from joint lining, synovitis and inflammatory conditions, loose body removal, fracture evaluation and treatment, cartilage damage assessment and repair, and chronic wrist pain of unclear etiology. The procedure is particularly valuable for diagnosing subtle ligament injuries and cartilage lesions that may not be visible on MRI scans. Wrist arthroscopy can be both diagnostic (to identify the source of pain) and therapeutic (to repair damaged structures).
+
+The surgery is performed through 4-6 small portals (each 3-4mm) positioned around the wrist to access different joint compartments. Dr. Kumar uses high-definition camera systems with magnification to systematically inspect the radiocarpal joint (between forearm and wrist bones), midcarpal joint (between two rows of wrist bones), and distal radioulnar joint (between the two forearm bones at the wrist). Common arthroscopic treatments include TFCC debridement or repair, ligament reconstruction, synovectomy for inflammatory synovitis, removal of loose bodies, debridement of cartilage lesions, ganglion cyst excision, and fracture fixation assistance. Radiofrequency and laser devices allow precise tissue removal and shaping.
+
+Patients benefit from the minimally invasive nature of wrist arthroscopy compared to traditional open wrist surgery. The small incisions result in less post-operative pain, reduced scarring, faster healing, earlier return to function, and lower complication rates. Recovery varies depending on the specific procedure performed, ranging from 6-8 weeks for simple debridement to 3-4 months for ligament repairs. Physical therapy is essential for optimal recovery to restore wrist strength, flexibility, and function. Many patients can return to desk work within 2-3 weeks with proper splinting.
+
+At Arthoscenter, Dr. Kumar achieves excellent results with wrist arthroscopy using state-of-the-art equipment and refined surgical techniques. Diagnostic accuracy exceeds 95%, and therapeutic procedures show success rates of 75-90% depending on the specific pathology treated. Outcomes are best when arthroscopy is performed early before severe degenerative changes develop. Dr. Kumar's expertise in this technically demanding procedure ensures thorough evaluation and precise treatment while minimizing complications such as nerve injury, tendon damage, or joint stiffness.`,
+      hi: `रिस्ट आर्थ्रोस्कोपी एक न्यूनतम आक्रामक शल्य चिकित्सा तकनीक है जो कलाई की स्थितियों की एक विस्तृत विविधता का निदान और उपचार करने के लिए छोटे पोर्टल के माध्यम से डाला गया एक छोटा फाइबर-ऑप्टिक कैमरा (आर्थ्रोस्कोप) और विशेष उपकरणों का उपयोग करती है। डॉ. कुमार उन्नत तकनीकों का उपयोग करके व्यापक रिस्ट आर्थ्रोस्कोपी करते हैं।`
+    },
+    symptoms: {
+      en: ['Chronic wrist pain not improving with rest', 'Wrist clicking or popping with movement', 'Weakness in grip strength', 'Swelling on ulnar (pinky) side of wrist', 'Pain worse with twisting motions', 'Limited range of motion', 'Instability or giving way sensation', 'Pain with weight bearing on hand', 'Failed conservative treatment for 3+ months', 'Unclear diagnosis despite imaging'],
+      hi: ['पुराना कलाई का दर्द आराम से सुधार नहीं हो रहा', 'आंदोलन के साथ कलाई क्लिक या पॉपिंग', 'पकड़ की ताकत में कमजोरी', 'कलाई के उल्नार (गुलाबी) पक्ष पर सूजन', 'मोड़ने वाली गतियों के साथ दर्द बदतर', 'गति की सीमित सीमा', 'अस्थिरता या रास्ता देने की सनसनी', 'हाथ पर वजन वहन के साथ दर्द', '3+ महीनों के लिए रूढ़िवादी उपचार विफल', 'इमेजिंग के बावजूद अस्पष्ट निदान']
+    },
+    procedure: {
+      en: { preparation: 'MRI or CT arthrogram to evaluate ligaments and cartilage. Nerve conduction studies if nerve compression suspected.', steps: ['Regional anesthesia (nerve block) or general', 'Arm positioning and sterile draping', 'Portal placement (4-6 small incisions 3-4mm)', 'Joint distraction using finger traps and weights', 'Systematic radiocarpal joint inspection', 'Midcarpal joint evaluation', 'DRUJ (distal radioulnar joint) assessment', 'Treatment of identified pathology', 'TFCC repair/debridement if needed', 'Ligament reconstruction if required', 'Thorough irrigation', 'Portal closure and splint application'], duration: '45-90 minutes', anesthesia: 'Regional Block or General Anesthesia' },
+      hi: { preparation: 'स्नायुबंधन और उपास्थि का मूल्यांकन करने के लिए MRI या CT आर्थ्रोग्राम। यदि तंत्रिका संपीड़न संदेह हो तो तंत्रिका चालन अध्ययन।', steps: ['क्षेत्रीय एनेस्थीसिया (तंत्रिका ब्लॉक) या जनरल', 'आर्म पोजिशनिंग और बाँझ ड्रेपिंग', 'पोर्टल प्लेसमेंट (4-6 छोटे चीरे 3-4mm)', 'फिंगर ट्रैप और वजन का उपयोग करके संयुक्त विकर्षण', 'व्यवस्थित रेडियोकार्पल जोड़ निरीक्षण', 'मिडकार्पल जोड़ मूल्यांकन', 'DRUJ (डिस्टल रेडियोउल्नार जोड़) आकलन', 'पहचाने गए पैथोलॉजी का उपचार', 'यदि आवश्यक हो तो TFCC मरम्मत/डीब्राइडमेंट', 'यदि आवश्यक हो तो स्नायुबंधन पुनर्निर्माण', 'पूरी तरह से सिंचाई', 'पोर्टल बंद करना और स्प्लिंट अनुप्रयोग'], duration: '45-90 मिनट', anesthesia: 'क्षेत्रीय ब्लॉक या जनरल एनेस्थीसिया' }
+    },
+    recovery: {
+      en: { timeline: [{ week: 'Week 1-2', activity: 'Immobilization', description: 'Splint wear, pain control, finger exercises' }, { week: 'Week 3-6', activity: 'Early motion', description: 'Gentle wrist range of motion, light activities' }, { week: 'Week 7-12', activity: 'Strengthening', description: 'Progressive grip strengthening, functional tasks' }, { week: 'Month 4-6', activity: 'Full recovery', description: 'Return to sports and heavy work' }], tips: ['Splint compliance critical first 2-3 weeks', 'Elevate hand above heart when resting', 'Ice 15-20 minutes every 2 hours first week', 'Maintain finger motion to prevent stiffness', 'Physical therapy essential for recovery', 'Avoid heavy gripping for 6-8 weeks', 'Gradual return to activities', 'Most return to desk work 2-3 weeks', 'Sports clearance typically 3-4 months', 'Watch for nerve symptoms (numbness/tingling)', 'Recovery time varies by procedure performed', 'Excellent outcomes in most patients'] },
+      hi: { timeline: [{ week: 'सप्ताह 1-2', activity: 'स्थिरीकरण', description: 'स्प्लिंट पहनना, दर्द नियंत्रण, उंगली व्यायाम' }, { week: 'सप्ताह 3-6', activity: 'प्रारंभिक गति', description: 'कोमल कलाई गति की सीमा, हल्की गतिविधियां' }, { week: 'सप्ताह 7-12', activity: 'सुदृढीकरण', description: 'प्रगतिशील पकड़ सुदृढीकरण, कार्यात्मक कार्य' }, { week: 'महीना 4-6', activity: 'पूर्ण रिकवरी', description: 'खेल और भारी काम में वापसी' }], tips: ['पहले 2-3 सप्ताह स्प्लिंट अनुपालन महत्वपूर्ण', 'आराम करते समय हाथ को दिल से ऊपर उठाएं', 'पहले सप्ताह हर 2 घंटे में 15-20 मिनट बर्फ', 'जकड़न को रोकने के लिए उंगली की गति बनाए रखें', 'रिकवरी के लिए फिजियोथेरेपी आवश्यक', '6-8 सप्ताह के लिए भारी पकड़ से बचें', 'गतिविधियों में क्रमिक वापसी', 'अधिकांश 2-3 सप्ताह में डेस्क काम में वापस आते हैं', 'खेल निकासी आमतौर पर 3-4 महीने', 'तंत्रिका लक्षणों के लिए देखें (सुन्नता/झुनझुनी)', 'रिकवरी का समय किए गए प्रक्रिया के अनुसार भिन्न होता है', 'अधिकांश रोगियों में उत्कृष्ट परिणाम'] }
+    },
+    faqs: {
+      en: [{ question: 'What is the recovery time?', answer: 'Recovery varies by procedure: 6-8 weeks for simple debridement, 3-4 months for ligament repairs. Most return to desk work in 2-3 weeks.' }, { question: 'What is the success rate?', answer: '75-90% success depending on pathology. Over 95% diagnostic accuracy. Excellent outcomes at Arthoscenter with experienced care.' }, { question: 'What is the cost?', answer: 'Cost ranges ₹80,000-1.8 lakhs. PMJAY/BSKY accepted. Book ₹999 consultation.' }],
+      hi: [{ question: 'रिकवरी का समय क्या है?', answer: 'प्रक्रिया के अनुसार रिकवरी भिन्न होती है: सरल डीब्राइडमेंट के लिए 6-8 सप्ताह, स्नायुबंधन मरम्मत के लिए 3-4 महीने। अधिकांश 2-3 सप्ताह में डेस्क काम में वापस आते हैं।' }, { question: 'सफलता दर क्या है?', answer: 'पैथोलॉजी के आधार पर 75-90% सफलता। 95% से अधिक नैदानिक सटीकता। अनुभवी देखभाल के साथ आर्थोसेंटर में उत्कृष्ट परिणाम।' }, { question: 'लागत क्या है?', answer: 'लागत ₹80,000-1.8 लाख। PMJAY/BSKY स्वीकार किया। ₹999 परामर्श बुक करें।' }]
+    },
+    meta: {
+      en: { title: 'Wrist Arthroscopy Surgery in India | Dr. Gurudeo Kumar', description: 'Minimally invasive camera-guided surgery to diagnose and treat wrist problems. Expert arthroscopic treatment in Patna, Bihar.', keywords: ['wrist-arthroscopy India', 'arthroscopy Patna', 'Dr. Gurudeo Kumar Bihar'] },
+      hi: { title: 'भारत में रिस्ट आर्थ्रोस्कोपी सर्जरी', description: 'कलाई की समस्याओं के निदान और उपचार के लिए न्यूनतम आक्रामक कैमरा-निर्देशित सर्जरी।', keywords: ['wrist-arthroscopy', 'arthroscopy'] }
+    },
+    procedureCount: 180,
+    successRate: 85,
+    relatedSurgeries: ['elbow-arthroscopy', 'tfcc-repair', 'carpal-tunnel-release']
+  },
+
+  'debridement-arthroscopy': {
+    id: 'debridement-arthroscopy',
+    category: 'arthroscopy',
+    slug: 'debridement-arthroscopy',
+    title: {
+      en: 'Arthroscopic Debridement Surgery in India',
+      hi: 'भारत में आर्थ्रोस्कोपिक डीब्राइडमेंट सर्जरी'
+    },
+    shortDesc: {
+      en: 'Minimally invasive removal of damaged tissue, loose fragments, and debris from joints.',
+      hi: 'जोड़ों से क्षतिग्रस्त ऊतक, ढीले टुकड़े, और मलबे को न्यूनतम आक्रामक हटाना।'
+    },
+    overview: {
+      en: `Arthroscopic debridement is a minimally invasive surgical procedure that involves the systematic removal of damaged, degenerative, or inflamed tissue from within a joint using specialized arthroscopic instruments. The procedure addresses various pathological conditions including frayed cartilage, torn meniscal fragments, inflamed synovial tissue, bone spurs (osteophytes), loose bodies, and scar tissue that can cause pain, mechanical symptoms, and progressive joint damage. Debridement literally means "to uncover" or "to remove," and in the orthopedic context, it refers to the careful cleaning and smoothing of joint surfaces to alleviate symptoms and restore more normal joint mechanics.
+
+Dr. Kumar performs arthroscopic debridement for a wide range of joint conditions affecting the knee, shoulder, hip, ankle, elbow, and wrist. In the knee, common indications include degenerative meniscal tears in patients with early arthritis, chondromalacia (cartilage softening), removal of inflamed synovium, and trimming of unstable cartilage flaps. In the shoulder, debridement addresses partial rotator cuff tears, labral fraying, AC joint arthritis, and subacromial bone spurs. The procedure is particularly valuable for patients who have mechanical symptoms (catching, locking, grinding) but are not candidates for more extensive reconstructive surgery due to age, activity level, or extent of arthritis.
+
+The surgery is performed through small portal incisions (typically 2-4 portals each measuring 4-5mm) positioned strategically around the joint to access different compartments. Dr. Kumar uses high-definition arthroscopic cameras with magnification to visualize damaged tissue, then employs motorized shavers, radiofrequency ablation devices, and precision cutting instruments to remove problematic tissue while preserving healthy structures. The key to successful debridement is thorough removal of all loose and unstable tissue while maintaining joint stability and protecting viable cartilage. Radiofrequency energy allows precise tissue removal with minimal bleeding and can stimulate a healing response in remaining cartilage.
+
+Patient outcomes following arthroscopic debridement vary depending on the underlying pathology and degree of pre-existing arthritis. The procedure works best for patients with mechanical symptoms from discrete lesions without diffuse degenerative changes. Those with isolated meniscal tears, loose bodies, or localized cartilage lesions typically experience excellent symptom relief. Patients with moderate to severe arthritis may obtain temporary improvement but often require more definitive treatment eventually. Recovery is generally quick, with most patients mobilizing the same day and returning to normal activities within 4-8 weeks.
+
+At Arthoscenter, Dr. Kumar carefully selects appropriate candidates for arthroscopic debridement based on clinical examination, imaging findings, and patient goals. Success rates range from 60-85% depending on the specific pathology, with best results in younger patients without significant arthritis. The minimally invasive approach offers advantages of reduced post-operative pain, faster recovery, lower complication rates, and ability to treat multiple areas in one procedure. When performed for proper indications with meticulous technique, arthroscopic debridement provides meaningful symptom relief and can delay need for joint replacement surgery.`,
+      hi: `आर्थ्रोस्कोपिक डीब्राइडमेंट एक न्यूनतम आक्रामक शल्य चिकित्सा प्रक्रिया है जो विशेष आर्थ्रोस्कोपिक उपकरणों का उपयोग करके जोड़ के भीतर से क्षतिग्रस्त, अपक्षयी, या सूजन वाले ऊतक को व्यवस्थित रूप से हटाने में शामिल है। डॉ. कुमार उन्नत तकनीकों का उपयोग करके व्यापक आर्थ्रोस्कोपिक डीब्राइडमेंट करते हैं।`
+    },
+    symptoms: {
+      en: ['Joint pain with activity', 'Catching or locking sensation', 'Grinding or crepitus with movement', 'Intermittent swelling episodes', 'Reduced range of motion', 'Loose body sensation (something moving in joint)', 'Pain with weight bearing', 'Joint instability or giving way', 'Failed conservative treatment', 'Early to moderate arthritis with mechanical symptoms'],
+      hi: ['गतिविधि के साथ जोड़ का दर्द', 'पकड़ने या लॉकिंग की सनसनी', 'आंदोलन के साथ पीसना या क्रेपिटस', 'रुक-रुक कर सूजन के एपिसोड', 'गति की सीमा में कमी', 'लूज बॉडी सनसनी (जोड़ में कुछ चलना)', 'वजन वहन के साथ दर्द', 'जोड़ अस्थिरता या रास्ता देना', 'रूढ़िवादी उपचार विफल', 'यांत्रिक लक्षणों के साथ प्रारंभिक से मध्यम गठिया']
+    },
+    procedure: {
+      en: { preparation: 'MRI to identify damaged tissue. X-rays to assess arthritis severity.', steps: ['General or regional anesthesia', 'Tourniquet application if needed', 'Portal creation (2-4 small incisions)', 'Joint inspection with HD arthroscope', 'Systematic evaluation of all compartments', 'Identification of pathologic tissue', 'Debridement using motorized shavers', 'Radiofrequency ablation of unstable tissue', 'Smoothing of rough cartilage edges', 'Removal of loose bodies and fragments', 'Treatment of bone spurs if present', 'Thorough irrigation to remove debris', 'Portal closure'], duration: '45-75 minutes', anesthesia: 'General or Regional Anesthesia' },
+      hi: { preparation: 'क्षतिग्रस्त ऊतक की पहचान के लिए MRI। गठिया की गंभीरता का आकलन करने के लिए X-rays।', steps: ['जनरल या क्षेत्रीय एनेस्थीसिया', 'यदि आवश्यक हो तो टूर्निकेट अनुप्रयोग', 'पोर्टल निर्माण (2-4 छोटे चीरे)', 'HD आर्थ्रोस्कोप के साथ संयुक्त निरीक्षण', 'सभी डिब्बों का व्यवस्थित मूल्यांकन', 'पैथोलॉजिक ऊतक की पहचान', 'मोटराइज्ड शेवर का उपयोग करके डीब्राइडमेंट', 'अस्थिर ऊतक का रेडियोफ्रीक्वेंसी एब्लेशन', 'खुरदुरे उपास्थि के किनारों की चिकनाई', 'ढीले निकायों और टुकड़ों को हटाना', 'यदि मौजूद हो तो हड्डी के स्पर्स का उपचार', 'मलबे को हटाने के लिए पूरी तरह से सिंचाई', 'पोर्टल बंद करना'], duration: '45-75 मिनट', anesthesia: 'जनरल या क्षेत्रीय एनेस्थीसिया' }
+    },
+    recovery: {
+      en: { timeline: [{ week: 'Week 1-2', activity: 'Initial healing', description: 'Pain control, gentle motion, ice and elevation' }, { week: 'Week 3-4', activity: 'Progressive rehabilitation', description: 'Increased range of motion, light strengthening' }, { week: 'Week 5-8', activity: 'Strengthening phase', description: 'Resistance exercises, functional activities' }, { week: 'Month 3-4', activity: 'Full activity', description: 'Return to sports and demanding activities' }], tips: ['Weight bearing as tolerated immediately', 'Ice 20 minutes every 2-3 hours first week', 'Gentle range of motion exercises from day 1', 'Physical therapy essential for recovery', 'Avoid high-impact activities 4-6 weeks', 'Symptom relief often immediate for mechanical issues', 'Results vary based on arthritis severity', 'May provide temporary relief requiring repeat procedure', 'Maintain healthy weight to reduce joint stress', 'Consider injections for residual symptoms', 'May delay but not eliminate need for replacement', 'Most return to activities 6-8 weeks'] },
+      hi: { timeline: [{ week: 'सप्ताह 1-2', activity: 'प्रारंभिक उपचार', description: 'दर्द नियंत्रण, कोमल गति, बर्फ और ऊंचाई' }, { week: 'सप्ताह 3-4', activity: 'प्रगतिशील पुनर्वास', description: 'गति की सीमा में वृद्धि, हल्का सुदृढीकरण' }, { week: 'सप्ताह 5-8', activity: 'सुदृढीकरण चरण', description: 'प्रतिरोध व्यायाम, कार्यात्मक गतिविधियां' }, { week: 'महीना 3-4', activity: 'पूर्ण गतिविधि', description: 'खेल और मांग वाली गतिविधियों में वापसी' }], tips: ['तुरंत सहन के रूप में वजन वहन', 'पहले सप्ताह हर 2-3 घंटे में 20 मिनट बर्फ', 'दिन 1 से कोमल गति की सीमा व्यायाम', 'रिकवरी के लिए फिजियोथेरेपी आवश्यक', '4-6 सप्ताह उच्च प्रभाव वाली गतिविधियों से बचें', 'यांत्रिक मुद्दों के लिए अक्सर तत्काल लक्षण राहत', 'परिणाम गठिया की गंभीरता पर आधारित भिन्न होते हैं', 'दोहराए जाने वाली प्रक्रिया की आवश्यकता वाली अस्थायी राहत प्रदान कर सकता है', 'संयुक्त तनाव को कम करने के लिए स्वस्थ वजन बनाए रखें', 'अवशिष्ट लक्षणों के लिए इंजेक्शन पर विचार करें', 'प्रतिस्थापन की आवश्यकता में देरी हो सकती है लेकिन समाप्त नहीं हो सकती', 'अधिकांश 6-8 सप्ताह में गतिविधियों में वापस आते हैं'] }
+    },
+    faqs: {
+      en: [{ question: 'What is the recovery time?', answer: 'Most patients return to normal activities within 6-8 weeks. Recovery faster than major reconstructive surgery.' }, { question: 'What is the success rate?', answer: '60-85% symptom improvement at Arthoscenter. Best results in patients without severe arthritis.' }, { question: 'What is the cost?', answer: 'Cost ranges ₹70,000-1.5 lakhs. PMJAY/BSKY accepted. Book ₹999 consultation.' }],
+      hi: [{ question: 'रिकवरी का समय क्या है?', answer: 'अधिकांश रोगी 6-8 सप्ताह के भीतर सामान्य गतिविधियों में वापस आते हैं। प्रमुख पुनर्निर्माण सर्जरी की तुलना में तेजी से रिकवरी।' }, { question: 'सफलता दर क्या है?', answer: 'आर्थोसेंटर में 60-85% लक्षण सुधार। गंभीर गठिया के बिना रोगियों में सर्वोत्तम परिणाम।' }, { question: 'लागत क्या है?', answer: 'लागत ₹70,000-1.5 लाख। PMJAY/BSKY स्वीकार किया। ₹999 परामर्श बुक करें।' }]
+    },
+    meta: {
+      en: { title: 'Arthroscopic Debridement Surgery in India | Dr. Gurudeo Kumar', description: 'Minimally invasive removal of damaged tissue, loose fragments, and debris from joints. Expert arthroscopic treatment in Patna, Bihar.', keywords: ['debridement-arthroscopy India', 'arthroscopy Patna', 'Dr. Gurudeo Kumar Bihar'] },
+      hi: { title: 'भारत में आर्थ्रोस्कोपिक डीब्राइडमेंट सर्जरी', description: 'जोड़ों से क्षतिग्रस्त ऊतक, ढीले टुकड़े, और मलबे को न्यूनतम आक्रामक हटाना।', keywords: ['debridement-arthroscopy', 'arthroscopy'] }
+    },
+    procedureCount: 285,
+    successRate: 72,
+    relatedSurgeries: ['knee-arthroscopy', 'shoulder-arthroscopy', 'loose-body-removal']
+  },
+
+  'microfracture-surgery': {
+    id: 'microfracture-surgery',
+    category: 'arthroscopy',
+    slug: 'microfracture-surgery',
+    title: {
+      en: 'Microfracture Surgery in India',
+      hi: 'भारत में माइक्रोफ्रैक्चर सर्जरी'
+    },
+    shortDesc: {
+      en: 'Arthroscopic cartilage repair technique creating tiny fractures to stimulate new cartilage growth.',
+      hi: 'नई उपास्थि वृद्धि को उत्तेजित करने के लिए छोटे फ्रैक्चर बनाने वाली आर्थ्रोस्कोपिक उपास्थि मरम्मत तकनीक।'
+    },
+    overview: {
+      en: `Microfracture surgery is an innovative arthroscopic technique designed to stimulate the growth of new cartilage in areas where articular cartilage has been damaged or lost. Articular cartilage is the smooth, white tissue that covers the ends of bones in joints, allowing frictionless movement and shock absorption. Unlike most body tissues, cartilage has no blood supply and therefore very limited capacity for self-repair. When damaged by injury or disease, cartilage defects can cause pain, swelling, mechanical symptoms, and if left untreated, often progress to debilitating arthritis. Microfracture addresses this problem by creating small perforations in the underlying bone to access the bone marrow compartment, releasing growth factors and stem cells that form a fibrocartilage "super clot" to fill the defect.
+
+Dr. Kumar performs microfracture surgery for focal cartilage defects resulting from acute injuries (such as patellar dislocations, ACL tears, or direct trauma), osteochondritis dissecans (where a piece of cartilage and bone separates from the joint surface), or early degenerative changes in young active patients. The procedure is most effective for small to medium-sized defects (typically 1-4 cm²) in the knee, ankle, or shoulder in patients under 40 years old. Candidates must have isolated cartilage lesions without widespread arthritis, stable joint alignment, and realistic expectations about the procedure's limitations. Microfracture works best when the surrounding cartilage is healthy and the joint mechanics are normal.
+
+The arthroscopic microfracture procedure begins with thorough debridement of the damaged cartilage back to stable edges, creating a contained defect with vertical walls. Dr. Kumar then carefully removes the calcified cartilage layer at the base of the defect to expose the underlying subchondral bone. Using a specialized awl (pointed instrument), he creates multiple small holes or "microfractures" approximately 3-4mm apart and 3-4mm deep into the bone. These perforations penetrate into the bone marrow space, releasing blood, stem cells, and growth factors that fill the defect and eventually organize into repair tissue. The number of microfractures depends on the size of the defect, but typically ranges from 8-20 perforations for average lesions.
+
+Following microfracture surgery, rehabilitation is critically important for optimal outcomes. Patients must strictly avoid weight bearing for 6-8 weeks to allow the "super clot" to organize and mature into fibrocartilage repair tissue without being disrupted. Continuous passive motion (CPM) machines are often used to provide gentle movement that promotes cartilage nutrition and maturation while protecting the healing surface. Physical therapy focuses on maintaining range of motion and strengthening surrounding muscles while respecting weight-bearing restrictions. The repair tissue continues to mature for 12-18 months after surgery, with gradual progression to full activities.
+
+At Arthoscenter, Dr. Kumar achieves good to excellent results in 65-80% of carefully selected patients undergoing microfracture surgery. The procedure is most successful in younger patients (under 40) with acute traumatic cartilage lesions smaller than 2 cm². Results are less predictable for larger defects, chronic lesions, and patients with underlying arthritis or malalignment. While the fibrocartilage formed through microfracture is not identical to native hyaline cartilage, it can provide meaningful symptom relief and functional improvement for many years. The minimally invasive arthroscopic approach offers advantages of reduced pain, faster initial healing, and ability to return to activities compared to open cartilage restoration procedures.`,
+      hi: `माइक्रोफ्रैक्चर सर्जरी एक नवीन आर्थ्रोस्कोपिक तकनीक है जो उन क्षेत्रों में नई उपास्थि की वृद्धि को उत्तेजित करने के लिए डिज़ाइन की गई है जहां आर्टिकुलर उपास्थि क्षतिग्रस्त या खो गई है। डॉ. कुमार उन्नत माइक्रोफ्रैक्चर तकनीकों का उपयोग करके उपास्थि मरम्मत करते हैं।`
+    },
+    symptoms: {
+      en: ['Focal area of joint pain', 'Swelling after activity', 'Catching or locking sensation', 'Pain with weight bearing on affected joint', 'Giving way or instability', 'Mechanical symptoms from loose cartilage', 'Pain worse with squatting or stairs', 'Limited high-impact activity tolerance', 'Known cartilage defect on MRI', 'Failed conservative treatment'],
+      hi: ['जोड़ के दर्द का फोकल क्षेत्र', 'गतिविधि के बाद सूजन', 'पकड़ने या लॉकिंग की सनसनी', 'प्रभावित जोड़ पर वजन वहन के साथ दर्द', 'रास्ता देना या अस्थिरता', 'ढीले उपास्थि से यांत्रिक लक्षण', 'स्क्वाटिंग या सीढ़ियों के साथ दर्द बदतर', 'सीमित उच्च प्रभाव गतिविधि सहनशीलता', 'MRI पर ज्ञात उपास्थि दोष', 'रूढ़िवादी उपचार विफल']
+    },
+    procedure: {
+      en: { preparation: 'MRI to map cartilage defect size and location. Assessment of joint alignment.', steps: ['General or regional anesthesia', 'Arthroscopic portal creation', 'Joint inspection and defect identification', 'Debridement of damaged cartilage to stable edges', 'Creation of contained defect with vertical walls', 'Removal of calcified cartilage layer', 'Exposure of healthy subchondral bone', 'Microfracture awl perforations (3-4mm apart, 3-4mm deep)', 'Observation of marrow bleeding (fat droplets)', 'Formation of "super clot" filling defect', 'Treatment of associated pathology', 'Portal closure and dressing'], duration: '45-90 minutes', anesthesia: 'General or Regional Anesthesia' },
+      hi: { preparation: 'उपास्थि दोष के आकार और स्थान को मैप करने के लिए MRI। संयुक्त संरेखण का आकलन।', steps: ['जनरल या क्षेत्रीय एनेस्थीसिया', 'आर्थ्रोस्कोपिक पोर्टल निर्माण', 'जोड़ निरीक्षण और दोष पहचान', 'स्थिर किनारों के लिए क्षतिग्रस्त उपास्थि का मलत्याग', 'ऊर्ध्वाधर दीवारों के साथ निहित दोष का निर्माण', 'कैल्सीफाइड उपास्थि परत को हटाना', 'स्वस्थ सबकोन्ड्रल हड्डी का एक्सपोजर', 'माइक्रोफ्रैक्चर awl छिद्र (3-4mm अलग, 3-4mm गहरी)', 'मज्जा रक्तस्राव की अवलोकन (वसा बूंदें)', 'दोष भरने वाले "सुपर क्लॉट" का गठन', 'संबंधित पैथोलॉजी का उपचार', 'पोर्टल बंद करना और ड्रेसिंग'], duration: '45-90 मिनट', anesthesia: 'जनरल या क्षेत्रीय एनेस्थीसिया' }
+    },
+    recovery: {
+      en: { timeline: [{ week: 'Week 1-6', activity: 'Non-weight bearing', description: 'Crutches, CPM machine use, gentle ROM' }, { week: 'Week 7-12', activity: 'Partial weight bearing', description: 'Progressive weight bearing, pool exercises' }, { week: 'Month 4-6', activity: 'Strengthening', description: 'Full weight bearing, resistance training' }, { week: 'Month 6-12', activity: 'Return to sport', description: 'Gradual return to high-impact activities' }], tips: ['CRITICAL: No weight bearing first 6-8 weeks', 'CPM machine use 6-8 hours daily if available', 'Gentle passive range of motion only initially', 'Strict adherence to protocol essential', 'Physical therapy supervision required', 'Pool therapy excellent for early rehab', 'Expect 12-18 months full recovery', 'Most return to sports 9-12 months', 'Results improve over first 2 years', 'Success depends on patient compliance', 'Maintain ideal weight to protect repair', 'Consider supplements for cartilage health'] },
+      hi: { timeline: [{ week: 'सप्ताह 1-6', activity: 'गैर-वजन वहन', description: 'क्रचेस, CPM मशीन का उपयोग, कोमल ROM' }, { week: 'सप्ताह 7-12', activity: 'आंशिक वजन वहन', description: 'प्रगतिशील वजन वहन, पूल व्यायाम' }, { week: 'महीना 4-6', activity: 'सुदृढीकरण', description: 'पूर्ण वजन वहन, प्रतिरोध प्रशिक्षण' }, { week: 'महीना 6-12', activity: 'खेल में वापसी', description: 'उच्च प्रभाव वाली गतिविधियों में क्रमिक वापसी' }], tips: ['महत्वपूर्ण: पहले 6-8 सप्ताह कोई वजन वहन नहीं', 'यदि उपलब्ध हो तो CPM मशीन दैनिक 6-8 घंटे का उपयोग', 'प्रारंभ में केवल कोमल निष्क्रिय गति की सीमा', 'प्रोटोकॉल का सख्त पालन आवश्यक', 'फिजियोथेरेपी पर्यवेक्षण आवश्यक', 'प्रारंभिक पुनर्वास के लिए पूल थेरेपी उत्कृष्ट', '12-18 महीने पूर्ण रिकवरी की उम्मीद', 'अधिकांश 9-12 महीनों में खेल में वापस आते हैं', 'पहले 2 वर्षों में परिणाम में सुधार', 'सफलता रोगी अनुपालन पर निर्भर करती है', 'मरम्मत की रक्षा के लिए आदर्श वजन बनाए रखें', 'उपास्थि स्वास्थ्य के लिए सप्लीमेंट पर विचार करें'] }
+    },
+    faqs: {
+      en: [{ question: 'What is the recovery time?', answer: 'Full recovery takes 12-18 months. Return to sports typically 9-12 months. Requires strict 6-8 week non-weight bearing period.' }, { question: 'What is the success rate?', answer: '65-80% good to excellent results at Arthoscenter. Best outcomes in young patients (<40 years) with small acute defects.' }, { question: 'What is the cost?', answer: 'Cost ranges ₹90,000-1.8 lakhs. PMJAY/BSKY accepted. Book ₹999 consultation.' }],
+      hi: [{ question: 'रिकवरी का समय क्या है?', answer: 'पूर्ण रिकवरी में 12-18 महीने लगते हैं। खेल में वापसी आमतौर पर 9-12 महीने। सख्त 6-8 सप्ताह गैर-वजन वहन अवधि की आवश्यकता है।' }, { question: 'सफलता दर क्या है?', answer: 'आर्थोसेंटर में 65-80% अच्छे से उत्कृष्ट परिणाम। छोटे तीव्र दोषों वाले युवा रोगियों (<40 वर्ष) में सर्वोत्तम परिणाम।' }, { question: 'लागत क्या है?', answer: 'लागत ₹90,000-1.8 लाख। PMJAY/BSKY स्वीकार किया। ₹999 परामर्श बुक करें।' }]
+    },
+    meta: {
+      en: { title: 'Microfracture Surgery in India | Dr. Gurudeo Kumar', description: 'Arthroscopic cartilage repair technique creating tiny fractures to stimulate new cartilage growth. Expert treatment in Patna, Bihar.', keywords: ['microfracture-surgery India', 'arthroscopy Patna', 'Dr. Gurudeo Kumar Bihar'] },
+      hi: { title: 'भारत में माइक्रोफ्रैक्चर सर्जरी', description: 'नई उपास्थि वृद्धि को उत्तेजित करने के लिए छोटे फ्रैक्चर बनाने वाली आर्थ्रोस्कोपिक उपास्थि मरम्मत तकनीक।', keywords: ['microfracture-surgery', 'arthroscopy'] }
+    },
+    procedureCount: 125,
+    successRate: 73,
+    relatedSurgeries: ['knee-arthroscopy', 'osteochondral-grafting', 'chondroplasty']
+  },
+
+  'osteogenesis-imperfecta': {
+    id: 'osteogenesis-imperfecta',
+    category: 'pediatric-orthopedics',
+    slug: 'osteogenesis-imperfecta',
+    title: {
+      en: 'Osteogenesis Imperfecta Treatment in India',
+      hi: 'भारत में ऑस्टियोजेनेसिस इम्परफेक्टा उपचार'
+    },
+
   'clavicle-fracture-surgery': {
     id: 'clavicle-fracture-surgery',
     category: 'trauma-care',
@@ -13414,6 +13814,46 @@ At Arthroscenter, Dr. Gurudeo Kumar has extensive experience in clavicle fractur
       }
     },
     relatedSurgeries: ['humerus-fracture-fixation', 'shoulder-replacement', 'biceps-tendon-repair', 'radius-ulna-fracture']
+  },
+    shortDesc: {
+      en: 'Comprehensive surgical and medical management of brittle bone disease in children.',
+      hi: 'बच्चों में भंगुर हड्डी रोग का व्यापक शल्य चिकित्सा और चिकित्सा प्रबंधन।'
+    },
+    overview: {
+      en: `Osteogenesis imperfecta (OI), commonly known as "brittle bone disease," is a genetic disorder characterized by bones that break easily, often with minimal or no apparent trauma. The condition results from defects in type I collagen, the primary protein building block of bone, leading to abnormal bone formation and reduced bone density. OI encompasses a spectrum of severity ranging from mild forms with few fractures to severe forms causing multiple fractures even before birth. While there is no cure for OI, modern orthopedic management has dramatically improved outcomes, allowing many children with OI to lead active, productive lives with proper treatment and support.
+
+Dr. Kumar provides comprehensive care for children with osteogenesis imperfecta, addressing both the frequent fractures and the progressive skeletal deformities that characterize this condition. The disorder is classified into several types (Type I through Type VIII), with Type I being mildest and Type II most severe (often lethal). Common features include multiple fractures throughout childhood, blue sclerae (blue-tinted whites of the eyes), hearing loss, dental abnormalities (dentinogenesis imperfecta), short stature, scoliosis and spinal deformities, and ligamentous laxity leading to joint hypermobility. Treatment requires a multidisciplinary approach combining orthopedic surgery, bisphosphonate medications, physical therapy, and supportive care.
+
+Surgical management for OI focuses on stabilizing fractures, correcting deformities, and preventing future fractures through intramedullary rodding procedures. Intramedullary rods are metal implants placed inside the long bones (femur, tibia, humerus) to provide internal support and prevent fractures and progressive bowing deformities. Dr. Kumar uses both telescoping rods (which elongate as the child grows) and fixed rods depending on the child's age and bone characteristics. The Fassier-Duval telescoping rod system is particularly valuable for younger children with growing bones. Rodding procedures are typically performed for recurrent fractures in the same bone, progressive angular deformities, or prophylactically in severely affected children to prevent fractures and improve mobility.
+
+Medical management with bisphosphonate medications (such as pamidronate or zoledronic acid given intravenously) has revolutionized OI care over the past two decades. These medications increase bone density, reduce fracture frequency, improve bone pain, and enhance mobility in most children with moderate to severe OI. Treatment typically begins in early childhood and continues through adolescence. Physical and occupational therapy are essential components of comprehensive care, focusing on safe strengthening exercises, mobility training with appropriate assistive devices, and activities of daily living adaptations. Aquatic therapy is particularly beneficial, allowing exercise in a low-impact environment.
+
+At Arthoscenter, Dr. Kumar collaborates with pediatricians, geneticists, endocrinologists, and rehabilitation specialists to provide holistic care for children with OI and their families. Our approach emphasizes fracture prevention through environmental modifications, safe handling techniques, and appropriate activity guidelines while promoting maximum independence and participation. Surgical outcomes have been excellent, with intramedullary rodding significantly reducing fracture frequency and improving ambulation in most children. Family education and psychological support are integral to our program, helping parents and children navigate the challenges of living with this lifelong condition while maintaining optimism about achievable functional goals.`,
+      hi: `ऑस्टियोजेनेसिस इम्परफेक्टा (OI), जिसे आमतौर पर "भंगुर हड्डी रोग" के रूप में जाना जाता है, एक आनुवंशिक विकार है जो हड्डियों की विशेषता है जो आसानी से टूट जाती हैं। डॉ. कुमार OI वाले बच्चों के लिए व्यापक देखभाल प्रदान करते हैं।`
+    },
+    symptoms: {
+      en: ['Multiple bone fractures with minimal trauma', 'Blue or gray-tinted sclerae (whites of eyes)', 'Short stature for age', 'Progressive limb deformities (bowing)', 'Scoliosis or kyphosis (spinal curvature)', 'Hearing loss (usually develops in adulthood)', 'Dental problems (brittle teeth)', 'Joint hypermobility and laxity', 'Easy bruising', 'Family history of similar condition'],
+      hi: ['न्यूनतम आघात के साथ कई हड्डी फ्रैक्चर', 'नीला या ग्रे-टिंटेड स्क्लेरा (आंखों के सफेद)', 'उम्र के लिए छोटा कद', 'प्रगतिशील अंग विकृतियां (झुकना)', 'स्कोलियोसिस या काइफोसिस (रीढ़ की वक्रता)', 'सुनने की हानि (आमतौर पर वयस्कता में विकसित होती है)', 'दंत समस्याएं (भंगुर दांत)', 'जोड़ हाइपरमोबिलिटी और शिथिलता', 'आसान चोट लगना', 'समान स्थिति का पारिवारिक इतिहास']
+    },
+    procedure: {
+      en: { preparation: 'Comprehensive evaluation including genetic testing, bone density scan, skeletal survey. Bisphosphonate infusion optimization pre-surgery.', steps: ['General anesthesia with careful positioning', 'Fracture reduction if acute fracture present', 'Longitudinal incision over affected bone', 'Entry point creation at bone end', 'Intramedullary canal preparation', 'Telescoping or fixed rod insertion', 'Proximal and distal fixation of rod', 'Correction of angular deformities if present', 'Osteotomy (bone cut) for severe deformities', 'Wound closure in layers', 'Cast or splint application', 'Post-op bisphosphonate therapy continuation'], duration: '2-4 hours per bone', anesthesia: 'General Anesthesia' },
+      hi: { preparation: 'आनुवंशिक परीक्षण, हड्डी घनत्व स्कैन, कंकाल सर्वेक्षण सहित व्यापक मूल्यांकन। सर्जरी पूर्व बिसफॉस्फोनेट इन्फ्यूजन अनुकूलन।', steps: ['सावधान स्थिति के साथ जनरल एनेस्थीसिया', 'यदि तीव्र फ्रैक्चर मौजूद हो तो फ्रैक्चर कमी', 'प्रभावित हड्डी पर अनुदैर्ध्य चीरा', 'हड्डी के अंत में प्रवेश बिंदु निर्माण', 'इंट्रामेड्युलरी नहर तैयारी', 'टेलिस्कोपिंग या फिक्स्ड रॉड सम्मिलन', 'रॉड का समीपस्थ और दूरस्थ निर्धारण', 'यदि मौजूद हो तो कोणीय विकृतियों का सुधार', 'गंभीर विकृतियों के लिए ओस्टियोटॉमी (हड्डी कट)', 'परतों में घाव बंद करना', 'कास्ट या स्प्लिंट अनुप्रयोग', 'पोस्ट-ऑप बिसफॉस्फोनेट थेरेपी निरंतरता'], duration: 'प्रति हड्डी 2-4 घंटे', anesthesia: 'जनरल एनेस्थीसिया' }
+    },
+    recovery: {
+      en: { timeline: [{ week: 'Week 1-4', activity: 'Initial healing', description: 'Protected mobilization, pain management, cast care' }, { week: 'Week 5-12', activity: 'Progressive rehabilitation', description: 'Gentle range of motion, protected weight bearing' }, { week: 'Month 4-6', activity: 'Strengthening', description: 'Supervised therapy, gradual activity increase' }, { week: 'Long-term', activity: 'Lifelong management', description: 'Ongoing bisphosphonate therapy, fracture prevention' }], tips: ['Bisphosphonate infusions continue per protocol', 'Gentle handling essential to prevent fractures', 'Physical therapy crucial for strength and mobility', 'Aquatic therapy excellent low-impact option', 'Environmental modifications for safety', 'Assistive devices as needed (wheelchair, braces)', 'Nutrition optimization with calcium and vitamin D', 'Regular bone density monitoring', 'Fracture frequency typically decreases after rodding', 'Telescoping rods may need adjustment during growth', 'Multidisciplinary team follow-up essential', 'Focus on achievable functional independence'] },
+      hi: { timeline: [{ week: 'सप्ताह 1-4', activity: 'प्रारंभिक उपचार', description: 'संरक्षित गतिशीलता, दर्द प्रबंधन, कास्ट केयर' }, { week: 'सप्ताह 5-12', activity: 'प्रगतिशील पुनर्वास', description: 'कोमल गति की सीमा, संरक्षित वजन वहन' }, { week: 'महीना 4-6', activity: 'सुदृढीकरण', description: 'पर्यवेक्षित थेरेपी, क्रमिक गतिविधि वृद्धि' }, { week: 'दीर्घकालिक', activity: 'आजीवन प्रबंधन', description: 'चल रही बिसफॉस्फोनेट थेरेपी, फ्रैक्चर रोकथाम' }], tips: ['बिसफॉस्फोनेट इन्फ्यूजन प्रोटोकॉल के अनुसार जारी रहता है', 'फ्रैक्चर को रोकने के लिए कोमल हैंडलिंग आवश्यक', 'ताकत और गतिशीलता के लिए फिजियोथेरेपी महत्वपूर्ण', 'जलीय थेरेपी उत्कृष्ट कम प्रभाव विकल्प', 'सुरक्षा के लिए पर्यावरण संशोधन', 'आवश्यकतानुसार सहायक उपकरण (व्हीलचेयर, ब्रेसिज़)', 'कैल्शियम और विटामिन डी के साथ पोषण अनुकूलन', 'नियमित हड्डी घनत्व निगरानी', 'रोडिंग के बाद फ्रैक्चर आवृत्ति आमतौर पर कम हो जाती है', 'विकास के दौरान टेलिस्कोपिंग रॉड को समायोजन की आवश्यकता हो सकती है', 'बहु-विषयक टीम फॉलो-अप आवश्यक', 'प्राप्य कार्यात्मक स्वतंत्रता पर ध्यान केंद्रित करें'] }
+    },
+    faqs: {
+      en: [{ question: 'What is the recovery time?', answer: 'Initial surgical recovery 3-6 months. OI requires lifelong management with ongoing bisphosphonate therapy and fracture prevention strategies.' }, { question: 'What is the success rate?', answer: 'Intramedullary rodding reduces fracture frequency by 60-80% at Arthoscenter. Most children show improved mobility and quality of life.' }, { question: 'What is the cost?', answer: 'Cost varies by procedures needed, typically ₹2-5 lakhs per surgery. PMJAY/BSKY accepted. Bisphosphonate costs additional. Book ₹999 consultation.' }],
+      hi: [{ question: 'रिकवरी का समय क्या है?', answer: 'प्रारंभिक शल्य चिकित्सा रिकवरी 3-6 महीने। OI को चल रही बिसफॉस्फोनेट थेरेपी और फ्रैक्चर रोकथाम रणनीतियों के साथ आजीवन प्रबंधन की आवश्यकता होती है।' }, { question: 'सफलता दर क्या है?', answer: 'आर्थोसेंटर में इंट्रामेड्युलरी रोडिंग फ्रैक्चर आवृत्ति को 60-80% तक कम करता है। अधिकांश बच्चे बेहतर गतिशीलता और जीवन की गुणवत्ता दिखाते हैं।' }, { question: 'लागत क्या है?', answer: 'लागत आवश्यक प्रक्रियाओं के अनुसार भिन्न होती है, आमतौर पर प्रति सर्जरी ₹2-5 लाख। PMJAY/BSKY स्वीकार किया। बिसफॉस्फोनेट लागत अतिरिक्त। ₹999 परामर्श बुक करें।' }]
+    },
+    meta: {
+      en: { title: 'Osteogenesis Imperfecta Treatment in India | Dr. Gurudeo Kumar', description: 'Comprehensive surgical and medical management of brittle bone disease in children. Expert pediatric orthopedic care in Patna, Bihar.', keywords: ['osteogenesis-imperfecta India', 'pediatric-orthopedics Patna', 'Dr. Gurudeo Kumar Bihar'] },
+      hi: { title: 'भारत में ऑस्टियोजेनेसिस इम्परफेक्टा उपचार', description: 'बच्चों में भंगुर हड्डी रोग का व्यापक शल्य चिकित्सा और चिकित्सा प्रबंधन।', keywords: ['osteogenesis-imperfecta', 'pediatric-orthopedics'] }
+    },
+    procedureCount: 45,
+    successRate: 75,
+    relatedSurgeries: ['pediatric-fractures', 'scoliosis-pediatric', 'limb-lengthening']
   },
   'elbow-replacement': {
     id: 'elbow-replacement',
