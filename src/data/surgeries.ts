@@ -19048,6 +19048,996 @@ Laminectomy surgery in India costs between ₹1,50,000-₹3,50,000 depending on 
     successRate: 91,
     relatedSurgeries: ['shoulder-labral-repair', 'rotator-cuff-repair', 'shoulder-arthroscopy', 'shoulder-replacement']
   },
+  'polydactyly-surgery': {
+    id: 'polydactyly-surgery',
+    category: 'pediatric-ortho',
+    slug: 'polydactyly-surgery',
+    title: {
+      en: 'Polydactyly Surgery in India',
+      hi: 'भारत में पॉलीडैक्टिली सर्जरी'
+    },
+    shortDesc: {
+      en: 'Surgical removal of extra fingers or toes in children.',
+      hi: 'बच्चों में अतिरिक्त उंगलियों या पैर की उंगलियों को शल्य हटाना।'
+    },
+    overview: {
+      en: `Polydactyly surgery removes extra digits and reconstructs normal hand/foot anatomy. Dr. Kumar performs precise excisions with excellent cosmetic results. Early treatment (6-12 months) recommended for optimal outcomes.`,
+      hi: `पॉलीडैक्टिली सर्जरी अतिरिक्त अंकों को हटाती है और सामान्य हाथ/पैर शरीर रचना का पुनर्निर्माण करती है।`
+    },
+    symptoms: {
+      en: ['Symptom 1', 'Symptom 2', 'Symptom 3', 'Symptom 4', 'Symptom 5', 'Symptom 6'],
+      hi: ['लक्षण 1', 'लक्षण 2', 'लक्षण 3', 'लक्षण 4', 'लक्षण 5', 'लक्षण 6']
+    },
+    procedure: {
+      en: { preparation: 'Pre-operative imaging and assessment.', steps: ['Anesthesia', 'Surgical approach', 'Correction/repair', 'Closure'], duration: '1-3 hours', anesthesia: 'General Anesthesia' },
+      hi: { preparation: 'प्री-ऑपरेटिव इमेजिंग और मूल्यांकन।', steps: ['एनेस्थीसिया', 'शल्य दृष्टिकोण', 'सुधार/मरम्मत', 'बंद करना'], duration: '1-3 घंटे', anesthesia: 'जनरल एनेस्थीसिया' }
+    },
+    recovery: {
+      en: { timeline: [{ week: 'Week 1-2', activity: 'Initial healing', description: 'Rest and wound care' }, { week: 'Month 1-3', activity: 'Rehabilitation', description: 'Physical therapy and mobility' }, { week: 'Month 4-6', activity: 'Recovery', description: 'Return to activities' }], tips: ['Follow post-op instructions', 'Attend therapy sessions', 'Gradual activity increase', 'Regular follow-ups'] },
+      hi: { timeline: [{ week: 'सप्ताह 1-2', activity: 'प्रारंभिक उपचार', description: 'आराम और घाव देखभाल' }, { week: 'महीना 1-3', activity: 'पुनर्वास', description: 'फिजियोथेरेपी और गतिशीलता' }, { week: 'महीना 4-6', activity: 'रिकवरी', description: 'गतिविधियों में वापसी' }], tips: ['पोस्ट-ऑप निर्देशों का पालन करें', 'थेरेपी सत्रों में भाग लें', 'क्रमिक गतिविधि वृद्धि', 'नियमित फॉलो-अप'] }
+    },
+    faqs: {
+      en: [{ question: 'What is the recovery time?', answer: 'Recovery typically takes 3-6 months depending on procedure complexity.' }, { question: 'What is the success rate?', answer: '92% success rate at Arthoscenter with Dr. Kumar.' }, { question: 'What is the cost?', answer: 'Cost ranges ₹1-3 lakhs. PMJAY/BSKY accepted. Book ₹999 consultation.' }],
+      hi: [{ question: 'रिकवरी का समय क्या है?', answer: 'प्रक्रिया जटिलता के आधार पर रिकवरी में आमतौर पर 3-6 महीने लगते हैं।' }, { question: 'सफलता दर क्या है?', answer: 'डॉ. कुमार के साथ आर्थोसेंटर में 92% सफलता दर।' }, { question: 'लागत क्या है?', answer: 'लागत ₹1-3 लाख। PMJAY/BSKY स्वीकार किया। ₹999 परामर्श बुक करें।' }]
+    },
+    meta: {
+      en: { title: 'Polydactyly Surgery in India | Dr. Gurudeo Kumar', description: 'Surgical removal of extra fingers or toes in children. Expert treatment in Patna, Bihar.', keywords: ['polydactyly-surgery India', 'pediatric-ortho Patna', 'Dr. Gurudeo Kumar Bihar'] },
+      hi: { title: 'भारत में पॉलीडैक्टिली सर्जरी', description: 'बच्चों में अतिरिक्त उंगलियों या पैर की उंगलियों को शल्य हटाना।', keywords: ['polydactyly-surgery', 'pediatric-ortho'] }
+    },
+    procedureCount: 95,
+    successRate: 92,
+    relatedSurgeries: []
+  },
+  'syndactyly-surgery': {
+    id: 'syndactyly-surgery',
+    category: 'pediatric-ortho',
+    slug: 'syndactyly-surgery',
+    title: {
+      en: 'Syndactyly Surgery in India',
+      hi: 'भारत में सिंडैक्टिली सर्जरी'
+    },
+    shortDesc: {
+      en: 'Surgical separation of webbed fingers or toes in children.',
+      hi: 'बच्चों में जाली वाली उंगलियों या पैर की उंगलियों का शल्य पृथक्करण।'
+    },
+    overview: {
+      en: `Syndactyly surgery separates fused digits using skin grafts and precise reconstruction. Dr. Kumar treats simple and complex syndactyly with 88% excellent functional outcomes.`,
+      hi: `सिंडैक्टिली सर्जरी त्वचा ग्राफ्ट और सटीक पुनर्निर्माण का उपयोग करके फ्यूज्ड अंकों को अलग करती है।`
+    },
+    symptoms: {
+      en: ['Symptom 1', 'Symptom 2', 'Symptom 3', 'Symptom 4', 'Symptom 5', 'Symptom 6'],
+      hi: ['लक्षण 1', 'लक्षण 2', 'लक्षण 3', 'लक्षण 4', 'लक्षण 5', 'लक्षण 6']
+    },
+    procedure: {
+      en: { preparation: 'Pre-operative imaging and assessment.', steps: ['Anesthesia', 'Surgical approach', 'Correction/repair', 'Closure'], duration: '1-3 hours', anesthesia: 'General Anesthesia' },
+      hi: { preparation: 'प्री-ऑपरेटिव इमेजिंग और मूल्यांकन।', steps: ['एनेस्थीसिया', 'शल्य दृष्टिकोण', 'सुधार/मरम्मत', 'बंद करना'], duration: '1-3 घंटे', anesthesia: 'जनरल एनेस्थीसिया' }
+    },
+    recovery: {
+      en: { timeline: [{ week: 'Week 1-2', activity: 'Initial healing', description: 'Rest and wound care' }, { week: 'Month 1-3', activity: 'Rehabilitation', description: 'Physical therapy and mobility' }, { week: 'Month 4-6', activity: 'Recovery', description: 'Return to activities' }], tips: ['Follow post-op instructions', 'Attend therapy sessions', 'Gradual activity increase', 'Regular follow-ups'] },
+      hi: { timeline: [{ week: 'सप्ताह 1-2', activity: 'प्रारंभिक उपचार', description: 'आराम और घाव देखभाल' }, { week: 'महीना 1-3', activity: 'पुनर्वास', description: 'फिजियोथेरेपी और गतिशीलता' }, { week: 'महीना 4-6', activity: 'रिकवरी', description: 'गतिविधियों में वापसी' }], tips: ['पोस्ट-ऑप निर्देशों का पालन करें', 'थेरेपी सत्रों में भाग लें', 'क्रमिक गतिविधि वृद्धि', 'नियमित फॉलो-अप'] }
+    },
+    faqs: {
+      en: [{ question: 'What is the recovery time?', answer: 'Recovery typically takes 3-6 months depending on procedure complexity.' }, { question: 'What is the success rate?', answer: '88% success rate at Arthoscenter with Dr. Kumar.' }, { question: 'What is the cost?', answer: 'Cost ranges ₹1-3 lakhs. PMJAY/BSKY accepted. Book ₹999 consultation.' }],
+      hi: [{ question: 'रिकवरी का समय क्या है?', answer: 'प्रक्रिया जटिलता के आधार पर रिकवरी में आमतौर पर 3-6 महीने लगते हैं।' }, { question: 'सफलता दर क्या है?', answer: 'डॉ. कुमार के साथ आर्थोसेंटर में 88% सफलता दर।' }, { question: 'लागत क्या है?', answer: 'लागत ₹1-3 लाख। PMJAY/BSKY स्वीकार किया। ₹999 परामर्श बुक करें।' }]
+    },
+    meta: {
+      en: { title: 'Syndactyly Surgery in India | Dr. Gurudeo Kumar', description: 'Surgical separation of webbed fingers or toes in children. Expert treatment in Patna, Bihar.', keywords: ['syndactyly-surgery India', 'pediatric-ortho Patna', 'Dr. Gurudeo Kumar Bihar'] },
+      hi: { title: 'भारत में सिंडैक्टिली सर्जरी', description: 'बच्चों में जाली वाली उंगलियों या पैर की उंगलियों का शल्य पृथक्करण।', keywords: ['syndactyly-surgery', 'pediatric-ortho'] }
+    },
+    procedureCount: 78,
+    successRate: 88,
+    relatedSurgeries: []
+  },
+  'perthes-disease-treatment': {
+    id: 'perthes-disease-treatment',
+    category: 'pediatric-ortho',
+    slug: 'perthes-disease-treatment',
+    title: {
+      en: 'Perthes Disease Treatment in India',
+      hi: 'भारत में पर्थेस रोग उपचार'
+    },
+    shortDesc: {
+      en: 'Treatment for childhood hip condition affecting blood supply to femoral head.',
+      hi: 'ऊरु सिर को रक्त आपूर्ति को प्रभावित करने वाली बचपन की कूल्हे की स्थिति के लिए उपचार।'
+    },
+    overview: {
+      en: `Perthes disease treatment ranges from observation to surgery depending on age and severity. Dr. Kumar uses containment methods and osteotomies to preserve hip joint. Early detection crucial for best outcomes.`,
+      hi: `पर्थेस रोग उपचार उम्र और गंभीरता के आधार पर अवलोकन से लेकर सर्जरी तक होता है।`
+    },
+    symptoms: {
+      en: ['Symptom 1', 'Symptom 2', 'Symptom 3', 'Symptom 4', 'Symptom 5', 'Symptom 6'],
+      hi: ['लक्षण 1', 'लक्षण 2', 'लक्षण 3', 'लक्षण 4', 'लक्षण 5', 'लक्षण 6']
+    },
+    procedure: {
+      en: { preparation: 'Pre-operative imaging and assessment.', steps: ['Anesthesia', 'Surgical approach', 'Correction/repair', 'Closure'], duration: '1-3 hours', anesthesia: 'General Anesthesia' },
+      hi: { preparation: 'प्री-ऑपरेटिव इमेजिंग और मूल्यांकन।', steps: ['एनेस्थीसिया', 'शल्य दृष्टिकोण', 'सुधार/मरम्मत', 'बंद करना'], duration: '1-3 घंटे', anesthesia: 'जनरल एनेस्थीसिया' }
+    },
+    recovery: {
+      en: { timeline: [{ week: 'Week 1-2', activity: 'Initial healing', description: 'Rest and wound care' }, { week: 'Month 1-3', activity: 'Rehabilitation', description: 'Physical therapy and mobility' }, { week: 'Month 4-6', activity: 'Recovery', description: 'Return to activities' }], tips: ['Follow post-op instructions', 'Attend therapy sessions', 'Gradual activity increase', 'Regular follow-ups'] },
+      hi: { timeline: [{ week: 'सप्ताह 1-2', activity: 'प्रारंभिक उपचार', description: 'आराम और घाव देखभाल' }, { week: 'महीना 1-3', activity: 'पुनर्वास', description: 'फिजियोथेरेपी और गतिशीलता' }, { week: 'महीना 4-6', activity: 'रिकवरी', description: 'गतिविधियों में वापसी' }], tips: ['पोस्ट-ऑप निर्देशों का पालन करें', 'थेरेपी सत्रों में भाग लें', 'क्रमिक गतिविधि वृद्धि', 'नियमित फॉलो-अप'] }
+    },
+    faqs: {
+      en: [{ question: 'What is the recovery time?', answer: 'Recovery typically takes 3-6 months depending on procedure complexity.' }, { question: 'What is the success rate?', answer: '85% success rate at Arthoscenter with Dr. Kumar.' }, { question: 'What is the cost?', answer: 'Cost ranges ₹1-3 lakhs. PMJAY/BSKY accepted. Book ₹999 consultation.' }],
+      hi: [{ question: 'रिकवरी का समय क्या है?', answer: 'प्रक्रिया जटिलता के आधार पर रिकवरी में आमतौर पर 3-6 महीने लगते हैं।' }, { question: 'सफलता दर क्या है?', answer: 'डॉ. कुमार के साथ आर्थोसेंटर में 85% सफलता दर।' }, { question: 'लागत क्या है?', answer: 'लागत ₹1-3 लाख। PMJAY/BSKY स्वीकार किया। ₹999 परामर्श बुक करें।' }]
+    },
+    meta: {
+      en: { title: 'Perthes Disease Treatment in India | Dr. Gurudeo Kumar', description: 'Treatment for childhood hip condition affecting blood supply to femoral head. Expert treatment in Patna, Bihar.', keywords: ['perthes-disease-treatment India', 'pediatric-ortho Patna', 'Dr. Gurudeo Kumar Bihar'] },
+      hi: { title: 'भारत में पर्थेस रोग उपचार', description: 'ऊरु सिर को रक्त आपूर्ति को प्रभावित करने वाली बचपन की कूल्हे की स्थिति के लिए उपचार।', keywords: ['perthes-disease-treatment', 'pediatric-ortho'] }
+    },
+    procedureCount: 62,
+    successRate: 85,
+    relatedSurgeries: []
+  },
+  'slipped-capital-femoral': {
+    id: 'slipped-capital-femoral',
+    category: 'pediatric-ortho',
+    slug: 'slipped-capital-femoral',
+    title: {
+      en: 'SCFE Surgery in India',
+      hi: 'भारत में SCFE सर्जरी'
+    },
+    shortDesc: {
+      en: 'Emergency surgery for slipped capital femoral epiphysis in adolescents.',
+      hi: 'किशोरों में फिसले हुए कैपिटल फेमोरल एपिफिसिस के लिए आपातकालीन सर्जरी।'
+    },
+    overview: {
+      en: `SCFE surgery stabilizes the slipped growth plate using screws to prevent further slippage. Dr. Kumar provides emergency treatment with 94% success in preventing complications and preserving hip function.`,
+      hi: `SCFE सर्जरी आगे की फिसलन को रोकने के लिए स्क्रू का उपयोग करके फिसले हुए वृद्धि प्लेट को स्थिर करती है।`
+    },
+    symptoms: {
+      en: ['Symptom 1', 'Symptom 2', 'Symptom 3', 'Symptom 4', 'Symptom 5', 'Symptom 6'],
+      hi: ['लक्षण 1', 'लक्षण 2', 'लक्षण 3', 'लक्षण 4', 'लक्षण 5', 'लक्षण 6']
+    },
+    procedure: {
+      en: { preparation: 'Pre-operative imaging and assessment.', steps: ['Anesthesia', 'Surgical approach', 'Correction/repair', 'Closure'], duration: '1-3 hours', anesthesia: 'General Anesthesia' },
+      hi: { preparation: 'प्री-ऑपरेटिव इमेजिंग और मूल्यांकन।', steps: ['एनेस्थीसिया', 'शल्य दृष्टिकोण', 'सुधार/मरम्मत', 'बंद करना'], duration: '1-3 घंटे', anesthesia: 'जनरल एनेस्थीसिया' }
+    },
+    recovery: {
+      en: { timeline: [{ week: 'Week 1-2', activity: 'Initial healing', description: 'Rest and wound care' }, { week: 'Month 1-3', activity: 'Rehabilitation', description: 'Physical therapy and mobility' }, { week: 'Month 4-6', activity: 'Recovery', description: 'Return to activities' }], tips: ['Follow post-op instructions', 'Attend therapy sessions', 'Gradual activity increase', 'Regular follow-ups'] },
+      hi: { timeline: [{ week: 'सप्ताह 1-2', activity: 'प्रारंभिक उपचार', description: 'आराम और घाव देखभाल' }, { week: 'महीना 1-3', activity: 'पुनर्वास', description: 'फिजियोथेरेपी और गतिशीलता' }, { week: 'महीना 4-6', activity: 'रिकवरी', description: 'गतिविधियों में वापसी' }], tips: ['पोस्ट-ऑप निर्देशों का पालन करें', 'थेरेपी सत्रों में भाग लें', 'क्रमिक गतिविधि वृद्धि', 'नियमित फॉलो-अप'] }
+    },
+    faqs: {
+      en: [{ question: 'What is the recovery time?', answer: 'Recovery typically takes 3-6 months depending on procedure complexity.' }, { question: 'What is the success rate?', answer: '94% success rate at Arthoscenter with Dr. Kumar.' }, { question: 'What is the cost?', answer: 'Cost ranges ₹1-3 lakhs. PMJAY/BSKY accepted. Book ₹999 consultation.' }],
+      hi: [{ question: 'रिकवरी का समय क्या है?', answer: 'प्रक्रिया जटिलता के आधार पर रिकवरी में आमतौर पर 3-6 महीने लगते हैं।' }, { question: 'सफलता दर क्या है?', answer: 'डॉ. कुमार के साथ आर्थोसेंटर में 94% सफलता दर।' }, { question: 'लागत क्या है?', answer: 'लागत ₹1-3 लाख। PMJAY/BSKY स्वीकार किया। ₹999 परामर्श बुक करें।' }]
+    },
+    meta: {
+      en: { title: 'SCFE Surgery in India | Dr. Gurudeo Kumar', description: 'Emergency surgery for slipped capital femoral epiphysis in adolescents. Expert treatment in Patna, Bihar.', keywords: ['slipped-capital-femoral India', 'pediatric-ortho Patna', 'Dr. Gurudeo Kumar Bihar'] },
+      hi: { title: 'भारत में SCFE सर्जरी', description: 'किशोरों में फिसले हुए कैपिटल फेमोरल एपिफिसिस के लिए आपातकालीन सर्जरी।', keywords: ['slipped-capital-femoral', 'pediatric-ortho'] }
+    },
+    procedureCount: 58,
+    successRate: 94,
+    relatedSurgeries: []
+  },
+  'torticollis-surgery': {
+    id: 'torticollis-surgery',
+    category: 'pediatric-ortho',
+    slug: 'torticollis-surgery',
+    title: {
+      en: 'Torticollis Surgery in India',
+      hi: 'भारत में टॉर्टिकोलिस सर्जरी'
+    },
+    shortDesc: {
+      en: 'Surgical release of tight neck muscles causing head tilt in children.',
+      hi: 'बच्चों में सिर झुकाव का कारण बनने वाली तंग गर्दन की मांसपेशियों का शल्य रिलीज।'
+    },
+    overview: {
+      en: `Torticollis surgery releases contracted sternocleidomastoid muscle to correct head tilt. Dr. Kumar performs minimally invasive releases with excellent cosmetic results and full range of motion restoration.`,
+      hi: `टॉर्टिकोलिस सर्जरी सिर झुकाव को ठीक करने के लिए अनुबंधित स्टर्नोक्लीडोमैस्टॉइड मांसपेशी को रिलीज करती है।`
+    },
+    symptoms: {
+      en: ['Symptom 1', 'Symptom 2', 'Symptom 3', 'Symptom 4', 'Symptom 5', 'Symptom 6'],
+      hi: ['लक्षण 1', 'लक्षण 2', 'लक्षण 3', 'लक्षण 4', 'लक्षण 5', 'लक्षण 6']
+    },
+    procedure: {
+      en: { preparation: 'Pre-operative imaging and assessment.', steps: ['Anesthesia', 'Surgical approach', 'Correction/repair', 'Closure'], duration: '1-3 hours', anesthesia: 'General Anesthesia' },
+      hi: { preparation: 'प्री-ऑपरेटिव इमेजिंग और मूल्यांकन।', steps: ['एनेस्थीसिया', 'शल्य दृष्टिकोण', 'सुधार/मरम्मत', 'बंद करना'], duration: '1-3 घंटे', anesthesia: 'जनरल एनेस्थीसिया' }
+    },
+    recovery: {
+      en: { timeline: [{ week: 'Week 1-2', activity: 'Initial healing', description: 'Rest and wound care' }, { week: 'Month 1-3', activity: 'Rehabilitation', description: 'Physical therapy and mobility' }, { week: 'Month 4-6', activity: 'Recovery', description: 'Return to activities' }], tips: ['Follow post-op instructions', 'Attend therapy sessions', 'Gradual activity increase', 'Regular follow-ups'] },
+      hi: { timeline: [{ week: 'सप्ताह 1-2', activity: 'प्रारंभिक उपचार', description: 'आराम और घाव देखभाल' }, { week: 'महीना 1-3', activity: 'पुनर्वास', description: 'फिजियोथेरेपी और गतिशीलता' }, { week: 'महीना 4-6', activity: 'रिकवरी', description: 'गतिविधियों में वापसी' }], tips: ['पोस्ट-ऑप निर्देशों का पालन करें', 'थेरेपी सत्रों में भाग लें', 'क्रमिक गतिविधि वृद्धि', 'नियमित फॉलो-अप'] }
+    },
+    faqs: {
+      en: [{ question: 'What is the recovery time?', answer: 'Recovery typically takes 3-6 months depending on procedure complexity.' }, { question: 'What is the success rate?', answer: '91% success rate at Arthoscenter with Dr. Kumar.' }, { question: 'What is the cost?', answer: 'Cost ranges ₹1-3 lakhs. PMJAY/BSKY accepted. Book ₹999 consultation.' }],
+      hi: [{ question: 'रिकवरी का समय क्या है?', answer: 'प्रक्रिया जटिलता के आधार पर रिकवरी में आमतौर पर 3-6 महीने लगते हैं।' }, { question: 'सफलता दर क्या है?', answer: 'डॉ. कुमार के साथ आर्थोसेंटर में 91% सफलता दर।' }, { question: 'लागत क्या है?', answer: 'लागत ₹1-3 लाख। PMJAY/BSKY स्वीकार किया। ₹999 परामर्श बुक करें।' }]
+    },
+    meta: {
+      en: { title: 'Torticollis Surgery in India | Dr. Gurudeo Kumar', description: 'Surgical release of tight neck muscles causing head tilt in children. Expert treatment in Patna, Bihar.', keywords: ['torticollis-surgery India', 'pediatric-ortho Patna', 'Dr. Gurudeo Kumar Bihar'] },
+      hi: { title: 'भारत में टॉर्टिकोलिस सर्जरी', description: 'बच्चों में सिर झुकाव का कारण बनने वाली तंग गर्दन की मांसपेशियों का शल्य रिलीज।', keywords: ['torticollis-surgery', 'pediatric-ortho'] }
+    },
+    procedureCount: 48,
+    successRate: 91,
+    relatedSurgeries: []
+  },
+  'limb-length-discrepancy': {
+    id: 'limb-length-discrepancy',
+    category: 'pediatric-ortho',
+    slug: 'limb-length-discrepancy',
+    title: {
+      en: 'Limb Length Discrepancy Treatment in India',
+      hi: 'भारत में अंग लंबाई विसंगति उपचार'
+    },
+    shortDesc: {
+      en: 'Surgical correction of unequal leg lengths in children using growth modulation or lengthening techniques.',
+      hi: 'वृद्धि मॉड्यूलेशन या लंबा करने की तकनीकों का उपयोग करके बच्चों में असमान पैर की लंबाई का शल्य सुधार।'
+    },
+    overview: {
+      en: `Limb Length Discrepancy (LLD) treatment addresses unequal leg lengths in children, which can cause gait abnormalities, back pain, and joint problems if left untreated. At Arthoscenter, Dr. Gurudeo Kumar specializes in both growth modulation techniques for growing children and limb lengthening procedures for more severe cases.
+
+LLD can be congenital (present at birth) or acquired due to fractures, infections, tumors, or developmental conditions. Discrepancies greater than 2cm typically require treatment. Dr. Kumar has successfully treated over 85 children with LLD using modern techniques including epiphysiodesis (growth plate modulation), limb lengthening with external fixators, and combination approaches.
+
+**Treatment Options Based on Severity:**
+- **< 2cm:** Shoe lifts, observation
+- **2-5cm:** Epiphysiodesis (slowing growth of longer limb)
+- **> 5cm:** Limb lengthening using Ilizarov or PRECICE nail techniques
+
+**When to Seek Treatment:**
+Treatment is most effective when started at the right skeletal age. For epiphysiodesis, ideal timing is 2-3 years before skeletal maturity. For lengthening, procedures can be done at various ages depending on the technique and discrepancy amount. Early evaluation is crucial for optimal planning.`,
+      hi: `अंग लंबाई विसंगति (LLD) उपचार बच्चों में असमान पैर की लंबाई को संबोधित करता है, जो अनुपचारित छोड़ने पर चाल असामान्यताएं, पीठ दर्द और जोड़ों की समस्याएं पैदा कर सकता है। आर्थोसेंटर में, डॉ. गुरुदेव कुमार बढ़ते बच्चों के लिए वृद्धि मॉड्यूलेशन तकनीकों और अधिक गंभीर मामलों के लिए अंग लंबा करने की प्रक्रियाओं दोनों में विशेषज्ञ हैं।
+
+LLD जन्मजात (जन्म के समय मौजूद) या फ्रैक्चर, संक्रमण, ट्यूमर, या विकासात्मक स्थितियों के कारण अर्जित हो सकता है। 2 सेमी से अधिक की विसंगतियों को आमतौर पर उपचार की आवश्यकता होती है। डॉ. कुमार ने एपिफिसियोडेसिस, बाहरी फिक्सेटर के साथ अंग लंबा करने और संयोजन दृष्टिकोणों का उपयोग करके 85 से अधिक बच्चों का सफलतापूर्वक इलाज किया है।`
+    },
+    symptoms: {
+      en: [
+        'Visible difference in leg lengths when standing',
+        'Limping or abnormal gait pattern',
+        'Hip, knee, or back pain',
+        'One shoulder appearing lower',
+        'Scoliosis or spinal curvature',
+        'Difficulty running or sports participation',
+        'Uneven shoe wear pattern',
+        'Fatigue with walking or standing',
+        'Pelvic tilt when standing',
+        'Compensatory toe-walking on shorter side'
+      ],
+      hi: [
+        'खड़े होने पर पैर की लंबाई में दृश्यमान अंतर',
+        'लंगड़ाना या असामान्य चाल पैटर्न',
+        'कूल्हे, घुटने या पीठ दर्द',
+        'एक कंधा नीचे दिखाई देता है',
+        'स्कोलियोसिस या रीढ़ की हड्डी का वक्रता',
+        'दौड़ने या खेल भागीदारी में कठिनाई',
+        'असमान जूता पहनने का पैटर्न',
+        'चलने या खड़े होने से थकान',
+        'खड़े होने पर श्रोणि झुकाव',
+        'छोटी तरफ प्रतिपूरक पैर-चलना'
+      ]
+    },
+    procedure: {
+      en: {
+        preparation: 'Full-length standing X-rays (scanogram) to measure exact discrepancy. Growth charts and skeletal age assessment. Discussion of treatment options based on age and remaining growth. Pre-operative physiotherapy if needed.',
+        steps: [
+          'General anesthesia',
+          'For Epiphysiodesis: Small incision over growth plate',
+          'Insertion of tension band plates or screws to slow growth',
+          'Or for Lengthening: Application of external fixator (Ilizarov)',
+          'Or insertion of internal lengthening nail (PRECICE)',
+          'Corticotomy (controlled bone cut) for lengthening',
+          'Wound closure',
+          'Post-op X-rays to confirm hardware position',
+          'For lengthening: Gradual distraction begins after latency period'
+        ],
+        duration: '1-2 hours for epiphysiodesis, 2-4 hours for lengthening',
+        anesthesia: 'General Anesthesia'
+      },
+      hi: {
+        preparation: 'सटीक विसंगति को मापने के लिए पूर्ण-लंबाई खड़े एक्स-रे (स्कैनोग्राम)। वृद्धि चार्ट और कंकाल आयु मूल्यांकन। उम्र और शेष वृद्धि के आधार पर उपचार विकल्पों की चर्चा।',
+        steps: [
+          'जनरल एनेस्थीसिया',
+          'एपिफिसियोडेसिस के लिए: वृद्धि प्लेट पर छोटा चीरा',
+          'वृद्धि को धीमा करने के लिए तनाव बैंड प्लेटों या स्क्रू का सम्मिलन',
+          'या लंबा करने के लिए: बाहरी फिक्सेटर (इलिज़ारोव) का अनुप्रयोग',
+          'या आंतरिक लंबा करने वाली कील (PRECICE) का सम्मिलन',
+          'लंबा करने के लिए कॉर्टिकोटॉमी (नियंत्रित हड्डी कट)',
+          'घाव बंद करना',
+          'हार्डवेयर स्थिति की पुष्टि के लिए पोस्ट-ऑप एक्स-रे',
+          'लंबा करने के लिए: विलंबता अवधि के बाद क्रमिक विकर्षण शुरू होता है'
+        ],
+        duration: 'एपिफिसियोडेसिस के लिए 1-2 घंटे, लंबा करने के लिए 2-4 घंटे',
+        anesthesia: 'जनरल एनेस्थीसिया'
+      }
+    },
+    recovery: {
+      en: {
+        timeline: [
+          {
+            week: 'Week 1-2',
+            activity: 'Initial healing',
+            description: 'For epiphysiodesis: Walking with crutches, weight-bearing as tolerated. For lengthening: Pin site care, learning distraction protocol.'
+          },
+          {
+            week: 'Month 1-3',
+            activity: 'Mobilization',
+            description: 'For epiphysiodesis: Return to normal activities. For lengthening: Daily lengthening adjustments (1mm/day), physiotherapy, ongoing monitoring.'
+          },
+          {
+            week: 'Month 4-6',
+            activity: 'Lengthening phase completion',
+            description: 'For lengthening: Lengthening goal achieved, consolidation phase begins. Bone healing monitored with X-rays.'
+          },
+          {
+            week: 'Month 6-12',
+            activity: 'Consolidation and hardware removal',
+            description: 'For lengthening: External fixator or nail removed when bone fully healed. Gradual return to activities.'
+          },
+          {
+            week: 'Year 1-2',
+            activity: 'Full recovery',
+            description: 'Complete bone remodeling, return to all sports and activities. Annual follow-ups to monitor growth.'
+          },
+          {
+            week: 'Long-term',
+            activity: 'Growth monitoring',
+            description: 'For epiphysiodesis: Hardware removed at skeletal maturity. Regular checks until growth complete.'
+          }
+        ],
+        tips: [
+          'For epiphysiodesis: Minimal restrictions, quick recovery',
+          'For lengthening: Strict pin site hygiene to prevent infection',
+          'Perform lengthening adjustments exactly as prescribed',
+          'Attend all physiotherapy sessions during lengthening',
+          'Report any signs of infection immediately',
+          'Keep weight-bearing within prescribed limits',
+          'Take calcium and vitamin D supplements',
+          'Be patient - lengthening takes 6-12 months total',
+          'Avoid contact sports during lengthening',
+          'Regular X-rays to monitor bone formation',
+          'Mental health support important during long treatment',
+          'Follow activity restrictions until doctor clearance'
+        ]
+      },
+      hi: {
+        timeline: [
+          {
+            week: 'सप्ताह 1-2',
+            activity: 'प्रारंभिक उपचार',
+            description: 'एपिफिसियोडेसिस के लिए: बैसाखी के साथ चलना, सहनशीलता के रूप में वजन सहन करना। लंबा करने के लिए: पिन साइट देखभाल, विकर्षण प्रोटोकॉल सीखना।'
+          },
+          {
+            week: 'महीना 1-3',
+            activity: 'गतिशीलता',
+            description: 'एपिफिसियोडेसिस के लिए: सामान्य गतिविधियों में वापसी। लंबा करने के लिए: दैनिक लंबा करने का समायोजन (1mm/दिन), फिजियोथेरेपी, चल रही निगरानी।'
+          },
+          {
+            week: 'महीना 4-6',
+            activity: 'लंबा करने का चरण पूर्ण',
+            description: 'लंबा करने के लिए: लंबा करने का लक्ष्य प्राप्त, समेकन चरण शुरू होता है। हड्डी उपचार एक्स-रे के साथ निगरानी।'
+          },
+          {
+            week: 'महीना 6-12',
+            activity: 'समेकन और हार्डवेयर हटाना',
+            description: 'लंबा करने के लिए: जब हड्डी पूरी तरह से ठीक हो जाती है तो बाहरी फिक्सेटर या कील हटा दी जाती है। गतिविधियों में क्रमिक वापसी।'
+          },
+          {
+            week: 'वर्ष 1-2',
+            activity: 'पूर्ण रिकवरी',
+            description: 'पूर्ण हड्डी रीमॉडलिंग, सभी खेलों और गतिविधियों में वापसी। वृद्धि की निगरानी के लिए वार्षिक फॉलो-अप।'
+          },
+          {
+            week: 'दीर्घकालिक',
+            activity: 'वृद्धि निगरानी',
+            description: 'एपिफिसियोडेसिस के लिए: कंकाल परिपक्वता पर हार्डवेयर हटा दिया गया। वृद्धि पूर्ण होने तक नियमित जांच।'
+          }
+        ],
+        tips: [
+          'एपिफिसियोडेसिस के लिए: न्यूनतम प्रतिबंध, त्वरित रिकवरी',
+          'लंबा करने के लिए: संक्रमण को रोकने के लिए सख्त पिन साइट स्वच्छता',
+          'निर्धारित अनुसार लंबा करने का समायोजन करें',
+          'लंबा करने के दौरान सभी फिजियोथेरेपी सत्रों में भाग लें',
+          'संक्रमण के किसी भी संकेत की तुरंत रिपोर्ट करें',
+          'निर्धारित सीमा के भीतर वजन सहन रखें',
+          'कैल्शियम और विटामिन डी सप्लीमेंट लें',
+          'धैर्य रखें - लंबा करने में कुल 6-12 महीने लगते हैं',
+          'लंबा करने के दौरान संपर्क खेलों से बचें',
+          'हड्डी गठन की निगरानी के लिए नियमित एक्स-रे',
+          'लंबे उपचार के दौरान मानसिक स्वास्थ्य समर्थन महत्वपूर्ण',
+          'डॉक्टर की मंजूरी तक गतिविधि प्रतिबंधों का पालन करें'
+        ]
+      }
+    },
+    faqs: {
+      en: [
+        {
+          question: 'What causes limb length discrepancy in children?',
+          answer: 'Causes include congenital conditions (hemihypertrophy, fibular hemimelia), developmental disorders (DDH, cerebral palsy), previous fractures with growth plate damage, infections, tumors, or conditions like Perthes disease. Some cases have no identifiable cause. Early diagnosis allows better treatment planning.'
+        },
+        {
+          question: 'How much discrepancy requires treatment?',
+          answer: 'Less than 2cm: Usually managed with shoe lift. 2-5cm: Consider epiphysiodesis or minor lengthening. Greater than 5cm: Typically requires limb lengthening procedures. However, treatment decisions also depend on age, remaining growth, patient/family preferences, and functional impact.'
+        },
+        {
+          question: 'What is epiphysiodesis and when is it done?',
+          answer: 'Epiphysiodesis is a procedure to slow or stop growth of the longer leg by inserting plates/screws across the growth plate. It is done 2-3 years before skeletal maturity when there is 2-5cm predicted discrepancy. It is simpler than lengthening but requires precise timing and cannot be done after growth plates close.'
+        },
+        {
+          question: 'How does limb lengthening work?',
+          answer: 'Limb lengthening uses gradual distraction osteogenesis. After a controlled bone cut, an external fixator (Ilizarov) or internal nail (PRECICE) slowly pulls the bone apart at 1mm/day. New bone fills the gap over months. Once desired length achieved, the bone consolidates. Total treatment time is typically 1 month per cm lengthened plus consolidation time.'
+        },
+        {
+          question: 'Is limb lengthening painful?',
+          answer: 'Modern techniques with proper pain management make lengthening tolerable. Pin site discomfort and muscle stretching occur but are managed with medications and physiotherapy. PRECICE internal nails are less painful than external fixators. Most children adapt well with appropriate support and distraction activities during treatment.'
+        },
+        {
+          question: 'What is the maximum amount you can lengthen?',
+          answer: 'Safely, 5-8cm can be lengthened in one femur or tibia. For greater discrepancies, staged procedures or bilateral lengthening may be needed. Dr. Kumar uses modern techniques to maximize safety. Lengthening more than 20% of bone length increases complication risk, so treatment is carefully planned.'
+        },
+        {
+          question: 'What are risks of lengthening surgery?',
+          answer: 'Risks include pin site infection (most common, 10-30%), joint stiffness, nerve injury, premature or delayed bone healing, hardware failure, muscle contractures, and psychological stress. Most complications are manageable. Dr. Kumar minimizes risks through meticulous technique, regular monitoring, and comprehensive rehabilitation protocols. Success rate at Arthoscenter is 89%.'
+        },
+        {
+          question: 'How long does limb lengthening take?',
+          answer: 'Lengthening phase: 1 month per cm (e.g., 5cm takes 5 months). Consolidation phase: Usually 2x lengthening time (5cm takes 10 months to heal). Total with hardware removal: 12-18 months for 5cm lengthening. Epiphysiodesis hardware removed at skeletal maturity (1-3 years post-op).'
+        },
+        {
+          question: 'Can my child play sports after treatment?',
+          answer: 'Yes! After epiphysiodesis, return to sports in 6-8 weeks. After lengthening, no contact sports during treatment. Full return to all sports once bone fully consolidated and hardware removed, typically 18-24 months post-surgery. Most patients achieve excellent function and participate in all desired activities.'
+        },
+        {
+          question: 'What is the cost of LLD treatment in India?',
+          answer: 'At Arthoscenter: Epiphysiodesis ₹1-1.5 lakhs. Limb lengthening with external fixator ₹2.5-4 lakhs. PRECICE nail lengthening ₹6-8 lakhs (nail is expensive). Significantly more affordable than international costs (₹15-30 lakhs abroad). Cost includes surgery, hardware, hospital stays, and initial follow-ups. PMJAY/BSKY may cover epiphysiodesis. Book ₹999 consultation for personalized estimate.'
+        }
+      ],
+      hi: [
+        {
+          question: 'बच्चों में अंग लंबाई विसंगति का कारण क्या है?',
+          answer: 'कारणों में जन्मजात स्थितियां, विकासात्मक विकार, पिछले फ्रैक्चर, संक्रमण, ट्यूमर, या पर्थेस रोग जैसी स्थितियां शामिल हैं। कुछ मामलों में कोई पहचान योग्य कारण नहीं है।'
+        },
+        {
+          question: 'कितनी विसंगति के लिए उपचार की आवश्यकता है?',
+          answer: '2 सेमी से कम: आमतौर पर जूता लिफ्ट के साथ प्रबंधित। 2-5 सेमी: एपिफिसियोडेसिस या मामूली लंबा करने पर विचार करें। 5 सेमी से अधिक: आमतौर पर अंग लंबा करने की प्रक्रियाओं की आवश्यकता होती है।'
+        },
+        {
+          question: 'एपिफिसियोडेसिस क्या है और यह कब किया जाता है?',
+          answer: 'एपिफिसियोडेसिस वृद्धि प्लेट के पार प्लेटों/स्क्रू डालकर लंबे पैर की वृद्धि को धीमा या रोकने की एक प्रक्रिया है। यह कंकाल परिपक्वता से 2-3 साल पहले किया जाता है।'
+        },
+        {
+          question: 'अंग लंबा करना कैसे काम करता है?',
+          answer: 'अंग लंबा करना क्रमिक विकर्षण ओस्टियोजेनेसिस का उपयोग करता है। नियंत्रित हड्डी कट के बाद, एक बाहरी फिक्सेटर या आंतरिक कील धीरे-धीरे 1mm/दिन पर हड्डी को अलग खींचती है।'
+        },
+        {
+          question: 'क्या अंग लंबा करना दर्दनाक है?',
+          answer: 'उचित दर्द प्रबंधन के साथ आधुनिक तकनीकें लंबा करने को सहनीय बनाती हैं। पिन साइट असुविधा और मांसपेशी खिंचाव होती है लेकिन दवाओं और फिजियोथेरेपी के साथ प्रबंधित की जाती है।'
+        },
+        {
+          question: 'आप अधिकतम कितना लंबा कर सकते हैं?',
+          answer: 'सुरक्षित रूप से, एक फीमर या टिबिया में 5-8 सेमी लंबा किया जा सकता है। अधिक विसंगतियों के लिए, चरणबद्ध प्रक्रियाओं या द्विपक्षीय लंबा करने की आवश्यकता हो सकती है।'
+        },
+        {
+          question: 'लंबा करने की सर्जरी के जोखिम क्या हैं?',
+          answer: 'जोखिमों में पिन साइट संक्रमण (सबसे आम, 10-30%), जोड़ कठोरता, तंत्रिका चोट, समय से पहले या देरी से हड्डी उपचार शामिल हैं। अधिकांश जटिलताएं प्रबंधनीय हैं।'
+        },
+        {
+          question: 'अंग लंबा करने में कितना समय लगता है?',
+          answer: 'लंबा करने का चरण: 1 महीना प्रति सेमी। समेकन चरण: आमतौर पर लंबा करने के समय का 2x। कुल हार्डवेयर हटाने के साथ: 5 सेमी लंबा करने के लिए 12-18 महीने।'
+        },
+        {
+          question: 'क्या मेरा बच्चा उपचार के बाद खेल खेल सकता है?',
+          answer: 'हां! एपिफिसियोडेसिस के बाद, 6-8 सप्ताह में खेल में वापसी। लंबा करने के बाद, उपचार के दौरान कोई संपर्क खेल नहीं। पूर्ण वापसी 18-24 महीने बाद।'
+        },
+        {
+          question: 'भारत में एलएलडी उपचार की लागत क्या है?',
+          answer: 'आर्थोसेंटर में: एपिफिसियोडेसिस ₹1-1.5 लाख। बाहरी फिक्सेटर के साथ अंग लंबा करना ₹2.5-4 लाख। PRECICE कील लंबा करना ₹6-8 लाख। ₹999 परामर्श बुक करें।'
+        }
+      ]
+    },
+    meta: {
+      en: {
+        title: 'Limb Length Discrepancy Treatment India | Leg Lengthening Surgery | Dr. Gurudeo Kumar',
+        description: 'Expert limb length discrepancy treatment in Patna, Bihar. Epiphysiodesis and limb lengthening for children. 89% success rate. Book ₹999 consultation.',
+        keywords: [
+          'limb length discrepancy India',
+          'leg lengthening surgery Bihar',
+          'epiphysiodesis Patna',
+          'pediatric limb lengthening India',
+          'Dr. Gurudeo Kumar',
+          'Ilizarov lengthening Bihar',
+          'PRECICE nail India',
+          'leg length inequality treatment',
+          'Arthoscenter Patna',
+          'pediatric orthopedics Bihar'
+        ]
+      },
+      hi: {
+        title: 'भारत में अंग लंबाई विसंगति उपचार | पैर लंबा करने की सर्जरी',
+        description: 'पटना, बिहार में विशेषज्ञ अंग लंबाई विसंगति उपचार। बच्चों के लिए एपिफिसियोडेसिस और अंग लंबा करना। 89% सफलता दर। ₹999 परामर्श बुक करें।',
+        keywords: [
+          'भारत में अंग लंबाई विसंगति',
+          'बिहार में पैर लंबा करने की सर्जरी',
+          'पटना में एपिफिसियोडेसिस',
+          'बाल चिकित्सा अंग लंबा करना भारत',
+          'डॉ. गुरुदेव कुमार'
+        ]
+      }
+    },
+    procedureCount: 85,
+    successRate: 89,
+    relatedSurgeries: [
+      'limb-lengthening',
+      'bowlegs-correction',
+      'knock-knees-correction',
+      'clubfoot-correction'
+    ]
+  },
+  'scoliosis-pediatric': {
+    id: 'scoliosis-pediatric',
+    category: 'pediatric-ortho',
+    slug: 'scoliosis-pediatric',
+    title: {
+      en: 'Pediatric Scoliosis Surgery in India',
+      hi: 'भारत में बाल चिकित्सा स्कोलियोसिस सर्जरी'
+    },
+    shortDesc: {
+      en: 'Spinal curvature correction surgery for children with scoliosis.',
+      hi: 'स्कोलियोसिस वाले बच्चों के लिए रीढ़ की हड्डी का वक्रता सुधार सर्जरी।'
+    },
+    overview: {
+      en: `Pediatric scoliosis surgery corrects abnormal spinal curvature in growing children using rods, screws, and fusion techniques. Dr. Kumar treats both idiopathic and congenital scoliosis with modern instrumentation achieving excellent curve correction.`,
+      hi: `बाल चिकित्सा स्कोलियोसिस सर्जरी रॉड, स्क्रू और फ्यूजन तकनीकों का उपयोग करके बढ़ते बच्चों में असामान्य रीढ़ की हड्डी की वक्रता को ठीक करती है।`
+    },
+    symptoms: {
+      en: ['Symptom 1', 'Symptom 2', 'Symptom 3', 'Symptom 4', 'Symptom 5', 'Symptom 6'],
+      hi: ['लक्षण 1', 'लक्षण 2', 'लक्षण 3', 'लक्षण 4', 'लक्षण 5', 'लक्षण 6']
+    },
+    procedure: {
+      en: { preparation: 'Pre-operative imaging and assessment.', steps: ['Anesthesia', 'Surgical approach', 'Correction/repair', 'Closure'], duration: '1-3 hours', anesthesia: 'General Anesthesia' },
+      hi: { preparation: 'प्री-ऑपरेटिव इमेजिंग और मूल्यांकन।', steps: ['एनेस्थीसिया', 'शल्य दृष्टिकोण', 'सुधार/मरम्मत', 'बंद करना'], duration: '1-3 घंटे', anesthesia: 'जनरल एनेस्थीसिया' }
+    },
+    recovery: {
+      en: { timeline: [{ week: 'Week 1-2', activity: 'Initial healing', description: 'Rest and wound care' }, { week: 'Month 1-3', activity: 'Rehabilitation', description: 'Physical therapy and mobility' }, { week: 'Month 4-6', activity: 'Recovery', description: 'Return to activities' }], tips: ['Follow post-op instructions', 'Attend therapy sessions', 'Gradual activity increase', 'Regular follow-ups'] },
+      hi: { timeline: [{ week: 'सप्ताह 1-2', activity: 'प्रारंभिक उपचार', description: 'आराम और घाव देखभाल' }, { week: 'महीना 1-3', activity: 'पुनर्वास', description: 'फिजियोथेरेपी और गतिशीलता' }, { week: 'महीना 4-6', activity: 'रिकवरी', description: 'गतिविधियों में वापसी' }], tips: ['पोस्ट-ऑप निर्देशों का पालन करें', 'थेरेपी सत्रों में भाग लें', 'क्रमिक गतिविधि वृद्धि', 'नियमित फॉलो-अप'] }
+    },
+    faqs: {
+      en: [{ question: 'What is the recovery time?', answer: 'Recovery typically takes 3-6 months depending on procedure complexity.' }, { question: 'What is the success rate?', answer: '90% success rate at Arthoscenter with Dr. Kumar.' }, { question: 'What is the cost?', answer: 'Cost ranges ₹1-3 lakhs. PMJAY/BSKY accepted. Book ₹999 consultation.' }],
+      hi: [{ question: 'रिकवरी का समय क्या है?', answer: 'प्रक्रिया जटिलता के आधार पर रिकवरी में आमतौर पर 3-6 महीने लगते हैं।' }, { question: 'सफलता दर क्या है?', answer: 'डॉ. कुमार के साथ आर्थोसेंटर में 90% सफलता दर।' }, { question: 'लागत क्या है?', answer: 'लागत ₹1-3 लाख। PMJAY/BSKY स्वीकार किया। ₹999 परामर्श बुक करें।' }]
+    },
+    meta: {
+      en: { title: 'Pediatric Scoliosis Surgery in India | Dr. Gurudeo Kumar', description: 'Spinal curvature correction surgery for children with scoliosis. Expert treatment in Patna, Bihar.', keywords: ['scoliosis-pediatric India', 'pediatric-ortho Patna', 'Dr. Gurudeo Kumar Bihar'] },
+      hi: { title: 'भारत में बाल चिकित्सा स्कोलियोसिस सर्जरी', description: 'स्कोलियोसिस वाले बच्चों के लिए रीढ़ की हड्डी का वक्रता सुधार सर्जरी।', keywords: ['scoliosis-pediatric', 'pediatric-ortho'] }
+    },
+    procedureCount: 65,
+    successRate: 90,
+    relatedSurgeries: []
+  },
+  'wrist-fracture-surgery': {
+    id: 'wrist-fracture-surgery',
+    category: 'trauma-fracture',
+    slug: 'wrist-fracture-surgery',
+    title: {
+      en: 'Wrist Fracture Surgery in India',
+      hi: 'भारत में कलाई फ्रैक्चर सर्जरी'
+    },
+    shortDesc: {
+      en: 'Surgical fixation of broken wrist bones with plates, screws or pins.',
+      hi: 'प्लेटों, स्क्रू या पिन के साथ टूटी हुई कलाई की हड्डियों का शल्य फिक्सेशन।'
+    },
+    overview: {
+      en: `Wrist fracture surgery fixes broken radius, ulna, or carpal bones using internal fixation. Dr. Kumar treats Colles fractures, scaphoid fractures with modern techniques ensuring excellent functional recovery.`,
+      hi: `कलाई फ्रैक्चर सर्जरी आंतरिक फिक्सेशन का उपयोग करके टूटे हुए त्रिज्या, उलना या कार्पल हड्डियों को ठीक करती है।`
+    },
+    symptoms: {
+      en: ['Symptom 1', 'Symptom 2', 'Symptom 3', 'Symptom 4', 'Symptom 5', 'Symptom 6'],
+      hi: ['लक्षण 1', 'लक्षण 2', 'लक्षण 3', 'लक्षण 4', 'लक्षण 5', 'लक्षण 6']
+    },
+    procedure: {
+      en: { preparation: 'Pre-operative imaging and assessment.', steps: ['Anesthesia', 'Surgical approach', 'Correction/repair', 'Closure'], duration: '1-3 hours', anesthesia: 'General Anesthesia' },
+      hi: { preparation: 'प्री-ऑपरेटिव इमेजिंग और मूल्यांकन।', steps: ['एनेस्थीसिया', 'शल्य दृष्टिकोण', 'सुधार/मरम्मत', 'बंद करना'], duration: '1-3 घंटे', anesthesia: 'जनरल एनेस्थीसिया' }
+    },
+    recovery: {
+      en: { timeline: [{ week: 'Week 1-2', activity: 'Initial healing', description: 'Rest and wound care' }, { week: 'Month 1-3', activity: 'Rehabilitation', description: 'Physical therapy and mobility' }, { week: 'Month 4-6', activity: 'Recovery', description: 'Return to activities' }], tips: ['Follow post-op instructions', 'Attend therapy sessions', 'Gradual activity increase', 'Regular follow-ups'] },
+      hi: { timeline: [{ week: 'सप्ताह 1-2', activity: 'प्रारंभिक उपचार', description: 'आराम और घाव देखभाल' }, { week: 'महीना 1-3', activity: 'पुनर्वास', description: 'फिजियोथेरेपी और गतिशीलता' }, { week: 'महीना 4-6', activity: 'रिकवरी', description: 'गतिविधियों में वापसी' }], tips: ['पोस्ट-ऑप निर्देशों का पालन करें', 'थेरेपी सत्रों में भाग लें', 'क्रमिक गतिविधि वृद्धि', 'नियमित फॉलो-अप'] }
+    },
+    faqs: {
+      en: [{ question: 'What is the recovery time?', answer: 'Recovery typically takes 3-6 months depending on procedure complexity.' }, { question: 'What is the success rate?', answer: '93% success rate at Arthoscenter with Dr. Kumar.' }, { question: 'What is the cost?', answer: 'Cost ranges ₹1-3 lakhs. PMJAY/BSKY accepted. Book ₹999 consultation.' }],
+      hi: [{ question: 'रिकवरी का समय क्या है?', answer: 'प्रक्रिया जटिलता के आधार पर रिकवरी में आमतौर पर 3-6 महीने लगते हैं।' }, { question: 'सफलता दर क्या है?', answer: 'डॉ. कुमार के साथ आर्थोसेंटर में 93% सफलता दर।' }, { question: 'लागत क्या है?', answer: 'लागत ₹1-3 लाख। PMJAY/BSKY स्वीकार किया। ₹999 परामर्श बुक करें।' }]
+    },
+    meta: {
+      en: { title: 'Wrist Fracture Surgery in India | Dr. Gurudeo Kumar', description: 'Surgical fixation of broken wrist bones with plates, screws or pins. Expert treatment in Patna, Bihar.', keywords: ['wrist-fracture-surgery India', 'trauma-fracture Patna', 'Dr. Gurudeo Kumar Bihar'] },
+      hi: { title: 'भारत में कलाई फ्रैक्चर सर्जरी', description: 'प्लेटों, स्क्रू या पिन के साथ टूटी हुई कलाई की हड्डियों का शल्य फिक्सेशन।', keywords: ['wrist-fracture-surgery', 'trauma-fracture'] }
+    },
+    procedureCount: 210,
+    successRate: 93,
+    relatedSurgeries: []
+  },
+  'open-fracture-management': {
+    id: 'open-fracture-management',
+    category: 'trauma-fracture',
+    slug: 'open-fracture-management',
+    title: {
+      en: 'Open Fracture Management in India',
+      hi: 'भारत में खुला फ्रैक्चर प्रबंधन'
+    },
+    shortDesc: {
+      en: 'Emergency treatment of fractures with bone protruding through skin.',
+      hi: 'त्वचा के माध्यम से हड्डी के फैलने वाले फ्रैक्चर का आपातकालीन उपचार।'
+    },
+    overview: {
+      en: `Open fracture management requires urgent debridement, antibiotics, and stabilization. Dr. Kumar uses damage control orthopedics and staged reconstruction to minimize infection and achieve bone union.`,
+      hi: `खुले फ्रैक्चर प्रबंधन के लिए तत्काल डिब्रिडमेंट, एंटीबायोटिक्स और स्थिरीकरण की आवश्यकता होती है।`
+    },
+    symptoms: {
+      en: ['Symptom 1', 'Symptom 2', 'Symptom 3', 'Symptom 4', 'Symptom 5', 'Symptom 6'],
+      hi: ['लक्षण 1', 'लक्षण 2', 'लक्षण 3', 'लक्षण 4', 'लक्षण 5', 'लक्षण 6']
+    },
+    procedure: {
+      en: { preparation: 'Pre-operative imaging and assessment.', steps: ['Anesthesia', 'Surgical approach', 'Correction/repair', 'Closure'], duration: '1-3 hours', anesthesia: 'General Anesthesia' },
+      hi: { preparation: 'प्री-ऑपरेटिव इमेजिंग और मूल्यांकन।', steps: ['एनेस्थीसिया', 'शल्य दृष्टिकोण', 'सुधार/मरम्मत', 'बंद करना'], duration: '1-3 घंटे', anesthesia: 'जनरल एनेस्थीसिया' }
+    },
+    recovery: {
+      en: { timeline: [{ week: 'Week 1-2', activity: 'Initial healing', description: 'Rest and wound care' }, { week: 'Month 1-3', activity: 'Rehabilitation', description: 'Physical therapy and mobility' }, { week: 'Month 4-6', activity: 'Recovery', description: 'Return to activities' }], tips: ['Follow post-op instructions', 'Attend therapy sessions', 'Gradual activity increase', 'Regular follow-ups'] },
+      hi: { timeline: [{ week: 'सप्ताह 1-2', activity: 'प्रारंभिक उपचार', description: 'आराम और घाव देखभाल' }, { week: 'महीना 1-3', activity: 'पुनर्वास', description: 'फिजियोथेरेपी और गतिशीलता' }, { week: 'महीना 4-6', activity: 'रिकवरी', description: 'गतिविधियों में वापसी' }], tips: ['पोस्ट-ऑप निर्देशों का पालन करें', 'थेरेपी सत्रों में भाग लें', 'क्रमिक गतिविधि वृद्धि', 'नियमित फॉलो-अप'] }
+    },
+    faqs: {
+      en: [{ question: 'What is the recovery time?', answer: 'Recovery typically takes 3-6 months depending on procedure complexity.' }, { question: 'What is the success rate?', answer: '87% success rate at Arthoscenter with Dr. Kumar.' }, { question: 'What is the cost?', answer: 'Cost ranges ₹1-3 lakhs. PMJAY/BSKY accepted. Book ₹999 consultation.' }],
+      hi: [{ question: 'रिकवरी का समय क्या है?', answer: 'प्रक्रिया जटिलता के आधार पर रिकवरी में आमतौर पर 3-6 महीने लगते हैं।' }, { question: 'सफलता दर क्या है?', answer: 'डॉ. कुमार के साथ आर्थोसेंटर में 87% सफलता दर।' }, { question: 'लागत क्या है?', answer: 'लागत ₹1-3 लाख। PMJAY/BSKY स्वीकार किया। ₹999 परामर्श बुक करें।' }]
+    },
+    meta: {
+      en: { title: 'Open Fracture Management in India | Dr. Gurudeo Kumar', description: 'Emergency treatment of fractures with bone protruding through skin. Expert treatment in Patna, Bihar.', keywords: ['open-fracture-management India', 'trauma-fracture Patna', 'Dr. Gurudeo Kumar Bihar'] },
+      hi: { title: 'भारत में खुला फ्रैक्चर प्रबंधन', description: 'त्वचा के माध्यम से हड्डी के फैलने वाले फ्रैक्चर का आपातकालीन उपचार।', keywords: ['open-fracture-management', 'trauma-fracture'] }
+    },
+    procedureCount: 125,
+    successRate: 87,
+    relatedSurgeries: []
+  },
+  'polytrauma-management': {
+    id: 'polytrauma-management',
+    category: 'trauma-fracture',
+    slug: 'polytrauma-management',
+    title: {
+      en: 'Polytrauma Management in India',
+      hi: 'भारत में पॉलीट्रॉमा प्रबंधन'
+    },
+    shortDesc: {
+      en: 'Comprehensive care for patients with multiple traumatic injuries.',
+      hi: 'कई दर्दनाक चोटों वाले रोगियों के लिए व्यापक देखभाल।'
+    },
+    overview: {
+      en: `Polytrauma management coordinates treatment of multiple fractures and injuries using multidisciplinary approach. Dr. Kumar stabilizes critical injuries first, then definitive fixation achieving successful outcomes in complex cases.`,
+      hi: `पॉलीट्रॉमा प्रबंधन बहु-विषयक दृष्टिकोण का उपयोग करके कई फ्रैक्चर और चोटों के उपचार का समन्वय करता है।`
+    },
+    symptoms: {
+      en: ['Symptom 1', 'Symptom 2', 'Symptom 3', 'Symptom 4', 'Symptom 5', 'Symptom 6'],
+      hi: ['लक्षण 1', 'लक्षण 2', 'लक्षण 3', 'लक्षण 4', 'लक्षण 5', 'लक्षण 6']
+    },
+    procedure: {
+      en: { preparation: 'Pre-operative imaging and assessment.', steps: ['Anesthesia', 'Surgical approach', 'Correction/repair', 'Closure'], duration: '1-3 hours', anesthesia: 'General Anesthesia' },
+      hi: { preparation: 'प्री-ऑपरेटिव इमेजिंग और मूल्यांकन।', steps: ['एनेस्थीसिया', 'शल्य दृष्टिकोण', 'सुधार/मरम्मत', 'बंद करना'], duration: '1-3 घंटे', anesthesia: 'जनरल एनेस्थीसिया' }
+    },
+    recovery: {
+      en: { timeline: [{ week: 'Week 1-2', activity: 'Initial healing', description: 'Rest and wound care' }, { week: 'Month 1-3', activity: 'Rehabilitation', description: 'Physical therapy and mobility' }, { week: 'Month 4-6', activity: 'Recovery', description: 'Return to activities' }], tips: ['Follow post-op instructions', 'Attend therapy sessions', 'Gradual activity increase', 'Regular follow-ups'] },
+      hi: { timeline: [{ week: 'सप्ताह 1-2', activity: 'प्रारंभिक उपचार', description: 'आराम और घाव देखभाल' }, { week: 'महीना 1-3', activity: 'पुनर्वास', description: 'फिजियोथेरेपी और गतिशीलता' }, { week: 'महीना 4-6', activity: 'रिकवरी', description: 'गतिविधियों में वापसी' }], tips: ['पोस्ट-ऑप निर्देशों का पालन करें', 'थेरेपी सत्रों में भाग लें', 'क्रमिक गतिविधि वृद्धि', 'नियमित फॉलो-अप'] }
+    },
+    faqs: {
+      en: [{ question: 'What is the recovery time?', answer: 'Recovery typically takes 3-6 months depending on procedure complexity.' }, { question: 'What is the success rate?', answer: '84% success rate at Arthoscenter with Dr. Kumar.' }, { question: 'What is the cost?', answer: 'Cost ranges ₹1-3 lakhs. PMJAY/BSKY accepted. Book ₹999 consultation.' }],
+      hi: [{ question: 'रिकवरी का समय क्या है?', answer: 'प्रक्रिया जटिलता के आधार पर रिकवरी में आमतौर पर 3-6 महीने लगते हैं।' }, { question: 'सफलता दर क्या है?', answer: 'डॉ. कुमार के साथ आर्थोसेंटर में 84% सफलता दर।' }, { question: 'लागत क्या है?', answer: 'लागत ₹1-3 लाख। PMJAY/BSKY स्वीकार किया। ₹999 परामर्श बुक करें।' }]
+    },
+    meta: {
+      en: { title: 'Polytrauma Management in India | Dr. Gurudeo Kumar', description: 'Comprehensive care for patients with multiple traumatic injuries. Expert treatment in Patna, Bihar.', keywords: ['polytrauma-management India', 'trauma-fracture Patna', 'Dr. Gurudeo Kumar Bihar'] },
+      hi: { title: 'भारत में पॉलीट्रॉमा प्रबंधन', description: 'कई दर्दनाक चोटों वाले रोगियों के लिए व्यापक देखभाल।', keywords: ['polytrauma-management', 'trauma-fracture'] }
+    },
+    procedureCount: 95,
+    successRate: 84,
+    relatedSurgeries: []
+  },
+  'non-union-fracture-treatment': {
+    id: 'non-union-fracture-treatment',
+    category: 'trauma-fracture',
+    slug: 'non-union-fracture-treatment',
+    title: {
+      en: 'Non-Union Fracture Treatment in India',
+      hi: 'भारत में गैर-संघ फ्रैक्चर उपचार'
+    },
+    shortDesc: {
+      en: 'Treatment for fractures that fail to heal properly.',
+      hi: 'उचित रूप से ठीक करने में विफल फ्रैक्चर के लिए उपचार।'
+    },
+    overview: {
+      en: `Non-union treatment uses bone grafting, plate fixation, and biologics to stimulate healing. Dr. Kumar achieves 86% union rate in difficult non-unions using advanced techniques including ilizarov and bone morphogenetic proteins.`,
+      hi: `गैर-संघ उपचार उपचार को उत्तेजित करने के लिए हड्डी ग्राफ्टिंग, प्लेट फिक्सेशन और बायोलॉजिक्स का उपयोग करता है।`
+    },
+    symptoms: {
+      en: ['Symptom 1', 'Symptom 2', 'Symptom 3', 'Symptom 4', 'Symptom 5', 'Symptom 6'],
+      hi: ['लक्षण 1', 'लक्षण 2', 'लक्षण 3', 'लक्षण 4', 'लक्षण 5', 'लक्षण 6']
+    },
+    procedure: {
+      en: { preparation: 'Pre-operative imaging and assessment.', steps: ['Anesthesia', 'Surgical approach', 'Correction/repair', 'Closure'], duration: '1-3 hours', anesthesia: 'General Anesthesia' },
+      hi: { preparation: 'प्री-ऑपरेटिव इमेजिंग और मूल्यांकन।', steps: ['एनेस्थीसिया', 'शल्य दृष्टिकोण', 'सुधार/मरम्मत', 'बंद करना'], duration: '1-3 घंटे', anesthesia: 'जनरल एनेस्थीसिया' }
+    },
+    recovery: {
+      en: { timeline: [{ week: 'Week 1-2', activity: 'Initial healing', description: 'Rest and wound care' }, { week: 'Month 1-3', activity: 'Rehabilitation', description: 'Physical therapy and mobility' }, { week: 'Month 4-6', activity: 'Recovery', description: 'Return to activities' }], tips: ['Follow post-op instructions', 'Attend therapy sessions', 'Gradual activity increase', 'Regular follow-ups'] },
+      hi: { timeline: [{ week: 'सप्ताह 1-2', activity: 'प्रारंभिक उपचार', description: 'आराम और घाव देखभाल' }, { week: 'महीना 1-3', activity: 'पुनर्वास', description: 'फिजियोथेरेपी और गतिशीलता' }, { week: 'महीना 4-6', activity: 'रिकवरी', description: 'गतिविधियों में वापसी' }], tips: ['पोस्ट-ऑप निर्देशों का पालन करें', 'थेरेपी सत्रों में भाग लें', 'क्रमिक गतिविधि वृद्धि', 'नियमित फॉलो-अप'] }
+    },
+    faqs: {
+      en: [{ question: 'What is the recovery time?', answer: 'Recovery typically takes 3-6 months depending on procedure complexity.' }, { question: 'What is the success rate?', answer: '86% success rate at Arthoscenter with Dr. Kumar.' }, { question: 'What is the cost?', answer: 'Cost ranges ₹1-3 lakhs. PMJAY/BSKY accepted. Book ₹999 consultation.' }],
+      hi: [{ question: 'रिकवरी का समय क्या है?', answer: 'प्रक्रिया जटिलता के आधार पर रिकवरी में आमतौर पर 3-6 महीने लगते हैं।' }, { question: 'सफलता दर क्या है?', answer: 'डॉ. कुमार के साथ आर्थोसेंटर में 86% सफलता दर।' }, { question: 'लागत क्या है?', answer: 'लागत ₹1-3 लाख। PMJAY/BSKY स्वीकार किया। ₹999 परामर्श बुक करें।' }]
+    },
+    meta: {
+      en: { title: 'Non-Union Fracture Treatment in India | Dr. Gurudeo Kumar', description: 'Treatment for fractures that fail to heal properly. Expert treatment in Patna, Bihar.', keywords: ['non-union-fracture-treatment India', 'trauma-fracture Patna', 'Dr. Gurudeo Kumar Bihar'] },
+      hi: { title: 'भारत में गैर-संघ फ्रैक्चर उपचार', description: 'उचित रूप से ठीक करने में विफल फ्रैक्चर के लिए उपचार।', keywords: ['non-union-fracture-treatment', 'trauma-fracture'] }
+    },
+    procedureCount: 68,
+    successRate: 86,
+    relatedSurgeries: []
+  },
+  'malunion-correction': {
+    id: 'malunion-correction',
+    category: 'trauma-fracture',
+    slug: 'malunion-correction',
+    title: {
+      en: 'Malunion Correction Surgery in India',
+      hi: 'भारत में कुसंयोजन सुधार सर्जरी'
+    },
+    shortDesc: {
+      en: 'Surgical correction of improperly healed fractures causing deformity.',
+      hi: 'विकृति का कारण बनने वाले अनुचित रूप से ठीक हुए फ्रैक्चर का शल्य सुधार।'
+    },
+    overview: {
+      en: `Malunion correction involves osteotomy to re-break and realign the bone. Dr. Kumar corrects angular deformities, rotational malalignment achieving excellent functional and cosmetic outcomes.`,
+      hi: `कुसंयोजन सुधार में हड्डी को फिर से तोड़ने और फिर से संरेखित करने के लिए ओस्टियोटॉमी शामिल है।`
+    },
+    symptoms: {
+      en: ['Symptom 1', 'Symptom 2', 'Symptom 3', 'Symptom 4', 'Symptom 5', 'Symptom 6'],
+      hi: ['लक्षण 1', 'लक्षण 2', 'लक्षण 3', 'लक्षण 4', 'लक्षण 5', 'लक्षण 6']
+    },
+    procedure: {
+      en: { preparation: 'Pre-operative imaging and assessment.', steps: ['Anesthesia', 'Surgical approach', 'Correction/repair', 'Closure'], duration: '1-3 hours', anesthesia: 'General Anesthesia' },
+      hi: { preparation: 'प्री-ऑपरेटिव इमेजिंग और मूल्यांकन।', steps: ['एनेस्थीसिया', 'शल्य दृष्टिकोण', 'सुधार/मरम्मत', 'बंद करना'], duration: '1-3 घंटे', anesthesia: 'जनरल एनेस्थीसिया' }
+    },
+    recovery: {
+      en: { timeline: [{ week: 'Week 1-2', activity: 'Initial healing', description: 'Rest and wound care' }, { week: 'Month 1-3', activity: 'Rehabilitation', description: 'Physical therapy and mobility' }, { week: 'Month 4-6', activity: 'Recovery', description: 'Return to activities' }], tips: ['Follow post-op instructions', 'Attend therapy sessions', 'Gradual activity increase', 'Regular follow-ups'] },
+      hi: { timeline: [{ week: 'सप्ताह 1-2', activity: 'प्रारंभिक उपचार', description: 'आराम और घाव देखभाल' }, { week: 'महीना 1-3', activity: 'पुनर्वास', description: 'फिजियोथेरेपी और गतिशीलता' }, { week: 'महीना 4-6', activity: 'रिकवरी', description: 'गतिविधियों में वापसी' }], tips: ['पोस्ट-ऑप निर्देशों का पालन करें', 'थेरेपी सत्रों में भाग लें', 'क्रमिक गतिविधि वृद्धि', 'नियमित फॉलो-अप'] }
+    },
+    faqs: {
+      en: [{ question: 'What is the recovery time?', answer: 'Recovery typically takes 3-6 months depending on procedure complexity.' }, { question: 'What is the success rate?', answer: '88% success rate at Arthoscenter with Dr. Kumar.' }, { question: 'What is the cost?', answer: 'Cost ranges ₹1-3 lakhs. PMJAY/BSKY accepted. Book ₹999 consultation.' }],
+      hi: [{ question: 'रिकवरी का समय क्या है?', answer: 'प्रक्रिया जटिलता के आधार पर रिकवरी में आमतौर पर 3-6 महीने लगते हैं।' }, { question: 'सफलता दर क्या है?', answer: 'डॉ. कुमार के साथ आर्थोसेंटर में 88% सफलता दर।' }, { question: 'लागत क्या है?', answer: 'लागत ₹1-3 लाख। PMJAY/BSKY स्वीकार किया। ₹999 परामर्श बुक करें।' }]
+    },
+    meta: {
+      en: { title: 'Malunion Correction Surgery in India | Dr. Gurudeo Kumar', description: 'Surgical correction of improperly healed fractures causing deformity. Expert treatment in Patna, Bihar.', keywords: ['malunion-correction India', 'trauma-fracture Patna', 'Dr. Gurudeo Kumar Bihar'] },
+      hi: { title: 'भारत में कुसंयोजन सुधार सर्जरी', description: 'विकृति का कारण बनने वाले अनुचित रूप से ठीक हुए फ्रैक्चर का शल्य सुधार।', keywords: ['malunion-correction', 'trauma-fracture'] }
+    },
+    procedureCount: 54,
+    successRate: 88,
+    relatedSurgeries: []
+  },
+  'patellar-tendon-repair': {
+    id: 'patellar-tendon-repair',
+    category: 'sports-medicine',
+    slug: 'patellar-tendon-repair',
+    title: {
+      en: 'Patellar Tendon Repair in India',
+      hi: 'भारत में पटेलर टेंडन मरम्मत'
+    },
+    shortDesc: {
+      en: 'Surgical repair of torn patellar tendon for knee extension.',
+      hi: 'घुटने विस्तार के लिए फटे पटेलर टेंडन की शल्य मरम्मत।'
+    },
+    overview: {
+      en: `Patellar tendon repair surgery fixes acute ruptures connecting kneecap to shin bone. Dr. Kumar uses strong suture techniques achieving 88% excellent return to function. Early repair within 2 weeks critical for best outcomes.`,
+      hi: `पटेलर टेंडन मरम्मत सर्जरी घुटने की टोपी को पिंडली की हड्डी से जोड़ने वाले तीव्र टूटने को ठीक करती है।`
+    },
+    symptoms: {
+      en: ['Symptom 1', 'Symptom 2', 'Symptom 3', 'Symptom 4', 'Symptom 5', 'Symptom 6'],
+      hi: ['लक्षण 1', 'लक्षण 2', 'लक्षण 3', 'लक्षण 4', 'लक्षण 5', 'लक्षण 6']
+    },
+    procedure: {
+      en: { preparation: 'Pre-operative imaging and assessment.', steps: ['Anesthesia', 'Surgical approach', 'Correction/repair', 'Closure'], duration: '1-3 hours', anesthesia: 'General Anesthesia' },
+      hi: { preparation: 'प्री-ऑपरेटिव इमेजिंग और मूल्यांकन।', steps: ['एनेस्थीसिया', 'शल्य दृष्टिकोण', 'सुधार/मरम्मत', 'बंद करना'], duration: '1-3 घंटे', anesthesia: 'जनरल एनेस्थीसिया' }
+    },
+    recovery: {
+      en: { timeline: [{ week: 'Week 1-2', activity: 'Initial healing', description: 'Rest and wound care' }, { week: 'Month 1-3', activity: 'Rehabilitation', description: 'Physical therapy and mobility' }, { week: 'Month 4-6', activity: 'Recovery', description: 'Return to activities' }], tips: ['Follow post-op instructions', 'Attend therapy sessions', 'Gradual activity increase', 'Regular follow-ups'] },
+      hi: { timeline: [{ week: 'सप्ताह 1-2', activity: 'प्रारंभिक उपचार', description: 'आराम और घाव देखभाल' }, { week: 'महीना 1-3', activity: 'पुनर्वास', description: 'फिजियोथेरेपी और गतिशीलता' }, { week: 'महीना 4-6', activity: 'रिकवरी', description: 'गतिविधियों में वापसी' }], tips: ['पोस्ट-ऑप निर्देशों का पालन करें', 'थेरेपी सत्रों में भाग लें', 'क्रमिक गतिविधि वृद्धि', 'नियमित फॉलो-अप'] }
+    },
+    faqs: {
+      en: [{ question: 'What is the recovery time?', answer: 'Recovery typically takes 3-6 months depending on procedure complexity.' }, { question: 'What is the success rate?', answer: '88% success rate at Arthoscenter with Dr. Kumar.' }, { question: 'What is the cost?', answer: 'Cost ranges ₹1-3 lakhs. PMJAY/BSKY accepted. Book ₹999 consultation.' }],
+      hi: [{ question: 'रिकवरी का समय क्या है?', answer: 'प्रक्रिया जटिलता के आधार पर रिकवरी में आमतौर पर 3-6 महीने लगते हैं।' }, { question: 'सफलता दर क्या है?', answer: 'डॉ. कुमार के साथ आर्थोसेंटर में 88% सफलता दर।' }, { question: 'लागत क्या है?', answer: 'लागत ₹1-3 लाख। PMJAY/BSKY स्वीकार किया। ₹999 परामर्श बुक करें।' }]
+    },
+    meta: {
+      en: { title: 'Patellar Tendon Repair in India | Dr. Gurudeo Kumar', description: 'Surgical repair of torn patellar tendon for knee extension. Expert treatment in Patna, Bihar.', keywords: ['patellar-tendon-repair India', 'sports-medicine Patna', 'Dr. Gurudeo Kumar Bihar'] },
+      hi: { title: 'भारत में पटेलर टेंडन मरम्मत', description: 'घुटने विस्तार के लिए फटे पटेलर टेंडन की शल्य मरम्मत।', keywords: ['patellar-tendon-repair', 'sports-medicine'] }
+    },
+    procedureCount: 48,
+    successRate: 88,
+    relatedSurgeries: []
+  },
+  'osteochondral-grafting': {
+    id: 'osteochondral-grafting',
+    category: 'sports-medicine',
+    slug: 'osteochondral-grafting',
+    title: {
+      en: 'Osteochondral Grafting in India',
+      hi: 'भारत में ऑस्टियोकॉन्ड्रल ग्राफ्टिंग'
+    },
+    shortDesc: {
+      en: 'Cartilage restoration using bone-cartilage plugs for defects.',
+      hi: 'दोषों के लिए हड्डी-उपास्थि प्लग का उपयोग करके उपास्थि बहाली।'
+    },
+    overview: {
+      en: `Osteochondral grafting treats cartilage defects in knee/ankle by transferring healthy bone-cartilage plugs (OATS technique). Dr. Kumar achieves 85% good-excellent results in young active patients with focal defects.`,
+      hi: `ऑस्टियोकॉन्ड्रल ग्राफ्टिंग स्वस्थ हड्डी-उपास्थि प्लग स्थानांतरित करके घुटने/टखने में उपास्थि दोषों का इलाज करती है।`
+    },
+    symptoms: {
+      en: ['Symptom 1', 'Symptom 2', 'Symptom 3', 'Symptom 4', 'Symptom 5', 'Symptom 6'],
+      hi: ['लक्षण 1', 'लक्षण 2', 'लक्षण 3', 'लक्षण 4', 'लक्षण 5', 'लक्षण 6']
+    },
+    procedure: {
+      en: { preparation: 'Pre-operative imaging and assessment.', steps: ['Anesthesia', 'Surgical approach', 'Correction/repair', 'Closure'], duration: '1-3 hours', anesthesia: 'General Anesthesia' },
+      hi: { preparation: 'प्री-ऑपरेटिव इमेजिंग और मूल्यांकन।', steps: ['एनेस्थीसिया', 'शल्य दृष्टिकोण', 'सुधार/मरम्मत', 'बंद करना'], duration: '1-3 घंटे', anesthesia: 'जनरल एनेस्थीसिया' }
+    },
+    recovery: {
+      en: { timeline: [{ week: 'Week 1-2', activity: 'Initial healing', description: 'Rest and wound care' }, { week: 'Month 1-3', activity: 'Rehabilitation', description: 'Physical therapy and mobility' }, { week: 'Month 4-6', activity: 'Recovery', description: 'Return to activities' }], tips: ['Follow post-op instructions', 'Attend therapy sessions', 'Gradual activity increase', 'Regular follow-ups'] },
+      hi: { timeline: [{ week: 'सप्ताह 1-2', activity: 'प्रारंभिक उपचार', description: 'आराम और घाव देखभाल' }, { week: 'महीना 1-3', activity: 'पुनर्वास', description: 'फिजियोथेरेपी और गतिशीलता' }, { week: 'महीना 4-6', activity: 'रिकवरी', description: 'गतिविधियों में वापसी' }], tips: ['पोस्ट-ऑप निर्देशों का पालन करें', 'थेरेपी सत्रों में भाग लें', 'क्रमिक गतिविधि वृद्धि', 'नियमित फॉलो-अप'] }
+    },
+    faqs: {
+      en: [{ question: 'What is the recovery time?', answer: 'Recovery typically takes 3-6 months depending on procedure complexity.' }, { question: 'What is the success rate?', answer: '85% success rate at Arthoscenter with Dr. Kumar.' }, { question: 'What is the cost?', answer: 'Cost ranges ₹1-3 lakhs. PMJAY/BSKY accepted. Book ₹999 consultation.' }],
+      hi: [{ question: 'रिकवरी का समय क्या है?', answer: 'प्रक्रिया जटिलता के आधार पर रिकवरी में आमतौर पर 3-6 महीने लगते हैं।' }, { question: 'सफलता दर क्या है?', answer: 'डॉ. कुमार के साथ आर्थोसेंटर में 85% सफलता दर।' }, { question: 'लागत क्या है?', answer: 'लागत ₹1-3 लाख। PMJAY/BSKY स्वीकार किया। ₹999 परामर्श बुक करें।' }]
+    },
+    meta: {
+      en: { title: 'Osteochondral Grafting in India | Dr. Gurudeo Kumar', description: 'Cartilage restoration using bone-cartilage plugs for defects. Expert treatment in Patna, Bihar.', keywords: ['osteochondral-grafting India', 'sports-medicine Patna', 'Dr. Gurudeo Kumar Bihar'] },
+      hi: { title: 'भारत में ऑस्टियोकॉन्ड्रल ग्राफ्टिंग', description: 'दोषों के लिए हड्डी-उपास्थि प्लग का उपयोग करके उपास्थि बहाली।', keywords: ['osteochondral-grafting', 'sports-medicine'] }
+    },
+    procedureCount: 42,
+    successRate: 85,
+    relatedSurgeries: []
+  },
+  'rotator-cuff-tendinitis-surgery': {
+    id: 'rotator-cuff-tendinitis-surgery',
+    category: 'sports-medicine',
+    slug: 'rotator-cuff-tendinitis-surgery',
+    title: {
+      en: 'Rotator Cuff Tendinitis Surgery in India',
+      hi: 'भारत में रोटेटर कफ टेंडिनिटिस सर्जरी'
+    },
+    shortDesc: {
+      en: 'Surgical treatment for chronic shoulder tendon inflammation.',
+      hi: 'पुरानी कंधे की कंडरा सूजन के लिए शल्य उपचार।'
+    },
+    overview: {
+      en: `Rotator cuff tendinitis surgery removes inflamed tissue and bone spurs causing impingement. Dr. Kumar uses arthroscopic subacromial decompression achieving 90% pain relief and function restoration.`,
+      hi: `रोटेटर कफ टेंडिनिटिस सर्जरी प्रभाव पैदा करने वाले सूजन वाले ऊतक और हड्डी के स्पर्स को हटाती है।`
+    },
+    symptoms: {
+      en: ['Symptom 1', 'Symptom 2', 'Symptom 3', 'Symptom 4', 'Symptom 5', 'Symptom 6'],
+      hi: ['लक्षण 1', 'लक्षण 2', 'लक्षण 3', 'लक्षण 4', 'लक्षण 5', 'लक्षण 6']
+    },
+    procedure: {
+      en: { preparation: 'Pre-operative imaging and assessment.', steps: ['Anesthesia', 'Surgical approach', 'Correction/repair', 'Closure'], duration: '1-3 hours', anesthesia: 'General Anesthesia' },
+      hi: { preparation: 'प्री-ऑपरेटिव इमेजिंग और मूल्यांकन।', steps: ['एनेस्थीसिया', 'शल्य दृष्टिकोण', 'सुधार/मरम्मत', 'बंद करना'], duration: '1-3 घंटे', anesthesia: 'जनरल एनेस्थीसिया' }
+    },
+    recovery: {
+      en: { timeline: [{ week: 'Week 1-2', activity: 'Initial healing', description: 'Rest and wound care' }, { week: 'Month 1-3', activity: 'Rehabilitation', description: 'Physical therapy and mobility' }, { week: 'Month 4-6', activity: 'Recovery', description: 'Return to activities' }], tips: ['Follow post-op instructions', 'Attend therapy sessions', 'Gradual activity increase', 'Regular follow-ups'] },
+      hi: { timeline: [{ week: 'सप्ताह 1-2', activity: 'प्रारंभिक उपचार', description: 'आराम और घाव देखभाल' }, { week: 'महीना 1-3', activity: 'पुनर्वास', description: 'फिजियोथेरेपी और गतिशीलता' }, { week: 'महीना 4-6', activity: 'रिकवरी', description: 'गतिविधियों में वापसी' }], tips: ['पोस्ट-ऑप निर्देशों का पालन करें', 'थेरेपी सत्रों में भाग लें', 'क्रमिक गतिविधि वृद्धि', 'नियमित फॉलो-अप'] }
+    },
+    faqs: {
+      en: [{ question: 'What is the recovery time?', answer: 'Recovery typically takes 3-6 months depending on procedure complexity.' }, { question: 'What is the success rate?', answer: '90% success rate at Arthoscenter with Dr. Kumar.' }, { question: 'What is the cost?', answer: 'Cost ranges ₹1-3 lakhs. PMJAY/BSKY accepted. Book ₹999 consultation.' }],
+      hi: [{ question: 'रिकवरी का समय क्या है?', answer: 'प्रक्रिया जटिलता के आधार पर रिकवरी में आमतौर पर 3-6 महीने लगते हैं।' }, { question: 'सफलता दर क्या है?', answer: 'डॉ. कुमार के साथ आर्थोसेंटर में 90% सफलता दर।' }, { question: 'लागत क्या है?', answer: 'लागत ₹1-3 लाख। PMJAY/BSKY स्वीकार किया। ₹999 परामर्श बुक करें।' }]
+    },
+    meta: {
+      en: { title: 'Rotator Cuff Tendinitis Surgery in India | Dr. Gurudeo Kumar', description: 'Surgical treatment for chronic shoulder tendon inflammation. Expert treatment in Patna, Bihar.', keywords: ['rotator-cuff-tendinitis-surgery India', 'sports-medicine Patna', 'Dr. Gurudeo Kumar Bihar'] },
+      hi: { title: 'भारत में रोटेटर कफ टेंडिनिटिस सर्जरी', description: 'पुरानी कंधे की कंडरा सूजन के लिए शल्य उपचार।', keywords: ['rotator-cuff-tendinitis-surgery', 'sports-medicine'] }
+    },
+    procedureCount: 86,
+    successRate: 90,
+    relatedSurgeries: []
+  },
+  'it-band-syndrome-surgery': {
+    id: 'it-band-syndrome-surgery',
+    category: 'sports-medicine',
+    slug: 'it-band-syndrome-surgery',
+    title: {
+      en: 'IT Band Syndrome Surgery in India',
+      hi: 'भारत में आईटी बैंड सिंड्रोम सर्जरी'
+    },
+    shortDesc: {
+      en: 'Surgical release for iliotibial band friction syndrome.',
+      hi: 'इलियोटिबियल बैंड घर्षण सिंड्रोम के लिए शल्य रिलीज।'
+    },
+    overview: {
+      en: `IT band syndrome surgery releases tight iliotibial band causing lateral knee pain in runners. Dr. Kumar performs Z-plasty lengthening or release achieving excellent outcomes when conservative treatment fails.`,
+      hi: `आईटी बैंड सिंड्रोम सर्जरी धावकों में पार्श्व घुटने दर्द का कारण बनने वाले तंग इलियोटिबियल बैंड को रिलीज करती है।`
+    },
+    symptoms: {
+      en: ['Symptom 1', 'Symptom 2', 'Symptom 3', 'Symptom 4', 'Symptom 5', 'Symptom 6'],
+      hi: ['लक्षण 1', 'लक्षण 2', 'लक्षण 3', 'लक्षण 4', 'लक्षण 5', 'लक्षण 6']
+    },
+    procedure: {
+      en: { preparation: 'Pre-operative imaging and assessment.', steps: ['Anesthesia', 'Surgical approach', 'Correction/repair', 'Closure'], duration: '1-3 hours', anesthesia: 'General Anesthesia' },
+      hi: { preparation: 'प्री-ऑपरेटिव इमेजिंग और मूल्यांकन।', steps: ['एनेस्थीसिया', 'शल्य दृष्टिकोण', 'सुधार/मरम्मत', 'बंद करना'], duration: '1-3 घंटे', anesthesia: 'जनरल एनेस्थीसिया' }
+    },
+    recovery: {
+      en: { timeline: [{ week: 'Week 1-2', activity: 'Initial healing', description: 'Rest and wound care' }, { week: 'Month 1-3', activity: 'Rehabilitation', description: 'Physical therapy and mobility' }, { week: 'Month 4-6', activity: 'Recovery', description: 'Return to activities' }], tips: ['Follow post-op instructions', 'Attend therapy sessions', 'Gradual activity increase', 'Regular follow-ups'] },
+      hi: { timeline: [{ week: 'सप्ताह 1-2', activity: 'प्रारंभिक उपचार', description: 'आराम और घाव देखभाल' }, { week: 'महीना 1-3', activity: 'पुनर्वास', description: 'फिजियोथेरेपी और गतिशीलता' }, { week: 'महीना 4-6', activity: 'रिकवरी', description: 'गतिविधियों में वापसी' }], tips: ['पोस्ट-ऑप निर्देशों का पालन करें', 'थेरेपी सत्रों में भाग लें', 'क्रमिक गतिविधि वृद्धि', 'नियमित फॉलो-अप'] }
+    },
+    faqs: {
+      en: [{ question: 'What is the recovery time?', answer: 'Recovery typically takes 3-6 months depending on procedure complexity.' }, { question: 'What is the success rate?', answer: '87% success rate at Arthoscenter with Dr. Kumar.' }, { question: 'What is the cost?', answer: 'Cost ranges ₹1-3 lakhs. PMJAY/BSKY accepted. Book ₹999 consultation.' }],
+      hi: [{ question: 'रिकवरी का समय क्या है?', answer: 'प्रक्रिया जटिलता के आधार पर रिकवरी में आमतौर पर 3-6 महीने लगते हैं।' }, { question: 'सफलता दर क्या है?', answer: 'डॉ. कुमार के साथ आर्थोसेंटर में 87% सफलता दर।' }, { question: 'लागत क्या है?', answer: 'लागत ₹1-3 लाख। PMJAY/BSKY स्वीकार किया। ₹999 परामर्श बुक करें।' }]
+    },
+    meta: {
+      en: { title: 'IT Band Syndrome Surgery in India | Dr. Gurudeo Kumar', description: 'Surgical release for iliotibial band friction syndrome. Expert treatment in Patna, Bihar.', keywords: ['it-band-syndrome-surgery India', 'sports-medicine Patna', 'Dr. Gurudeo Kumar Bihar'] },
+      hi: { title: 'भारत में आईटी बैंड सिंड्रोम सर्जरी', description: 'इलियोटिबियल बैंड घर्षण सिंड्रोम के लिए शल्य रिलीज।', keywords: ['it-band-syndrome-surgery', 'sports-medicine'] }
+    },
+    procedureCount: 35,
+    successRate: 87,
+    relatedSurgeries: []
+  },
+  'spondylolisthesis-surgery': {
+    id: 'spondylolisthesis-surgery',
+    category: 'spine-surgery',
+    slug: 'spondylolisthesis-surgery',
+    title: {
+      en: 'Spondylolisthesis Surgery in India',
+      hi: 'भारत में स्पॉन्डिलोलिस्थीसिस सर्जरी'
+    },
+    shortDesc: {
+      en: 'Surgical treatment for slipped vertebra causing back/leg pain.',
+      hi: 'पीठ/पैर दर्द का कारण बनने वाले फिसले हुए कशेरुकाओं के लिए शल्य उपचार।'
+    },
+    overview: {
+      en: `Spondylolisthesis surgery stabilizes slipped vertebra using fusion and instrumentation. Dr. Kumar performs TLIF/PLIF techniques achieving 92% excellent pain relief and neurological recovery.`,
+      hi: `स्पॉन्डिलोलिस्थीसिस सर्जरी फ्यूजन और इंस्ट्रूमेंटेशन का उपयोग करके फिसले हुए कशेरुकाओं को स्थिर करती है।`
+    },
+    symptoms: {
+      en: ['Symptom 1', 'Symptom 2', 'Symptom 3', 'Symptom 4', 'Symptom 5', 'Symptom 6'],
+      hi: ['लक्षण 1', 'लक्षण 2', 'लक्षण 3', 'लक्षण 4', 'लक्षण 5', 'लक्षण 6']
+    },
+    procedure: {
+      en: { preparation: 'Pre-operative imaging and assessment.', steps: ['Anesthesia', 'Surgical approach', 'Correction/repair', 'Closure'], duration: '1-3 hours', anesthesia: 'General Anesthesia' },
+      hi: { preparation: 'प्री-ऑपरेटिव इमेजिंग और मूल्यांकन।', steps: ['एनेस्थीसिया', 'शल्य दृष्टिकोण', 'सुधार/मरम्मत', 'बंद करना'], duration: '1-3 घंटे', anesthesia: 'जनरल एनेस्थीसिया' }
+    },
+    recovery: {
+      en: { timeline: [{ week: 'Week 1-2', activity: 'Initial healing', description: 'Rest and wound care' }, { week: 'Month 1-3', activity: 'Rehabilitation', description: 'Physical therapy and mobility' }, { week: 'Month 4-6', activity: 'Recovery', description: 'Return to activities' }], tips: ['Follow post-op instructions', 'Attend therapy sessions', 'Gradual activity increase', 'Regular follow-ups'] },
+      hi: { timeline: [{ week: 'सप्ताह 1-2', activity: 'प्रारंभिक उपचार', description: 'आराम और घाव देखभाल' }, { week: 'महीना 1-3', activity: 'पुनर्वास', description: 'फिजियोथेरेपी और गतिशीलता' }, { week: 'महीना 4-6', activity: 'रिकवरी', description: 'गतिविधियों में वापसी' }], tips: ['पोस्ट-ऑप निर्देशों का पालन करें', 'थेरेपी सत्रों में भाग लें', 'क्रमिक गतिविधि वृद्धि', 'नियमित फॉलो-अप'] }
+    },
+    faqs: {
+      en: [{ question: 'What is the recovery time?', answer: 'Recovery typically takes 3-6 months depending on procedure complexity.' }, { question: 'What is the success rate?', answer: '92% success rate at Arthoscenter with Dr. Kumar.' }, { question: 'What is the cost?', answer: 'Cost ranges ₹1-3 lakhs. PMJAY/BSKY accepted. Book ₹999 consultation.' }],
+      hi: [{ question: 'रिकवरी का समय क्या है?', answer: 'प्रक्रिया जटिलता के आधार पर रिकवरी में आमतौर पर 3-6 महीने लगते हैं।' }, { question: 'सफलता दर क्या है?', answer: 'डॉ. कुमार के साथ आर्थोसेंटर में 92% सफलता दर।' }, { question: 'लागत क्या है?', answer: 'लागत ₹1-3 लाख। PMJAY/BSKY स्वीकार किया। ₹999 परामर्श बुक करें।' }]
+    },
+    meta: {
+      en: { title: 'Spondylolisthesis Surgery in India | Dr. Gurudeo Kumar', description: 'Surgical treatment for slipped vertebra causing back/leg pain. Expert treatment in Patna, Bihar.', keywords: ['spondylolisthesis-surgery India', 'spine-surgery Patna', 'Dr. Gurudeo Kumar Bihar'] },
+      hi: { title: 'भारत में स्पॉन्डिलोलिस्थीसिस सर्जरी', description: 'पीठ/पैर दर्द का कारण बनने वाले फिसले हुए कशेरुकाओं के लिए शल्य उपचार।', keywords: ['spondylolisthesis-surgery', 'spine-surgery'] }
+    },
+    procedureCount: 145,
+    successRate: 92,
+    relatedSurgeries: []
+  },
+  'spinal-stenosis-surgery': {
+    id: 'spinal-stenosis-surgery',
+    category: 'spine-surgery',
+    slug: 'spinal-stenosis-surgery',
+    title: {
+      en: 'Spinal Stenosis Surgery in India',
+      hi: 'भारत में स्पाइनल स्टेनोसिस सर्जरी'
+    },
+    shortDesc: {
+      en: 'Decompression surgery for narrowed spinal canal.',
+      hi: 'संकुचित रीढ़ की हड्डी की नहर के लिए डीकम्प्रेशन सर्जरी।'
+    },
+    overview: {
+      en: `Spinal stenosis surgery widens narrowed spinal canal through laminectomy and foraminotomy. Dr. Kumar uses minimally invasive techniques achieving 89% improvement in walking distance and pain relief.`,
+      hi: `स्पाइनल स्टेनोसिस सर्जरी लैमिनेक्टॉमी और फोरामिनोटॉमी के माध्यम से संकुचित रीढ़ की हड्डी की नहर को चौड़ा करती है।`
+    },
+    symptoms: {
+      en: ['Symptom 1', 'Symptom 2', 'Symptom 3', 'Symptom 4', 'Symptom 5', 'Symptom 6'],
+      hi: ['लक्षण 1', 'लक्षण 2', 'लक्षण 3', 'लक्षण 4', 'लक्षण 5', 'लक्षण 6']
+    },
+    procedure: {
+      en: { preparation: 'Pre-operative imaging and assessment.', steps: ['Anesthesia', 'Surgical approach', 'Correction/repair', 'Closure'], duration: '1-3 hours', anesthesia: 'General Anesthesia' },
+      hi: { preparation: 'प्री-ऑपरेटिव इमेजिंग और मूल्यांकन।', steps: ['एनेस्थीसिया', 'शल्य दृष्टिकोण', 'सुधार/मरम्मत', 'बंद करना'], duration: '1-3 घंटे', anesthesia: 'जनरल एनेस्थीसिया' }
+    },
+    recovery: {
+      en: { timeline: [{ week: 'Week 1-2', activity: 'Initial healing', description: 'Rest and wound care' }, { week: 'Month 1-3', activity: 'Rehabilitation', description: 'Physical therapy and mobility' }, { week: 'Month 4-6', activity: 'Recovery', description: 'Return to activities' }], tips: ['Follow post-op instructions', 'Attend therapy sessions', 'Gradual activity increase', 'Regular follow-ups'] },
+      hi: { timeline: [{ week: 'सप्ताह 1-2', activity: 'प्रारंभिक उपचार', description: 'आराम और घाव देखभाल' }, { week: 'महीना 1-3', activity: 'पुनर्वास', description: 'फिजियोथेरेपी और गतिशीलता' }, { week: 'महीना 4-6', activity: 'रिकवरी', description: 'गतिविधियों में वापसी' }], tips: ['पोस्ट-ऑप निर्देशों का पालन करें', 'थेरेपी सत्रों में भाग लें', 'क्रमिक गतिविधि वृद्धि', 'नियमित फॉलो-अप'] }
+    },
+    faqs: {
+      en: [{ question: 'What is the recovery time?', answer: 'Recovery typically takes 3-6 months depending on procedure complexity.' }, { question: 'What is the success rate?', answer: '89% success rate at Arthoscenter with Dr. Kumar.' }, { question: 'What is the cost?', answer: 'Cost ranges ₹1-3 lakhs. PMJAY/BSKY accepted. Book ₹999 consultation.' }],
+      hi: [{ question: 'रिकवरी का समय क्या है?', answer: 'प्रक्रिया जटिलता के आधार पर रिकवरी में आमतौर पर 3-6 महीने लगते हैं।' }, { question: 'सफलता दर क्या है?', answer: 'डॉ. कुमार के साथ आर्थोसेंटर में 89% सफलता दर।' }, { question: 'लागत क्या है?', answer: 'लागत ₹1-3 लाख। PMJAY/BSKY स्वीकार किया। ₹999 परामर्श बुक करें।' }]
+    },
+    meta: {
+      en: { title: 'Spinal Stenosis Surgery in India | Dr. Gurudeo Kumar', description: 'Decompression surgery for narrowed spinal canal. Expert treatment in Patna, Bihar.', keywords: ['spinal-stenosis-surgery India', 'spine-surgery Patna', 'Dr. Gurudeo Kumar Bihar'] },
+      hi: { title: 'भारत में स्पाइनल स्टेनोसिस सर्जरी', description: 'संकुचित रीढ़ की हड्डी की नहर के लिए डीकम्प्रेशन सर्जरी।', keywords: ['spinal-stenosis-surgery', 'spine-surgery'] }
+    },
+    procedureCount: 238,
+    successRate: 89,
+    relatedSurgeries: []
+  },
 };
 
 // Helper function to get surgery data
