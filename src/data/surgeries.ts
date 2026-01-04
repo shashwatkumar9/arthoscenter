@@ -13508,15 +13508,6 @@ At Arthoscenter, Dr. Kumar achieves good to excellent results in 65-80% of caref
     relatedSurgeries: ['knee-arthroscopy', 'osteochondral-grafting', 'chondroplasty']
   },
 
-  'osteogenesis-imperfecta': {
-    id: 'osteogenesis-imperfecta',
-    category: 'pediatric-ortho',
-    slug: 'osteogenesis-imperfecta',
-    title: {
-      en: 'Osteogenesis Imperfecta Treatment in India',
-      hi: 'भारत में ऑस्टियोजेनेसिस इम्परफेक्टा उपचार'
-    },
-
   'clavicle-fracture-surgery': {
     id: 'clavicle-fracture-surgery',
     category: 'trauma-care',
@@ -13913,6 +13904,15 @@ At Arthoscenter, our pediatric fracture care emphasizes family-centered treatmen
     successRate: 96,
     relatedSurgeries: ['supracondylar-humerus-fracture', 'forearm-fracture-fixation', 'femur-fracture-fixation']
   },
+
+  'osteogenesis-imperfecta': {
+    id: 'osteogenesis-imperfecta',
+    category: 'pediatric-ortho',
+    slug: 'osteogenesis-imperfecta',
+    title: {
+      en: 'Osteogenesis Imperfecta Treatment in India',
+      hi: 'भारत में ऑस्टियोजेनेसिस इम्परफेक्टा उपचार'
+    },
     shortDesc: {
       en: 'Comprehensive surgical and medical management of brittle bone disease in children.',
       hi: 'बच्चों में भंगुर हड्डी रोग का व्यापक शल्य चिकित्सा और चिकित्सा प्रबंधन।'
