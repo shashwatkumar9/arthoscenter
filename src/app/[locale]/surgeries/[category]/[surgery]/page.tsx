@@ -84,7 +84,13 @@ export default async function SurgeryPage({ params }: Props) {
   // Handle both recovery data structures (temporary fix for backward compatibility)
   const recoveryData = (surgeryData.recovery as any);
   const timeline = recoveryData[lang]?.timeline || recoveryData?.timeline?.[lang] || [];
-  const tips = recoveryData[lang]?.tips || [];
+  const tips = recoveryData[lang]?.tips || recoveryData.tips || [];
+
+  // Handle symptoms - both bilingual and non-bilingual
+  const symptoms = (surgeryData.symptoms as any)[lang] || surgeryData.symptoms || [];
+
+  // Handle FAQs - both structures
+  const faqs = (surgeryData.faqs as any)[lang] || (surgeryData.faqs as any) || [];
 
   return (
     <div className="bg-white">
@@ -158,7 +164,7 @@ export default async function SurgeryPage({ params }: Props) {
       </section>
 
       {/* Symptoms/Indications Section */}
-      {surgeryData.symptoms[lang].length > 0 && (
+      {symptoms.length > 0 && (
         <section className="py-16 bg-gradient-to-br from-red-50 to-orange-50">
           <div className="container mx-auto px-4">
             <div className="max-w-5xl mx-auto">
@@ -174,7 +180,7 @@ export default async function SurgeryPage({ params }: Props) {
                   : 'This surgery may be recommended if you experience:'}
               </p>
               <div className="grid md:grid-cols-2 gap-3">
-                {surgeryData.symptoms[lang].map((symptom, index) => (
+                {symptoms.map((symptom: string, index: number) => (
                   <div key={index} className="flex items-start gap-3 bg-white p-4 rounded-lg shadow-sm">
                     <CheckCircle className="h-5 w-5 text-red-600 flex-shrink-0 mt-0.5" />
                     <p className="text-gray-700">{symptom}</p>
@@ -206,7 +212,7 @@ export default async function SurgeryPage({ params }: Props) {
                     {lang === 'hi' ? 'अवधि' : 'Duration'}
                   </h3>
                 </div>
-                <p className="text-gray-700">{surgeryData.procedure[lang].duration}</p>
+                <p className="text-gray-700">{(surgeryData.procedure as any)[lang]?.duration || (surgeryData.procedure as any).duration}</p>
               </div>
               <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-600">
                 <div className="flex items-center gap-2 mb-2">
@@ -215,32 +221,32 @@ export default async function SurgeryPage({ params }: Props) {
                     {lang === 'hi' ? 'एनेस्थीसिया' : 'Anesthesia'}
                   </h3>
                 </div>
-                <p className="text-gray-700">{surgeryData.procedure[lang].anesthesia}</p>
+                <p className="text-gray-700">{(surgeryData.procedure as any)[lang]?.anesthesia || (surgeryData.procedure as any).anesthesia}</p>
               </div>
             </div>
 
             {/* Preparation */}
-            {surgeryData.procedure[lang].preparation && (
+            {((surgeryData.procedure as any)[lang]?.preparation || (surgeryData.procedure as any).preparation) && (
               <div className="mb-8">
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">
                   {lang === 'hi' ? 'सर्जरी की तैयारी' : 'Preparation for Surgery'}
                 </h3>
                 <div className="bg-gray-50 p-6 rounded-lg">
                   <p className="text-gray-700 leading-relaxed whitespace-pre-line">
-                    {surgeryData.procedure[lang].preparation}
+                    {(surgeryData.procedure as any)[lang]?.preparation || (surgeryData.procedure as any).preparation}
                   </p>
                 </div>
               </div>
             )}
 
             {/* Procedure Steps */}
-            {surgeryData.procedure[lang].steps.length > 0 && (
+            {((surgeryData.procedure as any)[lang]?.steps || (surgeryData.procedure as any).steps || []).length > 0 && (
               <div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">
                   {lang === 'hi' ? 'सर्जरी के चरण' : 'Surgical Steps'}
                 </h3>
                 <div className="space-y-4">
-                  {surgeryData.procedure[lang].steps.map((step, index) => (
+                  {((surgeryData.procedure as any)[lang]?.steps || (surgeryData.procedure as any).steps || []).map((step: string, index: number) => (
                     <div key={index} className="flex gap-4 bg-white border-l-4 border-blue-600 p-4 rounded-r-lg shadow-sm">
                       <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">
                         {index + 1}
@@ -306,7 +312,7 @@ export default async function SurgeryPage({ params }: Props) {
       )}
 
       {/* FAQs Section */}
-      {surgeryData.faqs[lang].length > 0 && (
+      {faqs.length > 0 && (
         <section className="py-16">
           <div className="container mx-auto px-4">
             <div className="max-w-5xl mx-auto">
@@ -319,14 +325,14 @@ export default async function SurgeryPage({ params }: Props) {
                   : 'Common questions about this procedure'}
               </p>
               <div className="space-y-6">
-                {surgeryData.faqs[lang].map((faq, index) => (
+                {faqs.map((faq: any, index: number) => (
                   <div key={index} className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:border-blue-400 transition">
                     <h3 className="font-bold text-gray-900 text-lg mb-3 flex items-start gap-3">
                       <span className="text-blue-600 flex-shrink-0">Q{index + 1}.</span>
-                      <span>{faq.question}</span>
+                      <span>{faq.question?.[lang] || faq.question}</span>
                     </h3>
                     <div className="ml-9 text-gray-700 leading-relaxed whitespace-pre-line">
-                      {faq.answer}
+                      {faq.answer?.[lang] || faq.answer}
                     </div>
                   </div>
                 ))}
