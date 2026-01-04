@@ -27,11 +27,11 @@ export default async function HomePage() {
                 Book Online Consultation - ₹999
               </Link>
               <a
-                href="tel:+919876543210"
+                href="tel:+917258065424"
                 className="inline-flex items-center justify-center bg-blue-500 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-400 transition shadow-lg"
               >
                 <Phone className="mr-2 h-5 w-5" />
-                Call +91 98765 43210
+                Call +91 72580 65424
               </a>
             </div>
           </div>
@@ -462,10 +462,10 @@ export default async function HomePage() {
                 Book Online Consultation - ₹999
               </Link>
               <a
-                href="tel:+919876543210"
+                href="tel:+917258065424"
                 className="inline-block bg-white text-gray-900 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition shadow-lg"
               >
-                Call +91 98765 43210
+                Call +91 72580 65424
               </a>
             </div>
           </div>

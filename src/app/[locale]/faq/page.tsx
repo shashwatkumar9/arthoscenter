@@ -20,7 +20,7 @@ const faqs: FAQ[] = [
   {
     category: 'General',
     question: 'Where is Arthoscenter located?',
-    answer: 'We are located near AIIMS in Patna, Bihar 800001. You can find detailed directions on our Contact page or call us at +91 98765 43210 for assistance.'
+    answer: 'We are located near AIIMS in Patna, Bihar 800001. You can find detailed directions on our Contact page or call us at +91 72580 65424 for assistance.'
   },
   {
     category: 'General',
@@ -32,7 +32,7 @@ const faqs: FAQ[] = [
   {
     category: 'Appointments',
     question: 'How do I book an appointment?',
-    answer: 'You can book an appointment in three ways: (1) Book an online consultation through our website for ₹999, (2) Call us directly at +91 98765 43210, or (3) Visit our center in person. Online consultations are conducted via Google Meet and can be scheduled at your convenience.'
+    answer: 'You can book an appointment in three ways: (1) Book an online consultation through our website for ₹999, (2) Call us directly at +91 72580 65424, or (3) Visit our center in person. Online consultations are conducted via Google Meet and can be scheduled at your convenience.'
   },
   {
     category: 'Appointments',
@@ -120,7 +120,7 @@ const faqs: FAQ[] = [
   {
     category: 'Conditions',
     question: 'What should I do in case of a fracture or sports injury?',
-    answer: 'For emergencies, call us immediately at +91 98765 43210 or visit our center. We provide 24/7 emergency orthopaedic care. For fractures, immobilize the area, apply ice, and avoid movement until medical help arrives. For sports injuries, follow the R.I.C.E. protocol (Rest, Ice, Compression, Elevation) and seek medical attention promptly.'
+    answer: 'For emergencies, call us immediately at +91 72580 65424 or visit our center. We provide 24/7 emergency orthopaedic care. For fractures, immobilize the area, apply ice, and avoid movement until medical help arrives. For sports injuries, follow the R.I.C.E. protocol (Rest, Ice, Compression, Elevation) and seek medical attention promptly.'
   },
 
   // Technology & Safety
@@ -253,11 +253,11 @@ export default function FAQPage() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
-                  href="tel:+919876543210"
+                  href="tel:+917258065424"
                   className="inline-flex items-center justify-center bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-700 transition shadow-lg"
                 >
                   <Phone className="mr-2 h-5 w-5" />
-                  Call +91 98765 43210
+                  Call +91 72580 65424
                 </a>
                 <Link
                   href="/en/consultation"

@@ -100,7 +100,7 @@ export function generateConsultationConfirmationEmail(data: ConsultationEmailDat
                 If you need to reschedule or have any questions, please contact us at:
               </p>
               <p style="color: #2563eb; font-size: 16px; line-height: 1.6; margin: 10px 0;">
-                📞 +91 98765 43210<br>
+                📞 +91 72580 65424<br>
                 ✉️ info@arthoscenter.com
               </p>
 

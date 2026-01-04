@@ -119,10 +119,10 @@ export default async function AllSurgeriesPage({ params }: Props) {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:+919876543210"
+              href="tel:+917258065424"
               className="inline-flex items-center justify-center px-8 py-4 bg-white text-blue-600 font-semibold rounded-lg hover:bg-blue-50 transition-colors"
             >
-              {lang === 'hi' ? 'अभी कॉल करें: +91 98765 43210' : 'Call Now: +91 98765 43210'}
+              {lang === 'hi' ? 'अभी कॉल करें: +91 72580 65424' : 'Call Now: +91 72580 65424'}
             </a>
             <Link
               href={`/${locale}/contact`}

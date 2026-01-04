@@ -198,7 +198,7 @@ export default function BookAppointmentPage() {
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="h-5 w-5 text-blue-600 flex-shrink-0 mt-0.5" />
                   <span>
-                    For emergency cases, please call +91 98765 43210 directly
+                    For emergency cases, please call +91 72580 65424 directly
                   </span>
                 </li>
               </ul>

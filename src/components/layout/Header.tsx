@@ -21,9 +21,9 @@ export function Header() {
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between text-sm">
             <div className="flex items-center gap-4">
-              <a href="tel:+919876543210" className="flex items-center gap-1 hover:text-blue-100">
+              <a href="tel:+917258065424" className="flex items-center gap-1 hover:text-blue-100">
                 <Phone className="h-4 w-4" />
-                <span>+91 98765 43210</span>
+                <span>+91 72580 65424</span>
               </a>
               <span className="hidden md:inline">Mon-Sat: 9:00 AM - 6:00 PM</span>
             </div>
