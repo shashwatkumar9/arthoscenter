@@ -81,6 +81,11 @@ export default async function SurgeryPage({ params }: Props) {
     .filter(Boolean)
     .slice(0, 4);
 
+  // Handle both recovery data structures (temporary fix for backward compatibility)
+  const recoveryData = (surgeryData.recovery as any);
+  const timeline = recoveryData[lang]?.timeline || recoveryData?.timeline?.[lang] || [];
+  const tips = recoveryData[lang]?.tips || [];
+
   return (
     <div className="bg-white">
       {/* Breadcrumb */}
@@ -251,7 +256,7 @@ export default async function SurgeryPage({ params }: Props) {
       </section>
 
       {/* Recovery Timeline Section */}
-      {surgeryData.recovery[lang].timeline.length > 0 && (
+      {timeline.length > 0 && (
         <section className="py-16 bg-gradient-to-br from-green-50 to-emerald-50">
           <div className="container mx-auto px-4">
             <div className="max-w-5xl mx-auto">
@@ -264,14 +269,14 @@ export default async function SurgeryPage({ params }: Props) {
                   : 'What to expect during your recovery journey'}
               </p>
               <div className="space-y-4">
-                {surgeryData.recovery[lang].timeline.map((item, index) => (
+                {timeline.map((item: any, index: number) => (
                   <div key={index} className="bg-white p-6 rounded-lg shadow-sm border-l-4 border-green-600">
                     <div className="flex items-start gap-4">
                       <div className="flex-shrink-0 bg-green-100 text-green-700 px-4 py-2 rounded-lg font-bold text-sm">
-                        {item.week}
+                        {item.week || item.phase}
                       </div>
                       <div className="flex-1">
-                        <h3 className="font-bold text-gray-900 text-lg mb-2">{item.activity}</h3>
+                        {item.activity && <h3 className="font-bold text-gray-900 text-lg mb-2">{item.activity}</h3>}
                         <p className="text-gray-700">{item.description}</p>
                       </div>
                     </div>
@@ -280,13 +285,13 @@ export default async function SurgeryPage({ params }: Props) {
               </div>
 
               {/* Recovery Tips */}
-              {surgeryData.recovery[lang].tips.length > 0 && (
+              {tips.length > 0 && (
                 <div className="mt-8">
                   <h3 className="text-2xl font-bold text-gray-900 mb-4">
                     {lang === 'hi' ? 'तेजी से ठीक होने के टिप्स' : 'Tips for Faster Recovery'}
                   </h3>
                   <div className="grid md:grid-cols-2 gap-3">
-                    {surgeryData.recovery[lang].tips.map((tip, index) => (
+                    {tips.map((tip: string, index: number) => (
                       <div key={index} className="flex items-start gap-3 bg-white p-4 rounded-lg shadow-sm">
                         <CheckCircle className="h-5 w-5 text-green-600 flex-shrink-0 mt-0.5" />
                         <p className="text-gray-700">{tip}</p>
