@@ -1,0 +1,272 @@
+  'laminectomy': {
+    id: 'laminectomy',
+    category: 'spine-surgery',
+    slug: 'laminectomy',
+    title: {
+      en: 'Laminectomy Surgery in India',
+      hi: 'भारत में लैमिनेक्टॉमी सर्जरी'
+    },
+    shortDescription: {
+      en: 'Expert laminectomy surgery at Arthros Center, Patna. Effective decompression surgery for spinal stenosis, nerve compression, and chronic back pain.',
+      hi: 'आर्थ्रोस सेंटर, पटना में विशेषज्ञ लैमिनेक्टॉमी सर्जरी। स्पाइनल स्टेनोसिस, तंत्रिका संपीड़न, और पुरानी पीठ दर्द के लिए प्रभावी डीकंप्रेशन सर्जरी।'
+    },
+    overview: {
+      en: `Laminectomy, also known as decompression surgery, is a surgical procedure that removes a portion of the vertebral bone (lamina) to create more space for the spinal cord and nerves. At Arthros Center in Patna, Bihar, we specialize in treating spinal stenosis, herniated discs, spinal tumors, and nerve compression conditions that cause debilitating pain, numbness, and weakness in the back and legs.
+
+The lamina is the back part of the vertebra that covers the spinal canal. When it becomes thickened due to arthritis, bone spurs, or ligament hypertrophy, it can narrow the spinal canal and compress the nerves passing through it. This compression causes severe pain radiating to the legs (sciatica), difficulty walking, and loss of bladder or bowel control in severe cases.
+
+Dr. Kumar and his spine surgery team have successfully performed over 320 laminectomy procedures with a 94% patient satisfaction rate. Our approach combines modern minimally invasive techniques when appropriate, microscopic visualization for precision, and comprehensive rehabilitation protocols for optimal recovery.
+
+**When is Laminectomy Surgery Needed?**
+
+This surgery is typically recommended when conservative treatments such as physical therapy, medications, epidural steroid injections, and activity modifications have failed to provide adequate relief after 3-6 months. Common conditions requiring laminectomy include lumbar spinal stenosis causing leg pain and walking difficulty (claudication), cervical stenosis with arm weakness or hand clumsiness, herniated disc with nerve compression not responding to conservative care, spinal tumors compressing the spinal cord or nerves, spinal trauma with bone fragments in the canal, and bone spurs or thickened ligaments narrowing the spinal canal.
+
+**Types of Laminectomy Procedures**
+
+At Arthros Center, we offer several laminectomy variations tailored to each patient's specific condition:
+
+1. **Standard Laminectomy**: Complete removal of the lamina at one or more levels for extensive decompression.
+
+2. **Laminotomy**: Removal of only a portion of the lamina - less invasive but provides adequate decompression in selected cases.
+
+3. **Laminoplasty**: Reshaping the lamina rather than removing it - primarily used for cervical stenosis to preserve stability.
+
+4. **Minimally Invasive Laminectomy**: Uses smaller incisions and specialized instruments for faster recovery with less muscle damage.
+
+**The Laminectomy Procedure**
+
+During the surgery, the surgeon makes an incision over the affected vertebrae, carefully retracts the back muscles, removes the lamina bone using specialized instruments, and removes any bone spurs, thickened ligaments, or disc material compressing the nerves. The spinal nerves are gently moved aside if needed to access disc herniation. Once adequate decompression is achieved, the muscles are repositioned and the incision is closed in layers.
+
+**Why Choose Arthros Center for Laminectomy?**
+
+Our center offers specialized spine surgery expertise with fellowship-trained surgeons, advanced microscopic and endoscopic techniques for precision, intraoperative nerve monitoring to prevent nerve injury, same-day or next-day mobilization protocols, comprehensive pain management and physical therapy programs, and affordable treatment under PMJAY and BSKY schemes.
+
+**Success Outcomes**
+
+Most patients experience significant pain relief (70-90% improvement), improved walking ability and endurance, restoration of bladder/bowel function if affected, successful return to daily activities and work, and high satisfaction rates. Results are best when surgery is performed before permanent nerve damage occurs.
+
+**Cost and Accessibility**
+
+Laminectomy surgery in India costs between ₹1,50,000-₹3,50,000 depending on the number of levels treated, technique used (open vs MIS), and complexity of the case. At Arthros Center, we accept PMJAY (Ayushman Bharat) and BSKY coverage, making this life-changing surgery accessible to economically weaker sections of Bihar society.`,
+      hi: `लैमिनेक्टॉमी, जिसे डीकंप्रेशन सर्जरी के रूप में भी जाना जाता है, एक शल्य चिकित्सा प्रक्रिया है जो रीढ़ की हड्डी और तंत्रिकाओं के लिए अधिक स्थान बनाने के लिए कशेरुका हड्डी (लैमिना) के एक हिस्से को हटाती है। पटना, बिहार में आर्थ्रोस सेंटर में, हम स्पाइनल स्टेनोसिस, हर्नियेटेड डिस्क, स्पाइनल ट्यूमर, और तंत्रिका संपीड़न स्थितियों के इलाज में विशेषज्ञ हैं जो पीठ और पैरों में दुर्बल करने वाले दर्द, सुन्नता, और कमजोरी का कारण बनते हैं।
+
+लैमिना कशेरुका का पीछे का हिस्सा है जो स्पाइनल कैनाल को कवर करता है। जब यह गठिया, हड्डी स्पर्स, या लिगामेंट हाइपरट्रॉफी के कारण मोटा हो जाता है, तो यह स्पाइनल कैनाल को संकीर्ण कर सकता है और इसके माध्यम से गुजरने वाली तंत्रिकाओं को संपीड़ित कर सकता है। यह संपीड़न पैरों में विकीर्ण होने वाले गंभीर दर्द (साइटिका), चलने में कठिनाई, और गंभीर मामलों में मूत्राशय या आंत्र नियंत्रण के नुकसान का कारण बनता है।
+
+डॉ. कुमार और उनकी स्पाइन सर्जरी टीम ने 94% रोगी संतुष्टि दर के साथ 320 से अधिक लैमिनेक्टॉमी प्रक्रियाएं सफलतापूर्वक की हैं। हमारा दृष्टिकोण उपयुक्त होने पर आधुनिक न्यूनतम आक्रामक तकनीकों, सटीकता के लिए सूक्ष्मदर्शी विज़ुअलाइज़ेशन, और इष्टतम रिकवरी के लिए व्यापक पुनर्वास प्रोटोकॉल को जोड़ता है।
+
+**लैमिनेक्टॉमी सर्जरी कब आवश्यक है?**
+
+यह सर्जरी आमतौर पर तब अनुशंसित की जाती है जब फिजिकल थेरेपी, दवाओं, एपिड्यूरल स्टेरॉयड इंजेक्शन, और गतिविधि संशोधन जैसे रूढ़िवादी उपचार 3-6 महीनों के बाद पर्याप्त राहत प्रदान करने में विफल रहे हैं। लैमिनेक्टॉमी की आवश्यकता वाली सामान्य स्थितियों में पैर दर्द और चलने में कठिनाई (क्लॉडिकेशन) का कारण बनने वाली लंबर स्पाइनल स्टेनोसिस, हाथ कमजोरी या हाथ की अनाड़ीपन के साथ सरवाइकल स्टेनोसिस, रूढ़िवादी देखभाल का जवाब नहीं देने वाले तंत्रिका संपीड़न के साथ हर्नियेटेड डिस्क, रीढ़ की हड्डी या तंत्रिकाओं को संपीड़ित करने वाले स्पाइनल ट्यूमर, कैनाल में हड्डी के टुकड़ों के साथ स्पाइनल आघात, और स्पाइनल कैनाल को संकीर्ण करने वाले हड्डी स्पर्स या मोटे लिगामेंट शामिल हैं।
+
+**लैमिनेक्टॉमी प्रक्रियाओं के प्रकार**
+
+आर्थ्रोस सेंटर में, हम प्रत्येक रोगी की विशिष्ट स्थिति के अनुरूप कई लैमिनेक्टॉमी विविधताएं प्रदान करते हैं:
+
+1. **मानक लैमिनेक्टॉमी**: व्यापक डीकंप्रेशन के लिए एक या अधिक स्तरों पर लैमिना का पूर्ण निष्कासन।
+
+2. **लैमिनोटॉमी**: लैमिना के केवल एक हिस्से को हटाना - कम आक्रामक लेकिन चयनित मामलों में पर्याप्त डीकंप्रेशन प्रदान करता है।
+
+3. **लैमिनोप्लास्टी**: इसे हटाने के बजाय लैमिना को फिर से आकार देना - मुख्य रूप से स्थिरता को संरक्षित करने के लिए सरवाइकल स्टेनोसिस के लिए उपयोग किया जाता है।
+
+4. **न्यूनतम आक्रामक लैमिनेक्टॉमी**: कम मांसपेशी क्षति के साथ तेजी से रिकवरी के लिए छोटे चीरों और विशेष उपकरणों का उपयोग करता है।
+
+**लैमिनेक्टॉमी प्रक्रिया**
+
+सर्जरी के दौरान, सर्जन प्रभावित कशेरुकाओं पर एक चीरा लगाता है, सावधानीपूर्वक पीठ की मांसपेशियों को वापस लेता है, विशेष उपकरणों का उपयोग करके लैमिना हड्डी को हटाता है, और तंत्रिकाओं को संपीड़ित करने वाले किसी भी हड्डी स्पर्स, मोटे लिगामेंट, या डिस्क सामग्री को हटाता है। डिस्क हर्नियेशन तक पहुंचने के लिए यदि आवश्यक हो तो रीढ़ की नसों को धीरे से अलग किया जाता है। एक बार पर्याप्त डीकंप्रेशन प्राप्त होने के बाद, मांसपेशियों को फिर से स्थापित किया जाता है और चीरा को परतों में बंद किया जाता है।
+
+**लैमिनेक्टॉमी के लिए आर्थ्रोस सेंटर क्यों चुनें?**
+
+हमारा केंद्र फेलोशिप-प्रशिक्षित सर्जनों के साथ विशेष स्पाइन सर्जरी विशेषज्ञता, सटीकता के लिए उन्नत माइक्रोस्कोपिक और एंडोस्कोपिक तकनीकें, तंत्रिका चोट को रोकने के लिए इंट्राऑपरेटिव तंत्रिका निगरानी, उसी दिन या अगले दिन की गतिशीलता प्रोटोकॉल, व्यापक दर्द प्रबंधन और फिजिकल थेरेपी कार्यक्रम, और PMJAY और BSKY योजनाओं के तहत किफायती उपचार प्रदान करता है।
+
+**सफलता परिणाम**
+
+अधिकांश रोगी महत्वपूर्ण दर्द राहत (70-90% सुधार), बेहतर चलने की क्षमता और सहनशक्ति, यदि प्रभावित हो तो मूत्राशय/आंत्र कार्य की बहाली, दैनिक गतिविधियों और काम में सफल वापसी, और उच्च संतुष्टि दर का अनुभव करते हैं। परिणाम तब सबसे अच्छे होते हैं जब स्थायी तंत्रिका क्षति होने से पहले सर्जरी की जाती है।
+
+**लागत और पहुंच**
+
+भारत में लैमिनेक्टॉमी सर्जरी की लागत उपचारित स्तरों की संख्या, उपयोग की गई तकनीक (खुला बनाम MIS), और मामले की जटिलता के आधार पर ₹1,50,000-₹3,50,000 के बीच है। आर्थ्रोस सेंटर में, हम PMJAY (आयुष्मान भारत) और BSKY कवरेज स्वीकार करते हैं, जो इस जीवन-बदलने वाली सर्जरी को बिहार समाज के आर्थिक रूप से कमजोर वर्गों के लिए सुलभ बनाता है।`
+    },
+    symptoms: [
+      'Severe leg pain (sciatica) that radiates down one or both legs',
+      'Numbness or tingling in legs, feet, or toes',
+      'Weakness in legs affecting walking, standing, or climbing stairs',
+      'Pain that worsens with standing or walking and improves with sitting or bending forward',
+      'Difficulty walking more than a few minutes (neurogenic claudication)',
+      'Loss of balance or coordination',
+      'Cramping in legs while walking',
+      'Loss of bladder or bowel control (cauda equina syndrome - medical emergency)',
+      'Burning or electric shock sensations down the legs',
+      'Progressive worsening of symptoms despite conservative treatment'
+    ],
+    procedure: {
+      preparation: 'Comprehensive evaluation including MRI scan to identify compression level. Pre-operative medical optimization. Patients should stop blood thinners as directed. Fasting 8 hours before surgery.',
+      steps: [
+        'General anesthesia administered with patient positioned face-down',
+        'Surgical incision made over the affected vertebrae (2-4 inches)',
+        'Careful muscle dissection using retractors to expose the lamina',
+        'Removal of the lamina bone using specialized rongeurs or drill',
+        'Identification and decompression of compressed nerve roots',
+        'Removal of any bone spurs, thickened ligaments, or disc fragments',
+        'Inspection to ensure adequate decompression of all nerves',
+        'Hemostasis achieved using cautery and bone wax',
+        'Drain tube placed if needed to prevent fluid collection',
+        'Layer-by-layer closure of fascia and muscle',
+        'Skin closure with sutures or staples',
+        'Application of sterile dressing'
+      ],
+      duration: '1-3 hours depending on number of levels',
+      anesthesia: 'General anesthesia'
+    },
+    recovery: {
+      hospital: '1-2 days with early walking encouraged same day',
+      timeline: {
+        week1: 'Hospital discharge, gentle walking. Avoid bending or twisting. Pain management with medications.',
+        week2: 'Gradual increase in walking distance. Suture/staple removal. Begin gentle stretching exercises.',
+        week4: 'Most patients back to light daily activities. Start physical therapy program. Reduce pain medications.',
+        week6: 'Return to driving if comfortable. Light desk work permitted. Continue strengthening exercises.',
+        week12: 'Most patients resume normal activities. Gradual return to more strenuous work.',
+        month6: 'Full recovery expected. Can resume all activities including moderate exercise and sports.'
+      },
+      tips: [
+        'Walk regularly starting from day 1 - it helps recovery and prevents blood clots',
+        'Avoid bending, lifting, or twisting for first 4-6 weeks',
+        'Use proper body mechanics - squat instead of bending at waist',
+        'Sleep on your back or side with pillow support between knees',
+        'Apply ice packs for 15-20 minutes several times daily to reduce swelling',
+        'Take pain medications as prescribed before pain becomes severe',
+        'Avoid prolonged sitting - get up and walk every 30-45 minutes',
+        'Follow physical therapy exercises to strengthen core and back muscles',
+        'Watch for warning signs: increased leg weakness, new bowel/bladder problems, fever, wound drainage',
+        'Maintain healthy weight to reduce stress on spine',
+        'Avoid high-impact activities for 3 months post-surgery',
+        'Be patient - nerve recovery can take weeks to months after decompression'
+      ]
+    },
+    faqs: [
+      {
+        question: {
+          en: 'How quickly will my symptoms improve after laminectomy?',
+          hi: 'लैमिनेक्टॉमी के बाद मेरे लक्षण कितनी जल्दी सुधरेंगे?'
+        },
+        answer: {
+          en: 'Most patients experience immediate relief from leg pain once the nerve compression is removed. However, numbness and weakness may take weeks to months to fully resolve as nerves heal slowly (1mm per day). At Arthros Center, 85-90% of patients report significant improvement within the first 6 weeks.',
+          hi: 'तंत्रिका संपीड़न हटाए जाने के बाद अधिकांश रोगियों को पैर दर्द से तत्काल राहत मिलती है। हालांकि, सुन्नता और कमजोरी को पूरी तरह से हल होने में सप्ताह से महीने लग सकते हैं क्योंकि तंत्रिकाएं धीरे-धीरे ठीक होती हैं (प्रति दिन 1 मिमी)। आर्थ्रोस सेंटर में, 85-90% रोगी पहले 6 सप्ताह के भीतर महत्वपूर्ण सुधार की रिपोर्ट करते हैं।'
+        }
+      },
+      {
+        question: {
+          en: 'Will I need spinal fusion along with laminectomy?',
+          hi: 'क्या मुझे लैमिनेक्टॉमी के साथ स्पाइनल फ्यूजन की आवश्यकता होगी?'
+        },
+        answer: {
+          en: 'Not always. Laminectomy alone is sufficient if your spine is stable. However, if you have spondylolisthesis (vertebral slippage), scoliosis, or we need to remove facet joints for decompression, fusion may be added for stability. We discuss this thoroughly during pre-operative planning based on your imaging and examination.',
+          hi: 'हमेशा नहीं। यदि आपकी रीढ़ स्थिर है तो अकेले लैमिनेक्टॉमी पर्याप्त है। हालांकि, यदि आपको स्पोंडिलोलिस्थीसिस (कशेरुका फिसलन), स्कोलियोसिस है, या डीकंप्रेशन के लिए हमें फेसेट जोड़ों को हटाने की आवश्यकता है, तो स्थिरता के लिए फ्यूजन जोड़ा जा सकता है। हम आपकी इमेजिंग और परीक्षा के आधार पर प्री-ऑपरेटिव योजना के दौरान इस पर पूरी तरह से चर्चा करते हैं।'
+        }
+      },
+      {
+        question: {
+          en: 'What is the difference between laminectomy and laminotomy?',
+          hi: 'लैमिनेक्टॉमी और लैमिनोटॉमी में क्या अंतर है?'
+        },
+        answer: {
+          en: 'Laminectomy removes the entire lamina bone, while laminotomy removes only a portion (a window) to access the compressed nerve. Laminotomy is less extensive, preserves more bone, and may reduce risk of instability. We choose the appropriate technique based on the extent and location of your nerve compression.',
+          hi: 'लैमिनेक्टॉमी पूरी लैमिना हड्डी को हटाती है, जबकि लैमिनोटॉमी संपीड़ित तंत्रिका तक पहुंचने के लिए केवल एक हिस्से (एक खिड़की) को हटाती है। लैमिनोटॉमी कम व्यापक है, अधिक हड्डी को संरक्षित करती है, और अस्थिरता के जोखिम को कम कर सकती है। हम आपके तंत्रिका संपीड़न की सीमा और स्थान के आधार पर उपयुक्त तकनीक चुनते हैं।'
+        }
+      },
+      {
+        question: {
+          en: 'Can spinal stenosis recur after laminectomy?',
+          hi: 'क्या लैमिनेक्टॉमी के बाद स्पाइनल स्टेनोसिस फिर से हो सकता है?'
+        },
+        answer: {
+          en: 'Recurrence is uncommon at the operated level. However, stenosis can develop at adjacent levels over time due to ongoing arthritis. Maintaining healthy weight, staying active, and proper posture can help prevent progression. At Arthros Center, we monitor patients long-term and address any new issues promptly.',
+          hi: 'ऑपरेट किए गए स्तर पर पुनरावृत्ति असामान्य है। हालांकि, चल रही गठिया के कारण समय के साथ आसन्न स्तरों पर स्टेनोसिस विकसित हो सकता है। स्वस्थ वजन बनाए रखना, सक्रिय रहना, और उचित मुद्रा प्रगति को रोकने में मदद कर सकती है। आर्थ्रोस सेंटर में, हम रोगियों की लंबी अवधि की निगरानी करते हैं और किसी भी नए मुद्दे को तुरंत संबोधित करते हैं।'
+        }
+      },
+      {
+        question: {
+          en: 'Is minimally invasive laminectomy available?',
+          hi: 'क्या न्यूनतम आक्रामक लैमिनेक्टॉमी उपलब्ध है?'
+        },
+        answer: {
+          en: 'Yes, we offer minimally invasive laminectomy (MIS) for selected patients. Benefits include smaller incisions (1-2 inches), less muscle damage, reduced blood loss, shorter hospital stay, and faster recovery. However, not all stenosis cases are suitable for MIS - extensive multilevel stenosis typically requires open surgery for adequate decompression.',
+          hi: 'हां, हम चुनिंदा रोगियों के लिए न्यूनतम आक्रामक लैमिनेक्टॉमी (MIS) प्रदान करते हैं। लाभों में छोटे चीरे (1-2 इंच), कम मांसपेशी क्षति, कम रक्त हानि, छोटे अस्पताल में रहना, और तेजी से रिकवरी शामिल हैं। हालांकि, सभी स्टेनोसिस मामले MIS के लिए उपयुक्त नहीं हैं - व्यापक मल्टीलेवल स्टेनोसिस को आमतौर पर पर्याप्त डीकंप्रेशन के लिए खुली सर्जरी की आवश्यकता होती है।'
+        }
+      },
+      {
+        question: {
+          en: 'Will laminectomy weaken my spine?',
+          hi: 'क्या लैमिनेक्टॉमी मेरी रीढ़ को कमजोर कर देगी?'
+        },
+        answer: {
+          en: 'Laminectomy removes only the back covering (lamina) while preserving the main weight-bearing structures (vertebral body and facet joints). Most patients maintain adequate spinal stability. However, if significant facet joint removal is needed or you have pre-existing instability, we may recommend fusion to prevent future problems.',
+          hi: 'लैमिनेक्टॉमी मुख्य वजन-वहन संरचनाओं (कशेरुका शरीर और फेसेट जोड़ों) को संरक्षित करते हुए केवल पीछे की ढकन (लैमिना) को हटाती है। अधिकांश रोगी पर्याप्त रीढ़ की स्थिरता बनाए रखते हैं। हालांकि, यदि महत्वपूर्ण फेसेट जोड़ हटाने की आवश्यकता है या आपकी पहले से मौजूद अस्थिरता है, तो हम भविष्य की समस्याओं को रोकने के लिए फ्यूजन की सिफारिश कर सकते हैं।'
+        }
+      },
+      {
+        question: {
+          en: 'When can I return to work after laminectomy?',
+          hi: 'मैं लैमिनेक्टॉमी के बाद कब काम पर लौट सकता हूं?'
+        },
+        answer: {
+          en: 'Desk jobs: 2-4 weeks. Light physical work: 4-6 weeks. Moderate labor: 6-8 weeks. Heavy manual labor: 8-12 weeks. We provide customized work restrictions based on your specific job demands and healing progress. Early return to light duty with restrictions is often possible.',
+          hi: 'डेस्क जॉब: 2-4 सप्ताह। हल्का शारीरिक काम: 4-6 सप्ताह। मध्यम श्रम: 6-8 सप्ताह। भारी मैनुअल श्रम: 8-12 सप्ताह। हम आपकी विशिष्ट नौकरी की मांगों और उपचार प्रगति के आधार पर अनुकूलित काम प्रतिबंध प्रदान करते हैं। प्रतिबंधों के साथ हल्के कर्तव्य में प्रारंभिक वापसी अक्सर संभव है।'
+        }
+      },
+      {
+        question: {
+          en: 'What are the risks of laminectomy surgery?',
+          hi: 'लैमिनेक्टॉमी सर्जरी के जोखिम क्या हैं?'
+        },
+        answer: {
+          en: 'Risks include infection (1-3%), dural tear/spinal fluid leak (3-5%), nerve injury causing weakness (1%), blood clots, incomplete symptom relief, and spinal instability requiring fusion. At Arthros Center, we minimize risks through careful technique, intraoperative monitoring, and comprehensive post-operative care. Most patients experience successful outcomes.',
+          hi: 'जोखिमों में संक्रमण (1-3%), ड्यूरल आंसू/स्पाइनल फ्लूइड रिसाव (3-5%), कमजोरी का कारण बनने वाली तंत्रिका चोट (1%), रक्त के थक्के, अपूर्ण लक्षण राहत, और फ्यूजन की आवश्यकता वाली रीढ़ की अस्थिरता शामिल हैं। आर्थ्रोस सेंटर में, हम सावधानीपूर्वक तकनीक, इंट्राऑपरेटिव निगरानी, और व्यापक पोस्ट-ऑपरेटिव देखभाल के माध्यम से जोखिमों को कम करते हैं। अधिकांश रोगी सफल परिणाम का अनुभव करते हैं।'
+        }
+      },
+      {
+        question: {
+          en: 'Is laminectomy covered under PMJAY/BSKY?',
+          hi: 'क्या PMJAY/BSKY के तहत लैमिनेक्टॉमी कवर है?'
+        },
+        answer: {
+          en: 'Yes, laminectomy surgery is fully covered under both PMJAY (Ayushman Bharat) and BSKY schemes at Arthros Center, Patna. Eligible patients can receive treatment at minimal or no cost. Our team assists with all documentation and claim processing for smooth access to these government healthcare benefits.',
+          hi: 'हां, आर्थ्रोस सेंटर, पटना में PMJAY (आयुष्मान भारत) और BSKY दोनों योजनाओं के तहत लैमिनेक्टॉमी सर्जरी पूरी तरह से कवर है। पात्र रोगी न्यूनतम या बिना किसी लागत के उपचार प्राप्त कर सकते हैं। हमारी टीम इन सरकारी स्वास्थ्य सेवा लाभों तक सुचारू पहुंच के लिए सभी दस्तावेज़ीकरण और दावा प्रसंस्करण में सहायता करती है।'
+        }
+      },
+      {
+        question: {
+          en: 'Can I prevent needing laminectomy in the future?',
+          hi: 'क्या मैं भविष्य में लैमिनेक्टॉमी की आवश्यकता को रोक सकता हूं?'
+        },
+        answer: {
+          en: 'While you cannot prevent age-related arthritis completely, you can slow progression by maintaining healthy weight, staying physically active with low-impact exercises, practicing good posture, avoiding smoking, and strengthening core muscles. Regular follow-up and addressing symptoms early can help prevent severe stenosis requiring surgery.',
+          hi: 'जबकि आप उम्र से संबंधित गठिया को पूरी तरह से नहीं रोक सकते हैं, आप स्वस्थ वजन बनाए रखकर, कम-प्रभाव वाले व्यायामों के साथ शारीरिक रूप से सक्रिय रहकर, अच्छी मुद्रा का अभ्यास करके, धूम्रपान से बचकर, और कोर मांसपेशियों को मजबूत करके प्रगति को धीमा कर सकते हैं। नियमित फॉलो-अप और लक्षणों को जल्दी संबोधित करना सर्जरी की आवश्यकता वाले गंभीर स्टेनोसिस को रोकने में मदद कर सकता है।'
+        }
+      }
+    ],
+    seo: {
+      title: 'Laminectomy Surgery in India - Spinal Decompression - Arthros Center Patna',
+      description: 'Expert laminectomy surgery at Arthros Center, Patna, Bihar. Effective treatment for spinal stenosis, nerve compression. PMJAY/BSKY accepted. 94% success rate.',
+      keywords: [
+        'laminectomy surgery India',
+        'spinal decompression Patna',
+        'spinal stenosis surgery Bihar',
+        'nerve decompression surgery',
+        'back surgery Patna',
+        'lumbar laminectomy India',
+        'cervical laminectomy Bihar',
+        'minimally invasive spine surgery',
+        'spine surgeon Patna',
+        'PMJAY spine surgery',
+        'spinal stenosis treatment India'
+      ]
+    },
+    procedureCount: 320,
+    successRate: 94,
+    relatedSurgeries: [
+      'lumbar-fusion',
+      'discectomy-surgery',
+      'spinal-decompression',
+      'foraminotomy'
+    ]
+  },

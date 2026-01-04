@@ -1,0 +1,320 @@
+,
+
+  'wrist-replacement': {
+    id: 'wrist-replacement',
+    category: 'joint-replacement',
+    slug: 'wrist-replacement',
+    title: {
+      en: 'Wrist Replacement Surgery in India',
+      hi: 'भारत में कलाई प्रतिस्थापन सर्जरी'
+    },
+    shortDesc: {
+      en: 'Advanced wrist joint replacement for severe arthritis and wrist pain relief.',
+      hi: 'गंभीर गठिया और कलाई दर्द राहत के लिए उन्नत कलाई जोड़ प्रतिस्थापन।'
+    },
+    overview: {
+      en: `Wrist Replacement Surgery, also called Total Wrist Arthroplasty, is an advanced surgical procedure designed to replace a severely damaged wrist joint with artificial components, providing pain relief and restoring function for patients with debilitating wrist arthritis or injury. The wrist is a complex joint system comprising eight small carpal bones connecting the forearm (radius and ulna) to the hand, allowing for intricate movements essential for daily activities.
+
+Dr. Gurudeo Kumar at Arthoscenter brings extensive experience in upper extremity surgery, having performed numerous wrist replacement procedures with excellent outcomes. While wrist replacement is less common than knee or hip replacement due to the complexity of wrist biomechanics and the availability of alternative treatments like wrist fusion, it offers significant advantages for select patients, particularly those requiring bilateral wrist use for work or daily activities.
+
+Modern wrist implants consist of metal and plastic components that replicate the natural gliding motion of the wrist joint. The procedure involves removing damaged bone and cartilage from the radius and carpal bones, then inserting precisely designed prosthetic components that allow for flexion, extension, and some degree of side-to-side movement. Success rates for wrist replacement have improved dramatically with newer implant designs, achieving 80-90% good to excellent results at 5-10 years.
+
+Ideal candidates for wrist replacement include patients with severe rheumatoid arthritis, post-traumatic arthritis following wrist fractures, advanced osteoarthritis, or avascular necrosis who have failed conservative treatments and desire to maintain wrist motion (as opposed to wrist fusion which eliminates motion but provides stability). The procedure is particularly beneficial for elderly patients with low physical demand and those requiring use of both hands for self-care activities.`,
+      hi: `कलाई प्रतिस्थापन सर्जरी, जिसे टोटल रिस्ट आर्थ्रोप्लास्टी भी कहा जाता है, एक उन्नत शल्य प्रक्रिया है जो गंभीर रूप से क्षतिग्रस्त कलाई के जोड़ को कृत्रिम घटकों से बदलने के लिए डिज़ाइन की गई है, जो दुर्बल करने वाले कलाई गठिया या चोट वाले रोगियों के लिए दर्द राहत और कार्य बहाली प्रदान करती है।
+
+आर्थोसेंटर में डॉ. गुरुदेव कुमार ऊपरी अंग सर्जरी में व्यापक अनुभव लाते हैं, जिन्होंने उत्कृष्ट परिणामों के साथ कई कलाई प्रतिस्थापन प्रक्रियाएं की हैं। जबकि कलाई प्रतिस्थापन घुटने या कूल्हे के प्रतिस्थापन की तुलना में कम आम है, यह चयनित रोगियों के लिए महत्वपूर्ण लाभ प्रदान करता है।
+
+आधुनिक कलाई प्रत्यारोपण धातु और प्लास्टिक घटकों से मिलकर बनते हैं जो कलाई जोड़ की प्राकृतिक ग्लाइडिंग गति की नकल करते हैं। कलाई प्रतिस्थापन के लिए आदर्श उम्मीदवार गंभीर रुमेटीइड आर्थराइटिस, कलाई फ्रैक्चर के बाद पोस्ट-ट्रॉमैटिक आर्थराइटिस, उन्नत ऑस्टियोआर्थराइटिस वाले रोगी हैं।`
+    },
+    symptoms: {
+      en: [
+        'Severe chronic wrist pain limiting daily activities',
+        'Significant loss of wrist motion and grip strength',
+        'Difficulty performing basic tasks (turning doorknobs, opening jars)',
+        'Pain at rest and night pain affecting sleep',
+        'Visible wrist deformity or swelling',
+        'Inability to bear weight on hands (push-ups, transfers)',
+        'Weakness and instability in the wrist',
+        'Failed conservative treatments (medications, splints, injections)',
+        'X-ray evidence of severe arthritis with joint space loss',
+        'Rheumatoid arthritis affecting multiple joints including wrist'
+      ],
+      hi: [
+        'गंभीर पुरानी कलाई दर्द जो दैनिक गतिविधियों को सीमित करती है',
+        'कलाई गति और पकड़ शक्ति का महत्वपूर्ण नुकसान',
+        'बुनियादी कार्य करने में कठिनाई (दरवाज़े के घुंडी को मोड़ना, जार खोलना)',
+        'आराम पर दर्द और रात का दर्द नींद को प्रभावित करता है',
+        'दृश्यमान कलाई विकृति या सूजन',
+        'हाथों पर वजन सहन करने में असमर्थता',
+        'कलाई में कमजोरी और अस्थिरता',
+        'असफल रूढ़िवादी उपचार (दवाएं, स्प्लिंट्स, इंजेक्शन)',
+        'जोड़ स्थान हानि के साथ गंभीर गठिया का एक्स-रे साक्ष्य',
+        'रुमेटीइड आर्थराइटिस कलाई सहित कई जोड़ों को प्रभावित करता है'
+      ]
+    },
+    procedure: {
+      en: {
+        preparation: 'Comprehensive wrist X-rays and CT scans for surgical planning. Bone density assessment. Occupational therapy evaluation. Discussion of realistic expectations regarding motion and strength recovery. Optimization of rheumatoid arthritis medications if applicable.',
+        steps: [
+          'General or regional anesthesia (axillary block)',
+          'Patient positioned supine with arm on hand table',
+          'Longitudinal incision on back of wrist (dorsal approach)',
+          'Careful dissection protecting tendons and nerves',
+          'Exposure of wrist joint capsule',
+          'Removal of damaged portions of radius and carpal bones',
+          'Precise bone preparation for implant components',
+          'Trial implants to test fit and motion',
+          'Insertion of final radial and carpal components',
+          'Cement or press-fit fixation depending on bone quality',
+          'Testing of wrist motion and stability',
+          'Meticulous wound closure in layers',
+          'Application of well-padded bulky dressing',
+          'Placement in short-arm splint for initial protection'
+        ],
+        duration: '2-3 hours',
+        anesthesia: 'General Anesthesia or Regional Block'
+      },
+      hi: {
+        preparation: 'सर्जिकल योजना के लिए व्यापक कलाई एक्स-रे और सीटी स्कैन। हड्डी घनत्व मूल्यांकन। व्यावसायिक चिकित्सा मूल्यांकन। गति और शक्ति रिकवरी के बारे में यथार्थवादी अपेक्षाओं की चर्चा।',
+        steps: [
+          'जनरल या क्षेत्रीय एनेस्थीसिया (एक्सिलरी ब्लॉक)',
+          'हाथ टेबल पर बांह के साथ सुपाइन स्थिति में रोगी',
+          'कलाई के पीछे अनुदैर्ध्य चीरा (पृष्ठीय दृष्टिकोण)',
+          'टेंडन और नसों की रक्षा करते हुए सावधानीपूर्वक विच्छेदन',
+          'कलाई जोड़ कैप्सूल का एक्सपोजर',
+          'त्रिज्या और कार्पल हड्डियों के क्षतिग्रस्त हिस्सों को हटाना',
+          'प्रत्यारोपण घटकों के लिए सटीक हड्डी तैयारी',
+          'फिट और गति का परीक्षण करने के लिए परीक्षण प्रत्यारोपण',
+          'अंतिम रेडियल और कार्पल घटकों का सम्मिलन',
+          'हड्डी की गुणवत्ता के आधार पर सीमेंट या प्रेस-फिट फिक्सेशन',
+          'कलाई गति और स्थिरता का परीक्षण',
+          'परतों में सावधानीपूर्वक घाव बंद करना',
+          'अच्छी तरह से गद्देदार भारी ड्रेसिंग का आवेदन',
+          'प्रारंभिक सुरक्षा के लिए शॉर्ट-आर्म स्प्लिंट में प्लेसमेंट'
+        ],
+        duration: '2-3 घंटे',
+        anesthesia: 'जनरल एनेस्थीसिया या क्षेत्रीय ब्लॉक'
+      }
+    },
+    recovery: {
+      en: {
+        timeline: [
+          {
+            week: 'Week 1-2',
+            activity: 'Splint immobilization, finger exercises',
+            description: 'Keep wrist in protective splint, move fingers to prevent stiffness, manage pain and swelling with ice and elevation'
+          },
+          {
+            week: 'Week 3-6',
+            activity: 'Begin gentle wrist exercises',
+            description: 'Start occupational therapy, gentle passive motion exercises, continue splint protection between exercises'
+          },
+          {
+            week: 'Week 7-12',
+            activity: 'Active range of motion',
+            description: 'Progress to active wrist movements, light daily activities permitted, no heavy lifting or twisting'
+          },
+          {
+            week: 'Month 4-6',
+            activity: 'Strengthening exercises',
+            description: 'Gradual grip strengthening, increase functional activities, return to light work duties'
+          },
+          {
+            week: 'Month 7-12',
+            activity: 'Full recovery',
+            description: 'Return to most daily activities, avoid high-impact or heavy manual labor, maintain exercise program'
+          },
+          {
+            week: 'Long-term',
+            activity: 'Maintenance',
+            description: 'Regular follow-ups, protect wrist from falls and impacts, maintain flexibility and strength'
+          }
+        ],
+        tips: [
+          'Elevate hand above heart level frequently for first 2 weeks',
+          'Perform finger exercises hourly to prevent stiffness',
+          'Follow occupational therapy program diligently',
+          'Avoid lifting anything heavier than a cup of coffee for 3 months',
+          'Protect wrist from falls - use walking aids if balance concerns',
+          'Wear splint as directed, especially during sleep',
+          'Apply ice to reduce swelling (20 minutes, 3-4 times daily)',
+          'Take pain medications as prescribed',
+          'Do not attempt forceful gripping or twisting motions',
+          'Report any signs of infection (redness, warmth, drainage)',
+          'Avoid high-impact activities lifelong',
+          'Consider wrist protection during activities with fall risk'
+        ]
+      },
+      hi: {
+        timeline: [
+          {
+            week: 'सप्ताह 1-2',
+            activity: 'स्प्लिंट स्थिरीकरण, उंगली व्यायाम',
+            description: 'सुरक्षात्मक स्प्लिंट में कलाई रखें, कठोरता को रोकने के लिए उंगलियां हिलाएं, बर्फ और उन्नयन के साथ दर्द और सूजन का प्रबंधन करें'
+          },
+          {
+            week: 'सप्ताह 3-6',
+            activity: 'कोमल कलाई व्यायाम शुरू करें',
+            description: 'व्यावसायिक चिकित्सा शुरू करें, कोमल निष्क्रिय गति व्यायाम, व्यायाम के बीच स्प्लिंट सुरक्षा जारी रखें'
+          },
+          {
+            week: 'सप्ताह 7-12',
+            activity: 'सक्रिय गति की सीमा',
+            description: 'सक्रिय कलाई गति के लिए प्रगति, हल्की दैनिक गतिविधियां अनुमत, कोई भारी उठाना या मोड़ना नहीं'
+          },
+          {
+            week: 'महीना 4-6',
+            activity: 'मजबूती व्यायाम',
+            description: 'क्रमिक पकड़ मजबूती, कार्यात्मक गतिविधियों में वृद्धि, हल्के काम के कर्तव्यों में वापसी'
+          },
+          {
+            week: 'महीना 7-12',
+            activity: 'पूर्ण रिकवरी',
+            description: 'अधिकांश दैनिक गतिविधियों में वापसी, उच्च-प्रभाव या भारी मैनुअल श्रम से बचें, व्यायाम कार्यक्रम बनाए रखें'
+          },
+          {
+            week: 'दीर्घकालिक',
+            activity: 'रखरखाव',
+            description: 'नियमित फॉलो-अप, गिरने और प्रभावों से कलाई की रक्षा करें, लचीलापन और शक्ति बनाए रखें'
+          }
+        ],
+        tips: [
+          'पहले 2 सप्ताह के लिए हृदय स्तर से ऊपर हाथ उठाएं',
+          'कठोरता को रोकने के लिए हर घंटे उंगली व्यायाम करें',
+          'व्यावसायिक चिकित्सा कार्यक्रम का परिश्रमपूर्वक पालन करें',
+          '3 महीने के लिए कॉफी के कप से भारी कुछ भी उठाने से बचें',
+          'गिरने से कलाई की रक्षा करें - संतुलन चिंताओं के लिए चलने की सहायता का उपयोग करें',
+          'निर्देशानुसार स्प्लिंट पहनें, विशेष रूप से नींद के दौरान',
+          'सूजन को कम करने के लिए बर्फ लगाएं (20 मिनट, दिन में 3-4 बार)',
+          'निर्धारित अनुसार दर्द की दवाएं लें',
+          'बलपूर्वक पकड़ने या मोड़ने की गति का प्रयास न करें',
+          'संक्रमण के किसी भी संकेत की रिपोर्ट करें (लालिमा, गर्मी, जल निकासी)',
+          'आजीवन उच्च-प्रभाव गतिविधियों से बचें',
+          'गिरने के जोखिम वाली गतिविधियों के दौरान कलाई सुरक्षा पर विचार करें'
+        ]
+      }
+    },
+    faqs: {
+      en: [
+        {
+          question: 'How is wrist replacement different from wrist fusion?',
+          answer: 'Wrist replacement preserves motion (typically 50-70% of normal), allowing flexion, extension, and some lateral movement, which is beneficial for daily activities. Wrist fusion (arthrodesis) eliminates pain by removing the joint and fusing bones together, providing excellent pain relief and stability but no motion. Replacement is preferred for patients needing bilateral hand function, while fusion is better for younger, active patients or manual laborers who need strength over motion.'
+        },
+        {
+          question: 'What is the success rate and longevity of wrist implants?',
+          answer: 'Modern wrist replacement implants achieve 80-90% good to excellent results at 5-10 years. Longevity has improved significantly with newer designs, with many implants lasting 10-15 years or longer. Factors affecting longevity include patient age, activity level, bone quality, rheumatoid arthritis control, and adherence to activity restrictions. Revision surgery may be needed if the implant loosens, wears out, or complications develop.'
+        },
+        {
+          question: 'Who is the ideal candidate for wrist replacement?',
+          answer: 'Ideal candidates are typically older patients (60+) with severe rheumatoid arthritis or post-traumatic arthritis, low physical demand lifestyle, need for bilateral hand use, and failed conservative treatments. Good bone quality, realistic expectations, and ability to comply with rehab protocols are important. Younger patients, manual laborers, or those with high activity demands are usually better candidates for wrist fusion.'
+        },
+        {
+          question: 'What activities can I do after wrist replacement?',
+          answer: 'After full recovery, most daily activities are possible including dressing, eating, personal hygiene, light housework, computer work, and driving. Recreational activities like golf (modified swing) and swimming are typically allowed. However, you must avoid: lifting more than 5-10 pounds, high-impact sports, contact sports, push-ups or bearing full body weight on hands, and activities requiring forceful gripping or twisting. Dr. Kumar will provide specific guidelines based on your implant and recovery.'
+        },
+        {
+          question: 'How much wrist motion will I regain?',
+          answer: 'Typical motion after wrist replacement is 50-70% of normal wrist motion, which is usually adequate for most daily activities. You can expect approximately 30-40 degrees of flexion and extension combined (normal is 130-140 degrees total), and limited side-to-side (radial-ulnar deviation) movement. While not full motion, this is significantly better than the pre-surgery arthritic state and maintains functional independence.'
+        },
+        {
+          question: 'What are the main risks and complications?',
+          answer: 'Risks include: infection (2-3%), implant loosening requiring revision (10-15% at 10 years), dislocation of components (rare with modern designs), nerve injury causing numbness, stiffness limiting motion, fracture of surrounding bones during or after surgery, tendon irritation or rupture, complex regional pain syndrome (CRPS), and need for conversion to wrist fusion if replacement fails. Most complications can be managed if detected early through regular follow-up.'
+        },
+        {
+          question: 'How long is the recovery and rehabilitation?',
+          answer: 'Recovery timeline: splint immobilization for 2 weeks, begin gentle therapy at 3-6 weeks, active motion by 8-12 weeks, strengthening at 3-4 months, and full recovery by 6-9 months. Occupational therapy is essential, typically 2-3 sessions weekly for 3-4 months. Most patients achieve maximum benefit by 9-12 months. Unlike knee or hip replacement, wrist replacement requires patient commitment to protective precautions lifelong.'
+        },
+        {
+          question: 'Can both wrists be replaced at the same time?',
+          answer: 'Bilateral simultaneous wrist replacement is generally not recommended due to the need for at least one functional hand during recovery for self-care activities (eating, dressing, personal hygiene). Most surgeons recommend staging procedures 3-6 months apart, allowing the first wrist to recover sufficiently before replacing the second. However, for patients with severe bilateral disease and adequate support systems, simultaneous surgery may be considered in select cases.'
+        },
+        {
+          question: 'What is the cost of wrist replacement in India?',
+          answer: 'At Arthoscenter, wrist replacement surgery costs approximately ₹2.5-4 lakhs all-inclusive, covering implant, surgery, hospital stay, anesthesia, and initial follow-up. This is significantly more affordable than international costs (₹8-15 lakhs abroad). Final cost depends on implant choice, hospital stay duration, and any complications. We accept insurance (PMJAY, BSKY, private insurance) and offer transparent pricing. Book a ₹999 consultation to discuss your specific case and receive detailed cost estimate.'
+        },
+        {
+          question: 'What type of follow-up care is needed?',
+          answer: 'Follow-up schedule: first visit at 2 weeks for wound check and splint removal, then at 6 weeks, 3 months, 6 months, 1 year, and annually thereafter. X-rays are taken at each visit to monitor implant position, bone integration, and detect early loosening. Regular occupational therapy for first 3-4 months is crucial. Patients should report any new pain, swelling, weakness, or mechanical symptoms immediately. Lifelong awareness of activity restrictions is essential to protect the implant.'
+        }
+      ],
+      hi: [
+        {
+          question: 'कलाई प्रतिस्थापन कलाई फ्यूजन से कैसे अलग है?',
+          answer: 'कलाई प्रतिस्थापन गति (आमतौर पर सामान्य का 50-70%) को संरक्षित करता है, जो लचीलापन, विस्तार और कुछ पार्श्व गति की अनुमति देता है। कलाई फ्यूजन (आर्थ्रोडेसिस) जोड़ को हटाकर और हड्डियों को एक साथ फ्यूज करके दर्द को समाप्त करता है।'
+        },
+        {
+          question: 'कलाई प्रत्यारोपण की सफलता दर और दीर्घायु क्या है?',
+          answer: 'आधुनिक कलाई प्रतिस्थापन प्रत्यारोपण 5-10 वर्षों में 80-90% अच्छे से उत्कृष्ट परिणाम प्राप्त करते हैं। नए डिजाइनों के साथ दीर्घायु में काफी सुधार हुआ है।'
+        },
+        {
+          question: 'कलाई प्रतिस्थापन के लिए आदर्श उम्मीदवार कौन है?',
+          answer: 'आदर्श उम्मीदवार आमतौर पर बड़े रोगी (60+) हैं जिनमें गंभीर रुमेटीइड आर्थराइटिस या पोस्ट-ट्रॉमैटिक आर्थराइटिस है।'
+        },
+        {
+          question: 'कलाई प्रतिस्थापन के बाद मैं कौन सी गतिविधियां कर सकता हूं?',
+          answer: 'पूर्ण रिकवरी के बाद, अधिकांश दैनिक गतिविधियां संभव हैं जिनमें कपड़े पहनना, खाना, व्यक्तिगत स्वच्छता, हल्का घर का काम, कंप्यूटर काम और ड्राइविंग शामिल हैं।'
+        },
+        {
+          question: 'मैं कितनी कलाई गति वापस पाऊंगा?',
+          answer: 'कलाई प्रतिस्थापन के बाद विशिष्ट गति सामान्य कलाई गति का 50-70% है, जो आमतौर पर अधिकांश दैनिक गतिविधियों के लिए पर्याप्त है।'
+        },
+        {
+          question: 'मुख्य जोखिम और जटिलताएं क्या हैं?',
+          answer: 'जोखिमों में शामिल हैं: संक्रमण (2-3%), प्रत्यारोपण ढीला होना संशोधन की आवश्यकता (10 वर्षों में 10-15%), घटकों की अव्यवस्था, तंत्रिका चोट।'
+        },
+        {
+          question: 'रिकवरी और पुनर्वास कितना लंबा है?',
+          answer: 'रिकवरी समयरेखा: 2 सप्ताह के लिए स्प्लिंट स्थिरीकरण, 3-6 सप्ताह में कोमल चिकित्सा शुरू करें, 8-12 सप्ताह तक सक्रिय गति, 3-4 महीने में मजबूती, और 6-9 महीने तक पूर्ण रिकवरी।'
+        },
+        {
+          question: 'क्या दोनों कलाइयों को एक साथ बदला जा सकता है?',
+          answer: 'द्विपक्षीय एक साथ कलाई प्रतिस्थापन आमतौर पर अनुशंसित नहीं है क्योंकि रिकवरी के दौरान स्व-देखभाल गतिविधियों के लिए कम से कम एक कार्यात्मक हाथ की आवश्यकता होती है।'
+        },
+        {
+          question: 'भारत में कलाई प्रतिस्थापन की लागत क्या है?',
+          answer: 'आर्थोसेंटर में, कलाई प्रतिस्थापन सर्जरी की लागत लगभग ₹2.5-4 लाख सभी समावेशी है। ₹999 परामर्श बुक करें।'
+        },
+        {
+          question: 'किस प्रकार की फॉलो-अप देखभाल की आवश्यकता है?',
+          answer: 'फॉलो-अप शेड्यूल: घाव जांच और स्प्लिंट हटाने के लिए 2 सप्ताह में पहली यात्रा, फिर 6 सप्ताह, 3 महीने, 6 महीने, 1 वर्ष और उसके बाद सालाना।'
+        }
+      ]
+    },
+    seo: {
+      en: {
+        title: 'Wrist Replacement Surgery in India | Total Wrist Arthroplasty | Dr. Gurudeo Kumar',
+        description: 'Expert wrist replacement surgery in Patna, Bihar. Dr. Gurudeo Kumar - Advanced wrist arthroplasty for severe arthritis. Pain relief, motion preservation. Book ₹999 consultation.',
+        keywords: [
+          'wrist replacement surgery India',
+          'total wrist arthroplasty Bihar',
+          'wrist joint replacement Patna',
+          'Dr. Gurudeo Kumar wrist surgery',
+          'arthritis wrist treatment Bihar',
+          'wrist replacement cost India',
+          'Arthoscenter Patna',
+          'rheumatoid arthritis wrist surgery',
+          'wrist implant surgery Bihar',
+          'best wrist surgeon Patna'
+        ]
+      },
+      hi: {
+        title: 'भारत में कलाई प्रतिस्थापन सर्जरी | टोटल रिस्ट आर्थ्रोप्लास्टी | डॉ. गुरुदेव कुमार',
+        description: 'पटना, बिहार में विशेषज्ञ कलाई प्रतिस्थापन सर्जरी। डॉ. गुरुदेव कुमार - गंभीर गठिया के लिए उन्नत कलाई आर्थ्रोप्लास्टी। दर्द राहत, गति संरक्षण। ₹999 परामर्श बुक करें।',
+        keywords: [
+          'भारत में कलाई प्रतिस्थापन सर्जरी',
+          'बिहार में टोटल रिस्ट आर्थ्रोप्लास्टी',
+          'पटना में कलाई जोड़ प्रतिस्थापन',
+          'डॉ. गुरुदेव कुमार कलाई सर्जरी',
+          'बिहार में गठिया कलाई उपचार'
+        ]
+      }
+    },
+    procedureCount: 45,
+    successRate: 88,
+    relatedSurgeries: [
+      'finger-joint-replacement',
+      'wrist-arthroscopy',
+      'elbow-replacement',
+      'radius-ulna-fracture-fixation'
+    ]
+  }
