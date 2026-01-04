@@ -15,8 +15,8 @@ import {
 import { menuCategories } from '@/constants/navigation';
 import { surgeriesData } from '@/data/surgeries';
 
-// Force dynamic rendering to avoid build-time errors with surgery data
-export const dynamic = 'force-dynamic';
+// Use static generation for better performance
+export const dynamic = 'force-static';
 
 type Props = {
   params: Promise<{
@@ -37,10 +37,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     };
   }
 
+  // Handle both bilingual and non-bilingual meta structures
+  const meta = (surgeryData.meta as any);
+  const metaData = meta[lang] || meta;
+
   return {
-    title: surgeryData.meta[lang].title,
-    description: surgeryData.meta[lang].description,
-    keywords: surgeryData.meta[lang].keywords.join(', '),
+    title: metaData.title,
+    description: metaData.description,
+    keywords: Array.isArray(metaData.keywords) ? metaData.keywords.join(', ') : metaData.keywords,
   };
 }
 
@@ -212,7 +216,7 @@ export default async function SurgeryPage({ params }: Props) {
                     {lang === 'hi' ? 'अवधि' : 'Duration'}
                   </h3>
                 </div>
-                <p className="text-gray-700">{(surgeryData.procedure as any)[lang]?.duration || (surgeryData.procedure as any).duration}</p>
+                <p className="text-gray-700">{(surgeryData.procedure as any)[lang]?.duration || (surgeryData.procedure as any).duration?.[lang] || (surgeryData.procedure as any).duration}</p>
               </div>
               <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-600">
                 <div className="flex items-center gap-2 mb-2">
@@ -221,32 +225,32 @@ export default async function SurgeryPage({ params }: Props) {
                     {lang === 'hi' ? 'एनेस्थीसिया' : 'Anesthesia'}
                   </h3>
                 </div>
-                <p className="text-gray-700">{(surgeryData.procedure as any)[lang]?.anesthesia || (surgeryData.procedure as any).anesthesia}</p>
+                <p className="text-gray-700">{(surgeryData.procedure as any)[lang]?.anesthesia || (surgeryData.procedure as any).anesthesia?.[lang] || (surgeryData.procedure as any).anesthesia}</p>
               </div>
             </div>
 
             {/* Preparation */}
-            {((surgeryData.procedure as any)[lang]?.preparation || (surgeryData.procedure as any).preparation) && (
+            {((surgeryData.procedure as any)[lang]?.preparation || (surgeryData.procedure as any).preparation?.[lang] || (surgeryData.procedure as any).preparation) && (
               <div className="mb-8">
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">
                   {lang === 'hi' ? 'सर्जरी की तैयारी' : 'Preparation for Surgery'}
                 </h3>
                 <div className="bg-gray-50 p-6 rounded-lg">
                   <p className="text-gray-700 leading-relaxed whitespace-pre-line">
-                    {(surgeryData.procedure as any)[lang]?.preparation || (surgeryData.procedure as any).preparation}
+                    {(surgeryData.procedure as any)[lang]?.preparation || (surgeryData.procedure as any).preparation?.[lang] || (surgeryData.procedure as any).preparation}
                   </p>
                 </div>
               </div>
             )}
 
             {/* Procedure Steps */}
-            {((surgeryData.procedure as any)[lang]?.steps || (surgeryData.procedure as any).steps || []).length > 0 && (
+            {((surgeryData.procedure as any)[lang]?.steps || (surgeryData.procedure as any).steps?.[lang] || (surgeryData.procedure as any).steps || []).length > 0 && (
               <div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">
                   {lang === 'hi' ? 'सर्जरी के चरण' : 'Surgical Steps'}
                 </h3>
                 <div className="space-y-4">
-                  {((surgeryData.procedure as any)[lang]?.steps || (surgeryData.procedure as any).steps || []).map((step: string, index: number) => (
+                  {((surgeryData.procedure as any)[lang]?.steps || (surgeryData.procedure as any).steps?.[lang] || (surgeryData.procedure as any).steps || []).map((step: string, index: number) => (
                     <div key={index} className="flex gap-4 bg-white border-l-4 border-blue-600 p-4 rounded-r-lg shadow-sm">
                       <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">
                         {index + 1}
