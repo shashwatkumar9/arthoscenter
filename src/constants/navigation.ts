@@ -57,6 +57,12 @@ export const menuCategories: MenuCategory[] = [
         url: '/surgeries/joint-replacement/total-hip-replacement'
       },
       {
+        id: 'robotic-hip-replacement',
+        title: 'Robotic Hip Replacement',
+        titleHi: 'रोबोटिक हिप प्रतिस्थापन',
+        url: '/surgeries/joint-replacement/robotic-hip-replacement'
+      },
+      {
         id: 'partial-hip-replacement',
         title: 'Partial Hip Replacement',
         titleHi: 'आंशिक कूल्हा प्रतिस्थापन',
@@ -67,6 +73,12 @@ export const menuCategories: MenuCategory[] = [
         title: 'Hip Revision Surgery',
         titleHi: 'कूल्हा संशोधन सर्जरी',
         url: '/surgeries/joint-replacement/hip-revision-surgery'
+      },
+      {
+        id: 'revision-hip-replacement',
+        title: 'Revision Hip Replacement',
+        titleHi: 'रिवीजन हिप रिप्लेसमेंट',
+        url: '/surgeries/joint-replacement/revision-hip-replacement'
       },
       {
         id: 'hip-resurfacing',

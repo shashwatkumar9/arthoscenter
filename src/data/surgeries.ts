@@ -11249,7 +11249,7 @@ The procedure involves removing damaged bone and cartilage from the tibia and ta
   },
   'arthroscopic-biopsy': {
     id: 'arthroscopic-biopsy',
-    category: 'diagnostic',
+    category: 'arthroscopy',
     slug: 'arthroscopic-biopsy',
     title: {
       en: 'Arthroscopic Biopsy in India',
@@ -13510,7 +13510,7 @@ At Arthoscenter, Dr. Kumar achieves good to excellent results in 65-80% of caref
 
   'osteogenesis-imperfecta': {
     id: 'osteogenesis-imperfecta',
-    category: 'pediatric-orthopedics',
+    category: 'pediatric-ortho',
     slug: 'osteogenesis-imperfecta',
     title: {
       en: 'Osteogenesis Imperfecta Treatment in India',
@@ -13818,7 +13818,7 @@ At Arthroscenter, Dr. Gurudeo Kumar has extensive experience in clavicle fractur
 
   'rickets-correction': {
     id: 'rickets-correction',
-    category: 'pediatric-orthopedics',
+    category: 'pediatric-ortho',
     slug: 'rickets-correction',
     title: {
       en: 'Rickets Correction Surgery in India',
@@ -13867,7 +13867,7 @@ At Arthoscenter, Dr. Kumar emphasizes the importance of comprehensive medical op
 
   'pediatric-fractures': {
     id: 'pediatric-fractures',
-    category: 'pediatric-orthopedics',
+    category: 'pediatric-ortho',
     slug: 'pediatric-fractures',
     title: {
       en: 'Pediatric Fracture Treatment in India',
@@ -20187,7 +20187,7 @@ LLD जन्मजात (जन्म के समय मौजूद) या
   },
   'wrist-fracture-surgery': {
     id: 'wrist-fracture-surgery',
-    category: 'trauma-fracture',
+    category: 'trauma-care',
     slug: 'wrist-fracture-surgery',
     title: {
       en: 'Wrist Fracture Surgery in India',
@@ -20227,7 +20227,7 @@ LLD जन्मजात (जन्म के समय मौजूद) या
   },
   'open-fracture-management': {
     id: 'open-fracture-management',
-    category: 'trauma-fracture',
+    category: 'trauma-care',
     slug: 'open-fracture-management',
     title: {
       en: 'Open Fracture Management in India',
@@ -20267,7 +20267,7 @@ LLD जन्मजात (जन्म के समय मौजूद) या
   },
   'polytrauma-management': {
     id: 'polytrauma-management',
-    category: 'trauma-fracture',
+    category: 'trauma-care',
     slug: 'polytrauma-management',
     title: {
       en: 'Polytrauma Management in India',
@@ -20307,7 +20307,7 @@ LLD जन्मजात (जन्म के समय मौजूद) या
   },
   'non-union-fracture-treatment': {
     id: 'non-union-fracture-treatment',
-    category: 'trauma-fracture',
+    category: 'trauma-care',
     slug: 'non-union-fracture-treatment',
     title: {
       en: 'Non-Union Fracture Treatment in India',
@@ -20347,7 +20347,7 @@ LLD जन्मजात (जन्म के समय मौजूद) या
   },
   'malunion-correction': {
     id: 'malunion-correction',
-    category: 'trauma-fracture',
+    category: 'trauma-care',
     slug: 'malunion-correction',
     title: {
       en: 'Malunion Correction Surgery in India',
