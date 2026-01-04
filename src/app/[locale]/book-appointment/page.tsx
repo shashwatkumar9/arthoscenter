@@ -17,10 +17,10 @@ export default function BookAppointmentPage() {
               Book Your Online Consultation
             </h1>
             <p className="text-xl text-blue-100 mb-6">
-              Schedule a 30-minute video consultation with Dr. Gurudeo Kumar
+              Schedule a 15-minute video consultation with Dr. Gurudeo Kumar
             </p>
             <div className="inline-block bg-white text-blue-600 px-6 py-3 rounded-lg font-bold text-2xl">
-              ₹999 for 30 minutes
+              ₹999 for 15 minutes
             </div>
           </div>
         </div>

@@ -149,7 +149,7 @@ export default function ConsultationPage() {
             Book Online Consultation
           </h1>
           <p className="text-xl text-gray-600">
-            Consult with Dr. Gurudeo Kumar via Google Meet - ₹999 for 30 minutes
+            Consult with Dr. Gurudeo Kumar via Google Meet - ₹999 for 15 minutes
           </p>
         </div>
 

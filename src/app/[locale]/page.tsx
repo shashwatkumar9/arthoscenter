@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { Phone, Calendar, Shield, Award, Users, Clock, CheckCircle2, Star } from 'lucide-react';
 
 export default async function HomePage() {
@@ -8,31 +9,50 @@ export default async function HomePage() {
       <section className="relative bg-gradient-to-br from-blue-600 via-blue-700 to-blue-900 text-white py-20 lg:py-32">
         <div className="absolute inset-0 bg-black/10"></div>
         <div className="container mx-auto px-4 relative z-10">
-          <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              Expert Orthopaedic Care in Bihar
-            </h1>
-            <p className="text-xl md:text-2xl mb-4 text-blue-100">
-              Led by Dr. Gurudeo Kumar - 20+ Years of Excellence in Joint Replacement & Spine Surgery
-            </p>
-            <p className="text-lg md:text-xl mb-8 text-blue-50">
-              Over 5,000 successful surgeries performed with state-of-the-art technology and compassionate care
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link
-                href="/consultation"
-                className="inline-flex items-center justify-center bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-50 transition shadow-lg"
-              >
-                <Calendar className="mr-2 h-5 w-5" />
-                Book Online Consultation - ₹999
-              </Link>
-              <a
-                href="tel:+917258065424"
-                className="inline-flex items-center justify-center bg-blue-500 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-400 transition shadow-lg"
-              >
-                <Phone className="mr-2 h-5 w-5" />
-                Call +91 72580 65424
-              </a>
+          <div className="max-w-7xl mx-auto">
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+              {/* Text Content */}
+              <div className="text-center lg:text-left">
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+                  Expert Orthopaedic Care in Bihar
+                </h1>
+                <p className="text-xl md:text-2xl mb-4 text-blue-100">
+                  Led by Dr. Gurudeo Kumar - 20+ Years of Excellence in Joint Replacement & Spine Surgery
+                </p>
+                <p className="text-lg md:text-xl mb-8 text-blue-50">
+                  Over 5,000 successful surgeries performed with state-of-the-art technology and compassionate care
+                </p>
+                <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                  <Link
+                    href="/consultation"
+                    className="inline-flex items-center justify-center bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-50 transition shadow-lg"
+                  >
+                    <Calendar className="mr-2 h-5 w-5" />
+                    Book Online Consultation - ₹999
+                  </Link>
+                  <a
+                    href="tel:+917258065424"
+                    className="inline-flex items-center justify-center bg-blue-500 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-400 transition shadow-lg"
+                  >
+                    <Phone className="mr-2 h-5 w-5" />
+                    Call +91 72580 65424
+                  </a>
+                </div>
+              </div>
+
+              {/* Doctor Image */}
+              <div className="hidden lg:flex justify-center lg:justify-end">
+                <div className="relative w-full max-w-md">
+                  <Image
+                    src="https://cdn.hexahealth.com/Image/webp/480x480/1739423633124-488867355.webp"
+                    alt="Dr. Gurudeo Kumar - Orthopaedic Surgeon"
+                    width={480}
+                    height={480}
+                    className="rounded-2xl shadow-2xl"
+                    priority
+                  />
+                </div>
+              </div>
             </div>
           </div>
         </div>

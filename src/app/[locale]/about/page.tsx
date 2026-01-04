@@ -1,5 +1,6 @@
 import { Award, Briefcase, GraduationCap, Heart, Shield, Users, Clock, MapPin, Phone, Mail } from 'lucide-react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function AboutPage() {
   return (
@@ -42,14 +43,21 @@ export default function AboutPage() {
           <div className="max-w-6xl mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div>
-                <div className="bg-gradient-to-br from-blue-100 to-blue-50 rounded-2xl p-8 h-96 flex items-center justify-center">
-                  <div className="text-center">
-                    <div className="w-40 h-40 bg-blue-600 rounded-full mx-auto mb-6 flex items-center justify-center">
-                      <Users className="w-20 h-20 text-white" />
+                <div className="relative w-full max-w-md mx-auto">
+                  <Image
+                    src="https://cdn.hexahealth.com/Image/webp/480x480/1739423633124-488867355.webp"
+                    alt="Dr. Gurudeo Kumar - Senior Orthopaedic Surgeon"
+                    width={480}
+                    height={480}
+                    className="rounded-2xl shadow-2xl"
+                    priority
+                  />
+                  <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent rounded-b-2xl p-6">
+                    <div className="text-white">
+                      <div className="text-2xl font-bold">Dr. Gurudeo Kumar</div>
+                      <div className="text-lg font-medium mt-1">MBBS, MS (Orthopaedics)</div>
+                      <div className="text-sm mt-1">Senior Orthopaedic Surgeon</div>
                     </div>
-                    <div className="text-3xl font-bold text-gray-800">Dr. Gurudeo Kumar</div>
-                    <div className="text-xl text-blue-600 font-medium mt-2">MBBS, MS (Orthopaedics)</div>
-                    <div className="text-gray-600 mt-1">Senior Orthopaedic Surgeon</div>
                   </div>
                 </div>
               </div>
